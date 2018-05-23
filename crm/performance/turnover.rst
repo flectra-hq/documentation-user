@@ -10,7 +10,7 @@ this is important to see your expected turnover in your various reports.
 Configure your kanban stages
 ============================
 
-By default, Odoo Kanban view has four stages: New, Qualified,
+By default, Flectra Kanban view has four stages: New, Qualified,
 Proposition, Won. Respectively with a 10, 30, 70 and 100% probability of
 success. You can add stages as well as edit them. By refining default
 probability of success for your business on stages, you can make your

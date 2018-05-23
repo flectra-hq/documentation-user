@@ -5,7 +5,7 @@ How to use routes?
 Overview
 ========
 
-A route is a collection of procurement rules and push rules. Odoo can
+A route is a collection of procurement rules and push rules. Flectra can
 manage advanced push/pull routes configuration, for example:
 
 -   Manage product manufacturing chains
@@ -23,7 +23,7 @@ Configuration
 
 Procurement rules are part of the routes. Go to the **Inventory**
 application, :menuselection:`Configuration --> Settings` and tick 
-**Advance routing of products using rules**.
+**Multi-Step Routes**.
 
 .. image:: media/use_routes01.png
     :align: center
@@ -31,7 +31,7 @@ application, :menuselection:`Configuration --> Settings` and tick
 Pre-configured routes
 =====================
 
-Odoo has some pre-configured routes for your warehouses.
+Flectra has some pre-configured routes for your warehouses.
 
 In the Inventory application, go to 
 :menuselection:`Configuration --> Warehouses`.
@@ -128,17 +128,6 @@ Please refer to the documents:
 -  :doc:`procurement_rule`
 
 -  :doc:`push_rule`
-
-Procurement configuration
-=========================
-
-When doing a procurement request, you can force the route you want to
-use. On the product (:menuselection:`Inventory Control --> Products`), 
-click on **Procurement Request**. Choose the route you want to use next to
-**Preferred Routes**:
-
-.. image:: media/use_routes12.png
-    :align: center
 
 Make-to-Order Route
 ===================

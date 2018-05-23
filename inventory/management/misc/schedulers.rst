@@ -7,11 +7,11 @@ What is a scheduler
 
 The scheduler is the calculation engine which plans and prioritises
 production and purchasing automatically according to the rules defined
-on products. By default, the scheduler is set to run once a day (Odoo
+on products. By default, the scheduler is set to run once a day (Flectra
 automatically creates a **Scheduled Action** for this).
 
 Calculating Requirements / Scheduling
--------------------------------------
+--------------------------------------
 
 Scheduling only validates procurements that are confirmed but not yet
 started. These procurement reservations will themselves start
@@ -54,7 +54,7 @@ see this. To enable debug mode, go to :menuselection:`Help -> About` and click o
 You can set the starting time of the scheduler by modifying the
 corresponding action in the menu 
 :menuselection:`Settings --> Technical --> Automation --> Scheduled Actions`. 
-Modify the Run mrp Scheduler configuration.
+Modify the Mail: Fetchmail Service configuration.
 
 .. image:: media/schedulers01.png
    :align: center

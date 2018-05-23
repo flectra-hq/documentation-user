@@ -12,7 +12,7 @@ in the right locations.
 Product Configuration
 =====================
 
-In the Inventory module, open the :menuselection:`Inventory Control --> Products`,
+In the Inventory module, open the :menuselection:`MASTER DATA --> Products`,
 then click on **Create** to create a new product. Configure the
 product type so that it is **Stockable** and not a consumable.
 
@@ -23,12 +23,12 @@ Start the initial inventory
 ===========================
 
 Update the product quantity for one product
--------------------------------------------
+--------------------------------------------
 
 In the product you just created, you can see in the upper tiles that we
 have 0 product On Hand. Click on the **Update qty on Hand** button.
 
-A new window opens. In the **New Quantity on Hand** field, type the
+A new window opens. In the **Update Product Quantity** field, type the
 quantity of product you currently hold in stock, then click on **Apply**.
 
 .. image:: media/initial02.png
@@ -44,7 +44,7 @@ You can now see from the On Hand tab that the quantity has been updated.
 .. image:: media/initial03.png
    :align: center
 
-Now, if you check the **Inventory Adjustments** in the **Inventory Control**
+Now, if you check the **Inventory Adjustments** in the **OPERATIONS**
 menu, you will see that a new line named "INV: (name of your product)" has
 automatically been created and validated by the system.
 
@@ -57,7 +57,7 @@ Multiple products at once
 Create all the products for which you want to follow the stock (as
 stockable products). Once the required products in stock have been
 defined, use an initial inventory operation to put the current
-quantities into the system by location. Go to :menuselection:`Inventory Control -->
+quantities into the system by location. Go to :menuselection:`MASTER DATA -->
 Inventory Adjustments` to start your initial inventory.
 
 Give it a name (for example Initial Inventory) and select the stock
@@ -101,7 +101,7 @@ it.
 Reporting
 =========
 
-To check the current stock, go to :menuselection:`Inventory Control --> Products`,
+To check the current stock, go to :menuselection:`MASTER DATA --> Products`,
 and click on the **list button**:
 
 .. image:: media/initial08.png

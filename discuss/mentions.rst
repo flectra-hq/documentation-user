@@ -18,7 +18,7 @@ Direct messaging a user
 and recipient. You can send direct messages to other users from
 within the Discuss module by creating a new conversation or
 selecting an existing one from the sidebar. Direct messages can be
-sent from anywhere in Odoo using the speech bubble icon in the top
+sent from anywhere in Flectra using the speech bubble icon in the top
 bar. The online status of other users is displayed to the left of
 their name. A **green dot** indicates that a user is Online, an
 **orange dot** that they are Idle, and a **grey dot** that they are
@@ -32,7 +32,3 @@ new direct message. The notification shows you the sender and a
 brief preview of the message contents. These can be configured or
 disabled by clicking on the gear icon in the corner of the
 notification..
-
-.. image:: media/discuss06.png
-    :align: center
-

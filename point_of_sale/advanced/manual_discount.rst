@@ -42,17 +42,17 @@ Configuration
 
 If you want to set a global discount, you need to go to 
 :menuselection:`Configuration --> Settings` and 
-tick **Allow global discounts**
+tick **Global discounts** and click on **Save**.
 
 .. image:: media/manual_discount04.png
     :align: center
 
-Then from the dashboard, click on :menuselection:`More --> Settings`
+Then from the dashboard, click on :menuselection:`... --> Settings`
 
 .. image:: media/manual_discount05.png
     :align: center
 
-You have to activate **Order Discounts** and create a product that will be
+You have to activate **Global Discounts** and create a product that will be
 added as a product with a negative price to deduct the discount.
 
 .. image:: media/manual_discount06.png

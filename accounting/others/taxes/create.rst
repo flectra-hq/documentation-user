@@ -2,14 +2,14 @@
 How to create new taxes
 ========================
 
-Odoo's tax engine is very flexible and support many different type of
+Flectra's tax engine is very flexible and support many different type of
 taxes: value added taxes (VAT), eco-taxes, federal/states/city taxes, retention,
 withholding taxes, etc. For most countries, your system is pre-configured with the
 right taxes.
 
 This section details how you can define new taxes for specific use cases.
 
-* Go to :menuselection:`Accounting --> Configuration --> Taxes`. From this menu, you
+* Go to :menuselection:`Invoicing --> Configuration --> Accounting --> Taxes`. From this menu, you
   get all the taxes you can use: sales taxes and purchase taxes.
 
 .. image:: media/create01.png
@@ -31,8 +31,8 @@ This section details how you can define new taxes for specific use cases.
    :align: center
 
 
-* If you use Odoo Accounting, set a tax account (i.e. where the tax journal item will be
-  posted). This field is optional, if you keep it empty, Odoo posts
+* If you use Flectra Accounting, set a tax account (i.e. where the tax journal item will be
+  posted). This field is optional, if you keep it empty, Flectra posts
   the tax journal item in the income account.
 
 .. tip::

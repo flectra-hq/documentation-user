@@ -1,14 +1,14 @@
-=============================
-How to setup Odoo Accounting?
-=============================
+================================
+How to setup Flectra Accounting?
+================================
 
-The Odoo Accounting application has an implementation guide that you
+The Flectra Accounting application has an implementation guide that you
 should follow to configure it. It's a step-by-step wizard with links to
 the different screens you will need.
 
 Once you have `installed the Accounting
-application <https://www.odoo.com/apps/modules/online/account_accountant/>`__,
-you should click on the top-right progressbar to get access to the
+application <https://www.flectrahq.com/apps/modules/online/account_accountant/>`__,
+you should click on Settings --> Dashborard the Implementation part to get access to the
 implementation guide.
 
 .. image:: ./media/setup01.png
@@ -33,4 +33,4 @@ The implementation guide will help you through the following steps:
 
 Once a step is done, you can click on the "Mark as Done" button, in the
 bottom of the screen. That way, you can track the progress of your
-overall configuration of Odoo.
+overall configuration of Flectra.

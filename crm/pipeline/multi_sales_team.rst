@@ -2,7 +2,7 @@
 Manage multiple sales teams
 ===========================
 
-In Odoo, you can manage several sales teams, departments or channels
+In Flectra, you can manage several sales teams, departments or channels
 with specific sales processes. To do so, we use the concept of *Sales
 Channel*.
 

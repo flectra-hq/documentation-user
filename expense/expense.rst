@@ -1,4 +1,4 @@
-:banner: banners/expense.jpg
+:banner: banners/flectra_expense.jpg
 
 ========
 Expenses
@@ -6,7 +6,7 @@ Expenses
 
 How to set expense types
 ========================
-The first step to track expenses is to configure the expense types (managed as products in Odoo)
+The first step to track expenses is to configure the expense types (managed as products in Flectra)
 that your company allows, from the *Configuration* menu. 
 When a specific expense is reimbursed at a fixed price, set a cost on the product.
 Otherwise keep the cost at 0.0 and employees will report the real cost per expense.
@@ -31,7 +31,7 @@ Here are some examples to configure:
   * Cost: 0.0
 
 Don't forget to set an expense tax on each expense type 
-(and an account if you use Odoo Accounting). 
+(and an account if you use Flectra Accounting). 
 It's usually a good practice to use a tax that is configured 
 with *Tax Included in Price* (see: :doc:`../accounting/others/taxes/tax_included`).
 That way, employees report expenses with 
@@ -75,7 +75,7 @@ Let your employees record their expenses from a simple email.
 Make a snapshot of the receipt and send it by email, or simply forward a bill!
 
 The only thing to do is setting up an email alias in 
-:menuselection:`Expenses --> Configuration --> Settings` (e.g. *expenses* @mycompany.odoo.com). 
+:menuselection:`Expenses --> Configuration --> Settings`.
 For security purposes, only authenticated employee emails 
 (cfr. *Work Email* in employee detail form) are accepted.
 
@@ -114,12 +114,6 @@ Such users must have at least *Officers* access rights for *Expenses*.
 .. image:: ./media/expense_approval_01.png
    :align: center
 
-They can review expense reports, approve or reject them, as well as providing 
-feedback thanks to the integrated communication tool.
-
-.. image:: ./media/expense_approval_02.png
-   :align: center
-
 As a team manager you can easily find the expense reports of your team members. 
 You need to be set as manager in the detail form of those employees.
 
@@ -144,7 +138,7 @@ To do so, the user must have following access rights:
     If you get a related blocking message when posting, click the employee, 
     go to *Personal Information* tab and select/create the contact of your employee 
     in the address book. 
-    A contact has been automatically created if this person is using Odoo.
+    A contact has been automatically created if this person is using Flectra.
 
 How to reimburse employees
 ==========================
@@ -153,11 +147,9 @@ You can now see all the expense reports to reimburse in
 :menuselection:`Expenses --> Accountant --> Expense Reports To Pay`. 
 To record the payment or pay by check, click *Register a Payment*.
 
-See how you can easily manage the payment process in Odoo:
+See how you can easily manage the payment process in Flectra:
 
 * :doc:`../accounting/payables/pay/check`
-* :doc:`../accounting/payables/pay/sepa`
-
 
 How to re-invoice expenses to your customers
 ============================================
@@ -216,7 +208,7 @@ Invoice expenses
 ----------------
 
 Now you can invoice the order. It shows up in 
-:menuselection:`Sales --> Invoicing --> Sales`
+:menuselection:`Sales --> Invoicing --> Orders to Invoice`
 to Invoice. The expenses have been added automatically in the order
 lines. Such items show up in blue (i.e. to invoice).
 

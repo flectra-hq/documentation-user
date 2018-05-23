@@ -6,9 +6,9 @@ For most of your everyday purchases, chances are you already know where
 to purchase and at what price. For these cases, a simple Purchase Order
 (PO) will allow you to handle the whole process.
 
-In Odoo, a purchase order can be created as is, but can also be the
+In Flectra, a purchase order can be created as is, but can also be the
 result of a Request for Quotation or of a Purchase Tender. Therefore,
-every purchase made in Odoo has a PO.
+every purchase made in Flectra has a PO.
 
 The PO will generate an invoice, and depending on the contract with your
 supplier, you will be required to pay the invoice before or after
@@ -78,13 +78,14 @@ click on **Validate**.
 .. image:: media/from_po_to_invoice05.png
     :align: center
 
-Go back to the PO. In the PO, a **Shipment** and an **Invoice** button have
+Go back to the PO. In the PO, a **Shipment** and an **Vendor Bills** button have
 appeared.
 
 .. image:: media/from_po_to_invoice06.png
     :align: center
 
-Click on the **Invoices** button, then click on **Validate**. 
+Click on the **Vendor Bills** button, Click on **Create** button to create vendor bill
+then click on **Validate**.
 The invoice is now registered in the system. Click on **Register Payment**, 
 insert the detail of the payment, and click on **Validate**.
 
@@ -97,7 +98,7 @@ marked as paid.
 Upfront payment
 ^^^^^^^^^^^^^^^
 
-From the **Purchase Order** page, open the **Invoices** tab, then click on
+From the **Purchase Order** page, open the **Vendor Bills** tab, then click on
 **Create**.
 
 In the next page, click on **Validate**. The invoice is now registered in
@@ -107,7 +108,7 @@ and click on **Validate**.
 .. image:: media/from_po_to_invoice08.png
     :align: center
 
-Go back to the PO. In the PO, a **Shipment** tab and an **Invoice** tab have
+Go back to the PO. In the PO, a **Shipment** tab and an **Vendor Bills** tab have
 appeared.
 
 .. image:: media/from_po_to_invoice09.png

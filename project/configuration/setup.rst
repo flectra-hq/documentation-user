@@ -5,7 +5,7 @@ How to set up & configure a project?
 Overview
 ========
 
-Odoo Project allows you to manage a project together with your whole
+Flectra Project allows you to manage a project together with your whole
 team, and to communicate with any member for each project and task.
 
 It works with projects containing tasks following customizable stages. 
@@ -69,7 +69,7 @@ For each stage, there are markers for the status of tasks within a
 stage, that you can personalize to fit your needs.
 
 Drag your mouse pointer over a stage name, and click on the appearing
-bearing, and on the opening menu, click on **Edit**.
+bearing, and on the opening menu, click on **Edit Stage**.
 
 .. image:: media/setup05.png
     :align: center

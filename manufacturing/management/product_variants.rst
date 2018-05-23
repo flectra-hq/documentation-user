@@ -2,7 +2,7 @@
 How to manage BoMs for product variants
 =======================================
 
-Odoo allows you to use one bill of materials for multiple variants of
+Flectra allows you to use one bill of materials for multiple variants of
 the same product. Simply enable variants from
 :menuselection:`Configuration --> Settings`.
 

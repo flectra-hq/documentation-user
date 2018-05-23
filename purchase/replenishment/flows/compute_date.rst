@@ -3,11 +3,11 @@ How are the order date and scheduled dates computed?
 ====================================================
 
 Scheduled dates are computed in order to be able to plan deliveries,
-receptions and so on. Depending on the habits of your company, Odoo
-automatically generates scheduled dates via the scheduler. The Odoo
+receptions and so on. Depending on the habits of your company, Flectra
+automatically generates scheduled dates via the scheduler. The Flectra
 scheduler computes everything per line, whether it's a manufacturing
 order, a delivery order, a sale order, etc. The dates that are computed
-are dependent on the different leads times configured in Odoo.
+are dependent on the different leads times configured in Flectra.
 
 Configuring lead times
 ======================
@@ -58,52 +58,6 @@ and go into the **Sales** tab to indicate your customer lead time.
 .. image:: media/compute_date03.png
     :align: center
 
-On the company level
---------------------
-
-On company level, it is possible to parameter **security days** in order
-to cope with eventual delays and to be sure to meet your engagements.
-The idea is to subtract **backup** days from the computed scheduled date
-in case of delays.
-
-Sales Safety days
-~~~~~~~~~~~~~~~~~
-
-Sales Safety days are **back-up** days to ensure you will be able to
-deliver your clients engagements on time. They are margins of errors for
-delivery lead times. Security days are the same logic as the early
-wristwatch, in order to arrive on time. The idea is to subtract the
-numbers of security days from the calculation and thus to compute a
-scheduled date earlier than the one you promised to your client. That
-way you are sure to be able to keep your commitment.
-
-To set up your security dates, go to the app 
-:menuselection:`Settings --> General settings`, 
-and click on **Configure your company data**.
-
-.. image:: media/compute_date04.png
-    :align: center
-
-Go the **Configuration** tab to indicate the number of safety days
-
-.. image:: media/compute_date05.png
-    :align: center
-
-.. tip::
-    Note that you can in this menu configure 
-    a default **Manufacturing** lead time.
-
-Purchase days
-~~~~~~~~~~~~~
-
-Purchase days response to the same logic than sales security days.
-
-They are margins of error for vendor lead times. When the system
-generates purchase orders for procuring products, they will be scheduled
-in order to cope with unexpected vendor delays. Purchase lead time can
-be found in the same menu as the sales safety days (see screenshot
-above).
-
 On route level
 --------------
 
@@ -120,37 +74,3 @@ module when creating a new push rule for a new route.
 
 .. image:: media/compute_date06.png
     :align: center
-
-On document level:
-------------------
-
-Requested date
-~~~~~~~~~~~~~~
-
-Odoo offers the possibility to indicate a requested date by the client
-straight on the sale order, under the tab **Other information**. If
-this date is earlier than the theoretically computed date, Odoo will
-automatically display a warning.
-
-.. image:: media/compute_date07.png
-    :align: center
-
-Example
-=======
-
-As an example, you may sell a car today (January 1st), that is purchased
-on order, and you promise to deliver your customer within 20 days
-(January 20). In such a scenario, the scheduler may trigger the
-following events, based on your configuration:
-
--   January 19: actual scheduled delivery (1 day of Sales Safety days)
-
--   January 18: receive the product from your supplier (1 day of Purchase
-    days)
-
--   January 10: deadline to order at your supplier (9 days of supplier
-    delivery lead time)
-
--   January 8: trigger a purchase request to your purchase team, since
-    the team needs on average 2 days to find the right supplier and
-    order.

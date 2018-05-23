@@ -10,7 +10,7 @@ are in a different currency.
 
 After receiving their payments, you have the option to convert the
 amount into your company currency. Multi currency payment implies rates
-fluctuations. The rate differences are automatically recorded by Odoo.
+fluctuations. The rate differences are automatically recorded by Flectra.
 
 Configuration
 =============
@@ -18,13 +18,13 @@ Configuration
 Enable multi-currencies
 -----------------------
 
-In the accounting module, Go to :menuselection:`Configuration --> Settings` 
-and flag **Allow multi currencies**, then click on **apply**.
+In the accounting module, Go to :menuselection:`Configuration --> Settings --> Currencies`
+and flag **Multi-Currencies**, then click on **Save**.
 
 .. image:: media/exchange_rate03.png
    :align: center
 
-Configure the currency rates in :menuselection:`Configuration --> Currencies`.
+Configure the currency rates in :menuselection:`Configuration --> Accounting --> Currencies`.
 Write down the rate and make sure the currency is active.
 
 .. image:: media/exchange_rate02.png
@@ -46,7 +46,7 @@ Configure your journal
 
 In order to register payments in other currencies, you have to **remove
 the currency constraint** on the journal. Go to the accounting
-application, Click on **More** on the journal and **Settings**.
+application, Click on **...** on the journal and **Settings**.
 
 .. image:: media/exchange_rate06.png
    :align: center
@@ -86,7 +86,7 @@ which is the amount that was actually paid and the **Currency** in which it was 
 .. image:: media/exchange_rate07.png
    :align: center
 
-When reconciling it, Odoo will directly match the payment with the right
+When reconciling it, Flectra will directly match the payment with the right
 **Invoice**. You will get the invoice price in the invoice currency and the
 amount in your company currency.
 

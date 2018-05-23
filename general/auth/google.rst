@@ -22,12 +22,12 @@ How to allow users to sign in with their Google account
 .. image:: media/google04.png
     :align: center
 
-- Fill in your address, email and the product name (for example odoo) and then save.
+- Fill in your address, email and the product name (for example flectra) and then save.
 
 .. image:: media/google05.png
     :align: center
 
-- Then click on **Add Credentials** and select the second option (OAuth 2.0 Client ID).
+- Then click on **Create Credentials** and select the second option (OAuth 2.0 Client ID).
 
 .. image:: media/google06.png
     :align: center
@@ -37,7 +37,7 @@ How to allow users to sign in with their Google account
 
 - Check that the application type is set on **Web Application**. Now configure the allowed pages on which you will be redirected.
 
-- To achieve this, complete the field **Authorized redirect URIs**. Copy paste the following link in the box: http://mydomain.odoo.com/auth_oauth/signin. Then click on **Create**
+- To achieve this, complete the field **Authorized redirect URIs**. Copy paste the following link in the box: http://mydomain.flectrahq.com/auth_oauth/signin. Then click on **Create**
 
 .. image:: media/google08.png
     :align: center

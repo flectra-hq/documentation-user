@@ -2,7 +2,7 @@
 How to create tasks from sales orders?
 ======================================
 
-In this section, we will see the integration between Odoo's **Project
+In this section, we will see the integration between Flectra's **Project
 management** and **Sales** modules and more precisely how to generate tasks
 from sales order lines.
 
@@ -60,22 +60,25 @@ product with the`following setup:
     sold/purchased in different unit of measures (advanced)** radio
     button)
 
--   **Invoicing policy**: You can set up your invoice policy either on
+-   **Invoice based on**: You can set up your invoice policy either on
     ordered quantity or on delivered quantity. You can easily follow
     the amount of hours that were delivered and/or invoiced to your
     client.
 
--   **Track Service**: Create a task and track hours, as your product
+-   **Service Tracking**: Create a task in an existing project, as your product
     is a service invoiceable by hours you have to set the units of
     measures of the product to hours as well.
 
 .. image:: media/so_to_task04.png
     :align: center
 
+.. image:: media/so_to_task04_1.png
+    :align: center
+
 .. note::
     Link your task to an existing project or create a new one on the fly if 
     the product is specific to one project. Otherwise, you can leave it 
-    blank, odoo will then create a project per SO.
+    blank, flectra will then create a project per SO.
 
 Create the Sales Order
 ======================
@@ -97,7 +100,7 @@ On the Project module, your new task will appear :
 
 -   either on a new project with the name of related the sale order as
     title (you can easily change the name of the project by clicking
-    on :menuselection:`More --> Settings`)
+    on :menuselection:`... --> Settings`)
 
 .. image:: media/so_to_task06.png
     :align: center
@@ -106,7 +109,7 @@ On the task itself, you will now be able to record timesheets and to
 invoice your customers based on your invoicing policy.
 
 .. note::
-    On Odoo, the central document is the sales order, which means that 
+    On Flectra, the central document is the sales order, which means that 
     the source document of the task is the related sales order.
 
 .. seealso::

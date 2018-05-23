@@ -15,7 +15,7 @@ Install the required module
 
 To record supplier payments by checks, you must install the **Check
 Writing** module. This module handle the process of recording checks in
-Odoo. Others modules are necessary to print checks, according to the
+Flectra. Others modules are necessary to print checks, according to the
 country. As an example, the **U.S. Check Printing** module is required to
 print U.S. checks.
 
@@ -36,20 +36,6 @@ account on :menuselection:`More --> Settings` option. On the
 
 .. image:: ./media/check01.png
   :align: center
-
-Compatible check stationery for printing checks
-===============================================
-
-United States
--------------
-
-For the United States, Odoo supports by default the check formats of:
-
-- **Quickbooks & Quicken**: check on top, stubs in the middle and bottom
-- **Peachtree**: check in the middle, stubs on top and bottom
-- **ADP**: check in the bottom, and stubs on the top.
-
-It is also possible to customize your own check format through customizations.
 
 Pay a supplier bill with a check
 ================================
@@ -74,10 +60,6 @@ and validate the payment dialog.
 Explanation of the fields of the payment screen:
 
 .. demo:fields:: account.action_account_payments
-
-.. demo:action:: account.action_account_payments
-	
-	Try paying a supplier bill with a check
 
 .. _PrintChecks:
 
@@ -107,7 +89,7 @@ Reconcile Bank Statements
 -------------------------
 
 Once you process your bank statement, when the check is credited from
-your bank account, Odoo will propose you automatically to match it with
+your bank account, Flectra will propose you automatically to match it with
 the payment. This will mark the payment as **Reconciled**.
 
 .. tip::
@@ -126,13 +108,8 @@ payment and select a payment method by check.
 If you pay a specific supplier bill, put the reference of the bill in
 the **Memo** field.
 
-.. image:: ./media/check04.png
-  :align: center
-
 Once your payment by check is registered, don't forget to **Confirm** it.
 Once confirmed, you can use **Print Check** directly or follow the preceding
 flow to print checks in batch:
 
 -  `Print checks <PrintChecks_>`_
-
--  `Reconcile bank statements <ReconicleBankStatements_>`_

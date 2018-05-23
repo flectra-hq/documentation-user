@@ -7,4 +7,3 @@ Barcodes
    :glob:
 
    barcode/setup
-   barcode/operations

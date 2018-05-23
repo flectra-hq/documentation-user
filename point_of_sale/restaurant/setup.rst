@@ -3,24 +3,24 @@ How to setup Point of Sale Restaurant?
 ======================================
 
 Go to the **Point of Sale** application, 
-:menuselection:`Configuration --> Settings`
+:menuselection:`Configuration --> Point of Sale`
 
 .. image:: media/setup01.png
     :align: center
 
-Enable the option **Restaurant: activate table management** and
-click on **Apply**.
+Edit and Enable the option **Is a bar/Restaurant** and
+click on **Save**.
 
 .. image:: media/setup02.png
     :align: center
 
 Then go back to the **Dashboard**, on the point of sale you want to use in
-restaurant mode, click on :menuselection:`More --> Settings`.
+restaurant mode, click on :menuselection:`... --> Settings`.
 
 .. image:: media/setup03.png
     :align: center
 
-Under the **Restaurant Floors** section, click on **add an item** 
+Under the **Order Interface --> Table Management** section, click on **Floors**
 to insert a floor and to set your PoS in restaurant mode.
 
 .. image:: media/setup04.png

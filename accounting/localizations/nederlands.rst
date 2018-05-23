@@ -1,23 +1,15 @@
 Netherlands
 ===========
 
-XAF Export
-----------
+Install the Netherlands Accounting Localization
+-----------------------------------------------
 
-With the Dutch accounting localization installed, you will be able to
-export all your accounting entries in XAF format. For this, you have to
-go in :menuselection:`Accounting --> Reporting --> General Ledger`, you
-define the entries you want to export using the filters (period, journals, ...)
-and then you click on the button **EXPORT (XAF)**.
+For this, go in Apps and search for Netherlands. Then click on *Install*.
 
-Dutch Accounting Reports
-------------------------
+.. image:: media/nedherlands.png
+   :align: center
 
-If you install the Dutch accounting localization, you will have access
-to some reports that are specific to the Netherlands such as :
-
--  Profit & Loss
-
--  Tax Report (Aangifte omzetbelasting)
-
--  Intrastat Report (ICP)
+.. tip::
+   When creating a database from www.flectrahq.com, if you choose Netherlands
+   as country when creating your account, the Netherlands localization will be
+   automatically installed.

@@ -1,4 +1,4 @@
-:banner: banners/general.jpg
+:banner: banners/flectra-general.jpg
 
 =======
 General
@@ -7,6 +7,6 @@ General
 .. toctree::
    :titlesonly:
 
-   general/odoo_basics
+   general/flectra_basics
    general/base_import
    general/auth

@@ -98,7 +98,7 @@ Then click on **Manage access rights**
 .. image:: media/multi_cashier14.png
     :align: center
 
-**Edit** the cashier and add a **security pin code** on the **Point of Sale**
+**Edit** the cashier and add a **Barcode** on the **Point of Sale**
 tab.
 
 .. image:: media/multi_cashier15.png

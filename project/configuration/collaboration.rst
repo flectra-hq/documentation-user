@@ -5,7 +5,7 @@ How to manage & collaborate on tasks?
 Responsibilities 
 ================
 
-In Odoo, you can assign the person who is in charge of the task.
+In Flectra, you can assign the person who is in charge of the task.
 
 When creating a task, by default you are responsible for it. You can
 change this by simply typing the username of someone else and choosing
@@ -64,13 +64,13 @@ Whether it helps you for estimation of future projects or data for
 billing or invoicing, time tracking in Project Management is a real
 plus.
 
-The Odoo Timesheet app is perfectly integrated with Odoo Project and can
+The Flectra Timesheet app is perfectly integrated with Flectra Project and can
 help you track time easily.
 
-Once Odoo Timesheet is installed, the timesheet option is automatically
+Once Flectra Timesheet is installed, the timesheet option is automatically
 available in projects and on tasks.
 
-To avoid any confusion, Odoo works with analytic accounts. An analytic
+To avoid any confusion, Flectra works with analytic accounts. An analytic
 account is the name that will always be the reference for a specific
 project or contract. Each time a project is created, an analytic account
 is automatically created under the same name.
@@ -88,7 +88,7 @@ Click on the Timesheet button in the top grey menu.
 .. image:: media/manage_collaborate03.png
     :align: center
 
-You get the Odoo Timesheet. Click on Create and a line will appear with
+You get the Flectra Timesheet. Click on Create and a line will appear with
 today's date and time. Your project name is automatically selected as
 the Analytic Account. No task is set, you can choose to add a specific
 task for it, or not.
@@ -96,29 +96,8 @@ task for it, or not.
 .. image:: media/manage_collaborate04.png
     :align: center
 
-If you go now to Odoo Timesheet, your line will be recorded among your
+If you go now to Flectra Timesheet, your line will be recorded among your
 other timesheets.
-
-Record a timesheet on a task: 
-------------------------------
-
-Within a task, the timesheet option is also available.
-
-In the task, click on the Edit button. Go on the Timesheet tab and click
-on Add an item.
-
-A line will appear with the name of the project already selected in the
-Analytic account.
-
-Again, you'll find back these timesheet lines in the Odoo Timesheet
-application.
-
-.. image:: media/manage_collaborate05.png
-    :align: center
-
-At the end of your project, you can get a real idea of the time you
-spent on it by searching based on the Analytic Account name of your
-project.
 
 Document Management in tasks
 ============================
@@ -151,7 +130,7 @@ saved in the task.
 Collaborate on tasks
 ====================
 
-Tasks in Odoo Project are made to help you to work easily together with
+Tasks in Flectra Project are made to help you to work easily together with
 your colleagues. This helps you save time and energy.
 
 The idea is to stay up to date with what interests you. You can
@@ -165,7 +144,7 @@ You can configure an email address linked to your project. When an email
 is sent to that address, it automatically creates a task in the first
 step of the project, with all the recipients (To/Cc/Bcc) as followers.
 
-With Odoo Online, the mail gateway is already configured and so every
+With Flectra Online, the mail gateway is already configured and so every
 project gets an automatic email address.
 
 The email is always the name of the project (with "-" instead of the
@@ -213,14 +192,14 @@ saved on the entry.
 The description of the task, the Pad
 ------------------------------------
 
-Odoo allows you to replace the task description field by an Etherpad
+Flectra allows you to replace the task description field by an Etherpad
 collaborative note (http://etherpad.org). This means that you can
 collaborate on tasks in real time with several users contributing to the
 same content. Every user has their own color and you can replay the
 whole creation of the content.
 
-To activate this option, go to :menuselection:`Project Settings --> Pads`, 
-tick "Collaborative rich text on task description".
+To activate this option, go to :menuselection:`Project Settings --> Task Management`,
+tick "Collaborative Pads".
 
 .. image:: media/manage_collaborate12.png
     :align: center
@@ -259,7 +238,7 @@ Custom states
 
 You can decide what the different status mean for each stage of your
 project. On the kanban view, click on the gear icon on the top of the
-stage, then click on edit:
+stage, then click on edit stage:
 
 .. image:: media/manage_collaborate16.png
     :align: center
@@ -272,24 +251,4 @@ Next to the color ball, write the explanation of the state.
 Now, the explanation will be displayed instead of the generic text:
 
 .. image:: media/manage_collaborate18.png
-    :align: center
-
-Color Tags
-==========
-
-In every task, you can add a tag. Tags are very useful to categorize the
-tasks. It helps you to highlight a task from the Kanban view or better
-find them thanks to the filters.
-
-If you are always working with a specific type of tag, you can highlight
-the tasks containing the tag with the colors. Each tag can get a
-specific color, it's very visual on the Kanban view.
-
-.. image:: media/manage_collaborate19.png
-    :align: center
-
-In order to make it appear on the kanban view, you have to set a color
-on the tag, directly from the task:
-
-.. image:: media/manage_collaborate20.png
     :align: center

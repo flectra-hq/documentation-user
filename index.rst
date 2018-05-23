@@ -1,6 +1,8 @@
-=======================
-Odoo User Documentation
-=======================
+:banner: banners/flectra_index.jpg
+
+==========================
+Flectra User Documentation
+==========================
 
 .. rst-class:: index-tree
 
@@ -9,5 +11,3 @@ Odoo User Documentation
 
     Index <self>
     applications
-    practical
-    business

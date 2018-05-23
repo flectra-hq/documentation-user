@@ -10,7 +10,7 @@ Terminology
 ===========
 
 Minimum stock rule 
--------------------
+--------------------
 
 Minimum Stock rules are used to ensure that you always have the minimum
 amount of a product in stock in order to manufacture your products
@@ -33,7 +33,7 @@ Minimum stock rules
 -------------------
 
 The Minimum Stock Rules configuration is available through your
-Inventory module. In the Inventory Control menu select "Reordering Rule"
+Inventory module. In the MASTER DATA menu select "Reordering Rule"
 in the drop down menu. There, click on "Create" to set minimum and
 maximum stock values for a given product.
 
@@ -58,7 +58,7 @@ Make to Order
 --------------
 
 The Make to Order configuration is available on your product form
-through your :menuselection:`Inventory --> Inventory control --> Products` (or any
+through your :menuselection:`Inventory --> MASTER DATA --> Products` (or any
 other module where products are available).
 
 On the product form, under Inventory, click on "Make To Order".

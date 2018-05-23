@@ -5,17 +5,17 @@ How to handle kitchen & bar order printing?
 Configuration
 =============
 
-From the dashboard click on :menuselection:`More --> Settings`:
+From the dashboard click on :menuselection:`... --> Settings`:
 
 .. image:: media/print01.png
     :align: center
 
-Under the **Bar & Restaurant** section, tick **Bill Printing**.
+Under the **Bills & Receipts** section, tick **Bill Printing**.
 
 .. image:: media/print02.png
     :align: center
 
-In order printers, click on **add an item** and then **Create**.
+In order printers, click on **_____________________** and then **Create and Edit**.
 
 .. image:: media/print03.png
     :align: center

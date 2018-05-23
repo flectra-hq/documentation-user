@@ -5,7 +5,7 @@ How to process delivery orders in three steps (pick + pack + ship)?
 Overview
 ========
 
-When an order goes to the shipping department for final delivery, Odoo
+When an order goes to the shipping department for final delivery, Flectra
 is set up by default on a **one-step** operation: once all goods are
 available, they can be shipped in bulk in a single delivery order.
 However, that process may not reflect the reality and your company may
@@ -17,7 +17,7 @@ destination, and then set to outbound trucks for final delivery to the
 customers.
 
 A few configuration steps are necessary in order to accomplish **Pick +
-Pack + Ship** in Odoo. These steps create some additional locations, which
+Pack + Ship** in Flectra. These steps create some additional locations, which
 by default are called **Output** and **Packing Zone**. So, if your warehouse's
 code is ``WH``, this configuration will create a location called ``WH/Output``
 and another one called ``WH/Packing Zone``.
@@ -34,7 +34,7 @@ Configuration
 =============
 
 Install the Inventory module
-----------------------------
+-----------------------------
 
 From the **App** menu, search and install the **Inventory** module.
 
@@ -47,15 +47,15 @@ orders.
 Allow managing routes
 ---------------------
 
-Odoo configures movement of delivery orders via **routes**. Routes
+Flectra configures movement of delivery orders via **routes**. Routes
 provide a mechanism to link different actions together. In this case, we
 will link the picking step to the shipping step.
 
 To allow management of routes, go to :menuselection:`Configuration --> Settings`
 
-Under :menuselection:`Location & Warehouse --> Routes`, activate the radio button
-**Advanced routing of products using rules**. Make sure that the option
-**Manage several locations per warehouse** is activated as well.
+Under :menuselection:`Warehouse --> Routes`, activate the radio button
+**Multi-Step Routes**. Make sure that the option
+**Storage Locations** is activated as well.
 
 .. image:: media/three_steps05.png
    :align: center

@@ -3,7 +3,7 @@ How to plan and track employees' assignments?
 =============================================
 
 Following and planning your employees' assignments can be a heavy
-challenge especially when you manage several people. Luckily, using Odoo
+challenge especially when you manage several people. Luckily, using Flectra
 Project, you can handle it in only a couple of clicks.
 
 Configuration
@@ -19,8 +19,8 @@ install the application.
 If you wish to manage time estimation, you will need to enable
 timesheets on tasks. From the **Project** application, go to 
 :menuselection:`Configuration --> Settings` in the dropdown menu. 
-Then, under **Time Work Estimation**, select the **manage time 
-estimation on tasks** option. Do not forget to apply your changes.
+Then, under **Time Management**, select the **timesheet** option.
+Do not forget to apply your changes.
 
 .. image:: media/assignments02.png
     :align: center
@@ -36,7 +36,7 @@ Manage tasks with views
 =======================
 
 You can have an overview of your different task thanks to the multiple
-views available with Odoo. Three main views will help you to plan and
+views available with Flectra. Three main views will help you to plan and
 follow up on your employees' tasks: the kanban view, the list view
 (using timesheets) and the calendar view.
 
@@ -83,7 +83,7 @@ On each one of your columns, you have the ability to sort your tasks by
 priority. Tasks with a higher priority will automatically be moved to
 the top of the column. From the Kanban view, click on the star in the
 bottom left of a task to tag it as **high priority**. For the tasks that
-are not tagged, Odoo will automatically classify them according to their
+are not tagged, Flectra will automatically classify them according to their
 deadlines.
 
 Note that dates that passed their deadlines will appear in red( in the
@@ -101,7 +101,7 @@ Track the progress of each task with the list view
 
 If you enabled the **Manage Time Estimation on Tasks**, your employees
 will be able to log their activities on tasks under the **Timesheets**
-sub-menu along with their duration. The **Working Time Progress** bar will
+sub-menu along with their duration. The **Progress** bar will
 be updated each time the employee will add an activity.
 
 .. image:: media/assignments07.png
@@ -135,4 +135,3 @@ ticking the related boxes on the right of the calendar view.
 
 .. seealso::
     * :doc:`../configuration/setup`
-    * :doc:`forecast`

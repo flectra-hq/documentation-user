@@ -14,7 +14,7 @@ Sales application configuration
 
 In the **Sales** application, go to
 :menuselection:`Configuration --> Settings`. Tick
-**Advanced pricing based on formula**.
+**Prices computed from formula**.
 
 .. image:: media/seasonal_discount01.png
     :align: center
@@ -60,7 +60,7 @@ After you save and close, your pricelist is ready to be used.
 Applying your pricelist to the Point of Sale
 --------------------------------------------
 
-From the dashboard, click on :menuselection:`More --> Settings`.
+From the dashboard, click on :menuselection:`... --> Settings`.
 
 .. image:: media/seasonal_discount07.png
     :align: center

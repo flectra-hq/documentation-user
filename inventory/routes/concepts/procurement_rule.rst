@@ -22,11 +22,10 @@ eliminates waste by reducing the amount of storage space needed for
 inventory and the costs of storing goods.
 
 Configuration
-=============
+==============
 
 Procurement rules are part of the routes. Go to the Inventory
-application>Configuration>Settings and tick "Advance routing of products
-using rules".
+application>Configuration>Settings and tick "Multi-Step Routes".
 
 .. image:: media/procurement_rule01.png
     :align: center
@@ -63,11 +62,7 @@ action possibles :
 .. image:: media/procurement_rule03.png
     :align: center
 
-.. demo:action:: stock.action_routes_form
-    
-    Try to create a procurement rule in our demo instance. 
-
-.. note:: 
+.. note::
     Some Warehouse Configuration creates routes with procurement
     rules already defined.
 

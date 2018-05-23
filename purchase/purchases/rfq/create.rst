@@ -4,7 +4,7 @@ How to create a Request for Quotation?
 
 A Request for Quotation (RfQ) is used when you plan to purchase some
 products and you would like to receive a quote for those products. In
-Odoo, the Request for Quotation is used to send your list of desired
+Flectra, the Request for Quotation is used to send your list of desired
 products to your supplier. Once your supplier has answered your request,
 you can choose to go ahead with the offer and purchase or to turn down
 the offer.
@@ -30,10 +30,6 @@ the date to which you wish to proceed to the actual order.
 
 .. demo:fields:: purchase.purchase_rfq
 
-.. demo:action:: purchase.purchase_rfq
-
-   View *Request for Quotation* in our Online Demonstration
-
 In **Products**, click on Add an item. Select the product you wish to order
 in the **Product** menu. Specify the **Quantity** by inserting the
 number and selecting the unit of measure. In the **Unit Price** field,
@@ -49,7 +45,7 @@ for this supplier or enter a new one).
 	:align: center
 
 After having clicked on **Send**, you will notice that the RFQ's status will
-switch from **Draft** to **RFQ Sent**.
+switch from **RFQ** to **RFQ Sent**.
 
 .. image:: ./media/image06.png
 	:align: center
@@ -66,7 +62,7 @@ the supplier. The RfQ's status will switch to **Purchase Order**.
 	:align: center
 
 The status of the RfQ will change to PURCHASE ORDER. Tabs in the upper
-right corner of the order will show 1 Shipment and 0 Invoice.
+right corner of the order will show 1 Shipment and 0 Vendor Bills.
 
 .. image:: ./media/image10.png
 	:align: center

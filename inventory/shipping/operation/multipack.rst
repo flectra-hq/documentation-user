@@ -5,7 +5,7 @@ How to manage multiple packs for the same delivery order?
 Overview
 ========
 
-By default, Odoo considers that your delivery is composed of one
+By default, Flectra considers that your delivery is composed of one
 package. But you can easily ship your deliveries with more than one
 package. It is fully integrated with the third-party shippers.
 
@@ -14,13 +14,13 @@ Configuration
 
 To configure the use of packages, go to the menu
 :menuselection:`Inventory --> Configuration --> Settings`. 
-Locate the **Packages** section and tick **Record
-packages used on packing: pallets, boxes,...**
+Locate the **Delivery Packages** section and tick **Put your
+products in packs (e.g. parcels, boxes) and track them**
 
 .. image:: media/multipack03.png
    :align: center
 
-Click on **Apply** when you are done.
+Click on **Save** when you are done.
 
 Sale process
 ============
@@ -62,23 +62,5 @@ Do the same steps for the other pieces you want to pack in.
 
 Click on **Validate** when you are done.
 
-Multi-packages with a 3rd party-shipper
----------------------------------------
-
-Once the delivery order is validated, you will receive the tracking
-number. The **carrier Tracking ref** field will automatically be filled.
-Click on the **Tracking** button to check your delivery on the provider
-website.
-
-.. image:: media/multipack05.png
-   :align: center
-
-The **labels** to stick on your packages are available in the history
-underneath:
-
-.. image:: media/multipack01.png
-   :align: center
-
 .. seealso::
     * :doc:`invoicing`
-    * :doc:`labels`

@@ -1,4 +1,4 @@
-:banner: banners/project.jpg
+:banner: banners/flectra-project-management.jpg
 
 =======
 Project
@@ -11,4 +11,3 @@ Project
    project/configuration
    project/planning
    project/advanced
-   project/application

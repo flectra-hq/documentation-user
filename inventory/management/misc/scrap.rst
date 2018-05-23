@@ -3,7 +3,7 @@ How to scrap products?
 ======================
 
 Overview
-========
+=========
 
 Scrap means waste that either has no economic value or only the value of
 its basic material
@@ -24,18 +24,18 @@ scrap area.
 Configuration
 =============
 
-When you install inventory management, odoo automatically creates one
+When you install inventory management, Flectra automatically creates one
 default scrap location, namely **Virtual location/Scrapped**.
 
 To create an extra scrap location, Go to 
 :menuselection:`Inventory --> Configuration --> Settings`
-and check **Manage several locations per warehouse**,
-then click on **Apply**.
+and check **Storage Locations**,
+then click on **Save**.
 
 .. image:: media/scrap06.png
    :align: center
 
-After applying **Manage several location per warehouse**, you can create
+After applying **Storage Locations**, you can create
 a new scrap location in 
 :menuselection:`Configuration --> Warehouse Management --> Locations.`
 
@@ -46,7 +46,7 @@ a new scrap location in
 Different ways to scrap product
 ===============================
 
-Odoo provides several ways to scrap products.
+Flectra provides several ways to scrap products.
 
 1) Scrap from Receipt (Initial Demand tab).
 -----------------------------------------------

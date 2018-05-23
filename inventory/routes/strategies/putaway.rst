@@ -23,8 +23,8 @@ Configuration
 =============
 
 Go to :menuselection:`Inventory --> Configuration --> Settings` and check option 
-**Manage several location per warehouse & Advance routing of products using
-rules**, then click on **Apply**.
+**Track product location in your warehouse &
+Use your own routes and putaway strategies**, then click on **Apply**.
 
 .. image:: media/putaway01.png
     :align: center

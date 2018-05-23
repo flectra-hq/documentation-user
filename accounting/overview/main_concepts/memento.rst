@@ -190,9 +190,9 @@ recorded as a new payment:
 recorded as another transaction:
   bank transfer, direct charge, etc.
 
-Odoo should automatically reconcile most transactions, only a few of them
+Flectra should automatically reconcile most transactions, only a few of them
 should need manual review. When the bank reconciliation process is finished,
-the balance on the bank account in Odoo should match the bank statement's
+the balance on the bank account in Flectra should match the bank statement's
 balance.
 
 .. rst-class:: checks-handling

@@ -89,7 +89,7 @@ You obtain a document which can be imported, fill in your vendor pices
 .. image:: media/import02.png
     :align: center
 
-Import this document in Odoo. Click on **Import** in the list view and
+Import this document in Flectra. Click on **Import** in the list view and
 upload your document. You can validate and check error. Once the system
 tells you everything is ok, you can import the list.
 
@@ -113,11 +113,11 @@ data from :menuselection:`Purchases --> Purchase --> Vendor Pricelist`.
 Select everything, and export from the **Action** menu.
 
 Change price, end date, add a line, change a supplier, ... and then
-reimport in Odoo. Thanks to the ID, the list will be updated. Either the
-id is recognized and the line is updated or the ID is not known by Odoo
+reimport in Flectra. Thanks to the ID, the list will be updated. Either the
+id is recognized and the line is updated or the ID is not known by Flectra
 and it will create a new pricelist line.
 
-After the import, the **Vendors** section in **Inventory** tab of the
+After the import, the **Vendors** section in **Purchase** tab of the
 product form is updated.
 
 .. image:: media/import03.png

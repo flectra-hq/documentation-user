@@ -1,7 +1,7 @@
 Immediate & Planned Transfers
 =============================
 
-In Odoo, you can create two types of transfers: immediate or planned
+In Flectra, you can create two types of transfers: immediate or planned
 transfers.
 
 Immediate Transfers

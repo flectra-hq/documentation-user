@@ -4,7 +4,7 @@ How to set several suppliers on a product?
 
 Keeping track of your vendors can be a real burden in day-to-day
 business life. Prices can change and you might have several suppliers
-for one product. With Odoo you have the possibility to directly link
+for one product. With Flectra you have the possibility to directly link
 vendors with the corresponding product and specify prices automatically
 the first time you purchase them.
 
@@ -67,7 +67,7 @@ Add Vendors to the product
 --------------------------
 
 The next action is to add vendors to the product. There are two ways to
-handle this. If you issue a purchase order for the first time Odoo will
+handle this. If you issue a purchase order for the first time Flectra will
 automatically link the vendor and its price to the product. You can also
 add vendors manually
 
@@ -75,7 +75,7 @@ By issuing a first Purchase Order to new vendor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When issuing a purchase order for the first time to a vendor, he will
-automatically be linked to the product by Odoo. For our example let's
+automatically be linked to the product by Flectra. For our example let's
 say that we issue a first purchase order to ``Bob&Jerry's`` for ``5 t-shirts`` 
 at ``12.35 euros / piece``.
 
@@ -89,14 +89,14 @@ supplier (see picture below, or the documentation page
 When we save and validate the purchase order the vendor will
 automatically be added to the product's vendors list. To check this
 enter the purchase module, select :menuselection:`Purchase --> Products` and 
-select our T-shirt product. By opening the **Inventory** tab we notice that our
+select our T-shirt product. By opening the **Purchase** tab we notice that our
 vendor and its price has automatically been added.
 
 .. image:: media/suppliers05.png
     :align: center
 
 Note that every first time the product is purchased from a new
-vendor, Odoo will automatically link the contact and price with the
+vendor, Flectra will automatically link the contact and price with the
 product.
 
 By adding manually

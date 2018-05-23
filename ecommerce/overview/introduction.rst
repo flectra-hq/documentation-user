@@ -1,11 +1,6 @@
-==============================
-Introduction to Odoo eCommerce
-==============================
-
-.. youtube:: tR0xandHlhU
-    :align: right
-    :width: 700
-    :height: 394 
+=================================
+Introduction to Flectra eCommerce
+=================================
 
 The documentation will help you go live with your eCommerce website in no time.
 The topics follow the buying process:
@@ -18,7 +13,3 @@ The topics follow the buying process:
 * Upselling & cross-selling
 * Payment
 * Shipping & Tracking
-
-.. seealso::
-
-  * :doc:`../../website/publish/domain_name`

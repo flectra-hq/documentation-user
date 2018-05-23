@@ -1,15 +1,15 @@
-=======================================
-Getting started with Odoo Point of Sale
-=======================================
+==========================================
+Getting started with Flectra Point of Sale
+==========================================
 
 Overview
 ========
 
-Odoo's online **Point of Sale** application is based on a simple, user
+Flectra's online **Point of Sale** application is based on a simple, user
 friendly interface. The **Point of Sale** application can be used online or
 offline on iPads, Android tablets or laptops.
 
-Odoo **Point of Sale** is fully integrated with the **Inventory** and the
+Flectra **Point of Sale** is fully integrated with the **Inventory** and the
 **Accounting** applications. Any transaction with your point of sale will
 automatically be registered in your inventory management and accounting
 and, even in your **CRM** as the customer can be identified from the app.
@@ -30,14 +30,7 @@ Start by installing the **Point of Sale** application. Go to
 .. image:: media/start01.png
     :align: center
 
-Do not forget to install an accounting **chart of account**. If it is not
-done, go to the **Invoicing/Accounting** application and click on **Browse
-available countries**:
-
-.. image:: media/start02.png
-    :align: center
-
-Then choose the one you want to install.
+Do not forget to install an accounting **chart of account**.
 
 When it is done, you are all set to use the point of sale.
 
@@ -145,9 +138,6 @@ On this page, you will see a summary of the transactions
 
 If you click on a payment method line, the journal of this method
 appears containing all the transactions performed.
-
-.. image:: media/start11.png
-    :align: center
 
 Now, you only have to validate and close the session.
 

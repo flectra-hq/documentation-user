@@ -16,9 +16,14 @@ Applications
    manufacturing
    point_of_sale
    project
-   helpdesk
    livechat/livechat
    expense/expense
+   l10n_in_gst/gst
+   l10n_sg_gst/l10n_sg_gst5
+   saleadvancepricelist/saleadvancepricelist
+   website_sale_advance_pricelist/websitesaleadvancepricelist
    general
+
+
 ..   expenses
 ..   recruitment

@@ -46,7 +46,7 @@ Analyzing your vendors
 Generate flexible reports
 -------------------------
 
-You have access to your vendors' performances on the Reports menu.
+You have access to your vendors' performances on the Reporting menu.
 By default, the report groups all your purchase orders on a pivot table
 by **total price**, **product quantity** and **average price** for the **each month**
 and for **each supplier**. Simply by accessing this basic report, you can

@@ -3,7 +3,7 @@ How to cancel a purchase order?
 ================================
 
 Due to misunderstandings, human errors or change of plans, it is
-sometimes necessary to cancel purchase orders sent to suppliers. Odoo
+sometimes necessary to cancel purchase orders sent to suppliers. Flectra
 allows you to do it, even if some or even all of the ordered goods
 already arrived in your warehouse.
 
@@ -38,7 +38,7 @@ yet, you can simply cancel the PO it by clicking the cancel button.
 .. image:: media/cancel05.png
     :align: center
 
-Odoo will automatically cancel the outstanding shipments related to this
+Flectra will automatically cancel the outstanding shipments related to this
 PO and the status bar will switch from **Purchase order** to **Cancelled**.
 
 .. image:: media/cancel03.png
@@ -47,7 +47,7 @@ PO and the status bar will switch from **Purchase order** to **Cancelled**.
 Use case 2 : partially delivered goods
 --------------------------------------
 
-In this case, **2** of the **3 iPad Mini** arrived before you needed to cancel
+In this case, **1** of the **3 iPad Mini** arrived before you needed to cancel
 the PO.
 
 Register good received and cancel backorder
@@ -65,8 +65,8 @@ order line**, manually change the received quantities under the Column
 .. note::
     To learn more, see :doc:`reception`
 
-When clicking on **Validate**, Odoo will warn you that you have processed
-less products than the initial demand (2 instead of 3 in our case) and
+When clicking on **Validate**, Flectra will warn you that you have processed
+less products than the initial demand (1 instead of 3 in our case) and
 will ask you the permission to create a backorder.
 
 .. image:: media/cancel07.png
@@ -83,7 +83,7 @@ Create reverse transfer
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Now, you need to return the iPad Minis that you have received to your
-vendor location. To do so, click on the **Reverse** button from the same
+vendor location. To do so, click on the **Return** button from the same
 document. A reverse transfer window will pop up. Enter the quantity to
 return and the corresponding location and click on **Return**.
 

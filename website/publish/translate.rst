@@ -5,7 +5,7 @@ How to translate my website
 Overview
 ========
 
-In addition to creating great modern websites, Odoo gives you the
+In addition to creating great modern websites, Flectra gives you the
 possibility to translate it in different languages.
 
 Process
@@ -52,13 +52,10 @@ key.
 
 The content you wish to translate will then be translated automatically.
 
-.. image:: media/translate_website04.png
-    :align: center
-
 Now you can see that most of the content is highlighted in yellow or
 in green. The yellow represents the content that you have to translate by
 yourself. The green represents the content that has already been translated
 automatically.
 
-.. image:: media/translate_website05.png
+.. image:: media/translate_website04.png
     :align: center

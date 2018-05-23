@@ -1,4 +1,4 @@
-:banner: banners/livechat.jpg
+:banner: banners/flectra-livechat.jpg
 
 =========
 Live Chat
@@ -7,7 +7,7 @@ Live Chat
 Chat in live with website visitors
 ==================================
 
-With Odoo Live Chat, you can establish a direct contact with your
+With Flectra Live Chat, you can establish a direct contact with your
 website visitors. A simple dialog box will be available on their screen
 and will allow them to get in touch with one of your sales
 representatives. This way, you can easily turn prospects into potential
@@ -30,10 +30,10 @@ There, operators can easily join and leave the chat.
 .. image:: media/live_chat02.png
    :align: center
 
-Add the live chat to an Odoo website
-====================================
+Add the live chat to an Flectra website
+=======================================
 
-If your website was created with Odoo, then the live chat is
+If your website was created with Flectra, then the live chat is
 automatically added to it. All that is left to do, is to go to
 :menuselection:`Website --> Configuration --> Settings` to select the
 channel to be linked to the website.
@@ -44,7 +44,7 @@ channel to be linked to the website.
 Add the live chat to an external website
 ========================================
 
-If your website was not created with Odoo, go to the Live Chat module
+If your website was not created with Flectra, go to the Live Chat module
 and then select the channel to be linked. There, you can simply copy
 paste the code available into your website. A specific url you can send
 to customers or suppliers for them to access the live chat is also
@@ -91,7 +91,7 @@ has joined the channel.
 
 In practice, the conversations initiated by the visitors will appear in
 the Discuss module and will also pop up as a direct message. Therefore,
-inquiries can be answered wherever you are in Odoo.
+inquiries can be answered wherever you are in Flectra.
 
 If there several operators in charge of a channel, the system will
 dispatch sessions randomly between them.

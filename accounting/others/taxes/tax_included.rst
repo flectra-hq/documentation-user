@@ -2,9 +2,9 @@
 How to set tax-included prices
 ==============================
 
-In most countries, B2C prices are tax-included. To do that in Odoo, check
+In most countries, B2C prices are tax-included. To do that in Flectra, check
 *Included in Price* for each of your sales taxes in
-:menuselection:`Accounting --> Configuration --> Accounting --> Taxes`.
+:menuselection:`Invoicing --> Configuration --> Accounting --> Taxes`.
 
 .. image:: media/tax_included.png
    :align: center

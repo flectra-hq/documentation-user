@@ -50,7 +50,7 @@ In order to sell services and to send invoices, you need to install the
 Create products
 ---------------
 
-In Odoo, each milestone of your project is considered as a product. From
+In Flectra, each milestone of your project is considered as a product. From
 the **Sales** application, use the menu :menuselection:`Sales --> Products`, 
 create a new product with the following setup:
 
@@ -58,14 +58,14 @@ create a new product with the following setup:
 
 -   **Product Type**: Service
 
--   **Invoicing Policy**: Delivered Quantities, since you will invoice
-    your milestone after it has been delivered
-
--   **Track Service**: Manually set quantities on order, as you
+-   **Invoicing Policy**: Manually set quantities on order, as you
     complete each milestone, you will manually update their quantity
     from the **Delivered** tab on your sale order
 
-.. image:: media/milestones02.png
+.. image:: media/milestones02-1.png
+    :align: center
+
+.. image:: media/milestones02-2.png
     :align: center
 
 .. note::

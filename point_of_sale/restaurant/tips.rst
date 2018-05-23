@@ -5,7 +5,7 @@ How to handle tips?
 Configuration
 =============
 
-From the dashboard, click on :menuselection:`More --> Settings`.
+From the dashboard, click on :menuselection:`... --> Settings`.
 
 .. image:: media/tips01.png
     :align: center

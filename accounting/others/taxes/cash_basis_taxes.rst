@@ -16,7 +16,7 @@ How to configure cash basis taxes ?
 ------------------------------------
 
 You first have to activate the setting in
-:menuselection:`Accounting --> Configuration --> Settings --> Allow Tax Cash Basis`.
+:menuselection:`Invoicing --> Configuration --> Settings --> Cash Basis`.
 You will be asked to define the Tax Cash Basis Journal.
 
 .. image:: media/cash_basis_taxes01.png
@@ -25,10 +25,10 @@ You will be asked to define the Tax Cash Basis Journal.
     :align: center
 
 Once this is done, you can configure your taxes in
-:menuselection:`Accounting --> Configuration --> Taxes`.
+:menuselection:`Invoicing --> Configuration --> Accounting --> Taxes`.
 You can open a tax and in the *Advanced Options*
-tab you will see the checkbox *Use Cash Basis*. You will then have to
-define the *Tax Received Account*.
+tab you will see the radio button *Tax Due*. Now, select Based on payment.
+You will then have to define the *Tax Received Account*.
 
 .. image:: media/cash_basis_taxes02.png
     :width: 6.50000in
@@ -84,4 +84,4 @@ When you reconcile the invoice and the payment, this entry is generated:
 
 .. tip::
     The two journal items created in the Income Account are neutral but
-    they are needed to insure correct tax reports in Odoo.
+    they are needed to insure correct tax reports in Flectra.
