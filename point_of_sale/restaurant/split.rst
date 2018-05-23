@@ -7,7 +7,7 @@ Configuration
 
 Split bills only work for point of sales that are in **restaurant** mode.
 
-From the dashboard click on :menuselection:`More --> Settings`:
+From the dashboard click on :menuselection:`... --> Settings`:
 
 .. image:: media/split01.png
     :align: center

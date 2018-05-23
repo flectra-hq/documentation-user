@@ -1,4 +1,4 @@
-:banner: banners/seo.jpg
+:banner: banners/flectra_website.jpg
 
 =======
 Website

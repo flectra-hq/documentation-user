@@ -44,7 +44,10 @@ and create a product as follows:
 -   **Invoicing policy**: on delivered quantities (you will manually
     set the quantities to invoice on the sale order)
 
-.. image:: media/reinvoice02.png
+.. image:: media/reinvoice02-1.png
+    :align: center
+
+.. image:: media/reinvoice02-2.png
     :align: center
 
 Create a sale order
@@ -122,7 +125,10 @@ and create a product as follows:
 
 -   Track service: manually set quantities on order
 
-.. image:: media/reinvoice06.png
+.. image:: media/reinvoice06-1.png
+    :align: center
+
+.. image:: media/reinvoice06-2.png
     :align: center
 
 Create a sales order
@@ -141,7 +147,10 @@ been generated automatically. If not, you can easily create one in order
 to link your expenses to the sale order. Do not forget to confirm the
 sale order.
 
-.. image:: media/reinvoice07.png
+.. image:: media/reinvoice07-1.png
+    :align: center
+
+.. image:: media/reinvoice07-2.png
     :align: center
 
 .. note::

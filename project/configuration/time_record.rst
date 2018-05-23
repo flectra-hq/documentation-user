@@ -5,23 +5,8 @@ How to record time spent?
 Overview
 ========
 
-Odoo allows you to record the time spent per employee and per project,
+Flectra allows you to record the time spent per employee and per project,
 for simple reports as well as for direct invoicing to the customer.
-
-Configuration
-=============
-
-In order to record the time spent on projects, you must first activate
-the invoicing of timesheets. Into the **Project** application, open
-:menuselection:`Configuration --> Settings`. In the **Timesheets** section 
-of the page, tick **Activate timesheets on issues**.
-
-.. image:: media/time_record01.png
-    :align: center
-
-.. note::
-    Activating the option will install the Sales, Invoicing, 
-    Issue Tracking, Employee and Timesheet apps.
 
 Recording timesheets
 ====================

@@ -1,11 +1,11 @@
-=====================================
-How is Odoo's multi-currency working?
-=====================================
+========================================
+How is Flectra's multi-currency working?
+========================================
 
 Overview
 ========
 
-Choosing to use the multi-currency option in Odoo will allow you to send
+Choosing to use the multi-currency option in Flectra will allow you to send
 sales invoices, quotes and purchase orders or receive bills and payments
 in currencies other than your own. With multi-currency, you can also set
 up bank accounts in other currencies and run reports on your foreign
@@ -18,7 +18,7 @@ Turn on multi-currency
 ----------------------
 
 In the accounting module, Go to :menuselection:`Configuration --> Settings` and flag
-**Allow multi currencies**, then click on **Apply**.
+**Currency --> Multi-currencies**, then click on **Save**.
 
 .. image:: media/works01.png
    :align: center
@@ -30,7 +30,7 @@ The **Rate Difference Journal** records the differences between the payment
 registration and the expected amount. For example, if a payment is paid
 1 month after the invoice was issued, the exchange rate has probably
 changed. The fluctuation implies some loss or profit that are recorded
-by Odoo.
+by Flectra.
 
 You can change it in the settings:
 
@@ -41,13 +41,13 @@ View or edit rate being used
 ----------------------------
 
 You can manually configure the currency rates in :menuselection:`Configuration -->
-Currencies`. Open the currencies you want to use in Odoo and edit it.
+Accounting --> Currencies`. Open the currencies you want to use in Flectra and edit it.
 Make sure the currency is active.
 
 .. image:: media/works03.png
    :align: center
 
-Click on **View Rates** to edit it and to see the history :
+Click on **Rates** to edit it and to see the history :
 
 .. image:: media/works04.png
    :align: center
@@ -64,13 +64,20 @@ Live Currency Rate
 By default, the currencies need to be updated manually. But you can
 synchronize it with `Yahoo <https://finance.yahoo.com/currency-converter/>`__ or
 the `European Central Bank <http://www.ecb.europa.eu>`__. In 
-:menuselection:`Configuration --> Settings`, go to the **Live Currency Rate** section.
-
-Choose the interval : Manually, Daily, Weekly or Monthly. You can always
-force the update by clicking on **Update Now**. Select the provider, and you
-are set !
+:menuselection:`Configuration --> Settings --> Auto Download Rates`
+and click on **save**.
 
 .. image:: media/works06.png
+   :align: center
+
+:menuselection:`Configuration --> Accounting --> Rate Auto - Download`.
+Click on **Create** to update the rate. Fill in the Webservice to use like Yahoo Finance and
+currency update frequency like Manually, Daily, Weekly or Monthly. Select Currencies to update
+with webservice update by clicking on **Update Now** and you are set !
+
+Gets Currency rate updates on click of button 'Update now' and update details will be displayed in logs.
+
+.. image:: media/works06_1.png
    :align: center
 
 .. note::
@@ -80,7 +87,7 @@ are set !
 Configure your charts of account
 --------------------------------
 
-In the accounting application, go to :menuselection:`Adviser --> Charts of Accounts`.
+In the accounting application, go to :menuselection:`Adviser --> Accounting --> Charts of Accounts`.
 On each account, you can set a currency. It will force all moves for
 this account to have the account currency.
 
@@ -95,7 +102,7 @@ Configure your journals
 
 In order to register payments in other currencies, you have to remove
 the currency constraint on the journal. Go to the accounting
-application, Click on **More** on the journal and **Settings**.
+application, Click on **...** on the journal and **Settings**.
 
 .. image:: media/works08.png
    :align: center
@@ -107,8 +114,8 @@ that you can register payments only in this currency.
 .. image:: media/works09.png
    :align: center
 
-How is Odoo's multi-currency working?
-=====================================
+How is Flectra's multi-currency working?
+========================================
 
 Now that you are working in a multi-currency environment, all
 accountable items will be linked to a currency, domestic or foreign.
@@ -152,15 +159,16 @@ was actually paid and the currency in which it was paid.
 .. image:: media/works13.png
    :align: center
 
-When reconciling it, Odoo will directly match the payment with the right
+When reconciling it, Flectra will directly match the payment with the right
 Invoice. You will get the invoice price in the invoice currency and the
 amount in your company currency.
 
 Exchange Rate Journal
 ---------------------
 
-Go to :menuselection:`Adviser --> Journal Entries` and look for the Exchange difference
-journal entries. All the exchange rates differences are recorded in it.
+Go to :menuselection:`Adviser --> Accounting Entries --> Journal Entries` and
+look for the Exchange difference journal entries. All the exchange rates
+differences are recorded in it.
 
 .. image:: media/works14.png
    :align: center

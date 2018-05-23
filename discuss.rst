@@ -1,4 +1,4 @@
-:banner: banners/discuss.jpg
+:banner: banners/flectra_discuss.jpg
 
 =======
 Discuss

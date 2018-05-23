@@ -11,4 +11,3 @@ Request for Quotations
    rfq/cancel
    rfq/approvals
    rfq/analyze
-   rfq/3_way_matching

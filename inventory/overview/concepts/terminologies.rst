@@ -2,13 +2,13 @@
 Terminologies
 =============
 
-- **Warehouse**: A warehouse in Odoo is a location where you store
+- **Warehouse**: A warehouse in Flectra is a location where you store
   products. It is either a physical or a virtual warehouse. It
   could be a store or a repository.
 
 - **Location**: Locations are used to structure storage zones within a
   warehouse. In addition to internal locations (your warehouse),
-  Odoo has locations for suppliers, customers, inventory loss
+  Flectra has locations for suppliers, customers, inventory loss
   counter-parts, etc.
 
 - **Lots**: Lots are a batch of products identified with a unique
@@ -27,7 +27,7 @@ Terminologies
 
 - **Consumable**: A product for which you do not want to manage the
   inventory level (no quantity on hand or forecasted) but that you
-  can receive and deliver. When this product is needed Odoo suppose
+  can receive and deliver. When this product is needed Flectra suppose
   that you always have enough stock.
 
 - **Stockable**: A product for which you want to manage the inventory
@@ -77,7 +77,7 @@ Terminologies
   Hand - Future Delivery Orders + Future incoming shipments +
   Future manufactured units.
 
-- **Reordering Rules**: It defines the conditions for Odoo to
+- **Reordering Rules**: It defines the conditions for Flectra to
   automatically trigger a request for procurement (buying at a
   supplier or launching a manufacturing order). It is triggered
   when the forecasted quantity meets the minimum stock rule.

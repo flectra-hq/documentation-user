@@ -3,7 +3,7 @@ Impact on the average price valuation when returning goods
 ==========================================================
 
 As stated in the `*inventory valuation
-page* <https://www.odoo.com/documentation/functional/valuation.html>`__,
+page* <https://www.flectrahq.com/documentation/functional/valuation.html>`__,
 one of the possible costing method you can use in perpetual stock
 valuation, is the average cost.
 

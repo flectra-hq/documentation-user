@@ -1,4 +1,4 @@
-:banner: banners/sales.jpg
+:banner: banners/flectra-sales.jpg
 
 =====
 Sales
@@ -7,9 +7,7 @@ Sales
 .. toctree::
    :titlesonly:
 
-   sales/overview
-   sales/quotation
+   sales/send_quotations
    sales/invoicing
    sales/products_prices
-   sales/sale_ebay
    sales/advanced

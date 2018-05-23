@@ -44,22 +44,22 @@ Points to be considered while implementing drop-shipping
 
 .. tip::
     For more information and insights on Drop-shipping, read our blog on 
-    `What is drop-shipping and how to use it <https://www.odoo.com/blog/business-hacks-1/post/what-is-drop-shipping-and-how-to-use-it-250>`__.
+    `What is drop-shipping and how to use it <https://www.flectrahq.com/blog/business-hacks-1/post/what-is-drop-shipping-and-how-to-use-it-250>`__.
 
 Configuring drop-shipping
 -------------------------
 
--   Open the menu :menuselection:`Inventory --> Configuration --> Settings`. 
-    Go to **Location & Warehouse**, locate the **Dropshipping**
-    option and tick the box **Allow suppliers to deliver directly to
-    your customers**. Then, click on **Apply**.
+-   Open the menu :menuselection:`Purchase --> Configuration --> Settings`.
+    Go to **Logistics**, locate the **Dropshipping**
+    option and tick the box **Request your vendors to
+    deliver to your customers**. Then, click on **Save**.
 
 .. image:: media/dropshipping06.png
    :align: center
 
 -  Then go to the menu :menuselection:`Sales --> Configuration --> Settings`.
-   Locate **Order Routing** and tick the box **Choose specific
-   routes on sales order lines (advanced)**. Click on **Apply**.
+   Locate **Shipping** and tick the box **Order-Specific Routes**.
+   Click on **Save**.
 
 .. image:: media/dropshipping05.png
    :align: center

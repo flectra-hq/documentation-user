@@ -5,7 +5,7 @@ How can you change the packaging type for your sale order?
 Overview
 ========
 
-Odoo gives you the possibility to change the default packaging type and
+Flectra gives you the possibility to change the default packaging type and
 adapt the packaging the way you want it, depending on the weight of the
 order.
 
@@ -15,8 +15,7 @@ Configuration
 In the **Inventory** module, Go to **Configuration** and then click on
 **Settings**.
 
-In :menuselection:`Traceability --> Packages`, flag **Record packages used on
-packing : pallets, boxes,...**
+In :menuselection:`Operations --> Delivery Packages`, flag **Put your products in packs (e.g. parcels, boxes) and track them**
 
 .. image:: media/packaging_type01.png
     :align: center
@@ -43,6 +42,9 @@ the number of products that you want to pack together. Then click on
 **Put in Pack**.
 
 .. image:: media/packaging_type04.png
+    :align: center
+
+.. image:: media/packaging_type05.png
     :align: center
 
 Choose the type of packaging that you want. You can also see that the

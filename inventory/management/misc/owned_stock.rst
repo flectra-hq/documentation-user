@@ -3,7 +3,7 @@ How to manage stock that you don't own?
 =======================================
 
 Introduction
-============
+=============
 
 Some suppliers can sometimes offer you to store and sell products
 without having to buy those items: this technique is called **consignee
@@ -15,14 +15,14 @@ they are not sure to be able to sell, consignee stock will allow them to
 propose an item to check its market without having to pay for it in the
 first place.
 
-Odoo has the ability to manage consignee stocks through the advanced
+Flectra has the ability to manage consignee stocks through the advanced
 settings.
 
 Configuration
 =============
 
 Open the menu :menuselection:`Inventory --> Configuration --> Settings`, 
-and in the **Product Owners** section, select **Manage consignee stocks (advanced)**,
+and in the **Traceability** section, select **Consignment**,
 then click on **Apply**.
 
 .. image:: media/owned_stock02.png

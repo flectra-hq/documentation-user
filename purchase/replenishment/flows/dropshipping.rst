@@ -13,19 +13,17 @@ Configuration
 =============
 
 First, configure the **Routes** and **Dropshipping**. Go to 
-:menuselection:`Inventory --> Configuration --> Settings`. 
-Check **Advanced routing of products using rules** in the 
-**Routes** section and **Allow suppliers to deliver directly to
-your customers** in the **Drop Shipping** section.
+:menuselection:`Purchase --> Configuration --> Settings`.
+Check **Dropshipping** section.
 
-.. image:: media/dropshipping01.png
+.. image:: media/dropshipping02.png
     :align: center
 
 You have to allow the choice of the route on the sale order. Go to the
 **Sales** application, :menuselection:`Configuration --> Settings` and 
-tick **Choose specific routes on sales order lines (advanced)**.
+tick **Order-Specific Routes**.
 
-.. image:: media/dropshipping02.png
+.. image:: media/dropshipping01.png
     :align: center
 
 How to use drop-shipping? 

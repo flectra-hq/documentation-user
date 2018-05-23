@@ -2,7 +2,7 @@
 How to define an installment plan on customer invoices?
 =======================================================
 In order to manage installment plans related to an invoice, you should
-use payment terms in Odoo. They apply on both customer invoices and
+use payment terms in Flectra. They apply on both customer invoices and
 supplier bills.
 
 Example, for a specific invoice:
@@ -19,8 +19,8 @@ Example, for a specific invoice:
 Configuration
 =============
 
-Configure your usual installment plans from the application :menuselection:`Accounting -->
-Configuration > Payment Terms`.
+Configure your usual installment plans from the application :menuselection:`Invoicing -->
+Configuration --> Management --> Payment Terms`.
 
 A payment term may have one line (eg: 21 days) or several lines (10%
 within 3 days and the balance within 21 days). If you create a payment

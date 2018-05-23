@@ -13,7 +13,7 @@ There are two strategies for the rounding:
 
 2. Add the rounding in the tax amount
 
-Both strategies are applicable in Odoo.
+Both strategies are applicable in Flectra.
 
 Configuration 
 --------------
@@ -31,12 +31,12 @@ There is a new menu to manage cash roundings in
 Now, you can create cash roundings. You can choose between two rounding
 strategies:
 
-1. **Add a rounding line**: if a rounding is necessary, Odoo will add a
+1. **Add a rounding line**: if a rounding is necessary, Flectra will add a
    line on your customer invoice to take this rounding into
    account. You also have to define the account in which the
    rounding will go.
 
-2. **Modify tax amount:** Odoo will add the rounding to the amount of
+2. **Modify tax amount:** Flectra will add the rounding to the amount of
    the highest tax.
 
 .. image:: media/cash_rounding02.png

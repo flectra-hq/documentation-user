@@ -16,11 +16,11 @@ You will need :
 * The POSBox
 * A 2A Power adapter
 * A computer or tablet with an up-to-date web browser
-* A running SaaS or Odoo instance with the Point of Sale installed
+* A running SaaS or Flectra instance with the Point of Sale installed
 * A local network set up with DHCP (this is the default setting)
 * An Epson USB TM-T20 Printer or another ESC/POS compatible printer
   (officially supported printers are listed at the `POS Hardware page
-  <https://www.odoo.com/page/pos-ipad-android-hardware>`_)
+  <https://www.flectrahq.com/page/pos-ipad-android-hardware>`_)
 * A Honeywell Eclipse USB Barcode Scanner or another compatible scanner
 * An Epson compatible cash drawer
 * An RJ45 Ethernet Cable (optional, Wi-Fi is built in)
@@ -36,7 +36,7 @@ Connect peripheral devices
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Officially supported hardware is listed on `the POS Hardware page
-<https://www.odoo.com/page/pos-ipad-android-hardware>`_, but other
+<https://www.flectrahq.com/page/pos-ipad-android-hardware>`_, but other
 hardware might work as well.
 
 * **Printer**: Connect an ESC/POS printer to a USB port and power it
@@ -158,30 +158,22 @@ POSBoxless Guide (advanced)
 If you are running your Point of Sale on a Debian-based Linux
 distribution, you do not need the POSBox as you can run its software
 locally. However the installation process is not foolproof. You'll need
-at least to know how to install and run Odoo. You may also run into
+at least to know how to install and run Flectra. You may also run into
 issues specific to your distribution or to your particular setup and
 hardware configuration.
 
 Drivers for the various types of supported hardware are provided as
-Odoo modules. In fact, the POSBox runs an instance of Odoo that the
-Point of Sale communicates with. The instance of Odoo running on the
-POSBox is very different from a 'real' Odoo instance however. It does
+Flectra modules. In fact, the POSBox runs an instance of Flectra that the
+Point of Sale communicates with. The instance of Flectra running on the
+POSBox is very different from a 'real' Flectra instance however. It does
 not handle *any* business data (eg. POS orders), but only serves as a
 gateway between the Point of Sale and the hardware.
 
-The goal of this section will be to set up a local Odoo instance that
-behaves like the Odoo instance running on the POSBox.
+The goal of this section will be to set up a local Flectra instance that
+behaves like the Flectra instance running on the POSBox.
 
 Image building process
 ----------------------
-
-We generate the official POSBox images using the scripts in
-https://github.com/odoo/odoo/tree/8.0/addons/point_of_sale/tools/posbox. More
-specifically, we run 
-`posbox_create_image.sh <https://github.com/odoo/odoo/blob/8.0/addons/point_of_sale/tools/posbox/posbox_create_image.sh>`_.
-This builds an image
-called ``posbox.img``, which we zip and upload to `nightly.odoo.com <https://nightly.odoo.com>`_
-for users to download.
 
 The scripts in this directory might be useful as a reference if you
 get stuck or want more detail about something.
@@ -205,9 +197,9 @@ Prerequisites
 -------------
 
 - A Debian-based Linux distribution (Debian, Ubuntu, Mint, etc.)
-- A running Odoo instance you connect to to load the Point of Sale
+- A running Flectra instance you connect to to load the Point of Sale
 - You must uninstall any ESC/POS printer driver as it will conflict
-  with Odoo's built-in driver
+  with Flectra's built-in driver
 
 Step By Step Setup Guide
 ------------------------
@@ -215,7 +207,7 @@ Step By Step Setup Guide
 Extra dependencies
 ~~~~~~~~~~~~~~~~~~
 
-Because Odoo runs on Python 2, you need to check which version of pip
+Because Flectra runs on Python 2, you need to check which version of pip
 you need to use.
 
 ``# pip --version``
@@ -263,12 +255,12 @@ following content::
 
 Then you need to reboot your machine.
 
-Start the local Odoo instance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start the local Flectra instance
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We must launch the Odoo server with the correct settings
+We must launch the Flectra server with the correct settings
 
-``$ ./odoo.py --load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos``
+``$ ./flectrahq.py --load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos``
 
 Test the instance
 ~~~~~~~~~~~~~~~~~
@@ -280,10 +272,10 @@ errors are: The paths on the distribution differ from the paths expected
 by the drivers, another process has grabbed exclusive access to the
 devices, the udev rules do not apply or a superseded by others.
 
-Automatically start Odoo
-~~~~~~~~~~~~~~~~~~~~~~~~
+Automatically start Flectra
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You must now make sure that this Odoo install is automatically started
+You must now make sure that this Flectra install is automatically started
 after boot. There are various ways to do so, and how to do it depends
 on your particular setup. Using the init system provided by your
 distribution is probably the easiest way to accomplish this.
@@ -292,7 +284,7 @@ Setup the Point of Sale
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 The IP address field in the POS configuration must be either
-``127.0.0.1`` or ``localhost`` if you're running the created Odoo
+``127.0.0.1`` or ``localhost`` if you're running the created Flectra
 server on the machine that you'll use as the Point of Sale device. You
 can also leave it empty.
 
@@ -317,19 +309,19 @@ Compatible Peripherals
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Officially supported hardware is listed on the `POS Hardware page
-<https://www.odoo.com/page/pos-ipad-android-hardware>`_.
+<https://www.flectrahq.com/page/pos-ipad-android-hardware>`_.
 
 The POSBox Software
 ~~~~~~~~~~~~~~~~~~~
 
 The POSBox runs a heavily modified Raspbian Linux installation, a
 Debian derivative for the Raspberry Pi. It also runs a barebones
-installation of Odoo which provides the webserver and the drivers. The
-hardware drivers are implemented as Odoo modules. Those modules are
+installation of Flectra which provides the webserver and the drivers. The
+hardware drivers are implemented as Flectra modules. Those modules are
 all prefixed with ``hw_*`` and they are the only modules that are
-running on the POSBox. Odoo is only used for the framework it
+running on the POSBox. Flectra is only used for the framework it
 provides. No business data is processed or stored on the POSBox. The
-Odoo instance is a shallow git clone of the ``8.0`` branch.
+Flectra instance is a shallow git clone of the ``8.0`` branch.
 
 The root partition on the POSBox is mounted read-only, ensuring that
 we don't wear out the SD card by writing to it too much. It also
@@ -346,10 +338,6 @@ data). We then bind mount them over the original directories. So when
 an application writes to /etc/foo/bar it's actually writing to
 /etc_ram/foo/bar. We also bind mount / to /root_bypass_ramdisks to be
 able to get to the real /etc and /var during development.
-
-Logs of the running Odoo server can be found at:
-
-``/var/log/odoo/odoo.log``
 
 Various POSBox related scripts (eg. wifi-related scripts) running on
 the POSBox will log to /var/log/syslog and those messages are tagged
@@ -386,7 +374,7 @@ version of the image and flash the SD-Card with it. This operation is
 described in detail in `this tutorial
 <http://elinux.org/RPi_Easy_SD_Card_Setup>`_, just replace the
 standard Raspberry Pi image with the latest one found at `the official
-POSBox image page <http://nightly.odoo.com/master/posbox/>`_. This
+POSBox image page <http://nightly.flectrahq.com/master/posbox/>`_. This
 method of upgrading will ensure that you're running the latest version
 of the POSBox software.
 
@@ -397,8 +385,8 @@ upgrade method is limited to what it can do however. It can not
 eg. update installed configuration files (like
 eg. /etc/hostapd.conf). It can only upgrade:
 
-- The internal Odoo application
-- Scripts in the folder ``odoo/addons/point_of_sale/tools/posbox/configuration/``
+- The internal Flectra application
+- Scripts in the folder ``flectra/addons/point_of_sale/tools/posbox/configuration/``
 
 When in doubt, always use the first method of upgrading.
 

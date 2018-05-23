@@ -10,7 +10,7 @@ is to check that the products correspond to the quality requirements
 agreed with the suppliers. Therefore, adding a quality control step in
 the goods receipt process can become essential.
 
-Odoo uses routes to define exactly how you will handle the different
+Flectra uses routes to define exactly how you will handle the different
 receipt steps. The configuration is done at the level of the warehouse.
 By default, the reception is a one step process, but changing the
 configuration can allow to have 2 or even 3 steps.
@@ -36,10 +36,10 @@ To allow management of routes, go to the menu
 .. image:: media/three_steps06.png
    :align: center
 
-Ensure that the routes option **Advance routing of product using
-rules** is checked, then click on **Apply** to save changes.
+Ensure that the routes option **Multi-Step Routes**
+is checked, then click on **Save** to save changes.
 
-Make sure that **Manage several locations per warehouse** is also
+Make sure that **Storage Locations** is also
 ticked.
 
 How to add a quality control step in goods receipt?

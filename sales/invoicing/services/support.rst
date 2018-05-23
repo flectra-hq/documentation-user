@@ -59,7 +59,10 @@ support contract you sell. From the **Sales** application, use the menu
     automatically be created for every order containing this service
     so that you can track hours in the related account.
 
-.. image:: media/support04.png
+.. image:: media/support04-1.png
+    :align: center
+
+.. image:: media/support04-2.png
     :align: center
 
 .. tip:: 
@@ -89,17 +92,6 @@ application.
 .. image:: media/support05.png
     :align: center
 
-Timesheets
-----------
-
-To track the service you do on a specific contract, you should use the
-timesheet application. An analytic account related to the sale order has
-been automatically created (``SO009 - Agrolait`` on the screenshot here
-above), so you can start tracking services as soon as it has been sold.
-
-.. image:: media/support06.png
-    :align: center
-
 Control delivered support on the sales order
 --------------------------------------------
 
@@ -124,7 +116,7 @@ order that are in such a case.
 To do so, go to :menuselection:`Sales --> Invoicing --> Orders to Upsell`.
 
 .. tip::
-    If you use Odoo CRM, a good practice is to create an opportunity for 
+    If you use Flectra CRM, a good practice is to create an opportunity for
     every sale order in upselling invoice status so that you easily track 
     your upselling effort.
 
@@ -148,7 +140,7 @@ track the service:
     within the same sales order.
 
 -   **Manually**: you can use this mode if you don't record timesheets in
-    Odoo. The number of hours you worked on a specific contract can
+    Flectra. The number of hours you worked on a specific contract can
     be recorded manually on the sales order line directly, in the
     delivered quantity field.
 

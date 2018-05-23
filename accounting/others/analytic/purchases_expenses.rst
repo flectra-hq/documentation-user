@@ -43,7 +43,7 @@ accounting box.
 .. image:: media/purchase05.png
    :align: center
 
-Moreover, scroll down and tick the **Analytic accounting for purchases**
+Moreover, scroll down and tick the **Purchase Analytics**
 box.
 
 .. image:: media/purchase06.png
@@ -56,8 +56,8 @@ Create an Analytical account.
 
 First of all you should create an Analytical account on which you can
 point all your expenses. Enter the accounting app, select
-:menuselection:`Configuration --> Analytic Accounts`. Create a new one. In this
-case we will call it "consulting pack" for our customer Smith&Co.
+:menuselection:`Configuration --> Analytic Accounting --> Analytic Accounts`. Create a new one. In this
+case we will call it "consulting pack" for our customer Smith.
 
 .. image:: media/purchase07.png
    :align: center
@@ -85,7 +85,7 @@ expensed** box is ticked.
 Book the expense
 ----------------
 
-Enter the Expense module, click on :menuselection:`My expenses --> Create`. Select the
+Enter the Expense module, click on :menuselection:`My expenses --> Expenses to Submit --> Create`. Select the
 Train ticket product and link it to the analytical account discussed
 above.
 
@@ -133,7 +133,7 @@ Track costs in accounting
 Now that everything is booked and points to the analytical account.
 Simply open it to check the costs related to that account.
 
-Enter the accounting module, click on :menuselection:`Advisers --> Analytic Accounts
+Enter the accounting module, click on :menuselection:`Advisers --> Analytic Accounting --> Analytic Accounts
 --> Open Charts`.
 
 Select "consulting pack - Smith" and click on the cost and revenue

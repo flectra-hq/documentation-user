@@ -19,7 +19,7 @@ reaches its minimum the system will automatically generate a procurement
 with the quantity needed to reach the maximum stock level.
 
 Make to Order
--------------
+--------------
 
 The **Make to Order** function will trigger a **Purchase Order** of the amount
 of the **Sales Order** related to the product. The system will **not** check
@@ -33,7 +33,7 @@ Minimum stock rules
 -------------------
 
 The Minimum Stock Rules configuration is available through the menu 
-:menuselection:`Inventory --> Inventory Control --> Reordering Rule`
+:menuselection:`Inventory --> MASTER DATA --> Reordering Rule`
 in the drop down menu. There, click on **Create** to set minimum and
 maximum stock values for a given product.
 
@@ -56,7 +56,7 @@ Make to Order
 --------------
 
 The Make to Order configuration is available on your product form
-through your :menuselection:`Inventory module --> Inventory control --> Products`
+through your :menuselection:`Inventory module --> MASTER DATA --> Products`
 (or any other module where products are available).
 
 On the product form, under **Inventory**, click on **Make To Order**.

@@ -10,9 +10,9 @@ Creating a new location
 
 In order to be able to create new locations, you must allow the system
 to manage multiple locations. In the **Inventory** module, open the
-menu :menuselection:`Configuration --> Settings`. In the **Location &
-Warehouse** section, tick the **Manage several locations per warehouse**
-box, then click on **Apply**.
+menu :menuselection:`Configuration --> Settings`. In the **
+Warehouse** section, tick the **Track product location in your warehouse**
+box, then click on **Save**.
 
 .. image:: media/location_creation02.png
    :align: center
@@ -36,7 +36,7 @@ When you are finished, click on **Save**.
 
 .. note::
     A warehouse also corresponds to a location. As the locations 
-    are hierarchical, Odoo will create the parent location of the 
+    are hierarchical, Flectra will create the parent location of the
     warehouse, containing all the sublocations in it.
 
 .. seealso::

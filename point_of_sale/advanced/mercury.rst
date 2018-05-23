@@ -1,18 +1,18 @@
-=============================================================
-How to accept credit card payments in Odoo POS using Mercury?
-=============================================================
+================================================================
+How to accept credit card payments in Flectra POS using Mercury?
+================================================================
 
 Overview
 ========
 
 A **MercuryPay** account (see `MercuryPay website <https://www.mercurypay.com>`__.) 
 is required to accept credit
-card payments in Odoo 9 POS with an integrated card reader. MercuryPay
+card payments in Flectra POS with an integrated card reader. MercuryPay
 only operates with US and Canadian banks making this procedure only
 suitable for North American businesses. An alternative to an integrated
 card reader is to work with a standalone card reader, copy the
-transaction total from the Odoo POS screen into the card reader, and
-record the transaction in Odoo POS.
+transaction total from the Flectra POS screen into the card reader, and
+record the transaction in Flectra POS.
 
 Module installation
 ===================

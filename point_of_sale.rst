@@ -1,4 +1,4 @@
-:banner: banners/pos.jpg
+:banner: banners/flectra_point_of_sale.jpg
 
 =============
 Point of Sale
@@ -12,4 +12,3 @@ Point of Sale
    point_of_sale/restaurant
    point_of_sale/advanced
    point_of_sale/analyze
-   point_of_sale/belgian_fdm

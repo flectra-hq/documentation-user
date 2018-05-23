@@ -1,4 +1,4 @@
-:banner: banners/inventory.jpg
+:banner: banners/flectra_inventory.jpg
 
 =========
 Inventory

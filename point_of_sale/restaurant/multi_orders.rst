@@ -32,5 +32,4 @@ button. A message will appear to confirm the order deletion.
 
 .. seealso::
     * :doc:`../advanced/register`
-    * :doc:`../advanced/reprint`
     * :doc:`transfer`

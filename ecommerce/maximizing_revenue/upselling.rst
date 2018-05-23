@@ -21,5 +21,3 @@ To do so:
 
 .. image:: ./media/upsell_publish.png
    :align: center
-
-

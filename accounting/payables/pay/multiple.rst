@@ -2,7 +2,7 @@
 How to pay several bills at once?
 =================================
 
-Odoo provides a simple and effective way to handle several bills at
+Flectra provides a simple and effective way to handle several bills at
 once, with various quick or complex options. With one single process,
 anyone is able to handle bills and payment in just a few clicks.
 
@@ -127,28 +127,7 @@ payment term.
 .. image:: ./media/multiple10.png
   :align: center
 
-We have created the following bills:
+We have created the following bills:-
 
 .. image:: ./media/multiple11.png
   :align: center
-
-We will pay the invoices by creating bank statement where we will adjust
-the cash discount our vendor provided under payment terms.
-
-.. image:: ./media/multiple12.png
-  :align: center
-
-Before reconciling this bank statement, we need to create one statement
-model for cash discount.
-
-.. image:: ./media/multiple13.png
-  :align: center
-
-Now we are going back to bank statement and opening reconcile view.
-
-.. seealso::
-
-	For bank statement reconciliation with model option, see
-
-	* :doc:`../../bank/reconciliation/configure`
-

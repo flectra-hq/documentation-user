@@ -3,14 +3,14 @@ How is the scheduled delivery date computed?
 ============================================
 
 Scheduled dates are computed in order to be able to plan deliveries,
-receptions and so on. Depending on the habits of your company Odoo
-automatically generates scheduled dates via the scheduler. The Odoo
+receptions and so on. Depending on the habits of your company Flectra
+automatically generates scheduled dates via the scheduler. The Flectra
 scheduler computes everything per line, whether it's a manufacturing
 order, a delivery order, a sale order, etc. The dates that are computed
-are dependent on the different leads times configured in Odoo.
+are dependent on the different leads times configured in Flectra.
 
 Configuring lead times
-======================
+=======================
 
 Configuring **lead times** is a first essential move in order to compute
 scheduled dates. Lead times are the delays (in term of delivery,
@@ -25,7 +25,7 @@ At a product level
 
 Is the time needed for the supplier to deliver your purchased product.
 To configure the supplier lead time select a product, and go in the
-**Inventory** tab. You will have to add a vendor to your product in order
+**Purchase** tab. You will have to add a vendor to your product in order
 to select a supplier lead time.
 
 .. image:: media/scheduled_dates05.png
@@ -81,8 +81,8 @@ numbers of security days from the calculation and thus to compute a
 scheduled date earlier than the one you promised to your client. In that
 way you are sure to be able to keep your commitment.
 
-To set ut your security dates, go to :menuselection:`Settings --> General settings` and
-click on **Configure your company data**.
+To set ut your security dates, go to :menuselection:`Settings --> Inventory` and
+go to **Advanced Scheduling**.
 
 .. image:: media/scheduled_dates04.png
    :align: center
@@ -125,9 +125,9 @@ At sale order level:
 
 -  **Requested date**:
 
-Odoo offers the possibility to select a requested date by the client by
+Flectra offers the possibility to select a requested date by the client by
 indicating the date in the other information tab of the sales order.
-If this date is earlier than the theoreticaly computed date odoo will
+If this date is earlier than the theoreticaly computed date Flectra will
 automatically display a warning.
 
 .. image:: media/scheduled_dates07.png

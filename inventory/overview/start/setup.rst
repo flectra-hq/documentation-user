@@ -1,13 +1,14 @@
-============================
-How to setup Odoo inventory?
-============================
+===============================
+How to setup Flectra inventory?
+===============================
 
-The Odoo Inventory application has an implementation guide that you
+The Flectra Inventory application has an implementation guide that you
 should follow to configure it. It's a step-by-step manual with links to
 the different screens you need.
 
 Once you have installed the **Inventory** application, click on
-the top-right progress bar to get access to the implementation guide.
+Settings --> Dashboard --> Implementation part to get access to the
+implementation guide.
 
 .. image:: media/setup01.png
    :align: center

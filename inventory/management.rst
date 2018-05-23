@@ -10,5 +10,4 @@ Warehouse Management
    management/delivery
    management/incoming
    management/misc
-   management/lots_serial_numbers
    management/reporting

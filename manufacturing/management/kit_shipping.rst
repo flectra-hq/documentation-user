@@ -3,7 +3,7 @@ How to Sell a Set of Products as a Kit
 ======================================
 
 A *kit* is a set of components that are delivered without first being
-assembled or mixed. Kits are described in Odoo using *bills of
+assembled or mixed. Kits are described in Flectra using *bills of
 materials*. There are two basic ways to configure kits, depending on
 how stock of the kit product is to be managed. In either case, both the
 Inventory and Manufacturing apps must be installed.
@@ -43,7 +43,7 @@ configuration.
 
 Once the products are configured, create a bill of materials for the kit
 product. Add each component and its quantity. Select the BoM Type
-**Ship this product as a set of components**. All other options may
+**Kit**. All other options may
 be left with their default values.
 
 .. image:: media/kit_shipping04.png

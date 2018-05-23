@@ -3,9 +3,9 @@ Register bank statements manually
 =================================
 
 Overview
-========
+=========
 
-With Odoo, you can import your bank statements, synchronize with your
+With Flectra, you can import your bank statements, synchronize with your
 bank but also register your bank statements manually.
 
 Configuration
@@ -58,7 +58,7 @@ clicking on **Reconcile # Items**.
    :align: center
 
 Click on **Validate** to reconcile your bank statement. If the partner
-is missing, Odoo will ask you to **select a partner**.
+is missing, Flectra will ask you to **select a partner**.
 
 .. image:: media/manual06.png
    :align: center
@@ -97,4 +97,3 @@ To close the bank statement, just click on **Validate**.
 .. seealso::
 
 	* :doc:`../reconciliation/use_cases`
-	* :doc:`../feeds/synchronize`

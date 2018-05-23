@@ -9,7 +9,7 @@ dispose assets and perform reports on your company assets.
 
 As an example, you may buy a car for $36,000 (gross value) and you plan
 to amortize it over 36 months (3 years). Every months (periodicity),
-Odoo will create a depreciation entry automatically reducing your assets
+Flectra will create a depreciation entry automatically reducing your assets
 value by $1,000 and passing $1,000 as an expense. After 3 years, this
 assets accounts for $0 (salvage value) in your balance sheet.
 
@@ -31,8 +31,8 @@ Start by *installing the Asset module.*
 Once the module is installed, you should see two new menus in the
 accounting application:
 
--  :menuselection:`Adviser --> Assets`
--  :menuselection:`Configuration --> Asset Types`
+-  :menuselection:`Adviser --> Management --> Assets`
+-  :menuselection:`Configuration --> Management --> Asset Types`
 
 Before registering your first asset, you must :ref:`define your Asset
 Types <accounting/adviser/assets_management/defining>`.
@@ -83,10 +83,6 @@ Explanation of the fields:
 
 .. demo:fields:: account_asset.action_account_asset_asset_form
 
-.. demo:action:: account_asset.action_account_asset_asset_form
-
-   Try creating an *Asset* in our online demonstration
-
 Create assets automatically from a supplier bill
 ================================================
 
@@ -110,7 +106,7 @@ before posting them to your accounts.
 How to deprecate an asset?
 ==========================
 
-Odoo will create depreciation journal entries automatically at the right
+Flectra will create depreciation journal entries automatically at the right
 date for every confirmed asset. (not the draft ones). You can control in
 the depreciation board: a green bullet point means that the journal
 entry has been created for this line.
@@ -132,7 +128,7 @@ How to modify an existing asset?
 -  Click on :guilabel:`Modify Depreciation`
 -  Change the number of depreciation
 
-Odoo will automatically recompute a new depreciation board.
+Flectra will automatically recompute a new depreciation board.
 
 How to record the sale or disposal of an asset?
 ===============================================
@@ -143,7 +139,7 @@ will post the full costs of this assets but it will not record the
 sales transaction that should be registered through a customer
 invoice.
 
-.. todo:: → This has to be changed in Odoo: selling an asset should:
+.. todo:: → This has to be changed in Flectra: selling an asset should:
 
    #. remove all "Red" lines
    #. create a new line that deprecate the whole residual value

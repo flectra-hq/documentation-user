@@ -22,18 +22,10 @@ Applications configuration
 
 First, you need to activate the use of the landed costs. Go to
 :menuselection:`Inventory application --> Configuration --> Setting`. 
-Check accounting option **Include landed costs in product costing computation**
-& **Perpetual inventory valuation**, then click on **Apply** to save
+Check accounting option **Landed Costs**, then click on **Save** to save
 changes.
 
 .. image:: media/landed_costs01.png
-    :align: center
-
-Then go to the :menuselection:`Purchase application --> Configuration --> Setting`.
-Choose costing method **Use a 'Fixed', 'Real' or 'Average' price
-costing method**, then click on **Apply** to save changes.
-
-.. image:: media/landed_costs02.png
     :align: center
 
 Landed Cost Types
@@ -55,7 +47,7 @@ Link landed costs to a transfer
 ===============================
 
 To calculate landed costs, go to 
-:menuselection:`Inventory --> Inventory Control --> Landed Costs`.
+:menuselection:`Inventory --> MASTER DATA --> Landed Costs`.
 
 Click on the **Create** button and select the picking(s) you want to
 attribute landed costs.

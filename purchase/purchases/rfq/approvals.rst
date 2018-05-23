@@ -8,8 +8,8 @@ Two level approval setup
 Double validation on purchases forces a validation when the purchased amount
 exceeds a certain limit.
 
-Install **Purchase Management** module and then go to **General Settings** to
-configure the company data.
+Install **Purchase Management** module and then go to **Settings** to
+configure the order approval.
 
 .. image:: media/approvals01.png
     :align: center

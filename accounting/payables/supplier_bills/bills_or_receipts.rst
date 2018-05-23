@@ -19,7 +19,7 @@ line, as vendors bills apply one tax amount over the entire bill.
 
 If my company's bank account is used to pay for goods where only a
 purchase receipt are issued I should use the purchase receipts function
-in Odoo to handle them in accounting.
+in Flectra to handle them in accounting.
 
 Let's take the following example: we need to buy tea for our
 customers from a local tea store that doesn't issue bills. We go every
@@ -29,7 +29,7 @@ the company's bank account.
 Configuration
 =============
 
-To handle purchase receipts in Odoo one module and one app has to be
+To handle purchase receipts in Flectra one module and one app has to be
 installed. Go into the app module and install the accounting app.
 
 .. image:: ./media/bill01.png
@@ -57,12 +57,7 @@ a debt accounting entry whereas Pay Now will immediately credit the Bank
 account.
 
 In most cases you immediately pay, we will thus select the Pay Directly
-option. Add the products, the related account and the appropriate taxe.
-For the example we suppose the tea is a 12% taxe and the Tea Pott 21%.
+option.
 
 .. image:: ./media/bill03.png
   :align: center
-
-Validate the Purchase Receipt to post it. Don't forget you need to
-:doc:`reconcile payments <../../bank/reconciliation/use_cases>` in order to
-completely close the transaction in your accounting.

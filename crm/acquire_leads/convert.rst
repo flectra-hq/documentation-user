@@ -34,7 +34,7 @@ channel/person and if you need to create a new customer.
 .. image:: media/convert03.png
     :align: center
 
-If you already have an opportunity with that customer Odoo will
+If you already have an opportunity with that customer Flectra will
 automatically offer you to merge with that opportunity. In the same
-manner, Odoo will automatically offer you to link to an existing
+manner, Flectra will automatically offer you to link to an existing
 customer if that customer already exists.

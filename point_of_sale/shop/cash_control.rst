@@ -9,12 +9,12 @@ Configuring cash control
 ========================
 
 On the **Point of Sale** dashboard, 
-click on :menuselection:`More --> Settings`.
+click on :menuselection:`... --> Settings`.
 
 .. image:: media/cash_control01.png
     :align: center
 
-On this page, scroll and tick the the option **Cash Control**.
+On this page, scroll and tick the option **Cash Control**.
 
 .. image:: media/cash_control02.png
     :align: center

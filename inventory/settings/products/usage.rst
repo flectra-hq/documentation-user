@@ -42,7 +42,7 @@ Packaging is the physical container that protects your product.
 If you are selling computers, the packaging contains the computer with
 the notice and the power plug.
 
-In Odoo, packagings are just used for indicative purpose.
+In Flectra, packagings are just used for indicative purpose.
 
 .. image:: media/usage03.png
     :align: center
@@ -67,6 +67,4 @@ When you are selling several trays, you might wrap all the trays into a
 ``box`` or in a ``plastic`` wrapping. It is the **package**.
 
 .. seealso::
-    * :doc:`../../overview/start/setup`
     * :doc:`uom`
-    * :doc:`packages`

@@ -12,29 +12,21 @@ For this, go in :menuselection:`Accounting --> Reporting --> France --> FEC`.
     If you do not see the submenu **FEC**, go in **Apps** and search for the module
     called **France-FEC** and verify if it is well installed. 
 
-French Accounting Reports
-=========================
 
-If you have installed the French Accounting, you will have access to some accounting reports specific to France: 
-
-- Bilan comptable
-- Compte de résultats
-- Plan de Taxes France 
-
-Get the VAT anti-fraud certification with Odoo
-==============================================
+Get the VAT anti-fraud certification with Flectra
+=================================================
 
 As of January 1st 2018, a new anti-fraud legislation comes into effect 
 in France and DOM-TOM. This new legislation stipulates certain criteria 
 concerning the inalterability, security, storage and archiving of sales data. 
-These legal requirements are implemented in Odoo, version 9 onward, 
-through a module and a certificate of conformity to download.
+These legal requirements are implemented in Flectra, through a module and a
+certificate of conformity to download.
 
 Is my company required to use an anti-fraud software?
 -----------------------------------------------------
 
 Your company is required to use an anti-fraud cash register software like 
-Odoo (CGI art. 286, I. 3° bis) if:
+Flectra (CGI art. 286, I. 3° bis) if:
 
 * You are taxable (not VAT exempt) in France or any DOM-TOM,
 * Some of your customers are private individuals (B2C).
@@ -42,40 +34,35 @@ Odoo (CGI art. 286, I. 3° bis) if:
 This rule applies to any company size. Auto-entrepreneurs are exempted from 
 VAT and therefore are not affected.
 
-Get certified with Odoo
------------------------
+Get certified with Flectra
+--------------------------
 
-Getting compliant with Odoo is very easy.
+Getting compliant with Flectra is very easy.
 
 Your company is requested by the tax administration to deliver a certificate 
 of conformity testifying that your software complies with the anti-fraud 
-legislation. This certificate is granted by Odoo SA to Odoo Enterprise users 
-`here <https://www.odoo.com/my/contract/french-certification/>`__. 
-If you use Odoo Community, you should 
-`upgrade to Odoo Enterprise <https://www.odoo.com/documentation/online/setup/enterprise.html>`__
-or contact your Odoo service provider. 
+legislation.
 
 In case of non-conformity, your company risks a fine of €7,500.
 
 To get the certification just follow the following steps:
 
-* Install the anti-fraud module fitting your Odoo environment from the 
+* Install the anti-fraud module fitting your Flectra environment from the 
   *Apps* menu:
 
-  * if you use Odoo Point of Sale: *l10n_fr_pos_cert*: France - VAT Anti-Fraud Certification for Point of Sale (CGI 286 I-3 bis)
+  * if you use Flectra Point of Sale: *l10n_fr_pos_cert*: France - VAT Anti-Fraud Certification for Point of Sale (CGI 286 I-3 bis)
 
   * in any other case: *l10n_fr_certification*: France - VAT Anti-Fraud Certification (CGI 286 I-3 bis)
 * Make sure a country is set on your company, otherwise your entries won’t be 
   encrypted for the inalterability check. To edit your company’s data, 
   go to :menuselection:`Settings --> Users & Companies --> Companies`. 
   Select a country from the list; Do not create a new country.
-* Download the mandatory certificate of conformity delivered by Odoo SA `here <https://www.odoo.com/my/contract/french-certification/>`__.
 
 .. note:: * To install the module in any system created before 
    December 18th 2017, you should update the modules list.
    To do so, activate the developer mode from the *Settings* menu.
    Then go to the *Apps* menu and press *Update Modules List* in the top-menu.
- * In case you run Odoo on-premise, you need to update your installation 
+ * In case you run Flectra on-premise, you need to update your installation 
    and restart your server beforehand.
  * If you have installed the initial version of the anti-fraud module
    (prior to December 18th 2017), you need to update it.
@@ -122,9 +109,9 @@ corrupted document recorded in the system.
 
 Users with *Manager* access rights can launch the inalterability check. 
 For POS orders, go to 
-:menuselection:`Point of Sales --> Reporting --> French Statements`. 
-For invoices or journal entries, 
-go to :menuselection:`Invoicing/Accounting --> Reporting --> French Statements`.
+:menuselection:`Point of Sales --> Reporting --> French Statements`.
+For invoices or journal entries,
+go to :menuselection:`Invoicing/Accounting --> Reporting --> France`.
 
 Storage
 ~~~~~~~
@@ -135,7 +122,7 @@ Such closings distinctly compute the sales total of the period as well as
 the cumulative grand totals from the very first sales entry recorded 
 in the system.
 
-Closings can be found in the *French Statements* menu of Point of Sale, 
+Closings can be found in the *French Statements* menu of Point of Sale,
 Invoicing and Accounting apps.
 
 .. note::
@@ -166,12 +153,12 @@ Responsibilities
 Do not uninstall the module! If you do so, the hashes will be reset and none 
 of your past data will be longer guaranteed as being inalterable.
 
-Users remain responsible for their Odoo instance and must use it with 
+Users remain responsible for their Flectra instance and must use it with 
 due diligence. It is not permitted to modify the source code which guarantees 
 the inalterability of data.
  
-Odoo absolves itself of all and any responsibility in case of changes 
-in the module’s functions caused by 3rd party applications not certified by Odoo.
+Flectra absolves itself of all and any responsibility in case of changes 
+in the module’s functions caused by 3rd party applications not certified by Flectra.
 
 
 More Information

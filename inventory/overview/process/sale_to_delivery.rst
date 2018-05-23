@@ -6,11 +6,11 @@ Overview
 ========
 
 Inventory is the heart of your business. It can be really complicated,
-but with Odoo, doing a receipt or a delivery has never been easier. We
+but with Flectra, doing a receipt or a delivery has never been easier. We
 will show you in this document how easy to do a full process, from the
 receipt to the delivery.
 
-Odoo inventory is fully integrated with other applications, such as
+Flectra inventory is fully integrated with other applications, such as
 **Purchase**, **Sales** or **Inventory**. But is not limited to those processes, it
 is also fully integrated with our **e-Commerce**, **Manufacturing** and **Repairs**
 applications.
@@ -102,11 +102,7 @@ First, you will need to install the **Sales Management** application. Go to
 Place a sale order
 ------------------
 
-Go to the **Sales** applications. Click on the **Quotations** button of your
-team.
-
-.. image:: media/sale_to_delivery08.png
-    :align: center
+Go to the **Sales** applications. Click on the **Quotations** button.
 
 You will get the list of all your quotations. Click on the **Create**
 button.
@@ -175,7 +171,7 @@ Advanced flows
 ===============
 
 In this document, the flows that are explained are the most simple ones.
-Odoo also suit for companies having advanced warehouse management.
+Flectra also suit for companies having advanced warehouse management.
 
 -   By default, only **receipts** and **deliveries** are configured but you can
     activate the use of multi-locations and multi-warehouses to do
@@ -188,4 +184,4 @@ Odoo also suit for companies having advanced warehouse management.
 
 -   Much more: **Barcode scanning**, **serial numbers**, **lots**, **cross-docking**,
     **dropshipping**, integration with a **third-party** shipper, **putaway** and
-    **removal** strategies.... All of it is possible with Odoo.
+    **removal** strategies.... All of it is possible with Flectra.

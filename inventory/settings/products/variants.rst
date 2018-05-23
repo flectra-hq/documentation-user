@@ -76,7 +76,7 @@ Using variants has the following impacts:
 When should you avoid using variants?
 -------------------------------------
 
-Using variants may add a level of complexity on the way you use Odoo.
+Using variants may add a level of complexity on the way you use Flectra.
 You should consider using variants only if you need it to reduce the
 complexity of managing lots of products that are similars.
 
@@ -118,9 +118,9 @@ Activate the variant feature
 
 Before you can use product variants, you must first activate the product
 variants in the settings. To do so, you must go to the Sales app. In the
-menu :menuselection:`Configuration --> Settings`, locate the **Products Variants** line,
-and tick the option **Products can have several attributes**, then click
-on **Apply**.
+menu :menuselection:`Configuration --> Settings`, locate the **Product Catalog** line,
+and tick the option **Attributes and Variants**, then click
+on **Save**.
 
 .. image:: media/variant01.png
    :align: center

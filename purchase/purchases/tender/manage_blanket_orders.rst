@@ -78,9 +78,6 @@ quantity.
 When all of the releases (purchase orders) have been delivered and paid, you can click on
 **Validate** and **Done**.
 
-View `Purchase Agreements <https://demo.odoo.com/?module=purchase_requisition.action_purchase_requisition>`__
-in our Online Demonstration.
-
 .. seealso:: 
 
 	:doc:`../../overview/process/from_po_to_invoice`

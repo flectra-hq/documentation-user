@@ -10,15 +10,15 @@ necessary. For example, if you buy products in a country where the
 metric system is of application and sell the in a country where the
 imperial system is used, you will need to convert the units.
 
-You can set up Odoo to work with different units of measure for one
+You can set up Flectra to work with different units of measure for one
 product.
 
 Configuration
 =============
 
 In the **Inventory** application, go to :menuselection:`Configuration --> Settings`.
-In the **Products** section, select **Some products may be sold/purchased in
-different units of measure (advanced)**, then click on **Apply**.
+In the **Product Catalog** section, select **Sell and
+purchase products in different units of measure**, then click on **Save**.
 
 .. image:: media/uom09.png
    :align: center
@@ -26,7 +26,7 @@ different units of measure (advanced)**, then click on **Apply**.
 Setting up units on your products
 =================================
 
-In :menuselection:`Inventory Control --> Products`, open the product which you would like to
+In :menuselection:`MASTER DATA --> Products`, open the product which you would like to
 change the purchase/sale unit of measure, and click on **Edit**.
 
 In the **Unit of Measure** section, select the unit in which the product
@@ -46,7 +46,7 @@ Transfer from one unit to another
 =================================
 
 When doing inter-unit transfers, the rounding is automatically done by
-Odoo.
+Flectra.
 
 The unit of measure can be changed throughout the whole process. The
 only condition is that the unit of measure is part of the same category.
@@ -69,20 +69,6 @@ In this example, we are in the egg business :
 .. note::
     All internal transfers are expressed in the **Product Unit of
     Measure**.
-
-Procurement
------------
-
-When doing your procurement request, you can still change the unit of
-measure.
-
-.. image:: media/uom06.png
-   :align: center
-
-The unit of measure can also be changed in the purchase order :
-
-.. image:: media/uom03.png
-   :align: center
 
 Quality Control
 ---------------
@@ -107,12 +93,6 @@ the sale order document. When doing it, the price is automatically
 computed from the unit to the dozen.
 
 .. image:: media/uom04.png
-   :align: center
-
-In the delivery order, the initial demand is done in the sales order unit
-of measure :
-
-.. image:: media/uom02.png
    :align: center
 
 But the transfer is done in the product unit of measure. Everything is

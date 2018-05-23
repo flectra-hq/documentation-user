@@ -11,7 +11,7 @@ it usually leads to better offers.
 
 For more information on best uses, please read the chapter `Request for
 Quotation, Purchase Tender or Purchase
-Order? <https://www.odoo.com/documentation/user/11.0/purchase/overview/process/difference.html>`__
+Order? <https://www.flectrahq.com/documentation/user/11.0/purchase/overview/process/difference.html>`__
 
 Activate the Purchase Tender function
 -------------------------------------
@@ -22,7 +22,7 @@ you must first activate the option.
 In the Purchases module, open the Configuration menu and click on
 Settings. In the Purchase Order section, locate the **Calls for
 Tenders** and tick the box Allow using call for tenders... (advanced),
-then click on **Apply**.
+then click on **Save**.
 
 .. image:: media/manage_multiple_offers00.png
 	:align: center
@@ -56,7 +56,7 @@ products as you wish.
 .. image:: media/manage_multiple_offers02.png
 	:align: center
 
-Click on **Confirm Call**.
+Click on **Confirm**.
 
 Now click on the button **New Quotation**. A RfQ is created with the
 products chosen on the PT. Choose a **Vendor** and send the RfQ to the
@@ -72,9 +72,6 @@ Then, choose the ones you want to accept by clicking on **Confirm
 Order** on the RfQs and **Cancel** the others.
 
 You can now click on **Done** on the PT.
-
-View `Purchase Tenders <https://demo.odoo.com/?module=purchase_requisition.action_purchase_requisition>`__
-in our Online Demonstration.
 
 .. seealso:: 
 

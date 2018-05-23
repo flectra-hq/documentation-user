@@ -5,7 +5,7 @@ How to process delivery orders in two steps (pick + ship)?
 Overview
 ========
 
-When an order goes to the shipping department for final delivery, Odoo
+When an order goes to the shipping department for final delivery, Flectra
 is set up by default to utilize a **one-step** operation: once all goods are
 available, they are able to be shipped in a single delivery order.
 However, your company's business process may have one or more steps that
@@ -13,7 +13,7 @@ happen before shipping. In the **two steps** process, the items in a delivery
 order are **picked** in the warehouse and brought to an **output location** for
 **shipping**. The goods are then shipped.
 
-In order to accomplish a **Pick + Ship** delivery in Odoo, there are a few 
+In order to accomplish a **Pick + Ship** delivery in Flectra, there are a few
 necessary configuration steps. These steps create an additional
 location, which by default is called **Output**. So, if your warehouse's
 code is ``WH``, this configuration will create a location called
@@ -31,24 +31,23 @@ Configuration
 Allow management of routes
 --------------------------
 
-Odoo configures movement of delivery orders via the **routes**. Routes
+Flectra configures movement of delivery orders via the **routes**. Routes
 provide a mechanism to chain different actions together. In this case,
 we will chain the picking step to the shipping step.
 
 To allow management of routes, go to :menuselection:`Configuration --> Settings`.
 
-Ensure that the radio button **Advanced routing of products using
-rules** is checked.
+Ensure that the checkbox **Multi-Step Routes** is checked.
 
 .. image:: media/two_steps05.png
    :align: center
 
-Click on **Apply** at the top of the page to save changes (if you needed to
-check the radio button above).
+Click on **Save** at the top of the page to save changes (if you needed to
+check the checkbox above).
 
 .. note::
-    If you checked option **Advanced routing of products using rules**
-    you may need to activate **Manage several locations per warehouse** if it
+    If you checked option **Multi-Step Routes**
+    you may need to activate **Storage Locations** if it
     wasn't activated beforehand.
 
 Configure warehouse for Pick + Ship

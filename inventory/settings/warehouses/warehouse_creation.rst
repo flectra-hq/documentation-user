@@ -10,9 +10,9 @@ Creating a new warehouse
 
 In order to be able to create a new warehouse, you must allow the system
 to manage multiple locations. In the **Inventory** module, open the menu
-:menuselection:`Settings --> Configuration`. In the **Location &
-Warehouse** section, tick the **Manage several locations per warehouse**
-box, then click on **apply**.
+:menuselection:`Settings --> Configuration`. In the **
+Warehouse** section, tick the **Manage several locations warehouse**
+box, then click on **Save**.
 
 .. image:: media/warehouse_creation02.png
    :align: center

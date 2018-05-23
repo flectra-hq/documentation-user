@@ -6,7 +6,7 @@ A bill of materials (BoM) is a document that describes the component
 products, the quantity of each component, and the process required to
 manufacture a product, including a routing and individual steps.
 
-In Odoo, each product may have multiple BoMs associated with it, but a
+In Flectra, each product may have multiple BoMs associated with it, but a
 BoM can only be associated with a single product. A single BoM can,
 however, describe multiple variants of the same product.
 
@@ -21,7 +21,7 @@ documentation.
 
 Before creating your first bill of materials, you will need to create a
 product and at least one component (components are considered products
-in Odoo). You can do so from :menuselection:`Master Data --> Products`, or
+in Flectra). You can do so from :menuselection:`Master Data --> Products`, or
 on the fly from the relevant fields on the BoM form. Review the
 Inventory chapter for more information about configuring products. Once
 you have created a product and at least one component, select them from
@@ -54,13 +54,10 @@ product will be produced under the **Miscellaneous** tab using the field
 **Produced at Operation**. If this field is left blank, the products
 will be consumed/produced at the final operation in the routing.
 
-.. image:: media/bill_configuration01.png
-    :align: center
-
 Adding Byproducts to a BoM
 ==========================
 
-In Odoo, a byproduct is any product produced by a BoM in addition to the
+In Flectra, a byproduct is any product produced by a BoM in addition to the
 primary product.
 
 To add byproducts to a BoM, you will first need to enable them from
@@ -87,7 +84,7 @@ your manufacturing flow, or to use the same subassembly in multiple
 BoMs. A BoM that employs subassemblies is often referred to as a
 multi-level BoM.
 
-Multi-level bills of materials in Odoo are accomplished by creating a
+Multi-level bills of materials in Flectra are accomplished by creating a
 top-level BoM and subassembly BoMs. Next, the procurement route of the
 subassembly product is defined. This ensures that every time a
 manufacturing order for the top-level product is created, a
@@ -122,7 +119,7 @@ preference.
 Using a Single BoM to Describe Several Variants of a Single Product
 ===================================================================
 
-Odoo allows you to use one bill of materials for multiple variants of
+Flectra allows you to use one bill of materials for multiple variants of
 the same product. Simply enable variants from
 :menuselection:`Configuration --> Settings`.
 

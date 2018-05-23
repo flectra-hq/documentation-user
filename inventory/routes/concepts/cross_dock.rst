@@ -15,7 +15,7 @@ customer delivery.
 .. note::
 
    For more information on how to organise your warehouse, read
-   `What is cross docking and is it for me? <https://www.odoo.com/blog/business-hacks-1/post/what-is-cross-docking-and-is-it-for-me-270>`_
+   `What is cross docking and is it for me? <https://www.flectrahq.com/blog/business-hacks-1/post/what-is-cross-docking-and-is-it-for-me-270>`_
 
 Configuration
 =============
@@ -23,9 +23,8 @@ Configuration
 Warehouse and routes
 --------------------
 
-In the **Inventory** module, open :menuselection:`Configuration --> Settings -->
-Location & Warehouse`, then in **Routes**, select **Advanced routing of
-products using rules**, then click on **Apply**.
+In the **Inventory** module, open :menuselection:`Configuration --> Settings`,
+then in **Warehouse**, select **Multi-Step Routes**, then click on **Save**.
 
 .. image:: media/cross02.png
    :align: center

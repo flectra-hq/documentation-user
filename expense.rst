@@ -1,4 +1,4 @@
-:banner: banners/expense.jpg
+:banner: banners/flectra_expense.jpg
 
 ========
 Expenses

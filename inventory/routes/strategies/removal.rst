@@ -9,13 +9,13 @@ Removal strategies are usually in picking operations to select the best
 products in order to optimize the distance for the worker, for quality
 control purpose or due to reason of product expiration.
 
-When a product movement needs to be done, Odoo will find available
-products that can be assigned to shipping. The way Odoo assign these
+When a product movement needs to be done, Flectra will find available
+products that can be assigned to shipping. The way Flectra assign these
 products depend on the **removal strategy** that is defined on the **product 
 category** or on the **location**.
 
 Configuration
-=============
+==============
 
 In the **Inventory** application, go to :menuselection:`Configuration
 --> Settings`:
@@ -26,9 +26,9 @@ In the **Inventory** application, go to :menuselection:`Configuration
 .. image:: media/removal02.png
     :align: center
 
-Check **Track lots or serial numbers**, **Manage several location per
-warehouse** and **Advanced routing of products using rules**, then click
-on **Apply**.
+Check **Lots & Serial Numbers**, **Storage Locations** and
+**Multi-Step Routes**, then click
+on **Save**.
 
 Then, open :menuselection:`Configuration --> Locations` 
 and open the location on which you want to apply a removal strategy.
@@ -81,15 +81,15 @@ have a shelf life.
 Go to :menuselection:`Inventory --> Configuration --> Locations`, 
 open the stock location and set **LIFO** removal strategy.
 
-In our example, let's check the current available stock of ``Ipod 32 Gb``
+In our example, let's check the current available stock of ``Ipod 16 Gb``
 on ``WH/Stock`` location.
 
 .. image:: media/removal06.png
     :align: center
 
-Create a sale order with ``10`` units of ``Ipod 32 Gb``.
+Create a sale order with ``10`` units of ``Ipod 16 Gb``.
 
-You can see in the outgoing shipment product that the ``Ipod 32
+You can see in the outgoing shipment product that the ``Ipod 16
 Gb`` are assigned with the **newest** lots, using the LIFO removal
 strategy.
 
@@ -103,15 +103,15 @@ In FEFO warehouse management, the products are dispatched from the
 warehouse according to their expiration date.
 
 Go to :menuselection:`Inventory --> Configuration --> Setting`. 
-Check the option **Define Expiration date on serial numbers**. 
-Then click on **Apply** to save changes.
+Check the option **Expiration Dates**.
+Then click on **Save** to save changes.
 
 .. image:: media/removal08.png
     :align: center
 
 This will allow you to set four expiration fields for each lot or serial number: 
 **best before date**, **end of life date**, **alert date** and **removal date**.
-These dates can be set from :menuselection:`Inventory Control --> Serial Numbers/Lots`.
+These dates can be set from :menuselection:`MASTER DATA --> Serial Numbers/Lots`.
 
 .. image:: media/removal09.png
     :align: center

@@ -3,7 +3,7 @@ How to do a bank wire transfer from one bank to another?
 ========================================================
 
 A company might have several bank accounts or cash registers. Within
-odoo it is possible to handle internal transfers of money with only a
+flectra it is possible to handle internal transfers of money with only a
 couple of clicks.
 
 We will take the following example to illustrate. My company has two
@@ -12,28 +12,6 @@ accounts to the another one.
 
 Configuration
 =============
-
-Check your Chart of Accounts and default transfer account
----------------------------------------------------------
-
-To handle internal transfers you need a transfer account in your charts
-of account. Odoo will generate an account automatically based on the
-country of your chart of account. To parameter your chart of account and
-check the default transfer account go into your the accounting module,
-select :menuselection:`Configuration --> Settings`.
-
-Your chart of accounts will be pre-installed depending on the country
-specified during your registration, it cannot be changed.
-
-.. image:: media/interbank04.png
-   :align: center
-
-The default transfer account will automatically be generated as well
-depending on your country's legislation. If necessary it can be modified
-from the same page.
-
-.. image:: media/interbank05.png
-   :align: center
 
 Create a second bank account / Journal
 --------------------------------------
@@ -62,7 +40,7 @@ Log an internal transfer
 ------------------------
 
 The first step is to register the internal paiement. To do so, go into
-your accounting dashboard. click on the **more** button of one of your banks
+your accounting dashboard. click on the **...** of one of your banks
 and select :menuselection:`New --> Internal transfer`. 
 
 .. image:: media/interbank01.png
@@ -89,7 +67,7 @@ accounts.
 Import bank statements and reconcile
 ------------------------------------
 
-Note that the bank balance computed by Odoo is different that the last
+Note that the bank balance computed by Flectra is different that the last
 statement of your bank.
 
 .. image:: media/interbank11.png
@@ -104,7 +82,7 @@ button of the corresponding bank to import them.
 .. image:: media/interbank07.png
    :align: center
 
-Fill in your **Transactions line**. Once done, Odoo will display a **Computed
+Fill in your **Transactions line**. Once done, Flectra will display a **Computed
 Balance**. that computed balance is the theorical end balance of your
 bank account. If it's corresponding to the bank statement, it means that no errors were
 made. Fill in the **Ending balance** and click on the **Reconcile** button.

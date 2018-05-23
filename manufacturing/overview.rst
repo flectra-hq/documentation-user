@@ -7,5 +7,5 @@ Overview
 .. toctree::
    :titlesonly:
 
-   I want to use Odoo Manufacturing <https://www.odoo.com/page/mrp-cloud-software>
+   I want to use Flectra Manufacturing <https://www.flectrahq.com/manufacturing>
 

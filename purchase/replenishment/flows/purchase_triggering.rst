@@ -28,10 +28,13 @@ In the purchases application, open the **Purchase** menu and click on
 on sales.
 
 Next to Routes, tick **Buy** and **Make to order** as a procurement method.
-When you are generating sales order, Odoo will automatically reorder the
+When you are generating sales order, Flectra will automatically reorder the
 same quantity through procurement.
 
 .. image:: media/purchase_triggering01.png
+    :align: center
+
+.. image:: media/purchase_triggering01_2.png
     :align: center
 
 Don't forget to set a vendor otherwise the rule won't be triggered.
@@ -104,9 +107,5 @@ To Do**. The delivery order is now ready to ship.
 The status of the delivery changed from **Waiting Availability** to
 **Available**. Validate the transfer to confirm the delivery.
 
-.. image:: media/purchase_triggering08.png
-    :align: center
-
 .. seealso::
     * :doc:`setup_stock_rule`
-    * :doc:`warning_triggering`

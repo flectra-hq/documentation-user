@@ -4,7 +4,7 @@ How to do inter-warehouses transfers?
 
 If you own different warehouses you might want to transfer goods from
 one warehouse to the other. This is very easy thanks to the inventory
-application in Odoo.
+application in Flectra.
 
 Configuration
 =============
@@ -12,7 +12,7 @@ Configuration
 First of all you have to select the multi locations option. Go to
 :menuselection:`Configuration --> Settings` in the **Inventory application**.
 Then tick the **Manage several locations per
-warehouse** option. Please don't forget to **apply** your changes.
+warehouse** option. Please don't forget to **Save** your changes.
 
 .. image:: media/inter01.png
    :align: center
@@ -54,9 +54,9 @@ Creating a new inventory
 
 If you create a new warehouse you might already have an existing
 physical inventory in it. In that case you should create an inventory in
-Odoo, if not you can skip this step.
+Flectra, if not you can skip this step.
 
-Go into the inventory application, select :menuselection:`Inventory Control -->
+Go into the inventory application, select :menuselection:`MASTER DATA -->
 Inventory Adjustment`. You can then create a new inventory by clicking on
 **Create**. Fill in the **Inventory Reference**, **Date**
 and be sure to select the right warehouse and location.
@@ -99,9 +99,9 @@ don't forget to **Validate** or **Mark as TODO** once you are done.
 .. image:: media/inter07.png
    :align: center
 
-If you select **Validate**, Odoo will process all quantities to transfer.
+If you select **Validate**, Flectra will process all quantities to transfer.
 
-If you select **Mark as TODO**, Odoo will put the transfer in **Waiting
+If you select **Mark as TODO**, Flectra will put the transfer in **Waiting
 Availability** status. Click on **Reserve** to reserve the amount of
 products in your source warehouse.
 
@@ -117,7 +117,7 @@ It is also possible to manually transfer each product:
    .. image:: media/inter09.png
       :align: center
 
-3. Click on the little pencil logo in the lower right
+3. Click on the little logo in the lower right
 corner in order to open the operation details window. In this new
 window you can manually indicate how much products you process
 
@@ -127,7 +127,7 @@ window you can manually indicate how much products you process
 .. tip::
 
 	If you decide to partially process the transfer order (e.g. a part of the
-	products can't be shipped yet due to an unexpected event), Odoo will
+	products can't be shipped yet due to an unexpected event), Flectra will
 	automatically ask if you wish to create a **backorder**.
 	Create a backorder if you expect to process the remaining products
 	later, do not create a backorder if you will not supply/receive the

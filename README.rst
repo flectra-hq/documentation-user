@@ -1,6 +1,6 @@
-===========================
-End-user Odoo documentation
-===========================
+==============================
+End-user Flectra documentation
+==============================
 
 Building requirements:
 
@@ -46,7 +46,7 @@ Custom features
 Extensions
 ----------
 
-Two custom directives are provided for integration with Odoo's demo
+Two custom directives are provided for integration with Flectra's demo
 system:
 
 * ``demo:fields:: {external_id}`` lists all the fields with a
@@ -80,7 +80,7 @@ system:
 Theme Customisations
 --------------------
 
-* The Odoo theme supports *Banner Images* at the top of
+* The Flectra theme supports *Banner Images* at the top of
   documents. These banners are configured by setting a ``:banner:``
   field at the top of the document (before the page title), the banner
   images will be looked up in the ``_static`` folder at the root of

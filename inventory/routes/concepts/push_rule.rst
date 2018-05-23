@@ -3,7 +3,7 @@ What is a push rule?
 ====================
 
 Overview 
-=========
+========
 
 The push system of inventory control involves forecasting inventory
 needs to meet customer demand. Companies must predict which products
@@ -30,7 +30,7 @@ Configuration
 
 Push rules are part of the routes. Go to the menu 
 :menuselection:`Inventory --> Configuration --> Settings` 
-and tick **Advance routing of products using rules**.
+and tick **Multi-Step Routes**.
 
 .. image:: media/push_rule01.png
     :align: center
