@@ -512,7 +512,7 @@ modules to help you build your contents on your website:
 
 - **Flectra Forum**: let your community create contents for you. Example:
   `https://flectrahq.com/forum/1 <https://flectrahq.com/forum/1>`__
-  (accounts for 30% of Flectra.com landing pages)
+  (accounts for 30% of Flectrahq.com landing pages)
 
 - **Flectra Mailing List Archive**: publish mailing list archives on your
   website. Example:

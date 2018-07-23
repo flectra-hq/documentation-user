@@ -9,9 +9,9 @@ Tender is sent to multiple suppliers, stating each are competing with
 one another, and that the best offer will win. The main interest is that
 it usually leads to better offers.
 
-For more information on best uses, please read the chapter `Request for
-Quotation, Purchase Tender or Purchase
-Order? <https://www.flectrahq.com/documentation/user/11.0/purchase/overview/process/difference.html>`__
+.. For more information on best uses, please read the chapter `Request for
+.. Quotation, Purchase Tender or Purchase
+.. Order? <https://www.flectrahq.com/documentation/user/11.0/purchase/overview/process/difference.html>`__
 
 Activate the Purchase Tender function
 -------------------------------------
