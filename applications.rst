@@ -23,6 +23,7 @@ Applications
    saleadvancepricelist/saleadvancepricelist
    website_sale_advance_pricelist/websitesaleadvancepricelist
    helpdesk_basic/helpdesk.rst
+   account_cash_flow/cash_flow
    general
 
 
