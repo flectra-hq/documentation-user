@@ -22,6 +22,7 @@ Applications
    l10n_sg_gst/l10n_sg_gst5
    saleadvancepricelist/saleadvancepricelist
    website_sale_advance_pricelist/websitesaleadvancepricelist
+   helpdesk_basic/helpdesk.rst
    general
 
 
