@@ -5,7 +5,7 @@ End-user Flectra documentation
 Building requirements:
 
 * Python 2.7
-* recent `Sphinx <http://sphinx-doc.org>`_ (at least Sphinx 1.2)
+* recent `Sphinx <http://sphinx-doc.org>`_ (Sphinx (sphinx-build) 1.3.6)
 
   you can check if Sphinx is installed by trying to launch
 
