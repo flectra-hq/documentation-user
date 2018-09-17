@@ -1,7 +1,5 @@
 :banner: banners/helpdesk.jpg
 
-.. _setup/install:
-
 ========
 Helpdesk
 ========
