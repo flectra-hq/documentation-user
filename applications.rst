@@ -10,7 +10,6 @@ Applications
    sales
    website
    ecommerce
-   ecommerce/publish
    discuss
    purchase
    inventory

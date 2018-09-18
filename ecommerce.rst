@@ -13,4 +13,5 @@ eCommerce
    ecommerce/taxes
    ecommerce/shopper_experience
    ecommerce/maximizing_revenue
+   ecommerce/publish
 

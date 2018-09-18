@@ -11863,12 +11863,12 @@ main.index.animating .card {
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 .card-img {
-  background: #75526b;
-  background: -webkit-linear-gradient(99deg, #875a7b 10%, #62495b 90%);
-  background: -moz-linear-gradient(99deg, #875a7b 10%, #62495b 90%);
-  background: -ms-linear-gradient(99deg, #875a7b 10%, #62495b 90%);
-  background: -o-linear-gradient(99deg, #875a7b 10%, #62495b 90%);
-  background: linear-gradient(99deg, #875a7b 10%, #62495b 90%);
+  background: #4682b4;
+  background: -webkit-linear-gradient(99deg, #4682b4 10%, #2d78b6 90%);
+  background: -moz-linear-gradient(99deg, #4682b4 10%, #2d78b6 90%);
+  background: -ms-linear-gradient(99deg, #4682b4 10%, #2d78b6 90%);
+  background: -o-linear-gradient(99deg, #4682b4 10%, #2d78b6 90%);
+  background: linear-gradient(99deg, #4682b4 10%, #2d78b6 90%);
   position: absolute;
   top: 0;
   left: auto;
@@ -11887,12 +11887,11 @@ main.index.animating .card {
   position: relative;
   overflow: hidden;
   margin: 0;
-  background: #75526b;
-  background: -webkit-linear-gradient(99deg, #875a7b 10%, #62495b 90%);
-  background: -moz-linear-gradient(99deg, #875a7b 10%, #62495b 90%);
-  background: -ms-linear-gradient(99deg, #875a7b 10%, #62495b 90%);
-  background: -o-linear-gradient(99deg, #875a7b 10%, #62495b 90%);
-  background: linear-gradient(99deg, #875a7b 10%, #62495b 90%);
+  background: #4682b4;
+  background: -moz-linear-gradient(99deg, #4682b4 10%, #2d78b6 90%);
+  background: -ms-linear-gradient(99deg, #4682b4 10%, #2d78b6 90%);
+  background: -o-linear-gradient(99deg, #4682b4 10%, #2d78b6 90%);
+  background: linear-gradient(99deg, #4682b4 10%, #2d78b6 90%);
   -webkit-animation: fadeIn 1s;
   -o-animation: fadeIn 1s;
   animation: fadeIn 1s;
