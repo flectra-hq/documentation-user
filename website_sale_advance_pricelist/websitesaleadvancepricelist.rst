@@ -1,4 +1,4 @@
-:banner: banners/sale_advance_pricelist.jpg
+:banner: banners/flectra-website-sale-advance-pricelist.jpg
 
 ==============================
 Website Sale Advance Pricelist
