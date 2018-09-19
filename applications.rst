@@ -17,7 +17,7 @@ Applications
    point_of_sale
    project
    livechat/livechat
-   expense
+   expense/expense
    l10n_in_gst/gst
    l10n_sg_gst/l10n_sg_gst5
    saleadvancepricelist/saleadvancepricelist
