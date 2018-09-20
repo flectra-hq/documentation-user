@@ -25,7 +25,7 @@ Applications
    helpdesk_basic/helpdesk
    account_cash_flow/cash_flow
    general
-
+   scrum/scrum
 
 ..   expenses
 ..   recruitment
