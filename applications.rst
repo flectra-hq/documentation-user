@@ -16,6 +16,8 @@ Applications
    manufacturing
    point_of_sale
    project
+   stock_ageing_report/stock_ageing_report
+   blanket_so_po/blanket_so_po
    livechat/livechat
    expense/expense
    l10n_in_gst/gst
