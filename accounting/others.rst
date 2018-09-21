@@ -12,3 +12,4 @@ Others
    others/multicurrencies
    others/reporting
    others/inventory
+   others/account_discount
