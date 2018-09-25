@@ -28,6 +28,7 @@ Applications
    account_cash_flow/cash_flow
    general
    scrum/scrum
+   recurring_documents/recurring_document
 
 ..   expenses
 ..   recruitment
