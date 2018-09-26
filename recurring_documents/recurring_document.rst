@@ -1,4 +1,4 @@
-:banner: banners/flectra-project-scrum.jpg
+:banner: banners/flectra-recurring-documents.jpg
 
 ===================
 Recurring Documents
