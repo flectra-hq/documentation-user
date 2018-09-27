@@ -29,6 +29,7 @@ Applications
    general
    scrum/scrum
    recurring_documents/recurring_document
+   purchase_indent/purchase_indent
 
 ..   expenses
 ..   recruitment
