@@ -30,6 +30,7 @@ Applications
    scrum/scrum
    recurring_documents/recurring_document
    purchase_indent/purchase_indent
+   rma/rma
 
 ..   expenses
 ..   recruitment
