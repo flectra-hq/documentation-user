@@ -31,6 +31,7 @@ Applications
    recurring_documents/recurring_document
    purchase_indent/purchase_indent
    rma/rma
+   stock_cycle_count/stock_cycle_count
 
 ..   expenses
 ..   recruitment
