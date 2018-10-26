@@ -33,6 +33,7 @@ Applications
    rma/rma
    stock_cycle_count/stock_cycle_count
    rest_api/rest_api
+   digest/digest
 
 ..   expenses
 ..   recruitment
