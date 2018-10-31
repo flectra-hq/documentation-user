@@ -34,6 +34,7 @@ Applications
    stock_cycle_count/stock_cycle_count
    rest_api/rest_api
    digest/digest
+   l10n_ae_extend/l10n_ae_extend
 
 ..   expenses
 ..   recruitment
