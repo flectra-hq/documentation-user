@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:5
+msgid "GST Reporting for Singapore Localization"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:9
+msgid "Chart of Accounts for GST Singapore"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:11
+msgid "Tax Accounts configuration based on Singapore Accounting."
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:17
+msgid "Tax Categories"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:24
+msgid "Categorize your tax codes into five categories by selecting proper value:"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:20
+msgid "Standard Rates"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:21
+msgid "Zeroed"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:22
+msgid "Exempted"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:23
+msgid "MES"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:24
+msgid "Out Of Scope"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:26
+msgid "Set Tax group = 'Zeroed' for Purchase Tax 7% TX-N33."
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:31
+msgid "Set Tax group = 'Out Of Scope' for Sales Tax 0% OS."
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:37
+msgid "Customer Invoice"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:38
+msgid "Customer Invoice with Taxes as per Singapore Localization."
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:44
+msgid "Supplier Invoice"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:46
+msgid "Supplier Invoice with Taxes as per Singapore Localization."
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:53
+msgid "GST Analysis Report"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:62
+msgid "GST-F5 Summary Report"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:64
+msgid ""
+"The GST-F5 report includes details such as standard-rated, zero-rated, "
+"and exempted, out of scope,  mes, purchases and sales in a regulated "
+"format."
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:73
+msgid "GST-F7 Summary Report"
+msgstr ""
+
+#: ../../l10n_sg_gst/l10n_sg_gst5.rst:75
+msgid ""
+"If you have made errors in your submitted GST F5 forms, you should file "
+"GST-F7  to correct the errors."
+msgstr ""
+

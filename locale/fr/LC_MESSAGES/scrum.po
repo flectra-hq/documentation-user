@@ -1,0 +1,395 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../scrum.rst:5 ../../scrum/scrum.rst:5
+msgid "Scrum"
+msgstr ""
+
+#: ../../scrum/scrum.rst:8
+msgid "Introduction"
+msgstr ""
+
+#: ../../scrum/scrum.rst:11
+msgid "What does Scrum mean?"
+msgstr ""
+
+#: ../../scrum/scrum.rst:13
+msgid ""
+"In Agile software development, a daily meeting in which each developer "
+"describes what they have been doing, what they plan to do next, and any "
+"impediments to progress."
+msgstr ""
+
+#: ../../scrum/scrum.rst:17
+msgid ""
+"Scrum is a management and control process that cuts through complexity to"
+" focus on building software that meets business needs."
+msgstr ""
+
+#: ../../scrum/scrum.rst:20
+msgid ""
+"Scrum meeting is conducted daily for 15 minutes, where members are asked "
+"main three questions; “What did you do since last meeting?”, “What will "
+"you do today?” and “What impediments do you have in your way?”."
+msgstr ""
+
+#: ../../scrum/scrum.rst:25
+msgid "Purpose of Scrum in Agile Development"
+msgstr ""
+
+#: ../../scrum/scrum.rst:27
+msgid ""
+"To support agile terms in collaborative and coordinating their work with "
+"other terms."
+msgstr ""
+
+#: ../../scrum/scrum.rst:30
+msgid ""
+"Here in Flectra, we have introduced Scrum Management with Project Module,"
+" where we have tried to fulfill all the functionalities of Agile Software"
+" Development."
+msgstr ""
+
+#: ../../scrum/scrum.rst:35
+msgid "Sprint Dashboard"
+msgstr ""
+
+#: ../../scrum/scrum.rst:37
+msgid ""
+"You will get statistical counts of Sprints, Tasks, Stories, Project for "
+"all at once."
+msgstr ""
+
+#: ../../scrum/scrum.rst:40
+msgid ""
+"Dashboard gives you the idea of scrum where you can see a Burndown chart,"
+" which shows number of sprints with its Estimated Velocity and Actual "
+"Velocity."
+msgstr ""
+
+#: ../../scrum/scrum.rst:48
+msgid "Project Team"
+msgstr ""
+
+#: ../../scrum/scrum.rst:50
+msgid ""
+"Project Team is a group of experts in different technologies with "
+"different skills, who are liable for project development."
+msgstr ""
+
+#: ../../scrum/scrum.rst:56
+msgid "Attributes of the project team are as follows:"
+msgstr ""
+
+#: ../../scrum/scrum.rst:58
+msgid ""
+"Scrum Master : A scrum master is a facilitator for an agile development "
+"team. The scrum master manages the process of how information is "
+"exchanged."
+msgstr ""
+
+#: ../../scrum/scrum.rst:60
+msgid ""
+"Members : Members are Project developers who are expert in particular "
+"field or technology."
+msgstr ""
+
+#: ../../scrum/scrum.rst:61
+msgid "Project : The task or responsibility, the team is allocated for."
+msgstr ""
+
+#: ../../scrum/scrum.rst:62
+msgid ""
+"Team Strength : Team strength describes the expertise level of the team, "
+"which describes team member with their skills."
+msgstr ""
+
+#: ../../scrum/scrum.rst:64
+msgid ""
+"Description : Description describes the overview of the project, which "
+"gives idea to the members of the project."
+msgstr ""
+
+#: ../../scrum/scrum.rst:67
+msgid "Sprint"
+msgstr ""
+
+#: ../../scrum/scrum.rst:69
+msgid ""
+"In product development, a sprint is a set of period of time during which "
+"specific work has to be completed and made ready for review."
+msgstr ""
+
+#: ../../scrum/scrum.rst:75
+msgid ""
+"Task is compartmentalized between few parts which are covered by a single"
+" sprint."
+msgstr ""
+
+#: ../../scrum/scrum.rst:77
+msgid "Sprint contains attributes which are as follows:"
+msgstr ""
+
+#: ../../scrum/scrum.rst:79
+msgid "Project - The associated project."
+msgstr ""
+
+#: ../../scrum/scrum.rst:80
+msgid "Team - The team, working on sprint."
+msgstr ""
+
+#: ../../scrum/scrum.rst:81
+msgid "Duration - Duration of the sprint."
+msgstr ""
+
+#: ../../scrum/scrum.rst:82
+msgid "Daily Scrum Time - The time when scrum meeting is to be conducted."
+msgstr ""
+
+#: ../../scrum/scrum.rst:83
+msgid "Velocity - Velocity indicates the complexity of the sprint in points."
+msgstr ""
+
+#: ../../scrum/scrum.rst:84
+msgid ""
+"Sprint Planning - This shows the productivity hours spent by each member "
+"of the project scrum"
+msgstr ""
+
+#: ../../scrum/scrum.rst:86
+msgid ""
+"We have put smart buttons to the top right corner of the sprint, which "
+"shows Tasks, Stories, Release Plannings and Retrospectives according to "
+"the current sprint."
+msgstr ""
+
+#: ../../scrum/scrum.rst:90
+msgid "Velocity"
+msgstr ""
+
+#: ../../scrum/scrum.rst:92
+msgid ""
+"Velocity is the measure of the amount of work a team can tackle during a "
+"single sprint and is the key metric in Scrum. Velocity is calculated in "
+"the end of the sprint by totalling the points of all fully completed "
+"tasks."
+msgstr ""
+
+#: ../../scrum/scrum.rst:99
+msgid ""
+"Velocity in the sprint is calculated by adding velocity of all the tasks "
+"related to the sprint."
+msgstr ""
+
+#: ../../scrum/scrum.rst:102
+msgid "Sprint Planning"
+msgstr ""
+
+#: ../../scrum/scrum.rst:104
+msgid ""
+"Here is a calculation of sprint planning, which shows Productivity time "
+"given to the sprint by each member of the team."
+msgstr ""
+
+#: ../../scrum/scrum.rst:107
+msgid "Productivity Hours Calculation for team member"
+msgstr ""
+
+#: ../../scrum/scrum.rst:109 ../../scrum/scrum.rst:117
+msgid ""
+"Available Percentage - Availability of particular team member in "
+"percentage"
+msgstr ""
+
+#: ../../scrum/scrum.rst:110
+msgid "Business Days - Start date of the sprint - End date of the sprint"
+msgstr ""
+
+#: ../../scrum/scrum.rst:111
+msgid "Number of days - Number of working days of the week"
+msgstr ""
+
+#: ../../scrum/scrum.rst:113
+msgid ""
+"Productivity Hours = [Available Percentage * Business Days * Number of "
+"days] / 100"
+msgstr ""
+
+#: ../../scrum/scrum.rst:115
+msgid "Sprint Hours Calculation for team member"
+msgstr ""
+
+#: ../../scrum/scrum.rst:118
+msgid "Business Days - start date of the sprint - end date of the sprint"
+msgstr ""
+
+#: ../../scrum/scrum.rst:119
+msgid "Productivity Hours = Working hours / Total Hours"
+msgstr ""
+
+#: ../../scrum/scrum.rst:121
+msgid ""
+"Sprint Hours = [Available Percentage * Business Days * Productivity "
+"Hours] / 100"
+msgstr ""
+
+#: ../../scrum/scrum.rst:123
+msgid "Total Hours Calculation for team member"
+msgstr ""
+
+#: ../../scrum/scrum.rst:125
+msgid "[Total Hours = Sprint hours - Holiday count(In Hours) - Off hours]"
+msgstr ""
+
+#: ../../scrum/scrum.rst:128
+msgid "Project Story"
+msgstr ""
+
+#: ../../scrum/scrum.rst:130
+msgid ""
+"Project Stories are one of the primary development artifact for scrum "
+"project team. A user story is a very high-level definition of a "
+"requirement, containing just enough information so that the developers "
+"can produce a reasonable estimate of the effort to implement it."
+msgstr ""
+
+#: ../../scrum/scrum.rst:138
+msgid ""
+"A story may contain multiple tasks, there may have a single story "
+"containing all the user requirements for Project tasks."
+msgstr ""
+
+#: ../../scrum/scrum.rst:141
+msgid "Attributes of Project Story are as follow:"
+msgstr ""
+
+#: ../../scrum/scrum.rst:143
+msgid "Sprint : The sprint which is associated to the project"
+msgstr ""
+
+#: ../../scrum/scrum.rst:144
+msgid "Priority : Priority of the story"
+msgstr ""
+
+#: ../../scrum/scrum.rst:145
+msgid "Owner : Owner of the story (Who wrote the story)"
+msgstr ""
+
+#: ../../scrum/scrum.rst:146
+msgid "Estimated Velocity/Actual Velocity : Velocity of the story"
+msgstr ""
+
+#: ../../scrum/scrum.rst:147
+msgid "Description : Description of the story"
+msgstr ""
+
+#: ../../scrum/scrum.rst:149
+msgid ""
+"Velocity of the story is calculated by totalling the velocity of each "
+"task related to the current story."
+msgstr ""
+
+#: ../../scrum/scrum.rst:153
+msgid "Release Planning"
+msgstr ""
+
+#: ../../scrum/scrum.rst:155
+msgid ""
+"A very high-level plan for multiple Sprints is created during the Release"
+" Planning. It is a guideline that reflects the expectations about which "
+"feature will be implemented and when they are completed. It also serves "
+"as a base to monitor progress within the project. Release can be "
+"intermediate deliveries done during the project or the final delivery at "
+"the end."
+msgstr ""
+
+#: ../../scrum/scrum.rst:164
+msgid ""
+"One sprint can have multiple release plannings according to the task "
+"divided into several subtasks. Whichever subtask is completed first, will"
+" be treated for releasing."
+msgstr ""
+
+#: ../../scrum/scrum.rst:168
+msgid "Attributes of Release Planning are as follows"
+msgstr ""
+
+#: ../../scrum/scrum.rst:170
+msgid "Sprint - Sprint associated to the release planning."
+msgstr ""
+
+#: ../../scrum/scrum.rst:171
+msgid ""
+"Priority - How important the current release planning is, that is shown "
+"by priority."
+msgstr ""
+
+#: ../../scrum/scrum.rst:172
+msgid "Release Date - Date of Releasing."
+msgstr ""
+
+#: ../../scrum/scrum.rst:173
+msgid ""
+"Tasks - Number of tasks, which shows that how many of them are going to "
+"be released under the plan."
+msgstr ""
+
+#: ../../scrum/scrum.rst:176
+msgid "Retrospective"
+msgstr ""
+
+#: ../../scrum/scrum.rst:178
+msgid ""
+"Retrospective is meeting that helds at the end of an iteration of "
+"development life cycle. During the retrospective, the team reflects on "
+"what happened in the and identifies actions for improvement  going "
+"forward."
+msgstr ""
+
+#: ../../scrum/scrum.rst:185
+msgid ""
+"The sprint retrospective is meeting facilitated by the Scrum Master at "
+"which the team discusses sprint and determines what could be changed that"
+" might make the next sprint more productive. The sprint review looks at "
+"what the team is building, whereas the retrospective looks at how they "
+"are building it."
+msgstr ""
+
+#: ../../scrum/scrum.rst:190
+msgid "Attributes of Retrospective are as follow"
+msgstr ""
+
+#: ../../scrum/scrum.rst:192
+msgid "Sprint - The sprint which is going through the retrospective."
+msgstr ""
+
+#: ../../scrum/scrum.rst:193
+msgid "Retrospective Method - Method, that is used for the retrospective process."
+msgstr ""
+
+#: ../../scrum/scrum.rst:194
+msgid "Scrum Master - The one who held the process."
+msgstr ""
+
+#: ../../scrum/scrum.rst:195
+msgid ""
+"Retrospective Lines - It has two fields, User and Message, where the "
+"current logged in user gives the review on the Sprint as per the process."
+msgstr ""
+

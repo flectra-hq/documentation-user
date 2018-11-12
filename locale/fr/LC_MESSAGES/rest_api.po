@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../rest_api/rest_api.rst:5
+msgid "REST API"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:8
+msgid "Introduction"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:10
+msgid ""
+"Token generation is an essential process, which will be used further in "
+"deletion of token; requesting database for creating, updating, deleting "
+"and fetching data."
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:14
+msgid "Create Token"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:16
+msgid "The following procedure is to create token."
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:19 ../../rest_api/rest_api.rst:63
+#: ../../rest_api/rest_api.rst:92 ../../rest_api/rest_api.rst:100
+#: ../../rest_api/rest_api.rst:142 ../../rest_api/rest_api.rst:150
+#: ../../rest_api/rest_api.rst:195 ../../rest_api/rest_api.rst:203
+#: ../../rest_api/rest_api.rst:268 ../../rest_api/rest_api.rst:276
+#: ../../rest_api/rest_api.rst:314 ../../rest_api/rest_api.rst:322
+msgid "Parameter"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:19 ../../rest_api/rest_api.rst:63
+#: ../../rest_api/rest_api.rst:92 ../../rest_api/rest_api.rst:100
+#: ../../rest_api/rest_api.rst:142 ../../rest_api/rest_api.rst:150
+#: ../../rest_api/rest_api.rst:195 ../../rest_api/rest_api.rst:203
+#: ../../rest_api/rest_api.rst:268 ../../rest_api/rest_api.rst:276
+#: ../../rest_api/rest_api.rst:314 ../../rest_api/rest_api.rst:322
+msgid "Description"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:21
+msgid "username"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:21
+msgid "Your account email"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:23
+msgid "password"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:23
+msgid "Your account password"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:25
+msgid "db"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:25
+msgid "Specify the Database name"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:60
+msgid "Delete Token"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:65 ../../rest_api/rest_api.rst:94
+#: ../../rest_api/rest_api.rst:144 ../../rest_api/rest_api.rst:197
+#: ../../rest_api/rest_api.rst:270 ../../rest_api/rest_api.rst:316
+msgid "access_token"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:65 ../../rest_api/rest_api.rst:94
+#: ../../rest_api/rest_api.rst:144 ../../rest_api/rest_api.rst:197
+#: ../../rest_api/rest_api.rst:270 ../../rest_api/rest_api.rst:316
+msgid "Your API Access Token"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:88
+msgid "Create Record"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:89 ../../rest_api/rest_api.rst:139
+#: ../../rest_api/rest_api.rst:192 ../../rest_api/rest_api.rst:265
+#: ../../rest_api/rest_api.rst:311
+msgid "**Header Parameter**"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:97 ../../rest_api/rest_api.rst:147
+#: ../../rest_api/rest_api.rst:200 ../../rest_api/rest_api.rst:273
+#: ../../rest_api/rest_api.rst:319
+msgid "**Data Parameter**"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:102 ../../rest_api/rest_api.rst:152
+#: ../../rest_api/rest_api.rst:205 ../../rest_api/rest_api.rst:278
+#: ../../rest_api/rest_api.rst:324
+msgid "fields"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:102 ../../rest_api/rest_api.rst:152
+#: ../../rest_api/rest_api.rst:205 ../../rest_api/rest_api.rst:278
+#: ../../rest_api/rest_api.rst:324
+msgid "N number of fields for creating records"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:106 ../../rest_api/rest_api.rst:155
+#: ../../rest_api/rest_api.rst:208 ../../rest_api/rest_api.rst:281
+#: ../../rest_api/rest_api.rst:327
+msgid "HTTP POST URL ``'/api/<MODEL NAME>'``"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:134
+msgid "Get Data"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:137
+msgid "Get Request for Single Record"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:190
+msgid "Get Request for Multiple Record"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:263
+msgid "Update Record"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:309
+msgid "Delete Record"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:352
+msgid "How to enable model for REST API"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:354
+msgid "Follow the following steps to enable REST API"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:356
+msgid "Active the developer mode from the settings."
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:357
+msgid ""
+"Goto :menuselection:`Settings --> Technical --> Database Structure --> "
+"Models.`"
+msgstr ""
+
+#: ../../rest_api/rest_api.rst:359
+msgid ""
+"There is a column labeled as **REST API**. To enable the model for REST "
+"API, mark the checkbox, which will allow the user to access the model for"
+" REST API."
+msgstr ""
+

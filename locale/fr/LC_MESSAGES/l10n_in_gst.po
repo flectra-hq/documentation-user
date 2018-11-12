@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../l10n_in_gst/gst.rst:7
+msgid "GST Reporting for Indian Localization"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:11
+msgid "Chart of Accounts for GST India"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:13
+msgid "Tax Accounts configuration based on Indian Accounting."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:19
+msgid "Tax Categories"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:21
+msgid "Categorize your tax codes into gst categorization:"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:28
+msgid "Customer Invoice"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:30
+msgid "Customer Invoice with Taxes as per Indian Localization with invoice types."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:32 ../../l10n_in_gst/gst.rst:55
+msgid "Main invoice types:"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:34 ../../l10n_in_gst/gst.rst:57
+msgid "B2B Invoices"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:35
+msgid "B2BL Invoices"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:36
+msgid "B2BCS Invoices"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:37 ../../l10n_in_gst/gst.rst:59
+msgid "CDNR Invoices"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:38 ../../l10n_in_gst/gst.rst:60
+msgid "CDNUR Invoices"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:44
+msgid "Customer Credit Notes"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:51
+msgid "Vendor Bills"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:53
+msgid "Vendor Bills with Taxes as per Indian Localization with invoice types."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:58
+msgid "B2BUR Invoices"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:66
+msgid "Vendor Credit Notes"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:73
+msgid "GSTR-1 Summary Report"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:75
+msgid ""
+"The Goods and Services Tax Return 1 is a document that each registered "
+"tax payer needs to file every month/quarter."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:77
+msgid ""
+"It must contain the details of all sales and supply of goods and services"
+" made by the tax payer during the tax period."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:79
+msgid ""
+"However this return is not applicable to composition vendors, non "
+"resident foreign taxpayers and those with an Unique Identification "
+"Number."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:86
+msgid "B2B Invoices - 4A, 4B, 4C, 6B, 6C"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:88
+msgid "To add an invoice for taxable outwards supplies to a registered person."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:95
+msgid "B2C(Large) Invoices - 5A, 5B"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:97
+msgid ""
+"To add an invoice for taxable outwards supplies to a consumer, where "
+"place of supply is other than the State where supplier is located (Inter-"
+"state supplies) and invoice value is more than Rs. 2.5 lakh."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:105
+msgid "B2C(Small) Details - 7"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:107
+msgid ""
+"To add consolidated details of taxable outwards supplies to a customer "
+"where invoice value is less than Rs. 2.5 lakh and all intra state "
+"supplies to unregistered customers"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:114
+msgid "Credit/Debit Notes(Registered) - 9B"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:116
+msgid ""
+"To add details of credit or debit notes issued to the registered "
+"recipients."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:123
+msgid "Credit/Debit Notes(Unregistered) - 9B"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:125
+msgid ""
+"To add details of credit, debit notes or refund voucher issued to the "
+"unregistered recipients"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:132
+msgid "HSN-Wise Summary of outward Supplies - 12"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:134
+msgid ""
+"To furnish the summarized details of all outward supplies HSN and rate "
+"wise along with quantitative details."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:141
+msgid "GSTR-1 Export Excel Report"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:143
+msgid ""
+"GSTR-1 monthly returns ready to import on online gst portal in excel "
+"format."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:150
+msgid "GSTR-2 Summary Report"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:152
+msgid ""
+"It is mandatory to furnish details of inward supplies of goods/services "
+"received during a tax period for every registered taxable person. These "
+"details are furnished based on FORM GSTR-2A which is auto populated on "
+"the basis of GSTR-1 filed by your supplier."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:155
+msgid ""
+"However, GSTR-2A does not in itself auto populates a complete GSTR-2, as "
+"there are certain other transactions which are to be mentioned manually "
+"in addition to the data which is generated through GSTR-2A, viz. Details "
+"of Inward Supplies from an Unregistered Persons on which tax is paid on "
+"the Reverse Charge basis and Imports effected during the tax period, etc."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:162
+msgid "Supplies From Registered Suppliers B2B - 3,4A"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:164
+msgid ""
+"To add details of inward supplies from registered person including "
+"supplies attracting reverse charge received from registered persons."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:172
+msgid "Supplies From Unregistered Suppliers B2BUR - 4C"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:174
+msgid "To add details of import of service and eligible credits."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:181
+msgid "Debit/Credit Notes (Registered) - 6C"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:183
+msgid ""
+"To add details of debit notes or credit notes or refund voucher for "
+"supplies from registered person."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:190
+msgid "Credit/Debit Notes(Unregistered) - 6C"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:192
+msgid ""
+"To add details of Debit Notes or Credit Notes or refund voucher for "
+"unregistered Supplier or import of services."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:199
+msgid "HSN summary of inward supplies - 13"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:201
+msgid "To add details of HSN summary of inward supplies of goods and services."
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:208
+msgid "GSTR-2 Export Excel Report"
+msgstr ""
+
+#: ../../l10n_in_gst/gst.rst:210
+msgid ""
+"GSTR-2 monthly returns ready to import on online gst portal in excel "
+"format."
+msgstr ""
+

@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../digest/digest.rst:5
+msgid "Digest"
+msgstr ""
+
+#: ../../digest/digest.rst:8
+msgid "Introduction"
+msgstr ""
+
+#: ../../digest/digest.rst:10
+msgid ""
+"This module provides the basis for creating key performance indicators, "
+"including static and dynamic thresholds (SQL query or Python code), on "
+"local and remote data sources."
+msgstr ""
+
+#: ../../digest/digest.rst:14
+msgid ""
+"The module also provides the mechanism to update KPIs automatically. A "
+"scheduler is executed every hour and updates the KPI values, based on the"
+" periodicity of each KPI. KPI computation can also be done manually."
+msgstr ""
+
+#: ../../digest/digest.rst:18
+msgid ""
+"Find the menu of KPI Digest from :menuselection:`Settings --> Technical "
+"--> Email --> Digest Emails`."
+msgstr ""
+
+#: ../../digest/digest.rst:21
+msgid "How to create Digest Email"
+msgstr ""
+
+#: ../../digest/digest.rst:23
+msgid "There are four types of periodicity."
+msgstr ""
+
+#: ../../digest/digest.rst:25
+msgid "Daily"
+msgstr ""
+
+#: ../../digest/digest.rst:26
+msgid "Weekly"
+msgstr ""
+
+#: ../../digest/digest.rst:27
+msgid "Monthly"
+msgstr ""
+
+#: ../../digest/digest.rst:28
+msgid "Quarterly"
+msgstr ""
+
+#: ../../digest/digest.rst:30
+msgid ""
+"The periodicity describes it self. Whichever periodicity is selected will"
+" work according to the period. As the user changes the periodicity, the "
+"**Next Send Date** will change according to its time period."
+msgstr ""
+
+#: ../../digest/digest.rst:34
+msgid ""
+"Recipient is the one who receives the emails from the system. The user "
+"can stop getting email from the system by clicking on **Unsubscribe me** "
+"button from the header."
+msgstr ""
+
+#: ../../digest/digest.rst:38
+msgid ""
+"The system provides the default Email Template to show off the digest "
+"data. User can also create their own Email Template."
+msgstr ""
+
+#: ../../digest/digest.rst:43
+msgid ""
+"Under KPIs tab, there are some fields which will be considered as the "
+"source of the data. The user can preview the template by clicking on the "
+"smart button labeled as Preview."
+msgstr ""
+
+#: ../../digest/digest.rst:47
+msgid ""
+"Let's say, If user wants number of connected users, messages, revenue and"
+" email partner then mark the checkbox against that label. Only those data"
+" will be available in preview whichever field is marked as true."
+msgstr ""
+
+#: ../../digest/digest.rst:52
+msgid "How to customize your digest?"
+msgstr ""
+
+#: ../../digest/digest.rst:54
+msgid ""
+"Under **How to customize your digest?** tab, user is given two buttons "
+"labeled as **Add Customized Digest** and **Remove Customized Digest** "
+"where user can add their own customized digest and can remove their own."
+msgstr ""
+
+#: ../../digest/digest.rst:60
+msgid ""
+"The user is given the instruction to customize the digest under the "
+"buttons."
+msgstr ""
+
+#: ../../digest/digest.rst:63
+msgid "Add Customized Digest"
+msgstr ""
+
+#: ../../digest/digest.rst:65
+msgid ""
+"By customizing the digest, it will create a field with a type of "
+"checkbox, which will be reflected in the digest report."
+msgstr ""
+
+#: ../../digest/digest.rst:70
+msgid ""
+"The name of the **Compute Field Name** and **Compute Function** will be "
+"changed as the user changes the name under **Field Name** field."
+msgstr ""
+
+#: ../../digest/digest.rst:73
+msgid "**Label Name** is the label how the field will be labeled with."
+msgstr ""
+
+#: ../../digest/digest.rst:75
+msgid ""
+"The next step is to set the position of the field. The field has to be "
+"inside the group. So the user has to select the group from **Group "
+"Name**. It will only show those groups which are under KPIs tab."
+msgstr ""
+
+#: ../../digest/digest.rst:79
+msgid "There are three positions of the field."
+msgstr ""
+
+#: ../../digest/digest.rst:81
+msgid "Before"
+msgstr ""
+
+#: ../../digest/digest.rst:82
+msgid "After"
+msgstr ""
+
+#: ../../digest/digest.rst:83
+msgid "Inside"
+msgstr ""
+
+#: ../../digest/digest.rst:85
+msgid ""
+"If the user selects **Before** or **After**, that means the user has to "
+"create a new group and will be set according to the position. The field "
+"will be generated inside that newly created group."
+msgstr ""
+
+#: ../../digest/digest.rst:91
+msgid ""
+"If the user selects **Inside**, that means the newly created filed will "
+"be set inside the selected group."
+msgstr ""
+
+#: ../../digest/digest.rst:96
+msgid ""
+"The system will retrieve the data according to the filter. To set filter "
+"over data, select the model and add filter by clicking on green button "
+"labeled as **+Add Filter**."
+msgstr ""
+
+#: ../../digest/digest.rst:100
+msgid "That will allow the user to select the field and the value against it."
+msgstr ""
+
+#: ../../digest/digest.rst:102
+msgid "The python preview will be shown that how the filter is applied."
+msgstr ""
+
+#: ../../digest/digest.rst:104
+msgid ""
+"the compute field name will be generated based on the field name. The "
+"user is supposed to set the type of the field either it should be "
+"**Integer** or **Monetary**."
+msgstr ""
+
+#: ../../digest/digest.rst:110
+msgid ""
+"The system will generate the code according to the models and filters, "
+"which creates a compute function and will retrieve the desired data."
+msgstr ""
+
+#: ../../digest/digest.rst:119
+msgid ""
+"The user is also given the help under **Help** tab, which will help to "
+"develop the compute filed."
+msgstr ""
+
+#: ../../digest/digest.rst:124
+msgid ""
+"Once the procedure is completed, the filed will be added at appropriate "
+"and desired place. The data of that field will be available if the field "
+"(checkbox) is marked as **True**."
+msgstr ""
+
+#: ../../digest/digest.rst:131
+msgid "Remove Customized Digest"
+msgstr ""
+
+#: ../../digest/digest.rst:133
+msgid ""
+"The user can remove the unnecessary customized digest. On clicking "
+"**Remove Customized Digest** button, a parametrized window will pop up."
+msgstr ""
+
+#: ../../digest/digest.rst:136
+msgid ""
+"There will be two options under **Remove Type** field, **Group** and "
+"**Field**."
+msgstr ""
+
+#: ../../digest/digest.rst:138
+msgid ""
+"If Group is selected, then it is necessary to select the Group under "
+"**Available Group**."
+msgstr ""
+
+#: ../../digest/digest.rst:140
+msgid ""
+"If Field is selected, then it is necessary to select the digest field "
+"under **Field**."
+msgstr ""
+
+#: ../../digest/digest.rst:144
+msgid ""
+"The system will remove the Group or the Field under the Group from the "
+"checkbox list."
+msgstr ""
+

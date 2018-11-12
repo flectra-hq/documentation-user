@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../account_cash_flow/cash_flow.rst:5
+msgid "Account Cash Flow"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:7
+msgid ""
+"Cash Flow Statement is Finanicial Statement, which shows changes in all "
+"accounts affect cash and cash equivalents, and breaks the analysis down "
+"to Operating Activities, Investing Activities and Financial Activities."
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:12
+msgid "Account type configuration"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:14
+msgid ""
+"Activity type configuration in account type and activity types are "
+"following:"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:16
+msgid "Operation-Income"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:17
+msgid "Operation-Expense"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:18
+msgid "Operation-Current Asset"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:19
+msgid "Operation-Cuurent Liability"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:20
+msgid "Investing"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:21
+msgid "Financing"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:27
+msgid "Cash Flow Wizard"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:29
+msgid "It is a wizard for printing cash flow report."
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:35
+msgid "Target Moves: If 'All Posted Entries' radio button is selected then it"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:32
+msgid "will fetch only posted account move lines entries."
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:34
+msgid ""
+"If 'All Entries' radio button is selected then it will fetch all account "
+"move lines entries."
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:37
+msgid "Company: Current company"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:41
+msgid "Previous Period: Enter number of periods for fetching cash flow data"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:40
+msgid "year wise. Default is 0 means it will fetch current year data."
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:44
+msgid "Branch: If multi branch boolean is true, Branch selection will display."
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:44
+msgid "Enter current company's branch."
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:50
+msgid "Trial balance"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:52
+msgid "PDF Report for trial balance of a company."
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:58
+msgid "Cash Flow Report"
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:60
+msgid ""
+"PDF Report for cash flow of a company. You can compare it with trial "
+"balance."
+msgstr ""
+
+#: ../../account_cash_flow/cash_flow.rst:65
+msgid ""
+"If 2 years is entered in a Previous Period field, it displays result of 2"
+" previous years from current year."
+msgstr ""
+
