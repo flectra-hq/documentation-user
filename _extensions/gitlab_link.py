@@ -1,7 +1,8 @@
 import inspect
 import importlib
 import os.path
-from urlparse import urlunsplit
+from urllib.parse import urlunsplit
+
 
 """
 * adds gitlab_link(mode) context variable: provides URL (in relevant mode) of
@@ -89,6 +90,7 @@ def make_gitlab_link(app, path, line=None, mode="blob"):
         '' if line is None else 'L%d' % line
     ))
 
+
 def add_doc_link(app, pagename, templatename, context, doctree):
     """ Add gitlab_link function linking to the current page on gitlab """
     if not app.config.gitlab_user and app.config.gitlab_project:
@@ -98,7 +100,7 @@ def add_doc_link(app, pagename, templatename, context, doctree):
     # in Sphinx 1.3 it's possible to have mutliple source suffixes and that
     # may be useful in the future
     source_suffix = app.config.source_suffix
-    source_suffix = source_suffix if isinstance(source_suffix, basestring) else source_suffix[0]
+    source_suffix = source_suffix
     # FIXME: flectra/flectra has a doc/ prefix which is incorrect for this
     # project, how to unify? Add new setting?
     context['gitlab_link'] = lambda mode='edit': make_gitlab_link(

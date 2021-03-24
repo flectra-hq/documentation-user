@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
+# Copyright (C) 2015-TODAY, Flectra S.A.
+# This file is distributed under the same license as the Flectra Business package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Business 10.0\n"
+"Project-Id-Version: Flectra Business 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-07 09:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Murat Kaplan <muratk@projetgrup.com>, 2017\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/flectra/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,19 +19,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../getting_started/documentation.rst:5
-msgid "Odoo Online Implementation"
-msgstr "Odoo Implementasyonu"
+msgid "Flectra Online Implementation"
+msgstr "Flectra Implementasyonu"
 
 #: ../../getting_started/documentation.rst:7
 msgid ""
-"This document summarizes **Odoo's Online services**, our Success Pack "
+"This document summarizes **Flectra's Online services**, our Success Pack "
 "**implementation methodology**, and *best practices* to **get started** with"
 " our product."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:11
 msgid ""
-"*We recommend that new Odoo Online customers read this document before the "
+"*We recommend that new Flectra Online customers read this document before the "
 "kick-off call with our project manager. This way, we save time and don't "
 "have to use your hours from the success pack discussing the basics.*"
 msgstr ""
@@ -49,27 +49,27 @@ msgstr "Başlarken"
 #: ../../getting_started/documentation.rst:22
 msgid ""
 "Do not wait for the kick-off meeting to begin playing with the software. The"
-" more exposure you have with Odoo, the more time you will save later during "
+" more exposure you have with Flectra, the more time you will save later during "
 "the implementation."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:26
 msgid ""
-"Once you purchase an Odoo Online subscription, you will receive instructions"
+"Once you purchase an Flectra Online subscription, you will receive instructions"
 " by e-mail on how to activate or create your database. From this email, you "
-"can activate your existing Odoo database or create a new one from scratch."
+"can activate your existing Flectra database or create a new one from scratch."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:31
 msgid ""
 "If you did not receive this email, e.g. because the payment was made by "
 "someone else in your company, contact our support using our `online support "
-"form <https://www.odoo.com/help>`__."
+"form <https://www.flectrahq.com/help>`__."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:38
 msgid ""
-"Fill in the sign-in or sign-up screens and you will get your first Odoo "
+"Fill in the sign-in or sign-up screens and you will get your first Flectra "
 "database ready to be used."
 msgstr ""
 
@@ -109,7 +109,7 @@ msgid "guide you through the different configuration steps,"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:64
-msgid "and provide you with tips and tricks to getting the most out of Odoo."
+msgid "and provide you with tips and tricks to getting the most out of Flectra."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:66
@@ -128,15 +128,15 @@ msgstr ""
 #: ../../getting_started/documentation.rst:76
 msgid ""
 "Read the documentation on our website: "
-"`https://www.odoo.com/documentation/user "
-"<https://www.odoo.com/documentation/user>`__"
+"`https://www.flectrahq.com/documentation/user "
+"<https://www.flectrahq.com/documentation/user>`__"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:79
 msgid ""
 "Watch the videos on our eLearning platform (Free with your first Success "
-"Pack): `https://odoo.thinkific.com/courses/odoo-functional "
-"<https://odoo.thinkific.com/courses/odoo-functional>`__"
+"Pack): `https://flectra.thinkific.com/courses/flectra-functional "
+"<https://flectra.thinkific.com/courses/flectra-functional>`__"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:82
@@ -148,7 +148,7 @@ msgstr ""
 #: ../../getting_started/documentation.rst:85
 msgid ""
 "Or send your questions to our online support through our `online support "
-"form <https://www.odoo.com/help>`__."
+"form <https://www.flectrahq.com/help>`__."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:89
@@ -176,7 +176,7 @@ msgstr ""
 #: ../../getting_started/documentation.rst:102
 msgid ""
 "We ask that you maintain a single point of contact within your company to "
-"work with our project manager on your Odoo Implementation. This is to ensure"
+"work with our project manager on your Flectra Implementation. This is to ensure"
 " efficiency and a single knowledge base in your company. Additionally, this "
 "person must:"
 msgstr ""
@@ -190,7 +190,7 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:111
 msgid ""
-"**have authority to take decisions** on their own. Odoo usually transforms "
+"**have authority to take decisions** on their own. Flectra usually transforms "
 "all departments within a company for the better. There can be many small "
 "details that need quick turn arounds for answers and if there is too much "
 "back and forth between several internal decision makers within your company "
@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:123
 msgid ""
-"You probably chose Odoo because no other software allows for such a high "
+"You probably chose Flectra because no other software allows for such a high "
 "level of automation, feature coverage, and integration. But **don't be an "
 "extremist.**"
 msgstr ""
@@ -223,7 +223,7 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:130
 msgid ""
-"Standard Odoo can probably cover 90% of your business processes and "
+"Standard Flectra can probably cover 90% of your business processes and "
 "requirements. Be flexible on the remaining 10%, otherwise that 10% will cost"
 " you twice the original project price. One always underestimates the hidden "
 "costs of customization."
@@ -231,7 +231,7 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:134
 msgid ""
-"**Do it the Odoo way, not yours.** Be flexible, use Odoo the way it was "
+"**Do it the Flectra way, not yours.** Be flexible, use Flectra the way it was "
 "designed. Learn how it works and don't try to replicate the way your old "
 "system(s) works."
 msgstr ""
@@ -239,10 +239,10 @@ msgstr ""
 #: ../../getting_started/documentation.rst:138
 msgid ""
 "**The project first, customizations second.** If you really want to "
-"customize Odoo, phase it towards the end of the project, ideally after "
+"customize Flectra, phase it towards the end of the project, ideally after "
 "having been in production for several months. Once a customer starts using "
-"Odoo, they usually drop about 60% of their customization requests as they "
-"learn to perform their work flows out of the box, or the Odoo way. It is "
+"Flectra, they usually drop about 60% of their customization requests as they "
+"learn to perform their work flows out of the box, or the Flectra way. It is "
 "more important to have all your business processes working than customizing "
 "a screen to add a few fields here and there or automating a few e-mails."
 msgstr ""
@@ -254,17 +254,17 @@ msgid ""
 " them on the objectives. Some processes may take more time than your "
 "previous system(s), however you need to weigh that increase in time with "
 "other decreases in time for other processes. If the net time spent is "
-"decreased with your move to Odoo than you are already ahead."
+"decreased with your move to Flectra than you are already ahead."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:155
-msgid "Invest time in learning Odoo"
+msgid "Invest time in learning Flectra"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:157
 msgid ""
 "Start your free trial and play with the system. The more comfortable you are"
-" with navigating Odoo, the better your decisions will be and the quicker and"
+" with navigating Flectra, the better your decisions will be and the quicker and"
 " easier your training phases will be."
 msgstr ""
 
@@ -276,20 +276,20 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:164
 msgid ""
-"Documentation: `https://www.odoo.com/documentation/user "
-"<https://www.odoo.com/documentation/user>`__"
+"Documentation: `https://www.flectrahq.com/documentation/user "
+"<https://www.flectrahq.com/documentation/user>`__"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:167
 msgid ""
-"Introduction Videos: `https://www.odoo.com/r/videos "
-"<https://www.odoo.com/r/videos>`__"
+"Introduction Videos: `https://www.flectrahq.com/r/videos "
+"<https://www.flectrahq.com/r/videos>`__"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:170
 msgid ""
-"Customer Reviews: `https://www.odoo.com/blog/customer-reviews-6 "
-"<https://www.odoo.com/blog/customer-reviews-6>`__"
+"Customer Reviews: `https://www.flectrahq.com/blog/customer-reviews-6 "
+"<https://www.flectrahq.com/blog/customer-reviews-6>`__"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:174
@@ -298,9 +298,9 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:176
 msgid ""
-"Want an easy way to start using Odoo? Install Odoo Notes to manage your to-"
-"do list for the implementation: `https://www.odoo.com/page/notes "
-"<https://www.odoo.com/page/notes>`__. From your Odoo home, go to Apps and "
+"Want an easy way to start using Flectra? Install Flectra Notes to manage your to-"
+"do list for the implementation: `https://www.flectrahq.com/page/notes "
+"<https://www.flectrahq.com/page/notes>`__. From your Flectra home, go to Apps and "
 "install the Notes application."
 msgstr ""
 
@@ -313,12 +313,12 @@ msgid "Manage to-do lists for better interactions with your consultant;"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:188
-msgid "Share Odoo knowledge & good practices with your employees;"
+msgid "Share Flectra knowledge & good practices with your employees;"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:190
 msgid ""
-"Get acquainted with all the generic tools of Odoo: Messaging, Discussion "
+"Get acquainted with all the generic tools of Flectra: Messaging, Discussion "
 "Groups, Kanban Dashboard, etc."
 msgstr ""
 
@@ -326,7 +326,7 @@ msgstr ""
 msgid ""
 "This application is even compatible with the Etherpad platform "
 "(http://etherpad.org). To use these collaborative pads rather than standard "
-"Odoo Notes, install the following add-on: Memos Pad."
+"Flectra Notes, install the following add-on: Memos Pad."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:202
@@ -343,27 +343,27 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:210
 msgid ""
-"Odoo provides a top notch cloud infrastructure including backups in three "
+"Flectra provides a top notch cloud infrastructure including backups in three "
 "different data centers, database replication, the ability to duplicate your "
 "instance in 10 minutes, and more!"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:214
 msgid ""
-"Odoo Online SLA: `https://www.odoo.com/page/odoo-online-sla "
-"<https://www.odoo.com/page/odoo-online-sla>`__\\"
+"Flectra Online SLA: `https://www.flectrahq.com/page/flectra-online-sla "
+"<https://www.flectrahq.com/page/flectra-online-sla>`__\\"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:217
 msgid ""
-"Odoo Online Security: `https://www.odoo.com/page/security "
-"<https://www.odoo.com/fr_FR/page/security>`__"
+"Flectra Online Security: `https://www.flectrahq.com/page/security "
+"<https://www.flectrahq.com/fr_FR/page/security>`__"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:220
 msgid ""
-"Privacy Policies: `https://www.odoo.com/page/odoo-privacy-policy "
-"<https://www.odoo.com/page/odoo-privacy-policy>`__"
+"Privacy Policies: `https://www.flectrahq.com/page/flectra-privacy-policy "
+"<https://www.flectrahq.com/page/flectra-privacy-policy>`__"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:224
@@ -372,7 +372,7 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:226
 msgid ""
-"Your Odoo Online subscription includes an **unlimited support service at no "
+"Your Flectra Online subscription includes an **unlimited support service at no "
 "extra cost, 24/5, Monday to Friday**. To cover 24 hours, our teams are in "
 "San Francisco, Belgium and India. Questions could be about anything and "
 "everything from: how to use or configure, bugfix requests, payments or "
@@ -382,7 +382,7 @@ msgstr ""
 #: ../../getting_started/documentation.rst:232
 msgid ""
 "Our support can be contacted through our `online support form "
-"<https://www.odoo.com/help>`__."
+"<https://www.flectrahq.com/help>`__."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:235
@@ -398,7 +398,7 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:242
 msgid ""
-"Once every two months, Odoo releases a new version. You will get an upgrade "
+"Once every two months, Flectra releases a new version. You will get an upgrade "
 "button within the **Manage Your Databases** screen. Upgrading your database "
 "is at your own discretion, but allows you to benefit from new features."
 msgstr ""
@@ -407,7 +407,7 @@ msgstr ""
 msgid ""
 "We provide the option to upgrade in a test environment so that you can "
 "evaluate a new version or train your team before the roll out. Simply fill "
-"our `online support form <https://www.odoo.com/help>`__ to make this "
+"our `online support form <https://www.flectrahq.com/help>`__ to make this "
 "request."
 msgstr ""
 
@@ -419,8 +419,8 @@ msgstr ""
 msgid ""
 "The Success Pack is a package of premium hour-based services performed by a "
 "dedicated project manager and business analyst. The list of services "
-"according to your success pack is detailed online: `https://www.odoo.com"
-"/pricing-packs <https://www.odoo.com/pricing-packs>`__"
+"according to your success pack is detailed online: `https://www.flectrahq.com"
+"/pricing-packs <https://www.flectrahq.com/pricing-packs>`__"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:259
@@ -437,7 +437,7 @@ msgstr ""
 #: ../../getting_started/documentation.rst:265
 msgid ""
 "**Project Management:** review of your objectives & expectations, phasing of"
-" the implementation (road map), mapping of your business needs and the Odoo "
+" the implementation (road map), mapping of your business needs and the Flectra "
 "features."
 msgstr ""
 
@@ -455,7 +455,7 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:276
 msgid ""
-"**Configuration:** decisions about how to implement specific needs in Odoo "
+"**Configuration:** decisions about how to implement specific needs in Flectra "
 "and advanced configuration. (e.g. logistic routes, advanced pricing "
 "structures, etc.)"
 msgstr ""
@@ -497,14 +497,14 @@ msgstr ""
 msgid ""
 "**Workflow automations:** e.g. setting values in fields based on triggers, "
 "sending reminders by emails, automating actions, etc. For very advanced "
-"automations, our project managers have access to Odoo developers."
+"automations, our project managers have access to Flectra developers."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:303
 msgid ""
-"If any customization is needed, Odoo Studio App will be required. "
-"Customizations made through Odoo Studio App will be maintained and upgraded "
-"at each Odoo upgrade, at no extra cost."
+"If any customization is needed, Flectra Studio App will be required. "
+"Customizations made through Flectra Studio App will be maintained and upgraded "
+"at each Flectra upgrade, at no extra cost."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:307
@@ -541,7 +541,7 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:326
 msgid ""
-"After the kick-off meeting, we define a phasing plan to deploy Odoo "
+"After the kick-off meeting, we define a phasing plan to deploy Flectra "
 "progressively, by groups of apps."
 msgstr ""
 
@@ -559,7 +559,7 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:340
 msgid ""
-"**On Boarding:** Odoo's project manager will review Odoo's business flows "
+"**On Boarding:** Flectra's project manager will review Flectra's business flows "
 "with you, according to your business. The goal is to train you, validate the"
 " business process and configure according to your specific needs."
 msgstr ""
@@ -567,32 +567,32 @@ msgstr ""
 #: ../../getting_started/documentation.rst:345
 msgid ""
 "**Data:** created manually or imported from your existing system. You are "
-"responsible to export the data from your existing system and Odoo's project "
-"manager will import them in Odoo."
+"responsible to export the data from your existing system and Flectra's project "
+"manager will import them in Flectra."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:349
 msgid ""
 "**Training:** once your applications are set up, your data imported, and the"
 " system is working smoothly, you will train your users. There will be some "
-"back and forth with your Odoo project manager to answer questions and "
+"back and forth with your Flectra project manager to answer questions and "
 "process your feedback."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:354
-msgid "**Production**: Once everyone is trained, your users start using Odoo."
+msgid "**Production**: Once everyone is trained, your users start using Flectra."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:357
 msgid ""
-"Once you are comfortable using Odoo, we will fine-tune the process and "
+"Once you are comfortable using Flectra, we will fine-tune the process and "
 "**automate** some tasks and do the remaining customizations (**extra screens"
 " and reports**)."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:361
 msgid ""
-"Once all applications are deployed and users are comfortable on Odoo, our "
+"Once all applications are deployed and users are comfortable on Flectra, our "
 "project manager will not work on your project anymore (unless you have new "
 "needs) and you will use the support service if you have further questions."
 msgstr ""
@@ -603,13 +603,13 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:369
 msgid ""
-"To access your databases, go to Odoo.com, sign in and click **My Databases**"
+"To access your databases, go to Flectra.com, sign in and click **My Databases**"
 " in the drop-down menu at the top right corner."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:375
 msgid ""
-"Odoo gives you the opportunity to test the system before going live or "
+"Flectra gives you the opportunity to test the system before going live or "
 "before upgrading to a newer version. Do not mess up your working environment"
 " with test data!"
 msgstr ""
@@ -618,7 +618,7 @@ msgstr ""
 msgid ""
 "In that purpose, you can create as many free trials as you want (available "
 "for 15 days). Those instances can be instant copies of your working "
-"environment. To do so, go to the Odoo.com account in **My Organizations** "
+"environment. To do so, go to the Flectra.com account in **My Organizations** "
 "page and click **Duplicate**."
 msgstr ""
 
@@ -634,7 +634,7 @@ msgstr ""
 
 #: ../../getting_started/documentation.rst:396
 msgid ""
-"Odoo is passionate about delighting our customers and ensuring that they "
+"Flectra is passionate about delighting our customers and ensuring that they "
 "have all the resources needed to complete their project."
 msgstr ""
 
@@ -650,7 +650,7 @@ msgid ""
 "your project manager. At that time, we will assign a member of our Client "
 "Success Team to you. They are specialized in the long-term relationship with"
 " our customers. They will contact you to showcase new versions, improve the "
-"way you work with Odoo, assess your new needs, etc..."
+"way you work with Flectra, assess your new needs, etc..."
 msgstr ""
 
 #: ../../getting_started/documentation.rst:409
@@ -660,7 +660,7 @@ msgid ""
 msgstr ""
 
 #: ../../getting_started/documentation.rst:412
-msgid "Welcome aboard and enjoy your Odoo experience!"
+msgid "Welcome aboard and enjoy your Flectra experience!"
 msgstr ""
 
 #: ../../getting_started/documentation.rst:415

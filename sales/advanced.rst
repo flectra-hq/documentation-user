@@ -6,4 +6,3 @@ Advanced Topics
    :titlesonly:
 
    advanced/portal
-   advanced/sale_discount

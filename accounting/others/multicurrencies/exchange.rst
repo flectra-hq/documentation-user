@@ -18,13 +18,13 @@ Configuration
 Enable multi-currencies
 -----------------------
 
-In the accounting module, Go to :menuselection:`Configuration --> Settings --> Currencies`
-and flag **Multi-Currencies**, then click on **Save**.
+In the accounting module, Go to :menuselection:`Configuration --> Settings` 
+and flag **Allow multi currencies**, then click on **apply**.
 
 .. image:: media/exchange_rate03.png
    :align: center
 
-Configure the currency rates in :menuselection:`Configuration --> Accounting --> Currencies`.
+Configure the currency rates in :menuselection:`Configuration --> Currencies`.
 Write down the rate and make sure the currency is active.
 
 .. image:: media/exchange_rate02.png
@@ -46,7 +46,7 @@ Configure your journal
 
 In order to register payments in other currencies, you have to **remove
 the currency constraint** on the journal. Go to the accounting
-application, Click on **...** on the journal and **Settings**.
+application, Click on **More** on the journal and **Settings**.
 
 .. image:: media/exchange_rate06.png
    :align: center
@@ -105,6 +105,8 @@ journal entries. All the exchange rates differences are recorded in it.
 .. tip::
     The Exchange difference journal can be changed in your accounting settings.
 
+.. include:: full_reconcile_warning.rst
+
 .. seealso::
-    * :doc:`../../bank/reconciliation/configure`
+    * :doc:`../../bank/reconciliation/reconciliation_models`
     * :doc:`../../bank/reconciliation/use_cases`

@@ -1,5 +1,3 @@
-:banner: banners/flectra_index.jpg
-
 ==========================
 Flectra User Documentation
 ==========================
@@ -11,3 +9,4 @@ Flectra User Documentation
 
     Index <self>
     applications
+    practical

@@ -1,4 +1,4 @@
-:banner: banners/flectra_manufacturing.jpg
+:banner: banners/manufacturing.png
 
 =============
 Manufacturing
@@ -7,5 +7,4 @@ Manufacturing
 .. toctree::
    :titlesonly:
 
-   manufacturing/overview
    manufacturing/management

@@ -1,6 +1,6 @@
-=================================================
+===============================================
 How customers can access their customer account
-=================================================
+===============================================
 
 It has never been so easy for your customers to access their 
 customer account. Forget endless signup forms, 
@@ -16,6 +16,9 @@ Sign up
 The invitation to sign up shows up when the customer wants to visualize
 the order from order confirmation email.
 
+.. image:: ./media/portal_flectra_signup.png
+   :align: center
+
 Customer account
 ================
 
@@ -26,6 +29,9 @@ in the login dropdown menu.
    :align: center
 
 THere they find all their history. The main address (billing) can also be modified.
+
+.. image:: ./media/portal_menu.png
+   :align: center
 
 .. note::
     If the customer is set as a contact of a company in your address book,

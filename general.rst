@@ -1,4 +1,4 @@
-:banner: banners/flectra-general.jpg
+:banner: banners/general.png
 
 =======
 General
@@ -8,5 +8,10 @@ General
    :titlesonly:
 
    general/flectra_basics
+   general/unsplash
    general/base_import
+   general/multi_companies
    general/auth
+   general/payment_acquirers
+   general/calendars
+   general/developer_mode

@@ -46,33 +46,6 @@ For Example, *Too Expensive*.
 .. image:: media/lost_opportunities03.png
    :align: center
 
-Restore lost opportunities
-==========================
-
-From the Kanban view with the filter(s) in place, you can select any
-opportunity you wish and work on it as usual. You can also restore it by
-clicking on *Archived*.
-
-.. image:: media/lost_opportunities04.png
-   :align: center
-
-You can also restore items in batch from the Kanban view when they
-belong to the same stage. Select *Restore Records* in the column
-options. You can also archive the same way.
-
-.. image:: media/lost_opportunities05.png
-   :align: center
-
-To select specific opportunities, you should switch to the list view.
-
-.. image:: media/lost_opportunities06.png
-   :align: center
-
-Then you can select as many or all opportunities and select the actions
-you want to take.
-
-.. image:: media/lost_opportunities07.png
-   :align: center
 
 .. seealso::
    * :doc:`../performance/win_loss`

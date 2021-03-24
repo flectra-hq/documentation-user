@@ -12,8 +12,8 @@ The first thing to do is to load your desired language on your Flectra
 instance.
 
 From the general dashboard click on the **Settings** app; on the top
-left of the page select :menuselection:`Translations --> Load a Translation`,
-select a language to install and click on **LOAD.**
+left of the page select :menuselection:`Translations --> Languages`,
+select a language to install and click on **ADD.**
 
 .. image:: media/choose_language01.png
     :align: center
@@ -28,7 +28,7 @@ Change your language
 
 You can change the language to the installed language by going to the
 drop-down menu at the top right side of the screen, choose
-**Preferences**.
+**My Profile**.
 
 .. image:: media/choose_language02.png
     :align: center

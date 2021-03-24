@@ -1,23 +1,39 @@
-============================================
-How to register customer payments by checks?
-============================================
+====================================
+Register customer payments by checks
+====================================
 
-To handle payments received by checks. Flectra support
-approach so that you can use.
+There are two ways to handle payments received by checks. Flectra support
+both approaches so that you can use the one that better fits your
+habits.
 
-**Undeposited Funds:**
+1. **Undeposited Funds:** 
    once you receive the check, you record a payment
    by check on the invoice. (using a Check journal and posted on the
    Undeposited Fund account) Then, once the check arrives in your
    bank account, move money from Undeposited Funds to your bank
    account.
 
-We recommend this approach as it is more accurate (your bank
-account balance is accurate, taking into accounts checks that have not
-been cashed yet).
+2. **One journal entry only:** 
+   once your receive the check, you record a
+   payment on your bank, paid by check, without going through the
+   **Undeposited Funds**. Once you process your bank statement, you do
+   the matching with your bank feed and the check payment, without
+   creating a dedicated journal entry.
 
-Undeposited Funds
-=================
+We recommend the first approach as it is more accurate (your bank
+account balance is accurate, taking into accounts checks that have not
+been cashed yet). Both approaches require the same effort.
+
+Even if the first method is cleaner, Flectra support the second approach
+because some accountants are used to it (quickbooks and peachtree
+users).
+
+.. Note:: 
+  You may have a look at the *Deposit Ticket feature* if you deposit
+  several checks to your bank accounts in batch.
+
+Option 1: Undeposited Funds
+===========================
 
 Configuration
 -------------
@@ -43,7 +59,7 @@ on **Register Payment**. Fill in the information about the payment:
 
 -  Memo: write the Check number
 
-.. image:: ./media/check03.png
+.. image:: ./media/check02.png
   :align: center
 
 This operation will produce the following journal entry:
@@ -74,9 +90,62 @@ If you use this approach to manage received checks, you get the list of
 checks that have not been cashed in the **Undeposit Funds** account
 (accessible, for example, from the general ledger).
 
+.. Note:: 
+    Both methods will produce the same data in your accounting at the
+    end of the process. But, if you have checks that have not been cashed,
+    this one is cleaner because those checks have not been reported yet on
+    your bank account.
+
+Option 2: One journal entry only
+================================
+
+Configuration
+-------------
+
+These is nothing to configure if you plan to manage your checks using
+this method.
+
+From check payments to bank statements
+--------------------------------------
+
+Once you receive a customer check, go to the related invoice and click
+on **Register Payment**. Fill in the information about the payment:
+
+-  **Payment method:** the bank that will be used for the deposit
+
+-  Memo: write the check number
+
+.. image:: ./media/check03.png
+  :align: center
+
+The invoice is marked as paid as soon as you record the check.
+
+Once you will receive the bank statements, you will do the matching with
+the statement and this actual payment. (technically: point this payment
+and relate it to the statement line)
+
+With this approach, you will get the following journal entry in your
+books:
+
++----------------------+-------------------+----------+----------+
+| Account              | Statement Match   | Debit    | Credit   |
++======================+===================+==========+==========+
+| Account Receivable   | X                 |          | 100.00   |
++----------------------+-------------------+----------+----------+
+| Bank                 |                   | 100.00   |          |
++----------------------+-------------------+----------+----------+
+
 .. tip:: 
     You may also record the payment directly without going on the
     customer invoice, using the menu :menuselection:`Sales --> Payments`. This method may
     be more convenient if you have a lot of checks to record in a batch but
     you will have to reconcile entries afterwards (matching payments with
     invoices)
+
+If you use this approach to manage received checks, you can use the
+report **Bank Reconciliation Report** to verify which checks have been
+received or paid by the bank. (this report is available from the **More**
+option from the Accounting dashboard on the related bank account).
+
+.. image:: ./media/check01.png
+  :align: center

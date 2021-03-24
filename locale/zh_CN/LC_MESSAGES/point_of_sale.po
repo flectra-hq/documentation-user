@@ -1,17 +1,32 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
+# Copyright (C) 2015-TODAY, Flectra S.A.
+# This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# niulin lnc. <admin@niulin.net>, 2020
+# Connie Xiao <connie.xiao@elico-corp.com>, 2020
+# Wall, 2020
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
+# Manga Tsang <mts@flectra.com>, 2020
+# Martin Trigaux, 2020
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
+# liAnGjiA <liangjia@qq.com>, 2020
+# fausthuang, 2020
+# LINYUN TONG <tong.linyun@elico-corp.com>, 2020
+# Kenny Yang <biganglerau@gmail.com>, 2020
+# Datasource International <Hennessy@datasourcegroup.com>, 2020
+# Mandy Choy <mnc@flectra.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Business 10.0\n"
+"Project-Id-Version: Flectra 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-08 14:28+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: e2f <projects@e2f.com>, 2018\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"POT-Creation-Date: 2020-09-22 16:26+0200\n"
+"PO-Revision-Date: 2020-09-22 14:41+0000\n"
+"Last-Translator: Mandy Choy <mnc@flectra.com>, 2020\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/flectra/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,794 +35,334 @@ msgstr ""
 
 #: ../../point_of_sale.rst:5
 msgid "Point of Sale"
-msgstr "POS"
+msgstr "销售点"
 
-#: ../../point_of_sale/advanced.rst:3
-msgid "Advanced topics"
-msgstr "高级话题"
+#: ../../point_of_sale/advanced_pricing_features.rst:3
+msgid "Pricing Features"
+msgstr "定价功能"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:3
-msgid "How to use discount tags on products?"
-msgstr "如何在产品上使用折扣标签"
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:3
+msgid "Using discount tags with a barcode scanner"
+msgstr "使用适合条码扫描仪的折扣标签"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:5
-msgid "This tutorial will describe how to use discount tags on products."
-msgstr "本例子将讲述如何在产品上使用折扣标签。"
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:5
+msgid ""
+"If you want to sell your products with a discount, for a product getting "
+"close to its expiration date for example, you can use discount tags. They "
+"allow you to scan discount barcodes."
+msgstr "如你想打折销售产品，例如对于已经临期的产品，你可使用折扣标签。这样可以扫描折扣条码。"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:8
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:10
+msgid "To use discount tags you will need to use a barcode scanner."
+msgstr "如要使用折扣标签，你需要使用条码扫描器。"
+
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:13
 msgid "Barcode Nomenclature"
 msgstr "条码命名规则"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:10
-msgid ""
-"To start using discounts tags, let's first have a look at the **barcode "
-"nomenclature** in order to print our correct discounts tags."
-msgstr "使用打折标签之前, 让我们先看一下 **条形码命名规则** 来打印出正确的打折标签。"
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:15
+msgid "To use discounts tags, we need to learn about barcode nomenclature."
+msgstr "为使用折扣标签，我们需要了解条码命名规则。"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:13
-msgid "I want to have a discount for the product with the following barcode."
-msgstr "我想用以下条形码为这个产品设一个打折。"
-
-#: ../../point_of_sale/advanced/discount_tags.rst:18
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:17
 msgid ""
-"Go to :menuselection:`Point of Sale --> Configuration --> Barcode "
-"Nomenclatures`. In the default nomenclature, you can see that to set a "
-"discount, you have to start you barcode with ``22`` and the add the "
-"percentage you want to set for the product."
+"Let's say you want to have a discount for the product with the following "
+"barcode:"
+msgstr "假设你想对以下条码的产品打折："
+
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:23
+msgid ""
+"You can find the *Default Nomenclature* under the settings of your PoS "
+"interface."
+msgstr "你可在PoS界面设置下找到*默认命名规则*。"
+
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:32
+msgid ""
+"Let's say you want 50% discount on a product you have to start your barcode "
+"with 22 (for the discount barcode nomenclature) and then 50 (for the %) "
+"before adding the product barcode. In our example, the barcode would be:"
+msgstr "假设你想对一个产品打折50%，你必须在添加产品条码之前先加上22（用于折扣条码命名）和50（用于折扣%）。 在我们的例子中，条码应为："
+
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:41
+msgid "Scan the products & tags"
+msgstr "扫描产品和标签"
+
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:43
+msgid "You first have to scan the desired product (in our case, a lemon)."
+msgstr "你必须首先扫描需要的产品（本例中为柠檬）。"
+
+#: ../../point_of_sale/advanced_pricing_features/discount_tags.rst:48
+msgid ""
+"And then scan the discount tag. The discount will be applied and you can "
+"finish the transaction."
+msgstr "然后扫描折扣标签。折扣将生效，你可完成交易。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:3
+msgid "Apply Discounts"
+msgstr "套用折扣"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:5
+msgid ""
+"By offering discounts, you can entice your customers and drastically "
+"increase your revenue. It is vital to offer discounts, whether they are "
+"time-limited, seasonal or manually given."
+msgstr "通过提供折扣，您可以吸引你的客户，并大幅度增加收入。 提供折扣是至关重要的，无论是限时折扣，季节性折扣还是手动折扣。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:9
+msgid ""
+"To manage discounts, Flectra has powerful features that help set up a pricing "
+"strategy tailored to every business."
+msgstr "Flectra具有强大的功能以管理折扣，可建立适合每个企业的定价策略。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:13
+msgid "Apply manual discounts"
+msgstr "应用手动折扣"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:15
+msgid ""
+"If you seldom use discounts, applying manual ones might be the easiest "
+"solution for your Point of Sale."
+msgstr "如果您很少使用折扣功能，那么应用手动工具可能是您最简单的POS解决方案。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:18
+msgid ""
+"You can either apply a discount on the whole order or on specific products "
+"inside an order."
+msgstr "您可以对整个订单或订单中的特定产品应用折扣。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:22
+msgid "Apply a discount on a product"
+msgstr "对产品应用折扣"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:24
+msgid "From your PoS session interface, use the *Disc* button."
+msgstr "在PoS界面中，使用* Disc *按钮。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:30
+msgid ""
+"Then, you can input a discount over the product that is currently selected."
+msgstr "然后，您可以输入当前所选产品的折扣。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:34
+msgid "Apply a global discount"
+msgstr "应用全局折扣"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:36
+msgid ""
+"To apply a discount on the whole order, go to :menuselection:`Point of Sales"
+" --> Configuration --> Point of Sale` and select your PoS."
+msgstr "要对整个订单应用折扣，请转到 :menuselection:`POS --> 设置 --> 销售点` ，然后选择您的PoS。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:39
+msgid ""
+"Once on your PoS form, select *Global Discounts*, under the *Pricing* "
+"category."
+msgstr "进入PoS表单后，在 *价格* 类别下选择 *全球折扣* 。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:45
+msgid "Now, you have a new *Discount* button appearing on your PoS interface."
+msgstr "现在，您的PoS界面上将出现一个新的 *折扣* 按钮。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:51
+msgid "Click on it and enter the wanted discount."
+msgstr "点击它并输入想要的折扣。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:58
+msgid ""
+"On this example, there is a global discount of 50% as well as a specific 50%"
+" discount on oranges."
+msgstr "在这个例子中，有50％的全球折扣以及橙子50％的折扣。"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:62
+msgid "Apply time-limited discounts"
+msgstr "应用限时折扣"
+
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:64
+msgid ""
+"To activate time-limited discounts, you must activate the *Pricelists* "
+"feature. To do so, go to :menuselection:`Point of Sales --> Configuration "
+"--> Point of Sale` and open your PoS. Then, enable the pricelist feature."
 msgstr ""
-"进入菜单 :menuselection:`零售(Point of Sale) --> 设置(Configuration) --> "
-"条形码定义(Barcode Nomenclatures)` , 你可以看到设置配置折扣条形码, 你只要使用\" 22 \\ "
-"\"开头的条形码并附上你要设置的百分比数值即可。"
+"要激活限时折扣，您必须激活 *价目表* 功能。 为此，请转到:menuselection:` POS --> 配置 --> "
+"销售点，然后打开您的PoS并启用价目表功能。"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:26
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:73
 msgid ""
-"For instance if you want ``50%`` discount on a product you have to start you"
-" barcode with ``2250`` and then add the product barcode. In our example, the"
-" barcode will be:"
-msgstr "例如你要设置\" 50 \\ \"的折扣, 你需要使用\" 2250 \\ \"然后增加产品条形码, 在我们的例子中, 这个条形码将是 :"
+"Once activated, you must choose the pricelists you want to make available in"
+" the PoS and define a default one."
+msgstr "激活后，您必须选择要在PoS中使用的价目表并定义默认价目表。"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:34
-msgid "Scanning your products"
-msgstr "扫描产品条形码"
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:77
+msgid "Create a pricelist"
+msgstr "创建价格表"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:36
-msgid "If you go back to the **dashboard** and start a **new session**"
-msgstr "如果你回到 **仪表盘** 并且开始一个 **新会话** "
-
-#: ../../point_of_sale/advanced/discount_tags.rst:41
-msgid "You have to scan:"
-msgstr "您需要扫描 :"
-
-#: ../../point_of_sale/advanced/discount_tags.rst:43
-msgid "the product"
-msgstr "产品"
-
-#: ../../point_of_sale/advanced/discount_tags.rst:45
-msgid "the discount tag"
-msgstr "折扣标签"
-
-#: ../../point_of_sale/advanced/discount_tags.rst:47
-msgid "When the product is scanned, it appears on the ticket"
-msgstr "当产品扫描后, 会更新到相应的票据上"
-
-#: ../../point_of_sale/advanced/discount_tags.rst:52
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:79
 msgid ""
-"Then when you scan the discount tag, ``50%`` discount is applied on the "
-"product."
-msgstr "然后只要扫描折扣标签, 该产品就会执行\" 50% \\ \"折扣。"
+"By default, Flectra has a *Public Pricelist* configured. To create more, go to "
+":menuselection:`Point of Sale --> Products --> Pricelists`. Then click on "
+"create."
+msgstr ""
+"在默认情况下，Flectra具有配置的 *公共价目表* 。 要创建更多产品，请转到:menuselection:`POS- -> 产品 --> 价格清单。 "
+"然后点击创建。"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:58
-msgid "That's it, this how you can use discount tag on products with Odoo."
-msgstr "这就是你如何在Odoo中在产品上使用折扣。"
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:83
+msgid ""
+"When creating a pricelist, you can set several criteria to use a specific "
+"price: period, min. quantity, etc. You can also decide to apply that "
+"pricelist on specific products or on the whole range."
+msgstr "创建价格表时，可以使用多个条件以设置特定的价格如：时期，最小值。 数量等。您还可以决定将该价目表应用于特定产品或整个产品系列。"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:61
-#: ../../point_of_sale/advanced/loyalty.rst:114
-#: ../../point_of_sale/advanced/manual_discount.rst:83
-#: ../../point_of_sale/advanced/mercury.rst:94
-#: ../../point_of_sale/advanced/multi_cashiers.rst:171
-#: ../../point_of_sale/advanced/register.rst:57
-#: ../../point_of_sale/advanced/reprint.rst:35
-#: ../../point_of_sale/overview/start.rst:155
-#: ../../point_of_sale/restaurant/print.rst:69
-#: ../../point_of_sale/restaurant/split.rst:81
-#: ../../point_of_sale/restaurant/tips.rst:43
-#: ../../point_of_sale/restaurant/transfer.rst:35
-msgid ":doc:`../shop/cash_control`"
-msgstr ":doc:`../shop/cash_control` "
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:92
+msgid "Using a pricelist with the PoS interface"
+msgstr "在PoS界面上使用价目表"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:62
-#: ../../point_of_sale/advanced/loyalty.rst:115
-#: ../../point_of_sale/advanced/manual_discount.rst:84
-#: ../../point_of_sale/advanced/mercury.rst:95
-#: ../../point_of_sale/advanced/multi_cashiers.rst:172
-#: ../../point_of_sale/advanced/register.rst:58
-#: ../../point_of_sale/advanced/reprint.rst:36
-#: ../../point_of_sale/overview/start.rst:156
-#: ../../point_of_sale/restaurant/print.rst:70
-#: ../../point_of_sale/restaurant/split.rst:82
-#: ../../point_of_sale/restaurant/tips.rst:44
-#: ../../point_of_sale/restaurant/transfer.rst:36
-msgid ":doc:`../shop/invoice`"
-msgstr ":doc:`../shop/invoice` "
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:94
+msgid ""
+"On the PoS interface, a new button appears. Use it to select a pricelist."
+msgstr "在PoS界面上，将出现一个新按钮。 使用它来选择价格表。"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:63
-#: ../../point_of_sale/advanced/loyalty.rst:116
-#: ../../point_of_sale/advanced/manual_discount.rst:85
-#: ../../point_of_sale/advanced/mercury.rst:96
-#: ../../point_of_sale/advanced/multi_cashiers.rst:173
-#: ../../point_of_sale/advanced/register.rst:59
-#: ../../point_of_sale/advanced/reprint.rst:37
-#: ../../point_of_sale/overview/start.rst:157
-#: ../../point_of_sale/restaurant/print.rst:71
-#: ../../point_of_sale/restaurant/split.rst:83
-#: ../../point_of_sale/restaurant/tips.rst:45
-#: ../../point_of_sale/restaurant/transfer.rst:37
-msgid ":doc:`../shop/refund`"
-msgstr ":doc:`../shop/refund` "
+#: ../../point_of_sale/advanced_pricing_features/discounts.rst:101
+msgid ""
+"Click on it to instantly update the prices with the selected pricelist. "
+"Then, you can finalize the order."
+msgstr "点击它来即时更新与所选价目表价格。 然后，您可以确定订单。"
 
-#: ../../point_of_sale/advanced/discount_tags.rst:64
-#: ../../point_of_sale/advanced/loyalty.rst:117
-#: ../../point_of_sale/advanced/manual_discount.rst:86
-#: ../../point_of_sale/advanced/mercury.rst:97
-#: ../../point_of_sale/advanced/multi_cashiers.rst:174
-#: ../../point_of_sale/advanced/register.rst:60
-#: ../../point_of_sale/advanced/reprint.rst:38
-#: ../../point_of_sale/overview/start.rst:158
-#: ../../point_of_sale/restaurant/print.rst:72
-#: ../../point_of_sale/restaurant/split.rst:84
-#: ../../point_of_sale/restaurant/tips.rst:46
-#: ../../point_of_sale/restaurant/transfer.rst:38
-msgid ":doc:`../shop/seasonal_discount`"
-msgstr ":doc:`../shop/seasonal_discount` "
+#: ../../point_of_sale/advanced_pricing_features/loyalty.rst:3
+msgid "Manage a loyalty program"
+msgstr "管理忠诚度计划"
 
-#: ../../point_of_sale/advanced/loyalty.rst:3
-msgid "How to create & run a loyalty & reward system"
-msgstr "如何创建并运营忠诚度与奖励系统"
+#: ../../point_of_sale/advanced_pricing_features/loyalty.rst:5
+msgid ""
+"Encourage your customers to continue to shop at your point of sale with a "
+"*Loyalty Program*."
+msgstr "通过*忠诚度计划*鼓励客户继续来你的销售点购物。"
 
-#: ../../point_of_sale/advanced/loyalty.rst:6
-#: ../../point_of_sale/advanced/manual_discount.rst:41
-#: ../../point_of_sale/advanced/multi_cashiers.rst:37
-#: ../../point_of_sale/advanced/multi_cashiers.rst:88
-#: ../../point_of_sale/advanced/reprint.rst:6
-#: ../../point_of_sale/overview/start.rst:22
-#: ../../point_of_sale/restaurant/print.rst:6
-#: ../../point_of_sale/restaurant/split.rst:6
-#: ../../point_of_sale/restaurant/tips.rst:6
-#: ../../point_of_sale/shop/seasonal_discount.rst:6
+#: ../../point_of_sale/advanced_pricing_features/loyalty.rst:9
+#: ../../point_of_sale/overview/getting_started.rst:14
+#: ../../point_of_sale/payment/ingenico.rst:12
+#: ../../point_of_sale/payment/six.rst:15
+#: ../../point_of_sale/payment/vantiv.rst:13
+#: ../../point_of_sale/restaurant/restaurant.rst:14
+#: ../../point_of_sale/restaurant/split.rst:10
+#: ../../point_of_sale/shop/barcode.rst:9
+#: ../../point_of_sale/shop/cash_rounding.rst:20
+#: ../../point_of_sale/shop/reprint.rst:8
 msgid "Configuration"
-msgstr "配置"
+msgstr "基础配置"
 
-#: ../../point_of_sale/advanced/loyalty.rst:8
+#: ../../point_of_sale/advanced_pricing_features/loyalty.rst:11
 msgid ""
-"In the **Point of Sale** application, go to :menuselection:`Configuration "
-"--> Settings`."
+"To activate the *Loyalty Program* feature, go to :menuselection:`Point of "
+"Sale --> Configuration --> Point of sale` and select your PoS interface. "
+"Under the Pricing features, select *Loyalty Program*"
 msgstr ""
-"在 **零售** 应用中, 进入 :menuselection:`配置(Configuration) --> 设置(Settings)` 。"
+"如要启用*忠诚度计划*功能，前往 :menuselection:`POS --> 配置 --> "
+"POS`并选择你的PoS界面。在定价功能下，选择*忠诚度计划*。"
 
-#: ../../point_of_sale/advanced/loyalty.rst:14
+#: ../../point_of_sale/advanced_pricing_features/loyalty.rst:19
+msgid "From there you can create and edit your loyalty programs."
+msgstr "你可在此创建并编辑忠诚度计划。"
+
+#: ../../point_of_sale/advanced_pricing_features/loyalty.rst:24
 msgid ""
-"You can tick **Manage loyalty program with point and reward for customers**."
-msgstr "你可以勾选 **设置忠诚项目并且给客户奖励** 。"
+"You can decide what type of program you wish to use, if the reward is a "
+"discount or a gift, make it specific to some products or cover your whole "
+"range. Apply rules so that it is only valid in specific situation and "
+"everything in between."
+msgstr "你可决定希望使用的忠诚度计划类型，如果奖励是折扣或礼品，可设置针对特定产品还是整个范围应用规则，确保它仅对特定情况有效。"
 
-#: ../../point_of_sale/advanced/loyalty.rst:21
-msgid "Create a loyalty program"
-msgstr "创建忠诚计划"
+#: ../../point_of_sale/advanced_pricing_features/loyalty.rst:30
+msgid "Use the loyalty program in your PoS interface"
+msgstr "在你的PoS界面使用忠诚度计划"
 
-#: ../../point_of_sale/advanced/loyalty.rst:23
+#: ../../point_of_sale/advanced_pricing_features/loyalty.rst:32
 msgid ""
-"After you apply, go to :menuselection:`Configuration --> Loyalty Programs` "
-"and click on **Create**."
-msgstr "在你申请后, 进入 :`配置 --> 忠诚项目` 并点击 **创建** 。"
-
-#: ../../point_of_sale/advanced/loyalty.rst:29
-msgid ""
-"Set a **name** and an **amount** of points given **by currency**, **by "
-"order** or **by product**. Extra rules can also be added such as **extra "
-"points** on a product."
+"When a customer is set, you will now see the points they will get for the "
+"transaction and they will accumulate until they are spent. They are spent "
+"using the button *Rewards* when they have enough points according to the "
+"rules defined in the loyalty program."
 msgstr ""
-"设一个 **名字** 和 **数量** 为给出的 **按币种** , **按排序** 或者 **按产品** 。也可以增加特殊的规则给一个产品例如 "
-"**特殊的点** 。"
+"在设置客户后，你现在可以看到他们交易获得的点数，并将累计他们已消费的金额。根据忠诚度计划定义的规则，在累计足够点数后，通过*奖励*按钮即可兑换奖励。"
 
-#: ../../point_of_sale/advanced/loyalty.rst:33
-msgid "To do this click on **Add an item** under **Rules**."
-msgstr "要这样做, 就在下面的 **规则** 点击 **添加新的条目** 。"
-
-#: ../../point_of_sale/advanced/loyalty.rst:38
-msgid "You can configure any rule by setting some configuration values."
-msgstr "你可以通过设置一些配置值配置任何规则。"
-
-#: ../../point_of_sale/advanced/loyalty.rst:40
-msgid "**Name**: An internal identification for this loyalty program rule"
-msgstr " **名称**:  一个忠诚项目的内部标识"
-
-#: ../../point_of_sale/advanced/loyalty.rst:41
-msgid "**Type**: Does this rule affects products, or a category of products?"
-msgstr " **类型**:  该规则是否影响到产品或产品的内部分类？"
-
-#: ../../point_of_sale/advanced/loyalty.rst:42
-msgid "**Target Product**: The product affected by the rule"
-msgstr " **目标产品**:  规则影响到的产品"
-
-#: ../../point_of_sale/advanced/loyalty.rst:43
-msgid "**Target Category**: The category affected by the rule"
-msgstr " **目标种类**:  规则影响到的种类"
-
-#: ../../point_of_sale/advanced/loyalty.rst:44
+#: ../../point_of_sale/advanced_pricing_features/loyalty.rst:40
 msgid ""
-"**Cumulative**: The points won from this rule will be won in addition to "
-"other rules"
-msgstr " **积累**:  从这个规则赢得的积分将除了从其他规则赢得的。"
+"You can see the price is instantly updated to reflect the pricelist. You can"
+" finalize the order in your usual way."
+msgstr "你会发现价格即时更新，反映价格表的最新价格。你可按正常方式完成订单。"
 
-#: ../../point_of_sale/advanced/loyalty.rst:45
+#: ../../point_of_sale/advanced_pricing_features/loyalty.rst:44
 msgid ""
-"**Points per product**: How many points the product will earn per product "
-"ordered"
-msgstr " **每个产品点数**:  每个产品订单赚多少个积分点"
+"If you select a customer with a default pricelist, it will be applied. You "
+"can of course change it."
+msgstr "如你选择包含默认价格表的客户，则将适用该价格表。当然，你也可更改。"
 
-#: ../../point_of_sale/advanced/loyalty.rst:46
+#: ../../point_of_sale/advanced_pricing_features/pricelists.rst:3
+msgid "Using Pricelists in Point of Sale"
+msgstr "在POS中使用价目表"
+
+#: ../../point_of_sale/advanced_pricing_features/pricelists.rst:5
 msgid ""
-"**Points per currency**: How many points the product will earn per value "
-"sold"
-msgstr " **按消费的点数**:  按销费额计算赚取的积分点"
-
-#: ../../point_of_sale/advanced/loyalty.rst:51
-msgid ""
-"Your new rule is now created and rewards can be added by clicking on **Add "
-"an Item** under **Rewards**."
-msgstr "现在你的新规则创建好了, 奖励可以通过点击 **添加项目** 下的 **奖励** 。"
-
-#: ../../point_of_sale/advanced/loyalty.rst:57
-msgid "Three types of reward can be given:"
-msgstr "能提供三种类型奖励 :"
-
-#: ../../point_of_sale/advanced/loyalty.rst:59
-msgid ""
-"**Resale**: convert your points into money. Set a product that represents "
-"the value of 1 point."
-msgstr " **转售**:  将您的积分转换为金钱。设置表示1个积分点的产品"
-
-#: ../../point_of_sale/advanced/loyalty.rst:64
-msgid ""
-"**Discount**: give a discount for an amount of points. Set a product with a "
-"price of ``0 €`` and without any taxes."
-msgstr " **折扣**:  给折扣的积分点数量。设置一个价格为\" 0 € \\ \"并且没有税的产品。"
-
-#: ../../point_of_sale/advanced/loyalty.rst:69
-msgid "**Gift**: give a gift for an amount of points"
-msgstr " **礼品**:  为一定量的积分赠送礼物"
-
-#: ../../point_of_sale/advanced/loyalty.rst:77
-msgid "Applying your loyalty program to a point of sale"
-msgstr "把你的忠诚度项目应用在某的销售点上"
-
-#: ../../point_of_sale/advanced/loyalty.rst:79
-msgid "On the **Dashboard**, click on :menuselection:`More --> Settings`."
-msgstr "在 **仪表板** 上, 点击  :menuselection:`更多 --> 设置` 。"
-
-#: ../../point_of_sale/advanced/loyalty.rst:84
-msgid "Next to loyalty program, set the program you want to set."
-msgstr "接下来是忠诚度计划, 设置你的忠诚度计划。"
-
-#: ../../point_of_sale/advanced/loyalty.rst:90
-msgid "Gathering and consuming points"
-msgstr "收集和消费积分"
-
-#: ../../point_of_sale/advanced/loyalty.rst:92
-msgid "To start gathering points you need to set a customer on the order."
-msgstr "为了开始收集积分点, 你要在订单上设置一个客户。"
-
-#: ../../point_of_sale/advanced/loyalty.rst:94
-msgid "Click on **Customer** and select the right one."
-msgstr "点击 **客户** 并选择正确的"
-
-#: ../../point_of_sale/advanced/loyalty.rst:96
-msgid "Loyalty points will appear on screen."
-msgstr "忠诚积分会显示在屏幕。"
-
-#: ../../point_of_sale/advanced/loyalty.rst:101
-msgid ""
-"The next time the customer comes to your shop and has enough points to get a"
-" reward, the **Rewards** button is highlighted and gifts can be given."
-msgstr "下一次客户到你的商店并有足够的点数来获得一个奖励, **奖励** 按钮会高亮并能给予礼物。"
-
-#: ../../point_of_sale/advanced/loyalty.rst:108
-msgid ""
-"The reward is added and of course points are subtracted from the total."
-msgstr "奖励被加入, 当然积分点会从总数里扣除。"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:3
-msgid "How to apply manual discounts?"
-msgstr "如何应用人工折扣？"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:6
-#: ../../point_of_sale/advanced/mercury.rst:6
-#: ../../point_of_sale/overview.rst:3 ../../point_of_sale/overview/start.rst:6
-msgid "Overview"
-msgstr "概述"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:8
-msgid ""
-"You can apply manual discounts in two different ways. You can directly set a"
-" discount on the product or you can set a global discount on the whole cart."
-msgstr "您可以用两种不同的方式使用手动折扣。您可以直接获得的产品的折扣, 也可以设置对整个购物车的全局折扣。"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:13
-msgid "Discount on the product"
-msgstr "产品的折扣"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:15
-#: ../../point_of_sale/advanced/register.rst:8
-msgid "On the dashboard, click on **New Session**:"
-msgstr "在仪表盘上, 点击 **新的会话**: "
-
-#: ../../point_of_sale/advanced/manual_discount.rst:20
-msgid "You will get into the main point of sale interface :"
-msgstr "你会进入主销售点界面 :"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:25
-#: ../../point_of_sale/advanced/mercury.rst:76
-#: ../../point_of_sale/shop/cash_control.rst:53
-msgid ""
-"On the right you can see the list of your products with the categories on "
-"the top. If you click on a product, it will be added in the cart. You can "
-"directly set the correct quantity or weight by typing it on the keyboard."
-msgstr "在右边你可以看到你的产品清单按顶部的分类。如果你点击一个产品, 它会被加到购物车里。你可以直接看到数量或重量通过键盘输入。"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:30
-msgid ""
-"The same way you insert a quantity, Click on **Disc** and then type the "
-"discount (in percent). This is how you insert a manual discount on a "
-"specific product."
-msgstr "输入数量一样, 点击 **折扣** , 然后键入折扣(百分比)。这是你如何手工输入一个特定的产品折扣的方法。"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:38
-msgid "Global discount"
-msgstr "全局折扣"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:43
-msgid ""
-"If you want to set a global discount, you need to go to "
-":menuselection:`Configuration --> Settings` and tick **Allow global "
-"discounts**"
+"You probably know the concept of happy hour: during a certain period of "
+"time, the barman gives a discount on some drinks (usually 50% off or a buy "
+"one get one free). When the period is over, prices go back to normal. But "
+"how does that relate with Flectra?"
 msgstr ""
-"如果你想设置一个全局的折扣, 你需要去 :菜单选择:`配置 - > Settings` 并勾选 **允许全局折扣** \n"
-"菜单选择 :`Configuration --> Settings` and tick **Allow global discounts** "
+"您可能知道欢乐时光的概念：在一定时期内，酒保会给某些饮料打折（通常是50％的折扣或买一送一）。 期间结束后，价格恢复正常。 但这与Flectra有什么关系？"
 
-#: ../../point_of_sale/advanced/manual_discount.rst:50
-msgid "Then from the dashboard, click on :menuselection:`More --> Settings`"
-msgstr "从工作面板点击 :menuselection:`更多(More) --> 设置(Settings)` "
-
-#: ../../point_of_sale/advanced/manual_discount.rst:55
+#: ../../point_of_sale/advanced_pricing_features/pricelists.rst:10
 msgid ""
-"You have to activate **Order Discounts** and create a product that will be "
-"added as a product with a negative price to deduct the discount."
-msgstr "你需要激活 **订单折扣** 并且创建一个产品, 这个产品会被当成一个负数价格的产品来抵扣折扣。"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:61
-msgid ""
-"On the product used to create the discount, set the price to ``0`` and do "
-"not forget to remove all the **taxes**, that can make the calculation wrong."
-msgstr "在用于创建折扣的产品上, 设定价格为\" 0 \\ \", 不要忘记删除所有 **税** , 否则可能导致计算错误。"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:68
-msgid "Set a global discount"
-msgstr "设置全局折扣"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:70
-msgid ""
-"Now when you come back to the **dashboard** and start a **new session**, a "
-"**Discount** button appears and by clicking on it you can set a "
-"**discount**."
-msgstr "现在当你回到 **仪表盘** 开始一个 **新会话** , **折扣** 按钮会显示并通过点击可以设置一个 **折扣** 。"
-
-#: ../../point_of_sale/advanced/manual_discount.rst:76
-msgid ""
-"When it's validated, the discount line appears on the order and you can now "
-"process to the payment."
-msgstr "当它被验证后, 折扣行出现在订单上, 然后你就可以处理付款了。"
-
-#: ../../point_of_sale/advanced/mercury.rst:3
-msgid "How to accept credit card payments in Odoo POS using Mercury?"
-msgstr "怎样用Mercury在Odoo POS使用信用卡接收付款？"
-
-#: ../../point_of_sale/advanced/mercury.rst:8
-msgid ""
-"A **MercuryPay** account (see `MercuryPay website "
-"<https://www.mercurypay.com>`__.) is required to accept credit card payments"
-" in Odoo 9 POS with an integrated card reader. MercuryPay only operates with"
-" US and Canadian banks making this procedure only suitable for North "
-"American businesses. An alternative to an integrated card reader is to work "
-"with a standalone card reader, copy the transaction total from the Odoo POS "
-"screen into the card reader, and record the transaction in Odoo POS."
+"In Flectra, you can set up happy hours. It’s one of the many possible uses of "
+"*Pricelists*. Those *Pricelists* allow the creation of multiple prices for "
+"the same product: a regular one and a special one for happy hours. Available"
+" in the *PoS* app, those are really convenient."
 msgstr ""
-" **MercuryPay** 账户(详见'MercuryPay'网站 <https ://www.mercurypay.com> "
-"`__.)需要一个集成的读卡器才能在Odoo 9 POS 里使用信用卡支付。MercuryPay 仅支持北美地区的业务。切换到读卡器到独立的读卡器, "
-"从Odoo POS 界面复制交易额到读卡器, 并在Odoo POS里记录交易。"
+"在Flectra中，您可以设置欢乐时光。 它是 *价目表* 的多种可能用途之一。 这些 *价格表* 允许为同一产品创建多个价格：常规价格和欢乐时光的特殊价格。"
+" 这些功能在 *PoS* 应用程序中可用，非常方便。"
 
-#: ../../point_of_sale/advanced/mercury.rst:18
-msgid "Module installation"
-msgstr "模块安装"
+#: ../../point_of_sale/advanced_pricing_features/pricelists.rst:17
+msgid "Set up Pricelists"
+msgstr "设置价目表"
 
-#: ../../point_of_sale/advanced/mercury.rst:20
+#: ../../point_of_sale/advanced_pricing_features/pricelists.rst:19
 msgid ""
-"Go to **Apps** and install the **Mercury Payment Services** application."
-msgstr "去 **应用程序** 安装 **Mercury Payment Services** 的应用程序。"
-
-#: ../../point_of_sale/advanced/mercury.rst:26
-msgid "Mercury Configuration"
-msgstr "Mercury配置"
-
-#: ../../point_of_sale/advanced/mercury.rst:28
-msgid ""
-"In the **Point of Sale** application, click on :menuselection:`Configuration"
-" --> Mercury Configurations` and then on **Create**."
-msgstr "在 **零售** 模块, 点击菜单 :menuselection:'设置-->Mercury 设置'并点击 **创建** 。"
-
-#: ../../point_of_sale/advanced/mercury.rst:35
-msgid "Introduce your **credentials** and then save them."
-msgstr "介绍你的 **证书** , 然后保存。"
-
-#: ../../point_of_sale/advanced/mercury.rst:40
-msgid ""
-"Then go to :menuselection:`Configuration --> Payment methods` and click on "
-"**Create**. Under the **Point of Sale** tab you can set a **Mercury "
-"configuration** to the **Payment method**."
+"To set up a *Pricelist*, go to :menuselection:`Point of Sale --> "
+"Configuration --> Configuration` and enable the *Pricelist* feature. Then, "
+"go to :menuselection:`Point of Sale --> Configuration --> Point of Sale` and"
+" enable *Pricelist* for the *PoS*."
 msgstr ""
-"然后去 :菜单:`配置 - >付款方式` , 然后点击 **创建** 。在 **零售** 标签, 你可以设置一个 **Mercury配置** 的 "
-"**付款方式** 。"
+"要设置 *价目表 * ，请转到 :menuselection:`POS --> 配置 --> 配置，并启用 *价目表* 功能。 然后，转到 "
+":menuselection:`POS --> 配置 --> 销售点并为 *PoS* 启用 *价目表* 。"
 
-#: ../../point_of_sale/advanced/mercury.rst:47
+#: ../../point_of_sale/advanced_pricing_features/pricelists.rst:26
 msgid ""
-"Finally, go to :menuselection:`Configuration --> Point of Sale` and add a "
-"new payment method on the point of sale by editing it."
-msgstr "最后, 访问菜单选择 :`配置 -->零售通'过编辑添加新的付款方式。"
+"Now, you can create *Pricelists* by clicking on the *Pricelists* link. Then,"
+" set it up by choosing the product category you want to include in your "
+"happy hour and the discount."
+msgstr "现在，您可以通过单击 *价目表* 链接来创建 *价目表*。 然后，通过选择您要在欢乐时光和折扣中包括的产品类别来进行设置。"
 
-#: ../../point_of_sale/advanced/mercury.rst:54
+#: ../../point_of_sale/advanced_pricing_features/pricelists.rst:33
 msgid ""
-"Then select the payment method corresponding to your mercury configuration."
-msgstr "然后选择相应的Mercury配置的付款方式。"
+"Go back to your *PoS* settings and add the Happy Hour pricelist to the list."
+" You can even choose a default pricelist if needed."
+msgstr "返回您的 *PoS* 设定页面并将欢乐时光价格表添加到列表中。 如果有需要，您甚至可以选择默认价格表。"
 
-#: ../../point_of_sale/advanced/mercury.rst:60
-msgid "Save the modifications."
-msgstr "保存修改。"
-
-#: ../../point_of_sale/advanced/mercury.rst:63
-#: ../../point_of_sale/shop/cash_control.rst:48
-msgid "Register a sale"
-msgstr "登记销售"
-
-#: ../../point_of_sale/advanced/mercury.rst:65
+#: ../../point_of_sale/advanced_pricing_features/pricelists.rst:39
 msgid ""
-"On the dashboard, you can see your point(s) of sales, click on **New "
-"Session**:"
-msgstr "在仪表盘上, 你可以看到你的零售(s), 点击 **新建会话**: "
-
-#: ../../point_of_sale/advanced/mercury.rst:71
-#: ../../point_of_sale/overview/start.rst:114
-msgid "You will get the main point of sale interface:"
-msgstr "你会看到销售点主界面 :"
-
-#: ../../point_of_sale/advanced/mercury.rst:82
-msgid "Payment with credit cards"
-msgstr "信用卡付款"
-
-#: ../../point_of_sale/advanced/mercury.rst:84
-msgid ""
-"Once the order is completed, click on **Payment**. You can choose the credit"
-" card **Payment Method**."
-msgstr "一旦订单完成后, 点击 **付款** 。您可以选择信用卡 **付款方式** 。"
-
-#: ../../point_of_sale/advanced/mercury.rst:90
-msgid ""
-"Type in the **Amount** to be paid with the credit card. Now you can swipe "
-"the card and validate the payment."
-msgstr "键入信用卡要支付 **金额** 信用卡支付。现在, 您可以刷卡和验证付款。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:3
-msgid "How to manage multiple cashiers?"
-msgstr "如何管理多个收银员？"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:5
-msgid ""
-"This tutorial will describe how to manage multiple cashiers. There are four "
-"differents ways to manage several cashiers."
-msgstr "本教程将介绍如何管理多个收银员。有四种不同的方式管理多个收银员。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:9
-msgid "Switch cashier without any security"
-msgstr "无需安全切换收银员"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:11
-msgid ""
-"As prerequisite, you just need to have a second user with the **Point of "
-"Sale User** rights (Under the :menuselection:`General Settings --> Users` "
-"menu). On the **Dashboard** click on **New Session** as the main user."
-msgstr ""
-"作为先决条件, 您只需要有 **销售** 权限的第二个用户(在菜单中选择 :`常规设置 - > 用户菜单)。在 **仪表板** 点击 **新建会话** "
-"为主要用户。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:18
-#: ../../point_of_sale/advanced/multi_cashiers.rst:64
-#: ../../point_of_sale/advanced/multi_cashiers.rst:123
-msgid "On the top of the screen click on the **user name**."
-msgstr "在屏幕顶部点击 **用户名称** 。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:23
-msgid "And switch to another cashier."
-msgstr "并且转换为其他收银员。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:28
-msgid ""
-"The name on the top has changed which means you have changed the cashier."
-msgstr "上面的名称已更改, 这意味着你已经改变了收银员."
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:34
-msgid "Switch cashier with pin code"
-msgstr "使用pin码切换收银员"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:39
-msgid ""
-"If you want your cashiers to need a pin code to be able to use it, you can "
-"set it up in by clicking on **Settings**."
-msgstr "如果你希望你的收银员需要PIN码才能使用它, 你可以通过点击 **设置** 。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:45
-msgid "Then click on **Manage access rights**."
-msgstr "然后点击 **管理访问权限** 。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:50
-msgid ""
-"**Edit** the cashier and add a security pin code on the **Point of Sale** "
-"tab."
-msgstr " **编辑** 钱箱并在 **销售点** 页面添加安全pin码。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:57
-msgid "Change cashier"
-msgstr "变更收银员"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:59
-#: ../../point_of_sale/advanced/multi_cashiers.rst:118
-msgid "On the **Dashboard** click on **New Session**."
-msgstr "在 **仪表盘** 点击 **新的会话** 。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:69
-msgid "Choose your **cashier**:"
-msgstr "选择你的 **收银员**: "
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:74
-msgid ""
-"You will have to insert the user's **pin code** to be able to continue."
-msgstr "你必须插入用户的 **PIN码** 才能够继续。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:79
-msgid "Now you can see that the cashier has changed."
-msgstr "现在, 你可以看到收银员发生了变化。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:85
-msgid "Switch cashier with cashier barcode badge"
-msgstr "用收银员的条形码切换收银员"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:90
-msgid ""
-"If you want your cashiers to scan its badge, you can set it up in by "
-"clicking on **Settings**."
-msgstr "如果你希望你的收银员扫描它的徽章, 你可以通过点击 **设定** 设置它。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:96
-msgid "Then click on **Manage access rights**"
-msgstr "然后点击 **管理访问权限** "
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:101
-msgid ""
-"**Edit** the cashier and add a **security pin code** on the **Point of "
-"Sale** tab."
-msgstr " **编辑** 收银员, 并添加一个 **安全PIN码** 的 **零售** 标签"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:108
-msgid ""
-"Be careful of the barcode nomenclature, the default one forced you to use a "
-"barcode starting with ``041`` for cashier barcodes. To change that go to "
-":menuselection:`Point of Sale --> Configuration --> Barcode Nomenclatures`."
-msgstr ""
-"小心条形码命名规则, 默认会强迫你使用\" 041 \\ \"开头的收银员条形码。若要更改, 请访问 :菜单选择: 出售 `点 - >配置 - "
-">条码规则` 。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:116
-msgid "Change Cashier"
-msgstr "更换收银员"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:128
-msgid ""
-"When the cashier scans his own badge, you can see on the top that the "
-"cashier has changed."
-msgstr "当收银员扫描自己的徽章, 你可以看到在顶部的收银员发生了变化。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:132
-msgid "Assign session to a user"
-msgstr "给用户分配一个会话"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:134
-msgid ""
-"Click on the menu :menuselection:`Point of Sale --> Orders --> Sessions`."
-msgstr "点击菜单 :菜单选择:`零售 - >订单 - > 会话` 。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:139
-msgid ""
-"Then, click on **New** and assign as **Responsible** the correct cashier to "
-"the point of sale."
-msgstr "然后, 点击 **新建** 并指派 **责任人** 给正确的零售收银员。"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:145
-msgid "When the cashier logs in he is able to open the session"
-msgstr "当收银员登录时, 他能打开这个会话"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:151
-msgid "Assign a default point of sale to a cashier"
-msgstr "把默认销售点赋予一个钱箱"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:153
-msgid ""
-"If you want your cashiers to be assigned to a point of sale, go to "
-":menuselection:`Point of Sales --> Configuration --> Settings`."
-msgstr "如果你要分配你的收银员给零售, 去菜单选择 :'零售-->配置-->设置‘"
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:159
-msgid "Then click on **Manage Access Rights**."
-msgstr "然后点击 **管理访问权限** "
-
-#: ../../point_of_sale/advanced/multi_cashiers.rst:164
-msgid ""
-"**Edit** the cashier and add a **Default Point of Sale** under the **Point "
-"of Sale** tab."
-msgstr " **编辑** 收银员并添加 **默认零售店** 在 **零售** 标签下。"
-
-#: ../../point_of_sale/advanced/register.rst:3
-msgid "How to register customers?"
-msgstr "如何注册客户？"
-
-#: ../../point_of_sale/advanced/register.rst:6
-#: ../../point_of_sale/restaurant/split.rst:21
-#: ../../point_of_sale/shop/invoice.rst:6
-#: ../../point_of_sale/shop/seasonal_discount.rst:78
-msgid "Register an order"
-msgstr "注册一个订单"
-
-#: ../../point_of_sale/advanced/register.rst:13
-msgid "You arrive now on the main view :"
-msgstr "来到主界面"
-
-#: ../../point_of_sale/advanced/register.rst:18
-msgid ""
-"On the right you can see the list of your products with the categories on "
-"the top. If you click on a product, it will be added in the cart. You can "
-"directly set the quantity or weight by typing it on the keyboard."
-msgstr "在右边你能看到你的产品清单, 它会在顶部按品种分类。如果你点击一个产品, 它会被加入到购物车中, 你能直接在键盘上输入数量和重量。"
-
-#: ../../point_of_sale/advanced/register.rst:23
-msgid "Record a customer"
-msgstr "记录一个客户。"
-
-#: ../../point_of_sale/advanced/register.rst:25
-msgid "On the main view, click on **Customer**:"
-msgstr "在主界面上, 点击客户。"
-
-#: ../../point_of_sale/advanced/register.rst:30
-msgid "Register a new customer by clicking on the button."
-msgstr "点击按钮注册一个新客户。"
-
-#: ../../point_of_sale/advanced/register.rst:35
-msgid "The following form appear. Fill in the relevant information:"
-msgstr "在显示的表单中, 填入相关信息 :"
-
-#: ../../point_of_sale/advanced/register.rst:40
-msgid "When it's done click on the **floppy disk** icon"
-msgstr "完成后点击 **floppy disk** 图标"
-
-#: ../../point_of_sale/advanced/register.rst:45
-msgid ""
-"You just registered a new customer. To set this customer to the current "
-"order, just tap on **Set Customer**."
-msgstr "你刚建完了一个新客户。设置这个客户到现有的订单, 点击 **设置客户** 。"
-
-#: ../../point_of_sale/advanced/register.rst:51
-msgid "The customer is now set on the order."
-msgstr "在订单上客户设置好了。"
-
-#: ../../point_of_sale/advanced/reprint.rst:3
-msgid "How to reprint receipts?"
-msgstr "怎样重新打印小票？"
-
-#: ../../point_of_sale/advanced/reprint.rst:8
-msgid "This feature requires a POSBox and a receipt printer."
-msgstr ""
-
-#: ../../point_of_sale/advanced/reprint.rst:10
-msgid ""
-"If you want to allow a cashier to reprint a ticket, go to "
-":menuselection:`Configuration --> Settings` and tick the option **Allow "
-"cashier to reprint receipts**."
-msgstr "如果你想要允许收银员重新打印小票, 进入 :`配置 --> 设置` 并勾选 **允许收银员重新打印小票** 。"
-
-#: ../../point_of_sale/advanced/reprint.rst:17
-msgid ""
-"You also need to allow the reprinting on the point of sale. Go to "
-":menuselection:`Configuration --> Point of Sale`, open the one you want to "
-"configure and and tick the option **Reprinting**."
-msgstr "你也需要在零售上许可重印小票。进入 :菜单选择:`配置 --> 零售` 打开你想要配置的零售活动并勾选 **重印小票** 。"
-
-#: ../../point_of_sale/advanced/reprint.rst:25
-msgid "How to reprint a receipt?"
-msgstr "怎样重新打印小票？"
-
-#: ../../point_of_sale/advanced/reprint.rst:27
-msgid ""
-"In the Point of Sale interface click on the **Reprint Receipt** button."
-msgstr ""
-
-#: ../../point_of_sale/advanced/reprint.rst:32
-msgid "The last printed receipt will be printed again."
-msgstr ""
-
-#: ../../point_of_sale/analyze.rst:3
-msgid "Analyze sales"
-msgstr "分析销售"
-
-#: ../../point_of_sale/analyze/statistics.rst:3
-msgid "Getting daily sales statistics"
-msgstr "获取每日销售统计"
-
-#: ../../point_of_sale/analyze/statistics.rst:7
-msgid "Point of Sale statistics"
-msgstr "零售统计"
-
-#: ../../point_of_sale/analyze/statistics.rst:9
-msgid ""
-"On your dashboard, click on the **More** button on the point of sale you "
-"want to analyse. Then click on **Orders**."
-msgstr "在仪表盘上, 点击需要分析的零售上的 **更多** 按钮。然后点击 **订单** 。"
-
-#: ../../point_of_sale/analyze/statistics.rst:15
-msgid "You will get the figures for this particular point of sale."
-msgstr "你会得到这个零售的数据。"
-
-#: ../../point_of_sale/analyze/statistics.rst:21
-msgid "Global statistics"
-msgstr "全局统计量"
-
-#: ../../point_of_sale/analyze/statistics.rst:23
-msgid "Go to :menuselection:`Reports --> Orders`."
-msgstr "转到 :menuselection:`报告--> 订单` 。"
-
-#: ../../point_of_sale/analyze/statistics.rst:25
-msgid "You will get the figures of all orders for all point of sales."
-msgstr "你会得到所有零售的订单数据。"
-
-#: ../../point_of_sale/analyze/statistics.rst:31
-msgid "Cashier statistics"
-msgstr "出纳统计"
-
-#: ../../point_of_sale/analyze/statistics.rst:33
-msgid "Go to :menuselection:`Reports --> Sales Details`."
-msgstr "转到 :menuselection:`报告--> 销售详情` 。"
-
-#: ../../point_of_sale/analyze/statistics.rst:35
-msgid ""
-"Choose the dates. Select the cashiers by clicking on **Add an item**. Then "
-"click on **Print Report**."
-msgstr "选择数据. 通过点击 **增加一项** 选择收银员。 然后点击 **打印报告** 。"
-
-#: ../../point_of_sale/analyze/statistics.rst:41
-msgid "You will get a full report in a PDF file. Here is an example :"
-msgstr "你将会得到一份PDF格式的报告。这里有一个例子 :"
+"From now on, on the *PoS* interface, a new button is available, allowing you"
+" to choose among the different *pricelists* you added before."
+msgstr "从现在开始，在* PoS *界面上，将提供一个新按钮，使您可以添加之前选择不同的 *价目表 * 。"
+
+#: ../../point_of_sale/advanced_pricing_features/pricelists.rst:46
+msgid ":doc:`../../sales/products_prices/prices/pricing`"
+msgstr ":doc:`../../sales/products_prices/prices/pricing`"
 
 #: ../../point_of_sale/belgian_fdm.rst:3
-msgid "Belgian Fiscal Data Module"
-msgstr "比利时财政数据模块"
+msgid "Fiscal Data Modules"
+msgstr "财政数据模块"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:3
-msgid "Setting up the Fiscal Data Module with the Odoo POS"
-msgstr "建立odoo零售的财政数据模块"
+msgid "Setting up the Fiscal Data Module with the Flectra POS"
+msgstr "建立flectra零售的财政数据模块"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:6
 msgid "Introduction"
@@ -820,13 +375,13 @@ msgid ""
 "**blackbox**). This device works together with the POS application and logs "
 "certain transactions. On top of that, the used POS application must also be "
 "certified by the government and must adhere to strict standards specified by"
-" them. `Odoo 9 (Enterprise Edition) is a certified application "
+" them. `Flectra 9 (Enterprise Edition) is a certified application "
 "<http://www.systemedecaisseenregistreuse.be/systemes-certifies>`_. More "
 "information concerning the Fiscal Data Module can be found on `the official "
 "website <http://www.systemedecaisseenregistreuse.be/>`_."
 msgstr ""
 "比利时政府要求某些企业使用国家认证设备* *财政数据模块* *(也称为* *黑箱* *)。这个设备与POS设备一起使用, "
-"记录交易事项。最重要的是,使用的POS设备也必须经政府认证, 并坚守严格的标准规定. “Odoo "
+"记录交易事项。最重要的是,使用的POS设备也必须经政府认证, 并坚守严格的标准规定. “Flectra "
 "9(企业版)是一个认证应用程序<http://www.systemedecaisseenregistreuse.be/systemes-"
 "certifies>`_. 关于会计期间的模块的更多信息, 请查阅官方网站 `the official website "
 "<http://www.systemedecaisseenregistreuse.be/>`_."
@@ -863,51 +418,51 @@ msgstr ""
 "://trendnet.com/products/proddetail.asp?prod=265_TU-S9>` __)"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:32
-msgid "A registered POSBox per POS configuration"
-msgstr "一个POS配置已注册的POS盒"
+msgid "A registered IoT Box per POS configuration"
+msgstr "每个POS配置注册的物联网盒子"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:35
 msgid "Setup"
 msgstr "设置"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:38
-msgid "POSBox"
-msgstr "POSBox"
+msgid "IoT Box"
+msgstr "物联网盒子"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:40
 msgid ""
-"In order to use a Fiscal Data Module, you will need a registered POSBox. "
-"These POSBoxes are similar to the regular POSBoxes we sell, but they are "
+"In order to use a Fiscal Data Module, you will need a registered IoT Box. "
+"These IoT Boxes are similar to the regular IoT Boxes we sell, but they are "
 "registered with the Belgian government. This is required by law. Attempting "
-"to use a Fiscal Data Module on a non-registered POSBox will not work. You "
-"can verify that the Fiscal Data Module is recognized by the POSBox by going "
-"to the *Hardware status page* via the POSBox homepage."
+"to use a Fiscal Data Module on a non-registered IoT Box will not work. You "
+"can verify that the Fiscal Data Module is recognized by the IoT Box by going"
+" to the *Hardware status page* via the IoT Box homepage."
 msgstr ""
-"为了使用财政数据模块, 您将需要一个注册过的POSBox。这些POSBoxes类似于我们出售的普通邮筒, "
-"但他们与比利时政府登记。这是由法律规定。尝试使用财政数据模块上的非注册POSBox将无法正常工作。您可以通过POSBox主页验证财政数据模块P已经由POSBox认可在"
-" *硬件状态页* 。"
+"为了使用财政数据模块, 你需要一个已注册的物联网盒子。物联网盒子与普通的物联网盒子类似, "
+"但它们已在比利时政府注册。这是法律规定。在未注册的物联网盒子上使用财政数据模块将无法正常工作。你可通过物联网盒子主页*硬件状态页*验证财政数据模块是否已被物联网盒子识别"
+" 。"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:52
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:54
 msgid ""
-"An Odoo POS app can be given certified POS capabilities by installing the "
+"An Flectra POS app can be given certified POS capabilities by installing the "
 "**Belgian Registered Cash Register** app (technical name: "
 "``pos_blackbox_be``). Because of government restrictions imposed on us, this"
 " installation cannot be undone. After this, you will have to ensure that "
-"each POS configuration has a unique registered POSBox associated with it "
+"each POS configuration has a unique registered IoT Box associated with it "
 "(:menuselection:`Point of Sale --> Configuration --> Point of Sale` and "
-"ensure Hardware Proxy / POSBox and the serial number of your POSBox is set)."
-" The first time you open the Point of Sale and attempt to do a transaction, "
-"you will be asked to input the PIN that you received with your VAT signing "
-"card."
+"ensure Hardware Proxy / IoT Box and the serial number of your IoT Box is "
+"set). The first time you open the Point of Sale and attempt to do a "
+"transaction, you will be asked to input the PIN that you received with your "
+"VAT signing card."
 msgstr ""
-"一个Odoo POS应用程序可以通过安装 **比利时注册的收银机** 应用程序( :\" pos_blackbox be \\ "
-"\"技术名称)给予认证的POS功能。因为这是政府强加的限制, 这种安装不能撤消。在此之后, 你必须确保每个POS配置有与它(关联的唯一注册POSBox:"
-" 菜单选择 :`零售 - >配置 - > 零售', 确保硬件代理/ POSBox和序列号您POSBox被设置好了)。第一次你打开零售, "
-"并尝试做一个交易, 你会被要求输入您与增值税签约卡接收的PIN。"
+"通过安装**比利时注册的收银机**应用程序（技术名称：``pos_blackbox_be``），Flectra "
+"POS应用程序可具备认证的POS功能。由于政府对我们的限制，这种安装不能撤消。在此之后, "
+"你必须确保每个POS配置都有与它关联的唯一已注册物联网盒子（:menuselection:`POS --> 配置 --> "
+"POS`并确保硬件代理/物联网盒子及其序列号已设置）。首次打开时POS并尝试处理交易时，你需要输入连同增值税签约卡一起收到的PIN码。"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:69
 msgid "Certification & On-premise"
@@ -916,13 +471,13 @@ msgstr "认证和部署"
 #: ../../point_of_sale/belgian_fdm/setup.rst:71
 msgid ""
 "The certification granted by the government is restricted to the use on "
-"odoo.com SaaS instance. The usage of the module from the source or a "
+"flectra.com SaaS instance. The usage of the module from the source or a "
 "modified version will **not** be certified. For on-premise users, we also "
 "support the Fiscal Data Module in such installations. The main restriction "
 "is that this requires an obfuscated version of the ``pos_blackbox_be`` "
 "module we will provide on request for Enterprise customers."
 msgstr ""
-"由政府颁发的认证仅限于使用odoo.com SaaS演示。源模块或是修改版本* *不* "
+"由政府颁发的认证仅限于使用flectra.com SaaS演示。源模块或是修改版本* *不* "
 "*被认证。对于内部用户,我们也支持会计期间模块的安装。对于企业版的客户, 主要的限制是,这需要一个模糊的版本的“pos_blackbox_be“模块。"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:79
@@ -932,10 +487,10 @@ msgstr "限制"
 #: ../../point_of_sale/belgian_fdm/setup.rst:81
 msgid ""
 "As mentioned before, in order to get certified the POS application must "
-"adhere to strict government guidelines. Because of this, a certified Odoo "
-"POS has some limitations not present in the non-certified Odoo POS."
+"adhere to strict government guidelines. Because of this, a certified Flectra "
+"POS has some limitations not present in the non-certified Flectra POS."
 msgstr ""
-"正如前面提到的, 为了获得认证的POS应用必须遵守严格的政府指引。由于这个原因, 经过认证的Odoo POS不会像非认证Odoo "
+"正如前面提到的, 为了获得认证的POS应用必须遵守严格的政府指引。由于这个原因, 经过认证的Flectra POS不会像非认证Flectra "
 "POS存在一定的局限性。"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:86
@@ -955,2150 +510,1199 @@ msgid "Selling products without a valid tax"
 msgstr "产品销售没有有效的税收"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:90
-msgid "Multiple Odoo POS configurations per POSBox are not allowed"
-msgstr "单个POS盒中的多重Odoo POS配置是不允许的。"
+msgid "Multiple Flectra POS configurations per IoT Box are not allowed"
+msgstr "每个物联网盒子不允许多个Flectra POS配置"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:91
-msgid "Using the POS without a connection to the POSBox (and thus FDM)"
-msgstr "使用不连POS盒的POS(以及FDM)"
+msgid "Using the POS without a connection to the IoT Box (and thus FDM)"
+msgstr "在不连入物联网盒子（及FDM）的情况下使用POS"
 
 #: ../../point_of_sale/belgian_fdm/setup.rst:92
 msgid "Blacklisted modules: pos_discount, pos_reprint, pos_loyalty"
 msgstr "列入黑名单的模块 :POS_打折, POS_重新打印, POS_忠诚度"
 
-#: ../../point_of_sale/overview/setup.rst:3
-msgid "Point of Sale Hardware Setup"
-msgstr "零售硬件设置"
+#: ../../point_of_sale/overview.rst:3
+msgid "Overview"
+msgstr "概述"
 
-#: ../../point_of_sale/overview/setup.rst:6
-msgid "POSBox Setup Guide"
-msgstr "收银台(POSBox) 配置向导"
+#: ../../point_of_sale/overview/getting_started.rst:3
+msgid "Getting started"
+msgstr "开始"
 
-#: ../../point_of_sale/overview/setup.rst:11
-#: ../../point_of_sale/overview/setup.rst:205
-msgid "Prerequisites"
-msgstr "先决条件"
-
-#: ../../point_of_sale/overview/setup.rst:13
+#: ../../point_of_sale/overview/getting_started.rst:5
 msgid ""
-"Before you start setting up your POSBox make sure you have everything. You "
-"will need :"
-msgstr "在开始设置您的POSBox之前, 确保你准备好了一切。 你会需要 :"
+"When working with a Point of Sale application, employees want a simple, and "
+"user-friendly solution. A solution that works online or offline and with any"
+" device."
+msgstr "当使用POS应用程序时，员工需要一个简单且用户友好的解决方案。 可在线或离线使用及配合任何设备的解决方案。"
 
-#: ../../point_of_sale/overview/setup.rst:16
-msgid "The POSBox"
-msgstr "POSBox"
-
-#: ../../point_of_sale/overview/setup.rst:17
-msgid "A 2A Power adapter"
-msgstr "2A电源适配器"
-
-#: ../../point_of_sale/overview/setup.rst:18
-msgid "A computer or tablet with an up-to-date web browser"
-msgstr "一台带最新的Web浏览器的计算机或平板电脑。"
-
-#: ../../point_of_sale/overview/setup.rst:19
-msgid "A running SaaS or Odoo instance with the Point of Sale installed"
-msgstr "可用的的SaaS或已安装零售的Odoo"
-
-#: ../../point_of_sale/overview/setup.rst:20
-msgid "A local network set up with DHCP (this is the default setting)"
-msgstr "设置了DHCP(这是默认设置)的本地网络"
-
-#: ../../point_of_sale/overview/setup.rst:21
+#: ../../point_of_sale/overview/getting_started.rst:9
 msgid ""
-"An Epson USB TM-T20 Printer or another ESC/POS compatible printer "
-"(officially supported printers are listed at the `POS Hardware page "
-"<https://www.odoo.com/page/pos-ipad-android-hardware>`_)"
+"A Point of Sale system is a fully integrated application that allows any "
+"transaction, automatically registers product moves in your stock, and gives "
+"you real-time statistics and consolidations across all shops."
+msgstr "POS系统是一个完全集成的应用程序，它可以进行任何交易，自动在您的库存中注册产品移动，并为您提供所有商店的实时统计信息和合并信息。"
+
+#: ../../point_of_sale/overview/getting_started.rst:17
+msgid "Make products available in the PoS"
+msgstr "使产品可在PoS中使用"
+
+#: ../../point_of_sale/overview/getting_started.rst:19
+msgid ""
+"To make products available for sale, go to :menuselection:`Point of Sale -->"
+" Products --> Products` and open a product. In the *Sales* tab, enable "
+"*Available in Point of Sale*."
 msgstr ""
-"一台 Epson USB TM-T20 打印机或其他兼容的 ESC/POS 打印机 (官方的 `POS 硬件支持列表 "
-"<https://www.odoo.com/page/pos-ipad-android-hardware>`_)"
-
-#: ../../point_of_sale/overview/setup.rst:24
-msgid "A Honeywell Eclipse USB Barcode Scanner or another compatible scanner"
-msgstr "霍尼韦尔的Eclipse USB条码扫描仪或其他兼容的扫描仪"
-
-#: ../../point_of_sale/overview/setup.rst:25
-msgid "An Epson compatible cash drawer"
-msgstr "爱普生兼容钱箱"
-
-#: ../../point_of_sale/overview/setup.rst:26
-msgid "An RJ45 Ethernet Cable (optional, Wi-Fi is built in)"
-msgstr ""
-
-#: ../../point_of_sale/overview/setup.rst:29
-#: ../../point_of_sale/overview/setup.rst:213
-msgid "Step By Step Setup Guide"
-msgstr "一步一步的安装指南"
-
-#: ../../point_of_sale/overview/setup.rst:32
-msgid "Current version of the POSBox (since 2015)"
-msgstr "POSBox的当前版本(2015年以来)"
-
-#: ../../point_of_sale/overview/setup.rst:36
-msgid "Connect peripheral devices"
-msgstr "连接外围设备"
-
-#: ../../point_of_sale/overview/setup.rst:38
-msgid ""
-"Officially supported hardware is listed on `the POS Hardware page "
-"<https://www.odoo.com/page/pos-ipad-android-hardware>`_, but other hardware "
-"might work as well."
-msgstr ""
-"官方支持的硬件列在POS硬件页<https ://www.odoo.com/page/pos-ipad-android-hardware>上 `_, "
-"但其他硬件可能也能正常工作。"
-
-#: ../../point_of_sale/overview/setup.rst:42
-msgid "**Printer**: Connect an ESC/POS printer to a USB port and power it on."
-msgstr " **打印机**:  一个ESC/ POS打印机连接到USB端口, 并接通电源。"
-
-#: ../../point_of_sale/overview/setup.rst:45
-msgid ""
-"**Cash drawer**: The cash drawer should be connected to the printer with an "
-"RJ25 cable."
-msgstr " **钱箱**:  钱箱应连接用RJ25电缆连接打印机。"
-
-#: ../../point_of_sale/overview/setup.rst:48
-msgid ""
-"**Barcode scanner**: Connect your barcode scanner. In order for your barcode"
-" scanner to be compatible it must behave as a keyboard and must be "
-"configured in **US QWERTY**. It also must end barcodes with an Enter "
-"character (keycode 28). This is most likely the default configuration of "
-"your barcode scanner."
-msgstr ""
-" **条形码扫描仪**:  连接条形码扫描器。为了使您的条形码扫描仪是兼容的, 必须表现为键盘, 必须配置 **US QWERTY** "
-"。它还必须一个输入字符(键码28)结束条形码。这很可能是你的条码扫描仪的默认配置。"
-
-#: ../../point_of_sale/overview/setup.rst:54
-msgid "**Scale**: Connect your scale and power it on."
-msgstr " **电子磅秤**:  连接你的电子磅秤和接通电源。"
-
-#: ../../point_of_sale/overview/setup.rst:56
-msgid ""
-"**Ethernet**: If you do not wish to use Wi-Fi, plug in the Ethernet cable. "
-"Make sure this will connect the POSBox to the same network as your POS "
-"device."
-msgstr " **以太网**:  如果你不希望使用Wi-Fi, 插上以太网电缆。确保这将POSBOX连接到同一个网络的POS设备。"
-
-#: ../../point_of_sale/overview/setup.rst:60
-msgid ""
-"**Wi-Fi**: The current version of the POSBox has Wi-Fi built in. Make sure "
-"not to plug in an Ethernet cable, because all Wi-Fi functionality will be "
-"bypassed when a wired network connection is available."
-msgstr ""
-
-#: ../../point_of_sale/overview/setup.rst:66
-msgid "Power the POSBox"
-msgstr "POSBox通电"
-
-#: ../../point_of_sale/overview/setup.rst:68
-msgid ""
-"Plug the power adapter into the POSBox, a bright red status led should light"
-" up."
-msgstr "将电源适配器插入POSBox, 红色的状态灯应该亮起。"
-
-#: ../../point_of_sale/overview/setup.rst:72
-msgid "Make sure the POSBox is ready"
-msgstr "确保POSBox已准备就绪"
-
-#: ../../point_of_sale/overview/setup.rst:74
-msgid ""
-"Once powered, The POSBox needs a while to boot. Once the POSBox is ready, it"
-" should print a status receipt with its IP address. Also the status LED, "
-"just next to the red power LED, should be permanently lit green."
-msgstr ""
-"一旦供电, POSBox需要一段时间才能启动。一旦POSBox准备就绪, 就应该打印带IP地址的状态条。另外, LED状态指示灯, "
-"旁边的红色电源指示灯应常亮绿色。"
-
-#: ../../point_of_sale/overview/setup.rst:80
-#: ../../point_of_sale/overview/setup.rst:292
-msgid "Setup the Point of Sale"
-msgstr "设置零售点"
-
-#: ../../point_of_sale/overview/setup.rst:82
-msgid ""
-"To setup the POSBox in the Point of Sale go to :menuselection:`Point of Sale"
-" --> Configuration --> Settings` and select your Point of Sale. Scroll down "
-"to the ``Hardware Proxy / POSBox`` section and activate the options for the "
-"hardware you want to use through the POSBox. Specifying the IP of the POSBox"
-" is recommended (it is printed on the receipt that gets printed after "
-"booting up the POSBox). When the IP is not specified the Point of Sale will "
-"attempt to find it on the local network."
-msgstr ""
-"要设置在销售点的POSBox, 请访问 :菜单选择: 零售点 - >配置 - > 设置 `并选择您的销售点。向下滚动到\" 硬件代理/ POSBox "
-"\\ \"部分并激活您想要通过POSBox使用硬件的选项。推荐指定POSBox的IP(印在启动后的POSBox后打印收据上)。如果未指定IP, "
-"销售点会试图在本地网络上寻找。"
-
-#: ../../point_of_sale/overview/setup.rst:91
-msgid ""
-"If you are running multiple Point of Sales on the same POSBox, make sure "
-"that only one of them has Remote Scanning/Barcode Scanner activated."
-msgstr "如果您在同一POSBox运行多个销售点, 确保只有其中一个零售店了激活远程扫描/条码扫描枪。"
-
-#: ../../point_of_sale/overview/setup.rst:94
-msgid ""
-"It might be a good idea to make sure the POSBox IP never changes in your "
-"network. Refer to your router documentation on how to achieve this."
-msgstr "如果在你的网络中固定POSBox的IP地址, 是个比较好的注意。请参阅您的路由器文档就如何实现这一目标。"
-
-#: ../../point_of_sale/overview/setup.rst:99
-msgid "Launch the Point of Sale"
-msgstr "启动销售点"
-
-#: ../../point_of_sale/overview/setup.rst:101
-msgid ""
-"If you didn't specify the POSBox's IP address in the configuration, the POS "
-"will need some time to perform a network scan to find the POSBox. This is "
-"only done once."
-msgstr "如果没有在配置指定POSBox的IP地址, POS将需要一些时间来执行网络扫描来寻找POSBox。这种扫描只进行一次。"
-
-#: ../../point_of_sale/overview/setup.rst:105
-msgid ""
-"The Point of Sale is now connected to the POSBox and your hardware should be"
-" ready to use."
-msgstr "销售点已经连接到POSBox, 你的硬件应该可以使用。"
-
-#: ../../point_of_sale/overview/setup.rst:109
-msgid "Wi-Fi configuration"
-msgstr "Wi-Fi 配置"
-
-#: ../../point_of_sale/overview/setup.rst:111
-msgid ""
-"The most recent version of the POSBox has Wi-Fi built in. If you're using an"
-" older version you'll need a Linux compatible USB Wi-Fi adapter. Most "
-"commercially available Wi-Fi adapters are Linux compatible. Officially "
-"supported are Wi-Fi adapters with a Ralink 5370 chipset."
-msgstr ""
-
-#: ../../point_of_sale/overview/setup.rst:117
-msgid ""
-"Make sure not to plug in an Ethernet cable, as all Wi-Fi related "
-"functionality will be disabled when a wired network connection is available."
-msgstr "确保不要插以太网电缆插头, 因为当有线网络连接可用时所有Wi-Fi相关的功能将被禁用。"
-
-#: ../../point_of_sale/overview/setup.rst:121
-msgid ""
-"When the POSBox boots with a Wi-Fi adapter it will start its own Wi-Fi "
-"Access Point called \"Posbox\" you can connect to. The receipt that gets "
-"printed when the POSBox starts will reflect this. In order to make the "
-"POSBox connect to an already existing Wi-Fi network, go to the homepage of "
-"the POSBox (indicated on the receipt) and go to the Wi-Fi configuration "
-"page. On there you can choose a network to connect to. Note that we only "
-"support open and WPA(2)-PSK networks. When connecting to a WPA-secured "
-"network, fill in the password field. The POSBox will attempt to connect to "
-"the specified network and will print a new POSBox status receipt after it "
-"has connected."
-msgstr ""
-"当POSBox使用Wi-Fi适配器启动时, 将以您可以连接到的被称为“Posbox\" 的自己的Wi-"
-"Fi接入点开始。POSBox启动时的收据打印将反映这一点。为了使POSBox连接到已有的Wi-Fi网络, 转到POSBox的主页(在收据上已标明), "
-"并进入Wi-Fi配置页面。在那里, 你可以选择网络连接。请注意, 我们只支持开放式和WPA(2)-PSK网络。当连接到一个WPA保护的网络, "
-"填写密码字段。该POSBox将尝试连接到指定的网络, 连接后将打印新的POSBox状态条。 "
-
-#: ../../point_of_sale/overview/setup.rst:132
-msgid ""
-"If you plan on permanently setting up the POSBox with Wi-Fi, you can use the"
-" \"persistent\" checkbox on the Wi-Fi configuration page when connecting to "
-"a network. This will make the network choice persist across reboots. This "
-"means that instead of starting up its own \"Posbox\" network it will always "
-"attempt to connect to the specified network after it boots."
-msgstr ""
-"如果你打算永久设置POSBox 为Wi-Fi连接, 你可以在Wi-Fi配置页上选择复选框为“一直\" "
-"。这将在重新启动时网络选择一直选择WIFI。这意味着, 在启动后它将始终尝试连接到指定的网络而不是自己的“Posbox \"网络。"
-
-#: ../../point_of_sale/overview/setup.rst:139
-msgid ""
-"When the POSBox fails to connect to a network it will fall back to starting "
-"it's own \"Posbox\" Access Point. If connection is lost with a Wi-Fi network"
-" after connecting to it, the POSBox will attempt to re-establish connection "
-"automatically."
-msgstr ""
-"当POSBox无法连接到网络时, 它将退回到开始了自己的“Posbox\" 接入点。如果与Wi-Fi网络丢失, POSBox会尝试自动重新建立连接。 "
-
-#: ../../point_of_sale/overview/setup.rst:145
-msgid "Multi-POS Configuration"
-msgstr "多POS 设置"
-
-#: ../../point_of_sale/overview/setup.rst:147
-msgid ""
-"The advised way to setup a multi Point of Sale shop is to have one POSBox "
-"per Point of Sale. In this case it is mandatory to manually specify the IP "
-"address of each POSBox in each Point of Sale. You must also configure your "
-"network to make sure the POSBox's IP addresses don't change. Please refer to"
-" your router documentation."
-msgstr ""
-"建议设置多个零售点的商店是每个零售点一个POSBox. 在这个例子中, 必须为每个POSBox手动指定IP "
-"地址.你还必须配置你的网络保证每个POSBox 的IP 地址不会改变。请参考你的路由文档。"
-
-#: ../../point_of_sale/overview/setup.rst:154
-msgid "POSBoxless Guide (advanced)"
-msgstr "没有POSBox的指南(高级)"
-
-#: ../../point_of_sale/overview/setup.rst:158
-msgid ""
-"If you are running your Point of Sale on a Debian-based Linux distribution, "
-"you do not need the POSBox as you can run its software locally. However the "
-"installation process is not foolproof. You'll need at least to know how to "
-"install and run Odoo. You may also run into issues specific to your "
-"distribution or to your particular setup and hardware configuration."
-msgstr ""
-"如果您运行在基于Debian的Linux的销售点, 你可以不用POSBox, "
-"你可以运行本地软件。然而安装过程并不是万无一失的。你必须知道如何安装和运行Odoo.你也许会遇到关于版本的, 或特定设置和硬件配置的问题。"
-
-#: ../../point_of_sale/overview/setup.rst:165
-msgid ""
-"Drivers for the various types of supported hardware are provided as Odoo "
-"modules. In fact, the POSBox runs an instance of Odoo that the Point of Sale"
-" communicates with. The instance of Odoo running on the POSBox is very "
-"different from a 'real' Odoo instance however. It does not handle *any* "
-"business data (eg. POS orders), but only serves as a gateway between the "
-"Point of Sale and the hardware."
-msgstr ""
-"Odoo模块提供了对于不同类型的硬件的驱动支持。事实上, POSBox运行Odoo的销售点通信。在POSBox运行Odoo是一个和“真正的\" "
-"Odoo有很大的不同的例子。它不处理任何 **业务数据(如POS订单), 仅仅是作为销售点和硬件之间的网关。 "
-
-#: ../../point_of_sale/overview/setup.rst:172
-msgid ""
-"The goal of this section will be to set up a local Odoo instance that "
-"behaves like the Odoo instance running on the POSBox."
-msgstr "本节的目标是要建立一个当地Odoo演示数据, 模拟在POSBox 上运行。"
-
-#: ../../point_of_sale/overview/setup.rst:176
-msgid "Image building process"
-msgstr "镜像建立过程"
-
-#: ../../point_of_sale/overview/setup.rst:178
-msgid ""
-"We generate the official POSBox images using the scripts in "
-"https://github.com/odoo/odoo/tree/11.0/addons/point_of_sale/tools/posbox. "
-"More specifically, we run `posbox_create_image.sh "
-"<https://github.com/odoo/odoo/blob/11.0/addons/point_of_sale/tools/posbox/posbox_create_image.sh>`_."
-" This builds an image called ``posbox.img``, which we zip and upload to "
-"`nightly.odoo.com <https://nightly.odoo.com>`_ for users to download."
-msgstr ""
-
-#: ../../point_of_sale/overview/setup.rst:186
-msgid ""
-"The scripts in this directory might be useful as a reference if you get "
-"stuck or want more detail about something."
-msgstr "在此目录中的脚本对于你碰到问题或想了解更多是很有用的。"
-
-#: ../../point_of_sale/overview/setup.rst:190
-msgid "Summary of the image creation process"
-msgstr "映像创建过程总结"
-
-#: ../../point_of_sale/overview/setup.rst:192
-msgid ""
-"The image creation process starts by downloading the latest `Raspbian "
-"<https://www.raspbian.org/>`_ image. It then locally mounts this Raspbian "
-"image and copies over some files and scripts that will make the Raspbian "
-"image turn itself into a POSBox when it boots. These scripts will update "
-"Raspbian, remove non-essential packages and install required packages. In "
-"order to boot Raspbian we use qemu, which is capable of providing ARM "
-"emulation. After this, the emulated Raspbian OS will shut itself down. We "
-"then once again locally mount the image, remove the scripts that were used "
-"to initialize the image at boot and we copy over some extra configuration "
-"files. The resulting image is then ready to be tested and used."
-msgstr ""
-"镜像创建进程通过下载最新 `Raspbian<https ://www.raspbian.org/>` _镜像开始。然后, 它在本地挂载这个镜像, "
-"复制一些文件和脚本, 这将使Raspbian镜像把自己变成一个POSBox在启动时。这些脚本将更新Raspbian, "
-"删除非必要的包和安装所需的软件包。为了引导Raspbian我们用QEMU, 其能够提供ARM仿真。在此之后, "
-"仿真Raspbian操作系统将自行关闭。然后, 我们再一次在本地挂载镜像, 删除被用来初始化在启动镜像的脚本, "
-"我们复制了一些额外的配置文件。所产生的镜像, 然后可以被用来进行测试和使用。"
-
-#: ../../point_of_sale/overview/setup.rst:207
-msgid "A Debian-based Linux distribution (Debian, Ubuntu, Mint, etc.)"
-msgstr "基于Debian内核的Linux 版本(Debian, Ubuntu, Mint, etc)"
-
-#: ../../point_of_sale/overview/setup.rst:208
-msgid "A running Odoo instance you connect to to load the Point of Sale"
-msgstr "一个运行的Odoo来装载零售点"
-
-#: ../../point_of_sale/overview/setup.rst:209
-msgid ""
-"You must uninstall any ESC/POS printer driver as it will conflict with "
-"Odoo's built-in driver"
-msgstr "你必须卸载任何ESC/POS 打印机驱动, 因为它会和Odoo内置的驱动冲突。"
-
-#: ../../point_of_sale/overview/setup.rst:216
-msgid "Extra dependencies"
-msgstr "额外的依赖"
-
-#: ../../point_of_sale/overview/setup.rst:218
-msgid ""
-"Because Odoo runs on Python 2, you need to check which version of pip you "
-"need to use."
-msgstr "由于Odoo在Python2上运行, 你需要检查你需要使用的PIP的版本。"
-
-#: ../../point_of_sale/overview/setup.rst:221
-msgid "``# pip --version``"
-msgstr "``# pip --version``"
-
-#: ../../point_of_sale/overview/setup.rst:223
-#: ../../point_of_sale/overview/setup.rst:229
-msgid "If it returns something like::"
-msgstr "如果它返回例如 :"
-
-#: ../../point_of_sale/overview/setup.rst:227
-msgid "You need to try pip2 instead."
-msgstr "你需要PIP2"
-
-#: ../../point_of_sale/overview/setup.rst:233
-msgid "You can use pip."
-msgstr "使用 pip 工具."
-
-#: ../../point_of_sale/overview/setup.rst:235
-msgid "The driver modules requires the installation of new python modules:"
-msgstr "驱动模块需要安装新的python模块"
-
-#: ../../point_of_sale/overview/setup.rst:237
-msgid "``# pip install pyserial``"
-msgstr "``# pip install pyserial``"
-
-#: ../../point_of_sale/overview/setup.rst:239
-msgid "``# pip install pyusb==1.0.0b1``"
-msgstr "``# pip install pyusb==1.0.0b1``"
-
-#: ../../point_of_sale/overview/setup.rst:241
-msgid "``# pip install qrcode``"
-msgstr "``# pip install qrcode``"
-
-#: ../../point_of_sale/overview/setup.rst:244
-msgid "Access Rights"
-msgstr "访问权"
-
-#: ../../point_of_sale/overview/setup.rst:246
-msgid ""
-"The drivers need raw access to the printer and barcode scanner devices. "
-"Doing so requires a bit system administration. First we are going to create "
-"a group that has access to USB devices"
-msgstr "驱动需要获得打印机和条码扫描仪设备的原始访问。这样做需要一点系统管理。首先我们要创建一个访问USB设备的组"
-
-#: ../../point_of_sale/overview/setup.rst:250
-msgid "``# groupadd usbusers``"
-msgstr "``# groupadd usbusers``"
-
-#: ../../point_of_sale/overview/setup.rst:252
-msgid "Then we add the user who will run the OpenERP server to ``usbusers``"
-msgstr "然后, 我们添加谁将会运行OpenERP的服务器\" USB users \\ \"用户"
-
-#: ../../point_of_sale/overview/setup.rst:254
-msgid "``# usermod -a -G usbusers USERNAME``"
-msgstr "``# usermod -a -G usbusers 用户名``"
-
-#: ../../point_of_sale/overview/setup.rst:256
-msgid ""
-"Then we need to create a udev rule that will automatically allow members of "
-"``usbusers`` to access raw USB devices. To do so create a file called "
-"``99-usbusers.rules`` in the ``/etc/udev/rules.d/`` directory with the "
-"following content::"
-msgstr ""
-"允许“usbusers“自动访问USB设备, 需要创建一个udev规则。为此, 在``/etc/udev/rules.d/`` 下直接创建一个名为“99"
-" - usbusers的文件, 文件包含以下内容:"
-
-#: ../../point_of_sale/overview/setup.rst:264
-msgid "Then you need to reboot your machine."
-msgstr "然后你需啊重启你的机器。"
-
-#: ../../point_of_sale/overview/setup.rst:267
-msgid "Start the local Odoo instance"
-msgstr "开始本地Odoo实例。"
-
-#: ../../point_of_sale/overview/setup.rst:269
-msgid "We must launch the Odoo server with the correct settings"
-msgstr "我们必须用正确的设置启动Odoo服务器"
-
-#: ../../point_of_sale/overview/setup.rst:271
-msgid ""
-"``$ ./odoo.py "
-"--load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos``"
-msgstr ""
-"``$ ./odoo.py "
-"--load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos``"
-
-#: ../../point_of_sale/overview/setup.rst:274
-msgid "Test the instance"
-msgstr "测试实例。"
-
-#: ../../point_of_sale/overview/setup.rst:276
-msgid ""
-"Plug all your hardware to your machine's USB ports, and go to "
-"``http://localhost:8069/hw_proxy/status`` refresh the page a few times and "
-"see if all your devices are indicated as *Connected*. Possible source of "
-"errors are: The paths on the distribution differ from the paths expected by "
-"the drivers, another process has grabbed exclusive access to the devices, "
-"the udev rules do not apply or a superseded by others."
-msgstr ""
-"请将所有的硬件设备插到机器的USB端口, 然后转到\" http ://localhost: 8069/hw_proxy/status \\ \"\" "
-"刷新页面几次, 看看是否所有的设备都显示为 *连接* 。错误的可能来源是 :linux上的路径和驱动所期望的路径不同, "
-"另一个进程已经抢到了设备的独占访问时, udev规则不适用或他被人取代。 "
-
-#: ../../point_of_sale/overview/setup.rst:284
-msgid "Automatically start Odoo"
-msgstr "自动启动Odoo"
-
-#: ../../point_of_sale/overview/setup.rst:286
-msgid ""
-"You must now make sure that this Odoo install is automatically started after"
-" boot. There are various ways to do so, and how to do it depends on your "
-"particular setup. Using the init system provided by your distribution is "
-"probably the easiest way to accomplish this."
-msgstr ""
-"你必须确保Odoo 安装是在启动后自动开始。有多种方式可以实现, 如何做取决于你的特定设置.使用你的操作系统提供的安装系统可能使最简单的方式。"
-
-#: ../../point_of_sale/overview/setup.rst:294
-msgid ""
-"The IP address field in the POS configuration must be either ``127.0.0.1`` "
-"or ``localhost`` if you're running the created Odoo server on the machine "
-"that you'll use as the Point of Sale device. You can also leave it empty."
-msgstr ""
-"在POS的IP地址字段必须配置\" 127.0.0.1 \\ \"or\" localhost \\ \", 如果你将在作为零售点的Odoo "
-"服务器的机器上运行, 你也可以留空。"
-
-#: ../../point_of_sale/overview/setup.rst:300
-msgid "POSBox Technical Documentation"
-msgstr "POSBox 技术文档"
-
-#: ../../point_of_sale/overview/setup.rst:303
-msgid "Technical Overview"
-msgstr "技术总览"
-
-#: ../../point_of_sale/overview/setup.rst:306
-msgid "The POSBox Hardware"
-msgstr "收银机(POSBox) 硬件"
-
-#: ../../point_of_sale/overview/setup.rst:308
-msgid ""
-"The POSBox's Hardware is based on a `Raspberry Pi 2 "
-"<https://www.raspberrypi.org/products/raspberry-pi-2-model-b/>`_, a popular "
-"single-board computer. The Raspberry Pi 2 is powered with a 2A micro-usb "
-"power adapter. 2A is needed to give enough power to the barcode scanners. "
-"The Software is installed on a 8Gb Class 10 or Higher SD Card. All this "
-"hardware is easily available worldwide from independent vendors."
-msgstr ""
-"该POSBox的硬件是基于 `Raspberry Pi 2<https ://www.raspberrypi.org/products"
-"/raspberry-pi-2-model-b/>` _, 一个普遍的单片机。Raspberry PI "
-"2使用2A微型USB电源适配器。需要提供2A的足够电源给条码扫描器。软件安装在8G的10级或更高的SD卡。所有这些硬件都很容易从世界性的独立供应商处获得。"
-
-#: ../../point_of_sale/overview/setup.rst:317
-msgid "Compatible Peripherals"
-msgstr "兼容外设"
-
-#: ../../point_of_sale/overview/setup.rst:319
-msgid ""
-"Officially supported hardware is listed on the `POS Hardware page "
-"<https://www.odoo.com/page/pos-ipad-android-hardware>`_."
-msgstr ""
-"官方支持的硬件, 列在'POS硬件页<https ://www.odoo.com/page/pos-ipad-android-hardware> "
-"`_上。"
-
-#: ../../point_of_sale/overview/setup.rst:323
-msgid "The POSBox Software"
-msgstr "收银机(POSBox) 软件"
-
-#: ../../point_of_sale/overview/setup.rst:325
-msgid ""
-"The POSBox runs a heavily modified Raspbian Linux installation, a Debian "
-"derivative for the Raspberry Pi. It also runs a barebones installation of "
-"Odoo which provides the webserver and the drivers. The hardware drivers are "
-"implemented as Odoo modules. Those modules are all prefixed with ``hw_*`` "
-"and they are the only modules that are running on the POSBox. Odoo is only "
-"used for the framework it provides. No business data is processed or stored "
-"on the POSBox. The Odoo instance is a shallow git clone of the ``11.0`` "
-"branch."
-msgstr ""
-
-#: ../../point_of_sale/overview/setup.rst:334
-msgid ""
-"The root partition on the POSBox is mounted read-only, ensuring that we "
-"don't wear out the SD card by writing to it too much. It also ensures that "
-"the filesystem cannot be corrupted by cutting the power to the POSBox. Linux"
-" applications expect to be able to write to certain directories though. So "
-"we provide a ramdisk for /etc and /var (Raspbian automatically provides one "
-"for /tmp). These ramdisks are setup by ``setup_ramdisks.sh``, which we run "
-"before all other init scripts by running it in ``/etc/init.d/rcS``. The "
-"ramdisks are named /etc_ram and /var_ram respectively. Most data from /etc "
-"and /var is copied to these tmpfs ramdisks. In order to restrict the size of"
-" the ramdisks, we do not copy over certain things to them (eg. apt related "
-"data). We then bind mount them over the original directories. So when an "
-"application writes to /etc/foo/bar it's actually writing to "
-"/etc_ram/foo/bar. We also bind mount / to /root_bypass_ramdisks to be able "
-"to get to the real /etc and /var during development."
-msgstr ""
-"POSBox上的根分区是只读的,确保SD卡不会写太多, 同时还确保文件系统不被削减。Linux应用程序期望能写些目录。所以, 我们提供了虚拟盘 / "
-"etc和/ var (Raspbian自动提供 了/tmp)。在``/etc/init.d/rcS``中运行脚本前, "
-"需在``setup_ramdisks.sh``设置虚拟盘。虚拟磁盘命名为/ etc_ram和/ var_ram。大多数从/ etc、/ "
-"var出来的数据将复制到tmpfs虚拟盘。为了限制虚拟盘的大小,我们不复制这些数据(如, "
-"相关数据)。然后将数据与原来的目录绑定。当应用程序写入/etc/foo/bar时, 其实是写入/ etc_ram / foo / "
-"bar。我们也将mount / 绑定 /root_bypass_ramdisks, 以便在开发中能得到真正的/ etc、/ var。"
-
-#: ../../point_of_sale/overview/setup.rst:350
-msgid "Logs of the running Odoo server can be found at:"
-msgstr "Odoo服务器的运行Log可以在如下地方找到 :"
-
-#: ../../point_of_sale/overview/setup.rst:352
-msgid "``/var/log/odoo/odoo.log``"
-msgstr "\" /var/log/odoo/odoo.log \\ \""
-
-#: ../../point_of_sale/overview/setup.rst:354
-msgid ""
-"Various POSBox related scripts (eg. wifi-related scripts) running on the "
-"POSBox will log to /var/log/syslog and those messages are tagged with "
-"``posbox_*``."
-msgstr ""
-"各种在POSBox运行的相关的脚本(如无线网络相关的脚本)将记录到/ var / log / syslog上, 那些消息都标有\" posbox_ * "
-"\\ \"。"
-
-#: ../../point_of_sale/overview/setup.rst:359
-msgid "Accessing the POSBox"
-msgstr "访问POSBox"
-
-#: ../../point_of_sale/overview/setup.rst:362
-msgid "Local Access"
-msgstr "本地访问"
-
-#: ../../point_of_sale/overview/setup.rst:364
-msgid ""
-"If you plug a QWERTY USB keyboard into one of the POSBox's USB ports, and if"
-" you connect a computer monitor to the *HDMI* port of the POSBox, you can "
-"use it as a small GNU/Linux computer and perform various administration "
-"tasks, like viewing some logs."
-msgstr ""
-"如果你插入一个QWERTY USB的键盘到POSBox的USB端口中, 如果你的计算机显示器连接到 * HDMI * 的POSBox的端口, "
-"你可以使用它作为一个小的GNU / Linux计算机并执行各种管理任务, 如查看一些日志。"
-
-#: ../../point_of_sale/overview/setup.rst:369
-msgid "The POSBox will automatically log in as root on the default tty."
-msgstr "POSBox 将自动登入作为默认终端设备。"
-
-#: ../../point_of_sale/overview/setup.rst:372
-msgid "Remote Access"
-msgstr "远程访问"
-
-#: ../../point_of_sale/overview/setup.rst:374
-msgid ""
-"If you have the POSBox's IP address and an SSH client you can access the "
-"POSBox's system remotely. The login credentials are ``pi``/``raspberry``."
-msgstr "如果你有POSBox的IP地址和SSH客户端, 你可以远程访问POSBox的系统。登录凭据\" pi \\ \"/\" raspberry \\ \"。"
-
-#: ../../point_of_sale/overview/setup.rst:379
-msgid "Updating The POSBox Software"
-msgstr "升级POSBox 软件"
-
-#: ../../point_of_sale/overview/setup.rst:381
-msgid ""
-"Only upgrade the POSBox if you experience problems or want to use newly "
-"implemented features."
-msgstr "当你遇到问题或想要使用新实施的功能升级POSBox。"
-
-#: ../../point_of_sale/overview/setup.rst:384
-msgid ""
-"The best way to update the POSBox software is to download a new version of "
-"the image and flash the SD-Card with it. This operation is described in "
-"detail in `this tutorial <http://elinux.org/RPi_Easy_SD_Card_Setup>`_, just "
-"replace the standard Raspberry Pi image with the latest one found at `the "
-"official POSBox image page <http://nightly.odoo.com/master/posbox/>`_. This "
-"method of upgrading will ensure that you're running the latest version of "
-"the POSBox software."
-msgstr ""
-"更新POSBox软件的最好方法是下载镜像的新版本, 并更新SD卡。该操作的详细描述在 `<http "
-"://elinux.org/RPi_Easy_SD_Card_Setup>` _, "
-"只需用最新一期的'官方POSBox镜像页面找到替换的标准Raspberry Pi 镜像<http: "
-"//nightly.odoo.com/master/posbox/> `_。这种升级方法将确保您正在运行最新版本的POSBox软件。"
-
-#: ../../point_of_sale/overview/setup.rst:393
-msgid ""
-"The second way of upgrading is through the built in upgrade interface that "
-"can be reached through the POSBox homepage. The nice thing about upgrading "
-"like this is that you don't have to flash a new image. This upgrade method "
-"is limited to what it can do however. It can not eg. update installed "
-"configuration files (like eg. /etc/hostapd.conf). It can only upgrade:"
-msgstr ""
-"升级的第二个方法是通过内置的升级界面访问POSBox主页。这样升级的好处是, "
-"你不必换一个新镜像。这种升级方法受限于有些不能做。例如不能更新安装配置文件(/etc/hostapd.conf)。它只能升级 :"
-
-#: ../../point_of_sale/overview/setup.rst:400
-msgid "The internal Odoo application"
-msgstr "内部Odoo应用"
-
-#: ../../point_of_sale/overview/setup.rst:401
-msgid ""
-"Scripts in the folder "
-"``odoo/addons/point_of_sale/tools/posbox/configuration/``"
-msgstr "脚本在文件夹\" odoo/addons/point_of_sale/tools/posbox/configuration/ \\ \""
-
-#: ../../point_of_sale/overview/setup.rst:403
-msgid "When in doubt, always use the first method of upgrading."
-msgstr "如有疑问, 一定要使用升级的第一个方法。"
-
-#: ../../point_of_sale/overview/setup.rst:406
-msgid "Troubleshoot"
-msgstr "疑难解答"
-
-#: ../../point_of_sale/overview/setup.rst:409
-msgid "The POS cannot connect to the POSBox"
-msgstr "该POS无法连接到POSBox"
-
-#: ../../point_of_sale/overview/setup.rst:411
-msgid ""
-"The easiest way to make sure the POSBox is properly set-up is to turn it on "
-"with the printer plugged in as it will print a receipt indicating any error "
-"if encountered or the POSBox's IP address in case of success. If no receipt "
-"is printed, check the following steps:"
-msgstr ""
-"最简单的方法确保POSBox是正确的设置, 是把它与打印机插入, "
-"因为它会在POSBox的IP地址设置成功的情况下打印收据显示任何遇到的错误。如果不打印收据, 请执行下列步骤 :"
-
-#: ../../point_of_sale/overview/setup.rst:415
-msgid ""
-"Make sure the POSBox is powered on, indicated by a brightly lit red status "
-"LED."
-msgstr "确保POSBox是通电的, 明亮的红色状态指示灯亮。"
-
-#: ../../point_of_sale/overview/setup.rst:417
-msgid ""
-"Make sure the POSBox is ready, this is indicated by a brightly lit green "
-"status LED just next to the red power status LED. The POSBox should be ready"
-" ~2 minutes after it is started."
-msgstr "确保POSBox已经准备好, 这是由一个红色电源状态指示灯后面的绿色状态指示灯指示。在启动后的POSBox应该准备〜2分钟。"
-
-#: ../../point_of_sale/overview/setup.rst:420
-msgid ""
-"Make sure the POSBox is connected to the same network as your POS device. "
-"Both the device and the POSBox should be visible in the list of connected "
-"devices on your network router."
-msgstr "确保POSBox连接到POS设备的相同网络。无论是设备和POSBox应该在你的网络中路由器连接的设备的列表中可见。"
-
-#: ../../point_of_sale/overview/setup.rst:423
-msgid ""
-"Make sure that your LAN is set up with DHCP, and gives IP addresses in the "
-"range 192.168.0.X, 192.168.1.X, 10.0.0.X. If you cannot setup your LAN that "
-"way, you must manually set up your POSBox's IP address."
-msgstr ""
-"确保你的局域网已用DHCP设置,并赋予IP地址范围 192.168.0.X, 192.168.1.X, 10.0.0.X. 如果不能这样设置, "
-"那就手动设置POSBox的IP地址。"
-
-#: ../../point_of_sale/overview/setup.rst:427
-msgid ""
-"If you have specified the POSBox's IP address in the configuration, make "
-"sure it correspond to the printed on the POSBox's status receipt."
-msgstr "如果你在配置中指定POSBox的IP地址, 确保它符合POSBox上的收据打印需求。"
-
-#: ../../point_of_sale/overview/setup.rst:430
-msgid "Make sure that the POS is not loaded over HTTPS."
-msgstr "确认 POS 部分未开启 HTTPS 访问."
-
-#: ../../point_of_sale/overview/setup.rst:431
-msgid ""
-"A bug in Firefox's HTTP implementation prevents the autodiscovery from "
-"working reliably. When using Firefox you should manually set up the POSBox's"
-" IP address in the POS configuration."
-msgstr "Firefox的HTTP实施时的一个故障可防止自动运行。使用火狐浏览器时, 你应在POS配置中手动设置POSBox 的IP地址。"
-
-#: ../../point_of_sale/overview/setup.rst:436
-msgid "The Barcode Scanner is not working"
-msgstr "条码枪不能使用"
-
-#: ../../point_of_sale/overview/setup.rst:438
-msgid ""
-"The barcode scanner must be configured in US QWERTY and emit an Enter after "
-"each barcode. This is the default configuration of most barcode readers. "
-"Refer to the barcode reader documentation for more information."
-msgstr "在US QWERTY中配置条形码扫描仪, 扫码后输入。这是大多数条形码扫描仪的默认配置。有关更多信息,请参阅条形码文档。"
-
-#: ../../point_of_sale/overview/setup.rst:442
-msgid ""
-"The POSBox needs a 2A power supply to work with some barcode scanners. If "
-"you are not using the provided power supply, make sure the one you use has "
-"enough power."
-msgstr "POSBox需要2A电源和一些条形码扫描仪。如果你不使用提供的电源,确保你使用电源的功率。"
-
-#: ../../point_of_sale/overview/setup.rst:445
-msgid ""
-"Some barcode scanners will need more than 2A and will not work, or will work"
-" unreliably, even with the provided power supply. In those case you can plug"
-" the barcode scanner in a self-powered USB hub."
-msgstr "一些条形码扫描仪将需要超过2A的电源, 有时即使提供了电源也不可靠。在这些情况下,你可以把条形码扫描器连接在自供电的USB集线器上。"
-
-#: ../../point_of_sale/overview/setup.rst:448
-msgid ""
-"Some poorly built barcode scanners do not advertise themselves as barcode "
-"scanners but as a usb keyboard instead, and will not be recognized by the "
-"POSBox."
-msgstr "一些简陋的条形码扫描仪是作为usb键盘, 而不是条形码扫描仪, 这将不被POSBox认可。"
-
-#: ../../point_of_sale/overview/setup.rst:453
-msgid "The Barcode Scanner is not working reliably"
-msgstr "条码枪确实不能使用"
-
-#: ../../point_of_sale/overview/setup.rst:455
-msgid ""
-"Make sure that no more than one device with 'Scan via Proxy'/'Barcode "
-"Scanner' enabled are connected to the POSBox at the same time."
-msgstr "确保不超过一个设备同时与'Scan via Proxy'/'Barcode Scanner'连接到POSBox使用。"
-
-#: ../../point_of_sale/overview/setup.rst:460
-msgid "Printing the receipt takes too much time"
-msgstr "打印小票太慢"
-
-#: ../../point_of_sale/overview/setup.rst:462
-msgid ""
-"A small delay before the first print is expected, as the POSBox will do some"
-" preprocessing to speed up the next printings. If you suffer delays "
-"afterwards it is most likely due to poor network connection between the POS "
-"and the POSBox."
-msgstr "打印前有稍许延迟是正常的, POSBox接下来会做一些预处理加快打印。如果之后再有延迟, 很可能是POS和POSBox之间网络连接的问题。"
-
-#: ../../point_of_sale/overview/setup.rst:468
-msgid "Some characters are not correctly printed on the receipt"
-msgstr "收据上打印出来的字母有些错误"
-
-#: ../../point_of_sale/overview/setup.rst:470
-msgid ""
-"The POSBox does not support all languages and characters. It currently "
-"supports Latin and Cyrillic based scripts, with basic Japanese support."
-msgstr "POSBox不支持所有的语言和文字。基于日语的支持, 目前支持拉丁文和斯拉夫语。"
-
-#: ../../point_of_sale/overview/setup.rst:475
-msgid "The printer is offline"
-msgstr "打印机处于离线"
-
-#: ../../point_of_sale/overview/setup.rst:477
-msgid ""
-"Make sure the printer is connected, powered, has enough paper and has its "
-"lid closed, and is not reporting an error. If the error persists, please "
-"contact support."
-msgstr "确保打印机是连接, 有电源,有足够的纸, 它的盖子是关闭的, 并且没有报告错误。如果错误出现, 请联系技术支持。"
-
-#: ../../point_of_sale/overview/setup.rst:482
-msgid "The cashdrawer does not open"
-msgstr "钱箱无法打开"
-
-#: ../../point_of_sale/overview/setup.rst:484
-msgid ""
-"The cashdrawer should be connected to the printer and should be activated in"
-" the POS configuration."
-msgstr "现金盒应该连到打印机, 在POS中应将设置激活。"
-
-#: ../../point_of_sale/overview/setup.rst:488
-msgid "Credits"
-msgstr "信用"
-
-#: ../../point_of_sale/overview/setup.rst:489
-msgid ""
-"The POSBox project was developed by Frédéric van der Essen with the kind "
-"help of Gary Malherbe, Fabien Meghazi, Nicolas Wisniewsky, Dimitri Del "
-"Marmol, Joren Van Onder and Antony Lesuisse."
-msgstr ""
-"POSBox项目是由Frédéric van der Essen开发的, 同时得到了Gary Malherbe, Fabien Meghazi, "
-"Nicolas Wisniewsky, Dimitri Del Marmol, Joren Van Onder 和 Antony "
-"Lesuisse的帮助."
-
-#: ../../point_of_sale/overview/setup.rst:493
-msgid ""
-"This development would not have been possible without the Indiegogo campaign"
-" and those who contributed to it. Special thanks goes to the partners who "
-"backed the campaign with founding partner bundles:"
-msgstr "没有 Indiegogo和其他人的贡献, 开发不可能完成。特别感谢支持参加活动的创始合伙人:"
-
-#: ../../point_of_sale/overview/setup.rst:497
-msgid "Camptocamp"
-msgstr "Camptocamp"
-
-#: ../../point_of_sale/overview/setup.rst:498
-msgid "BHC"
-msgstr "BHC"
-
-#: ../../point_of_sale/overview/setup.rst:499
-msgid "openBig"
-msgstr "openBig"
-
-#: ../../point_of_sale/overview/setup.rst:500
-msgid "Eeezee-IT"
-msgstr "Eeezee-IT"
-
-#: ../../point_of_sale/overview/setup.rst:501
-msgid "Solarsis LDA"
-msgstr "Solarsis LDA"
-
-#: ../../point_of_sale/overview/setup.rst:502
-msgid "ACSONE"
-msgstr "ACSONE"
-
-#: ../../point_of_sale/overview/setup.rst:503
-msgid "Vauxoo"
-msgstr "Vauxoo"
-
-#: ../../point_of_sale/overview/setup.rst:504
-msgid "Ekomurz"
-msgstr "Ekomurz"
-
-#: ../../point_of_sale/overview/setup.rst:505
-msgid "Datalp"
-msgstr "Datalp"
-
-#: ../../point_of_sale/overview/setup.rst:506
-msgid "Dao Systems"
-msgstr "Dao 系统"
-
-#: ../../point_of_sale/overview/setup.rst:507
-msgid "Eggs Solutions"
-msgstr "鸡蛋方案"
-
-#: ../../point_of_sale/overview/setup.rst:508
-msgid "OpusVL"
-msgstr "OpusVL"
-
-#: ../../point_of_sale/overview/setup.rst:510
-msgid ""
-"And also the partners who've backed the development with the Founding POSBox"
-" Bundle:"
-msgstr "也感谢一直支持发展POSBox的合作伙伴:"
-
-#: ../../point_of_sale/overview/setup.rst:513
-msgid "Willow IT"
-msgstr "Willow IT"
-
-#: ../../point_of_sale/overview/setup.rst:514
-msgid "E\\. Akhalwaya & Sons"
-msgstr "E\\. Akhalwaya & Sons"
-
-#: ../../point_of_sale/overview/setup.rst:515
-msgid "Multibase"
-msgstr "Multibase"
-
-#: ../../point_of_sale/overview/setup.rst:516
-msgid "Mindesa"
-msgstr "Mindesa"
-
-#: ../../point_of_sale/overview/setup.rst:517
-msgid "bpso.biz"
-msgstr "bpso.biz"
-
-#: ../../point_of_sale/overview/setup.rst:518
-msgid "Shine IT."
-msgstr "上海先安信息科技(Shine IT)."
-
-#: ../../point_of_sale/overview/start.rst:3
-msgid "Getting started with Odoo Point of Sale"
-msgstr "开始使用Odoo销售点"
-
-#: ../../point_of_sale/overview/start.rst:8
-msgid ""
-"Odoo's online **Point of Sale** application is based on a simple, user "
-"friendly interface. The **Point of Sale** application can be used online or "
-"offline on iPads, Android tablets or laptops."
-msgstr ""
-"**销售点** 在线应用程序是基于一个简单的、用户友好的界面。**销售点** 应用程序可在ipad, Android的平板电脑或笔记本电脑上使用, "
-"在线或下线都可。"
-
-#: ../../point_of_sale/overview/start.rst:12
-msgid ""
-"Odoo **Point of Sale** is fully integrated with the **Inventory** and the "
-"**Accounting** applications. Any transaction with your point of sale will "
-"automatically be registered in your inventory management and accounting and,"
-" even in your **CRM** as the customer can be identified from the app."
-msgstr ""
-"Odoo **ＰＯＳ** 跟 **库存** ， **财务** 程序高度集成. ＰＯＳ上的任何交易都会自动记录到库存管理和财务管理程序中, 甚至 "
-"**ＣＲＭ**程序中， 因为客户在程序中可以被识别"
-
-#: ../../point_of_sale/overview/start.rst:17
-msgid ""
-"You will be able to run real time statistics and consolidations across all "
-"your shops without the hassle of integrating several external applications."
-msgstr "无需繁琐的外部程序集成，就可以实时统计所有门店数据"
-
-#: ../../point_of_sale/overview/start.rst:25
-msgid "Install the Point of Sale Application"
-msgstr "安装ＰＯＳ应用程序"
-
-#: ../../point_of_sale/overview/start.rst:27
-msgid ""
-"Start by installing the **Point of Sale** application. Go to "
-":menuselection:`Apps` and install the **Point of Sale** application."
-msgstr "从安装**ＰＯＳ** 应用程序开始. 进到:菜单选择:`应用程序` 并点击**ＰＯＳ** 应用程序."
-
-#: ../../point_of_sale/overview/start.rst:33
-msgid ""
-"Do not forget to install an accounting **chart of account**. If it is not "
-"done, go to the **Invoicing/Accounting** application and click on **Browse "
-"available countries**:"
-msgstr "不要忘了安装**科目表**. 如果未设置, 进到**发票/财务** 应用程序并点击**浏览适用的国家**:"
-
-#: ../../point_of_sale/overview/start.rst:40
-msgid "Then choose the one you want to install."
-msgstr "选择你要安装的"
-
-#: ../../point_of_sale/overview/start.rst:42
-msgid "When it is done, you are all set to use the point of sale."
-msgstr "完成后，ＰＯＳ的所有设置已经完毕。"
-
-#: ../../point_of_sale/overview/start.rst:45
-msgid "Adding Products"
-msgstr "增加商品"
-
-#: ../../point_of_sale/overview/start.rst:47
-msgid ""
-"To add products from the point of sale **Dashboard** go to "
-":menuselection:`Orders --> Products` and click on **Create**."
-msgstr "在ＰＯＳ**面板**增加商品， 进到 :菜单选择:`订单 --> 商品并点击**创建**."
-
-#: ../../point_of_sale/overview/start.rst:50
-msgid ""
-"The first example will be oranges with a price of ``3€/kg``. In the "
-"**Sales** tab, you can see the point of sale configuration. There, you can "
-"set a product category, specify that the product has to be weighted or not "
-"and ensure that it will be available in the point of sale."
-msgstr ""
-"第一个例子，售价为``3€/公斤``的桔子，在**销售**标签页，可以看到ＰＯＳ的配置，指定商品类别，是否需要称重，并确保在ＰＯＳ中是可用的商品"
-
-#: ../../point_of_sale/overview/start.rst:58
-msgid ""
-"In same the way, you can add lemons, pumpkins, red onions, bananas... in the"
-" database."
-msgstr "用同样方式，你可以在数据库中添加柠檬，南瓜，红洋葱，香蕉等"
-
-#: ../../point_of_sale/overview/start.rst:62
-msgid "How to easily manage categories?"
-msgstr "怎样简单的管理类别?"
-
-#: ../../point_of_sale/overview/start.rst:64
-msgid ""
-"If you already have a database with your products, you can easily set a "
-"**Point of Sale Category** by using the Kanban view and by grouping the "
-"products by **Point of Sale Category**."
-msgstr "如果你的数据库已有商品，可以很容易的通过商品分组以及看板视图设置ＰＯＳ分类"
-
-#: ../../point_of_sale/overview/start.rst:72
-msgid "Configuring a payment method"
+"要使产品可供销售，请转到 :menuselection:`POS --> 产品 --> 产品`，然后打开一个产品。 在 *销售* 标签中，启用 "
+"*在POS可用* 。"
+
+#: ../../point_of_sale/overview/getting_started.rst:28
+msgid "You can also define if the product has to be weighted or not."
+msgstr "您还可以定义是否必须对产品进行测量。"
+
+#: ../../point_of_sale/overview/getting_started.rst:31
+msgid "Configure your payment methods"
 msgstr "配置支付方式"
 
-#: ../../point_of_sale/overview/start.rst:74
+#: ../../point_of_sale/overview/getting_started.rst:33
 msgid ""
-"To configure a new payment method go to :menuselection:`Configuration --> "
-"Payment methods` and click on **Create**."
-msgstr "要配置新的付款方式 :菜单选择:`配置 --> 付款方式并点击**新建**."
-
-#: ../../point_of_sale/overview/start.rst:81
-msgid ""
-"After you set up a name and the type of payment method, you can go to the "
-"point of sale tab and ensure that this payment method has been activated for"
-" the point of sale."
-msgstr "在设置付款名称和付款方式类别后, 你可以进到ＰＯＳ确保该付款方式已激活生效"
-
-#: ../../point_of_sale/overview/start.rst:86
-msgid "Configuring your points of sales"
-msgstr "配置ＰＯＳ"
-
-#: ../../point_of_sale/overview/start.rst:88
-msgid ""
-"Go to :menuselection:`Configuration --> Point of Sale`, click on the "
-"``main`` point of sale. Edit the point of sale and add your custom payment "
-"method into the available payment methods."
-msgstr "进入:菜单选择:`配置 --> ＰＯＳ`, 点击 ``主`` 画面. 编辑ＰＯＳ并增加自定义付款方式 "
-
-#: ../../point_of_sale/overview/start.rst:95
-msgid ""
-"You can configure each point of sale according to your hardware, "
-"location,..."
-msgstr "你可以根据硬件，位置等条件配置ＰＯＳ"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Point of Sale Name"
-msgstr "POS名称"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "An internal identification of the point of sale."
-msgstr "销售点的内部确认。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Sales Channel"
-msgstr "销售渠道"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "This Point of sale's sales will be related to this Sales Channel."
-msgstr "销售点与本销售渠道相关"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Restaurant Floors"
-msgstr "餐馆楼层"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "The restaurant floors served by this point of sale."
-msgstr "此销售点提供的餐厅最低标准。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Orderline Notes"
-msgstr "订单行批注"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Allow custom notes on Orderlines."
-msgstr "允许在 Orderlines 上进行自定义注释。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Display Category Pictures"
-msgstr "展示类别图片"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "The product categories will be displayed with pictures."
-msgstr "在图片上会显示商品类别"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Initial Category"
-msgstr "初始类别"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"The point of sale will display this product category by default. If no "
-"category is specified, all available products will be shown."
-msgstr "销售点将默认显示此产品类别。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Virtual KeyBoard"
-msgstr "虚拟键盘"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"Don’t turn this option on if you take orders on smartphones or tablets."
+"To add a payment method, you first need to create it. Go to "
+":menuselection:`Point of Sale --> Configuration --> Payment Methods` and "
+"click on create. Then, you can name your payment method and set it up."
 msgstr ""
+"要添加付款方式，您首先需要创建它。 转到:menuselection:`POS --> 配置 --> 付款方式` ，然后单击创建。 "
+"接着，您可以命名您的付款方式并进行设置。"
 
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Such devices already benefit from a native keyboard."
+#: ../../point_of_sale/overview/getting_started.rst:43
+msgid "Don’t forget your credentials for methods using a payment terminal."
+msgstr "不要忘记使用付款终端的凭证。"
+
+#: ../../point_of_sale/overview/getting_started.rst:45
+msgid ""
+"Now, you can select the payment method in your PoS settings. To do so, go to"
+" :menuselection:`Point of Sale --> Configuration --> Point of Sale` and open"
+" the PoS in which you want to include the payment method. Then, add the "
+"payment method."
 msgstr ""
+"现在，您可以在PoS设置中选择付款方式。 为此，请转到:menuselection:`POS- -> 配置 --> "
+"销售点，然后打开要设置付款方式的PoS。 接着，添加付款方式。"
 
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Large Scrollbars"
-msgstr "大滚动条"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "For imprecise industrial touchscreens."
-msgstr "对于不精确的工业用触摸屏。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "IP Address"
-msgstr "IP地址"
-
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/getting_started.rst:55
 msgid ""
-"The hostname or ip address of the hardware proxy, Will be autodetected if "
-"left empty."
-msgstr "将自动检测是否留空硬件代理的主机名或 IP 地址"
+"*Configuration* is the menu where you can edit all your point of sale "
+"settings. Some more features are available for restaurants."
+msgstr "*配置* 是您可以编辑所有销售点设置的菜单。 餐厅还提供一些其他功能。"
 
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Scan via Proxy"
-msgstr "通过代理浏览"
+#: ../../point_of_sale/overview/getting_started.rst:59
+msgid "Your first PoS session"
+msgstr "您的第一次PoS应用"
 
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Enable barcode scanning with a remotely connected barcode scanner."
-msgstr "使用远程连接的条码扫描器进行条码扫描。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Electronic Scale"
-msgstr "电子秤"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Enables Electronic Scale integration."
-msgstr "启用电子秤集成。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Cashdrawer"
-msgstr "收银机"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Automatically open the cashdrawer."
-msgstr "自动打开收银箱。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Print via Proxy"
-msgstr "通过代理打印"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Bypass browser printing and prints via the hardware proxy."
-msgstr "绕过浏览器打印，通过硬件代理进行打印。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Customer Facing Display"
-msgstr "面向客户的显示"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Show checkout to customers with a remotely-connected screen."
-msgstr "通过远程连接的屏幕向客户显示结账。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"Defines what kind of barcodes are available and how they are assigned to "
-"products, customers and cashiers."
-msgstr "定义可用的条码并且分配给产品，客户和收银员"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Fiscal Positions"
-msgstr "替换规则"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"This is useful for restaurants with onsite and take-away services that imply"
-" specific tax rates."
-msgstr "这对于提供具有特定税率的上门服务和外卖服务的餐厅十分有用。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Available Pricelists"
-msgstr "可用价格表"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"Make several pricelists available in the Point of Sale. You can also apply a"
-" pricelist to specific customers from their contact form (in Sales tab). To "
-"be valid, this pricelist must be listed here as an available pricelist. "
-"Otherwise the default pricelist will apply."
-msgstr "使多个价目表可用于销售点。否则，将应用默认价目表。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Default Pricelist"
-msgstr "默认价格表"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"The pricelist used if no customer is selected or if the customer has no Sale"
-" Pricelist configured."
-msgstr "如果未选择客户或者客户未配置销售价目表，则使用该价目表。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Restrict Price Modifications to Managers"
-msgstr "限制管理器进行价格修改"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"Only users with Manager access rights for PoS app can modify the product "
-"prices on orders."
-msgstr "仅具有 PoS 应用的管理器访问权限的用户能够修改订单上的产品价格。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Cash Control"
-msgstr "现金管理"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Check the amount of the cashbox at opening and closing."
-msgstr "在开业和结束时检查钱箱总额"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Prefill Cash Payment"
-msgstr "预先填好现金付款"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"The payment input will behave similarily to bank payment input, and will be "
-"prefilled with the exact due amount."
-msgstr "该支付输入与银行支付输入类似，将通过准确到期金额预填充。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Order IDs Sequence"
-msgstr "订单号序列"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
-"customize the reference numbers of your orders."
-msgstr "这个序列号是由Odoo自动产生的，不过您可以自己定义订单的序列号。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Receipt Header"
-msgstr "收据页眉"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "A short text that will be inserted as a header in the printed receipt."
-msgstr "在打印收据中作为标题插入的短文本。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Receipt Footer"
-msgstr "收据页脚"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "A short text that will be inserted as a footer in the printed receipt."
-msgstr "一个简短的文字，将插在打印收据的页脚。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Automatic Receipt Printing"
-msgstr "自动收据打印"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "The receipt will automatically be printed at the end of each order."
-msgstr "在每个订单结束时将自动打印收据。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Skip Preview Screen"
-msgstr "跳过预览屏幕"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"The receipt screen will be skipped if the receipt can be printed "
-"automatically."
-msgstr "小票预览将被略过如果小票是设置成自动打印"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Bill Printing"
-msgstr "账单打印"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Allows to print the Bill before payment."
-msgstr "允许在付款前打印账单。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Bill Splitting"
-msgstr "账单拆分"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Enables Bill Splitting in the Point of Sale."
-msgstr "销售点中允许账单拆分。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Tip Product"
-msgstr "提示产品"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "This product is used as reference on customer receipts."
-msgstr "本产品用作客户收据的参考。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Invoicing"
-msgstr "开票"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Enables invoice generation from the Point of Sale."
-msgstr "通过销售点启用发票生成。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Invoice Journal"
-msgstr "发票日记账"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Accounting journal used to create invoices."
-msgstr "用于创建发票的会计日记账"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Sales Journal"
-msgstr "销售日记账"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Accounting journal used to post sales entries."
-msgstr "会计日记账用来登录销售分录。"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Group Journal Items"
-msgstr "分组日记账项目"
-
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"Check this if you want to group the Journal Items by Product while closing a"
-" Session."
-msgstr "如果您想要在关闭会话时按产品分组日记账项目，则对其进行检查。"
-
-#: ../../point_of_sale/overview/start.rst:100
-msgid "Now you are ready to make your first steps with your point of sale."
-msgstr "现在你可以在ＰＯＳ中做第一步了"
-
-#: ../../point_of_sale/overview/start.rst:103
-msgid "First Steps in the Point of Sale"
-msgstr "在ＰＯＳ中的第一步"
-
-#: ../../point_of_sale/overview/start.rst:106
+#: ../../point_of_sale/overview/getting_started.rst:62
 msgid "Your first order"
 msgstr "第一个订单"
 
-#: ../../point_of_sale/overview/start.rst:108
-msgid ""
-"On the dashboard, you can see your points of sales, click on **New "
-"session**:"
-msgstr "在面板中，你可以看到ＰＯＳ，点击**新的会话**:"
-
-#: ../../point_of_sale/overview/start.rst:119
-msgid ""
-"On the right you can see the products list with the categories on the top. "
-"If you click on a product, it will be added in the cart. You can directly "
-"set the correct quantity or weight by typing it on the keyboard."
-msgstr "在右边你可以看到商品清单，以及显示在最上方的类别，点击商品时，会加入到购物车，你可以直接设置数量或者通过键盘输入数量"
-
-#: ../../point_of_sale/overview/start.rst:125
-#: ../../point_of_sale/shop/cash_control.rst:59
-msgid "Payment"
-msgstr "付款"
-
-#: ../../point_of_sale/overview/start.rst:127
-msgid ""
-"Once the order is completed, click on **Payment**. You can choose the "
-"customer payment method. In this example, the customer owes you ``10.84 €`` "
-"and pays with a ``20 €`` note. When it's done, click on **Validate**."
+#: ../../point_of_sale/overview/getting_started.rst:64
+msgid "Open a new session from the dashboard by clicking on *New Session*."
 msgstr ""
-"一旦销售单完成，点击**付款**，你可以选择客户付款方式，在该例中，客户需支付 ``10.84 €``，客户实付``20 €`` "
-"，完成后，点击**确认**."
 
-#: ../../point_of_sale/overview/start.rst:134
-#: ../../point_of_sale/shop/cash_control.rst:68
+#: ../../point_of_sale/overview/getting_started.rst:70
+msgid "After the loading screen, you arrive on the PoS interface."
+msgstr "在加载屏幕之后，您将到达PoS界面。"
+
+#: ../../point_of_sale/overview/getting_started.rst:76
 msgid ""
-"Your ticket is printed and you are now ready to make your second order."
-msgstr "你的销售小票已打印，现在你可以做第二章销售单了"
+"Once an order is completed, you can register the payment. All the available "
+"payment methods appear on the left of the screen. Select the payment method "
+"and enter the received amount. Then, you can validate the payment."
+msgstr "订单完成后，您可以注册付款。 屏幕上左侧显示所有可用的付款方式。 选择付款方式，然后输入收到的金额。 接着，您可以验证付款。"
 
-#: ../../point_of_sale/overview/start.rst:137
-#: ../../point_of_sale/shop/cash_control.rst:71
-msgid "Closing a session"
-msgstr "关闭会话"
+#: ../../point_of_sale/overview/getting_started.rst:82
+msgid "Return and refund products"
+msgstr "退货和退款"
 
-#: ../../point_of_sale/overview/start.rst:139
+#: ../../point_of_sale/overview/getting_started.rst:84
 msgid ""
-"At the end of the day, to close the session, click on the **Close** button "
-"on the top right. Click again on the close button of the point of sale. On "
-"this page, you will see a summary of the transactions"
-msgstr "营业结束，关闭会话时，点击右上方的**关闭**按钮，再次点击ＰＯＳ的*关闭**按钮，在该界面你会看到销售交易总结"
+"Having a well-thought-out return policy is key to keep customers satisfied "
+"and make the process of accepting returns and refunds easy for you."
+msgstr "制定周全的退货政策是保持客户满意度并使您轻松接受退货和退款的关键。"
 
-#: ../../point_of_sale/overview/start.rst:146
+#: ../../point_of_sale/overview/getting_started.rst:87
 msgid ""
-"If you click on a payment method line, the journal of this method appears "
-"containing all the transactions performed."
-msgstr "当你点击付款方式行，该付款方式的账目包含所有交易"
+"To do that, from the PoS interface, select the product and quantity (with "
+"the +/- button) that the customer wants to return. For multiple products, "
+"repeat the process individually."
+msgstr "为此，请从PoS界面中选择客户要退货的产品和数量（使用+/-按钮）。 对于多种产品的退货，请分别重复该过程。"
 
-#: ../../point_of_sale/overview/start.rst:152
-msgid "Now, you only have to validate and close the session."
-msgstr "现在，你只需确认和关闭会话"
+#: ../../point_of_sale/overview/getting_started.rst:94
+msgid ""
+"When on the payment interface, the total is negative. To end the refund, "
+"process the payment and validate it."
+msgstr "在付款界面上，总计为负数。 要结束退款，请处理付款并进行验证。"
+
+#: ../../point_of_sale/overview/getting_started.rst:102
+msgid "Close the PoS session"
+msgstr "关闭PoS会话"
+
+#: ../../point_of_sale/overview/getting_started.rst:104
+msgid ""
+"To close your session at the end of the day, click on the close button on "
+"the upper right corner of your screen and confirm. Now, close the session on"
+" the dashboard view."
+msgstr "要在一天结束时关闭会话，请单击屏幕右上角的关闭按钮并进行确认。 现在，在仪表板视图上关闭会话。"
+
+#: ../../point_of_sale/overview/getting_started.rst:112
+msgid ""
+"It’s strongly advised to close your PoS session at the end of each day."
+msgstr "强烈建议在每天结束时关闭您的PoS会话。"
+
+#: ../../point_of_sale/overview/getting_started.rst:114
+msgid ""
+"Once a session is closed, you can see a summary of all transactions per "
+"payment method. Then, click on a line to see all orders that were paid "
+"during your PoS session. If everything is correct, validate the session and "
+"post the closing entries."
+msgstr ""
+"会话关闭后，您可以查看每种付款方式的所有交易摘要。 然后，单击一行以查看在PoS会话中支付的所有订单。 如果一切正确，请验证会话并发布结束条目。"
+
+#: ../../point_of_sale/overview/getting_started.rst:123
+msgid ""
+"To connect the PoS hardware with an Flectra IoT Box, please refer to these "
+"docs: :doc:`Connect an IoT Box to your database <../../iot/config/connect>` "
+"and :doc:`Use the IoT Box for the PoS <../../iot/config/pos>`."
+msgstr ""
+"要将PoS硬件与Flectra物联网盒子连接，请参考以下文档:doc:`将物联网盒子连接到数据库<../../iot/config/connect>` 和 "
+":doc:`在POS应用程式中使用物联网盒子 <../../iot/config/pos>`。"
+
+#: ../../point_of_sale/overview/getting_started.rst:129
+msgid "View your statistics"
+msgstr "查看你的统计数据"
+
+#: ../../point_of_sale/overview/getting_started.rst:131
+msgid ""
+"Keeping track of your sales is essential to get meaningful statistics. "
+"That’s why Flectra provides analyzes about your sales."
+msgstr "跟踪销售情况对于获取有意义的统计数据至关重要。 因此，Flectra会提供有关您的销售的分析。"
+
+#: ../../point_of_sale/overview/getting_started.rst:134
+msgid ""
+"To access your statistics, go to :menuselection:`Point of Sales --> "
+"Reporting --> Orders`. There, you can see various statistics in graph or "
+"pivot form."
+msgstr ""
+"访问统计信息，请转到 :menuselection:`POS -> 报告 --> 订单。 在这里，您可以以图表或数据透视表的形式查看各种统计信息。"
+
+#: ../../point_of_sale/overview/getting_started.rst:142
+msgid "You can also access them through the dashboard."
+msgstr "您也可以通过仪表板访问数据。"
+
+#: ../../point_of_sale/overview/register.rst:3
+msgid "Register customers"
+msgstr "注册客户"
+
+#: ../../point_of_sale/overview/register.rst:5
+msgid ""
+"Registering your customers will give you the ability to grant them various "
+"privileges such as discounts, loyalty program, specific communication. It "
+"will also be required if they want an invoice and registering them will make"
+" any future interaction with them faster."
+msgstr "注册客户有助于给予他们折扣、忠诚度计划、具体沟通等特权。如果他们想要发票，注册后也能让未来的互动更快捷。"
+
+#: ../../point_of_sale/overview/register.rst:11
+msgid "Create a customer"
+msgstr "创建客户"
+
+#: ../../point_of_sale/overview/register.rst:13
+msgid "From your session interface, use the customer button."
+msgstr "从会话界面，使用客户按钮。"
+
+#: ../../point_of_sale/overview/register.rst:18
+msgid "Create a new one by using this button."
+msgstr "通过这个按钮创建新客户。"
+
+#: ../../point_of_sale/overview/register.rst:23
+msgid ""
+"You will be invited to fill out the customer form with their information."
+msgstr "你需要填写客户信息表。"
+
+#: ../../point_of_sale/overview/register.rst:29
+msgid ""
+"Use the save button when you are done. You can then select that customer in "
+"any future transactions."
+msgstr "完成后，点击保存按钮。然后，你在未来的交易中就可以选择该客户了。"
+
+#: ../../point_of_sale/payment.rst:3
+msgid "Payment Terminals"
+msgstr "付款终端"
+
+#: ../../point_of_sale/payment/ingenico.rst:3
+msgid "Connect an Ingenico Payment Terminal to your PoS"
+msgstr "将Ingenico支付终端连接到你的PoS"
+
+#: ../../point_of_sale/payment/ingenico.rst:5
+msgid ""
+"Connecting a payment terminal allows you to offer a fluid payment flow to "
+"your customers and ease the work of your cashiers."
+msgstr "连接支付终端可为客户提供流畅的支付流程，并方便收银员的工作。"
+
+#: ../../point_of_sale/payment/ingenico.rst:8
+msgid ""
+"Please note that Ingenico is currently only available for customers in the "
+"Benelux."
+msgstr "请注意，Ingenico目前仅向比荷卢地区客户提供。"
+
+#: ../../point_of_sale/payment/ingenico.rst:15
+msgid "Connect an IoT Box"
+msgstr "连接一个物联网盒子"
+
+#: ../../point_of_sale/payment/ingenico.rst:17
+msgid ""
+"Connecting an Ingenico Payment Terminal to Flectra is a feature that requires "
+"an IoT Box. For more information on how to connect an IoT Box to your "
+"database, please refer to the :doc:`IoT documentation "
+"<../../iot/config/connect>`."
+msgstr ""
+"将Ingenico支付终端连接到Flectra需要IoT盒子。关于如何将IoT盒子接入数据库的更多信息，请参见:doc:`IoT documentation "
+"<../../iot/config/connect>`。"
+
+#: ../../point_of_sale/payment/ingenico.rst:22
+msgid "Configure the Lane/5000 for Ingenico BENELUX"
+msgstr "为比荷卢Ingenico配置Lane/5000"
+
+#: ../../point_of_sale/payment/ingenico.rst:24
+msgid ""
+"Click on the F button of the terminal, then go in the :menuselection:`PoS "
+"Menu --> Settings` and enter the settings password."
+msgstr "点击终端上的F按钮，然后前往 :menuselection:`PoS菜单 --> 设置`并输入设置密码。"
+
+#: ../../point_of_sale/payment/ingenico.rst:27
+msgid ""
+"Now, click on connexion change and TCP/IP. Type the IP of your *IoT Box* "
+"(you can find it on the form view of your IoT Box). Then, enter 9000 as "
+"port. The terminal will restart. Once it is done, go on your *IoT Box* form "
+"in Flectra and verify that the terminal has been found."
+msgstr ""
+"现在，点击连接更改和TCP/IP。 "
+"键入*物联网盒子*的IP（你可在物联网盒子的表单视图中找到它）。然后，输入9000作为端口。终端将重新启动。完成后，进入Flectra的*物联网盒子*表单，并验证是否已找到终端。"
+
+#: ../../point_of_sale/payment/ingenico.rst:36
+msgid "Configure the payment method"
+msgstr "配置支付方式"
+
+#: ../../point_of_sale/payment/ingenico.rst:38
+msgid ""
+"First, go in the general settings of the POS app, and activate the Ingenico "
+"setting."
+msgstr "首先，进入POS应用程序的一般设置，并启用Ingenico设置。"
+
+#: ../../point_of_sale/payment/ingenico.rst:44
+msgid ""
+"Go back in :menuselection:`Point of Sale --> Configuration --> Point of "
+"Sale`, go in the payments section and access your payment methods. Create a "
+"new payment method for Ingenico, select the payment terminal option "
+"Ingenico, and select your payment terminal device."
+msgstr ""
+"回到 :menuselection:`POS --> 配置 --> "
+"POS`，进入支付版块并查看你的支付方式。为Ingenico创建新支付方式，选择支付终端选项Ingenico，并选择你的支付终端设备。"
+
+#: ../../point_of_sale/payment/ingenico.rst:53
+msgid "Pay with a payment terminal"
+msgstr "用支付终端付款"
+
+#: ../../point_of_sale/payment/ingenico.rst:55
+msgid ""
+"In your *PoS interface*, when processing a payment, select a *Payment "
+"Method* using a payment terminal. Check that the amount in the tendered "
+"column is the one that has to be sent to the payment terminal and click on "
+"*Send*. When the payment is successful, the status will change to *Payment "
+"Successful*."
+msgstr ""
+"在*PoS界面*，当处理付款时，选择使用支付终端的*支付方式*。检查栏目中的金额是否为须发送到付款终端的金额并单击*发送*。当付款成功时，状态将更改为*付款成功*。"
+
+#: ../../point_of_sale/payment/ingenico.rst:64
+msgid ""
+"If you want to cancel the payment request, click on cancel. You can still "
+"retry to send the payment request."
+msgstr "如需取消付款请求，点击取消。你仍可重试发送付款请求。"
+
+#: ../../point_of_sale/payment/ingenico.rst:67
+msgid ""
+"If there is any issue with the payment terminal, you can still force the "
+"payment using the *Force Done*. This will allow you to validate the order in"
+" Flectra even if the connexion between the terminal and Flectra has issues."
+msgstr "如果支付终端有问题，你仍可通过*强制完成*强制付款。这样，即使终端和Flectra之间出问题， 你仍可Flectra确认订单。"
+
+#: ../../point_of_sale/payment/ingenico.rst:73
+msgid ""
+"This option will only be available if you received an error message telling "
+"you the connexion failed."
+msgstr "只有当你收到错误信息，提示连接失败时，本选项才可用。"
+
+#: ../../point_of_sale/payment/ingenico.rst:76
+msgid ""
+"Once your payment is processed, on the payment record, you’ll find the type "
+"of card that has been used and the transaction ID."
+msgstr "付款处理完毕后，在支付记录上可以看到使用的卡片类型和交易ID。"
+
+#: ../../point_of_sale/payment/six.rst:3
+msgid "Connect a SIX Payment Terminal to your PoS"
+msgstr "将SIX支付终端连接到您的PoS"
+
+#: ../../point_of_sale/payment/six.rst:5
+msgid ""
+"Connecting a SIX payment terminal allows you to offer a fluid payment flow "
+"to your customers and ease the work of your cashiers."
+msgstr "连接SIX付款终端可让您向客户提供流畅的付款流程，并简化收银员的工作。"
+
+#: ../../point_of_sale/payment/six.rst:9
+msgid ""
+"Even though Worldline has recently acquired SIX Payment Services and both "
+"companies use Yomani payment terminals, the firmware they run is different. "
+"Terminals received from Worldline are therefore not compatible with this "
+"integration."
+msgstr ""
+"尽管Worldline最近已经收购了SIX 付款服务，并且两家公司都使用Yomani付款终端，但是它们运行的固件是不同的。 "
+"因此，从Worldline收到的终端与此集成不兼容。"
+
+#: ../../point_of_sale/payment/six.rst:18
+#: ../../point_of_sale/payment/vantiv.rst:16
+msgid "Configure the Payment Method"
+msgstr "配置支付方式"
+
+#: ../../point_of_sale/payment/six.rst:20
+msgid ""
+"First, make sure that the POS Six module is installed. For this, go to "
+"*Apps*, remove the \"Apps\" filter and search for \"POS Six\"."
+msgstr "首先，确保已安装POS Six模块。 为此，转到 *应用程式* ，删除“应用程式”过滤器，然后搜索“ POS Six”。"
+
+#: ../../point_of_sale/payment/six.rst:26
+msgid ""
+"Back in :menuselection:`Point of Sale --> Configuration --> Payment "
+"Methods`, Create a new payment method for SIX, select the payment terminal "
+"option \"SIX without IoT Box\", and enter your payment terminal IP address."
+msgstr ""
+"返回 :menuselection:` POS --> 配置 --> "
+"付款方式`，为SIX创建新的付款方式，选择付款终端选项“没有物联网盒子的SIX”，然后输入您的付款终端IP地址。"
+
+#: ../../point_of_sale/payment/six.rst:34
+#: ../../point_of_sale/payment/vantiv.rst:40
+msgid "Pay with a Payment Terminal"
+msgstr "用支付终端付款"
+
+#: ../../point_of_sale/payment/six.rst:36
+msgid ""
+"In your PoS interface, at the moment of the payment, select a payment method"
+" using a payment terminal. Verify that the amount in the tendered column is "
+"the one that has to be sent to the payment terminal and click on *Send*. If "
+"you want to cancel the payment request, click on cancel."
+msgstr ""
+"在*PoS界面*，当处理付款时，选择使用支付终端的*支付方式*。检查栏目中的金额是否为须发送到付款终端的金额并单击*发送*。如你想要取消付款请求，点击取消。"
+
+#: ../../point_of_sale/payment/six.rst:44
+msgid ""
+"When the payment is done, the status will change to *Payment Successful*. "
+"You can always reverse the last transaction by clicking on *Reverse*."
+msgstr "支付完成后，状态将变为*付款成功*。你可随时点击*逆转*，逆转最近一项操作。"
+
+#: ../../point_of_sale/payment/six.rst:51
+msgid ""
+"If there is any issue with the payment terminal, you can still force the "
+"payment using the *Force Done*. This will allow you to validate the order in"
+" Flectra even if the connexion between the terminal and Flectra encounters issues."
+msgstr "如果支付终端有问题，你仍可通过*强制完成*强制付款。这样，即使终端和Flectra之间出问题， 你仍可在Flectra确认订单。"
+
+#: ../../point_of_sale/payment/vantiv.rst:3
+msgid "Connect a Vantiv Payment Terminal to your PoS"
+msgstr "将Vantiv支付终端接入你的PoS"
+
+#: ../../point_of_sale/payment/vantiv.rst:5
+msgid ""
+"Connecting a Vantiv payment terminal allows you to offer a fluid payment "
+"flow to your customers and ease the work of your cashiers."
+msgstr "连接Vantiv支付终端可为客户提供流畅的支付流程，并方便收银员的工作。"
+
+#: ../../point_of_sale/payment/vantiv.rst:9
+msgid ""
+"Please note MercuryPay only operates with US and Canadian banks, making this"
+" procedure only suitable for North American businesses."
+msgstr "请注意，MercuryPay仅适用于美国和加拿大银行，因此这一程序只适合北美公司。"
+
+#: ../../point_of_sale/payment/vantiv.rst:18
+msgid ""
+"First, go in the general settings of the POS app, and activate the Vantiv "
+"setting."
+msgstr "首先，进入POS应用程序的一般设置，并启用Vantiv设置。"
+
+#: ../../point_of_sale/payment/vantiv.rst:24
+msgid ""
+"Back in :menuselection:`Point of Sale --> Configuration --> Point of Sale`, "
+"go in the payments section and access your payment methods. Create a new "
+"payment method for Vantiv, select the payment terminal option Vantiv, and "
+"create new Vantiv credentials."
+msgstr ""
+"回到 :menuselection:`POS --> 配置 --> "
+"POS`，进入支付版块并查看你的支付方式。为Vantiv创建新支付方式，选择支付终端选项Vantiv，并创建新的Vantiv凭据。"
+
+#: ../../point_of_sale/payment/vantiv.rst:32
+msgid ""
+"To create new Vantiv credentials, fill in your merchant ID and password, "
+"then save. Make sure the credentials you just created are selected, then "
+"save the payment method."
+msgstr "要创建新的Vantiv凭据，请填入你的商户ID和密码，然后保存。确保选中你刚才创建的凭据，然后保存该支付方式。"
+
+#: ../../point_of_sale/payment/vantiv.rst:42
+msgid ""
+"In your PoS interface, at the moment of the payment, select your Vantiv "
+"payment method and… that’s all."
+msgstr "付款时，在你的PoS界面选择Vantiv支付方式并...完成。"
 
 #: ../../point_of_sale/restaurant.rst:3
-msgid "Advanced Restaurant Features"
-msgstr "高级的餐馆功能"
+msgid "Restaurant Features"
+msgstr "餐馆功能"
 
-#: ../../point_of_sale/restaurant/multi_orders.rst:3
-msgid "How to register multiple orders simultaneously?"
-msgstr "怎样新建多订单同步"
+#: ../../point_of_sale/restaurant/bill_printing.rst:3
+msgid "Print the Bill"
+msgstr "打印账单"
 
-#: ../../point_of_sale/restaurant/multi_orders.rst:6
-msgid "Register simultaneous orders"
-msgstr "新建同步订单"
-
-#: ../../point_of_sale/restaurant/multi_orders.rst:8
+#: ../../point_of_sale/restaurant/bill_printing.rst:5
 msgid ""
-"On the main screen, just tap on the **+** on the top of the screen to "
-"register another order. The current orders remain opened until the payment "
-"is done or the order is cancelled."
-msgstr "在主界面，只需在画面顶部点击**+**就可以新建另一个订单，当前订单仍然有效直到付款完成或被取消订单"
+"Use the *Bill Printing* feature to print the bill before the payment. This "
+"is useful if the bill is still subject to evolve and is thus not the "
+"definitive ticket."
+msgstr "使用*账单打印*功能，在付款前打印账单。这项功能适合账单还有可能出现变化，因此不是最终单据的情况。"
 
-#: ../../point_of_sale/restaurant/multi_orders.rst:16
-msgid "Switch from one order to another"
-msgstr "从一个订单切换到另外一个"
+#: ../../point_of_sale/restaurant/bill_printing.rst:10
+msgid "Configure Bill Printing"
+msgstr "配置账单打印"
 
-#: ../../point_of_sale/restaurant/multi_orders.rst:18
-msgid "Simply click on the number of the order."
-msgstr "简单的点击订单号"
-
-#: ../../point_of_sale/restaurant/multi_orders.rst:24
-msgid "Cancel an order"
-msgstr "取消订单"
-
-#: ../../point_of_sale/restaurant/multi_orders.rst:26
+#: ../../point_of_sale/restaurant/bill_printing.rst:12
 msgid ""
-"If you made a mistake or if the order is cancelled, just click on the **-** "
-"button. A message will appear to confirm the order deletion."
-msgstr "如果有误操作或订单取消，只需点击按钮**-** .　订单删除的确认信息会显示"
+"To activate *Bill Printing*, go to :menuselection:`Point of Sale --> "
+"Configuration --> Point of sale` and select your PoS interface."
+msgstr "要启用*账单打印*，前往 :menuselection:`POS --> 配置 --> POS`并选择你的PoS界面。"
 
-#: ../../point_of_sale/restaurant/multi_orders.rst:34
-#: ../../point_of_sale/shop/invoice.rst:115
-msgid ":doc:`../advanced/register`"
-msgstr ":doc:`../advanced/register` "
-
-#: ../../point_of_sale/restaurant/multi_orders.rst:35
-msgid ":doc:`../advanced/reprint`"
-msgstr ":doc:`../advanced/reprint` "
-
-#: ../../point_of_sale/restaurant/multi_orders.rst:36
-msgid ":doc:`transfer`"
-msgstr ":doc:`transfer` "
-
-#: ../../point_of_sale/restaurant/print.rst:3
-msgid "How to handle kitchen & bar order printing?"
-msgstr "如何处理厨房、吧台订单打印？"
-
-#: ../../point_of_sale/restaurant/print.rst:8
-#: ../../point_of_sale/restaurant/split.rst:10
-msgid "From the dashboard click on :menuselection:`More --> Settings`:"
-msgstr "从仪表板点击 :menuselection:`更多 --> 设置` "
-
-#: ../../point_of_sale/restaurant/print.rst:13
-msgid "Under the **Bar & Restaurant** section, tick **Bill Printing**."
-msgstr "在**酒吧 & 餐馆*页面，点击**发票打印**."
-
-#: ../../point_of_sale/restaurant/print.rst:18
-msgid "In order printers, click on **add an item** and then **Create**."
-msgstr "在订单打印机中，点击**增加项目** 并 **新增**."
-
-#: ../../point_of_sale/restaurant/print.rst:23
+#: ../../point_of_sale/restaurant/bill_printing.rst:15
 msgid ""
-"Set a printer **Name**, its **IP address** and the **Category** of product "
-"you want to print on this printer. The category of product is useful to "
-"print the order for the kitchen."
-msgstr "设置打印机名称，ＩＰ地址和希望在该打印机上打印的商品类别，对于厨房打印来说，商品类别很有用"
+"Under the Bills & Receipts category, you will find *Bill Printing* option."
+msgstr "在账单和收据类别下，你可找到*账单打印*选项。"
 
-#: ../../point_of_sale/restaurant/print.rst:30
-msgid "Several printers can be added this way"
-msgstr "多个打印机可以按照这种方式添加"
+#: ../../point_of_sale/restaurant/bill_printing.rst:22
+msgid "Split a Bill"
+msgstr "分拆账单"
 
-#: ../../point_of_sale/restaurant/print.rst:35
+#: ../../point_of_sale/restaurant/bill_printing.rst:24
+msgid "On your PoS interface, you now have a *Bill* button."
+msgstr "在PoS界面，你现在可看到*账单*按钮。"
+
+#: ../../point_of_sale/restaurant/bill_printing.rst:29
+msgid "When you use it, you can then print the bill."
+msgstr "点击该按钮，你可打印账单。"
+
+#: ../../point_of_sale/restaurant/fiscal_position.rst:3
+msgid "Using fiscal positions in PoS"
+msgstr "在PoS中使用财政状况"
+
+#: ../../point_of_sale/restaurant/fiscal_position.rst:5
 msgid ""
-"Now when you register an order, products will be automatically printed on "
-"the correct printer."
-msgstr "你新建订单后，商品会自动在正确的打印机上打印"
+"In Flectra, *Fiscal Positions* let you apply different taxes based on the "
+"customer location. In a *Point of Sale*, such as a restaurant, it can be "
+"used to apply different taxes depending if the customer eats in or takes "
+"away."
+msgstr ""
+"在Flectra中， *财政状况* 使您可以根据客户位置应用不同的税种。 在 *POS* （例如餐厅）中，可以根据客户是进食还是外卖而使用不同的税种。"
 
-#: ../../point_of_sale/restaurant/print.rst:39
-msgid "Print a bill before the payment"
-msgstr "付款前打印账单"
+#: ../../point_of_sale/restaurant/fiscal_position.rst:11
+msgid "Set up fiscal positions for PoS"
+msgstr "设置PoS的财务状况"
 
-#: ../../point_of_sale/restaurant/print.rst:41
-msgid "On the main screen, click on the **Bill** button."
-msgstr "在主界面，点击**发票** 按钮."
-
-#: ../../point_of_sale/restaurant/print.rst:46
-msgid "Finally click on **Print**."
-msgstr "最后点击**打印**."
-
-#: ../../point_of_sale/restaurant/print.rst:51
-msgid "Click on **Ok** once it is done."
-msgstr "完成后，点击**Ok**"
-
-#: ../../point_of_sale/restaurant/print.rst:54
-msgid "Print the order (kitchen printing)"
-msgstr "打印订单(厨房打印)"
-
-#: ../../point_of_sale/restaurant/print.rst:56
+#: ../../point_of_sale/restaurant/fiscal_position.rst:13
 msgid ""
-"This is different than printing the bill. It only prints the list of the "
-"items."
-msgstr "不同于打印销售单，它只打印商品清单"
+"To enable this feature, go to :menuselection:`Point of Sale --> "
+"Configuration --> Point of Sale` and check *Fiscal Position per Order*. Now,"
+" you can choose the fiscal positions you want for your *PoS*."
+msgstr ""
+"要启用此功能，请转到:menuselection:`销售点 --> 配置 --> 销售点，然后选中 *每个订单的财务状况* 。 现在，您可以为 "
+"*PoS* 选择所需的财务状况。"
 
-#: ../../point_of_sale/restaurant/print.rst:59
-msgid "Click on **Order**, it will automatically be printed."
-msgstr "点击**订单**, 它将自动打印"
+#: ../../point_of_sale/restaurant/fiscal_position.rst:21
+msgid "You need to create your fiscal positions before using this feature."
+msgstr "您需要先创建自己的财务状况，然后才能使用此功能。"
 
-#: ../../point_of_sale/restaurant/print.rst:65
+#: ../../point_of_sale/restaurant/fiscal_position.rst:24
+msgid "Using fiscal positions"
+msgstr "启用财政状况"
+
+#: ../../point_of_sale/restaurant/fiscal_position.rst:26
 msgid ""
-"The printer is automatically chosen according to the products categories set"
-" on it."
-msgstr "根据定义的商品类别自动选择打印机"
+"Once on your *PoS* interface, click on the *Tax* button. Now, choose the "
+"fiscal position you need for the current order."
+msgstr "进入 *PoS* 界面后，点击 *税收* 按钮。 现在，选择当前订单所需的财务状况。"
 
-#: ../../point_of_sale/restaurant/setup.rst:3
-msgid "How to setup Point of Sale Restaurant?"
-msgstr "如何设置PoS餐馆？"
+#: ../../point_of_sale/restaurant/fiscal_position.rst:33
+msgid "Set up a default fiscal position"
+msgstr "设置默认的财务状况"
 
-#: ../../point_of_sale/restaurant/setup.rst:5
+#: ../../point_of_sale/restaurant/fiscal_position.rst:35
 msgid ""
-"Go to the **Point of Sale** application, :menuselection:`Configuration --> "
-"Settings`"
-msgstr "转到 **POS** 应用, :menuselection:`配置 --> 设置`"
+"If you want to use a default fiscal position, meaning that a preexisting "
+"value is always automatically assigned, go to :menuselection:`Point of Sale "
+"--> Configuration --> Point of Sale` and enable *Fiscal Position*. Now, "
+"choose one to set as the default one."
+msgstr ""
+"如果要使用默认的财务状况，这意味着始终会自动分配一个预先存在的值，请转到:menuselection:`POS --> 配置 --> 销售点` 并启用 "
+"*财务状况* 。 现在，选择一个作为默认值。"
 
-#: ../../point_of_sale/restaurant/setup.rst:11
+#: ../../point_of_sale/restaurant/fiscal_position.rst:43
 msgid ""
-"Enable the option **Restaurant: activate table management** and click on "
-"**Apply**."
-msgstr "激活选项**餐饮: 激活餐桌管理** 再点击**应用**."
+"Now, the *tax* button is replaced by a *on site* button when on the *PoS* "
+"interface."
+msgstr "现在，在 *PoS* 界面上，现在， *税务* 按钮被 *现场* 按钮代替"
 
-#: ../../point_of_sale/restaurant/setup.rst:17
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:3
+msgid "Print orders at the kitchen or bar"
+msgstr "打印厨房或吧台的订单"
+
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:5
 msgid ""
-"Then go back to the **Dashboard**, on the point of sale you want to use in "
-"restaurant mode, click on :menuselection:`More --> Settings`."
-msgstr "然后回到 **仪表板**, 在你想要使用餐馆模式的POS, 点击 :menuselection:`更多 --> 设置`."
+"To ease the workflow between the front of house and the back of the house, "
+"printing the orders taken on the PoS interface right in the kitchen or bar "
+"can be a tremendous help."
+msgstr "为简化前台和后厨之间的工作流程，直接在厨房或吧台打印PoS界面的订单可带来极大的方便。"
 
-#: ../../point_of_sale/restaurant/setup.rst:23
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:10
+msgid "Activate the bar/kitchen printer"
+msgstr "启用吧台/厨房打印机"
+
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:12
 msgid ""
-"Under the **Restaurant Floors** section, click on **add an item** to insert "
-"a floor and to set your PoS in restaurant mode."
-msgstr "在餐饮层，点击**增加项目** 输入层号并设置ＰＯＳ餐饮模式"
+"To activate the *Order printing* feature, go to :menuselection:`Point of "
+"Sales --> Configuration --> Point of sale` and select your PoS interface."
+msgstr "如要启用*订单打印*功能，前往 :menuselection:`POS --> 配置 --> POS`并选择你的PoS界面。"
 
-#: ../../point_of_sale/restaurant/setup.rst:29
-msgid "Insert a floor name and assign the floor to your point of sale."
-msgstr "输入楼层名称，并分配楼层到ＰＯＳ"
-
-#: ../../point_of_sale/restaurant/setup.rst:34
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:16
 msgid ""
-"Click on **Save & Close** and then on **Save**. Congratulations, your point "
-"of sale is now in Restaurant mode. The first time you start a session, you "
-"will arrive on an empty map."
-msgstr "点击 **保存和关闭**，再点击**Save**.恭喜你，餐饮模式已配置，第一次开始会话时，你会看到空白的餐桌视图"
+"Under the IoT Box / Hardware Proxy category, you will find *Order Printers*."
+" Note that you need an IoT Box to connect your Printer to the PoS."
+msgstr "在物联网盒子/硬件代理类别下，你可找到*订单打印机*。请注意，你需要通过物联网盒子将打印机接入PoS。"
 
-#: ../../point_of_sale/restaurant/setup.rst:40
-msgid ":doc:`table`"
-msgstr ":doc:`table` "
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:20
+msgid "Add a printer"
+msgstr "添加打印机"
+
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:22
+msgid ""
+"In your configuration menu you will now have a *Order Printers* option where"
+" you can add the printer."
+msgstr "在配置菜单中，你现在可以看到*订单打印机*选项，可在此添加打印机。"
+
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:29
+msgid "Print a kitchen/bar order"
+msgstr "打印厨房/吧台订单"
+
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:34
+msgid "Select or create a printer."
+msgstr "选择或创建打印机。"
+
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:37
+msgid "Print the order in the kitchen/bar"
+msgstr "在厨房/吧台打印订单"
+
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:39
+msgid "On your PoS interface, you now have a *Order* button."
+msgstr "现在，你的PoS界面上会出现*订单*按钮。"
+
+#: ../../point_of_sale/restaurant/kitchen_printing.rst:44
+msgid ""
+"When you press it, it will print the order on your kitchen/bar printer."
+msgstr "点击该按钮，它将打印厨房/吧台打印机上的订单。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:3
+msgid "Manage your tables"
+msgstr "管理表格"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:5
+msgid ""
+"Restaurants have specific needs that shops don’t have. That’s why Flectra gives"
+" restaurant owners several unique features to help them manage their "
+"business in the best possible way."
+msgstr "餐馆有特定需求而则商店没有。 这就是Flectra为餐厅店主提供几个独特功能的原因，以帮助他们以最佳方式管理其业务。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:9
+msgid ""
+"Floor and table management, bill splitting, or even the possibility to print"
+" orders from the kitchen, everything is there to help your business shine "
+"and your employees to work efficiently."
+msgstr "楼层和桌子的管理，账单拆分，甚至可以从厨房打印订单，所有这些都可以帮助您的企业蒸蒸日上，并使员工高效地工作。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:16
+msgid ""
+"To activate the bar/restaurant features, go to :menuselection:`Point of Sale"
+" --> Configuration --> Point of Sale` and open your PoS. Now, select *Is a "
+"Bar/Restaurant*."
+msgstr ""
+"要激活酒吧/餐厅功能，请进入 :menuselection:`POS --> 配置 --> 销售点并打开您的PoS。 现在，选择 *酒吧/餐厅* 。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:24
+msgid ""
+"New features are shown with a fork and a knife next to it, indicating that "
+"they are restaurant-specific."
+msgstr "显示的新功能旁边有刀叉图标，表明它们是特定的餐厅。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:32
+msgid "Add a floor"
+msgstr "添加楼层"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:34
+msgid ""
+"Once your *Point of Sale* has been configured, select *Table Management* "
+"under :menuselection:`Point of Sale --> Configuration --> Point of Sale`. "
+"Then, click on *Floors* to create and name your floor and tables."
+msgstr ""
+"一旦配置了 *POS* ，请在:menuselection:`销售点  --> 配置 --> 销点` 下选择 *桌子管理* 。 然后，单击 *楼面* "
+"以创建并命名您的楼面和桌子。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:47
+msgid "Don’t forget to link your floor to your point of sale."
+msgstr "不要忘记将楼面连接到POS。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:50
+msgid "Add tables"
+msgstr "添加餐台"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:52
+msgid ""
+"To add tables, you can also open your PoS interface to see your floor(s)."
+msgstr "要添加表格，您还可以打开PoS界面查看楼层。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:59
+msgid ""
+"Then, click on *Edit Mode* (pencil icon on the upper right corner) to be "
+"allowed to create, move, modify tables, etc."
+msgstr "然后，单击 *编辑模式*（右上角的铅笔图标）以允许创建，移动，修改表格等。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:67
+msgid ""
+"To make your table easier to be found, you can rename them, change their "
+"shape, size or even color. It is also possible to add the maximum number of "
+"sits the table can have."
+msgstr "为了使桌子更易于查找，您可以对其进行重命名，更改其形状，大小甚至颜色。 也可以增加桌子可以容纳的最大座位数。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:72
+msgid "Register your table(s) orders"
+msgstr "登记餐台订单"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:74
+msgid ""
+"To register an order, click on the respective table. By doing so, you are "
+"taken to your main interface."
+msgstr "要登记订单，请单击相应的桌子。 这样，您将进入主界面。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:82
+msgid "Transfer customer(s)"
+msgstr "调换顾客"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:84
+msgid ""
+"If your customers want to move to another table after they already ordered, "
+"use the transfer button. This way, the order is also moved to the new table."
+msgstr "如果您的客户在登记订单后想移到另一张桌子，请使用转移按钮。 这样，订单也将移至新桌子。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:88
+msgid "To do so, select the table your customer is currently on."
+msgstr "为此，请选择客户当前所在的桌子。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:94
+msgid ""
+"Now, click on the transfer button and select the table to which you are "
+"transferring your customer."
+msgstr "现在，单击转移按钮，然后选择要将客户转移到的桌子。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:103
+msgid "Register an additional order"
+msgstr "登记额外的订单"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:105
+msgid ""
+"When registering an order, use the + button to simultaneously proceed to "
+"another one."
+msgstr "登记订单时，请使用+按钮 同时亦可管理进行中的其他订单。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:108
+msgid ""
+"Then, you can shift between your orders and process the payment when needed."
+msgstr "然后，您可以在订单之间切换并在需要时处理付款。"
+
+#: ../../point_of_sale/restaurant/restaurant.rst:116
+msgid "The - button allows you to remove the order you are currently on."
+msgstr "\"-\" 按钮可让您删除当前的订单。"
 
 #: ../../point_of_sale/restaurant/split.rst:3
-msgid "How to handle split bills?"
-msgstr "如何处理分拆账单？"
+msgid "Offer a bill-splitting option"
+msgstr "提供拆分账单选项"
 
-#: ../../point_of_sale/restaurant/split.rst:8
+#: ../../point_of_sale/restaurant/split.rst:5
 msgid ""
-"Split bills only work for point of sales that are in **restaurant** mode."
-msgstr "订单付款拆分功能只有在ＰＯＳ的餐饮模式中才能使用"
+"Offering an easy bill splitting solution to your customers will leave them "
+"with a positive experience. That's why this feature is available out-of-the-"
+"box in the Flectra Point of Sale application."
+msgstr "为客户提供简单的账单拆分解决方案可带来积极的体验。因此，Flectra POS应用程序提供开箱即用的这项功能。"
 
-#: ../../point_of_sale/restaurant/split.rst:15
-msgid "In the settings tick the option **Bill Splitting**."
-msgstr "在设置中点击选择**订单付款拆分**"
+#: ../../point_of_sale/restaurant/split.rst:12
+msgid ""
+"To activate the *Bill Splitting* feature, go to :menuselection:`Point of "
+"Sales --> Configuration --> Point of sale` and select your PoS interface."
+msgstr "如要启用*账单拆分*功能，前往 :menuselection:`POS --> 配置 --> POS`并选择你的PoS界面。"
+
+#: ../../point_of_sale/restaurant/split.rst:16
+msgid ""
+"Under the Bills & Receipts category, you will find the Bill Splitting "
+"option."
+msgstr "在账单和收据类别下，你可找到账单拆分选项。"
 
 #: ../../point_of_sale/restaurant/split.rst:23
-#: ../../point_of_sale/restaurant/transfer.rst:8
-msgid "From the dashboard, click on **New Session**."
-msgstr "在面板中，点击**新的会话**."
+msgid "Split a bill"
+msgstr "拆分账单"
 
-#: ../../point_of_sale/restaurant/split.rst:28
-msgid "Choose a table and start registering an order."
-msgstr "选择桌子开始新建订单"
+#: ../../point_of_sale/restaurant/split.rst:25
+msgid "In your PoS interface, you now have a *Split* button."
+msgstr "现在，你的PoS界面会出现*拆分*按钮。"
 
-#: ../../point_of_sale/restaurant/split.rst:33
+#: ../../point_of_sale/restaurant/split.rst:30
 msgid ""
-"When customers want to pay and split the bill, there are two ways to achieve"
-" this:"
-msgstr "当顾客想拆分各自付款时，有两种方式可以实现"
-
-#: ../../point_of_sale/restaurant/split.rst:36
-msgid "based on the total"
-msgstr "按照总金额"
-
-#: ../../point_of_sale/restaurant/split.rst:38
-msgid "based on products"
-msgstr "按照商品"
-
-#: ../../point_of_sale/restaurant/split.rst:44
-msgid "Splitting based on the total"
-msgstr "按总金额拆分付款"
-
-#: ../../point_of_sale/restaurant/split.rst:46
-msgid ""
-"Just click on **Payment**. You only have to insert the money tendered by "
-"each customer."
-msgstr "点击**付款**. 只需要按照顾客输入各自的金额"
-
-#: ../../point_of_sale/restaurant/split.rst:49
-msgid ""
-"Click on the payment method (cash, credit card,...) and enter the amount. "
-"Repeat it for each customer."
-msgstr "点击付款方式(现金, 信用卡,...) 并输入金额，为其他顾客重复以上操作"
-
-#: ../../point_of_sale/restaurant/split.rst:55
-msgid ""
-"When it's done, click on validate. This is how to split the bill based on "
-"the total amount."
-msgstr "完成后，点击确认，这时按照订单总金额拆分付款"
-
-#: ../../point_of_sale/restaurant/split.rst:59
-msgid "Split the bill based on products"
-msgstr "按商品进行拆分付款"
-
-#: ../../point_of_sale/restaurant/split.rst:61
-msgid "On the main view, click on **Split**"
-msgstr "在主视图中，点击**拆分付款**"
-
-#: ../../point_of_sale/restaurant/split.rst:66
-msgid ""
-"Select the products the first customer wants to pay and click on **Payment**"
-msgstr "选择第一位顾客要付款的商品，点击 **付款**"
-
-#: ../../point_of_sale/restaurant/split.rst:71
-msgid "You get the total, process the payment and click on **Validate**"
-msgstr "你将看到总计，选择付款方式并点击**确认**"
-
-#: ../../point_of_sale/restaurant/split.rst:76
-msgid "Follow the same procedure for the next customer of the same table."
-msgstr "用同样的步骤操作该餐桌上的其他顾客"
-
-#: ../../point_of_sale/restaurant/split.rst:78
-msgid "When all the products have been paid you go back to the table map."
-msgstr "当所有商品已经付款，你可以返回到桌面视图"
-
-#: ../../point_of_sale/restaurant/table.rst:3
-msgid "How to configure your table map?"
-msgstr "如何配置桌台地图？"
-
-#: ../../point_of_sale/restaurant/table.rst:6
-msgid "Make your table map"
-msgstr "制作桌台地图"
-
-#: ../../point_of_sale/restaurant/table.rst:8
-msgid ""
-"Once your point of sale has been configured for restaurant usage, click on "
-"**New Session**:"
-msgstr "一旦ＰＯＳ配置了餐饮模式，点击**新的会话**:"
-
-#: ../../point_of_sale/restaurant/table.rst:14
-msgid ""
-"This is your main floor, it is empty for now. Click on the **+** icon to add"
-" a table."
-msgstr "这是主层，现在是空的，点击**+**图标增加桌子"
-
-#: ../../point_of_sale/restaurant/table.rst:20
-msgid ""
-"Drag and drop the table to change its position. Once you click on it, you "
-"can edit it."
-msgstr "拖拉桌子改变位置，一旦点击这里，你可以编辑。"
-
-#: ../../point_of_sale/restaurant/table.rst:23
-msgid "Click on the corners to change the size."
-msgstr "点击边上的区域改变尺寸"
-
-#: ../../point_of_sale/restaurant/table.rst:28
-msgid "The number of seats can be set by clicking on this icon:"
-msgstr "座位数可以通过点击该图标进行设置"
-
-#: ../../point_of_sale/restaurant/table.rst:33
-msgid "The table name can be edited by clicking on this icon:"
-msgstr "桌名可以通过点击该图标编辑"
-
-#: ../../point_of_sale/restaurant/table.rst:38
-msgid "You can switch from round to square table by clicking on this icon:"
-msgstr "你可以通过该图标将圆桌改成方桌"
-
-#: ../../point_of_sale/restaurant/table.rst:43
-msgid "The color of the table can modify by clicking on this icon :"
-msgstr "桌子的颜色可以通过该图标修改"
-
-#: ../../point_of_sale/restaurant/table.rst:48
-msgid "This icon allows you to duplicate the table:"
-msgstr "该图标允许你复制桌子"
-
-#: ../../point_of_sale/restaurant/table.rst:53
-msgid "To drop a table click on this icon:"
-msgstr "点击该图标放弃桌号"
-
-#: ../../point_of_sale/restaurant/table.rst:58
-msgid ""
-"Once your plan is done click on the pencil to leave the edit mode. The plan "
-"is automatically saved."
-msgstr "一旦计划完成，点击铅笔图标离开编辑模式，该计划将自动保存。"
-
-#: ../../point_of_sale/restaurant/table.rst:65
-msgid "Register your orders"
-msgstr "新建订单"
-
-#: ../../point_of_sale/restaurant/table.rst:67
-msgid ""
-"Now you are ready to make your first order. You just have to click on a "
-"table to start registering an order."
-msgstr "现在你可以做第一笔单，只需要点击桌号新建订单。"
-
-#: ../../point_of_sale/restaurant/table.rst:70
-msgid ""
-"You can come back at any time to the map by clicking on the floor name :"
-msgstr "在任何时候，你可以通过点击楼层名称返回到桌图"
-
-#: ../../point_of_sale/restaurant/table.rst:76
-msgid "Edit a table map"
-msgstr "编辑桌图"
-
-#: ../../point_of_sale/restaurant/table.rst:78
-msgid "On your map, click on the pencil icon to go in edit mode :"
-msgstr "在视图中，点击铅笔图标进入编辑模式"
+"When you use it, you will be able to select what that guest should had and "
+"process the payment, repeating the process for each guest."
+msgstr "使用此按钮，你可选择每位顾客的餐品并处理付款，为每位顾客重复这一流程。"
 
 #: ../../point_of_sale/restaurant/tips.rst:3
-msgid "How to handle tips?"
-msgstr "如何处理提示？"
+msgid "Integrate a tip option into payment"
+msgstr "将小费选项纳入付款"
 
-#: ../../point_of_sale/restaurant/tips.rst:8
-#: ../../point_of_sale/shop/seasonal_discount.rst:63
-msgid "From the dashboard, click on :menuselection:`More --> Settings`."
-msgstr "从仪表板点击 :menuselection:`更多 --> 设置` "
-
-#: ../../point_of_sale/restaurant/tips.rst:13
-msgid "Add a product for the tip."
-msgstr "增加一个小费专用商品"
-
-#: ../../point_of_sale/restaurant/tips.rst:18
+#: ../../point_of_sale/restaurant/tips.rst:5
 msgid ""
-"In the tip product page, be sure to set a sale price of ``0€`` and to remove"
-" all the taxes in the accounting tab."
-msgstr "在小费商品页面，确保售价设为``0€`，并且从财务页面移除所有的财务相关信息"
+"As it is customary to tip in many countries all over the world, it is "
+"important to have the option in your PoS interface."
+msgstr "由于许多国家都有付小费的习惯，PoS界面必须有这个选项。"
 
-#: ../../point_of_sale/restaurant/tips.rst:25
-msgid "Adding a tip"
-msgstr "新增小费"
+#: ../../point_of_sale/restaurant/tips.rst:9
+msgid "Configure Tipping"
+msgstr "配置小费"
 
-#: ../../point_of_sale/restaurant/tips.rst:27
-msgid "On the payment page, tap on **Tip**"
-msgstr "在付款方式页面，输入**小费**"
-
-#: ../../point_of_sale/restaurant/tips.rst:32
-msgid "Tap down the amount of the tip:"
-msgstr "输入小费总额"
-
-#: ../../point_of_sale/restaurant/tips.rst:37
+#: ../../point_of_sale/restaurant/tips.rst:11
 msgid ""
-"The total amount has been updated and you can now register the payment."
-msgstr "总金额已经更新，现在可以选择付款方式"
+"To activate the *Tips* feature, go to :menuselection:`Point of Sale --> "
+"Configuration --> Point of sale` and select your PoS."
+msgstr "如要启用*小费*功能，前往 :menuselection:`POS --> 配置 --> POS`并选择你的PoS。"
 
-#: ../../point_of_sale/restaurant/transfer.rst:3
-msgid "How to transfer a customer from table?"
-msgstr "怎样从桌号上转移一个顾客"
-
-#: ../../point_of_sale/restaurant/transfer.rst:5
+#: ../../point_of_sale/restaurant/tips.rst:14
 msgid ""
-"This only work for Point of Sales that are configured in restaurant mode."
-msgstr "该功能只有配置了餐饮模式的ＰＯＳ才可以使用"
+"Under the Bills & Receipts category, you will find *Tips*. Select it and "
+"create a *Tip Product* such as *Tips* in this case."
+msgstr "在账单和收据类别下，你可看到*小费*选项。选择并创建*小费产品*。"
 
-#: ../../point_of_sale/restaurant/transfer.rst:13
-msgid ""
-"Choose a table, for example table ``T1`` and start registering an order."
-msgstr "选择一个桌号，比如``T1``，然后新建订单"
+#: ../../point_of_sale/restaurant/tips.rst:21
+msgid "Add Tips to the bill"
+msgstr "将小费加入账单"
 
-#: ../../point_of_sale/restaurant/transfer.rst:18
-msgid ""
-"Register an order. For some reason, customers want to move to table ``T9``. "
-"Click on **Transfer**."
-msgstr "新建订单，因某些原因，顾客想转移到桌``T9``. 点击**转移**."
+#: ../../point_of_sale/restaurant/tips.rst:23
+msgid "Once on the payment interface, you now have a new *Tip* button"
+msgstr "现在，在支付界面可以看到新的*小费*按钮。"
 
-#: ../../point_of_sale/restaurant/transfer.rst:24
-msgid "Select to which table you want to transfer customers."
-msgstr "选择你要转移顾客的桌号"
-
-#: ../../point_of_sale/restaurant/transfer.rst:29
-msgid "You see that the order has been added to the table ``T9``"
-msgstr "你能看到订单已经加到了桌``T9``"
+#: ../../point_of_sale/restaurant/tips.rst:28
+msgid "Add the tip your customer wants to leave and process to the payment."
+msgstr "添加顾客想要支付的小费并继续付款。"
 
 #: ../../point_of_sale/shop.rst:3
-msgid "Advanced Shop Features"
-msgstr "高级门店属性"
+msgid "Shop Features"
+msgstr "购物功能"
+
+#: ../../point_of_sale/shop/barcode.rst:3
+msgid "Using barcodes in PoS"
+msgstr "POS终端上使用条形码"
+
+#: ../../point_of_sale/shop/barcode.rst:5
+msgid ""
+"Using a barcode scanner to process point of sale orders improves your "
+"efficiency and helps you to save time for you and your customers."
+msgstr "使用条码扫描器处理POS订单可以提高效率，并为你和客户节省时间。"
+
+#: ../../point_of_sale/shop/barcode.rst:11
+msgid ""
+"To use a barcode scanner, go to :menuselection:`Point of Sale --> "
+"Configuration --> Point of sale` and select your PoS interface."
+msgstr "如要使用条码扫描器，前往 :menuselection:`POS --> 配置 --> POS`并选择你的POS接口。"
+
+#: ../../point_of_sale/shop/barcode.rst:14
+msgid ""
+"Under the IoT Box / Hardware category, you will find *Barcode Scanner* "
+"select it."
+msgstr "在物联网盒子/硬件类别下，你可找到*条码扫描器*并选择它。"
+
+#: ../../point_of_sale/shop/barcode.rst:21
+msgid "Add barcodes to product"
+msgstr "将条形码增加到产品上"
+
+#: ../../point_of_sale/shop/barcode.rst:23
+msgid ""
+"Go to :menuselection:`Point of Sale --> Catalog --> Products` and select a "
+"product."
+msgstr "前往 :menuselection:`POS --> 目录 --> 产品`并选择一个产品。"
+
+#: ../../point_of_sale/shop/barcode.rst:26
+msgid ""
+"Under the general information tab, you can find a barcode field where you "
+"can input any barcode."
+msgstr "在一般信息选项卡下，你可找到条码字段，你可在此输入任何条码。"
+
+#: ../../point_of_sale/shop/barcode.rst:33
+msgid "Scanning products"
+msgstr "扫描产品"
+
+#: ../../point_of_sale/shop/barcode.rst:35
+msgid ""
+"From your PoS interface, scan any barcode with your barcode scanner. The "
+"product will be added, you can scan the same product to add it multiple "
+"times or change the quantity manually on the screen."
+msgstr "从你的PoS接口，用条码扫描器扫描任何条码。产品将被添加，你可以多次扫描同一件产品，将它添加多次，也可在屏幕上手动更改数量。"
 
 #: ../../point_of_sale/shop/cash_control.rst:3
-msgid "How to set up cash control?"
-msgstr "如何建立现金管理？"
+msgid "Set-up Cash Control in Point of Sale"
+msgstr "设置POS的现金控制"
 
 #: ../../point_of_sale/shop/cash_control.rst:5
 msgid ""
-"Cash control permits you to check the amount of the cashbox at the opening "
-"and closing."
-msgstr "现金控制允许你在开台和关台时对清点钱箱金额"
+"Cash control allows you to check the amount of the cashbox at the opening "
+"and closing. You can thus make sure no error has been made and that no cash "
+"is missing."
+msgstr "现金控制可在开台和关台时清点钱箱金额。以确保金额无误，无现金遗失。"
 
-#: ../../point_of_sale/shop/cash_control.rst:9
-msgid "Configuring cash control"
-msgstr "配置现金控制"
+#: ../../point_of_sale/shop/cash_control.rst:10
+msgid "Activate Cash Control"
+msgstr "启用现金管理"
 
-#: ../../point_of_sale/shop/cash_control.rst:11
+#: ../../point_of_sale/shop/cash_control.rst:12
 msgid ""
-"On the **Point of Sale** dashboard, click on :menuselection:`More --> "
-"Settings`."
-msgstr "在 **POS**  仪表板, 点击 :`更多 --> 设置` 。"
+"To activate the *Cash Control* feature, go to :menuselection:`Point of Sales"
+" --> Configuration --> Point of sale` and select your PoS interface."
+msgstr "如要启用*现金管理*功能，前往 :menuselection:`POS --> 配置 --> POS`并选择你的PoS界面。"
 
-#: ../../point_of_sale/shop/cash_control.rst:17
-msgid "On this page, scroll and tick the the option **Cash Control**."
-msgstr "在该页面，滑动并点击选项**现金控制**."
+#: ../../point_of_sale/shop/cash_control.rst:16
+msgid "Under the payments category, you will find the cash control setting."
+msgstr "在支付类别下，你可找到现金控制选项。"
 
-#: ../../point_of_sale/shop/cash_control.rst:23
-msgid "Starting a session"
+#: ../../point_of_sale/shop/cash_control.rst:21
+msgid ""
+"In this example, you can see I want to have 275$ in various denomination at "
+"the opening and closing."
+msgstr "在本例中，你可以看到我想在开台和关台时有275美元各种面额的现金。"
+
+#: ../../point_of_sale/shop/cash_control.rst:24
+msgid ""
+"When clicking on **Opening/Closing Values** you will be able to create those"
+" values."
+msgstr "点击**开台/关台金额**，你可创建这些金额。"
+
+#: ../../point_of_sale/shop/cash_control.rst:31
+msgid "Start a session"
 msgstr "开始会话"
 
-#: ../../point_of_sale/shop/cash_control.rst:25
-msgid "On your point of sale dashboard click on **new session**:"
-msgstr "在ＰＯＳ面板点击 **新的会话**:"
-
-#: ../../point_of_sale/shop/cash_control.rst:30
+#: ../../point_of_sale/shop/cash_control.rst:33
 msgid ""
-"Before launching the point of sale interface, you get the open control view."
-" Click on set an opening balance to introduce the amount in the cashbox."
-msgstr "在启用ＰＯＳ前，打开开台控制视图，点击设置钱箱的开台金额"
+"You now have a new button added when you open a session, *Set opening "
+"Balance*"
+msgstr "打开一个会话，你可看到新添加按钮*设置开台余额*。"
 
-#: ../../point_of_sale/shop/cash_control.rst:37
+#: ../../point_of_sale/shop/cash_control.rst:42
 msgid ""
-"Here you can insert the value of the coin or bill, and the amount present in"
-" the cashbox. The system sums up the total, in this example we have "
-"``86,85€`` in the cashbox. Click on **confirm**."
-msgstr "这里你可以放入零钱和纸币，总计会显示在钱箱中，在本列中我们有86,85€，点击**确认**"
+"By default it will use the values you added before, but you can always "
+"modify it."
+msgstr "它默认为你之前添加的值，但你可修改它。"
 
-#: ../../point_of_sale/shop/cash_control.rst:44
+#: ../../point_of_sale/shop/cash_control.rst:46
+msgid "Close a session"
+msgstr "关闭会话"
+
+#: ../../point_of_sale/shop/cash_control.rst:48
 msgid ""
-"You can see that the opening balance has changed and when you click on "
-"**Open Session** you will get the main point of sale interface."
-msgstr "你可以看到开台余额已经改变，当你点击**打开会话**，就进入ＰＯＳ主界面。"
+"When you want to close your session, you now have a *Set Closing Balance* "
+"button as well."
+msgstr "如要关闭会话，你可使用*设置关台余额*按钮。"
 
-#: ../../point_of_sale/shop/cash_control.rst:61
+#: ../../point_of_sale/shop/cash_control.rst:51
 msgid ""
-"Once the order is completed, click on **Payment**. You can choose the "
-"customer payment method. In this example, the customer owes you ``10.84€`` "
-"and pays with a ``20€`` note. When it's done, click on **Validate**."
-msgstr "一旦销售单完成，点击**付款**，可以选择客户付款方式，在本例中，客户用20€支付所需款项10.84€，　完成后，点击**确认**."
+"You can then see the theoretical balance, the real closing balance (what you"
+" have just counted) and the difference between the two."
+msgstr "然后，你可看到理论余额、实际关台余额（你刚计数的结果）和二者之间的差异。"
 
-#: ../../point_of_sale/shop/cash_control.rst:73
+#: ../../point_of_sale/shop/cash_control.rst:57
 msgid ""
-"At the time of closing the session, click on the **Close** button on the top"
-" right. Click again on the **Close** button to exit the point of sale "
-"interface. On this page, you will see a summary of the transactions. At this"
-" moment you can take the money out."
-msgstr ""
-"需要关闭会话时，点击右上方的**关闭**按钮，再次点击*关闭**按钮退出ＰＯＳ界面，在该界面你可以看到销售总结，此时你可以拿出今天的销售交易。"
+"If you use the *Take Money Out* option to take out your transactions for "
+"this session, you now have a zero-sum difference and the same closing "
+"balance as your opening balance. You cashbox is ready for the next session."
+msgstr "如果使用*取出现金*选项，取走此次会话的交易额，则总差额为零，关台余额与开台余额相同。你的钱箱可用于下一次会话。"
 
-#: ../../point_of_sale/shop/cash_control.rst:81
+#: ../../point_of_sale/shop/cash_rounding.rst:3
+msgid "Cash Rounding"
+msgstr "现金舍入"
+
+#: ../../point_of_sale/shop/cash_rounding.rst:4
 msgid ""
-"For instance you want to take your daily transactions out of your cashbox."
-msgstr "比如你想从钱箱中取出每日交易"
+"**Cash rounding** is required when the lowest physical denomination of "
+"currency, or the smallest coin, is higher than the minimum unit of account."
+msgstr "当货币或硬币的最低实物面值高于最小的记账单位时，需要进行**现金舍入**。"
 
-#: ../../point_of_sale/shop/cash_control.rst:87
+#: ../../point_of_sale/shop/cash_rounding.rst:8
 msgid ""
-"Now you can see that the theoretical closing balance has been updated and it"
-" only remains you to count your cashbox to set a closing balance."
-msgstr "现在你可以看到理论的关账余额已经更新，你只需要清点钱箱然后设置关账余额。"
+"For example, some countries require their companies to round up or down the "
+"total amount of an invoice to the nearest five cents, when the payment is "
+"made in cash."
+msgstr "例如，某些国家要求公司在以现金支付时，将发票总额四舍五入到最接近的五美分。"
 
-#: ../../point_of_sale/shop/cash_control.rst:93
-msgid "You can now validate the closing."
-msgstr "你可以确认关闭"
+#: ../../point_of_sale/shop/cash_rounding.rst:12
+msgid ""
+"Each point of sale in Flectra can be configured to apply cash rounding to the "
+"totals of its bills or receipts."
+msgstr "在Flectra的每个POS都可以配置为将现金舍入到其账单或收据的总数。"
 
-#: ../../point_of_sale/shop/cash_control.rst:96
-#: ../../point_of_sale/shop/refund.rst:20
-#: ../../point_of_sale/shop/seasonal_discount.rst:92
-msgid ":doc:`invoice`"
-msgstr ":doc:`invoice` "
+#: ../../point_of_sale/shop/cash_rounding.rst:16
+msgid ""
+"This feature will soon be added to Flectra. We are currently working to make it"
+" available for all supported versions as soon as possible."
+msgstr "这项功能将很快添加到Flectra中。我们目前正努力使所有支持的版本尽快可用。"
 
-#: ../../point_of_sale/shop/cash_control.rst:97
-#: ../../point_of_sale/shop/invoice.rst:116
-#: ../../point_of_sale/shop/seasonal_discount.rst:93
-msgid ":doc:`refund`"
-msgstr ":doc:`refund` "
+#: ../../point_of_sale/shop/cash_rounding.rst:21
+msgid ""
+"Go to :menuselection:`Point of Sale --> Configuration --> Settings` and "
+"enable *Cash Rounding*, then click on *Save*."
+msgstr "前往 :menuselection:`POS --> 配置 --> 设置`并启用*现金舍入*，然后点击*保存*。"
 
-#: ../../point_of_sale/shop/cash_control.rst:98
-#: ../../point_of_sale/shop/invoice.rst:117
-#: ../../point_of_sale/shop/refund.rst:21
-msgid ":doc:`seasonal_discount`"
-msgstr ":doc:`seasonal_discount` "
+#: ../../point_of_sale/shop/cash_rounding.rst:27
+msgid ""
+"Go to :menuselection:`Point of Sale --> Configuration --> Point of Sale`, "
+"open the point of sale you want to configure, and enable the *Cash Rounding*"
+" option."
+msgstr "前往 :menuselection:`POS --> 配置 --> POS`，打开你想要配置的POS，并启用*现金舍入*选项。"
+
+#: ../../point_of_sale/shop/cash_rounding.rst:31
+msgid ""
+"To define the **Rounding Method**, open the drop-down list and click on "
+"*Create and Edit...*."
+msgstr "如要定义**舍入方法**，打开下拉列表并点击*创建并编辑...*。"
+
+#: ../../point_of_sale/shop/cash_rounding.rst:34
+msgid ""
+"Define here your *Rounding Precision*, *Profit Account*, and *Loss Account*,"
+" then save both the Rounding Method and your Point of Sale settings."
+msgstr "在这里定义你的*舍入精度*、*利润科目*和*损失科目*，然后保存舍入方法和你的POS设置。"
+
+#: ../../point_of_sale/shop/cash_rounding.rst:41
+msgid ""
+"All total amounts of this point of sale now add a line to apply the rounding"
+" according to your settings."
+msgstr "这个POS的所有总金额现在都会增加一行，根据你的设置应用现金舍入。"
+
+#: ../../point_of_sale/shop/cash_rounding.rst:48
+msgid ""
+"Flectra Point of Sale only support the *Add a rounding line* rounding "
+"strategies and *Half-up* rounding methods."
+msgstr "Flectra POS只支持*添加舍入明细*舍入策略和*一半*舍入方法。"
 
 #: ../../point_of_sale/shop/invoice.rst:3
-msgid "How to invoice from the POS interface?"
-msgstr "如何从POS界面开票？"
+msgid "Invoice from the PoS interface"
+msgstr "从PoS界面开具发票"
 
-#: ../../point_of_sale/shop/invoice.rst:8
+#: ../../point_of_sale/shop/invoice.rst:5
 msgid ""
-"On the **Dashboard**, you can see your points of sales, click on **New "
-"session**:"
-msgstr "在**仪表盘**，你可以看到ＰＯＳ，点击**新会话**:"
+"Some of your customers might request an invoice when buying from your Point "
+"of Sale, you can easily manage it directly from the PoS interface."
+msgstr "某些顾客在销售点购物后可能索取发票，你可通过PoS界面直接管理。"
 
-#: ../../point_of_sale/shop/invoice.rst:14
-msgid "You are on the ``main`` point of sales view :"
-msgstr "你在ＰＯＳ的主界面"
+#: ../../point_of_sale/shop/invoice.rst:9
+msgid "Activate invoicing"
+msgstr "启用开具发票功能"
 
-#: ../../point_of_sale/shop/invoice.rst:19
+#: ../../point_of_sale/shop/invoice.rst:11
 msgid ""
-"On the right you can see the list of your products with the categories on "
-"the top. Switch categories by clicking on it."
-msgstr "在右边你可以看到根据顶部的商品类别显示的商品列表，通过点击选择不同的商品类别。"
+"Go to :menuselection:`Point of Sale --> Configuration --> Point of Sale` and"
+" select your Point of Sale:"
+msgstr "前往 :menuselection:`POS --> 配置 --> POS`并选择你的POS界面："
 
-#: ../../point_of_sale/shop/invoice.rst:22
+#: ../../point_of_sale/shop/invoice.rst:17
 msgid ""
-"If you click on a product, it will be added in your cart. You can directly "
-"set the correct **Quantity/Weight** by typing it on the keyboard."
-msgstr "如果你点击商品，会加入到购物车中，你可以通过键盘输入直接设置数量／重量"
+"Under the *Bills & Receipts* you will see the invoicing option, tick it. "
+"Don't forget to choose in which journal the invoices should be created."
+msgstr "在*账单和收据*类别下，你可看到开具发票选项，勾选它。请勿忘记选择创建发票的日记账。"
 
-#: ../../point_of_sale/shop/invoice.rst:26
-msgid "Add a customer"
-msgstr "添加顾客"
+#: ../../point_of_sale/shop/invoice.rst:25
+msgid "Select a customer"
+msgstr "选择顾客"
 
-#: ../../point_of_sale/shop/invoice.rst:29
-msgid "By selecting in the customer list"
-msgstr "通过在客户列表中选择"
+#: ../../point_of_sale/shop/invoice.rst:27
+msgid "From your session interface, use the customer button"
+msgstr "使用会话界面的顾客按钮"
 
-#: ../../point_of_sale/shop/invoice.rst:31
-#: ../../point_of_sale/shop/invoice.rst:54
-msgid "On the main view, click on **Customer** (above **Payment**):"
-msgstr "在主界面，点击**客户** (**付款方式**上面):"
+#: ../../point_of_sale/shop/invoice.rst:32
+msgid ""
+"You can then either select an existing customer and set it as your customer "
+"or create a new one by using this button."
+msgstr "你可选择现有顾客并将其设置为你的顾客，也可通过此按钮创建新顾客。"
 
-#: ../../point_of_sale/shop/invoice.rst:36
-msgid "You must set a customer in order to be able to issue an invoice."
-msgstr "你必须设置一个客户以便生成发票"
+#: ../../point_of_sale/shop/invoice.rst:38
+msgid ""
+"You will be invited to fill out the customer form with its information."
+msgstr "然后，你需要填写顾客信息。"
 
 #: ../../point_of_sale/shop/invoice.rst:41
-msgid ""
-"You can search in the list of your customers or create new ones by clicking "
-"on the icon."
-msgstr "你可以在客户列表中搜索或者通过点击图标创建新的客户"
+msgid "Invoice your customer"
+msgstr "给客户开票"
 
-#: ../../point_of_sale/shop/invoice.rst:48
+#: ../../point_of_sale/shop/invoice.rst:43
 msgid ""
-"For more explanation about adding a new customer. Please read the document "
-":doc:`../advanced/register`."
-msgstr "关于新增客户更多的解释，请参考文档：　文档／高级／注册"
+"From the payment screen, you now have an invoice option, use the button to "
+"select it and validate."
+msgstr "现在在付款页面可看到发票选项，点击按钮选择并验证发票。"
+
+#: ../../point_of_sale/shop/invoice.rst:49
+msgid "You can then print the invoice and move on to your next order."
+msgstr "然后，你可以打印发票并转到下一个订单。"
 
 #: ../../point_of_sale/shop/invoice.rst:52
-msgid "By using a barcode for customer"
-msgstr "通过使用客户条码"
+msgid "Retrieve invoices"
+msgstr "检索发票"
 
-#: ../../point_of_sale/shop/invoice.rst:59
-msgid "Select a customer and click on the pencil to edit."
-msgstr "选择客户并点击选框编辑"
-
-#: ../../point_of_sale/shop/invoice.rst:64
-msgid "Set a the barcode for customer by scanning it."
-msgstr "通过扫描设置一个客户条码"
-
-#: ../../point_of_sale/shop/invoice.rst:69
+#: ../../point_of_sale/shop/invoice.rst:54
 msgid ""
-"Save modifications and now when you scan the customer's barcode, he is "
-"assigned to the order"
-msgstr "保存更改，当你扫描客户条码时，客户会分配到销售订单里。"
-
-#: ../../point_of_sale/shop/invoice.rst:73
-msgid ""
-"Be careful with the **Barcode Nomenclature**. By default, customers' "
-"barcodes have to begin with 042. To check the default barcode nomenclature, "
-"go to :menuselection:`Point of Sale --> Configuration --> Barcode "
-"Nomenclatures`."
+"Once out of the PoS interface (:menuselection:`Close --> Confirm` on the top"
+" right corner) you will find all your orders in :menuselection:`Point of "
+"Sale --> Orders --> Orders` and under the status tab you will see which ones"
+" have been invoiced. When clicking on a order you can then access the "
+"invoice."
 msgstr ""
-"小心处理 **条形码命名规范** 。默认，客户条码以042开头。要检查默认条码命名规范，转到  :menuselection:`POS --> 配置 "
-"--> 条形码命名规范`."
+"离开PoS界面（右上角的 :menuselection:`关闭 --> 确认`），你将在 :menuselection:`POS --> 订单 --> "
+"订单`看到所有订单，在状态选项卡中，可看到已开具发票的订单。点击订单，你可访问其发票。"
 
-#: ../../point_of_sale/shop/invoice.rst:82
-msgid "Payment and invoicing"
-msgstr "付款和开票"
+#: ../../point_of_sale/shop/multicashiers.rst:3
+msgid "Log in with employee"
+msgstr "用雇员身份登陆"
 
-#: ../../point_of_sale/shop/invoice.rst:84
+#: ../../point_of_sale/shop/multicashiers.rst:5
 msgid ""
-"Once the cart is processed, click on **Payment**. You can choose the "
-"customer payment method. In this example, the customer owes you ``10.84 €`` "
-"and pays with by a ``VISA``."
-msgstr "一旦购物车开始处理，点击××付款方式××，你可以选择客户的付款方式，本例中，客户用ＶＩＳＡ付款10.84 €。"
+"With Flectra *Point of Sale*, you can manage multiple cashiers. This feature "
+"allows you to keep track of who is working, when and how much each cashier "
+"made for that session."
+msgstr "通过*POS*应用程序，你可管理多个收银员。这项功能可追踪谁在工作，每位收银员每个班次的时间和收银金额。"
 
-#: ../../point_of_sale/shop/invoice.rst:88
+#: ../../point_of_sale/shop/multicashiers.rst:9
 msgid ""
-"Before clicking on **Validate**, you have to click on **Invoice** in order "
-"to create an invoice from this order."
-msgstr "在点击××确认××之前，你需要点击××发票××以便为该订单创建发票。"
+"There are three ways to switch cashiers in Flectra: by *selecting the cashier*,"
+" by *entering a PIN code* or by *scanning a barcode*."
+msgstr "在Flectra中切换收银员有三种方法：*选择收银员*、*输入PIN码*或*扫描条码*。"
 
-#: ../../point_of_sale/shop/invoice.rst:94
-msgid "Your invoice is printed and you can continue to make orders."
-msgstr "你的销售发票正在打印，你可以继续买单。"
-
-#: ../../point_of_sale/shop/invoice.rst:97
-msgid "Retrieve invoices of a specific customer"
-msgstr "为指定客户恢复发票"
-
-#: ../../point_of_sale/shop/invoice.rst:99
+#: ../../point_of_sale/shop/multicashiers.rst:13
 msgid ""
-"To retrieve the customer's invoices, go to the **Sale** application, click "
-"on :menuselection:`Sales --> Customers`."
-msgstr "要检索客户发票，转到 **销售** 应用，点击 :menuselection:`销售 --> 客户`。"
+"To manage multiple cashiers, you need several employees (at least two)."
+msgstr "如要使用管理多个收银员功能，你必须有多位员工（至少两位）。"
 
-#: ../../point_of_sale/shop/invoice.rst:102
-msgid "On the customer information view, click on the **Invoiced** button :"
-msgstr "在客户信息视图上, 点击 **已开票** 按钮 :"
+#: ../../point_of_sale/shop/multicashiers.rst:16
+msgid "Set up log in with employees"
+msgstr "设置员工登录"
 
-#: ../../point_of_sale/shop/invoice.rst:107
+#: ../../point_of_sale/shop/multicashiers.rst:18
 msgid ""
-"You will get the list all his invoices. Click on the invoice to get the "
-"details."
-msgstr "你将看到所有该客户的发票清单，点击发票可以查看明细。"
+"To enable the feature, go to your *PoS settings* and check log in with "
+"employees on your *PoS form*. Then, add the employees that have access to "
+"the cash register."
+msgstr "如要启用本功能，进入*PoS设置*并在*PoS表单*中勾选员工登录。然后，添加有收银机权限的员工。"
 
-#: ../../point_of_sale/shop/invoice.rst:114
-#: ../../point_of_sale/shop/refund.rst:19
-#: ../../point_of_sale/shop/seasonal_discount.rst:91
-msgid ":doc:`cash_control`"
-msgstr ":doc:`cash_control` "
+#: ../../point_of_sale/shop/multicashiers.rst:25
+msgid "Now, you can switch cashier easily."
+msgstr "现在，你可以很容易地切换成出纳员身份"
 
-#: ../../point_of_sale/shop/refund.rst:3
-msgid "How to return and refund products?"
-msgstr "如何退货和退款？"
+#: ../../point_of_sale/shop/multicashiers.rst:28
+msgid "Switch without pin codes"
+msgstr "切换不需要识别码"
 
-#: ../../point_of_sale/shop/refund.rst:5
+#: ../../point_of_sale/shop/multicashiers.rst:30
 msgid ""
-"To refund a customer, from the PoS main view, you have to insert negative "
-"values. For instance in the last order you count too many ``pumpkins`` and "
-"you have to pay back one."
-msgstr "在ＰＯＳ主界面做顾客退货，你需要插入负数，比如选择太多的南瓜，你需要退回一个。"
+"The easiest way to switch cashiers is without a code. To do so, click on the"
+" cashier name in your PoS interface."
+msgstr "切换收银员的最简单方法是无需代码，直接切换。为此，点击PoS界面中的收银员姓名。"
 
-#: ../../point_of_sale/shop/refund.rst:12
+#: ../../point_of_sale/shop/multicashiers.rst:36
+msgid "Now, you just have to click on your name."
+msgstr "现在，你只需要在你的名字上点击"
+
+#: ../../point_of_sale/shop/multicashiers.rst:42
+msgid "Switch cashier with pin codes"
+msgstr "用识别码切换至出纳"
+
+#: ../../point_of_sale/shop/multicashiers.rst:44
 msgid ""
-"You can see that the total is negative, to end the refund, you only have to "
-"process the payment."
-msgstr "可以看到总计是负数，要完成退货，你只需要选择付款方式。"
+"You can set a pin code on each cashier. To set up a pin code, go to the "
+"employee form and add a security PIN, in the *HR settings tab*."
+msgstr "你可为每位收银员设置pin码。如要设置pin码，前往*HR设置选项卡*的员工表单并添加安全PIN码。"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:3
-msgid "How to apply Time-limited or seasonal discounts?"
-msgstr "怎样应用期间段折扣或季节折扣？"
+#: ../../point_of_sale/shop/multicashiers.rst:50
+msgid "Now, when switching cashier, a PIN password will be asked."
+msgstr "现在，在切换收银员时，必须输入PIN码。"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:8
-msgid "To apply time-limited or seasonal discount, use the pricelists."
-msgstr "用价格列表应用期间段折扣或季节折扣"
+#: ../../point_of_sale/shop/multicashiers.rst:56
+msgid "Switch cashier with barcodes"
+msgstr "通过条码切换收银员"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:10
-msgid "You have to create it and to apply it on the point of sale."
-msgstr "你需要创建并应用到ＰＯＳ"
-
-#: ../../point_of_sale/shop/seasonal_discount.rst:13
-msgid "Sales application configuration"
-msgstr "销售应用配置"
-
-#: ../../point_of_sale/shop/seasonal_discount.rst:15
+#: ../../point_of_sale/shop/multicashiers.rst:58
 msgid ""
-"In the **Sales** application, go to :menuselection:`Configuration --> "
-"Settings`. Tick **Advanced pricing based on formula**."
-msgstr ""
-"在 **销售** 应用中, 进入 :menuselection:`配置Configuration --> 设置Settings` 。勾上 "
-"**基于公式的高级定价** 。"
+"You can ask your employees to log themselves with their badges. To do so, "
+"set up a barcode at the same place you add the PIN code. Print the badge and"
+" when they will scan it, the cashier will be switched to that employee."
+msgstr "你可要求员工用自己的徽章登录。为此，在添加PIN码的同一位置设置条码。打印徽章，之后，收银员将切换为该员工。"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:23
-msgid "Creating a pricelist"
-msgstr "创建价格表"
+#: ../../point_of_sale/shop/multicashiers.rst:67
+msgid "Find who was the cashier"
+msgstr "查找谁是收银员"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:25
+#: ../../point_of_sale/shop/multicashiers.rst:69
 msgid ""
-"Once the setting has been applied, a **Pricelists** section appears under "
-"the configuration menu on the sales application."
-msgstr "一旦设置被应用，价格列表选项会在销售－》配置里显示"
+"Once you have closed your *PoS session*, you can have an overview of the "
+"amount each cashier sold for. To do so, go to the orders menu."
+msgstr "在关闭*PoS会话*后，你可整体查看每位收银员的销售额。为此，你需进入订单菜单。"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:31
-msgid "Click on it, and then on **Create**."
-msgstr "点击，然后**创建××"
+#: ../../point_of_sale/shop/multicashiers.rst:75
+msgid "Now, you can open the order and have a summary of the sold products."
+msgstr "现在，打开订单，即可看到已售出产品的摘要。"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:36
+#: ../../point_of_sale/shop/reprint.rst:3
+msgid "Reprint Receipts"
+msgstr "重新打印收据"
+
+#: ../../point_of_sale/shop/reprint.rst:5
 msgid ""
-"Create a **Pricelist** for your point of sale. Each pricelist can contain "
-"several items with different prices and different dates. It can be done on "
-"all products or only on specific ones. Click on **Add an item**."
-msgstr "为你的ＰＯＳ建一个价格列表，每个价格列表可以包含多个不同价格和日期的商品，可以选择所有商品或者指定的商品。点击××增加一个项目××"
+"Use the *Reprint receipt* feature if you have the need to reprint a ticket."
+msgstr "如需重新打印票据，请使用*重新打印收据*功能。"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:0
-msgid "Active"
-msgstr "有效"
-
-#: ../../point_of_sale/shop/seasonal_discount.rst:0
+#: ../../point_of_sale/shop/reprint.rst:10
 msgid ""
-"If unchecked, it will allow you to hide the pricelist without removing it."
-msgstr "如果不选中，允许您隐藏价格表而无需删除"
+"To activate *Reprint Receipt*, go to :menuselection:`Point of Sale --> "
+"Configuration --> Point of sale`. and select your PoS interface."
+msgstr "如需启用*重新打印收据*，前往 :menuselection:`POS --> 配置 --> POS`并选择你的PoS接口。"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:0
-msgid "Selectable"
-msgstr "可选"
-
-#: ../../point_of_sale/shop/seasonal_discount.rst:0
-msgid "Allow the end user to choose this price list"
-msgstr "允许最终用户选择此价格表"
-
-#: ../../point_of_sale/shop/seasonal_discount.rst:45
+#: ../../point_of_sale/shop/reprint.rst:13
 msgid ""
-"For example, the price of the oranges costs ``3€`` but for two days, we want"
-" to give a ``10%`` discount to our PoS customers."
-msgstr "比如，桔子的价格是3€，　但是两天之后，我们想给ＰＯＳ客户10%的优惠。"
+"Under the Bills & Receipts category, you will find *Reprint Receipt* option."
+msgstr "在账单和收据类别下，你可看到*重新打印收据*选项。"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:51
+#: ../../point_of_sale/shop/reprint.rst:17
 msgid ""
-"You can do it by adding the product or its category and applying a "
-"percentage discount. Other price computation can be done for the pricelist."
-msgstr "你可以通过商品或商品类别添加商品并应用百分比折扣或其他价格估算公式到价格列表"
+"In order to allow the option reprint receipt, you need to activate the "
+"receipt printer."
+msgstr "为使用重新打印收据选项，你必须启用收据打印机。"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:55
-msgid "After you save and close, your pricelist is ready to be used."
-msgstr "保存并关闭后，你的价格列表已生效。"
+#: ../../point_of_sale/shop/reprint.rst:23
+msgid "Reprint a receipt"
+msgstr "重新打印收据"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:61
-msgid "Applying your pricelist to the Point of Sale"
-msgstr "价格列表应用到ＰＯＳ"
+#: ../../point_of_sale/shop/reprint.rst:25
+msgid "On your PoS interface, you now have a *Reprint receipt* button."
+msgstr "在你的PoS界面，现在可以看到*重新打印收据*按钮。"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:68
-msgid "On the right, you will be able to assign a pricelist."
-msgstr "在右边，你可以指定一个价格列表。"
-
-#: ../../point_of_sale/shop/seasonal_discount.rst:74
-msgid ""
-"You just have to update the pricelist to apply the time-limited discount(s)."
-msgstr "你只需要更新价格列表，就能应用带有期间限制的折扣(s)."
-
-#: ../../point_of_sale/shop/seasonal_discount.rst:80
-msgid ""
-"When you start a new session, you can see that the price have automatically "
-"been updated."
-msgstr "当你打开新的页面，你可以看到价格已经自动更新。"
-
-#: ../../point_of_sale/shop/seasonal_discount.rst:87
-msgid "When you update a pricelist, you have to close and open the session."
-msgstr "更新价格列表后，需要关闭并重新打开页面"
+#: ../../point_of_sale/shop/reprint.rst:30
+msgid "When you use it, you can then reprint your last receipt."
+msgstr "你可以使用它来重新打印上一张收据。"

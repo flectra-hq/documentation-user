@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
+# Copyright (C) 2015-TODAY, Flectra S.A.
+# This file is distributed under the same license as the Flectra Business package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Business 10.0\n"
+"Project-Id-Version: Flectra Business 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-07 09:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Murat Kaplan <muratk@projetgrup.com>, 2017\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/flectra/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../../db_management/db_online.rst:18
 msgid ""
-"Access the `database management page <https://www.odoo.com/my/databases>`__ "
+"Access the `database management page <https://www.flectrahq.com/my/databases>`__ "
 "(you will have to sign in). Next, make sure you are connected as the "
 "administrator of the database you want to duplicate. After that, click on "
 "the **Manage Your Databases** button."
@@ -99,7 +99,7 @@ msgid ""
 " or after your subscription code. If the registration is successful, it will"
 " turn green and will provide you with the Expiration Date of your freshly-"
 "registered database. You can check this Epiration Date in the About menu "
-"(Odoo 9) or in the Settings Dashboard (Odoo 10)."
+"(Flectra 9) or in the Settings Dashboard (Flectra 10)."
 msgstr ""
 
 #: ../../db_management/db_premise.rst:20
@@ -123,8 +123,8 @@ msgstr ""
 
 #: ../../db_management/db_premise.rst:35
 msgid ""
-"Check if your subscription details get the tag \"In Progress\" on your `Odoo"
-" Account <https://accounts.odoo.com/my/contract>`__ or with your Account "
+"Check if your subscription details get the tag \"In Progress\" on your `Flectra"
+" Account <https://accounts.flectra.com/my/contract>`__ or with your Account "
 "Manager"
 msgstr ""
 
@@ -135,13 +135,13 @@ msgstr ""
 #: ../../db_management/db_premise.rst:41
 msgid ""
 "You can link only one database per subscription. (Need a test or a "
-"development database? `Find a partner <https://www.odoo.com/partners>`__)"
+"development database? `Find a partner <https://www.flectrahq.com/partners>`__)"
 msgstr ""
 
 #: ../../db_management/db_premise.rst:45
 msgid ""
-"You can unlink the old database yourself on your `Odoo Contract "
-"<https://accounts.odoo.com/my/contract>`__ with the button \"Unlink "
+"You can unlink the old database yourself on your `Flectra Contract "
+"<https://accounts.flectra.com/my/contract>`__ with the button \"Unlink "
 "database\""
 msgstr ""
 
@@ -152,21 +152,21 @@ msgid ""
 msgstr ""
 
 #: ../../db_management/db_premise.rst:59
-msgid "Do you have the updated version of Odoo 9?"
+msgid "Do you have the updated version of Flectra 9?"
 msgstr ""
 
 #: ../../db_management/db_premise.rst:61
 #: ../../db_management/db_premise.rst:190
 msgid ""
-"From July 2016 onward, Odoo 9 now automatically change the uuid of a "
+"From July 2016 onward, Flectra 9 now automatically change the uuid of a "
 "duplicated database; a manual operation is no longer required."
 msgstr ""
 
 #: ../../db_management/db_premise.rst:64
 msgid ""
 "If it's not the case, you may have multiple databases sharing the same UUID."
-" Please check on your `Odoo Contract "
-"<https://accounts.odoo.com/my/contract>`__, a short message will appear "
+" Please check on your `Flectra Contract "
+"<https://accounts.flectra.com/my/contract>`__, a short message will appear "
 "specifying which database is problematic:"
 msgstr ""
 
@@ -190,7 +190,7 @@ msgstr ""
 
 #: ../../db_management/db_premise.rst:84
 msgid ""
-"If you have more users in your local database than provisionned in your Odoo"
+"If you have more users in your local database than provisionned in your Flectra"
 " Enterprise subscription, you may encounter this message:"
 msgstr ""
 
@@ -213,7 +213,7 @@ msgstr "veya"
 #: ../../db_management/db_premise.rst:104
 msgid ""
 "**Deactivate users** as explained in this `Documentation "
-"<https://www.odoo.com "
+"<https://www.flectrahq.com "
 "/documentation/user/10.0/db_management/documentation.html#deactivating-"
 "users>`__ and **Reject** the upsell quotation."
 msgstr ""
@@ -258,13 +258,13 @@ msgid ""
 msgstr ""
 
 #: ../../db_management/db_premise.rst:136
-msgid "Contact our `Support <https://www.odoo.com/help>`__"
+msgid "Contact our `Support <https://www.flectrahq.com/help>`__"
 msgstr ""
 
 #: ../../db_management/db_premise.rst:138
 msgid ""
 "None of those solutions worked for you? Please contact our `Support "
-"<https://www.odoo.com/help>`__"
+"<https://www.flectrahq.com/help>`__"
 msgstr ""
 
 #: ../../db_management/db_premise.rst:145
@@ -274,7 +274,7 @@ msgstr ""
 #: ../../db_management/db_premise.rst:147
 msgid ""
 "Update Notifications happen once every 7 days and keep your database up-to-"
-"date with your Odoo Enterprise subscription. If you modify your subscription"
+"date with your Flectra Enterprise subscription. If you modify your subscription"
 " (i.e. add more users, renew it for a year, etc.), your local database will "
 "only be made aware of the change once every 7 days - this can cause "
 "discrepancies between the state of your subscription and some notifications "
@@ -325,7 +325,7 @@ msgstr ""
 #: ../../db_management/db_premise.rst:176
 msgid ""
 "You can duplicate your database by accessing the database manager on your "
-"server (<odoo-server>/web/database/manager). In this page, you can easily "
+"server (<flectra-server>/web/database/manager). In this page, you can easily "
 "duplicate your database (among other things)."
 msgstr ""
 
@@ -360,7 +360,7 @@ msgstr ""
 
 #: ../../db_management/documentation.rst:13
 msgid ""
-"Odoo is many things (ERP, CMS, CRM application, e-Commerce backend, etc.) "
+"Flectra is many things (ERP, CMS, CRM application, e-Commerce backend, etc.) "
 "but it is *not* a smartphone. You should apply caution when adding/removing "
 "features (especially Apps) on your database since this may impact your "
 "subscription amount significantly (or switch you from a free account to a "
@@ -369,7 +369,7 @@ msgstr ""
 
 #: ../../db_management/documentation.rst:19
 msgid ""
-"This page contains some information as to how you can manage your Odoo "
+"This page contains some information as to how you can manage your Flectra "
 "instances. Before carrying any of these procedures, we **strongly** advise "
 "to test them on a duplicate of your database first. That way, if something "
 "goes wrong, your day-to-day business is not impacted."
@@ -386,7 +386,7 @@ msgstr ""
 msgid ""
 "If you have questions about the content of this page or if you encounter an "
 "issue while carrying out these procedures, please contact us through our "
-"`support form <https://www.odoo.com/help>`__."
+"`support form <https://www.flectrahq.com/help>`__."
 msgstr ""
 
 #: ../../db_management/documentation.rst:34
@@ -401,7 +401,7 @@ msgstr ""
 
 #: ../../db_management/documentation.rst:39
 msgid ""
-"In your Odoo instance, click on **Settings**. You will have a section "
+"In your Flectra instance, click on **Settings**. You will have a section "
 "showing you the active users on your database. Click on **Manage access "
 "rights.**"
 msgstr ""
@@ -455,7 +455,7 @@ msgstr ""
 
 #: ../../db_management/documentation.rst:77
 msgid ""
-"In your Odoo instance click on **Settings**; in this app, you will be able "
+"In your Flectra instance click on **Settings**; in this app, you will be able "
 "to see how many applications you have installed. Click on **Browse Apps** to"
 " access the list of your installed applications."
 msgstr ""
@@ -506,8 +506,8 @@ msgstr ""
 
 #: ../../db_management/documentation.rst:115
 msgid ""
-"**Odoo Apps have dependencies**: this means that you may need to install "
-"modules that you do not actively use to access some features of Odoo you "
+"**Flectra Apps have dependencies**: this means that you may need to install "
+"modules that you do not actively use to access some features of Flectra you "
 "might need. For example, the Website Builder app is needed to be able to "
 "show your customer their Quotes in a web page. Even though you might not "
 "need or use the Website itself, it is needed for the Online Quotes feature "

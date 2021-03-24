@@ -1,0 +1,13 @@
+:banner: banners/legal.png
+
+====================
+Terms and Conditions
+====================
+
+.. toctree::
+    :titlesonly:
+
+    terms/flectra_sh_terms
+    terms/enterprise
+    terms/partnership
+    terms/terms_of_sale

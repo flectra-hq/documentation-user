@@ -1,4 +1,4 @@
-:banner: banners/flectra_point_of_sale.jpg
+:banner: banners/pos.png
 
 =============
 Point of Sale
@@ -10,5 +10,10 @@ Point of Sale
    point_of_sale/overview
    point_of_sale/shop
    point_of_sale/restaurant
-   point_of_sale/advanced
-   point_of_sale/analyze
+   point_of_sale/payment
+   point_of_sale/advanced_pricing_features
+   point_of_sale/belgian_fdm
+
+
+.. 
+

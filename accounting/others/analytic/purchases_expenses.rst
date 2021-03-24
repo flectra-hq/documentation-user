@@ -1,6 +1,6 @@
-==========================================================
-How to track costs of purchases, expenses, subcontracting?
-==========================================================
+==================================================
+Track costs of purchases, expenses, subcontracting
+==================================================
 
 Overview
 ========
@@ -43,7 +43,7 @@ accounting box.
 .. image:: media/purchase05.png
    :align: center
 
-Moreover, scroll down and tick the **Purchase Analytics**
+Moreover, scroll down and tick the **Analytic accounting for purchases**
 box.
 
 .. image:: media/purchase06.png
@@ -56,8 +56,8 @@ Create an Analytical account.
 
 First of all you should create an Analytical account on which you can
 point all your expenses. Enter the accounting app, select
-:menuselection:`Configuration --> Analytic Accounting --> Analytic Accounts`. Create a new one. In this
-case we will call it "consulting pack" for our customer Smith.
+:menuselection:`Configuration --> Analytic Accounts`. Create a new one. In this
+case we will call it "consulting pack" for our customer Smith&Co.
 
 .. image:: media/purchase07.png
    :align: center
@@ -85,7 +85,7 @@ expensed** box is ticked.
 Book the expense
 ----------------
 
-Enter the Expense module, click on :menuselection:`My expenses --> Expenses to Submit --> Create`. Select the
+Enter the Expense module, click on :menuselection:`My expenses --> Create`. Select the
 Train ticket product and link it to the analytical account discussed
 above.
 
@@ -102,8 +102,7 @@ Purchase Product
 ----------------
 
 We also need to buy a software for our customers. In the purchase app
-create a purchase order for the software product. (please
-refer to the following document: :doc:`../../../purchase/overview/process/from_po_to_invoice`).
+create a purchase order for the software product.
 Within the line we can link the product's cost with the analytical
 account. Specify the order line and select the correct analytical
 account. Confirm the sale.
@@ -124,8 +123,7 @@ correct analytical account. We simply need to create the correct vendors
 product.
 
 .. note::
-
-	You can also track cost with timesheets, see: :doc:`timesheets`
+   You can also track cost with timesheets, see: :doc:`timesheets`
 
 Track costs in accounting
 =========================
@@ -133,7 +131,7 @@ Track costs in accounting
 Now that everything is booked and points to the analytical account.
 Simply open it to check the costs related to that account.
 
-Enter the accounting module, click on :menuselection:`Advisers --> Analytic Accounting --> Analytic Accounts
+Enter the accounting module, click on :menuselection:`Advisers --> Analytic Accounts
 --> Open Charts`.
 
 Select "consulting pack - Smith" and click on the cost and revenue
@@ -143,7 +141,6 @@ button to have an overview of all cost linked to the account.
    :align: center
 
 .. note::
-
-	If you would like to have the revenue as well you should
-	invoice the Consulting Pack in the Invoice menu and link the invoice
-	line to this same analytical account.
+   If you would like to have the revenue as well you should
+   invoice the Consulting Pack in the Invoice menu and link the invoice
+   line to this same analytical account.

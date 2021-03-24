@@ -1,4 +1,4 @@
-:banner: banners/flectra-project-management.jpg
+:banner: banners/project.png
 
 =======
 Project
@@ -7,7 +7,4 @@ Project
 .. toctree::
    :titlesonly:
 
-   project/overview
-   project/configuration
-   project/planning
-   project/advanced
+   project/tasks

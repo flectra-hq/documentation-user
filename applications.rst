@@ -2,39 +2,67 @@
 Applications
 ============
 
+.. ORDER (new apps / sections included):
+   general
+   discuss
+   crm
+   sales
+   purchase
+   rental
+   accounting
+   consolidation
+   subscription
+   project
+   timesheets
+   planning
+   bi
+   documents
+   sign
+   point_of_sale
+   inventory
+   manufacturing
+   barcode
+   website
+   ecommerce
+   elearning
+   helpdesk
+   live_chat
+   email_marketing
+   social_marketing
+   marketing_automation
+   events
+   survey
+   employees
+   recruitment
+   referrals
+   leaves
+   expenses
+   appraisals
+   fleet
+   approvals
+   lunch
+   misc
+
 .. toctree::
    :titlesonly:
 
-   accounting
+   general
+   discuss
    crm
    sales
-   website
-   ecommerce
-   discuss
    purchase
+   accounting
+   subscriptions
+   project
+   timesheets
+   sign
+   point_of_sale
    inventory
    manufacturing
-   point_of_sale
-   project
-   stock_ageing_report/stock_ageing_report
-   blanket_so_po/blanket_so_po
-   livechat/livechat
+   website
+   ecommerce
+   helpdesk
+   live_chat
+   marketing_automation
+   survey
    expense/expense
-   l10n_in_gst/gst
-   l10n_sg_gst/l10n_sg_gst5
-   saleadvancepricelist/saleadvancepricelist
-   website_sale_advance_pricelist/websitesaleadvancepricelist
-   helpdesk_basic/helpdesk
-   account_cash_flow/cash_flow
-   general
-   scrum/scrum
-   recurring_documents/recurring_document
-   purchase_indent/purchase_indent
-   rma/rma
-   stock_cycle_count/stock_cycle_count
-   rest_api/rest_api
-   digest/digest
-   l10n_ae_extend/l10n_ae_extend
-
-..   expenses
-..   recruitment

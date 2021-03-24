@@ -1,6 +1,6 @@
-========================================
-How is Flectra's multi-currency working?
-========================================
+===============================
+Flectra's multi-currency system
+===============================
 
 Overview
 ========
@@ -18,7 +18,7 @@ Turn on multi-currency
 ----------------------
 
 In the accounting module, Go to :menuselection:`Configuration --> Settings` and flag
-**Currency --> Multi-currencies**, then click on **Save**.
+**Allow multi currencies**, then click on **Apply**.
 
 .. image:: media/works01.png
    :align: center
@@ -41,13 +41,13 @@ View or edit rate being used
 ----------------------------
 
 You can manually configure the currency rates in :menuselection:`Configuration -->
-Accounting --> Currencies`. Open the currencies you want to use in Flectra and edit it.
+Currencies`. Open the currencies you want to use in Flectra and edit it.
 Make sure the currency is active.
 
 .. image:: media/works03.png
    :align: center
 
-Click on **Rates** to edit it and to see the history :
+Click on **View Rates** to edit it and to see the history :
 
 .. image:: media/works04.png
    :align: center
@@ -64,30 +64,22 @@ Live Currency Rate
 By default, the currencies need to be updated manually. But you can
 synchronize it with `Yahoo <https://finance.yahoo.com/currency-converter/>`__ or
 the `European Central Bank <http://www.ecb.europa.eu>`__. In 
-:menuselection:`Configuration --> Settings --> Auto Download Rates`
-and click on **save**.
+:menuselection:`Configuration --> Settings`, go to the **Live Currency Rate** section.
+
+Choose the interval : Manually, Daily, Weekly or Monthly. You can always
+force the update by clicking on **Update Now**. Select the provider, and you
+are set !
 
 .. image:: media/works06.png
    :align: center
 
-:menuselection:`Configuration --> Accounting --> Rate Auto - Download`.
-Click on **Create** to update the rate. Fill in the Webservice to use like Yahoo Finance and
-currency update frequency like Manually, Daily, Weekly or Monthly. Select Currencies to update
-with webservice update by clicking on **Update Now** and you are set !
-
-Gets Currency rate updates on click of button 'Update now' and update details will be displayed in logs.
-
-.. image:: media/works06_1.png
-   :align: center
-
 .. note::
-
-	Only the **active** currencies are updated
+   Only the **active** currencies are updated
 
 Configure your charts of account
 --------------------------------
 
-In the accounting application, go to :menuselection:`Adviser --> Accounting --> Charts of Accounts`.
+In the accounting application, go to :menuselection:`Adviser --> Charts of Accounts`.
 On each account, you can set a currency. It will force all moves for
 this account to have the account currency.
 
@@ -102,7 +94,7 @@ Configure your journals
 
 In order to register payments in other currencies, you have to remove
 the currency constraint on the journal. Go to the accounting
-application, Click on **...** on the journal and **Settings**.
+application, Click on **More** on the journal and **Settings**.
 
 .. image:: media/works08.png
    :align: center
@@ -143,8 +135,8 @@ the whole document.
 Payment Registrations
 ---------------------
 
-In the accounting application, go to **Sales > Payments**. Register the
-payment and set the currency.
+In the accounting application, go to :menuselection:`Sales --> Payments`. Register the payment and
+set the currency.
 
 .. image:: media/works12.png
    :align: center
@@ -166,14 +158,14 @@ amount in your company currency.
 Exchange Rate Journal
 ---------------------
 
-Go to :menuselection:`Adviser --> Accounting Entries --> Journal Entries` and
-look for the Exchange difference journal entries. All the exchange rates
-differences are recorded in it.
+Go to :menuselection:`Adviser --> Journal Entries` and look for the Exchange difference
+journal entries. All the exchange rates differences are recorded in it.
 
 .. image:: media/works14.png
    :align: center
 
-.. seealso::
+.. include:: full_reconcile_warning.rst
 
-	* :doc:`invoices_payments`
-	* :doc:`exchange`
+.. seealso::
+   * :doc:`invoices_payments`
+   * :doc:`exchange`
