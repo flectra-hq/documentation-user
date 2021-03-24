@@ -1,52 +1,54 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# This file is distributed under the same license as the Odoo Business
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Business 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-08 14:28+0100\n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Olivier Lenoir <olivier.lenoir@free.fr>, 2018\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../discuss.rst:5
 msgid "Discuss"
 msgstr "Messages"
 
 #: ../../discuss/email_servers.rst:3
-msgid "How to use my mail server to send and receive emails in Odoo"
+msgid "How to use my mail server to send and receive emails in Flectra"
 msgstr ""
 
 #: ../../discuss/email_servers.rst:5
 msgid ""
-"This document is mainly dedicated to Odoo on-premise users who don't benefit"
-" from an out-of-the-box solution to send and receive emails in Odoo, unlike "
-"in `Odoo Online <https://www.odoo.com/trial>`__ & `Odoo.sh "
-"<https://www.odoo.sh>`__."
+"This document is mainly dedicated to Flectra on-premise users who don't "
+"benefit from an out-of-the-box solution to send and receive emails in "
+"Flectra, unlike in `Flectra Online <https://www.flectrahq.com/trial>`__ &"
+" `Flectra.sh <https://www.flectrahq.sh>`__."
 msgstr ""
 
 #: ../../discuss/email_servers.rst:9
 msgid ""
 "If no one in your company is used to manage email servers, we strongly "
-"recommend that you opt for such convenient Odoo hosting solutions. Indeed "
-"their email system works instantly and is monitored by professionals. "
-"Nevertheless you can still use your own email servers if you want to manage "
-"your email server's reputation yourself."
+"recommend that you opt for such convenient Flectra hosting solutions. "
+"Indeed their email system works instantly and is monitored by "
+"professionals. Nevertheless you can still use your own email servers if "
+"you want to manage your email server's reputation yourself."
 msgstr ""
 
 #: ../../discuss/email_servers.rst:15
 msgid ""
 "You will find here below some useful information to do so by integrating "
-"your own email solution with Odoo."
+"your own email solution with Flectra."
 msgstr ""
 
 #: ../../discuss/email_servers.rst:19
@@ -55,10 +57,10 @@ msgstr ""
 
 #: ../../discuss/email_servers.rst:21
 msgid ""
-"As a system admin, go to :menuselection:`Settings --> General Settings` and "
-"check *External Email Servers*. Then, click *Outgoing Mail Servers* to "
-"create one and reference the SMTP data of your email server. Once all the "
-"information has been filled out, click on *Test Connection*."
+"As a system admin, go to :menuselection:`Settings --> General Settings` "
+"and check *External Email Servers*. Then, click *Outgoing Mail Servers* "
+"to create one and reference the SMTP data of your email server. Once all "
+"the information has been filled out, click on *Test Connection*."
 msgstr ""
 
 #: ../../discuss/email_servers.rst:26
@@ -75,16 +77,16 @@ msgstr ""
 
 #: ../../discuss/email_servers.rst:35
 msgid ""
-"You can use an Office 365 server if you run Odoo on-premise. Office 365 SMTP"
-" relays are not compatible with Odoo Online."
+"You can use an Office 365 server if you run Flectra on-premise. Office "
+"365 SMTP relays are not compatible with Flectra Online."
 msgstr ""
 
 #: ../../discuss/email_servers.rst:38
 msgid ""
-"Please refer to `Microsoft's documentation <https://support.office.com/en-"
-"us/article/How-to-set-up-a-multifunction-device-or-application-to-send-"
-"email-using-Office-365-69f58e99-c550-4274-ad18-c805d654b4c4>`__ to configure"
-" a SMTP relay for your Odoo's IP address."
+"Please refer to `Microsoft's documentation <https://support.office.com"
+"/en-us/article/How-to-set-up-a-multifunction-device-or-application-to-"
+"send-email-using-Office-365-69f58e99-c550-4274-ad18-c805d654b4c4>`__ to "
+"configure a SMTP relay for your Flectra's IP address."
 msgstr ""
 
 #: ../../discuss/email_servers.rst:42
@@ -93,194 +95,198 @@ msgstr ""
 
 #: ../../discuss/email_servers.rst:43
 msgid ""
-"You can use an G Suite server for any Odoo hosting type. To do so you need "
-"to enable a SMTP relay and to allow *Any addresses* in the *Allowed senders*"
-" section. The configuration steps are explained in `Google documentation "
-"<https://support.google.com/a/answer/2956491?hl=en>`__."
+"You can use an G Suite server for any Flectra hosting type. To do so you "
+"need to enable a SMTP relay and to allow *Any addresses* in the *Allowed "
+"senders* section. The configuration steps are explained in `Google "
+"documentation <https://support.google.com/a/answer/2956491?hl=en>`__."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:49
+#: ../../discuss/email_servers.rst:51
 msgid "Be SPF-compliant"
 msgstr ""
 
-#: ../../discuss/email_servers.rst:50
+#: ../../discuss/email_servers.rst:52
 msgid ""
-"In case you use SPF (Sender Policy Framework) to increase the deliverability"
-" of your outgoing emails, don't forget to authorize Odoo as a sending host "
-"in your domain name settings. Here is the configuration for Odoo Online:"
-msgstr ""
-
-#: ../../discuss/email_servers.rst:54
-msgid ""
-"If no TXT record is set for SPF, create one with following definition: "
-"v=spf1 include:_spf.odoo.com ~all"
+"In case you use SPF (Sender Policy Framework) to increase the "
+"deliverability of your outgoing emails, don't forget to authorize Flectra"
+" as a sending host in your domain name settings. Here is the "
+"configuration for Flectra Online:"
 msgstr ""
 
 #: ../../discuss/email_servers.rst:56
 msgid ""
-"In case a SPF TXT record is already set, add \"include:_spf.odoo.com\". e.g."
-" for a domain name that sends emails via Odoo Online and via G Suite it "
-"could be: v=spf1 include:_spf.odoo.com include:_spf.google.com ~all"
+"If no TXT record is set for SPF, create one with following definition: "
+"v=spf1 include:_spf.flectrahq.com ~all"
 msgstr ""
 
-#: ../../discuss/email_servers.rst:60
+#: ../../discuss/email_servers.rst:58
+msgid ""
+"In case a SPF TXT record is already set, add "
+"\"include:_spf.flectrahq.com\". e.g. for a domain name that sends emails "
+"via Flectra Online and via G Suite it could be: v=spf1 "
+"include:_spf.flectrahq.com include:_spf.google.com ~all"
+msgstr ""
+
+#: ../../discuss/email_servers.rst:62
 msgid ""
 "Find `here <https://www.mail-tester.com/spf/>`__ the exact procedure to "
 "create or modify TXT records in your own domain registrar."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:63
+#: ../../discuss/email_servers.rst:65
 msgid ""
 "Your new SPF record can take up to 48 hours to go into effect, but this "
 "usually happens more quickly."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:66
+#: ../../discuss/email_servers.rst:68
 msgid ""
-"Adding more than one SPF record for a domain can cause problems with mail "
-"delivery and spam classification. Instead, we recommend using only one SPF "
-"record by modifying it to authorize Odoo."
+"Adding more than one SPF record for a domain can cause problems with mail"
+" delivery and spam classification. Instead, we recommend using only one "
+"SPF record by modifying it to authorize Flectra."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:71
+#: ../../discuss/email_servers.rst:73
 msgid "Allow DKIM"
 msgstr ""
 
-#: ../../discuss/email_servers.rst:72
+#: ../../discuss/email_servers.rst:74
 msgid ""
 "You should do the same thing if DKIM (Domain Keys Identified Mail) is "
-"enabled on your email server. In the case of Odoo Online & Odoo.sh, you "
-"should add a DNS \"odoo._domainkey\" CNAME record to "
-"\"odoo._domainkey.odoo.com\". For example, for \"foo.com\" they should have "
-"a record \"odoo._domainkey.foo.com\" that is a CNAME with the value "
-"\"odoo._domainkey.odoo.com\"."
-msgstr ""
-
-#: ../../discuss/email_servers.rst:80
-msgid "How to manage inbound messages"
+"enabled on your email server. In the case of Flectra Online & Flectra.sh,"
+" you should add a DNS \"flectrahq._domainkey\" CNAME record to "
+"\"flectrahq._domainkey.flectrahq.com\". For example, for \"foo.com\" they"
+" should have a record \"flectrahq._domainkey.foo.com\" that is a CNAME "
+"with the value \"flectrahq._domainkey.flectrahq.com\"."
 msgstr ""
 
 #: ../../discuss/email_servers.rst:82
-msgid "Odoo relies on generic email aliases to fetch incoming messages."
+msgid "How to manage inbound messages"
 msgstr ""
 
 #: ../../discuss/email_servers.rst:84
-msgid ""
-"**Reply messages** of messages sent from Odoo are routed to their original "
-"discussion thread (and to the inbox of all its followers) by the catchall "
-"alias (**catchall@**)."
+msgid "Flectra relies on generic email aliases to fetch incoming messages."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:88
+#: ../../discuss/email_servers.rst:86
+msgid ""
+"**Reply messages** of messages sent from Flectra are routed to their "
+"original discussion thread (and to the inbox of all its followers) by the"
+" catchall alias (**catchall@**)."
+msgstr ""
+
+#: ../../discuss/email_servers.rst:90
 msgid ""
 "**Bounced messages** are routed to **bounce@** in order to track them in "
-"Odoo. This is especially used in `Odoo Email Marketing "
-"<https://www.odoo.com/page/email-marketing>`__ to opt-out invalid "
+"Flectra. This is especially used in `Flectra Email Marketing "
+"<https://www.flectrahq.com/page/email-marketing>`__ to opt-out invalid "
 "recipients."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:92
+#: ../../discuss/email_servers.rst:94
 msgid ""
 "**Original messages**: Several business objects have their own alias to "
-"create new records in Odoo from incoming emails:"
-msgstr ""
-
-#: ../../discuss/email_servers.rst:95
-msgid ""
-"Sales Channel (to create Leads or Opportunities in `Odoo CRM "
-"<https://www.odoo.com/page/crm>`__),"
+"create new records in Flectra from incoming emails:"
 msgstr ""
 
 #: ../../discuss/email_servers.rst:97
 msgid ""
-"Support Channel (to create Tickets in `Odoo Helpdesk "
-"<https://www.odoo.com/page/helpdesk>`__),"
+"Sales Channel (to create Leads or Opportunities in `Flectra CRM "
+"<https://www.flectrahq.com/page/crm>`__),"
 msgstr ""
 
 #: ../../discuss/email_servers.rst:99
 msgid ""
-"Projects (to create new Tasks in `Odoo Project <https://www.odoo.com/page"
-"/project-management>`__),"
+"Support Channel (to create Tickets in `Flectra Helpdesk "
+"<https://www.flectrahq.com/page/helpdesk>`__),"
 msgstr ""
 
 #: ../../discuss/email_servers.rst:101
 msgid ""
-"Job Positions (to create Applicants in `Odoo Recruitment "
-"<https://www.odoo.com/page/recruitment>`__),"
+"Projects (to create new Tasks in `Flectra Project "
+"<https://www.flectrahq.com/page/project-management>`__),"
 msgstr ""
 
 #: ../../discuss/email_servers.rst:103
+msgid ""
+"Job Positions (to create Applicants in `Flectra Recruitment "
+"<https://www.flectrahq.com/page/recruitment>`__),"
+msgstr ""
+
+#: ../../discuss/email_servers.rst:105
 msgid "etc."
 msgstr "etc."
 
-#: ../../discuss/email_servers.rst:105
+#: ../../discuss/email_servers.rst:107
 msgid ""
 "Depending on your mail server, there might be several methods to fetch "
 "emails. The easiest and most recommended method is to manage one email "
-"address per Odoo alias in your mail server."
-msgstr ""
-
-#: ../../discuss/email_servers.rst:109
-msgid ""
-"Create the corresponding email addresses in your mail server (catcall@, "
-"bounce@, sales@, etc.)."
+"address per Flectra alias in your mail server."
 msgstr ""
 
 #: ../../discuss/email_servers.rst:111
+msgid ""
+"Create the corresponding email addresses in your mail server (catchall@, "
+"bounce@, sales@, etc.)."
+msgstr ""
+
+#: ../../discuss/email_servers.rst:113
 msgid "Set your domain name in the General Settings."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:116
+#: ../../discuss/email_servers.rst:118
 msgid ""
-"If you use Odoo on-premise, create an *Incoming Mail Server* in Odoo for "
-"each alias. You can do it from the General Settings as well. Fill out the "
-"form according to your email provider’s settings. Leave the *Actions to "
-"Perform on Incoming Mails* blank. Once all the information has been filled "
-"out, click on *TEST & CONFIRM*."
+"If you use Flectra on-premise, create an *Incoming Mail Server* in "
+"Flectra for each alias. You can do it from the General Settings as well. "
+"Fill out the form according to your email provider’s settings. Leave the "
+"*Actions to Perform on Incoming Mails* blank. Once all the information "
+"has been filled out, click on *TEST & CONFIRM*."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:125
+#: ../../discuss/email_servers.rst:127
 msgid ""
-"If you use Odoo Online or Odoo.sh, We do recommend to redirect incoming "
-"messages to Odoo's domain name rather than exclusively use your own email "
-"server. That way you will receive incoming messages without delay. Indeed, "
-"Odoo Online is fetching incoming messages of external servers once per hour "
-"only. You should set redirections for all the email addresses to Odoo's "
-"domain name in your email server (e.g. *catchall@mydomain.ext* to "
-"*catchall@mycompany.odoo.com*)."
+"If you use Flectra Online or Flectra.sh, We do recommend to redirect "
+"incoming messages to Flectra's domain name rather than exclusively use "
+"your own email server. That way you will receive incoming messages "
+"without delay. Indeed, Flectra Online is fetching incoming messages of "
+"external servers once per hour only. You should set redirections for all "
+"the email addresses to Flectra's domain name in your email server (e.g. "
+"*catchall@mydomain.ext* to *catchall@mycompany.flectrahq.com*)."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:132
+#: ../../discuss/email_servers.rst:134
 msgid ""
-"All the aliases are customizable in Odoo. Object aliases can be edited from "
-"their  respective configuration view. To edit catchall and bounce aliases, "
-"you first need to activate the developer mode from the Settings Dashboard."
+"All the aliases are customizable in Flectra. Object aliases can be edited"
+" from their  respective configuration view. To edit catchall and bounce "
+"aliases, you first need to activate the developer mode from the Settings "
+"Dashboard."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:140
+#: ../../discuss/email_servers.rst:142
 msgid ""
-"Then refresh your screen and go to :menuselection:`Settings --> Technical "
-"--> Parameters --> System Parameters` to customize the aliases "
+"Then refresh your screen and go to :menuselection:`Settings --> Technical"
+" --> Parameters --> System Parameters` to customize the aliases "
 "(*mail.catchall.alias* & * mail.bounce.alias*)."
 msgstr ""
 
-#: ../../discuss/email_servers.rst:147
+#: ../../discuss/email_servers.rst:149
 msgid ""
-"By default inbound messages are fetched every 5 minutes in Odoo on-premise. "
-"You can change this value in developer mode. Go to :menuselection:`Settings "
-"--> Technical --> Automation --> Scheduled Actions` and look for *Mail: "
-"Fetchmail Service*."
+"By default inbound messages are fetched every 5 minutes in Flectra on-"
+"premise. You can change this value in developer mode. Go to "
+":menuselection:`Settings --> Technical --> Automation --> Scheduled "
+"Actions` and look for *Mail: Fetchmail Service*."
 msgstr ""
 
 #: ../../discuss/mail_twitter.rst:3
-msgid "How to follow Twitter feed from Odoo"
+msgid "How to follow Twitter feed from Flectra"
 msgstr ""
 
 #: ../../discuss/mail_twitter.rst:8
 msgid ""
-"You can follow specific hashtags on Twitter and see the tweets within the "
-"Odoo Discuss channels of your choice. The tweets are retrieved periodically "
-"from Twitter. An authenticated user can retweet the messages."
+"You can follow specific hashtags on Twitter and see the tweets within the"
+" Flectra Discuss channels of your choice. The tweets are retrieved "
+"periodically from Twitter. An authenticated user can retweet the "
+"messages."
 msgstr ""
 
 #: ../../discuss/mail_twitter.rst:13
@@ -289,9 +295,9 @@ msgstr ""
 
 #: ../../discuss/mail_twitter.rst:15
 msgid ""
-"Twitter uses an \"App\" on its side which is opens a gate to which Odoo asks"
-" for tweets, and through which a user can retweet. To set up this app, go to"
-" http://apps.twitter.com/app/new and put in the values:"
+"Twitter uses an \"App\" on its side which is opens a gate to which "
+"Flectra asks for tweets, and through which a user can retweet. To set up "
+"this app, go to http://apps.twitter.com/app/new and put in the values:"
 msgstr ""
 
 #: ../../discuss/mail_twitter.rst:19
@@ -300,23 +306,23 @@ msgstr ""
 
 #: ../../discuss/mail_twitter.rst:21
 msgid ""
-"Website: this is the external url of your Odoo database, with \"/web\" "
-"added. For example, if your Odoo instance is hosted at "
-"\"http://www.example.com\", you should put \"http://www.example.com/web\" in"
-" this field."
+"Website: this is the external url of your Flectra database, with \"/web\""
+" added. For example, if your Flectra instance is hosted at "
+"\"http://www.example.com\", you should put \"http://www.example.com/web\""
+" in this field."
 msgstr ""
 
 #: ../../discuss/mail_twitter.rst:25
 msgid ""
-"Callback URL: this is the address on which Twitter will respond. Following "
-"the previous example you should write "
+"Callback URL: this is the address on which Twitter will respond. "
+"Following the previous example you should write "
 "\"http://www.example.com/web/twitter/callback\"."
 msgstr ""
 
 #: ../../discuss/mail_twitter.rst:28
 msgid ""
-"Do not forget to accept the terms **Developer agreement** of use and click "
-"on **Create your Twitter application** at the bottom of the page."
+"Do not forget to accept the terms **Developer agreement** of use and "
+"click on **Create your Twitter application** at the bottom of the page."
 msgstr ""
 
 #: ../../discuss/mail_twitter.rst:33
@@ -324,15 +330,14 @@ msgid "Getting the API key and secret"
 msgstr ""
 
 #: ../../discuss/mail_twitter.rst:35
-msgid ""
-"When on the App dashboard, switch to the **Keys and Access Tokens** tab."
+msgid "When on the App dashboard, switch to the **Keys and Access Tokens** tab."
 msgstr ""
 
 #: ../../discuss/mail_twitter.rst:40
 msgid ""
-"And copy those values in Odoo in :menuselection:`Settings--> General "
-"Settings--> Twitter discuss integration` and click on **Save** to save the "
-"settings."
+"And copy those values in Flectra in :menuselection:`Settings--> General "
+"Settings--> Twitter discuss integration` and click on **Save** to save "
+"the settings."
 msgstr ""
 
 #: ../../discuss/mentions.rst:3
@@ -341,49 +346,50 @@ msgstr ""
 
 #: ../../discuss/mentions.rst:5
 msgid ""
-"You can **mention** a user in a channel or chatter by typing **@user-name**."
-" Mentioning a user in the chatter will set them as a follower of the item "
-"(if they are not already) and send a message to their inbox. The item "
-"containing the mention will also be bolded in the list view. Mentioning a "
-"user in a channel will send a message to their inbox. You cannot mention a "
-"user in a channel who is not subscribed to the channel. Typing **#channel-"
-"name** will provide a link to the mentioned channel in either a chatter or "
-"another channel."
+"You can **mention** a user in a channel or chatter by typing **@user-"
+"name**. Mentioning a user in the chatter will set them as a follower of "
+"the item (if they are not already) and send a message to their inbox. The"
+" item containing the mention will also be bolded in the list view. "
+"Mentioning a user in a channel will send a message to their inbox. You "
+"cannot mention a user in a channel who is not subscribed to the channel. "
+"Typing **#channel-name** will provide a link to the mentioned channel in "
+"either a chatter or another channel."
 msgstr ""
-"Vous pouvez **citer** un utilisateur dans un canal ou un bavardage en tapant"
-" **@nom-d'utilisateur**. Mentionner un utilisateur dans le bavardage va le "
-"définir comme un suiveur de l'article (s'il ne l'est pas déjà) et envoyer un"
-" message à leur boîte de réception. L'article contenant la citation sera "
-"également mis en gras dans la vue en liste. Mentionner un utilisateur dans "
-"un canal va envoyer un message à sa boîte de réception. Dans un canal, vous "
-"ne pouvez pas citer un utilisateur qui n'est pas inscrit à ce canal. Saisir "
-"**#nom-du-canal** fournira un lien vers le canal mentionné, tant dans un "
-"bavardage que dans un autre canal."
+"Vous pouvez **citer** un utilisateur dans un canal ou un bavardage en "
+"tapant **@nom-d'utilisateur**. Mentionner un utilisateur dans le "
+"bavardage va le définir comme un suiveur de l'article (s'il ne l'est pas "
+"déjà) et envoyer un message à leur boîte de réception. L'article "
+"contenant la citation sera également mis en gras dans la vue en liste. "
+"Mentionner un utilisateur dans un canal va envoyer un message à sa boîte "
+"de réception. Dans un canal, vous ne pouvez pas citer un utilisateur qui "
+"n'est pas inscrit à ce canal. Saisir **#nom-du-canal** fournira un lien "
+"vers le canal mentionné, tant dans un bavardage que dans un autre canal."
 
 #: ../../discuss/mentions.rst:15
 msgid "Direct messaging a user"
 msgstr ""
 
 #: ../../discuss/mentions.rst:17
+#, fuzzy
 msgid ""
 "**Direct messages** are private messages viewable only by the sender and "
 "recipient. You can send direct messages to other users from within the "
-"Discuss module by creating a new conversation or selecting an existing one "
-"from the sidebar. Direct messages can be sent from anywhere in Odoo using "
-"the speech bubble icon in the top bar. The online status of other users is "
-"displayed to the left of their name. A **green dot** indicates that a user "
-"is Online, an **orange dot** that they are Idle, and a **grey dot** that "
-"they are offline."
+"Discuss module by creating a new conversation or selecting an existing "
+"one from the sidebar. Direct messages can be sent from anywhere in "
+"Flectra using the speech bubble icon in the top bar. The online status of"
+" other users is displayed to the left of their name. A **green dot** "
+"indicates that a user is Online, an **orange dot** that they are Idle, "
+"and a **grey dot** that they are offline."
 msgstr ""
 "Les **Messages Directs** sont des messages privés visibles seulement par "
-"l'expéditeur et le destinataire. Vous pouvez envoyer des messages directs à "
-"d'autres utilisateurs depuis le module Discutez en créant une nouvelle "
-"conversation, ou en en sélectionnant une existante dans la barre latérale. "
-"Les messages directs peuvent être envoyés partout dans Odoo en utilisant "
-"l'icône de bulle dans la barre supérieure. Le statut en ligne des autres "
-"utilisateurs est affiché à gauche de leur nom. Un **point vert** indique "
-"qu'un utilisateur est en ligne, un **point orange** qu'il est inoccupé, et "
-"un **point gris** qu'il est déconnecté."
+"l'expéditeur et le destinataire. Vous pouvez envoyer des messages directs"
+" à d'autres utilisateurs depuis le module Discutez en créant une nouvelle"
+" conversation, ou en en sélectionnant une existante dans la barre "
+"latérale. Les messages directs peuvent être envoyés partout dans Odoo en "
+"utilisant l'icône de bulle dans la barre supérieure. Le statut en ligne "
+"des autres utilisateurs est affiché à gauche de leur nom. Un **point "
+"vert** indique qu'un utilisateur est en ligne, un **point orange** qu'il "
+"est inoccupé, et un **point gris** qu'il est déconnecté."
 
 #: ../../discuss/mentions.rst:28
 msgid "Desktop notifications from Discuss"
@@ -392,25 +398,25 @@ msgstr ""
 #: ../../discuss/mentions.rst:30
 msgid ""
 "You can choose to see **desktop notifications** when you receive a new "
-"direct message. The notification shows you the sender and a brief preview of"
-" the message contents. These can be configured or disabled by clicking on "
-"the gear icon in the corner of the notification.."
+"direct message. The notification shows you the sender and a brief preview"
+" of the message contents. These can be configured or disabled by clicking"
+" on the gear icon in the corner of the notification.."
 msgstr ""
 "Vous pouvez choisir d'avoir des **notifications de bureau** lorsque vous "
-"recevez un nouveau message direct. La notification indique l'expéditeur et "
-"un bref aperçu du contenu du message. Ceci peut être configuré ou désactivé "
-"en cliquant sur l'icône en forme d'engrenage dans le coin de la "
-"notification."
+"recevez un nouveau message direct. La notification indique l'expéditeur "
+"et un bref aperçu du contenu du message. Ceci peut être configuré ou "
+"désactivé en cliquant sur l'icône en forme d'engrenage dans le coin de la"
+" notification."
 
 #: ../../discuss/monitoring.rst:3
-msgid "How to be responsive at work thanks to my Odoo inbox"
+msgid "How to be responsive at work thanks to my Flectra inbox"
 msgstr ""
 
 #: ../../discuss/monitoring.rst:5
 msgid ""
 "Use the **Inbox** in Discuss app to monitor updates and progress on "
-"everything you do in Odoo. Notifications and messages from everything you "
-"follow or in which you are mentioned appear in your inbox."
+"everything you do in Flectra. Notifications and messages from everything "
+"you follow or in which you are mentioned appear in your inbox."
 msgstr ""
 
 #: ../../discuss/monitoring.rst:13
@@ -419,36 +425,37 @@ msgstr ""
 
 #: ../../discuss/monitoring.rst:18
 msgid ""
-"Marking an item with a check marks the message as **read** and removes it "
-"from your inbox. If you would like to save an item for future reference or "
-"action, mark it with a star to add it to the **Starred** box. You can star "
-"any message or notification in Discuss or any of the item-specific chatters "
-"throughout Odoo to keep tabs on it here."
+"Marking an item with a check marks the message as **read** and removes it"
+" from your inbox. If you would like to save an item for future reference "
+"or action, mark it with a star to add it to the **Starred** box. You can "
+"star any message or notification in Discuss or any of the item-specific "
+"chatters throughout Flectra to keep tabs on it here."
 msgstr ""
 
 #: ../../discuss/overview.rst:3
-msgid "Why use Odoo Discuss"
+msgid "Why use Flectra Discuss"
 msgstr ""
 
 #: ../../discuss/overview.rst:5
+#, fuzzy
 msgid ""
-"Odoo Discuss is an easy to use messaging app for teams that brings all your "
-"organization's communication into one place and seamlessly integrates with "
-"the Odoo platform. Discuss lets you send and receive messages from wherever "
-"you are in Odoo as well as manage your messages and notifications easily "
-"from within the app. Discuss allows you to create **channels** for team "
-"chats, conversations about projects, meeting coordination, and more in one "
-"simple and searchable interface."
+"Flectra Discuss is an easy to use messaging app for teams that brings all"
+" your organization's communication into one place and seamlessly "
+"integrates with the Flectra platform. Discuss lets you send and receive "
+"messages from wherever you are in Flectra as well as manage your messages"
+" and notifications easily from within the app. Discuss allows you to "
+"create **channels** for team chats, conversations about projects, meeting"
+" coordination, and more in one simple and searchable interface."
 msgstr ""
-"Odoo Discuter est une application de messagerie pour les équipes, facile à "
-"utiliser, qui concentre toutes les communications de votre organisation à un"
-" seul endroit, et est parfaitement intégrée avec la plate-forme Odoo. Odoo "
-"Discuter vous permet d'envoyer et de recevoir des messages où que vous soyez"
-" dans Odoo, et de gérer vos messages et notifications facilement au sein de "
-"l'application. Odoo Discuter vous permet de créer des **canaux** pour les "
-"bavardages de l'équipe, les conversations sur les projets, la coordination "
-"de réunion, et plus encore dans une interface simple et facilement "
-"consultable."
+"Odoo Discuter est une application de messagerie pour les équipes, facile "
+"à utiliser, qui concentre toutes les communications de votre organisation"
+" à un seul endroit, et est parfaitement intégrée avec la plate-forme "
+"Odoo. Odoo Discuter vous permet d'envoyer et de recevoir des messages où "
+"que vous soyez dans Odoo, et de gérer vos messages et notifications "
+"facilement au sein de l'application. Odoo Discuter vous permet de créer "
+"des **canaux** pour les bavardages de l'équipe, les conversations sur les"
+" projets, la coordination de réunion, et plus encore dans une interface "
+"simple et facilement consultable."
 
 #: ../../discuss/plan_activities.rst:3
 msgid "Get organized by planning activities"
@@ -456,15 +463,15 @@ msgstr ""
 
 #: ../../discuss/plan_activities.rst:5
 msgid ""
-"Planning activities is the perfect way to keep on track with your work. Get "
-"reminded of what needs to be done and schedule the next activities to "
-"undertake."
+"Planning activities is the perfect way to keep on track with your work. "
+"Get reminded of what needs to be done and schedule the next activities to"
+" undertake."
 msgstr ""
 
 #: ../../discuss/plan_activities.rst:9
 msgid ""
-"Your activities are available wherever you are in Odoo. It is easy to manage"
-" your priorities."
+"Your activities are available wherever you are in Flectra. It is easy to "
+"manage your priorities."
 msgstr ""
 
 #: ../../discuss/plan_activities.rst:15
@@ -479,9 +486,9 @@ msgstr ""
 
 #: ../../discuss/plan_activities.rst:24
 msgid ""
-"A number of generic activities types are available by default in Odoo (e.g. "
-"call, email, meeting, etc.). If you would like to set new ones, go to "
-":menuselection:`Settings --> General settings --> Activity types`."
+"A number of generic activities types are available by default in Flectra "
+"(e.g. call, email, meeting, etc.). If you would like to set new ones, go "
+"to :menuselection:`Settings --> General settings --> Activity types`."
 msgstr ""
 
 #: ../../discuss/plan_activities.rst:29
@@ -490,15 +497,15 @@ msgstr ""
 
 #: ../../discuss/plan_activities.rst:31
 msgid ""
-"Activities are planned for specific days. If you need to set hours, go with "
-"the *Meeting* activity type. When scheduling one, the calendar will simply "
-"open to let you select a time slot."
+"Activities are planned for specific days. If you need to set hours, go "
+"with the *Meeting* activity type. When scheduling one, the calendar will "
+"simply open to let you select a time slot."
 msgstr ""
 
 #: ../../discuss/plan_activities.rst:36
 msgid ""
-"If you need to use other activity types with a calendar planning, make sure "
-"their *Category* is set as *Meeting*."
+"If you need to use other activity types with a calendar planning, make "
+"sure their *Category* is set as *Meeting*."
 msgstr ""
 
 #: ../../discuss/team_communication.rst:3
@@ -507,53 +514,53 @@ msgstr ""
 
 #: ../../discuss/team_communication.rst:5
 msgid ""
-"You can use **channels** to organize discussions between individual teams, "
-"departments, projects, or any other group that requires regular "
-"communication. By having conversations that everyone in the channel can see,"
-" it's easy to keep the whole team in the loop with the latest developments."
+"You can use **channels** to organize discussions between individual "
+"teams, departments, projects, or any other group that requires regular "
+"communication. By having conversations that everyone in the channel can "
+"see, it's easy to keep the whole team in the loop with the latest "
+"developments."
 msgstr ""
 "Vous pouvez utiliser des **canaux** pour organiser des discussions entre "
-"équipes individuelles, départements, projets, ou n'importe quel autre groupe"
-" qui nécessite une communication régulière. En ayant ces conversations que "
-"chacun dans la chaîne peut consulter, il est facile de garder l'équipe "
-"entière dans la boucle sur les derniers développements."
+"équipes individuelles, départements, projets, ou n'importe quel autre "
+"groupe qui nécessite une communication régulière. En ayant ces "
+"conversations que chacun dans la chaîne peut consulter, il est facile de "
+"garder l'équipe entière dans la boucle sur les derniers développements."
 
 #: ../../discuss/team_communication.rst:12
 msgid "Creating a channel"
 msgstr ""
 
 #: ../../discuss/team_communication.rst:14
-msgid ""
-"In Discuss there are two types of channels - **public** and **private**."
+msgid "In Discuss there are two types of channels - **public** and **private**."
 msgstr "Dans Discuter il y a deux types de canaux - **public** et **privé**."
 
 #: ../../discuss/team_communication.rst:17
 msgid ""
 "A **public channel** can only be created by an administrator with write "
-"privileges and can be seen by everyone in the organization. By contrast, a "
-"**private channel** can be created by any user and by default is only "
+"privileges and can be seen by everyone in the organization. By contrast, "
+"a **private channel** can be created by any user and by default is only "
 "visible to users who have been invited to this channel."
 msgstr ""
 "Un **canal public** ne peut être créé que par un administrateur avec des "
 "privilèges d'écriture, et peut être consulté par tout le monde dans "
 "l'organisation. En revanche, un **canal privé** peut être créé par un "
-"utilisateur, et est par défaut uniquement visible par les utilisateurs qui "
-"ont été invités."
+"utilisateur, et est par défaut uniquement visible par les utilisateurs "
+"qui ont été invités."
 
 #: ../../discuss/team_communication.rst:24
 msgid ""
-"A public channel is best used when many employees need to access information"
-" (such as interdepartmental communication or company announcements), whereas"
-" a private channel should be used whenever information should be limited to "
-"specific users/employees (such as department specific or sensitive "
-"information)."
+"A public channel is best used when many employees need to access "
+"information (such as interdepartmental communication or company "
+"announcements), whereas a private channel should be used whenever "
+"information should be limited to specific users/employees (such as "
+"department specific or sensitive information)."
 msgstr ""
 "Un canal public est approprié lorsque de nombreux employés ont besoin "
-"d'accéder aux informations (telles que des communications inter-services ou "
-"des annonces de la compagnie), alors qu'un canal privé doit être utilisé "
-"chaque fois que l'information est limitée à des utilisateurs/employés "
-"spécifiques (comme un service spécifique ou des informations "
-"confidentielles)."
+"d'accéder aux informations (telles que des communications inter-services "
+"ou des annonces de la compagnie), alors qu'un canal privé doit être "
+"utilisé chaque fois que l'information est limitée à des "
+"utilisateurs/employés spécifiques (comme un service spécifique ou des "
+"informations confidentielles)."
 
 #: ../../discuss/team_communication.rst:31
 msgid "Configuring a channel"
@@ -561,23 +568,23 @@ msgstr ""
 
 #: ../../discuss/team_communication.rst:33
 msgid ""
-"You can configure a channel's name, description, access rights, automatic "
-"subscription, and emailing from :menuselection:`#channel-name --> Settings`."
-" Changing channel access rights allows you to control which groups can view "
-"each channel. You can make a channel visible by all users, invited users, or"
-" users within a selected user group. Note that allowing \"Everyone\" to "
-"follow a private channel will let other users view and join it as they would"
-" a public channel."
+"You can configure a channel's name, description, access rights, automatic"
+" subscription, and emailing from :menuselection:`#channel-name --> "
+"Settings`. Changing channel access rights allows you to control which "
+"groups can view each channel. You can make a channel visible by all "
+"users, invited users, or users within a selected user group. Note that "
+"allowing \"Everyone\" to follow a private channel will let other users "
+"view and join it as they would a public channel."
 msgstr ""
 "Vous pouvez configurer le nom d'un canal, la description, les droits "
 "d'accès, l'abonnement automatique, et l'envoi de courriels dans "
 ":menuselection:`#nom-du-canal --> Settings`. La modification des droits "
-"d'accès du canal vous permet de contrôler quels groupes peuvent voir chaque "
-"canal. Vous pouvez créer un canal visible par tous les utilisateurs, par les"
-" utilisateurs invités, ou les utilisateurs au sein d'un groupe sélectionné. "
-"Notez que permettre à \"Tout le monde\" de suivre un canal privé va "
-"permettre à d'autres utilisateurs de l'afficher et le rejoindre comme si "
-"c'était un canal public."
+"d'accès du canal vous permet de contrôler quels groupes peuvent voir "
+"chaque canal. Vous pouvez créer un canal visible par tous les "
+"utilisateurs, par les utilisateurs invités, ou les utilisateurs au sein "
+"d'un groupe sélectionné. Notez que permettre à \"Tout le monde\" de "
+"suivre un canal privé va permettre à d'autres utilisateurs de l'afficher "
+"et le rejoindre comme si c'était un canal public."
 
 #: ../../discuss/team_communication.rst:47
 msgid "How to set up a mailing list"
@@ -586,18 +593,19 @@ msgstr ""
 #: ../../discuss/team_communication.rst:49
 msgid ""
 "A channel can be configured to behave as a mailing list. From within "
-":menuselection:`#channel-name --> Settings`, define the email you would like"
-" to use. Users can then post to the channel and choose to receive "
-"notifications using the defined email address. An envelope icon will appear "
-"next to the channel name in the list to indicate that a channel will send "
-"messages by email."
+":menuselection:`#channel-name --> Settings`, define the email you would "
+"like to use. Users can then post to the channel and choose to receive "
+"notifications using the defined email address. An envelope icon will "
+"appear next to the channel name in the list to indicate that a channel "
+"will send messages by email."
 msgstr ""
-"Un canal peut être configuré pour se comporter comme une liste de diffusion."
-" Dans :menuselection:`#nom-du-canal --> Settings`, définissez l'email que "
-"vous souhaitez utiliser. Les utilisateurs peuvent ensuite poster sur le "
-"canal et choisir de recevoir des notifications en utilisant l'adresse e-mail"
-" définie. Une icône d'enveloppe apparaîtra à côté du nom du canal dans la "
-"liste, pour indiquer qu'un canal envoie des messages par courriel."
+"Un canal peut être configuré pour se comporter comme une liste de "
+"diffusion. Dans :menuselection:`#nom-du-canal --> Settings`, définissez "
+"l'email que vous souhaitez utiliser. Les utilisateurs peuvent ensuite "
+"poster sur le canal et choisir de recevoir des notifications en utilisant"
+" l'adresse e-mail définie. Une icône d'enveloppe apparaîtra à côté du nom"
+" du canal dans la liste, pour indiquer qu'un canal envoie des messages "
+"par courriel."
 
 #: ../../discuss/team_communication.rst:57
 msgid "Locating a channel"
@@ -605,24 +613,24 @@ msgstr ""
 
 #: ../../discuss/team_communication.rst:59
 msgid ""
-"If you do not see a channel on your dashboard, you can search the list of "
-"**public channels** to locate the correct channel or create a new channel by"
-" clicking the plus icon."
+"If you do not see a channel on your dashboard, you can search the list of"
+" **public channels** to locate the correct channel or create a new "
+"channel by clicking the plus icon."
 msgstr ""
 "Si vous ne voyez pas un canal sur votre tableau de bord, vous pouvez "
-"rechercher dans la liste des **canaux publics** pour le localiser, ou créer "
-"un nouveau canal en cliquant sur l'icône **+**."
+"rechercher dans la liste des **canaux publics** pour le localiser, ou "
+"créer un nouveau canal en cliquant sur l'icône **+**."
 
 #: ../../discuss/team_communication.rst:66
 msgid ""
-"You can also click the **CHANNELS** heading to browse a list of all public "
-"channels. This allows the user to manually **join** and **leave** public "
-"channels from a single screen."
+"You can also click the **CHANNELS** heading to browse a list of all "
+"public channels. This allows the user to manually **join** and **leave** "
+"public channels from a single screen."
 msgstr ""
 "Vous pouvez également cliquer sur l'entête **CANAUX** pour parcourir la "
 "liste de tous les canaux publics. Cela permet à l'utilisateur de "
-"**rejoindre** et **quitter** manuellement les canaux publics depuis un seul "
-"écran."
+"**rejoindre** et **quitter** manuellement les canaux publics depuis un "
+"seul écran."
 
 #: ../../discuss/team_communication.rst:71
 msgid ""
@@ -637,19 +645,20 @@ msgid "Using filters to navigate within Discuss"
 msgstr ""
 
 #: ../../discuss/team_communication.rst:78
+#, fuzzy
 msgid ""
-"The topbar search provides access to the same comprehensive search function "
-"present in the rest of Odoo. You can apply multiple **filter criteria** and "
-"**save filters** for later use. The search function accepts wildcards by "
-"using the underscore character \"\\ **\\_**\\ \" to represent a **single "
-"character wildcard.**"
+"The topbar search provides access to the same comprehensive search "
+"function present in the rest of Flectra. You can apply multiple **filter "
+"criteria** and **save filters** for later use. The search function "
+"accepts wildcards by using the underscore character \"\\ **\\_**\\ \" to "
+"represent a **single character wildcard.**"
 msgstr ""
 "La barre de recherche en haut permet d'accéder à la même fonction de "
 "recherche que dans le reste d'Odoo. Vous pouvez appliquer plusieurs "
-"**critères de filtre** et **enregistrer des filtres** pour une utilisation "
-"ultérieure. La fonction de recherche accepte le caractère de soulignement "
-"\"\\ **\\_**\\ \" comme joker pour représenter un **caractère générique "
-"unique**."
+"**critères de filtre** et **enregistrer des filtres** pour une "
+"utilisation ultérieure. La fonction de recherche accepte le caractère de "
+"soulignement \"\\ **\\_**\\ \" comme joker pour représenter un "
+"**caractère générique unique**."
 
 #: ../../discuss/tracking.rst:3
 msgid "How to follow a discussion thread and define what I want to hear about"
@@ -661,8 +670,8 @@ msgstr ""
 
 #: ../../discuss/tracking.rst:7
 msgid ""
-"You can keep track of virtually any business object in Odoo (an opportunity,"
-" a quotation, a task, etc.), by **following** it."
+"You can keep track of virtually any business object in Flectra (an "
+"opportunity, a quotation, a task, etc.), by **following** it."
 msgstr ""
 
 #: ../../discuss/tracking.rst:14
@@ -672,8 +681,8 @@ msgstr ""
 #: ../../discuss/tracking.rst:15
 msgid ""
 "You can choose which types of events you want to be notified about. The "
-"example below shows the options available when following a **task** in the "
-"**Project** app."
+"example below shows the options available when following a **task** in "
+"the **Project** app."
 msgstr ""
 
 #: ../../discuss/tracking.rst:23
@@ -682,13 +691,13 @@ msgstr ""
 
 #: ../../discuss/tracking.rst:24
 msgid ""
-"You can invite other users and add channels as followers. Adding a channel "
-"as a follower will send messages posted in the chatter to the channel with a"
-" link back to the original document."
+"You can invite other users and add channels as followers. Adding a "
+"channel as a follower will send messages posted in the chatter to the "
+"channel with a link back to the original document."
 msgstr ""
 "Vous pouvez inviter d'autres utilisateurs et ajouter des canaux comme "
-"abonnés. L'ajout d'un canal comme abonné enverra des messages postés dans le"
-" bavardage du canal, avec un lien vers le document original."
+"abonnés. L'ajout d'un canal comme abonné enverra des messages postés dans"
+" le bavardage du canal, avec un lien vers le document original."
 
 #: ../../discuss/tracking.rst:34
 msgid "How to be a default follower"
@@ -696,15 +705,329 @@ msgstr ""
 
 #: ../../discuss/tracking.rst:35
 msgid ""
-"You are automatically set as a default follower of any item you create. In "
-"some applications like CRM and Project, you can be a default follower of any"
-" new record created to get notified of specific events (e.g. a new task "
-"created, an opportunity won)."
+"You are automatically set as a default follower of any item you create. "
+"In some applications like CRM and Project, you can be a default follower "
+"of any new record created to get notified of specific events (e.g. a new "
+"task created, an opportunity won)."
 msgstr ""
 
 #: ../../discuss/tracking.rst:40
 msgid ""
-"To do so, start following the parent business object (e.g. the sales channel"
-" in CRM, the project in Project). Then, choose the events you want to hear "
-"about."
+"To do so, start following the parent business object (e.g. the sales "
+"channel in CRM, the project in Project). Then, choose the events you want"
+" to hear about."
 msgstr ""
+
+#~ msgid "How to use my mail server to send and receive emails in Odoo"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is mainly dedicated to "
+#~ "Odoo on-premise users who don't "
+#~ "benefit from an out-of-the-box "
+#~ "solution to send and receive emails "
+#~ "in Odoo, unlike in `Odoo Online "
+#~ "<https://www.odoo.com/trial>`__ & `Odoo.sh "
+#~ "<https://www.odoo.sh>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If no one in your company is "
+#~ "used to manage email servers, we "
+#~ "strongly recommend that you opt for "
+#~ "such convenient Odoo hosting solutions. "
+#~ "Indeed their email system works "
+#~ "instantly and is monitored by "
+#~ "professionals. Nevertheless you can still "
+#~ "use your own email servers if you"
+#~ " want to manage your email server's"
+#~ " reputation yourself."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You will find here below some "
+#~ "useful information to do so by "
+#~ "integrating your own email solution with"
+#~ " Odoo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use an Office 365 server"
+#~ " if you run Odoo on-premise. "
+#~ "Office 365 SMTP relays are not "
+#~ "compatible with Odoo Online."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please refer to `Microsoft's documentation "
+#~ "<https://support.office.com/en-us/article/How-to-"
+#~ "set-up-a-multifunction-device-or-application-"
+#~ "to-send-email-using-"
+#~ "Office-365-69f58e99-c550-4274-ad18-c805d654b4c4>`__ to "
+#~ "configure a SMTP relay for your "
+#~ "Odoo's IP address."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use an G Suite server "
+#~ "for any Odoo hosting type. To do"
+#~ " so you need to enable a SMTP"
+#~ " relay and to allow *Any addresses*"
+#~ " in the *Allowed senders* section. "
+#~ "The configuration steps are explained in"
+#~ " `Google documentation "
+#~ "<https://support.google.com/a/answer/2956491?hl=en>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case you use SPF (Sender Policy"
+#~ " Framework) to increase the deliverability"
+#~ " of your outgoing emails, don't "
+#~ "forget to authorize Odoo as a "
+#~ "sending host in your domain name "
+#~ "settings. Here is the configuration for"
+#~ " Odoo Online:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If no TXT record is set for "
+#~ "SPF, create one with following "
+#~ "definition: v=spf1 include:_spf.odoo.com ~all"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case a SPF TXT record is "
+#~ "already set, add \"include:_spf.odoo.com\". "
+#~ "e.g. for a domain name that sends"
+#~ " emails via Odoo Online and via "
+#~ "G Suite it could be: v=spf1 "
+#~ "include:_spf.odoo.com include:_spf.google.com ~all"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adding more than one SPF record "
+#~ "for a domain can cause problems "
+#~ "with mail delivery and spam "
+#~ "classification. Instead, we recommend using"
+#~ " only one SPF record by modifying "
+#~ "it to authorize Odoo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You should do the same thing if"
+#~ " DKIM (Domain Keys Identified Mail) "
+#~ "is enabled on your email server. "
+#~ "In the case of Odoo Online & "
+#~ "Odoo.sh, you should add a DNS "
+#~ "\"odoo._domainkey\" CNAME record to "
+#~ "\"odoo._domainkey.odoo.com\". For example, for "
+#~ "\"foo.com\" they should have a record"
+#~ " \"odoo._domainkey.foo.com\" that is a "
+#~ "CNAME with the value "
+#~ "\"odoo._domainkey.odoo.com\"."
+#~ msgstr ""
+
+#~ msgid "Odoo relies on generic email aliases to fetch incoming messages."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Reply messages** of messages sent from"
+#~ " Odoo are routed to their original"
+#~ " discussion thread (and to the inbox"
+#~ " of all its followers) by the "
+#~ "catchall alias (**catchall@**)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Bounced messages** are routed to "
+#~ "**bounce@** in order to track them "
+#~ "in Odoo. This is especially used "
+#~ "in `Odoo Email Marketing "
+#~ "<https://www.odoo.com/page/email-marketing>`__ to "
+#~ "opt-out invalid recipients."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Original messages**: Several business "
+#~ "objects have their own alias to "
+#~ "create new records in Odoo from "
+#~ "incoming emails:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sales Channel (to create Leads or "
+#~ "Opportunities in `Odoo CRM "
+#~ "<https://www.odoo.com/page/crm>`__),"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Support Channel (to create Tickets in"
+#~ " `Odoo Helpdesk "
+#~ "<https://www.odoo.com/page/helpdesk>`__),"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Projects (to create new Tasks in "
+#~ "`Odoo Project <https://www.odoo.com/page/project-"
+#~ "management>`__),"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Job Positions (to create Applicants in"
+#~ " `Odoo Recruitment "
+#~ "<https://www.odoo.com/page/recruitment>`__),"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Depending on your mail server, there "
+#~ "might be several methods to fetch "
+#~ "emails. The easiest and most recommended"
+#~ " method is to manage one email "
+#~ "address per Odoo alias in your "
+#~ "mail server."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create the corresponding email addresses "
+#~ "in your mail server (catcall@, bounce@,"
+#~ " sales@, etc.)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you use Odoo on-premise, create"
+#~ " an *Incoming Mail Server* in Odoo"
+#~ " for each alias. You can do it"
+#~ " from the General Settings as well."
+#~ " Fill out the form according to "
+#~ "your email provider’s settings. Leave "
+#~ "the *Actions to Perform on Incoming "
+#~ "Mails* blank. Once all the information"
+#~ " has been filled out, click on "
+#~ "*TEST & CONFIRM*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you use Odoo Online or Odoo.sh,"
+#~ " We do recommend to redirect incoming"
+#~ " messages to Odoo's domain name "
+#~ "rather than exclusively use your own "
+#~ "email server. That way you will "
+#~ "receive incoming messages without delay. "
+#~ "Indeed, Odoo Online is fetching incoming"
+#~ " messages of external servers once "
+#~ "per hour only. You should set "
+#~ "redirections for all the email addresses"
+#~ " to Odoo's domain name in your "
+#~ "email server (e.g. *catchall@mydomain.ext* to"
+#~ " *catchall@mycompany.odoo.com*)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All the aliases are customizable in "
+#~ "Odoo. Object aliases can be edited "
+#~ "from their  respective configuration view. "
+#~ "To edit catchall and bounce aliases, "
+#~ "you first need to activate the "
+#~ "developer mode from the Settings "
+#~ "Dashboard."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By default inbound messages are fetched"
+#~ " every 5 minutes in Odoo on-"
+#~ "premise. You can change this value "
+#~ "in developer mode. Go to "
+#~ ":menuselection:`Settings --> Technical --> "
+#~ "Automation --> Scheduled Actions` and "
+#~ "look for *Mail: Fetchmail Service*."
+#~ msgstr ""
+
+#~ msgid "How to follow Twitter feed from Odoo"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can follow specific hashtags on "
+#~ "Twitter and see the tweets within "
+#~ "the Odoo Discuss channels of your "
+#~ "choice. The tweets are retrieved "
+#~ "periodically from Twitter. An authenticated"
+#~ " user can retweet the messages."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Twitter uses an \"App\" on its "
+#~ "side which is opens a gate to "
+#~ "which Odoo asks for tweets, and "
+#~ "through which a user can retweet. "
+#~ "To set up this app, go to "
+#~ "http://apps.twitter.com/app/new and put in the"
+#~ " values:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Website: this is the external url "
+#~ "of your Odoo database, with \"/web\" "
+#~ "added. For example, if your Odoo "
+#~ "instance is hosted at "
+#~ "\"http://www.example.com\", you should put "
+#~ "\"http://www.example.com/web\" in this field."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "And copy those values in Odoo in"
+#~ " :menuselection:`Settings--> General Settings--> "
+#~ "Twitter discuss integration` and click "
+#~ "on **Save** to save the settings."
+#~ msgstr ""
+
+#~ msgid "How to be responsive at work thanks to my Odoo inbox"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the **Inbox** in Discuss app "
+#~ "to monitor updates and progress on "
+#~ "everything you do in Odoo. Notifications"
+#~ " and messages from everything you "
+#~ "follow or in which you are "
+#~ "mentioned appear in your inbox."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Marking an item with a check marks"
+#~ " the message as **read** and removes"
+#~ " it from your inbox. If you "
+#~ "would like to save an item for "
+#~ "future reference or action, mark it "
+#~ "with a star to add it to the"
+#~ " **Starred** box. You can star any"
+#~ " message or notification in Discuss "
+#~ "or any of the item-specific "
+#~ "chatters throughout Odoo to keep tabs"
+#~ " on it here."
+#~ msgstr ""
+
+#~ msgid "Why use Odoo Discuss"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your activities are available wherever "
+#~ "you are in Odoo. It is easy "
+#~ "to manage your priorities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A number of generic activities types "
+#~ "are available by default in Odoo "
+#~ "(e.g. call, email, meeting, etc.). If"
+#~ " you would like to set new "
+#~ "ones, go to :menuselection:`Settings --> "
+#~ "General settings --> Activity types`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can keep track of virtually "
+#~ "any business object in Odoo (an "
+#~ "opportunity, a quotation, a task, etc.),"
+#~ " by **following** it."
+#~ msgstr ""
+

@@ -1,22 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# This file is distributed under the same license as the Odoo Business
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Business 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-08 14:28+0100\n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: e2f <projects@e2f.com>, 2018\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../point_of_sale.rst:5
 msgid "Point of Sale"
@@ -35,7 +37,7 @@ msgid "This tutorial will describe how to use discount tags on products."
 msgstr "Ce tutoriel décrit comment utiliser les réductions sur les produits."
 
 #: ../../point_of_sale/advanced/discount_tags.rst:8
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Barcode Nomenclature"
 msgstr "Nomenclature de code-barre"
 
@@ -59,9 +61,9 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/discount_tags.rst:26
 msgid ""
-"For instance if you want ``50%`` discount on a product you have to start you"
-" barcode with ``2250`` and then add the product barcode. In our example, the"
-" barcode will be:"
+"For instance if you want ``50%`` discount on a product you have to start "
+"you barcode with ``2250`` and then add the product barcode. In our "
+"example, the barcode will be:"
 msgstr ""
 
 #: ../../point_of_sale/advanced/discount_tags.rst:34
@@ -95,17 +97,16 @@ msgid ""
 msgstr ""
 
 #: ../../point_of_sale/advanced/discount_tags.rst:58
-msgid "That's it, this how you can use discount tag on products with Odoo."
-msgstr ""
+#, fuzzy
+msgid "That's it, this how you can use discount tag on products with Flectra."
+msgstr "Comment utiliser des codes de réduction sur les produits?"
 
 #: ../../point_of_sale/advanced/discount_tags.rst:61
-#: ../../point_of_sale/advanced/loyalty.rst:114
 #: ../../point_of_sale/advanced/manual_discount.rst:83
 #: ../../point_of_sale/advanced/mercury.rst:94
 #: ../../point_of_sale/advanced/multi_cashiers.rst:171
 #: ../../point_of_sale/advanced/register.rst:57
-#: ../../point_of_sale/advanced/reprint.rst:35
-#: ../../point_of_sale/overview/start.rst:155
+#: ../../point_of_sale/overview/start.rst:145
 #: ../../point_of_sale/restaurant/print.rst:69
 #: ../../point_of_sale/restaurant/split.rst:81
 #: ../../point_of_sale/restaurant/tips.rst:43
@@ -114,13 +115,11 @@ msgid ":doc:`../shop/cash_control`"
 msgstr ""
 
 #: ../../point_of_sale/advanced/discount_tags.rst:62
-#: ../../point_of_sale/advanced/loyalty.rst:115
 #: ../../point_of_sale/advanced/manual_discount.rst:84
 #: ../../point_of_sale/advanced/mercury.rst:95
 #: ../../point_of_sale/advanced/multi_cashiers.rst:172
 #: ../../point_of_sale/advanced/register.rst:58
-#: ../../point_of_sale/advanced/reprint.rst:36
-#: ../../point_of_sale/overview/start.rst:156
+#: ../../point_of_sale/overview/start.rst:146
 #: ../../point_of_sale/restaurant/print.rst:70
 #: ../../point_of_sale/restaurant/split.rst:82
 #: ../../point_of_sale/restaurant/tips.rst:44
@@ -129,13 +128,11 @@ msgid ":doc:`../shop/invoice`"
 msgstr ""
 
 #: ../../point_of_sale/advanced/discount_tags.rst:63
-#: ../../point_of_sale/advanced/loyalty.rst:116
 #: ../../point_of_sale/advanced/manual_discount.rst:85
 #: ../../point_of_sale/advanced/mercury.rst:96
 #: ../../point_of_sale/advanced/multi_cashiers.rst:173
 #: ../../point_of_sale/advanced/register.rst:59
-#: ../../point_of_sale/advanced/reprint.rst:37
-#: ../../point_of_sale/overview/start.rst:157
+#: ../../point_of_sale/overview/start.rst:147
 #: ../../point_of_sale/restaurant/print.rst:71
 #: ../../point_of_sale/restaurant/split.rst:83
 #: ../../point_of_sale/restaurant/tips.rst:45
@@ -144,170 +141,16 @@ msgid ":doc:`../shop/refund`"
 msgstr ""
 
 #: ../../point_of_sale/advanced/discount_tags.rst:64
-#: ../../point_of_sale/advanced/loyalty.rst:117
 #: ../../point_of_sale/advanced/manual_discount.rst:86
 #: ../../point_of_sale/advanced/mercury.rst:97
 #: ../../point_of_sale/advanced/multi_cashiers.rst:174
 #: ../../point_of_sale/advanced/register.rst:60
-#: ../../point_of_sale/advanced/reprint.rst:38
-#: ../../point_of_sale/overview/start.rst:158
+#: ../../point_of_sale/overview/start.rst:148
 #: ../../point_of_sale/restaurant/print.rst:72
 #: ../../point_of_sale/restaurant/split.rst:84
 #: ../../point_of_sale/restaurant/tips.rst:46
 #: ../../point_of_sale/restaurant/transfer.rst:38
 msgid ":doc:`../shop/seasonal_discount`"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:3
-msgid "How to create & run a loyalty & reward system"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:6
-#: ../../point_of_sale/advanced/manual_discount.rst:41
-#: ../../point_of_sale/advanced/multi_cashiers.rst:37
-#: ../../point_of_sale/advanced/multi_cashiers.rst:88
-#: ../../point_of_sale/advanced/reprint.rst:6
-#: ../../point_of_sale/overview/start.rst:22
-#: ../../point_of_sale/restaurant/print.rst:6
-#: ../../point_of_sale/restaurant/split.rst:6
-#: ../../point_of_sale/restaurant/tips.rst:6
-#: ../../point_of_sale/shop/seasonal_discount.rst:6
-msgid "Configuration"
-msgstr "Configuration"
-
-#: ../../point_of_sale/advanced/loyalty.rst:8
-msgid ""
-"In the **Point of Sale** application, go to :menuselection:`Configuration "
-"--> Settings`."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:14
-msgid ""
-"You can tick **Manage loyalty program with point and reward for customers**."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:21
-msgid "Create a loyalty program"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:23
-msgid ""
-"After you apply, go to :menuselection:`Configuration --> Loyalty Programs` "
-"and click on **Create**."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:29
-msgid ""
-"Set a **name** and an **amount** of points given **by currency**, **by "
-"order** or **by product**. Extra rules can also be added such as **extra "
-"points** on a product."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:33
-msgid "To do this click on **Add an item** under **Rules**."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:38
-msgid "You can configure any rule by setting some configuration values."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:40
-msgid "**Name**: An internal identification for this loyalty program rule"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:41
-msgid "**Type**: Does this rule affects products, or a category of products?"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:42
-msgid "**Target Product**: The product affected by the rule"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:43
-msgid "**Target Category**: The category affected by the rule"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:44
-msgid ""
-"**Cumulative**: The points won from this rule will be won in addition to "
-"other rules"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:45
-msgid ""
-"**Points per product**: How many points the product will earn per product "
-"ordered"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:46
-msgid ""
-"**Points per currency**: How many points the product will earn per value "
-"sold"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:51
-msgid ""
-"Your new rule is now created and rewards can be added by clicking on **Add "
-"an Item** under **Rewards**."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:57
-msgid "Three types of reward can be given:"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:59
-msgid ""
-"**Resale**: convert your points into money. Set a product that represents "
-"the value of 1 point."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:64
-msgid ""
-"**Discount**: give a discount for an amount of points. Set a product with a "
-"price of ``0 €`` and without any taxes."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:69
-msgid "**Gift**: give a gift for an amount of points"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:77
-msgid "Applying your loyalty program to a point of sale"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:79
-msgid "On the **Dashboard**, click on :menuselection:`More --> Settings`."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:84
-msgid "Next to loyalty program, set the program you want to set."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:90
-msgid "Gathering and consuming points"
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:92
-msgid "To start gathering points you need to set a customer on the order."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:94
-msgid "Click on **Customer** and select the right one."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:96
-msgid "Loyalty points will appear on screen."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:101
-msgid ""
-"The next time the customer comes to your shop and has enough points to get a"
-" reward, the **Rewards** button is highlighted and gifts can be given."
-msgstr ""
-
-#: ../../point_of_sale/advanced/loyalty.rst:108
-msgid ""
-"The reward is added and of course points are subtracted from the total."
 msgstr ""
 
 #: ../../point_of_sale/advanced/manual_discount.rst:3
@@ -322,8 +165,9 @@ msgstr "Vue d'ensemble"
 
 #: ../../point_of_sale/advanced/manual_discount.rst:8
 msgid ""
-"You can apply manual discounts in two different ways. You can directly set a"
-" discount on the product or you can set a global discount on the whole cart."
+"You can apply manual discounts in two different ways. You can directly "
+"set a discount on the product or you can set a global discount on the "
+"whole cart."
 msgstr ""
 
 #: ../../point_of_sale/advanced/manual_discount.rst:13
@@ -343,9 +187,10 @@ msgstr ""
 #: ../../point_of_sale/advanced/mercury.rst:76
 #: ../../point_of_sale/shop/cash_control.rst:53
 msgid ""
-"On the right you can see the list of your products with the categories on "
-"the top. If you click on a product, it will be added in the cart. You can "
-"directly set the correct quantity or weight by typing it on the keyboard."
+"On the right you can see the list of your products with the categories on"
+" the top. If you click on a product, it will be added in the cart. You "
+"can directly set the correct quantity or weight by typing it on the "
+"keyboard."
 msgstr ""
 
 #: ../../point_of_sale/advanced/manual_discount.rst:30
@@ -359,27 +204,39 @@ msgstr ""
 msgid "Global discount"
 msgstr ""
 
+#: ../../point_of_sale/advanced/manual_discount.rst:41
+#: ../../point_of_sale/advanced/multi_cashiers.rst:37
+#: ../../point_of_sale/advanced/multi_cashiers.rst:88
+#: ../../point_of_sale/overview/start.rst:22
+#: ../../point_of_sale/restaurant/print.rst:6
+#: ../../point_of_sale/restaurant/split.rst:6
+#: ../../point_of_sale/restaurant/tips.rst:6
+#: ../../point_of_sale/shop/seasonal_discount.rst:6
+msgid "Configuration"
+msgstr "Configuration"
+
 #: ../../point_of_sale/advanced/manual_discount.rst:43
 msgid ""
 "If you want to set a global discount, you need to go to "
-":menuselection:`Configuration --> Settings` and tick **Allow global "
-"discounts**"
+":menuselection:`Configuration --> Settings` and tick **Global discounts**"
+" and click on **Save**."
 msgstr ""
 
 #: ../../point_of_sale/advanced/manual_discount.rst:50
-msgid "Then from the dashboard, click on :menuselection:`More --> Settings`"
+msgid "Then from the dashboard, click on :menuselection:`... --> Settings`"
 msgstr ""
 
 #: ../../point_of_sale/advanced/manual_discount.rst:55
 msgid ""
-"You have to activate **Order Discounts** and create a product that will be "
-"added as a product with a negative price to deduct the discount."
+"You have to activate **Global Discounts** and create a product that will "
+"be added as a product with a negative price to deduct the discount."
 msgstr ""
 
 #: ../../point_of_sale/advanced/manual_discount.rst:61
 msgid ""
-"On the product used to create the discount, set the price to ``0`` and do "
-"not forget to remove all the **taxes**, that can make the calculation wrong."
+"On the product used to create the discount, set the price to ``0`` and do"
+" not forget to remove all the **taxes**, that can make the calculation "
+"wrong."
 msgstr ""
 
 #: ../../point_of_sale/advanced/manual_discount.rst:68
@@ -388,30 +245,31 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/manual_discount.rst:70
 msgid ""
-"Now when you come back to the **dashboard** and start a **new session**, a "
-"**Discount** button appears and by clicking on it you can set a "
+"Now when you come back to the **dashboard** and start a **new session**, "
+"a **Discount** button appears and by clicking on it you can set a "
 "**discount**."
 msgstr ""
 
 #: ../../point_of_sale/advanced/manual_discount.rst:76
 msgid ""
-"When it's validated, the discount line appears on the order and you can now "
-"process to the payment."
+"When it's validated, the discount line appears on the order and you can "
+"now process to the payment."
 msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:3
-msgid "How to accept credit card payments in Odoo POS using Mercury?"
+msgid "How to accept credit card payments in Flectra POS using Mercury?"
 msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:8
 msgid ""
 "A **MercuryPay** account (see `MercuryPay website "
-"<https://www.mercurypay.com>`__.) is required to accept credit card payments"
-" in Odoo 9 POS with an integrated card reader. MercuryPay only operates with"
-" US and Canadian banks making this procedure only suitable for North "
-"American businesses. An alternative to an integrated card reader is to work "
-"with a standalone card reader, copy the transaction total from the Odoo POS "
-"screen into the card reader, and record the transaction in Odoo POS."
+"<https://www.mercurypay.com>`__.) is required to accept credit card "
+"payments in Flectra POS with an integrated card reader. MercuryPay only "
+"operates with US and Canadian banks making this procedure only suitable "
+"for North American businesses. An alternative to an integrated card "
+"reader is to work with a standalone card reader, copy the transaction "
+"total from the Flectra POS screen into the card reader, and record the "
+"transaction in Flectra POS."
 msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:18
@@ -419,8 +277,7 @@ msgid "Module installation"
 msgstr "Installation du module"
 
 #: ../../point_of_sale/advanced/mercury.rst:20
-msgid ""
-"Go to **Apps** and install the **Mercury Payment Services** application."
+msgid "Go to **Apps** and install the **Mercury Payment Services** application."
 msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:26
@@ -429,8 +286,9 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:28
 msgid ""
-"In the **Point of Sale** application, click on :menuselection:`Configuration"
-" --> Mercury Configurations` and then on **Create**."
+"In the **Point of Sale** application, click on "
+":menuselection:`Configuration --> Mercury Configurations` and then on "
+"**Create**."
 msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:35
@@ -439,20 +297,21 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:40
 msgid ""
-"Then go to :menuselection:`Configuration --> Payment methods` and click on "
-"**Create**. Under the **Point of Sale** tab you can set a **Mercury "
+"Then go to :menuselection:`Configuration --> Payment methods` and click "
+"on **Create**. Under the **Point of Sale** tab you can set a **Mercury "
 "configuration** to the **Payment method**."
 msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:47
 msgid ""
-"Finally, go to :menuselection:`Configuration --> Point of Sale` and add a "
-"new payment method on the point of sale by editing it."
+"Finally, go to :menuselection:`Configuration --> Point of Sale` and add a"
+" new payment method on the point of sale by editing it."
 msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:54
 msgid ""
-"Then select the payment method corresponding to your mercury configuration."
+"Then select the payment method corresponding to your mercury "
+"configuration."
 msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:60
@@ -469,11 +328,16 @@ msgid ""
 "On the dashboard, you can see your point(s) of sales, click on **New "
 "Session**:"
 msgstr ""
-"Sur le ''dashboard'' (table de contenu), Vous pouvez voir vos vente, en cliquant sur ''New Session'' (=''Nouvelle Session'').\n"
-"Il arrive parfois que Vos employes devront gaspiller leur argent quand ils travaillent sur un projet pour Votre client. Prenons l'exemple d'un employe qui paie pour parking pour une rencontre avec Votre client. Comme societe, nous voudrions pouvoir facturer cette somme depensee au client. "
+"Sur le ''dashboard'' (table de contenu), Vous pouvez voir vos vente, en "
+"cliquant sur ''New Session'' (=''Nouvelle Session'').\n"
+"Il arrive parfois que Vos employes devront gaspiller leur argent quand "
+"ils travaillent sur un projet pour Votre client. Prenons l'exemple d'un "
+"employe qui paie pour parking pour une rencontre avec Votre client. Comme"
+" societe, nous voudrions pouvoir facturer cette somme depensee au client."
+" "
 
 #: ../../point_of_sale/advanced/mercury.rst:71
-#: ../../point_of_sale/overview/start.rst:114
+#: ../../point_of_sale/overview/start.rst:107
 msgid "You will get the main point of sale interface:"
 msgstr ""
 
@@ -483,14 +347,14 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:84
 msgid ""
-"Once the order is completed, click on **Payment**. You can choose the credit"
-" card **Payment Method**."
+"Once the order is completed, click on **Payment**. You can choose the "
+"credit card **Payment Method**."
 msgstr ""
 
 #: ../../point_of_sale/advanced/mercury.rst:90
 msgid ""
-"Type in the **Amount** to be paid with the credit card. Now you can swipe "
-"the card and validate the payment."
+"Type in the **Amount** to be paid with the credit card. Now you can swipe"
+" the card and validate the payment."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:3
@@ -499,8 +363,8 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:5
 msgid ""
-"This tutorial will describe how to manage multiple cashiers. There are four "
-"differents ways to manage several cashiers."
+"This tutorial will describe how to manage multiple cashiers. There are "
+"four differents ways to manage several cashiers."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:9
@@ -510,8 +374,8 @@ msgstr ""
 #: ../../point_of_sale/advanced/multi_cashiers.rst:11
 msgid ""
 "As prerequisite, you just need to have a second user with the **Point of "
-"Sale User** rights (Under the :menuselection:`General Settings --> Users` "
-"menu). On the **Dashboard** click on **New Session** as the main user."
+"Sale User** rights (Under the :menuselection:`General Settings --> Users`"
+" menu). On the **Dashboard** click on **New Session** as the main user."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:18
@@ -525,8 +389,7 @@ msgid "And switch to another cashier."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:28
-msgid ""
-"The name on the top has changed which means you have changed the cashier."
+msgid "The name on the top has changed which means you have changed the cashier."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:34
@@ -535,8 +398,8 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:39
 msgid ""
-"If you want your cashiers to need a pin code to be able to use it, you can "
-"set it up in by clicking on **Settings**."
+"If you want your cashiers to need a pin code to be able to use it, you "
+"can set it up in by clicking on **Settings**."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:45
@@ -545,8 +408,8 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:50
 msgid ""
-"**Edit** the cashier and add a security pin code on the **Point of Sale** "
-"tab."
+"**Edit** the cashier and add a security pin code on the **Point of Sale**"
+" tab."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:57
@@ -563,8 +426,7 @@ msgid "Choose your **cashier**:"
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:74
-msgid ""
-"You will have to insert the user's **pin code** to be able to continue."
+msgid "You will have to insert the user's **pin code** to be able to continue."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:79
@@ -586,16 +448,15 @@ msgid "Then click on **Manage access rights**"
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:101
-msgid ""
-"**Edit** the cashier and add a **security pin code** on the **Point of "
-"Sale** tab."
+msgid "**Edit** the cashier and add a **Barcode** on the **Point of Sale** tab."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:108
 msgid ""
-"Be careful of the barcode nomenclature, the default one forced you to use a "
-"barcode starting with ``041`` for cashier barcodes. To change that go to "
-":menuselection:`Point of Sale --> Configuration --> Barcode Nomenclatures`."
+"Be careful of the barcode nomenclature, the default one forced you to use"
+" a barcode starting with ``041`` for cashier barcodes. To change that go "
+"to :menuselection:`Point of Sale --> Configuration --> Barcode "
+"Nomenclatures`."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:116
@@ -613,14 +474,13 @@ msgid "Assign session to a user"
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:134
-msgid ""
-"Click on the menu :menuselection:`Point of Sale --> Orders --> Sessions`."
+msgid "Click on the menu :menuselection:`Point of Sale --> Orders --> Sessions`."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:139
 msgid ""
-"Then, click on **New** and assign as **Responsible** the correct cashier to "
-"the point of sale."
+"Then, click on **New** and assign as **Responsible** the correct cashier "
+"to the point of sale."
 msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:145
@@ -643,8 +503,8 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/multi_cashiers.rst:164
 msgid ""
-"**Edit** the cashier and add a **Default Point of Sale** under the **Point "
-"of Sale** tab."
+"**Edit** the cashier and add a **Default Point of Sale** under the "
+"**Point of Sale** tab."
 msgstr ""
 
 #: ../../point_of_sale/advanced/register.rst:3
@@ -664,9 +524,9 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/register.rst:18
 msgid ""
-"On the right you can see the list of your products with the categories on "
-"the top. If you click on a product, it will be added in the cart. You can "
-"directly set the quantity or weight by typing it on the keyboard."
+"On the right you can see the list of your products with the categories on"
+" the top. If you click on a product, it will be added in the cart. You "
+"can directly set the quantity or weight by typing it on the keyboard."
 msgstr ""
 
 #: ../../point_of_sale/advanced/register.rst:23
@@ -697,41 +557,6 @@ msgstr ""
 
 #: ../../point_of_sale/advanced/register.rst:51
 msgid "The customer is now set on the order."
-msgstr ""
-
-#: ../../point_of_sale/advanced/reprint.rst:3
-msgid "How to reprint receipts?"
-msgstr ""
-
-#: ../../point_of_sale/advanced/reprint.rst:8
-msgid "This feature requires a POSBox and a receipt printer."
-msgstr ""
-
-#: ../../point_of_sale/advanced/reprint.rst:10
-msgid ""
-"If you want to allow a cashier to reprint a ticket, go to "
-":menuselection:`Configuration --> Settings` and tick the option **Allow "
-"cashier to reprint receipts**."
-msgstr ""
-
-#: ../../point_of_sale/advanced/reprint.rst:17
-msgid ""
-"You also need to allow the reprinting on the point of sale. Go to "
-":menuselection:`Configuration --> Point of Sale`, open the one you want to "
-"configure and and tick the option **Reprinting**."
-msgstr ""
-
-#: ../../point_of_sale/advanced/reprint.rst:25
-msgid "How to reprint a receipt?"
-msgstr ""
-
-#: ../../point_of_sale/advanced/reprint.rst:27
-msgid ""
-"In the Point of Sale interface click on the **Reprint Receipt** button."
-msgstr ""
-
-#: ../../point_of_sale/advanced/reprint.rst:32
-msgid "The last printed receipt will be printed again."
 msgstr ""
 
 #: ../../point_of_sale/analyze.rst:3
@@ -778,155 +603,12 @@ msgstr ""
 
 #: ../../point_of_sale/analyze/statistics.rst:35
 msgid ""
-"Choose the dates. Select the cashiers by clicking on **Add an item**. Then "
-"click on **Print Report**."
+"Choose the dates. Select the cashiers by clicking on **Add an item**. "
+"Then click on **Print Report**."
 msgstr ""
 
 #: ../../point_of_sale/analyze/statistics.rst:41
 msgid "You will get a full report in a PDF file. Here is an example :"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm.rst:3
-msgid "Belgian Fiscal Data Module"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:3
-msgid "Setting up the Fiscal Data Module with the Odoo POS"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:6
-msgid "Introduction"
-msgstr "Introduction"
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:8
-msgid ""
-"The Belgian government requires certain businesses to use a government-"
-"certified device called a **Fiscal Data Module** (also known as a "
-"**blackbox**). This device works together with the POS application and logs "
-"certain transactions. On top of that, the used POS application must also be "
-"certified by the government and must adhere to strict standards specified by"
-" them. `Odoo 9 (Enterprise Edition) is a certified application "
-"<http://www.systemedecaisseenregistreuse.be/systemes-certifies>`_. More "
-"information concerning the Fiscal Data Module can be found on `the official "
-"website <http://www.systemedecaisseenregistreuse.be/>`_."
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:20
-msgid "Required hardware"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:22
-msgid ""
-"A government certified `Fiscal Data Module "
-"<http://www.systemedecaisseenregistreuse.be/systemes-"
-"certifies#FDM%20certifiés>`_ per POS, all of them should work, but the "
-"Cleancash SC-B is recommended, you will also need:"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:27
-msgid ""
-"Serial null modem cable per FDM (`example <http://www.startech.com/Cables"
-"/Serial-Parallel-PS-2/DB9-DB25/10-ft-Cross-Wired-Serial-Null-Modem-Cable-"
-"DB9-FM~SCNM9FM>`__)"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:29
-msgid ""
-"Serial-to-USB adapter per FDM (`example "
-"<http://trendnet.com/products/proddetail.asp?prod=265_TU-S9>`__)"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:32
-msgid "A registered POSBox per POS configuration"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:35
-msgid "Setup"
-msgstr "Configuration"
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:38
-msgid "POSBox"
-msgstr "POSBox"
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:40
-msgid ""
-"In order to use a Fiscal Data Module, you will need a registered POSBox. "
-"These POSBoxes are similar to the regular POSBoxes we sell, but they are "
-"registered with the Belgian government. This is required by law. Attempting "
-"to use a Fiscal Data Module on a non-registered POSBox will not work. You "
-"can verify that the Fiscal Data Module is recognized by the POSBox by going "
-"to the *Hardware status page* via the POSBox homepage."
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:52
-msgid "Odoo"
-msgstr "Odoo"
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:54
-msgid ""
-"An Odoo POS app can be given certified POS capabilities by installing the "
-"**Belgian Registered Cash Register** app (technical name: "
-"``pos_blackbox_be``). Because of government restrictions imposed on us, this"
-" installation cannot be undone. After this, you will have to ensure that "
-"each POS configuration has a unique registered POSBox associated with it "
-"(:menuselection:`Point of Sale --> Configuration --> Point of Sale` and "
-"ensure Hardware Proxy / POSBox and the serial number of your POSBox is set)."
-" The first time you open the Point of Sale and attempt to do a transaction, "
-"you will be asked to input the PIN that you received with your VAT signing "
-"card."
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:69
-msgid "Certification & On-premise"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:71
-msgid ""
-"The certification granted by the government is restricted to the use on "
-"odoo.com SaaS instance. The usage of the module from the source or a "
-"modified version will **not** be certified. For on-premise users, we also "
-"support the Fiscal Data Module in such installations. The main restriction "
-"is that this requires an obfuscated version of the ``pos_blackbox_be`` "
-"module we will provide on request for Enterprise customers."
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:79
-msgid "Restrictions"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:81
-msgid ""
-"As mentioned before, in order to get certified the POS application must "
-"adhere to strict government guidelines. Because of this, a certified Odoo "
-"POS has some limitations not present in the non-certified Odoo POS."
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:86
-msgid "Refunding is disabled"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:87
-msgid "Modifying orderline prices"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:88
-msgid "Creating/modifying/deleting POS orders"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:89
-msgid "Selling products without a valid tax"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:90
-msgid "Multiple Odoo POS configurations per POSBox are not allowed"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:91
-msgid "Using the POS without a connection to the POSBox (and thus FDM)"
-msgstr ""
-
-#: ../../point_of_sale/belgian_fdm/setup.rst:92
-msgid "Blacklisted modules: pos_discount, pos_reprint, pos_loyalty"
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:3
@@ -938,17 +620,17 @@ msgid "POSBox Setup Guide"
 msgstr "Manuel de Configuration de la POSBox"
 
 #: ../../point_of_sale/overview/setup.rst:11
-#: ../../point_of_sale/overview/setup.rst:205
+#: ../../point_of_sale/overview/setup.rst:197
 msgid "Prerequisites"
 msgstr "Pré-requis"
 
 #: ../../point_of_sale/overview/setup.rst:13
 msgid ""
-"Before you start setting up your POSBox make sure you have everything. You "
-"will need :"
+"Before you start setting up your POSBox make sure you have everything. "
+"You will need :"
 msgstr ""
-"Avant de commencer à configurer votre POSBox, assurez-vous de tout avoir à "
-"disposition. Vous avez besoin de :"
+"Avant de commencer à configurer votre POSBox, assurez-vous de tout avoir "
+"à disposition. Vous avez besoin de :"
 
 #: ../../point_of_sale/overview/setup.rst:16
 msgid "The POSBox"
@@ -963,7 +645,8 @@ msgid "A computer or tablet with an up-to-date web browser"
 msgstr "Un ordinateur ou une tablette avec un navigateur web à jour"
 
 #: ../../point_of_sale/overview/setup.rst:19
-msgid "A running SaaS or Odoo instance with the Point of Sale installed"
+#, fuzzy
+msgid "A running SaaS or Flectra instance with the Point of Sale installed"
 msgstr "Une instance Saas ou Odoo avec le Point de Ventes installé"
 
 #: ../../point_of_sale/overview/setup.rst:20
@@ -974,7 +657,7 @@ msgstr "Un réseau local configuré avec DHCP (c'est le réglage par défaut)"
 msgid ""
 "An Epson USB TM-T20 Printer or another ESC/POS compatible printer "
 "(officially supported printers are listed at the `POS Hardware page "
-"<https://www.odoo.com/page/pos-ipad-android-hardware>`_)"
+"<https://www.flectrahq.com/page/pos-ipad-android-hardware>`_)"
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:24
@@ -992,7 +675,7 @@ msgid "An RJ45 Ethernet Cable (optional, Wi-Fi is built in)"
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:29
-#: ../../point_of_sale/overview/setup.rst:213
+#: ../../point_of_sale/overview/setup.rst:205
 msgid "Step By Step Setup Guide"
 msgstr "Guide d'installation pas à pas"
 
@@ -1005,64 +688,65 @@ msgid "Connect peripheral devices"
 msgstr "Connecter des périphériques"
 
 #: ../../point_of_sale/overview/setup.rst:38
+#, fuzzy
 msgid ""
 "Officially supported hardware is listed on `the POS Hardware page "
-"<https://www.odoo.com/page/pos-ipad-android-hardware>`_, but other hardware "
-"might work as well."
+"<https://www.flectrahq.com/page/pos-ipad-android-hardware>`_, but other "
+"hardware might work as well."
 msgstr ""
 "La liste officielle du matériel compatible est disponible sur la page de "
 "`spécifications matérielles du POS <https://www.odoo.com/page/pos-ipad-"
-"android-hardware>`_, Bien qu'un matériel non-listé puisse tout aussi bien "
-"fonctionner."
+"android-hardware>`_, Bien qu'un matériel non-listé puisse tout aussi bien"
+" fonctionner."
 
 #: ../../point_of_sale/overview/setup.rst:42
 msgid "**Printer**: Connect an ESC/POS printer to a USB port and power it on."
 msgstr ""
-"**Imprimante**: Connectez une imprimante ESC/POS à un port USB et mettez la "
-"en marche."
+"**Imprimante**: Connectez une imprimante ESC/POS à un port USB et mettez "
+"la en marche."
 
 #: ../../point_of_sale/overview/setup.rst:45
 msgid ""
-"**Cash drawer**: The cash drawer should be connected to the printer with an "
-"RJ25 cable."
+"**Cash drawer**: The cash drawer should be connected to the printer with "
+"an RJ25 cable."
 msgstr ""
 "**Tiroir caisse**: Le tiroir caisse devrait être connecté à l'imprimante "
 "avec un cable RJ25."
 
 #: ../../point_of_sale/overview/setup.rst:48
 msgid ""
-"**Barcode scanner**: Connect your barcode scanner. In order for your barcode"
-" scanner to be compatible it must behave as a keyboard and must be "
-"configured in **US QWERTY**. It also must end barcodes with an Enter "
+"**Barcode scanner**: Connect your barcode scanner. In order for your "
+"barcode scanner to be compatible it must behave as a keyboard and must be"
+" configured in **US QWERTY**. It also must end barcodes with an Enter "
 "character (keycode 28). This is most likely the default configuration of "
 "your barcode scanner."
 msgstr ""
-"**Scanner code à barres**: Connectez votre scanner de code à barres. Pour "
-"que votre scanner puisse être compatible, il doit se comporter comme un "
-"clavier et être configuré en **US QWERTY**. Il doit également terminer les "
-"codes à barres par le caractère Entrer (keycode 28). Il s'agit le plus "
-"souvent de la configuration par défaut de votre scanner de code à barres."
+"**Scanner code à barres**: Connectez votre scanner de code à barres. Pour"
+" que votre scanner puisse être compatible, il doit se comporter comme un "
+"clavier et être configuré en **US QWERTY**. Il doit également terminer "
+"les codes à barres par le caractère Entrer (keycode 28). Il s'agit le "
+"plus souvent de la configuration par défaut de votre scanner de code à "
+"barres."
 
 #: ../../point_of_sale/overview/setup.rst:54
 msgid "**Scale**: Connect your scale and power it on."
-msgstr ""
-"**Balance**: Connectez votre balance électronique et mettez la en marche."
+msgstr "**Balance**: Connectez votre balance électronique et mettez la en marche."
 
 #: ../../point_of_sale/overview/setup.rst:56
 msgid ""
-"**Ethernet**: If you do not wish to use Wi-Fi, plug in the Ethernet cable. "
-"Make sure this will connect the POSBox to the same network as your POS "
-"device."
+"**Ethernet**: If you do not wish to use Wi-Fi, plug in the Ethernet "
+"cable. Make sure this will connect the POSBox to the same network as your"
+" POS device."
 msgstr ""
-"**Ethernet**: Si vous ne souhaitez pas utiliser le Wi-Fi, branchez le câble "
-"Ethernet. Assurez-vous de connecter la POSBox sur le même réseau que votre "
-"périphérique PdV."
+"**Ethernet**: Si vous ne souhaitez pas utiliser le Wi-Fi, branchez le "
+"câble Ethernet. Assurez-vous de connecter la POSBox sur le même réseau "
+"que votre périphérique PdV."
 
 #: ../../point_of_sale/overview/setup.rst:60
 msgid ""
-"**Wi-Fi**: The current version of the POSBox has Wi-Fi built in. Make sure "
-"not to plug in an Ethernet cable, because all Wi-Fi functionality will be "
-"bypassed when a wired network connection is available."
+"**Wi-Fi**: The current version of the POSBox has Wi-Fi built in. Make "
+"sure not to plug in an Ethernet cable, because all Wi-Fi functionality "
+"will be bypassed when a wired network connection is available."
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:66
@@ -1071,11 +755,11 @@ msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:68
 msgid ""
-"Plug the power adapter into the POSBox, a bright red status led should light"
-" up."
+"Plug the power adapter into the POSBox, a bright red status led should "
+"light up."
 msgstr ""
-"Connecter l'adaptateur secteur à la POSBox, une led rouge brillante devrait "
-"s'allumer."
+"Connecter l'adaptateur secteur à la POSBox, une led rouge brillante "
+"devrait s'allumer."
 
 #: ../../point_of_sale/overview/setup.rst:72
 msgid "Make sure the POSBox is ready"
@@ -1083,29 +767,30 @@ msgstr "Veuillez vérifier que la POSBox est prête"
 
 #: ../../point_of_sale/overview/setup.rst:74
 msgid ""
-"Once powered, The POSBox needs a while to boot. Once the POSBox is ready, it"
-" should print a status receipt with its IP address. Also the status LED, "
-"just next to the red power LED, should be permanently lit green."
+"Once powered, The POSBox needs a while to boot. Once the POSBox is ready,"
+" it should print a status receipt with its IP address. Also the status "
+"LED, just next to the red power LED, should be permanently lit green."
 msgstr ""
-"Une fois alimentée, la POSBox requière un peu de temps avant de démarrer. "
-"Une fois que la POSBox est prête, une étiquette indiquant son statut et son "
-"adresse IP devrait s'imprimer. La LED qui se trouve juste à côté de la LED "
-"rouge d'alimentation devrait alors s'allumer de façon permanente en vert."
+"Une fois alimentée, la POSBox requière un peu de temps avant de démarrer."
+" Une fois que la POSBox est prête, une étiquette indiquant son statut et "
+"son adresse IP devrait s'imprimer. La LED qui se trouve juste à côté de "
+"la LED rouge d'alimentation devrait alors s'allumer de façon permanente "
+"en vert."
 
 #: ../../point_of_sale/overview/setup.rst:80
-#: ../../point_of_sale/overview/setup.rst:292
+#: ../../point_of_sale/overview/setup.rst:284
 msgid "Setup the Point of Sale"
 msgstr "Configurer le Point de Ventes"
 
 #: ../../point_of_sale/overview/setup.rst:82
 msgid ""
-"To setup the POSBox in the Point of Sale go to :menuselection:`Point of Sale"
-" --> Configuration --> Settings` and select your Point of Sale. Scroll down "
-"to the ``Hardware Proxy / POSBox`` section and activate the options for the "
-"hardware you want to use through the POSBox. Specifying the IP of the POSBox"
-" is recommended (it is printed on the receipt that gets printed after "
-"booting up the POSBox). When the IP is not specified the Point of Sale will "
-"attempt to find it on the local network."
+"To setup the POSBox in the Point of Sale go to :menuselection:`Point of "
+"Sale --> Configuration --> Settings` and select your Point of Sale. "
+"Scroll down to the ``Hardware Proxy / POSBox`` section and activate the "
+"options for the hardware you want to use through the POSBox. Specifying "
+"the IP of the POSBox is recommended (it is printed on the receipt that "
+"gets printed after booting up the POSBox). When the IP is not specified "
+"the Point of Sale will attempt to find it on the local network."
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:91
@@ -1126,18 +811,18 @@ msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:101
 msgid ""
-"If you didn't specify the POSBox's IP address in the configuration, the POS "
-"will need some time to perform a network scan to find the POSBox. This is "
-"only done once."
+"If you didn't specify the POSBox's IP address in the configuration, the "
+"POS will need some time to perform a network scan to find the POSBox. "
+"This is only done once."
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:105
 msgid ""
-"The Point of Sale is now connected to the POSBox and your hardware should be"
-" ready to use."
+"The Point of Sale is now connected to the POSBox and your hardware should"
+" be ready to use."
 msgstr ""
-"Le Point de Ventes est désormais connecté à la POSBox et votre matériel est "
-"prêt à être utilisé."
+"Le Point de Ventes est désormais connecté à la POSBox et votre matériel "
+"est prêt à être utilisé."
 
 #: ../../point_of_sale/overview/setup.rst:109
 msgid "Wi-Fi configuration"
@@ -1145,8 +830,8 @@ msgstr "Configuration Wi-Fi"
 
 #: ../../point_of_sale/overview/setup.rst:111
 msgid ""
-"The most recent version of the POSBox has Wi-Fi built in. If you're using an"
-" older version you'll need a Linux compatible USB Wi-Fi adapter. Most "
+"The most recent version of the POSBox has Wi-Fi built in. If you're using"
+" an older version you'll need a Linux compatible USB Wi-Fi adapter. Most "
 "commercially available Wi-Fi adapters are Linux compatible. Officially "
 "supported are Wi-Fi adapters with a Ralink 5370 chipset."
 msgstr ""
@@ -1154,52 +839,54 @@ msgstr ""
 #: ../../point_of_sale/overview/setup.rst:117
 msgid ""
 "Make sure not to plug in an Ethernet cable, as all Wi-Fi related "
-"functionality will be disabled when a wired network connection is available."
+"functionality will be disabled when a wired network connection is "
+"available."
 msgstr ""
 "Assurez-vous que le câble Ethernet n'est pas connecté car toute "
-"fonctionnalité relative au Wi-Fi est désactivée si une connexion filaire est"
-" détectée."
+"fonctionnalité relative au Wi-Fi est désactivée si une connexion filaire "
+"est détectée."
 
 #: ../../point_of_sale/overview/setup.rst:121
 msgid ""
 "When the POSBox boots with a Wi-Fi adapter it will start its own Wi-Fi "
 "Access Point called \"Posbox\" you can connect to. The receipt that gets "
 "printed when the POSBox starts will reflect this. In order to make the "
-"POSBox connect to an already existing Wi-Fi network, go to the homepage of "
-"the POSBox (indicated on the receipt) and go to the Wi-Fi configuration "
-"page. On there you can choose a network to connect to. Note that we only "
-"support open and WPA(2)-PSK networks. When connecting to a WPA-secured "
-"network, fill in the password field. The POSBox will attempt to connect to "
-"the specified network and will print a new POSBox status receipt after it "
-"has connected."
+"POSBox connect to an already existing Wi-Fi network, go to the homepage "
+"of the POSBox (indicated on the receipt) and go to the Wi-Fi "
+"configuration page. On there you can choose a network to connect to. Note"
+" that we only support open and WPA(2)-PSK networks. When connecting to a "
+"WPA-secured network, fill in the password field. The POSBox will attempt "
+"to connect to the specified network and will print a new POSBox status "
+"receipt after it has connected."
 msgstr ""
-"Lorsque la POSBox démarre avec un adaptateur Wi-Fi, son propre point d'accès"
-" Wi-Fi -nommé \"Posbox\"- est proposé et sur lequel vous pouvez-vous "
-"connecter. L'étiquette qui est imprimée au démarrage de la POSBox "
-"l'indiquera. Avant de connecter la POSBox à un réseau existant, aller à la "
-"page d'accueil de la POSBox (adresse indiquée sur l'étiquette) et aller sur "
-"la page de configuration Wi-Fi. Sur cette page vous pouvez sélectionner le "
-"réseau sur lequel vous souhaiter vous connecter. Veuillez noter que nous ne "
-"supportons que les réseaux de type \"open\" et WPA(2)-PSK. Renseignez le mot"
-" de passe si vous vous connectez à un réseau sécurisé WPA. La POSBox "
-"essaiera de se connecter au réseau sélectionné et imprimer une nouvelle "
-"étiquette avec ses nouveaux paramètres."
+"Lorsque la POSBox démarre avec un adaptateur Wi-Fi, son propre point "
+"d'accès Wi-Fi -nommé \"Posbox\"- est proposé et sur lequel vous pouvez-"
+"vous connecter. L'étiquette qui est imprimée au démarrage de la POSBox "
+"l'indiquera. Avant de connecter la POSBox à un réseau existant, aller à "
+"la page d'accueil de la POSBox (adresse indiquée sur l'étiquette) et "
+"aller sur la page de configuration Wi-Fi. Sur cette page vous pouvez "
+"sélectionner le réseau sur lequel vous souhaiter vous connecter. Veuillez"
+" noter que nous ne supportons que les réseaux de type \"open\" et "
+"WPA(2)-PSK. Renseignez le mot de passe si vous vous connectez à un réseau"
+" sécurisé WPA. La POSBox essaiera de se connecter au réseau sélectionné "
+"et imprimer une nouvelle étiquette avec ses nouveaux paramètres."
 
 #: ../../point_of_sale/overview/setup.rst:132
 msgid ""
-"If you plan on permanently setting up the POSBox with Wi-Fi, you can use the"
-" \"persistent\" checkbox on the Wi-Fi configuration page when connecting to "
-"a network. This will make the network choice persist across reboots. This "
-"means that instead of starting up its own \"Posbox\" network it will always "
-"attempt to connect to the specified network after it boots."
+"If you plan on permanently setting up the POSBox with Wi-Fi, you can use "
+"the \"persistent\" checkbox on the Wi-Fi configuration page when "
+"connecting to a network. This will make the network choice persist across"
+" reboots. This means that instead of starting up its own \"Posbox\" "
+"network it will always attempt to connect to the specified network after "
+"it boots."
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:139
 msgid ""
-"When the POSBox fails to connect to a network it will fall back to starting "
-"it's own \"Posbox\" Access Point. If connection is lost with a Wi-Fi network"
-" after connecting to it, the POSBox will attempt to re-establish connection "
-"automatically."
+"When the POSBox fails to connect to a network it will fall back to "
+"starting it's own \"Posbox\" Access Point. If connection is lost with a "
+"Wi-Fi network after connecting to it, the POSBox will attempt to re-"
+"establish connection automatically."
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:145
@@ -1208,11 +895,11 @@ msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:147
 msgid ""
-"The advised way to setup a multi Point of Sale shop is to have one POSBox "
-"per Point of Sale. In this case it is mandatory to manually specify the IP "
-"address of each POSBox in each Point of Sale. You must also configure your "
-"network to make sure the POSBox's IP addresses don't change. Please refer to"
-" your router documentation."
+"The advised way to setup a multi Point of Sale shop is to have one POSBox"
+" per Point of Sale. In this case it is mandatory to manually specify the "
+"IP address of each POSBox in each Point of Sale. You must also configure "
+"your network to make sure the POSBox's IP addresses don't change. Please "
+"refer to your router documentation."
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:154
@@ -1221,27 +908,28 @@ msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:158
 msgid ""
-"If you are running your Point of Sale on a Debian-based Linux distribution, "
-"you do not need the POSBox as you can run its software locally. However the "
-"installation process is not foolproof. You'll need at least to know how to "
-"install and run Odoo. You may also run into issues specific to your "
-"distribution or to your particular setup and hardware configuration."
+"If you are running your Point of Sale on a Debian-based Linux "
+"distribution, you do not need the POSBox as you can run its software "
+"locally. However the installation process is not foolproof. You'll need "
+"at least to know how to install and run Flectra. You may also run into "
+"issues specific to your distribution or to your particular setup and "
+"hardware configuration."
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:165
 msgid ""
-"Drivers for the various types of supported hardware are provided as Odoo "
-"modules. In fact, the POSBox runs an instance of Odoo that the Point of Sale"
-" communicates with. The instance of Odoo running on the POSBox is very "
-"different from a 'real' Odoo instance however. It does not handle *any* "
-"business data (eg. POS orders), but only serves as a gateway between the "
-"Point of Sale and the hardware."
+"Drivers for the various types of supported hardware are provided as "
+"Flectra modules. In fact, the POSBox runs an instance of Flectra that the"
+" Point of Sale communicates with. The instance of Flectra running on the "
+"POSBox is very different from a 'real' Flectra instance however. It does "
+"not handle *any* business data (eg. POS orders), but only serves as a "
+"gateway between the Point of Sale and the hardware."
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:172
 msgid ""
-"The goal of this section will be to set up a local Odoo instance that "
-"behaves like the Odoo instance running on the POSBox."
+"The goal of this section will be to set up a local Flectra instance that "
+"behaves like the Flectra instance running on the POSBox."
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:176
@@ -1250,634 +938,631 @@ msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:178
 msgid ""
-"We generate the official POSBox images using the scripts in "
-"https://github.com/odoo/odoo/tree/11.0/addons/point_of_sale/tools/posbox. "
-"More specifically, we run `posbox_create_image.sh "
-"<https://github.com/odoo/odoo/blob/11.0/addons/point_of_sale/tools/posbox/posbox_create_image.sh>`_."
-" This builds an image called ``posbox.img``, which we zip and upload to "
-"`nightly.odoo.com <https://nightly.odoo.com>`_ for users to download."
-msgstr ""
-
-#: ../../point_of_sale/overview/setup.rst:186
-msgid ""
 "The scripts in this directory might be useful as a reference if you get "
 "stuck or want more detail about something."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:190
+#: ../../point_of_sale/overview/setup.rst:182
 msgid "Summary of the image creation process"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:192
+#: ../../point_of_sale/overview/setup.rst:184
 msgid ""
 "The image creation process starts by downloading the latest `Raspbian "
-"<https://www.raspbian.org/>`_ image. It then locally mounts this Raspbian "
-"image and copies over some files and scripts that will make the Raspbian "
-"image turn itself into a POSBox when it boots. These scripts will update "
-"Raspbian, remove non-essential packages and install required packages. In "
-"order to boot Raspbian we use qemu, which is capable of providing ARM "
-"emulation. After this, the emulated Raspbian OS will shut itself down. We "
-"then once again locally mount the image, remove the scripts that were used "
-"to initialize the image at boot and we copy over some extra configuration "
-"files. The resulting image is then ready to be tested and used."
+"<https://www.raspbian.org/>`_ image. It then locally mounts this Raspbian"
+" image and copies over some files and scripts that will make the Raspbian"
+" image turn itself into a POSBox when it boots. These scripts will update"
+" Raspbian, remove non-essential packages and install required packages. "
+"In order to boot Raspbian we use qemu, which is capable of providing ARM "
+"emulation. After this, the emulated Raspbian OS will shut itself down. We"
+" then once again locally mount the image, remove the scripts that were "
+"used to initialize the image at boot and we copy over some extra "
+"configuration files. The resulting image is then ready to be tested and "
+"used."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:207
+#: ../../point_of_sale/overview/setup.rst:199
 msgid "A Debian-based Linux distribution (Debian, Ubuntu, Mint, etc.)"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:208
-msgid "A running Odoo instance you connect to to load the Point of Sale"
+#: ../../point_of_sale/overview/setup.rst:200
+msgid "A running Flectra instance you connect to to load the Point of Sale"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:209
+#: ../../point_of_sale/overview/setup.rst:201
 msgid ""
 "You must uninstall any ESC/POS printer driver as it will conflict with "
-"Odoo's built-in driver"
+"Flectra's built-in driver"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:216
+#: ../../point_of_sale/overview/setup.rst:208
 msgid "Extra dependencies"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:218
+#: ../../point_of_sale/overview/setup.rst:210
 msgid ""
-"Because Odoo runs on Python 2, you need to check which version of pip you "
-"need to use."
+"Because Flectra runs on Python 2, you need to check which version of pip "
+"you need to use."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:221
+#: ../../point_of_sale/overview/setup.rst:213
 msgid "``# pip --version``"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:223
-#: ../../point_of_sale/overview/setup.rst:229
+#: ../../point_of_sale/overview/setup.rst:215
+#: ../../point_of_sale/overview/setup.rst:221
 msgid "If it returns something like::"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:227
+#: ../../point_of_sale/overview/setup.rst:219
 msgid "You need to try pip2 instead."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:233
+#: ../../point_of_sale/overview/setup.rst:225
 msgid "You can use pip."
 msgstr "Vous pouvez utiliser pip."
 
-#: ../../point_of_sale/overview/setup.rst:235
+#: ../../point_of_sale/overview/setup.rst:227
 msgid "The driver modules requires the installation of new python modules:"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:237
+#: ../../point_of_sale/overview/setup.rst:229
 msgid "``# pip install pyserial``"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:239
+#: ../../point_of_sale/overview/setup.rst:231
 msgid "``# pip install pyusb==1.0.0b1``"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:241
+#: ../../point_of_sale/overview/setup.rst:233
 msgid "``# pip install qrcode``"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:244
+#: ../../point_of_sale/overview/setup.rst:236
 msgid "Access Rights"
 msgstr "Droits d'accès"
 
-#: ../../point_of_sale/overview/setup.rst:246
+#: ../../point_of_sale/overview/setup.rst:238
 msgid ""
 "The drivers need raw access to the printer and barcode scanner devices. "
-"Doing so requires a bit system administration. First we are going to create "
-"a group that has access to USB devices"
+"Doing so requires a bit system administration. First we are going to "
+"create a group that has access to USB devices"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:250
+#: ../../point_of_sale/overview/setup.rst:242
 msgid "``# groupadd usbusers``"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:252
+#: ../../point_of_sale/overview/setup.rst:244
 msgid "Then we add the user who will run the OpenERP server to ``usbusers``"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:254
+#: ../../point_of_sale/overview/setup.rst:246
 msgid "``# usermod -a -G usbusers USERNAME``"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:256
+#: ../../point_of_sale/overview/setup.rst:248
 msgid ""
-"Then we need to create a udev rule that will automatically allow members of "
-"``usbusers`` to access raw USB devices. To do so create a file called "
+"Then we need to create a udev rule that will automatically allow members "
+"of ``usbusers`` to access raw USB devices. To do so create a file called "
 "``99-usbusers.rules`` in the ``/etc/udev/rules.d/`` directory with the "
 "following content::"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:264
+#: ../../point_of_sale/overview/setup.rst:256
 msgid "Then you need to reboot your machine."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:267
-msgid "Start the local Odoo instance"
+#: ../../point_of_sale/overview/setup.rst:259
+msgid "Start the local Flectra instance"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:269
-msgid "We must launch the Odoo server with the correct settings"
+#: ../../point_of_sale/overview/setup.rst:261
+msgid "We must launch the Flectra server with the correct settings"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:271
+#: ../../point_of_sale/overview/setup.rst:263
 msgid ""
-"``$ ./odoo.py "
+"``$ ./flectrahq.py "
 "--load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos``"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:274
+#: ../../point_of_sale/overview/setup.rst:266
 msgid "Test the instance"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:276
+#: ../../point_of_sale/overview/setup.rst:268
 msgid ""
 "Plug all your hardware to your machine's USB ports, and go to "
-"``http://localhost:8069/hw_proxy/status`` refresh the page a few times and "
-"see if all your devices are indicated as *Connected*. Possible source of "
-"errors are: The paths on the distribution differ from the paths expected by "
-"the drivers, another process has grabbed exclusive access to the devices, "
-"the udev rules do not apply or a superseded by others."
+"``http://localhost:8069/hw_proxy/status`` refresh the page a few times "
+"and see if all your devices are indicated as *Connected*. Possible source"
+" of errors are: The paths on the distribution differ from the paths "
+"expected by the drivers, another process has grabbed exclusive access to "
+"the devices, the udev rules do not apply or a superseded by others."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:284
-msgid "Automatically start Odoo"
+#: ../../point_of_sale/overview/setup.rst:276
+msgid "Automatically start Flectra"
+msgstr ""
+
+#: ../../point_of_sale/overview/setup.rst:278
+msgid ""
+"You must now make sure that this Flectra install is automatically started"
+" after boot. There are various ways to do so, and how to do it depends on"
+" your particular setup. Using the init system provided by your "
+"distribution is probably the easiest way to accomplish this."
 msgstr ""
 
 #: ../../point_of_sale/overview/setup.rst:286
 msgid ""
-"You must now make sure that this Odoo install is automatically started after"
-" boot. There are various ways to do so, and how to do it depends on your "
-"particular setup. Using the init system provided by your distribution is "
-"probably the easiest way to accomplish this."
+"The IP address field in the POS configuration must be either "
+"``127.0.0.1`` or ``localhost`` if you're running the created Flectra "
+"server on the machine that you'll use as the Point of Sale device. You "
+"can also leave it empty."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:294
-msgid ""
-"The IP address field in the POS configuration must be either ``127.0.0.1`` "
-"or ``localhost`` if you're running the created Odoo server on the machine "
-"that you'll use as the Point of Sale device. You can also leave it empty."
-msgstr ""
-
-#: ../../point_of_sale/overview/setup.rst:300
+#: ../../point_of_sale/overview/setup.rst:292
 msgid "POSBox Technical Documentation"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:303
+#: ../../point_of_sale/overview/setup.rst:295
 msgid "Technical Overview"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:306
+#: ../../point_of_sale/overview/setup.rst:298
 msgid "The POSBox Hardware"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:308
+#: ../../point_of_sale/overview/setup.rst:300
 msgid ""
 "The POSBox's Hardware is based on a `Raspberry Pi 2 "
-"<https://www.raspberrypi.org/products/raspberry-pi-2-model-b/>`_, a popular "
-"single-board computer. The Raspberry Pi 2 is powered with a 2A micro-usb "
-"power adapter. 2A is needed to give enough power to the barcode scanners. "
-"The Software is installed on a 8Gb Class 10 or Higher SD Card. All this "
-"hardware is easily available worldwide from independent vendors."
+"<https://www.raspberrypi.org/products/raspberry-pi-2-model-b/>`_, a "
+"popular single-board computer. The Raspberry Pi 2 is powered with a 2A "
+"micro-usb power adapter. 2A is needed to give enough power to the barcode"
+" scanners. The Software is installed on a 8Gb Class 10 or Higher SD Card."
+" All this hardware is easily available worldwide from independent "
+"vendors."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:317
+#: ../../point_of_sale/overview/setup.rst:309
 msgid "Compatible Peripherals"
 msgstr "Périphériques compatibles"
 
-#: ../../point_of_sale/overview/setup.rst:319
+#: ../../point_of_sale/overview/setup.rst:311
+#, fuzzy
 msgid ""
 "Officially supported hardware is listed on the `POS Hardware page "
-"<https://www.odoo.com/page/pos-ipad-android-hardware>`_."
+"<https://www.flectrahq.com/page/pos-ipad-android-hardware>`_."
 msgstr ""
+"La liste officielle du matériel compatible est disponible sur la page de "
+"`spécifications matérielles du POS <https://www.odoo.com/page/pos-ipad-"
+"android-hardware>`_, Bien qu'un matériel non-listé puisse tout aussi bien"
+" fonctionner."
 
-#: ../../point_of_sale/overview/setup.rst:323
+#: ../../point_of_sale/overview/setup.rst:315
 msgid "The POSBox Software"
 msgstr "Le logiciel de la POSBox"
 
-#: ../../point_of_sale/overview/setup.rst:325
+#: ../../point_of_sale/overview/setup.rst:317
 msgid ""
 "The POSBox runs a heavily modified Raspbian Linux installation, a Debian "
-"derivative for the Raspberry Pi. It also runs a barebones installation of "
-"Odoo which provides the webserver and the drivers. The hardware drivers are "
-"implemented as Odoo modules. Those modules are all prefixed with ``hw_*`` "
-"and they are the only modules that are running on the POSBox. Odoo is only "
-"used for the framework it provides. No business data is processed or stored "
-"on the POSBox. The Odoo instance is a shallow git clone of the ``11.0`` "
-"branch."
+"derivative for the Raspberry Pi. It also runs a barebones installation of"
+" Flectra which provides the webserver and the drivers. The hardware "
+"drivers are implemented as Flectra modules. Those modules are all "
+"prefixed with ``hw_*`` and they are the only modules that are running on "
+"the POSBox. Flectra is only used for the framework it provides. No "
+"business data is processed or stored on the POSBox. The Flectra instance "
+"is a shallow git clone of the ``8.0`` branch."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:334
+#: ../../point_of_sale/overview/setup.rst:326
 msgid ""
 "The root partition on the POSBox is mounted read-only, ensuring that we "
-"don't wear out the SD card by writing to it too much. It also ensures that "
-"the filesystem cannot be corrupted by cutting the power to the POSBox. Linux"
-" applications expect to be able to write to certain directories though. So "
-"we provide a ramdisk for /etc and /var (Raspbian automatically provides one "
-"for /tmp). These ramdisks are setup by ``setup_ramdisks.sh``, which we run "
-"before all other init scripts by running it in ``/etc/init.d/rcS``. The "
-"ramdisks are named /etc_ram and /var_ram respectively. Most data from /etc "
-"and /var is copied to these tmpfs ramdisks. In order to restrict the size of"
-" the ramdisks, we do not copy over certain things to them (eg. apt related "
-"data). We then bind mount them over the original directories. So when an "
-"application writes to /etc/foo/bar it's actually writing to "
-"/etc_ram/foo/bar. We also bind mount / to /root_bypass_ramdisks to be able "
-"to get to the real /etc and /var during development."
+"don't wear out the SD card by writing to it too much. It also ensures "
+"that the filesystem cannot be corrupted by cutting the power to the "
+"POSBox. Linux applications expect to be able to write to certain "
+"directories though. So we provide a ramdisk for /etc and /var (Raspbian "
+"automatically provides one for /tmp). These ramdisks are setup by "
+"``setup_ramdisks.sh``, which we run before all other init scripts by "
+"running it in ``/etc/init.d/rcS``. The ramdisks are named /etc_ram and "
+"/var_ram respectively. Most data from /etc and /var is copied to these "
+"tmpfs ramdisks. In order to restrict the size of the ramdisks, we do not "
+"copy over certain things to them (eg. apt related data). We then bind "
+"mount them over the original directories. So when an application writes "
+"to /etc/foo/bar it's actually writing to /etc_ram/foo/bar. We also bind "
+"mount / to /root_bypass_ramdisks to be able to get to the real /etc and "
+"/var during development."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:350
-msgid "Logs of the running Odoo server can be found at:"
-msgstr ""
-
-#: ../../point_of_sale/overview/setup.rst:352
-msgid "``/var/log/odoo/odoo.log``"
-msgstr ""
-
-#: ../../point_of_sale/overview/setup.rst:354
+#: ../../point_of_sale/overview/setup.rst:342
 msgid ""
 "Various POSBox related scripts (eg. wifi-related scripts) running on the "
 "POSBox will log to /var/log/syslog and those messages are tagged with "
 "``posbox_*``."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:359
+#: ../../point_of_sale/overview/setup.rst:347
 msgid "Accessing the POSBox"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:362
+#: ../../point_of_sale/overview/setup.rst:350
 msgid "Local Access"
 msgstr "Accès local"
 
-#: ../../point_of_sale/overview/setup.rst:364
+#: ../../point_of_sale/overview/setup.rst:352
 msgid ""
-"If you plug a QWERTY USB keyboard into one of the POSBox's USB ports, and if"
-" you connect a computer monitor to the *HDMI* port of the POSBox, you can "
-"use it as a small GNU/Linux computer and perform various administration "
-"tasks, like viewing some logs."
+"If you plug a QWERTY USB keyboard into one of the POSBox's USB ports, and"
+" if you connect a computer monitor to the *HDMI* port of the POSBox, you "
+"can use it as a small GNU/Linux computer and perform various "
+"administration tasks, like viewing some logs."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:369
+#: ../../point_of_sale/overview/setup.rst:357
 msgid "The POSBox will automatically log in as root on the default tty."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:372
+#: ../../point_of_sale/overview/setup.rst:360
 msgid "Remote Access"
 msgstr "Accès distant"
 
-#: ../../point_of_sale/overview/setup.rst:374
+#: ../../point_of_sale/overview/setup.rst:362
 msgid ""
 "If you have the POSBox's IP address and an SSH client you can access the "
 "POSBox's system remotely. The login credentials are ``pi``/``raspberry``."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:379
+#: ../../point_of_sale/overview/setup.rst:367
 msgid "Updating The POSBox Software"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:381
+#: ../../point_of_sale/overview/setup.rst:369
 msgid ""
 "Only upgrade the POSBox if you experience problems or want to use newly "
 "implemented features."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:384
+#: ../../point_of_sale/overview/setup.rst:372
 msgid ""
-"The best way to update the POSBox software is to download a new version of "
-"the image and flash the SD-Card with it. This operation is described in "
-"detail in `this tutorial <http://elinux.org/RPi_Easy_SD_Card_Setup>`_, just "
-"replace the standard Raspberry Pi image with the latest one found at `the "
-"official POSBox image page <http://nightly.odoo.com/master/posbox/>`_. This "
-"method of upgrading will ensure that you're running the latest version of "
-"the POSBox software."
+"The best way to update the POSBox software is to download a new version "
+"of the image and flash the SD-Card with it. This operation is described "
+"in detail in `this tutorial <http://elinux.org/RPi_Easy_SD_Card_Setup>`_,"
+" just replace the standard Raspberry Pi image with the latest one found "
+"at `the official POSBox image page "
+"<http://nightly.flectrahq.com/master/posbox/>`_. This method of upgrading"
+" will ensure that you're running the latest version of the POSBox "
+"software."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:393
+#: ../../point_of_sale/overview/setup.rst:381
 msgid ""
-"The second way of upgrading is through the built in upgrade interface that "
-"can be reached through the POSBox homepage. The nice thing about upgrading "
-"like this is that you don't have to flash a new image. This upgrade method "
-"is limited to what it can do however. It can not eg. update installed "
-"configuration files (like eg. /etc/hostapd.conf). It can only upgrade:"
+"The second way of upgrading is through the built in upgrade interface "
+"that can be reached through the POSBox homepage. The nice thing about "
+"upgrading like this is that you don't have to flash a new image. This "
+"upgrade method is limited to what it can do however. It can not eg. "
+"update installed configuration files (like eg. /etc/hostapd.conf). It can"
+" only upgrade:"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:400
-msgid "The internal Odoo application"
+#: ../../point_of_sale/overview/setup.rst:388
+msgid "The internal Flectra application"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:401
+#: ../../point_of_sale/overview/setup.rst:389
 msgid ""
 "Scripts in the folder "
-"``odoo/addons/point_of_sale/tools/posbox/configuration/``"
+"``flectra/addons/point_of_sale/tools/posbox/configuration/``"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:403
+#: ../../point_of_sale/overview/setup.rst:391
 msgid "When in doubt, always use the first method of upgrading."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:406
+#: ../../point_of_sale/overview/setup.rst:394
 msgid "Troubleshoot"
 msgstr "Problèmes"
 
-#: ../../point_of_sale/overview/setup.rst:409
+#: ../../point_of_sale/overview/setup.rst:397
 msgid "The POS cannot connect to the POSBox"
 msgstr "Le POS ne se connecte pas à la POSBox"
 
-#: ../../point_of_sale/overview/setup.rst:411
+#: ../../point_of_sale/overview/setup.rst:399
 msgid ""
-"The easiest way to make sure the POSBox is properly set-up is to turn it on "
-"with the printer plugged in as it will print a receipt indicating any error "
-"if encountered or the POSBox's IP address in case of success. If no receipt "
-"is printed, check the following steps:"
+"The easiest way to make sure the POSBox is properly set-up is to turn it "
+"on with the printer plugged in as it will print a receipt indicating any "
+"error if encountered or the POSBox's IP address in case of success. If no"
+" receipt is printed, check the following steps:"
 msgstr ""
-"La façon la plus simple de savoir si la POSBox est correctement configurée "
-"est de la démarrer avec une imprimante connectée. Cela va imprimer un reçu "
-"indiquant toute erreur le cas échéant ou l'adresse IP de la POSBox en cas de"
-" succès. Si aucun reçu n'est imprimé, procédez aux étapes suivantes:"
+"La façon la plus simple de savoir si la POSBox est correctement "
+"configurée est de la démarrer avec une imprimante connectée. Cela va "
+"imprimer un reçu indiquant toute erreur le cas échéant ou l'adresse IP de"
+" la POSBox en cas de succès. Si aucun reçu n'est imprimé, procédez aux "
+"étapes suivantes:"
 
-#: ../../point_of_sale/overview/setup.rst:415
+#: ../../point_of_sale/overview/setup.rst:403
 msgid ""
-"Make sure the POSBox is powered on, indicated by a brightly lit red status "
-"LED."
+"Make sure the POSBox is powered on, indicated by a brightly lit red "
+"status LED."
 msgstr "Assurez-vous que la POSBox est allumée, indiquée par une LED rouge."
 
-#: ../../point_of_sale/overview/setup.rst:417
+#: ../../point_of_sale/overview/setup.rst:405
 msgid ""
 "Make sure the POSBox is ready, this is indicated by a brightly lit green "
-"status LED just next to the red power status LED. The POSBox should be ready"
-" ~2 minutes after it is started."
+"status LED just next to the red power status LED. The POSBox should be "
+"ready ~2 minutes after it is started."
 msgstr ""
 "Assurez-vous que la POSBox est prête, cela est indiqué par une LED verte "
-"juste à coté de la LED rouge. La POSBox devrait être prête environ 2 minutes"
-" après le démarrage."
+"juste à coté de la LED rouge. La POSBox devrait être prête environ 2 "
+"minutes après le démarrage."
 
-#: ../../point_of_sale/overview/setup.rst:420
+#: ../../point_of_sale/overview/setup.rst:408
 msgid ""
-"Make sure the POSBox is connected to the same network as your POS device. "
-"Both the device and the POSBox should be visible in the list of connected "
-"devices on your network router."
+"Make sure the POSBox is connected to the same network as your POS device."
+" Both the device and the POSBox should be visible in the list of "
+"connected devices on your network router."
 msgstr ""
-"Assurez-vous que la POSBox est connectée au même réseau que votre POS. Le "
-"POS et la POSBox doivent tout deux être visibles dans la liste des appareils"
-" connectés sur votre réseau."
+"Assurez-vous que la POSBox est connectée au même réseau que votre POS. Le"
+" POS et la POSBox doivent tout deux être visibles dans la liste des "
+"appareils connectés sur votre réseau."
 
-#: ../../point_of_sale/overview/setup.rst:423
+#: ../../point_of_sale/overview/setup.rst:411
 msgid ""
-"Make sure that your LAN is set up with DHCP, and gives IP addresses in the "
-"range 192.168.0.X, 192.168.1.X, 10.0.0.X. If you cannot setup your LAN that "
-"way, you must manually set up your POSBox's IP address."
+"Make sure that your LAN is set up with DHCP, and gives IP addresses in "
+"the range 192.168.0.X, 192.168.1.X, 10.0.0.X. If you cannot setup your "
+"LAN that way, you must manually set up your POSBox's IP address."
 msgstr ""
-"Assurez-vous que votre LAN est configurée en DHCP and donne une adresse IP "
-"parmi 192.168.0.X, 192.168.1.X, 10.0.0.X. Si vous ne pouvez pas configurer "
-"votre LAN de cette façon, vous devez manuellement assigner une adresse IP à "
-"la POSBox."
+"Assurez-vous que votre LAN est configurée en DHCP and donne une adresse "
+"IP parmi 192.168.0.X, 192.168.1.X, 10.0.0.X. Si vous ne pouvez pas "
+"configurer votre LAN de cette façon, vous devez manuellement assigner une"
+" adresse IP à la POSBox."
 
-#: ../../point_of_sale/overview/setup.rst:427
+#: ../../point_of_sale/overview/setup.rst:415
 msgid ""
 "If you have specified the POSBox's IP address in the configuration, make "
 "sure it correspond to the printed on the POSBox's status receipt."
 msgstr ""
 "Si vous avez spécifié l'adresse IP de la POSBox dans la configuration, "
-"assurez-vous qu'elle corresponde à l'adresse imprimée sur le reçu de status "
-"imprimé au démarrage."
+"assurez-vous qu'elle corresponde à l'adresse imprimée sur le reçu de "
+"status imprimé au démarrage."
 
-#: ../../point_of_sale/overview/setup.rst:430
+#: ../../point_of_sale/overview/setup.rst:418
 msgid "Make sure that the POS is not loaded over HTTPS."
 msgstr "Assurez-vous que la page du POS n'est pas chargé en HTTPS."
 
-#: ../../point_of_sale/overview/setup.rst:431
+#: ../../point_of_sale/overview/setup.rst:419
 msgid ""
 "A bug in Firefox's HTTP implementation prevents the autodiscovery from "
-"working reliably. When using Firefox you should manually set up the POSBox's"
-" IP address in the POS configuration."
+"working reliably. When using Firefox you should manually set up the "
+"POSBox's IP address in the POS configuration."
 msgstr ""
 "La fonctionnalité de découverte automatique peut ne pas fonctionner dans "
 "Firefox. Nous conseillons de spécifier l'adresse IP de la POSBox dans la "
 "configuration du point de vente par sécurité."
 
-#: ../../point_of_sale/overview/setup.rst:436
+#: ../../point_of_sale/overview/setup.rst:424
 msgid "The Barcode Scanner is not working"
 msgstr "Le scanner de code barre ne fonctionne pas correctement"
 
-#: ../../point_of_sale/overview/setup.rst:438
+#: ../../point_of_sale/overview/setup.rst:426
 msgid ""
-"The barcode scanner must be configured in US QWERTY and emit an Enter after "
-"each barcode. This is the default configuration of most barcode readers. "
-"Refer to the barcode reader documentation for more information."
+"The barcode scanner must be configured in US QWERTY and emit an Enter "
+"after each barcode. This is the default configuration of most barcode "
+"readers. Refer to the barcode reader documentation for more information."
 msgstr ""
 "Le scanner doit être configuré en US QWERTY et doit émettre un caractère "
-"ENTER après chaque code barre scanné. C'est la configuration par défaut sur "
-"la plupart des scanners. Vérifiez le manuel du scanner pour plus "
+"ENTER après chaque code barre scanné. C'est la configuration par défaut "
+"sur la plupart des scanners. Vérifiez le manuel du scanner pour plus "
 "d'information."
 
-#: ../../point_of_sale/overview/setup.rst:442
+#: ../../point_of_sale/overview/setup.rst:430
 msgid ""
-"The POSBox needs a 2A power supply to work with some barcode scanners. If "
-"you are not using the provided power supply, make sure the one you use has "
-"enough power."
+"The POSBox needs a 2A power supply to work with some barcode scanners. If"
+" you are not using the provided power supply, make sure the one you use "
+"has enough power."
 msgstr ""
 "La POSBox a besoin d'une alimentation 2A pour fonctionner avec certains "
 "scanners. Si vous n'utilisez pas l'alimentation fournie avec la POSBox, "
 "assurez-vous d'avoir assez de courant."
 
-#: ../../point_of_sale/overview/setup.rst:445
+#: ../../point_of_sale/overview/setup.rst:433
 msgid ""
-"Some barcode scanners will need more than 2A and will not work, or will work"
-" unreliably, even with the provided power supply. In those case you can plug"
-" the barcode scanner in a self-powered USB hub."
+"Some barcode scanners will need more than 2A and will not work, or will "
+"work unreliably, even with the provided power supply. In those case you "
+"can plug the barcode scanner in a self-powered USB hub."
 msgstr ""
-"Certains scanners vont demander plus de 2A et ne fonctionneront pas or de "
-"façon instable, même avec l'alimentation fournie. Dans ce cas, vous devrez "
-"utiliser une alimentation externe pour le scanner."
+"Certains scanners vont demander plus de 2A et ne fonctionneront pas or de"
+" façon instable, même avec l'alimentation fournie. Dans ce cas, vous "
+"devrez utiliser une alimentation externe pour le scanner."
 
-#: ../../point_of_sale/overview/setup.rst:448
+#: ../../point_of_sale/overview/setup.rst:436
 msgid ""
-"Some poorly built barcode scanners do not advertise themselves as barcode "
-"scanners but as a usb keyboard instead, and will not be recognized by the "
+"Some poorly built barcode scanners do not advertise themselves as barcode"
+" scanners but as a usb keyboard instead, and will not be recognized by "
+"the POSBox."
+msgstr ""
+"Des scanners bon marché ne sont pas détectés comme un scanner de code "
+"barre mais comme un clavier USB. Ceux-ci ne fonctionneront pas avec la "
 "POSBox."
-msgstr ""
-"Des scanners bon marché ne sont pas détectés comme un scanner de code barre "
-"mais comme un clavier USB. Ceux-ci ne fonctionneront pas avec la POSBox."
 
-#: ../../point_of_sale/overview/setup.rst:453
+#: ../../point_of_sale/overview/setup.rst:441
 msgid "The Barcode Scanner is not working reliably"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:455
+#: ../../point_of_sale/overview/setup.rst:443
 msgid ""
 "Make sure that no more than one device with 'Scan via Proxy'/'Barcode "
 "Scanner' enabled are connected to the POSBox at the same time."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:460
+#: ../../point_of_sale/overview/setup.rst:448
 msgid "Printing the receipt takes too much time"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:462
+#: ../../point_of_sale/overview/setup.rst:450
 msgid ""
-"A small delay before the first print is expected, as the POSBox will do some"
-" preprocessing to speed up the next printings. If you suffer delays "
-"afterwards it is most likely due to poor network connection between the POS "
-"and the POSBox."
+"A small delay before the first print is expected, as the POSBox will do "
+"some preprocessing to speed up the next printings. If you suffer delays "
+"afterwards it is most likely due to poor network connection between the "
+"POS and the POSBox."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:468
+#: ../../point_of_sale/overview/setup.rst:456
 msgid "Some characters are not correctly printed on the receipt"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:470
+#: ../../point_of_sale/overview/setup.rst:458
 msgid ""
 "The POSBox does not support all languages and characters. It currently "
 "supports Latin and Cyrillic based scripts, with basic Japanese support."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:475
+#: ../../point_of_sale/overview/setup.rst:463
 msgid "The printer is offline"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:477
+#: ../../point_of_sale/overview/setup.rst:465
 msgid ""
-"Make sure the printer is connected, powered, has enough paper and has its "
-"lid closed, and is not reporting an error. If the error persists, please "
-"contact support."
+"Make sure the printer is connected, powered, has enough paper and has its"
+" lid closed, and is not reporting an error. If the error persists, please"
+" contact support."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:482
+#: ../../point_of_sale/overview/setup.rst:470
 msgid "The cashdrawer does not open"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:484
+#: ../../point_of_sale/overview/setup.rst:472
 msgid ""
-"The cashdrawer should be connected to the printer and should be activated in"
-" the POS configuration."
+"The cashdrawer should be connected to the printer and should be activated"
+" in the POS configuration."
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:488
+#: ../../point_of_sale/overview/setup.rst:476
 msgid "Credits"
 msgstr "Crédits"
 
-#: ../../point_of_sale/overview/setup.rst:489
+#: ../../point_of_sale/overview/setup.rst:477
 msgid ""
 "The POSBox project was developed by Frédéric van der Essen with the kind "
 "help of Gary Malherbe, Fabien Meghazi, Nicolas Wisniewsky, Dimitri Del "
 "Marmol, Joren Van Onder and Antony Lesuisse."
 msgstr ""
 "Le projet POSBox à été développé par Frédéric van der Essen avec l'aide "
-"amicale de Gary Malherbe, Fabien Meghazi, Nicolas Wisniewsky, Dimitri Del "
-"Marmol, Joren Van Onder and Antony Lesuisse."
+"amicale de Gary Malherbe, Fabien Meghazi, Nicolas Wisniewsky, Dimitri Del"
+" Marmol, Joren Van Onder and Antony Lesuisse."
 
-#: ../../point_of_sale/overview/setup.rst:493
+#: ../../point_of_sale/overview/setup.rst:481
 msgid ""
-"This development would not have been possible without the Indiegogo campaign"
-" and those who contributed to it. Special thanks goes to the partners who "
-"backed the campaign with founding partner bundles:"
+"This development would not have been possible without the Indiegogo "
+"campaign and those who contributed to it. Special thanks goes to the "
+"partners who backed the campaign with founding partner bundles:"
 msgstr ""
 "Ce développement n'aurait pas été possible sans la campagne Indiegogo et "
-"ceux qui y ont contribué. Remerciements particuliers aux partenaires qui ont"
-" soutenu la campagne ainsi que l'ensemble des partenaires fondateurs:"
+"ceux qui y ont contribué. Remerciements particuliers aux partenaires qui "
+"ont soutenu la campagne ainsi que l'ensemble des partenaires fondateurs:"
 
-#: ../../point_of_sale/overview/setup.rst:497
+#: ../../point_of_sale/overview/setup.rst:485
 msgid "Camptocamp"
 msgstr "Camptocamp"
 
-#: ../../point_of_sale/overview/setup.rst:498
+#: ../../point_of_sale/overview/setup.rst:486
 msgid "BHC"
 msgstr "BHC"
 
-#: ../../point_of_sale/overview/setup.rst:499
+#: ../../point_of_sale/overview/setup.rst:487
 msgid "openBig"
 msgstr "openBig"
 
-#: ../../point_of_sale/overview/setup.rst:500
+#: ../../point_of_sale/overview/setup.rst:488
 msgid "Eeezee-IT"
 msgstr "Eeezee-IT"
 
-#: ../../point_of_sale/overview/setup.rst:501
+#: ../../point_of_sale/overview/setup.rst:489
 msgid "Solarsis LDA"
 msgstr "Solarsis LDA"
 
-#: ../../point_of_sale/overview/setup.rst:502
+#: ../../point_of_sale/overview/setup.rst:490
 msgid "ACSONE"
 msgstr "ACSONE"
 
-#: ../../point_of_sale/overview/setup.rst:503
+#: ../../point_of_sale/overview/setup.rst:491
 msgid "Vauxoo"
 msgstr "Vauxoo"
 
-#: ../../point_of_sale/overview/setup.rst:504
+#: ../../point_of_sale/overview/setup.rst:492
 msgid "Ekomurz"
 msgstr "Ekomurz"
 
-#: ../../point_of_sale/overview/setup.rst:505
+#: ../../point_of_sale/overview/setup.rst:493
 msgid "Datalp"
 msgstr "Datalp"
 
-#: ../../point_of_sale/overview/setup.rst:506
+#: ../../point_of_sale/overview/setup.rst:494
 msgid "Dao Systems"
 msgstr "Dao Systems"
 
-#: ../../point_of_sale/overview/setup.rst:507
+#: ../../point_of_sale/overview/setup.rst:495
 msgid "Eggs Solutions"
 msgstr "Eggs Solutions"
 
-#: ../../point_of_sale/overview/setup.rst:508
+#: ../../point_of_sale/overview/setup.rst:496
 msgid "OpusVL"
 msgstr "OpusVL"
 
-#: ../../point_of_sale/overview/setup.rst:510
+#: ../../point_of_sale/overview/setup.rst:498
 msgid ""
-"And also the partners who've backed the development with the Founding POSBox"
-" Bundle:"
+"And also the partners who've backed the development with the Founding "
+"POSBox Bundle:"
 msgstr ""
 
-#: ../../point_of_sale/overview/setup.rst:513
+#: ../../point_of_sale/overview/setup.rst:501
 msgid "Willow IT"
 msgstr "Willow IT"
 
-#: ../../point_of_sale/overview/setup.rst:514
+#: ../../point_of_sale/overview/setup.rst:502
 msgid "E\\. Akhalwaya & Sons"
 msgstr "E\\. Akhalwaya & Sons"
 
-#: ../../point_of_sale/overview/setup.rst:515
+#: ../../point_of_sale/overview/setup.rst:503
 msgid "Multibase"
 msgstr "Multibase"
 
-#: ../../point_of_sale/overview/setup.rst:516
+#: ../../point_of_sale/overview/setup.rst:504
 msgid "Mindesa"
 msgstr "Mindesa"
 
-#: ../../point_of_sale/overview/setup.rst:517
+#: ../../point_of_sale/overview/setup.rst:505
 msgid "bpso.biz"
 msgstr "bpso.biz"
 
-#: ../../point_of_sale/overview/setup.rst:518
+#: ../../point_of_sale/overview/setup.rst:506
 msgid "Shine IT."
 msgstr "Shine IT."
 
 #: ../../point_of_sale/overview/start.rst:3
-msgid "Getting started with Odoo Point of Sale"
+msgid "Getting started with Flectra Point of Sale"
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:8
 msgid ""
-"Odoo's online **Point of Sale** application is based on a simple, user "
-"friendly interface. The **Point of Sale** application can be used online or "
-"offline on iPads, Android tablets or laptops."
+"Flectra's online **Point of Sale** application is based on a simple, user"
+" friendly interface. The **Point of Sale** application can be used online"
+" or offline on iPads, Android tablets or laptops."
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:12
 msgid ""
-"Odoo **Point of Sale** is fully integrated with the **Inventory** and the "
-"**Accounting** applications. Any transaction with your point of sale will "
-"automatically be registered in your inventory management and accounting and,"
-" even in your **CRM** as the customer can be identified from the app."
+"Flectra **Point of Sale** is fully integrated with the **Inventory** and "
+"the **Accounting** applications. Any transaction with your point of sale "
+"will automatically be registered in your inventory management and "
+"accounting and, even in your **CRM** as the customer can be identified "
+"from the app."
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:17
 msgid ""
-"You will be able to run real time statistics and consolidations across all "
-"your shops without the hassle of integrating several external applications."
+"You will be able to run real time statistics and consolidations across "
+"all your shops without the hassle of integrating several external "
+"applications."
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:25
@@ -1891,134 +1576,128 @@ msgid ""
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:33
-msgid ""
-"Do not forget to install an accounting **chart of account**. If it is not "
-"done, go to the **Invoicing/Accounting** application and click on **Browse "
-"available countries**:"
+msgid "Do not forget to install an accounting **chart of account**."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:40
-msgid "Then choose the one you want to install."
-msgstr ""
-
-#: ../../point_of_sale/overview/start.rst:42
+#: ../../point_of_sale/overview/start.rst:35
 msgid "When it is done, you are all set to use the point of sale."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:45
+#: ../../point_of_sale/overview/start.rst:38
 msgid "Adding Products"
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:47
+#: ../../point_of_sale/overview/start.rst:40
 msgid ""
 "To add products from the point of sale **Dashboard** go to "
 ":menuselection:`Orders --> Products` and click on **Create**."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:50
+#: ../../point_of_sale/overview/start.rst:43
 msgid ""
 "The first example will be oranges with a price of ``3€/kg``. In the "
-"**Sales** tab, you can see the point of sale configuration. There, you can "
-"set a product category, specify that the product has to be weighted or not "
-"and ensure that it will be available in the point of sale."
+"**Sales** tab, you can see the point of sale configuration. There, you "
+"can set a product category, specify that the product has to be weighted "
+"or not and ensure that it will be available in the point of sale."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:58
+#: ../../point_of_sale/overview/start.rst:51
 msgid ""
-"In same the way, you can add lemons, pumpkins, red onions, bananas... in the"
-" database."
+"In same the way, you can add lemons, pumpkins, red onions, bananas... in "
+"the database."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:62
+#: ../../point_of_sale/overview/start.rst:55
 msgid "How to easily manage categories?"
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:64
+#: ../../point_of_sale/overview/start.rst:57
 msgid ""
 "If you already have a database with your products, you can easily set a "
 "**Point of Sale Category** by using the Kanban view and by grouping the "
 "products by **Point of Sale Category**."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:72
+#: ../../point_of_sale/overview/start.rst:65
 msgid "Configuring a payment method"
+msgstr ""
+
+#: ../../point_of_sale/overview/start.rst:67
+msgid ""
+"To configure a new payment method go to :menuselection:`Configuration -->"
+" Payment methods` and click on **Create**."
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:74
 msgid ""
-"To configure a new payment method go to :menuselection:`Configuration --> "
-"Payment methods` and click on **Create**."
+"After you set up a name and the type of payment method, you can go to the"
+" point of sale tab and ensure that this payment method has been activated"
+" for the point of sale."
+msgstr ""
+
+#: ../../point_of_sale/overview/start.rst:79
+msgid "Configuring your points of sales"
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:81
 msgid ""
-"After you set up a name and the type of payment method, you can go to the "
-"point of sale tab and ensure that this payment method has been activated for"
-" the point of sale."
-msgstr ""
-
-#: ../../point_of_sale/overview/start.rst:86
-msgid "Configuring your points of sales"
+"Go to :menuselection:`Configuration --> Point of Sale`, click on the "
+"``main`` point of sale. Edit the point of sale and add your custom "
+"payment method into the available payment methods."
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:88
-msgid ""
-"Go to :menuselection:`Configuration --> Point of Sale`, click on the "
-"``main`` point of sale. Edit the point of sale and add your custom payment "
-"method into the available payment methods."
-msgstr ""
-
-#: ../../point_of_sale/overview/start.rst:95
 msgid ""
 "You can configure each point of sale according to your hardware, "
 "location,..."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Point of Sale Name"
 msgstr "Nom du point de vente"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "An internal identification of the point of sale."
 msgstr "Un identifiant interne du point de vente."
 
-#: ../../point_of_sale/overview/start.rst:0
-msgid "Sales Channel"
-msgstr "Equipe de vente"
+#: ../../point_of_sale/overview/start.rst
+msgid "Sales Team"
+msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:0
-msgid "This Point of sale's sales will be related to this Sales Channel."
+#: ../../point_of_sale/overview/start.rst
+#, fuzzy
+msgid "This Point of sale's sales will be related to this Sales Team."
 msgstr "Les ventes de ce point de vente seront liées à ce canal de vente."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Restaurant Floors"
 msgstr "Plans du restaurant"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "The restaurant floors served by this point of sale."
 msgstr "Les étages du restaurant servis par ce point de vente."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Orderline Notes"
 msgstr "Notes de commandes"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Allow custom notes on Orderlines."
 msgstr "Autoriser les notes personnalisées sur les lignes de commande"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Display Category Pictures"
 msgstr "Afficher les photos des catégories"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "The product categories will be displayed with pictures."
 msgstr "Les catégories de produits seront affichées avec des photos. "
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Initial Category"
 msgstr "Catégorie initiale"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
 "The point of sale will display this product category by default. If no "
 "category is specified, all available products will be shown."
@@ -2027,139 +1706,138 @@ msgstr ""
 "aucune catégorie n'est spécifiée, tous les produits disponibles seront "
 "affichés."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Virtual KeyBoard"
 msgstr "Clavier virtuel"
 
-#: ../../point_of_sale/overview/start.rst:0
-msgid ""
-"Don’t turn this option on if you take orders on smartphones or tablets."
+#: ../../point_of_sale/overview/start.rst
+msgid "Don’t turn this option on if you take orders on smartphones or tablets."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Such devices already benefit from a native keyboard."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Large Scrollbars"
 msgstr "Barres de défilement larges"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "For imprecise industrial touchscreens."
 msgstr "Pour les écrans tactiles industriels peu précis."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "IP Address"
 msgstr "Adresse IP"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
-"The hostname or ip address of the hardware proxy, Will be autodetected if "
-"left empty."
+"The hostname or ip address of the hardware proxy, Will be autodetected if"
+" left empty."
 msgstr ""
 "Nom d'hôte ou adresse IP du proxy matériel. Laisser vide pour utiliser "
 "l'autodétection."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Scan via Proxy"
 msgstr "Scan via Proxy"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Enable barcode scanning with a remotely connected barcode scanner."
 msgstr ""
 "Permet d'activer la lecture des code-barres depuis un lecteur connecté à "
 "distance."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Electronic Scale"
 msgstr "Balance électronique"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Enables Electronic Scale integration."
 msgstr "Permet d'activer l'intégration d'une balance électronique."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Cashdrawer"
 msgstr "Tiroir-caisse"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Automatically open the cashdrawer."
 msgstr "Ouvrir automatiquement le tiroir-caisse."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Print via Proxy"
 msgstr "Imprimer via un proxy"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Bypass browser printing and prints via the hardware proxy."
 msgstr ""
 "Contourner l'impression via le navigateur pour imprimer via le proxy "
 "matériel."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Customer Facing Display"
 msgstr "Affichage côté client"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Show checkout to customers with a remotely-connected screen."
 msgstr ""
 "Afficher l'étape de paiement aux clients munis d'un écran connecté à "
 "distance."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
 "Defines what kind of barcodes are available and how they are assigned to "
 "products, customers and cashiers."
 msgstr ""
-"Permet de définir les types de code-barres disponibles et la façon dont ils "
-"sont attribués aux produits, clients et caissiers."
+"Permet de définir les types de code-barres disponibles et la façon dont "
+"ils sont attribués aux produits, clients et caissiers."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Fiscal Positions"
 msgstr "Positions fiscales"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
-"This is useful for restaurants with onsite and take-away services that imply"
-" specific tax rates."
+"This is useful for restaurants with onsite and take-away services that "
+"imply specific tax rates."
 msgstr ""
-"Ceci est utile pour les restaurants qui proposent des services sur place et "
-"à emporter, auquel cas le taux de la TVA peut différer."
+"Ceci est utile pour les restaurants qui proposent des services sur place "
+"et à emporter, auquel cas le taux de la TVA peut différer."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Available Pricelists"
 msgstr "Listes de prix disponibles"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
-"Make several pricelists available in the Point of Sale. You can also apply a"
-" pricelist to specific customers from their contact form (in Sales tab). To "
-"be valid, this pricelist must be listed here as an available pricelist. "
-"Otherwise the default pricelist will apply."
+"Make several pricelists available in the Point of Sale. You can also "
+"apply a pricelist to specific customers from their contact form (in Sales"
+" tab). To be valid, this pricelist must be listed here as an available "
+"pricelist. Otherwise the default pricelist will apply."
 msgstr ""
-"Mettre plusieurs listes de prix à disposition du point de vente. Vous pouvez"
-" également une liste de prix à un client spécifique à partir de leur "
-"formulaire de contact (onglet Ventes). Pour être valide, cette liste de prix"
-" doit être répertoriée ici en tant que liste de prix disponible. Autrement, "
-"la liste de prix par défaut sera appliquée."
+"Mettre plusieurs listes de prix à disposition du point de vente. Vous "
+"pouvez également une liste de prix à un client spécifique à partir de "
+"leur formulaire de contact (onglet Ventes). Pour être valide, cette liste"
+" de prix doit être répertoriée ici en tant que liste de prix disponible. "
+"Autrement, la liste de prix par défaut sera appliquée."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Default Pricelist"
 msgstr "Liste de prix par défaut"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
-"The pricelist used if no customer is selected or if the customer has no Sale"
-" Pricelist configured."
+"The pricelist used if no customer is selected or if the customer has no "
+"Sale Pricelist configured."
 msgstr ""
 "La liste de prix utilisée si aucun client n'est sélectionné ou si aucune "
 "liste de prix de vente n'est configurée pour le client."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Restrict Price Modifications to Managers"
 msgstr "Limiter les modifications de prix aux responsables"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
 "Only users with Manager access rights for PoS app can modify the product "
 "prices on orders."
@@ -2167,31 +1845,31 @@ msgstr ""
 "Seuls les utilisateurs disposant des droits d'accès de responsable dans "
 "l'application PdV peuvent modifier le prix d'un produit sur une commande."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Cash Control"
 msgstr "Contrôle de caisse"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Check the amount of the cashbox at opening and closing."
 msgstr "Contrôle de caisse à l'ouverture et à la fermeture."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Prefill Cash Payment"
 msgstr "Pré-remplir le paiement en espèce"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
-"The payment input will behave similarily to bank payment input, and will be "
-"prefilled with the exact due amount."
+"The payment input will behave similarily to bank payment input, and will "
+"be prefilled with the exact due amount."
 msgstr ""
-"Ce paiement sera traité de la même façon qu'un paiement bancaire. Il sera "
-"pré-rempli avec le montant dû exact."
+"Ce paiement sera traité de la même façon qu'un paiement bancaire. Il sera"
+" pré-rempli avec le montant dû exact."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Order IDs Sequence"
 msgstr "Séquence des id. commandes"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
 "This sequence is automatically created by Odoo but you can change it to "
 "customize the reference numbers of your orders."
@@ -2199,166 +1877,161 @@ msgstr ""
 "Cette séquence est créée automatiquement par Odoo, mais vous pouvez la "
 "changer pour personnaliser les références de vos commandes."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Receipt Header"
 msgstr "En-tête du ticket :"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "A short text that will be inserted as a header in the printed receipt."
-msgstr ""
-"Un message court qui sera inséré comme en-tête dans le ticket de reçu."
+msgstr "Un message court qui sera inséré comme en-tête dans le ticket de reçu."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Receipt Footer"
 msgstr "Pied du ticket :"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "A short text that will be inserted as a footer in the printed receipt."
-msgstr ""
-"Un texte court qui sera inséré comme pied de page dans le ticket de reçu."
+msgstr "Un texte court qui sera inséré comme pied de page dans le ticket de reçu."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Automatic Receipt Printing"
 msgstr "Impression automatique du reçu"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "The receipt will automatically be printed at the end of each order."
 msgstr "Le reçu sera automatiquement imprimé à la fin de chaque commande."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Skip Preview Screen"
 msgstr "Passer l'écran Aperçu"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
 "The receipt screen will be skipped if the receipt can be printed "
 "automatically."
-msgstr ""
-"L'écran de reçu sera passé si le reçu peut être imprimé automatiquement. "
+msgstr "L'écran de reçu sera passé si le reçu peut être imprimé automatiquement. "
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Bill Printing"
 msgstr "Impression de la Facture"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Allows to print the Bill before payment."
 msgstr "Permet d'imprimer la facture avant le paiement."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Bill Splitting"
 msgstr "Partage d'addition"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Enables Bill Splitting in the Point of Sale."
 msgstr "Autoriser le partage d'une addition au point de vente."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Tip Product"
 msgstr "Produit pour pourboire"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "This product is used as reference on customer receipts."
 msgstr "Ce produit est utilisé comme référence sur les reçus client."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Invoicing"
 msgstr "Facturation"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Enables invoice generation from the Point of Sale."
 msgstr "Permet l'émission d'une facture depuis le point de vente."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Invoice Journal"
 msgstr "Journal de facturation"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Accounting journal used to create invoices."
 msgstr "Journal des comptes utilisé pour la création de factures."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Sales Journal"
 msgstr "Journal de ventes"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Accounting journal used to post sales entries."
-msgstr ""
-"Journal de comptabilité utilisé pour enregistrer des écritures de vente."
+msgstr "Journal de comptabilité utilisé pour enregistrer des écritures de vente."
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid "Group Journal Items"
 msgstr "Regrouper les éléments du journal"
 
-#: ../../point_of_sale/overview/start.rst:0
+#: ../../point_of_sale/overview/start.rst
 msgid ""
-"Check this if you want to group the Journal Items by Product while closing a"
-" Session."
+"Check this if you want to group the Journal Items by Product while "
+"closing a Session."
 msgstr ""
 "Cochez cette case si vous souhaitez regrouper les pièces comptables par "
 "produit lors de la fermeture d'une session."
 
-#: ../../point_of_sale/overview/start.rst:100
+#: ../../point_of_sale/overview/start.rst:93
 msgid "Now you are ready to make your first steps with your point of sale."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:103
+#: ../../point_of_sale/overview/start.rst:96
 msgid "First Steps in the Point of Sale"
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:106
+#: ../../point_of_sale/overview/start.rst:99
 msgid "Your first order"
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:108
+#: ../../point_of_sale/overview/start.rst:101
 msgid ""
 "On the dashboard, you can see your points of sales, click on **New "
 "session**:"
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:119
+#: ../../point_of_sale/overview/start.rst:112
 msgid ""
-"On the right you can see the products list with the categories on the top. "
-"If you click on a product, it will be added in the cart. You can directly "
-"set the correct quantity or weight by typing it on the keyboard."
+"On the right you can see the products list with the categories on the "
+"top. If you click on a product, it will be added in the cart. You can "
+"directly set the correct quantity or weight by typing it on the keyboard."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:125
+#: ../../point_of_sale/overview/start.rst:118
 #: ../../point_of_sale/shop/cash_control.rst:59
 msgid "Payment"
 msgstr "Paiement"
 
-#: ../../point_of_sale/overview/start.rst:127
+#: ../../point_of_sale/overview/start.rst:120
 msgid ""
 "Once the order is completed, click on **Payment**. You can choose the "
-"customer payment method. In this example, the customer owes you ``10.84 €`` "
-"and pays with a ``20 €`` note. When it's done, click on **Validate**."
+"customer payment method. In this example, the customer owes you ``10.84 "
+"€`` and pays with a ``20 €`` note. When it's done, click on **Validate**."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:134
+#: ../../point_of_sale/overview/start.rst:127
 #: ../../point_of_sale/shop/cash_control.rst:68
-msgid ""
-"Your ticket is printed and you are now ready to make your second order."
+msgid "Your ticket is printed and you are now ready to make your second order."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:137
+#: ../../point_of_sale/overview/start.rst:130
 #: ../../point_of_sale/shop/cash_control.rst:71
 msgid "Closing a session"
 msgstr ""
 
+#: ../../point_of_sale/overview/start.rst:132
+msgid ""
+"At the end of the day, to close the session, click on the **Close** "
+"button on the top right. Click again on the close button of the point of "
+"sale. On this page, you will see a summary of the transactions"
+msgstr ""
+
 #: ../../point_of_sale/overview/start.rst:139
 msgid ""
-"At the end of the day, to close the session, click on the **Close** button "
-"on the top right. Click again on the close button of the point of sale. On "
-"this page, you will see a summary of the transactions"
+"If you click on a payment method line, the journal of this method appears"
+" containing all the transactions performed."
 msgstr ""
 
-#: ../../point_of_sale/overview/start.rst:146
-msgid ""
-"If you click on a payment method line, the journal of this method appears "
-"containing all the transactions performed."
-msgstr ""
-
-#: ../../point_of_sale/overview/start.rst:152
+#: ../../point_of_sale/overview/start.rst:142
 msgid "Now, you only have to validate and close the session."
 msgstr ""
 
@@ -2377,8 +2050,8 @@ msgstr ""
 #: ../../point_of_sale/restaurant/multi_orders.rst:8
 msgid ""
 "On the main screen, just tap on the **+** on the top of the screen to "
-"register another order. The current orders remain opened until the payment "
-"is done or the order is cancelled."
+"register another order. The current orders remain opened until the "
+"payment is done or the order is cancelled."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/multi_orders.rst:16
@@ -2395,8 +2068,8 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/multi_orders.rst:26
 msgid ""
-"If you made a mistake or if the order is cancelled, just click on the **-** "
-"button. A message will appear to confirm the order deletion."
+"If you made a mistake or if the order is cancelled, just click on the "
+"**-** button. A message will appear to confirm the order deletion."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/multi_orders.rst:34
@@ -2405,10 +2078,6 @@ msgid ":doc:`../advanced/register`"
 msgstr ""
 
 #: ../../point_of_sale/restaurant/multi_orders.rst:35
-msgid ":doc:`../advanced/reprint`"
-msgstr ""
-
-#: ../../point_of_sale/restaurant/multi_orders.rst:36
 msgid ":doc:`transfer`"
 msgstr ""
 
@@ -2418,22 +2087,24 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/print.rst:8
 #: ../../point_of_sale/restaurant/split.rst:10
-msgid "From the dashboard click on :menuselection:`More --> Settings`:"
+msgid "From the dashboard click on :menuselection:`... --> Settings`:"
 msgstr ""
 
 #: ../../point_of_sale/restaurant/print.rst:13
-msgid "Under the **Bar & Restaurant** section, tick **Bill Printing**."
+msgid "Under the **Bills & Receipts** section, tick **Bill Printing**."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/print.rst:18
-msgid "In order printers, click on **add an item** and then **Create**."
+msgid ""
+"In order printers, click on **_____________________** and then **Create "
+"and Edit**."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/print.rst:23
 msgid ""
-"Set a printer **Name**, its **IP address** and the **Category** of product "
-"you want to print on this printer. The category of product is useful to "
-"print the order for the kitchen."
+"Set a printer **Name**, its **IP address** and the **Category** of "
+"product you want to print on this printer. The category of product is "
+"useful to print the order for the kitchen."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/print.rst:30
@@ -2442,8 +2113,8 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/print.rst:35
 msgid ""
-"Now when you register an order, products will be automatically printed on "
-"the correct printer."
+"Now when you register an order, products will be automatically printed on"
+" the correct printer."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/print.rst:39
@@ -2478,8 +2149,8 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/print.rst:65
 msgid ""
-"The printer is automatically chosen according to the products categories set"
-" on it."
+"The printer is automatically chosen according to the products categories "
+"set on it."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/setup.rst:3
@@ -2488,26 +2159,24 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/setup.rst:5
 msgid ""
-"Go to the **Point of Sale** application, :menuselection:`Configuration --> "
-"Settings`"
+"Go to the **Point of Sale** application, :menuselection:`Configuration "
+"--> Point of Sale`"
 msgstr ""
 
 #: ../../point_of_sale/restaurant/setup.rst:11
-msgid ""
-"Enable the option **Restaurant: activate table management** and click on "
-"**Apply**."
+msgid "Edit and Enable the option **Is a bar/Restaurant** and click on **Save**."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/setup.rst:17
 msgid ""
-"Then go back to the **Dashboard**, on the point of sale you want to use in "
-"restaurant mode, click on :menuselection:`More --> Settings`."
+"Then go back to the **Dashboard**, on the point of sale you want to use "
+"in restaurant mode, click on :menuselection:`... --> Settings`."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/setup.rst:23
 msgid ""
-"Under the **Restaurant Floors** section, click on **add an item** to insert "
-"a floor and to set your PoS in restaurant mode."
+"Under the **Order Interface --> Table Management** section, click on "
+"**Floors** to insert a floor and to set your PoS in restaurant mode."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/setup.rst:29
@@ -2516,9 +2185,9 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/setup.rst:34
 msgid ""
-"Click on **Save & Close** and then on **Save**. Congratulations, your point "
-"of sale is now in Restaurant mode. The first time you start a session, you "
-"will arrive on an empty map."
+"Click on **Save & Close** and then on **Save**. Congratulations, your "
+"point of sale is now in Restaurant mode. The first time you start a "
+"session, you will arrive on an empty map."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/setup.rst:40
@@ -2530,8 +2199,7 @@ msgid "How to handle split bills?"
 msgstr ""
 
 #: ../../point_of_sale/restaurant/split.rst:8
-msgid ""
-"Split bills only work for point of sales that are in **restaurant** mode."
+msgid "Split bills only work for point of sales that are in **restaurant** mode."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/split.rst:15
@@ -2549,8 +2217,8 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/split.rst:33
 msgid ""
-"When customers want to pay and split the bill, there are two ways to achieve"
-" this:"
+"When customers want to pay and split the bill, there are two ways to "
+"achieve this:"
 msgstr ""
 
 #: ../../point_of_sale/restaurant/split.rst:36
@@ -2573,14 +2241,14 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/split.rst:49
 msgid ""
-"Click on the payment method (cash, credit card,...) and enter the amount. "
-"Repeat it for each customer."
+"Click on the payment method (cash, credit card,...) and enter the amount."
+" Repeat it for each customer."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/split.rst:55
 msgid ""
-"When it's done, click on validate. This is how to split the bill based on "
-"the total amount."
+"When it's done, click on validate. This is how to split the bill based on"
+" the total amount."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/split.rst:59
@@ -2593,7 +2261,8 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/split.rst:66
 msgid ""
-"Select the products the first customer wants to pay and click on **Payment**"
+"Select the products the first customer wants to pay and click on "
+"**Payment**"
 msgstr ""
 
 #: ../../point_of_sale/restaurant/split.rst:71
@@ -2618,20 +2287,20 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/table.rst:8
 msgid ""
-"Once your point of sale has been configured for restaurant usage, click on "
-"**New Session**:"
+"Once your point of sale has been configured for restaurant usage, click "
+"on **New Session**:"
 msgstr ""
 
 #: ../../point_of_sale/restaurant/table.rst:14
 msgid ""
-"This is your main floor, it is empty for now. Click on the **+** icon to add"
-" a table."
+"This is your main floor, it is empty for now. Click on the **+** icon to "
+"add a table."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/table.rst:20
 msgid ""
-"Drag and drop the table to change its position. Once you click on it, you "
-"can edit it."
+"Drag and drop the table to change its position. Once you click on it, you"
+" can edit it."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/table.rst:23
@@ -2664,8 +2333,8 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/table.rst:58
 msgid ""
-"Once your plan is done click on the pencil to leave the edit mode. The plan "
-"is automatically saved."
+"Once your plan is done click on the pencil to leave the edit mode. The "
+"plan is automatically saved."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/table.rst:65
@@ -2679,8 +2348,7 @@ msgid ""
 msgstr ""
 
 #: ../../point_of_sale/restaurant/table.rst:70
-msgid ""
-"You can come back at any time to the map by clicking on the floor name :"
+msgid "You can come back at any time to the map by clicking on the floor name :"
 msgstr ""
 
 #: ../../point_of_sale/restaurant/table.rst:76
@@ -2697,7 +2365,7 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/tips.rst:8
 #: ../../point_of_sale/shop/seasonal_discount.rst:63
-msgid "From the dashboard, click on :menuselection:`More --> Settings`."
+msgid "From the dashboard, click on :menuselection:`... --> Settings`."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/tips.rst:13
@@ -2706,8 +2374,8 @@ msgstr ""
 
 #: ../../point_of_sale/restaurant/tips.rst:18
 msgid ""
-"In the tip product page, be sure to set a sale price of ``0€`` and to remove"
-" all the taxes in the accounting tab."
+"In the tip product page, be sure to set a sale price of ``0€`` and to "
+"remove all the taxes in the accounting tab."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/tips.rst:25
@@ -2723,8 +2391,7 @@ msgid "Tap down the amount of the tip:"
 msgstr ""
 
 #: ../../point_of_sale/restaurant/tips.rst:37
-msgid ""
-"The total amount has been updated and you can now register the payment."
+msgid "The total amount has been updated and you can now register the payment."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/transfer.rst:3
@@ -2732,19 +2399,17 @@ msgid "How to transfer a customer from table?"
 msgstr ""
 
 #: ../../point_of_sale/restaurant/transfer.rst:5
-msgid ""
-"This only work for Point of Sales that are configured in restaurant mode."
+msgid "This only work for Point of Sales that are configured in restaurant mode."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/transfer.rst:13
-msgid ""
-"Choose a table, for example table ``T1`` and start registering an order."
+msgid "Choose a table, for example table ``T1`` and start registering an order."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/transfer.rst:18
 msgid ""
-"Register an order. For some reason, customers want to move to table ``T9``. "
-"Click on **Transfer**."
+"Register an order. For some reason, customers want to move to table "
+"``T9``. Click on **Transfer**."
 msgstr ""
 
 #: ../../point_of_sale/restaurant/transfer.rst:24
@@ -2765,8 +2430,8 @@ msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:5
 msgid ""
-"Cash control permits you to check the amount of the cashbox at the opening "
-"and closing."
+"Cash control permits you to check the amount of the cashbox at the "
+"opening and closing."
 msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:9
@@ -2775,12 +2440,12 @@ msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:11
 msgid ""
-"On the **Point of Sale** dashboard, click on :menuselection:`More --> "
+"On the **Point of Sale** dashboard, click on :menuselection:`... --> "
 "Settings`."
 msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:17
-msgid "On this page, scroll and tick the the option **Cash Control**."
+msgid "On this page, scroll and tick the option **Cash Control**."
 msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:23
@@ -2793,14 +2458,15 @@ msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:30
 msgid ""
-"Before launching the point of sale interface, you get the open control view."
-" Click on set an opening balance to introduce the amount in the cashbox."
+"Before launching the point of sale interface, you get the open control "
+"view. Click on set an opening balance to introduce the amount in the "
+"cashbox."
 msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:37
 msgid ""
-"Here you can insert the value of the coin or bill, and the amount present in"
-" the cashbox. The system sums up the total, in this example we have "
+"Here you can insert the value of the coin or bill, and the amount present"
+" in the cashbox. The system sums up the total, in this example we have "
 "``86,85€`` in the cashbox. Click on **confirm**."
 msgstr ""
 
@@ -2813,27 +2479,27 @@ msgstr ""
 #: ../../point_of_sale/shop/cash_control.rst:61
 msgid ""
 "Once the order is completed, click on **Payment**. You can choose the "
-"customer payment method. In this example, the customer owes you ``10.84€`` "
-"and pays with a ``20€`` note. When it's done, click on **Validate**."
+"customer payment method. In this example, the customer owes you "
+"``10.84€`` and pays with a ``20€`` note. When it's done, click on "
+"**Validate**."
 msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:73
 msgid ""
-"At the time of closing the session, click on the **Close** button on the top"
-" right. Click again on the **Close** button to exit the point of sale "
-"interface. On this page, you will see a summary of the transactions. At this"
-" moment you can take the money out."
+"At the time of closing the session, click on the **Close** button on the "
+"top right. Click again on the **Close** button to exit the point of sale "
+"interface. On this page, you will see a summary of the transactions. At "
+"this moment you can take the money out."
 msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:81
-msgid ""
-"For instance you want to take your daily transactions out of your cashbox."
+msgid "For instance you want to take your daily transactions out of your cashbox."
 msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:87
 msgid ""
-"Now you can see that the theoretical closing balance has been updated and it"
-" only remains you to count your cashbox to set a closing balance."
+"Now you can see that the theoretical closing balance has been updated and"
+" it only remains you to count your cashbox to set a closing balance."
 msgstr ""
 
 #: ../../point_of_sale/shop/cash_control.rst:93
@@ -2874,14 +2540,15 @@ msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:19
 msgid ""
-"On the right you can see the list of your products with the categories on "
-"the top. Switch categories by clicking on it."
+"On the right you can see the list of your products with the categories on"
+" the top. Switch categories by clicking on it."
 msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:22
 msgid ""
-"If you click on a product, it will be added in your cart. You can directly "
-"set the correct **Quantity/Weight** by typing it on the keyboard."
+"If you click on a product, it will be added in your cart. You can "
+"directly set the correct **Quantity/Weight** by typing it on the "
+"keyboard."
 msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:26
@@ -2903,14 +2570,14 @@ msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:41
 msgid ""
-"You can search in the list of your customers or create new ones by clicking "
-"on the icon."
+"You can search in the list of your customers or create new ones by "
+"clicking on the icon."
 msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:48
 msgid ""
-"For more explanation about adding a new customer. Please read the document "
-":doc:`../advanced/register`."
+"For more explanation about adding a new customer. Please read the "
+"document :doc:`../advanced/register`."
 msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:52
@@ -2934,9 +2601,9 @@ msgstr ""
 #: ../../point_of_sale/shop/invoice.rst:73
 msgid ""
 "Be careful with the **Barcode Nomenclature**. By default, customers' "
-"barcodes have to begin with 042. To check the default barcode nomenclature, "
-"go to :menuselection:`Point of Sale --> Configuration --> Barcode "
-"Nomenclatures`."
+"barcodes have to begin with 042. To check the default barcode "
+"nomenclature, go to :menuselection:`Point of Sale --> Configuration --> "
+"Barcode Nomenclatures`."
 msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:82
@@ -2946,14 +2613,14 @@ msgstr ""
 #: ../../point_of_sale/shop/invoice.rst:84
 msgid ""
 "Once the cart is processed, click on **Payment**. You can choose the "
-"customer payment method. In this example, the customer owes you ``10.84 €`` "
-"and pays with by a ``VISA``."
+"customer payment method. In this example, the customer owes you ``10.84 "
+"€`` and pays with by a ``VISA``."
 msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:88
 msgid ""
-"Before clicking on **Validate**, you have to click on **Invoice** in order "
-"to create an invoice from this order."
+"Before clicking on **Validate**, you have to click on **Invoice** in "
+"order to create an invoice from this order."
 msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:94
@@ -2966,8 +2633,8 @@ msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:99
 msgid ""
-"To retrieve the customer's invoices, go to the **Sale** application, click "
-"on :menuselection:`Sales --> Customers`."
+"To retrieve the customer's invoices, go to the **Sale** application, "
+"click on :menuselection:`Sales --> Customers`."
 msgstr ""
 
 #: ../../point_of_sale/shop/invoice.rst:102
@@ -2992,15 +2659,15 @@ msgstr ""
 
 #: ../../point_of_sale/shop/refund.rst:5
 msgid ""
-"To refund a customer, from the PoS main view, you have to insert negative "
-"values. For instance in the last order you count too many ``pumpkins`` and "
-"you have to pay back one."
+"To refund a customer, from the PoS main view, you have to insert negative"
+" values. For instance in the last order you count too many ``pumpkins`` "
+"and you have to pay back one."
 msgstr ""
 
 #: ../../point_of_sale/shop/refund.rst:12
 msgid ""
-"You can see that the total is negative, to end the refund, you only have to "
-"process the payment."
+"You can see that the total is negative, to end the refund, you only have "
+"to process the payment."
 msgstr ""
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:3
@@ -3022,7 +2689,7 @@ msgstr ""
 #: ../../point_of_sale/shop/seasonal_discount.rst:15
 msgid ""
 "In the **Sales** application, go to :menuselection:`Configuration --> "
-"Settings`. Tick **Advanced pricing based on formula**."
+"Settings`. Tick **Prices computed from formula**."
 msgstr ""
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:23
@@ -3031,8 +2698,8 @@ msgstr ""
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:25
 msgid ""
-"Once the setting has been applied, a **Pricelists** section appears under "
-"the configuration menu on the sales application."
+"Once the setting has been applied, a **Pricelists** section appears under"
+" the configuration menu on the sales application."
 msgstr ""
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:31
@@ -3041,39 +2708,38 @@ msgstr ""
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:36
 msgid ""
-"Create a **Pricelist** for your point of sale. Each pricelist can contain "
-"several items with different prices and different dates. It can be done on "
-"all products or only on specific ones. Click on **Add an item**."
+"Create a **Pricelist** for your point of sale. Each pricelist can contain"
+" several items with different prices and different dates. It can be done "
+"on all products or only on specific ones. Click on **Add an item**."
 msgstr ""
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:0
+#: ../../point_of_sale/shop/seasonal_discount.rst
 msgid "Active"
 msgstr "Actif/ve"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:0
-msgid ""
-"If unchecked, it will allow you to hide the pricelist without removing it."
-msgstr ""
-"Décocher cette case permet de masquer la liste de prix sans la supprimer."
+#: ../../point_of_sale/shop/seasonal_discount.rst
+msgid "If unchecked, it will allow you to hide the pricelist without removing it."
+msgstr "Décocher cette case permet de masquer la liste de prix sans la supprimer."
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:0
+#: ../../point_of_sale/shop/seasonal_discount.rst
 msgid "Selectable"
 msgstr "Sélectionnable"
 
-#: ../../point_of_sale/shop/seasonal_discount.rst:0
+#: ../../point_of_sale/shop/seasonal_discount.rst
 msgid "Allow the end user to choose this price list"
 msgstr "Permettre à l'utilisateur final de choisir cette liste de prix"
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:45
 msgid ""
-"For example, the price of the oranges costs ``3€`` but for two days, we want"
-" to give a ``10%`` discount to our PoS customers."
+"For example, the price of the oranges costs ``3€`` but for two days, we "
+"want to give a ``10%`` discount to our PoS customers."
 msgstr ""
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:51
 msgid ""
 "You can do it by adding the product or its category and applying a "
-"percentage discount. Other price computation can be done for the pricelist."
+"percentage discount. Other price computation can be done for the "
+"pricelist."
 msgstr ""
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:55
@@ -3090,15 +2756,631 @@ msgstr ""
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:74
 msgid ""
-"You just have to update the pricelist to apply the time-limited discount(s)."
+"You just have to update the pricelist to apply the time-limited "
+"discount(s)."
 msgstr ""
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:80
 msgid ""
-"When you start a new session, you can see that the price have automatically "
-"been updated."
+"When you start a new session, you can see that the price have "
+"automatically been updated."
 msgstr ""
 
 #: ../../point_of_sale/shop/seasonal_discount.rst:87
 msgid "When you update a pricelist, you have to close and open the session."
 msgstr ""
+
+#~ msgid "That's it, this how you can use discount tag on products with Odoo."
+#~ msgstr ""
+
+#~ msgid "How to create & run a loyalty & reward system"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the **Point of Sale** application,"
+#~ " go to :menuselection:`Configuration --> "
+#~ "Settings`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can tick **Manage loyalty program"
+#~ " with point and reward for "
+#~ "customers**."
+#~ msgstr ""
+
+#~ msgid "Create a loyalty program"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After you apply, go to "
+#~ ":menuselection:`Configuration --> Loyalty Programs`"
+#~ " and click on **Create**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set a **name** and an **amount** "
+#~ "of points given **by currency**, **by"
+#~ " order** or **by product**. Extra "
+#~ "rules can also be added such as"
+#~ " **extra points** on a product."
+#~ msgstr ""
+
+#~ msgid "To do this click on **Add an item** under **Rules**."
+#~ msgstr ""
+
+#~ msgid "You can configure any rule by setting some configuration values."
+#~ msgstr ""
+
+#~ msgid "**Name**: An internal identification for this loyalty program rule"
+#~ msgstr ""
+
+#~ msgid "**Type**: Does this rule affects products, or a category of products?"
+#~ msgstr ""
+
+#~ msgid "**Target Product**: The product affected by the rule"
+#~ msgstr ""
+
+#~ msgid "**Target Category**: The category affected by the rule"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Cumulative**: The points won from this"
+#~ " rule will be won in addition "
+#~ "to other rules"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Points per product**: How many points"
+#~ " the product will earn per product"
+#~ " ordered"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Points per currency**: How many points"
+#~ " the product will earn per value "
+#~ "sold"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your new rule is now created and"
+#~ " rewards can be added by clicking "
+#~ "on **Add an Item** under **Rewards**."
+#~ msgstr ""
+
+#~ msgid "Three types of reward can be given:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Resale**: convert your points into "
+#~ "money. Set a product that represents "
+#~ "the value of 1 point."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Discount**: give a discount for an "
+#~ "amount of points. Set a product "
+#~ "with a price of ``0 €`` and "
+#~ "without any taxes."
+#~ msgstr ""
+
+#~ msgid "**Gift**: give a gift for an amount of points"
+#~ msgstr ""
+
+#~ msgid "Applying your loyalty program to a point of sale"
+#~ msgstr ""
+
+#~ msgid "On the **Dashboard**, click on :menuselection:`More --> Settings`."
+#~ msgstr ""
+
+#~ msgid "Next to loyalty program, set the program you want to set."
+#~ msgstr ""
+
+#~ msgid "Gathering and consuming points"
+#~ msgstr ""
+
+#~ msgid "To start gathering points you need to set a customer on the order."
+#~ msgstr ""
+
+#~ msgid "Click on **Customer** and select the right one."
+#~ msgstr ""
+
+#~ msgid "Loyalty points will appear on screen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The next time the customer comes "
+#~ "to your shop and has enough points"
+#~ " to get a reward, the **Rewards** "
+#~ "button is highlighted and gifts can "
+#~ "be given."
+#~ msgstr ""
+
+#~ msgid "The reward is added and of course points are subtracted from the total."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want to set a global "
+#~ "discount, you need to go to "
+#~ ":menuselection:`Configuration --> Settings` and "
+#~ "tick **Allow global discounts**"
+#~ msgstr ""
+
+#~ msgid "Then from the dashboard, click on :menuselection:`More --> Settings`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You have to activate **Order Discounts**"
+#~ " and create a product that will "
+#~ "be added as a product with a "
+#~ "negative price to deduct the discount."
+#~ msgstr ""
+
+#~ msgid "How to accept credit card payments in Odoo POS using Mercury?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A **MercuryPay** account (see `MercuryPay "
+#~ "website <https://www.mercurypay.com>`__.) is "
+#~ "required to accept credit card payments"
+#~ " in Odoo 9 POS with an "
+#~ "integrated card reader. MercuryPay only "
+#~ "operates with US and Canadian banks "
+#~ "making this procedure only suitable for"
+#~ " North American businesses. An alternative"
+#~ " to an integrated card reader is "
+#~ "to work with a standalone card "
+#~ "reader, copy the transaction total from"
+#~ " the Odoo POS screen into the "
+#~ "card reader, and record the transaction"
+#~ " in Odoo POS."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Edit** the cashier and add a "
+#~ "**security pin code** on the **Point "
+#~ "of Sale** tab."
+#~ msgstr ""
+
+#~ msgid "How to reprint receipts?"
+#~ msgstr ""
+
+#~ msgid "This feature requires a POSBox and a receipt printer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want to allow a cashier "
+#~ "to reprint a ticket, go to "
+#~ ":menuselection:`Configuration --> Settings` and "
+#~ "tick the option **Allow cashier to "
+#~ "reprint receipts**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You also need to allow the "
+#~ "reprinting on the point of sale. "
+#~ "Go to :menuselection:`Configuration --> Point"
+#~ " of Sale`, open the one you "
+#~ "want to configure and and tick the"
+#~ " option **Reprinting**."
+#~ msgstr ""
+
+#~ msgid "How to reprint a receipt?"
+#~ msgstr ""
+
+#~ msgid "In the Point of Sale interface click on the **Reprint Receipt** button."
+#~ msgstr ""
+
+#~ msgid "The last printed receipt will be printed again."
+#~ msgstr ""
+
+#~ msgid "Belgian Fiscal Data Module"
+#~ msgstr ""
+
+#~ msgid "Setting up the Fiscal Data Module with the Odoo POS"
+#~ msgstr ""
+
+#~ msgid "Introduction"
+#~ msgstr "Introduction"
+
+#~ msgid ""
+#~ "The Belgian government requires certain "
+#~ "businesses to use a government-certified"
+#~ " device called a **Fiscal Data "
+#~ "Module** (also known as a **blackbox**)."
+#~ " This device works together with the"
+#~ " POS application and logs certain "
+#~ "transactions. On top of that, the "
+#~ "used POS application must also be "
+#~ "certified by the government and must "
+#~ "adhere to strict standards specified by"
+#~ " them. `Odoo 9 (Enterprise Edition) "
+#~ "is a certified application "
+#~ "<http://www.systemedecaisseenregistreuse.be/systemes-"
+#~ "certifies>`_. More information concerning the"
+#~ " Fiscal Data Module can be found "
+#~ "on `the official website "
+#~ "<http://www.systemedecaisseenregistreuse.be/>`_."
+#~ msgstr ""
+
+#~ msgid "Required hardware"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A government certified `Fiscal Data "
+#~ "Module <http://www.systemedecaisseenregistreuse.be/systemes-"
+#~ "certifies#FDM%20certifiés>`_ per POS, all of"
+#~ " them should work, but the Cleancash"
+#~ " SC-B is recommended, you will also"
+#~ " need:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Serial null modem cable per FDM "
+#~ "(`example <http://www.startech.com/Cables/Serial-"
+#~ "Parallel-PS-2/DB9-DB25/10-ft-Cross-Wired-"
+#~ "Serial-Null-Modem-Cable-DB9-FM~SCNM9FM>`__)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Serial-to-USB adapter per FDM "
+#~ "(`example "
+#~ "<http://trendnet.com/products/proddetail.asp?prod=265_TU-S9>`__)"
+#~ msgstr ""
+
+#~ msgid "A registered POSBox per POS configuration"
+#~ msgstr ""
+
+#~ msgid "Setup"
+#~ msgstr "Configuration"
+
+#~ msgid "POSBox"
+#~ msgstr "POSBox"
+
+#~ msgid ""
+#~ "In order to use a Fiscal Data "
+#~ "Module, you will need a registered "
+#~ "POSBox. These POSBoxes are similar to"
+#~ " the regular POSBoxes we sell, but"
+#~ " they are registered with the Belgian"
+#~ " government. This is required by law."
+#~ " Attempting to use a Fiscal Data "
+#~ "Module on a non-registered POSBox "
+#~ "will not work. You can verify that"
+#~ " the Fiscal Data Module is recognized"
+#~ " by the POSBox by going to the"
+#~ " *Hardware status page* via the "
+#~ "POSBox homepage."
+#~ msgstr ""
+
+#~ msgid "Odoo"
+#~ msgstr "Odoo"
+
+#~ msgid ""
+#~ "An Odoo POS app can be given "
+#~ "certified POS capabilities by installing "
+#~ "the **Belgian Registered Cash Register** "
+#~ "app (technical name: ``pos_blackbox_be``). "
+#~ "Because of government restrictions imposed "
+#~ "on us, this installation cannot be "
+#~ "undone. After this, you will have "
+#~ "to ensure that each POS configuration"
+#~ " has a unique registered POSBox "
+#~ "associated with it (:menuselection:`Point of"
+#~ " Sale --> Configuration --> Point of"
+#~ " Sale` and ensure Hardware Proxy /"
+#~ " POSBox and the serial number of "
+#~ "your POSBox is set). The first "
+#~ "time you open the Point of Sale"
+#~ " and attempt to do a transaction, "
+#~ "you will be asked to input the "
+#~ "PIN that you received with your "
+#~ "VAT signing card."
+#~ msgstr ""
+
+#~ msgid "Certification & On-premise"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The certification granted by the "
+#~ "government is restricted to the use "
+#~ "on odoo.com SaaS instance. The usage "
+#~ "of the module from the source or"
+#~ " a modified version will **not** be"
+#~ " certified. For on-premise users, we"
+#~ " also support the Fiscal Data Module"
+#~ " in such installations. The main "
+#~ "restriction is that this requires an "
+#~ "obfuscated version of the ``pos_blackbox_be``"
+#~ " module we will provide on request"
+#~ " for Enterprise customers."
+#~ msgstr ""
+
+#~ msgid "Restrictions"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As mentioned before, in order to "
+#~ "get certified the POS application must"
+#~ " adhere to strict government guidelines."
+#~ " Because of this, a certified Odoo"
+#~ " POS has some limitations not present"
+#~ " in the non-certified Odoo POS."
+#~ msgstr ""
+
+#~ msgid "Refunding is disabled"
+#~ msgstr ""
+
+#~ msgid "Modifying orderline prices"
+#~ msgstr ""
+
+#~ msgid "Creating/modifying/deleting POS orders"
+#~ msgstr ""
+
+#~ msgid "Selling products without a valid tax"
+#~ msgstr ""
+
+#~ msgid "Multiple Odoo POS configurations per POSBox are not allowed"
+#~ msgstr ""
+
+#~ msgid "Using the POS without a connection to the POSBox (and thus FDM)"
+#~ msgstr ""
+
+#~ msgid "Blacklisted modules: pos_discount, pos_reprint, pos_loyalty"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An Epson USB TM-T20 Printer or "
+#~ "another ESC/POS compatible printer (officially"
+#~ " supported printers are listed at the"
+#~ " `POS Hardware page <https://www.odoo.com/page"
+#~ "/pos-ipad-android-hardware>`_)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are running your Point of"
+#~ " Sale on a Debian-based Linux "
+#~ "distribution, you do not need the "
+#~ "POSBox as you can run its software"
+#~ " locally. However the installation process"
+#~ " is not foolproof. You'll need at "
+#~ "least to know how to install and"
+#~ " run Odoo. You may also run "
+#~ "into issues specific to your "
+#~ "distribution or to your particular setup"
+#~ " and hardware configuration."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Drivers for the various types of "
+#~ "supported hardware are provided as Odoo"
+#~ " modules. In fact, the POSBox runs"
+#~ " an instance of Odoo that the "
+#~ "Point of Sale communicates with. The "
+#~ "instance of Odoo running on the "
+#~ "POSBox is very different from a "
+#~ "'real' Odoo instance however. It does"
+#~ " not handle *any* business data (eg."
+#~ " POS orders), but only serves as "
+#~ "a gateway between the Point of "
+#~ "Sale and the hardware."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The goal of this section will be"
+#~ " to set up a local Odoo "
+#~ "instance that behaves like the Odoo "
+#~ "instance running on the POSBox."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We generate the official POSBox images"
+#~ " using the scripts in "
+#~ "https://github.com/odoo/odoo/tree/11.0/addons/point_of_sale/tools/posbox."
+#~ " More specifically, we run "
+#~ "`posbox_create_image.sh "
+#~ "<https://github.com/odoo/odoo/blob/11.0/addons/point_of_sale/tools/posbox/posbox_create_image.sh>`_."
+#~ " This builds an image called "
+#~ "``posbox.img``, which we zip and upload"
+#~ " to `nightly.odoo.com <https://nightly.odoo.com>`_ "
+#~ "for users to download."
+#~ msgstr ""
+
+#~ msgid "A running Odoo instance you connect to to load the Point of Sale"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You must uninstall any ESC/POS printer"
+#~ " driver as it will conflict with "
+#~ "Odoo's built-in driver"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Because Odoo runs on Python 2, you"
+#~ " need to check which version of "
+#~ "pip you need to use."
+#~ msgstr ""
+
+#~ msgid "Start the local Odoo instance"
+#~ msgstr ""
+
+#~ msgid "We must launch the Odoo server with the correct settings"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``$ ./odoo.py "
+#~ "--load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos``"
+#~ msgstr ""
+
+#~ msgid "Automatically start Odoo"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You must now make sure that this"
+#~ " Odoo install is automatically started "
+#~ "after boot. There are various ways "
+#~ "to do so, and how to do it"
+#~ " depends on your particular setup. "
+#~ "Using the init system provided by "
+#~ "your distribution is probably the "
+#~ "easiest way to accomplish this."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The IP address field in the POS"
+#~ " configuration must be either ``127.0.0.1``"
+#~ " or ``localhost`` if you're running "
+#~ "the created Odoo server on the "
+#~ "machine that you'll use as the "
+#~ "Point of Sale device. You can also"
+#~ " leave it empty."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Officially supported hardware is listed "
+#~ "on the `POS Hardware page "
+#~ "<https://www.odoo.com/page/pos-ipad-android-"
+#~ "hardware>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The POSBox runs a heavily modified "
+#~ "Raspbian Linux installation, a Debian "
+#~ "derivative for the Raspberry Pi. It "
+#~ "also runs a barebones installation of"
+#~ " Odoo which provides the webserver "
+#~ "and the drivers. The hardware drivers"
+#~ " are implemented as Odoo modules. "
+#~ "Those modules are all prefixed with "
+#~ "``hw_*`` and they are the only "
+#~ "modules that are running on the "
+#~ "POSBox. Odoo is only used for the"
+#~ " framework it provides. No business "
+#~ "data is processed or stored on the"
+#~ " POSBox. The Odoo instance is a "
+#~ "shallow git clone of the ``11.0`` "
+#~ "branch."
+#~ msgstr ""
+
+#~ msgid "Logs of the running Odoo server can be found at:"
+#~ msgstr ""
+
+#~ msgid "``/var/log/odoo/odoo.log``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The best way to update the POSBox"
+#~ " software is to download a new "
+#~ "version of the image and flash the"
+#~ " SD-Card with it. This operation "
+#~ "is described in detail in `this "
+#~ "tutorial <http://elinux.org/RPi_Easy_SD_Card_Setup>`_, "
+#~ "just replace the standard Raspberry Pi"
+#~ " image with the latest one found "
+#~ "at `the official POSBox image page "
+#~ "<http://nightly.odoo.com/master/posbox/>`_. This method"
+#~ " of upgrading will ensure that you're"
+#~ " running the latest version of the"
+#~ " POSBox software."
+#~ msgstr ""
+
+#~ msgid "The internal Odoo application"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Scripts in the folder "
+#~ "``odoo/addons/point_of_sale/tools/posbox/configuration/``"
+#~ msgstr ""
+
+#~ msgid "Getting started with Odoo Point of Sale"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Odoo's online **Point of Sale** "
+#~ "application is based on a simple, "
+#~ "user friendly interface. The **Point of"
+#~ " Sale** application can be used "
+#~ "online or offline on iPads, Android "
+#~ "tablets or laptops."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Odoo **Point of Sale** is fully "
+#~ "integrated with the **Inventory** and "
+#~ "the **Accounting** applications. Any "
+#~ "transaction with your point of sale "
+#~ "will automatically be registered in your"
+#~ " inventory management and accounting and,"
+#~ " even in your **CRM** as the "
+#~ "customer can be identified from the "
+#~ "app."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Do not forget to install an "
+#~ "accounting **chart of account**. If it"
+#~ " is not done, go to the "
+#~ "**Invoicing/Accounting** application and click "
+#~ "on **Browse available countries**:"
+#~ msgstr ""
+
+#~ msgid "Then choose the one you want to install."
+#~ msgstr ""
+
+#~ msgid "Sales Channel"
+#~ msgstr "Equipe de vente"
+
+#~ msgid ":doc:`../advanced/reprint`"
+#~ msgstr ""
+
+#~ msgid "From the dashboard click on :menuselection:`More --> Settings`:"
+#~ msgstr ""
+
+#~ msgid "Under the **Bar & Restaurant** section, tick **Bill Printing**."
+#~ msgstr ""
+
+#~ msgid "In order printers, click on **add an item** and then **Create**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Go to the **Point of Sale** "
+#~ "application, :menuselection:`Configuration --> "
+#~ "Settings`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enable the option **Restaurant: activate "
+#~ "table management** and click on "
+#~ "**Apply**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Then go back to the **Dashboard**, "
+#~ "on the point of sale you want "
+#~ "to use in restaurant mode, click "
+#~ "on :menuselection:`More --> Settings`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Under the **Restaurant Floors** section, "
+#~ "click on **add an item** to insert"
+#~ " a floor and to set your PoS"
+#~ " in restaurant mode."
+#~ msgstr ""
+
+#~ msgid "From the dashboard, click on :menuselection:`More --> Settings`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the **Point of Sale** dashboard, "
+#~ "click on :menuselection:`More --> Settings`."
+#~ msgstr ""
+
+#~ msgid "On this page, scroll and tick the the option **Cash Control**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the **Sales** application, go to "
+#~ ":menuselection:`Configuration --> Settings`. Tick"
+#~ " **Advanced pricing based on formula**."
+#~ msgstr ""
+

@@ -1,0 +1,981 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:5
+msgid "Website Sale Advance Pricelist"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:9
+msgid "Overview"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:11
+msgid ""
+"Website Sale Advance Pricelist module is developed to give an advance "
+"discount. In this module, we have to give functionality to Add Price "
+"Rules, Cart Rules, Coupon Rules and Discount Calculation Details Widget."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:15
+msgid "Configuration"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:18
+msgid "Install the Website Sale Advance Pricelist"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:20
+msgid ""
+"You’ll need to install the Website Sale Advance Pricelist module from the"
+" app module in the Flectra backend. Go into the ``Apps`` and search "
+"``Website Sale Advance Pricelist``."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:27
+msgid "View Pricelists menu and Pricelist Items"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:29
+msgid ""
+"To enable the feature, go into the ``Settings`` ‣ ``USERS & COMPANIES`` ‣"
+" ``Users``, select Users, tick ``Manage Pricelist Items`` and ``Sales "
+"Pricelists`` and Save records."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:35
+msgid "Pricelists Configuration"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:37
+msgid "Go into the ``Website`` ‣ ``CATALOG`` ‣ ``Pricelists`` select pricelist."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:43
+msgid "Pricelist Type"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:45
+msgid "We have introduced new fields like ``Pricelist Type``."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:47
+msgid ""
+"``Basic``: If you want to work with the default flow, then you can select"
+" Basic. Default it is Basic."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:48
+msgid ""
+"``Advance``: If you want to use advanced features like Price Rule, Cart "
+"Rules, and Coupon Codes then you can select Advanced."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:54
+msgid "Apply Method"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:56
+msgid "We have introduced new fields like ``Apply Method``."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:58
+msgid ""
+"``Apply First Matched Rules``: Calculate discount of the first match "
+"conditions of Price Rules and Cart Rules."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:59
+msgid ""
+"``Apply All Matched Rules``: Calculate discount of the all match "
+"conditions of Price Rules and Cart Rules."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:60
+msgid ""
+"``Apply Smallest Matched Discount``: Append minimum discount of every "
+"match condition of Price Rules and Cart Rules and get minimum values from"
+" the list of the Price Rules and Cart Rules."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:61
+msgid ""
+"``Apply Biggest Matched Discount``: Append maximum discount of every "
+"match condition of Price Rules and Cart Rules and get maximum values from"
+" the list of Price Rules and Cart Rules."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:64
+msgid "Apply Coupon Code?"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:66
+msgid "We have introduced new fields like ``Apply Coupon Code?``."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:68
+msgid "Select apply coupon code option in pricelist for applying the coupon code."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:73
+msgid "Price Rules"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:75
+msgid ""
+"If you selected ``Pricelist Type as Advanced`` then you can view price "
+"rules' line in the pricelist. You can configuration price rules as per "
+"your requirements."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:81
+msgid ""
+"If you want to add ``Price Rules`` then click on Add an item. Once you "
+"click on Add an item you can see this window."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:89
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:149
+msgid "Apply On"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:91
+msgid "``Global``: Apply for all Product."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:92
+msgid ""
+"``Category``: Apply only for the selected category.If you select Apply on"
+" as Category then new field Category will be visible."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:97
+msgid ""
+"``Product Template``: Apply only for selected Product Template "
+"variants.If you select Apply on as Product Template then new field "
+"Product Template will be visible."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:102
+msgid ""
+"``Product Variant``: Apply only for selected Product variants.If you "
+"select Apply on as Product variants, then new field Product will be "
+"visible."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:107
+msgid ""
+"If you want to add ``Price Rules Lines`` then click on Add an item. Once "
+"you click on Add an item you can see this window."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:113
+msgid "Rule Type"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:118
+msgid ""
+"``Fixed Amount``: If you want to give discounts in fixed amount then you "
+"can select the rule type as Fixed Amount."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:117
+msgid ""
+"Fixed Amount converts into Percentage as per Unit Price of product in "
+"sale order line. E.g. Product Unit Price is 885 and Discount Amount is 50"
+" then 50 * 100 / 885 = 5.65"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:120
+msgid ""
+"``Percent``: If you want to give discounts in percentage then you can "
+"select the rule type as Percent."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:123
+msgid "Other Fields"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:125
+msgid "``Discount Amount``: Define the amount of discount."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:127
+msgid ""
+"``Min Quantity``: Rule to apply if quantity must be greater than or equal"
+" to the min quantity specified in this field."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:129
+msgid ""
+"``Max Quantity``: Rule to apply if quantity must be less than or equal to"
+" the max quantity specified in this field."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:131
+msgid ""
+"``Start Date``: Rule to apply if start date must be greater than or equal"
+" to the start date specified in this field."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:133
+msgid ""
+"``End Date``: Rule to apply if end date must be less than or equal to the"
+" end date specified in this field."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:135
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:204
+msgid ""
+"``Condition``: If present, this condition must be satisfied before "
+"executing the action rule."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:138
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:377
+msgid "Cart Rules"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:143
+msgid ""
+"Cart Rules are applicable on sale order if the condition is matched which"
+" defined in cart rules items."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:150
+msgid ""
+"``Subtotal At Least``: Cart Rules do not apply if Untaxed Amount is less "
+"than define amount in cart line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:151
+msgid ""
+"``Subtotal less than``: Cart Rules apply if Untaxed Amount is less than "
+"define amount in cart line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:152
+msgid ""
+"``Lines Count at least``: Cart Rules do not apply if line count of sale "
+"order(duplicate product exclude) is less than define amount in cart line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:153
+msgid ""
+"``Lines less than``: Cart Rules apply if line count of sale "
+"order(duplicate product exclude) is less than define amount in cart line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:154
+msgid ""
+"``Sum of Item Qty at least``: Cart Rules do not apply if the total "
+"quantity of product in sale order is less than define amount in cart "
+"line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:155
+msgid ""
+"``Sum of Item Qty less than``: Cart Rules apply if the total quantity of "
+"product in sale order is less than define amount in cart line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:156
+msgid ""
+"``At least one product in order``: Cart Rules apply if product match in "
+"sale order which defines in cart line. If you select Apply on as ``At "
+"least one product in order`` then new field ``Product`` will be visible."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:161
+msgid ""
+"``None of selected Products``: Cart Rules do not apply if product match "
+"in sale order which defines in cart line. If you select Apply on as "
+"``None of selected Products`` then new field ``Products`` will be "
+"visible."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:166
+msgid ""
+"``At least one category in order``: Cart Rules apply if product category "
+"match in sale order which defines in cart line. If you select Apply on as"
+" ``At least one category in order`` then new field ``Category`` will be "
+"visible."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:171
+msgid ""
+"``None of selected Categories``: Cart Rules do not apply if product "
+"category match in sale order which defines in cart line. If you select "
+"Apply on as ``None of selected Categorie`` then new field ``Categories`` "
+"will be visible."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:177
+msgid "Coupon Rules"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:179
+msgid ""
+"Coupon Rules discounts for sale such as a fixed discount, a percentage "
+"etc... of the entire sale order."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:182
+msgid "Apply Coupon Code"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:183
+msgid ""
+"Select ``Apply Coupon Code?`` option in pricelist for applying the coupon"
+" code."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:188
+msgid ""
+"Once you have selected Apply Coupon Code? An option you will display "
+"Coupon Code line in pricelist."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:195
+msgid "Coupon Type Basic Conditions"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:196
+msgid "Coupon code rule to apply, if all conditions match which define below."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:198
+msgid "``Total Usage Limit``: You can allow using maximum coupon limit."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:199
+msgid ""
+"``Remaining Usage Limit``: The limit is reduced when sale order will be "
+"confirmed. If the limit is zero then this coupon code not used."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:200
+msgid ""
+"``Valid From``:- If Valid From must be greater than or equal to the Valid"
+" From specified in this field."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:201
+msgid ""
+"``Valid To``: If Valid To must be less than or equal to the Valid To "
+"specify in this field."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:202
+msgid ""
+"``Min Order Amount``: If Untaxed Amount of Sale order must be greater "
+"than or equal to the Min Order Amount."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:203
+msgid "``Apply On``: It is same as Price Rule(See :ref:`website_apply_on`)."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:209
+msgid "Coupon Type"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:211
+msgid "There are many Coupon Type which is listed below."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:216
+msgid "Percent"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:218
+msgid ""
+"Add a percentage in the discount of every order line in which you apply "
+"the coupon code."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:226
+msgid "Fixed Amount"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:230
+msgid ""
+"If you want to give discounts on fixed amount then you can select Coupon "
+"Type as Fixed Amount."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:230
+#, python-format
+msgid ""
+"If the fixed amount is greater than or equal to the Unit Price of product"
+" in sale order line, then it gives 100% discount.Fixed Amount convert "
+"into Percentage as per Unit Price of product in sale order line. E.g. "
+"Product Unit Price is 885 and Discount Amount is 50 then 50 * 100 / 885 ="
+" 5.65"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:238
+msgid "Buy X Product Get Y Product Free"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:240
+msgid ""
+"It applies in order line where product quantity is greater than or equal "
+"to ``Number Of X Product`` in the coupon. Get ``Y same product`` unit "
+"free when buying X product."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:248
+msgid "Buy X Product Get Y Other Product Free"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:250
+msgid ""
+"It applies in order line where product quantity is greater than or equal "
+"to ``Number Of X Product`` in the coupon. Get ``Number Of Y Product`` "
+"Other Product(``[C-Case] Computer Case``) when buying X product."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:258
+msgid "Range Based Discount(Buy X Product Get Percent Free)"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:260
+msgid ""
+"It applies in order line where product quantity is greater than or equal "
+"to ``Number Of X Product`` in the coupon code and get percent "
+"free(``7.75``) when buying X product."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:268
+msgid "Clubbed Discount"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:270
+msgid "Add a Discount and Extra Discount on Sale order line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:275
+msgid ""
+"You can view sale order in the particular coupon code. Go into "
+"``Pricelist`` ‣ ``Coupon Code``‣  open Coupon Code."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:282
+msgid "Website Sale Orders"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:284
+msgid ""
+"We have to give functionality to add price rules discount, cart rules "
+"discount, coupon rules discount and view discount calculation details "
+"widget."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:290
+msgid ""
+"Pricelist (See :ref:`website_price_rule`) of current user. Default 1 "
+"quantity in shop page so, it gives 50 fixed amount for every product. If "
+"the product price is less than 50 then it becomes 0. The discount is "
+"automatically changed when order quantity updates."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:297
+msgid ""
+"Here we have define ``Discount`` field visibilty in order lines and also "
+"add ``Gross Amount`` and ``Discount`` of sale order."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:300
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:414
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:453
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:525
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:564
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:608
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:644
+msgid "First order line discount calculation"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:302
+msgid "``Product Rule Line``:"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:304
+msgid ""
+"First order line quantity 5 is between 1 to 5 in Product Rule Line(See "
+":ref:`website_price_rule`). Here define **Discount Amount = 50** and "
+"**Rule Type = Fixed Amount** so we need to convert into a percentage."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:310
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:330
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:475
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:506
+msgid ""
+"Percentage Calculation Formule = Discount Amount * 100 / Unit Price of "
+"Product"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:311
+msgid "50 * 100 / 885 = 5.65"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:313
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:333
+msgid "``Cart Rules``:-"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:315
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:335
+#, python-format
+msgid ""
+"6.5 % of Match first Cart Rules because **Subtotal(Untaxed "
+"Amount=12,012.55)** At least: 2,500.00."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:317
+msgid "Discount = Product Rule line(**5.65**) + Cart Rules(**6.5**)"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:319
+msgid "``So, discount is 5.65 + 6.5 = 12.15%``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:322
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:483
+msgid "Second order line discount calculation"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:324
+msgid ""
+"Second order line quantity 3 is between 1 to 5 in Product Rule Line(See "
+":ref:`website_price_rule`). Here define **Discount Amount = 50** and "
+"**Rule Type = Fixed Amount** so we need to convert into a percentage."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:331
+msgid "50 * 100 / 2950 = 1.69"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:337
+msgid "Discount = Product Rule line(**1.69**) + Cart Rules(**6.5**)"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:339
+msgid "``So, discount is 1.69 + 6.5 = 8.19%``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:342
+msgid "Third order line discount calculation"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:344
+msgid ""
+"Third order line quantity 3 is between 1 to 5 in Product Rule Line(See "
+":ref:`website_price_rule`)."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:346
+msgid "Unit Price(25) is less than Fixed Amount(50) of Product Rule Lines."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:348
+#, python-format
+msgid "``So, it gives 100% discount for that line``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:352
+msgid "Discount Calculation Informations"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:357
+msgid ""
+"Once you click on information icon button, you can view discount "
+"calculation details. Here display total Price Rule, Cart Rules, and "
+"Coupon Code discount etc.."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:359
+msgid "After that, it's default flow of website_sale."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:362
+msgid "Website Sale Orders With Coupon Code"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:364
+msgid "Coupon code price rule lines and cart rules:"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:369
+msgid "Price Rule Lines"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:382
+msgid "We have already configured Coupon code(See :ref:`website_coupon_type`)."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:385
+msgid "Promo Code"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:387
+msgid ""
+"If you want to apply Promo Code go to ``Website`` ‣ ``Dashboard`` ‣  ``Go"
+" To Website`` ‣  ``Click on Shop menu`` ‣  ``Select any product`` ‣  "
+"``Click on Add To Cart`` ‣  ``Click on Customize Menu`` ‣  ``Select Promo"
+" Code True``. After that, you can visible Promo Code field."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:392
+msgid ""
+"If current user have pricelist ``Advance Pricelist (First Matched Rule "
+"With Coupon)``."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:395
+msgid "Coupon Code Warning"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:400
+msgid ""
+"We have entered coupon code ``Get10Peroff`` and click on ``Apply`` button"
+" it will give the warning message if subtotal is less than min order "
+"amount in the coupon code. Here in the coupon code Min Order Amount set "
+"$2500.00 and Subtotal is $1639.02 (See :ref:`website_coupon_percent`)."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:403
+msgid "Website Sale Orders With Percentage Coupon Code"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:408
+msgid ""
+"We have entered coupon code ``Get10Peroff`` and click on ``Apply`` "
+"button. After the click on ``Apply`` discount value changed in sale order"
+" line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:416
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:455
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:485
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:527
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:566
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:610
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:646
+msgid "``Product Lines Rules``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:418
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:529
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:568
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:612
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:648
+#, python-format
+msgid ""
+"4.9 % of Match first Product Rule Lines (See "
+":ref:`website_price_rule_line`) because ordered Qty 5 is between 1 to 6."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:420
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:459
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:489
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:531
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:570
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:614
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:650
+msgid "``Cart Rules``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:422
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:533
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:572
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:616
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:652
+msgid ""
+"First cart Rules (See :ref:`website_cart_rule_line`) don't match because "
+"Subtotal is greater than 3,000.00 so that rules skip."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:424
+msgid ""
+"Second Cart Rules (See :ref:`website_cart_rule_line`) match because of "
+"Sum of Item Qty at least: 7.00 (here 8). So add 10 %."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:427
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:466
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:496
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:538
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:577
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:621
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:657
+msgid "Quantity : First order line quantity (5) + Second order line quantity (3)"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:429
+msgid ""
+"``Coupon Code`` : Coupon code (See :ref:`website_coupon_percent`) get 10 "
+"percent free."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:431
+msgid ""
+"Discount = Product Rule line(**4.9**) + Cart Rules(**10**) + Coupon "
+"Code(**10**)"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:433
+msgid "``So, First line discount is 24.9 %( 4.9 + 10 + 10)``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:436
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:549
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:630
+msgid "Same calculation for the second line of sale order."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:439
+msgid "If you want to remove coupon code then click on Apply again."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:442
+msgid "Website Sale Orders With Fixed Amount Coupon Code"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:447
+msgid ""
+"We have entered coupon code ``Get20off`` and click on ``Apply`` button. "
+"After the click on ``Apply`` discount value changed in sale order line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:457
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:487
+#, python-format
+msgid ""
+"4.9 % of match first Product Rule Lines (See "
+":ref:`website_price_rule_line`) because ordered Qty 5 is between 1 to 6."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:461
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:491
+msgid ""
+"First Cart Rules (See :ref:`website_cart_rule_line`) don't match because "
+"Subtotal is greater than 3,000.00 so that rules skip."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:463
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:493
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:535
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:574
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:618
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:654
+msgid ""
+"Second Cart Rules (See :ref:`website_cart_rule_line`) match because of "
+"Sum of Item Qty at least: 7.00 (here 8). so add 10 %."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:468
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:499
+msgid ""
+"``Coupon Code`` : Coupon code (See :ref:`website_coupon_fixed_amount`) "
+"get fixed amount 20 per product."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:470
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:501
+msgid ""
+"Here define **Discount Amount = 20** so we need to convert into the "
+"percentage."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:476
+msgid "20 * 100 / 885 = 2.26"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:478
+msgid ""
+"Discount = Product Rule line(**4.9**) + Cart Rules(**10**) + Coupon "
+"Code(**2.26**)"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:480
+msgid "``So, First line discount is 17.6 %( 4.9 + 10 + 2.26)``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:507
+msgid "20 * 100 / 2950 = 0.68"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:509
+msgid ""
+"Discount = Product Rule line(**4.9**) + Cart Rules(**10**) + Coupon "
+"Code(**0.68**)"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:511
+msgid "``So, First line discount is 15.58 %( 4.9 + 10 + 0.68)``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:514
+msgid "Website Sale Orders With Buy X Product Get Y Product Free Coupon Code"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:519
+msgid ""
+"We have entered coupon code ``BXGYFree`` and click on ``Apply`` button. "
+"After the click on ``Apply`` 2 more line created in sale order line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:540
+msgid ""
+"``Coupon Code`` : Coupon code (See :ref:`website_coupon_buy_x_get_y`) get"
+" y number of product free."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:542
+msgid ""
+"In this coupon code we get 1 same product free of buy every 3 qty. ``so, "
+"int(5/3) = 1``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:544
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:592
+msgid "Discount = Product Rule line(**4.9**) + Cart Rules(**10**)"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:546
+msgid ""
+"``So, First line discount is 14.9 %( 4.9 + 10) and get free product line "
+"3 extra``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:553
+msgid ""
+"Website Sale Orders With Buy X Product Get Y Product Other Free Coupon "
+"Code"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:558
+msgid ""
+"We have entered coupon code ``BXGYOtherFree`` and click on ``Apply`` "
+"button. After the click on ``Apply`` 1 more line created with product "
+"``[C-Case] Computer Case`` in sale order line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:580
+msgid ""
+"``Coupon Code`` : Coupon code (See "
+":ref:`website_coupon_buy_x_get_y_other`) get y number of other product "
+"free."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:582
+msgid ""
+"In this coupon code, we get 3 ``[C-Case] Computer Case`` product free. "
+"**Calculation of third order line** buy every 2 quantity get 1 product "
+"free."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:585
+msgid ""
+"``Quantity Calculation:`` **int(Order Line Quantity / Number of X "
+"Product)**"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:587
+msgid "first order line quantity(5):- int(5/2) = 2"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:588
+msgid "second order line quantity(3):-int(3/2) = 1"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:590
+msgid "``So, the total quantity of third order line is 3.``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:594
+msgid ""
+"``So, First line discount is 14.9 %( 4.9 + 10) and get free "
+"product([C-Case] Computer Case) with 3 Quantity``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:597
+msgid "Website Sale Orders With Clubbed Discount Coupon Code"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:602
+msgid ""
+"We have entered coupon code ``CD15Per`` and click on ``Apply`` button. "
+"After the click on ``Apply`` discount value changed in sale order line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:623
+msgid ""
+"``Coupon Code`` : Coupon code (See :ref:`website_coupon_clubbed`) get 15 "
+"percent free."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:625
+msgid ""
+"Discount = Product Rule line(**4.9**) + Cart Rules(**10**) + Coupon "
+"Code(**15**)"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:627
+msgid "``So, First line discount is 29.9 %( 4.9 + 10 + 15)``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:633
+msgid "Website Sale Orders With Range Based Coupon Code"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:638
+msgid ""
+"We have entered coupon code ``BXGPercentFree`` and click on ``Apply`` "
+"button. After the click on ``Apply`` discount value changed in sale order"
+" line."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:659
+msgid ""
+"``Coupon Code`` : Coupon code (See :ref:`website_coupon_range_based`) we "
+"get 7.75 percent free of buy every 3 qty."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:661
+msgid "In this coupon code, we get 7.75 percent free of buy every 3 qty."
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:663
+msgid ""
+"Discount = Product Rule line(**4.9**) + Cart Rules(**10**) + Coupon "
+"Code(**7.75**)"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:665
+msgid "``So, First line discount is 22.65 %( 4.9 + 10 + 7.75)``"
+msgstr ""
+
+#: ../../website_sale_advance_pricelist/websitesaleadvancepricelist.rst:668
+msgid ""
+"Coupon code does not apply to the second line of sale order because "
+"Ordered Qty is less than 3."
+msgstr ""
+

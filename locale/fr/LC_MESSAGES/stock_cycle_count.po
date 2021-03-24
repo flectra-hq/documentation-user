@@ -1,0 +1,255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:5
+msgid "Stock Cycle Count"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:8
+msgid "Introduction"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:10
+msgid ""
+"Stock cycle count is an inventory auditing procedure, which falls under "
+"inventory management, where a small subset of inventory, in a specific "
+"location, is counted on a specified day."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:14
+msgid "Configurations"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:16
+msgid "To deal with stock cycle count, the user has to do such configurations."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:18
+msgid ""
+"Make sure that checkboxes labeled as 'Validate Inventory Adjustment Under"
+" Threshold' and 'Validate All Inventory Adjustments' is marked under "
+":menuselection:`Settings --> Users --> Administrator`."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:21
+msgid ""
+"The user has to make checkbox labeled as 'Manage Multiple Stock "
+"Locations' under :menuselection:`Settings --> Users --> Administrator`."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:25
+msgid "Stock Cycle Count Rules"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:27
+msgid ""
+"The user is supposed to create a cycle count rule, so that the system can"
+" look into the inventory to count the stock with specific warehouse and "
+"its child locations."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:30
+msgid "There are following types of Cycle Count Rule."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:32
+#: ../../stock_cycle_count/stock_cycle_count.rst:46
+msgid "Periodic"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:33
+#: ../../stock_cycle_count/stock_cycle_count.rst:59
+msgid "Value Turnover"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:34
+#: ../../stock_cycle_count/stock_cycle_count.rst:71
+msgid "Minimum Accuracy"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:35
+#: ../../stock_cycle_count/stock_cycle_count.rst:83
+msgid "Zero Confirmation"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:38
+msgid ""
+"User can apply cycle count rule either on warehouse or on warehouse "
+"location zones. If the rule is applied only on warehouse, then the system"
+" will consider all products under that warehouse."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:42
+msgid ""
+"If the rule is applied over warehouse and its particular location, then "
+"the system will consider only those products which falls under that "
+"warehouse location."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:48
+msgid ""
+"The user has to set number of days in **period in Days** field, which "
+"indicates that the cycle will execute in these period of days."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:53
+msgid ""
+"The system will generate an execution date for inventory adjustment by "
+"using **Counts per Period** and **Period in Days**."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:56
+msgid ""
+"The scheduler will create **Cycle Counts** based on calculation of cycle "
+"count rule and its period."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:61
+msgid ""
+"While working with Value Turnover, the user is supposed to set turnover "
+"amount under **Turnover Inventory Value Threshold** and set warehouse "
+"location. When the scheduler executes, it will calculate the turnover of "
+"that particular location."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:67
+msgid ""
+"If the turnover of that location is less than the turnover defined in "
+"Cycle Count Rule, than number of stock cycle count will be generated "
+"based on Value Turnover Stock Cycle Count."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:73
+msgid ""
+"While working with Minimum Accuracy, the user is supposed to set "
+"percentage under **Minimum Accuracy Threshold** and set warehouse "
+"location. When the scheduler executes, it will calculate the accuracy of "
+"warehouse location based on products and its available quantity."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:79
+msgid ""
+"If the calculated accuracy is less than the minimum accuracy defined in "
+"Cycle Count Rule, than the number of stock cycle count will be generated."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:85
+msgid ""
+"While working with Zero Confirmation, the system will perform an "
+"Inventory Adjustment every time the location in the warehouse runs out of"
+" stock in order to confirm it is truly empty."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:90
+msgid ""
+"If the selected warehouse location has zero quantity of products, then "
+"the system will create a Stock Cycle Count for this particular warehouse "
+"location."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:94
+msgid "Stock Cycle Counts"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:96
+msgid ""
+"There is a scheduler which executes once on daily bases. It creates "
+"**Stock Cycle Count** according to the Cycle Count Rule."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:99
+msgid ""
+"The system will consider the warehouse, it location and sub-location to "
+"create **Stock Cycle Count**. Each Stock Cycle Count refers to a "
+"particular warehouse location for which it will plan the inventory."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:104
+msgid ""
+"Once the Stock Cycle Count is confirmed, the system will create number of"
+" inventories associated to that particular Cycle Count which will be "
+"available from smart button labeled as **Inventory Adjustment**."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:108
+msgid "Inventory Adjustment"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:110
+msgid ""
+"The inventory associated to the Stock Cycle Count has to be started for "
+"inventory adjustment. Once the inventory adjustment is started, it will "
+"calculate the **Accuracy** of the inventory based on **Inventory "
+"Details** lines."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:114
+msgid "Inventory Details"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:116
+msgid ""
+"There are number of products with its number of quantity and its "
+"discrepancy calculation."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:117
+msgid ""
+"There are two quantities, **Theoretical Quantity** and **Real Quantity**,"
+" which are the parameters to calculate the Discrepancy of the product and"
+" Accuracy of the Inventory."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:119
+msgid ""
+"The Discrepancy show that the number of quantity of product is lacking "
+"than the desired quantity. The Discrepancy is calculated by following "
+"formula."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:122
+msgid "**Discrepancy = Real Quantity - Theoretical Quantity**"
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:124
+msgid "Discrepancy Percent is the Discrepancy calculated in percentage."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:125
+msgid ""
+"The Threshold is the level of quantity of product warehouse location, "
+"which is to be defined in the location associated to the product."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:131
+msgid ""
+"Inventory adjustment will be made by comparing the theoretical and the "
+"checked quantities."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:132
+msgid "The user can delete lines to ignore some products."
+msgstr ""
+
+#: ../../stock_cycle_count/stock_cycle_count.rst:133
+msgid ""
+"If product is not at the right place, set the checked quantity to 0 and "
+"create a new line with correct location."
+msgstr ""
+

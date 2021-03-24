@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../recurring_documents/recurring_document.rst:5
+#: ../../recurring_documents/recurring_document.rst:16
+#: ../../recurring_documents/recurring_document.rst:22
+#: ../../recurring_documents/recurring_document.rst:30
+#: ../../recurring_documents/recurring_document.rst:46
+msgid "Recurring Documents"
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:8
+msgid "Introduction"
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:10
+msgid ""
+"The recurring documents module gives facility of generating documents "
+"automatically based on configurations."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:13
+msgid ""
+"There are certain modules available in Flectra for generating documents, "
+"which are as follows."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:17
+#: ../../recurring_documents/recurring_document.rst:85
+msgid "Sale Order Recurring"
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:18
+#: ../../recurring_documents/recurring_document.rst:114
+msgid "Purchase Order Recurring"
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:19
+#: ../../recurring_documents/recurring_document.rst:144
+msgid "Account Invoice Recurring"
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:24
+msgid ""
+"Using this module, the system will allow users to generate documents for "
+"any particular module (Installed Modules). There are one time "
+"configuration steps to follow."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:27
+msgid ""
+"There are two configurations menus under :menuselection:`Settings --> "
+"Technical --> Automation`."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:29
+#: ../../recurring_documents/recurring_document.rst:33
+msgid "Recurring Types"
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:35
+msgid "The user is supposed to create a recurring type for particular model."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:39
+msgid ""
+"Set the name of the recurring type, select module for which the recurring"
+" document is being created."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:42
+msgid ""
+"If user want to set fields with default values, then select fields "
+"pertaining to the selected model and set value against the field."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:48
+msgid "Recurring Document is used to configure the scheduler."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:52
+msgid ""
+"Set the name of the Recurring Document, select the partner for which the "
+"document is to be created. Interval Qty is how many times the scheduler "
+"should be executed. The available interval units are Minutes, Hours, "
+"Days, Weeks and Months."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:56
+msgid "Recurring Data"
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:58
+msgid ""
+"Number of Documents indicates that how many number of documents should be"
+" generated in one interval."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:61
+msgid ""
+"Source Documents, where user has to select the record for which the "
+"Documents will be created."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:63
+msgid "First Date is the date when the first document is going to be created."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:65
+msgid ""
+"Once the user saves the Recurring Document, user will be able to see a "
+"button in header labeled as Process. By clicking over the 'Process', the "
+"scheduler will start the execution and the cron for current Recurring "
+"Document will be created and set under Cron Job field."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:70
+msgid "Documents Created"
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:72
+msgid "Here, the system keeps the history of created documents in each interval."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:74
+msgid "Notes"
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:76
+msgid "Here, the user can add description about current Recurrent Document."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:79
+msgid ""
+"In Sale Order Recurring, Purchase Order Recurring and Account Invoice "
+"Recurring; the user has to just click 'Generate Recurring' button and "
+"recurring type and recurring document will automatically be generated."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:87
+msgid ""
+"While the user creates Quotation and confirms the sale order, the user "
+"will be able to see a button labeled as 'Generate Recurring'."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:92
+#: ../../recurring_documents/recurring_document.rst:121
+#: ../../recurring_documents/recurring_document.rst:151
+msgid ""
+"By clicking over 'Generate Recurring', it will pop up a window with "
+"configuration parameters of Recurring Documents."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:95
+#: ../../recurring_documents/recurring_document.rst:124
+#: ../../recurring_documents/recurring_document.rst:154
+msgid ""
+"Set value into the fields according to the document and click over 'Start"
+" Recurring'. By clicking on 'Save' button, the user can save the "
+"Recurring process, and can start recurring whenever required."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:101
+msgid ""
+"Once the recurring is generated, the Recurring Document and Recurring "
+"Type will be created for the current Sale Order."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:104
+msgid ""
+"By starting the Recurring, two smart buttons will appear indicating "
+"Recurring Document and number of Documents generated for current Sale "
+"Order."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:110
+msgid ""
+"The Recurring Source field in Sale Order indicates that the current Sale "
+"Order belongs to the Recurring Source."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:116
+msgid ""
+"While the user creates Purchase Order and confirms the PO, the user will "
+"be able to see a button labeled as 'Generate Recurring'."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:131
+msgid ""
+"Once the recurring is generated, the Recurring Document and Recurring "
+"Type will be created for the current Purchase Order."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:134
+msgid ""
+"By starting the Recurring, two smart buttons will appear indicating "
+"Recurring Document and number of Documents generated for current Purchase"
+" Order."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:140
+msgid ""
+"The Recurring Source field in Purchase Order indicates that the current "
+"Purchase Order belongs to the Recurring Source."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:146
+msgid ""
+"While the user creates Customer Invoice or Vendor Bill and validates the "
+"document, the user will be able to see a button labeled as 'Generate "
+"Recurring'."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:160
+msgid ""
+"Once the recurring is generated, the Recurring Document and Recurring "
+"Type will be created for the current Customer Invoice or Vendor Bill."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:163
+msgid ""
+"By starting the Recurring, two smart buttons will appear indicating "
+"Recurring Document and number of Documents generated for current Customer"
+" Invoice or Vendor Bill."
+msgstr ""
+
+#: ../../recurring_documents/recurring_document.rst:169
+msgid ""
+"The Recurring Source field in Customer Invoice or Vendor Bill indicates "
+"that the current Invoice/Bill belongs to the Recurring Source."
+msgstr ""
+

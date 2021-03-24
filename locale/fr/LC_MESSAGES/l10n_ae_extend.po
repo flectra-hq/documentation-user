@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:5
+msgid "VAT for UAE"
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:8
+msgid "Introduction"
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:11
+msgid "Company"
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:13
+msgid ""
+"The user is supposed to set such fields under Company. There are three "
+"account fields where respective accounts are to be set under **Reverse "
+"Charge**, **Customs Expense** and **VAT Expense**."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:17
+msgid ""
+"There is a field labeled as **VAT**, where user is supposed to set VAT "
+"number for respective Company."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:23
+msgid "VAT Types"
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:25
+msgid "VAT Types are bifurcated in two types, Sales and Purchase."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:29
+msgid ""
+"The major purpose of VAT types is to built a standard report, which will "
+"gather all records with its amount according to the VAT Type."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:32
+msgid "**Sales Type**"
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:34
+msgid ""
+"Local Sale - This type of sales will be displayed in report as **Standard"
+" Rated Sales**."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:35
+msgid ""
+"Inside GCC Sale - This type of sales will be displayed in report as "
+"**Sales to customers in VAT implementing GCC Countries**."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:36
+msgid ""
+"Outside GCC Sale - This type of sales will be displayed in report as "
+"**Exports**."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:37
+msgid ""
+"Designated Zone Sale - This type of sales will be displayed in report as "
+"**Zero rated domestic sales**. If zero percent tax is applied over "
+"records then that will be included too."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:39
+msgid "**Purchase Type**"
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:41
+msgid ""
+"Local Purchase - This type of purchase will be displayed in report as "
+"**Standard Rated domestic purchases**."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:42
+msgid ""
+"Inside GCC Purchase & Outside GCC Purchase - This type of purchase will "
+"be displayed in report as **Imports subject to VAT paid at customs**."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:43
+msgid ""
+"Designated Zone Purchase - This type of purchase will be displayed in "
+"report as **Zero rated purchases**."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:45
+msgid ""
+"The user is supposed to set VAT Type under :menuselection:`Invoicing --> "
+"Configuration --> VAT Types`."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:49
+msgid ""
+"In VAT type, the user has to select **VAT Type** and its **Code**. The "
+"system has given number of VAT types."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:52
+msgid ""
+"Select an appropriate **Journal**. The user is supposed to select the "
+"**Type** either Sale or Purchase."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:56
+msgid "Taxes"
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:58
+msgid "Flectra provides these many pre-defined taxes."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:63
+msgid "Fiscal Year"
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:65
+msgid "This module provides two fiscal year."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:70
+msgid "Reverse Charge Mechanism"
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:72
+msgid ""
+"While creating a Purchase Order with marking Reverse Charge, it will be "
+"reflected in the Vendor Bill of related PO."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:77
+msgid ""
+"In Vendor Bill, a new tab will be visible labeled as **Reverse Charge**, "
+"which will be having the tax description of the bill."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:82
+msgid ""
+"Once the Vendor Bill is validated, the system will separate the tax from "
+"the product line and will show up under **Reverse Charge** tab."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:86
+msgid "Report"
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:88
+msgid ""
+"The user can have a report from :menuselection:`Invoicing --> Reporting "
+"--> PDF Reports --> VAT 201`."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:90
+msgid ""
+"Clicking over **VAT 201**, the system will open up a window with "
+"parameters."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:94
+msgid ""
+"The user is supposed to set the date range, where the system will "
+"retrieve records which falls between the given date range."
+msgstr ""
+
+#: ../../l10n_ae_extend/l10n_ae_extend.rst:99
+msgid ""
+"In the report, the column **Amount(AED)** shows the amount without tax. "
+"The **Adjustment(AED)** show the amount of the product which is returned."
+" The **VAT(AED)** column show the final tax applied over the sold "
+"products."
+msgstr ""
+

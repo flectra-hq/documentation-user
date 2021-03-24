@@ -1,0 +1,350 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Flectra S.A.
+# This file is distributed under the same license as the flectra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flectra 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 14:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../helpdesk_basic/helpdesk.rst:5 ../../helpdesk_basic/helpdesk.rst:40
+msgid "Helpdesk"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:7
+msgid ""
+"This document provides a brief information of what is helpdesk and its "
+"workflow."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:13
+msgid "Dashboard"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:15
+msgid ""
+"A helpdesk is a department inside an organization that is responsible for"
+" answering the technical questions of its users."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:18
+msgid ""
+"A dashboard of helpdesk displays teamwise total counts of helpdesk, its "
+"issue type and graphical view."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:24 ../../helpdesk_basic/helpdesk.rst:131
+msgid "Total Issues: Total number of issues."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:26 ../../helpdesk_basic/helpdesk.rst:133
+msgid "Issue Types: Type of an issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:28
+msgid "Graphical view for the total number of issues."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:32
+msgid ""
+"Tickets displayed in below image will be filtered by its team clicked "
+"from dashboard."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:42
+msgid "There are different types of views for helpdesk ticket."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:47 ../../helpdesk_basic/helpdesk.rst:123
+#: ../../helpdesk_basic/helpdesk.rst:162
+msgid "Kanban View"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:49
+msgid ""
+"The kanban view for helpdesk, shows the details like issue name, issue "
+"type, team, tags and also its priority and user related details which "
+"will be grouped by its state."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:53
+msgid "Name: Title of the issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:55
+msgid "Team: Team which will be responsible to solve the issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:57
+msgid "Issue Type: Type of the issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:59
+msgid "Tags: Tags for the issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:61
+msgid "Priority: Priority of the issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:63
+msgid "Assigned To: the user which is assigned a current issue to fix."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:71 ../../helpdesk_basic/helpdesk.rst:138
+#: ../../helpdesk_basic/helpdesk.rst:176 ../../helpdesk_basic/helpdesk.rst:208
+#: ../../helpdesk_basic/helpdesk.rst:237
+msgid "Form View"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:73
+msgid ""
+"The form view for helpdesk shows the details like issue sequence, issue "
+"title, issue creator and its related partner details, issue type, team, "
+"assigned to users, tags, its priority and its start and end date related "
+"details."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:81
+msgid "Form view will take the following information to create an issue ticket:"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:83
+msgid "Sequence: Sequence of the issue which will be automatically generated."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:85
+msgid "Issue Title: Title of the issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:87
+msgid "Created By: The one who creates the current issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:89
+msgid ""
+"Related Partner: Related partner details of created by the user which "
+"will be automatically fetched by the system."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:92
+msgid "Start Date: Starting date of the issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:94
+msgid "End Date: Ending date of the issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:96
+msgid "Issue Type: Type of the current issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:98
+msgid "Team: Team responsible to solve the current issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:100
+msgid "Assigned To: User which is assigned to solve the current issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:102
+msgid "Tags: Tags if any for the current issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:104
+msgid "Priority: Priority for the issue to be fixed in specific time."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:106
+msgid "Description: Detailed description of the issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:108
+msgid "On the top there are two buttons:"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:110
+msgid "Active: Make an issue Active/Archive."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:112
+msgid ""
+"Attachments: It will redirect you to the attachments which are attached "
+"by users for issues. It will be helpful for the user to understand and "
+"fix exact issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:118
+msgid "Helpdesk Team"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:125
+msgid ""
+"A kanban view for helpdesk team which shows the total issues assigned to "
+"a particular team and its issue type."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:140
+msgid ""
+"The helpdesk team's form view takes the following information to create a"
+" team:"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:142
+msgid "Helpdesk Team: Name of the team."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:144
+msgid "Stages: Stages of the issue tickets."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:146
+msgid ""
+"Issue Type: Multiple types of issues that will be solved by the current "
+"team."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:148
+msgid "Email Alias: Mail Alias for the team."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:150
+msgid "Team Members: Select members for the team."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:157
+msgid "Issue Type"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:164
+msgid ""
+"From the helpdesk issue types kanban view one can create an issue by "
+"directly clicking on ``Create`` button displayed on kanban view. There "
+"are the list of stages and its related count for the issues present in "
+"that state. Also, there is a graphical representation of the issue count "
+"based on its type of issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:178
+msgid ""
+"The view of issue type form takes the following information to create an "
+"issue type:"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:181
+msgid "Name: Name of the issue type."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:183
+msgid "Code: Unique code for the issue type."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:185
+msgid ""
+"Reporting Template Content: Content details / Basic Information to get "
+"from the user at the time of registering an issue."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:193
+msgid "Helpdesk Stages"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:198 ../../helpdesk_basic/helpdesk.rst:227
+msgid "Tree View"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:200
+msgid "Tree view for helpdesk stages."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:210
+msgid ""
+"The form view of helpdesk stages takes the following information to "
+"create a new stage:"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:213
+msgid "Name: Name of the stage."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:215
+msgid "Description: Description of the stage if any."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:222
+msgid "Helpdesk Tags"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:229
+msgid "Tree view for helpdesk tags."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:239
+msgid ""
+"The form view of helpdesk tags takes the following information to create "
+"a new tag:"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:242
+msgid "Name: Name of the tag."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:244
+msgid "Code: Unique code for the tag."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:251
+msgid "Helpdesk Report"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:256
+msgid "Bar Graph Representation"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:258
+msgid ""
+"Bar graph representation of helpdesk issues based on a team in which "
+"issue tickets are assigned."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:268
+msgid "Line Graph Representation"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:270
+msgid ""
+"Line graph representation of helpdesk issues based on a team in which "
+"issue tickets are assigned."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:280
+msgid "Pie Chart Representation"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:282
+msgid ""
+"Pie chart representation of helpdesk issues based on a team in which "
+"issue tickets are assigned."
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:292
+msgid "Analysis Report"
+msgstr ""
+
+#: ../../helpdesk_basic/helpdesk.rst:294
+msgid ""
+"Analysis report for helpdesk issues to get different details in a single "
+"report. There are multiple measures to get the different output of the "
+"same report."
+msgstr ""
+
