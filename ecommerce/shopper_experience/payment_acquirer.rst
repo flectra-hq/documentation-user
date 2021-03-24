@@ -38,3 +38,41 @@ At anytime, the salesman can check the transaction status from the order.
    payment status, when they are redirected to Flectra after the transaction.
    To edit such messages, go to the *Messages* tab of the payment
    method.
+
+
+Auto-validate invoices at order
+===============================
+
+When the order is confirmed you can also have an invoice automatically issued
+and paid. This fully-automated made for businesses that invoice 
+orders straight on.
+
+.. image:: media/payment_invoice.png
+    :align: center
+
+.. note::
+   If you choose this mode you are requested to select a payment journal in order to record payments
+   in your books. This payment is automatically reconcilied with the invoice, marking it as paid.
+   Select your **bank account** if you get paid immediately on your bank account. If you don't you
+   can create a specific journal for the payment acquirer (type = Bank). That way, you can track
+   online payments in an intermediary account of your books until you get paid into your bank
+   account (see :doc:`../../general/payment_acquirers/payment_acquirers`).
+
+
+Capture the payment after the delivery
+======================================
+With this mode, the order is confirmed but the amount is kept on hold. 
+Once the delivery processed, you can capture the payment from Flectra.
+This mode is only available with Authorize.net.
+
+.. image:: media/payment_capture_mode.png
+    :align: center
+
+To capture the payment, open the transaction from the order.
+Then click *Capture Transaction*.
+
+.. image:: media/payment_capture.png
+    :align: center
+
+With other payment acquirers, you can manage the capture in
+their own interfaces, not from Flectra.

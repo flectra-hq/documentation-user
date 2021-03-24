@@ -45,17 +45,20 @@ To translate the content of the website, click on **Translate** (here
 There, if you have installed the Gengo Translator, You will see that
 next to the **Translate** button you also have a button **Translate
 automatically**. Once you click on that button, you will be asked some
-information on your account. If you don't have an account yet, go to
-`*https://gengo.com/auth/form/login/* <https://gengo.com/auth/form/login/>`__
+information on your account. If you don't have an account yet, follow
+`this link <https://gengo.com/auth/form/login/>`_
 in order to create one. You need to ask for a public key and a private
 key.
 
 The content you wish to translate will then be translated automatically.
+
+.. image:: media/translate_website04.png
+    :align: center
 
 Now you can see that most of the content is highlighted in yellow or
 in green. The yellow represents the content that you have to translate by
 yourself. The green represents the content that has already been translated
 automatically.
 
-.. image:: media/translate_website04.png
+.. image:: media/translate_website05.png
     :align: center

@@ -1,8 +1,18 @@
-import Queue
 import collections
 import threading
-import urllib
-import xmlrpclib
+import werkzeug
+
+try:
+    import xmlrpclib
+except ImportError:
+    # P3
+    import xmlrpc.client as xmlrpclib
+
+try:
+    import Queue
+except ImportError:
+    # P3
+    import queue as Queue
 
 from xml.etree import ElementTree as ET
 
@@ -11,7 +21,7 @@ from docutils.parsers.rst import Directive, directives
 from sphinx.domains import Domain
 
 def setup(app):
-    app.add_domain(OdooDemoDomain)
+    app.add_domain(FlectraDemoDomain)
 
 class Fields(Directive):
     """Fetches and lists the fields linked to a specific action.
@@ -67,7 +77,7 @@ class Fields(Directive):
                     ))
                 )
             )
-            for k, v in fields.iteritems()
+            for k, v in fields.items()
             # if there's a whitelist, only display whitelisted fields
             if not whitelist or k in whitelist
             # only display if there's a help text
@@ -89,7 +99,7 @@ class Action(Directive):
         external_id = self.arguments[0]
         text = "action button"
         node = nodes.reference(
-            refuri='https://demo.odoo.com?{}'.format(urllib.urlencode({
+            refuri='https://demo.flectra.com?{}'.format(werkzeug.urls.url_encode({
                 'module': external_id
             })),
             classes=['btn', 'btn-primary', 'btn-lg', 'btn-block', 'center-block']
@@ -97,9 +107,9 @@ class Action(Directive):
         self.state.nested_parse(self.content, self.content_offset, node)
         return [node]
 
-class OdooDemoDomain(Domain):
+class FlectraDemoDomain(Domain):
     name = 'demo'
-    label = 'Odoo Demo'
+    label = 'Flectra Demo'
     directives = {
         'fields': Fields,
         'action': Action,
@@ -124,8 +134,8 @@ def _submit(result_queue, xid, view='form'):
 
 def _launcher():
     try:
-        info = xmlrpclib.ServerProxy('https://demo.odoo.com/start').start()
-    except xmlrpclib.Fault, e:
+        info = xmlrpclib.ServerProxy('https://demo.flectra.com/start').start()
+    except xmlrpclib.Fault as e:
         threading.Thread(
             target=_fault_requests,
             args=["Demo start() failed: %s" % e.faultString],

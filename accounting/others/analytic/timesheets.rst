@@ -1,14 +1,14 @@
-======================================================
-How to track costs of human resources with timesheets?
-======================================================
+==============================================
+Track costs of human resources with timesheets
+==============================================
 
 Human resource of course has a cost. It is interesting to see how much a
 particular contract costs the company in term of human power in relation
 to the invoiced amounts.
 
-We will take the following example: Our two employees **Harry** and
-**Cedric** both work on a **Consultancy pack** for our customer
-**Johns&Co**. Harry is paid 18€ p.h. and Cedric's salary is 12€ p.h. We
+We will take the following example: Our two employees **Harry Potter** and
+**Cedric Digory** both work on a **Consultancy pack** for our customer
+**Smith&Co**. Harry is paid 18€ p.h. and Cedric's salary is 12€ p.h. We
 would like to track their timesheet costs within the accounting app, and
 compare them with the revenue of the consultancy service.
 
@@ -35,7 +35,7 @@ Next you will need to enable analytical accounting. To do so enter the
 .. image:: media/timesheets06.png
    :align: center
 
-Save your changes.
+Apply your changes.
 
 Create an employee
 ------------------
@@ -55,36 +55,28 @@ cost of 18 euros / hours. We will thus fill in 18 in this field.
     If you want the employee to be able to enter timesheets he
     needs to be related to a User.
 
-Repeat the operation to create the Cedric employee. Don't forget
+Repeat the operation to create the Cedric Digory employee. Don't forget
 to specify its related user and **Timesheet Costs**.
 
 Issue a Sales Order 
 --------------------
 
-We created two employees called Harry and Cedric in the
+We created two employees called Harry Potter and Cedric Diggory in the
 **Employee** app. Both of them will work on a consultancy contract for our
-customer Johns&Co where they will point their hours on a timesheet.
+customer Smith&Co where they will point their hours on a timesheet.
 
 We thus need to create a **sales order** with a **service** product invoiced
 **based on time and material** and tracked by timesheets with **hours** as unit
 of measures.
 
-.. image:: media/timesheets03_1.png
-   :align: center
-.. image:: media/timesheets03_2.png
+.. image:: media/timesheets03.png
    :align: center
 
-For more information on how to create a sales order based on timesheet on task
-please see: *How to invoice based on timesheet on task* (Work in Progress).
-
-.. todo::
-    Add a link, and the document is under 
-    Sales --> Invoicing Methods --> Services --> How to invoices blabla
 
 We save a Sales Order with the service product **External Consulting**. An
 analytical account will automatically be generated once the **Sales Order**
 is confirmed. Our employees will have to point to that account (in this
-case **SO023 - Johns & Co.**) in order to be able to invoice their hours (see
+case **SO002-Smith&Co**) in order to be able to invoice their hours (see
 picture below).
 
 .. image:: media/timesheets10.png
@@ -98,7 +90,7 @@ specify his timesheets for the contract. Logged on Harry's account we enter the
 **Timesheet** app and enter a detailed line pointing to the **Analytical
 Account** discussed above.
 
-Harry worked three hours on a SWOT analysis for Johns&Co.
+Harry worked three hours on a SWOT analysis for Smith&Co.
 
 .. image:: media/timesheets01.png
    :align: center
@@ -118,7 +110,7 @@ Analytic accounting
 
 Thanks to analytic accounts we are able to have an overview of HR cost
 and revenues. All the revenues and cost of this transactions have been
-registered in the **SO023 - Johns & Co.** account.
+registered in the **SO002-Smith&Co** account.
 
 We can use two methods to analyze this situation.
 
@@ -128,7 +120,7 @@ Without filters
 If we pointed all our costs and revenues of the project on the correct
 analytical account we can easily retrieve the cost and revenues related
 to this analytical account. Enter the *Accounting* app, select 
-:menuselection:`Configuration --> Analytic Accounting --> Analytic Accounts`.
+:menuselection:`Adviser --> Analytic Accounts --> Open Charts`.
 
 Note : you can specify a period for **Analysis**. If you want to open the
 current situation you should keep the fields empty. We can already note
@@ -151,7 +143,7 @@ With filters
 
 We can thus filter this information from the **Analytic Entries**.
 
-Enter the **Accounting** app, and click on :menuselection:`Adviser --> Accounting Entries --> Analytic Entries`.
+Enter the **Accounting** app, and click on :menuselection:`Adviser --> Analytic Entries`.
 In this menu we have several options to analyse the human resource cost.
 
 1. We filter on the **Analytic account** so we can see the cost and revenues

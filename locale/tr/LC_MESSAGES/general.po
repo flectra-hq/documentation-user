@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
+# Copyright (C) 2015-TODAY, Flectra S.A.
+# This file is distributed under the same license as the Flectra Business package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Business 10.0\n"
+"Project-Id-Version: Flectra Business 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-09 14:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Murat Kaplan <muratk@projetgrup.com>, 2017\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/flectra/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../general/auth/google.rst:25
 msgid ""
-"Fill in your address, email and the product name (for example odoo) and then"
+"Fill in your address, email and the product name (for example flectra) and then"
 " save."
 msgstr ""
 
@@ -73,7 +73,7 @@ msgstr ""
 #: ../../general/auth/google.rst:40
 msgid ""
 "To achieve this, complete the field **Authorized redirect URIs**. Copy paste"
-" the following link in the box: http://mydomain.odoo.com/auth_oauth/signin. "
+" the following link in the box: http://mydomain.flectra.com/auth_oauth/signin. "
 "Then click on **Create**"
 msgstr ""
 
@@ -117,7 +117,7 @@ msgstr ""
 
 #: ../../general/base_import/adapt_template.rst:20
 msgid ""
-"When you add a new column, Odoo might not be able to map it automatically if"
+"When you add a new column, Flectra might not be able to map it automatically if"
 " its label doesn't fit any field of the system. If so, find the "
 "corresponding field using the search."
 msgstr ""
@@ -136,7 +136,7 @@ msgstr ""
 msgid ""
 "The **ID** (External ID) is an unique identifier for the line item. Feel "
 "free to use the one of your previous software to ease the transition to "
-"Odoo."
+"Flectra."
 msgstr ""
 
 #: ../../general/base_import/adapt_template.rst:36
@@ -160,7 +160,7 @@ msgstr ""
 
 #: ../../general/base_import/adapt_template.rst:44
 msgid ""
-"An Odoo object is always related to many other objects (e.g. a product is "
+"An Flectra object is always related to many other objects (e.g. a product is "
 "linked to product categories, attributes, vendors, etc.). To import those "
 "relations you need to import the records of the related object first from "
 "their own list menu."
@@ -175,7 +175,7 @@ msgid ""
 msgstr ""
 
 #: ../../general/base_import/import_faq.rst:3
-msgid "How to import data into Odoo"
+msgid "How to import data into Flectra"
 msgstr ""
 
 #: ../../general/base_import/import_faq.rst:6
@@ -184,7 +184,7 @@ msgstr ""
 
 #: ../../general/base_import/import_faq.rst:7
 msgid ""
-"You can import data on any Odoo's business object using either Excel (.xlsx)"
+"You can import data on any Flectra's business object using either Excel (.xlsx)"
 " or CSV (.csv) formats: contacts, products, bank statements, journal entries"
 " and even orders!"
 msgstr ""
@@ -214,8 +214,8 @@ msgstr ""
 
 #: ../../general/base_import/import_faq.rst:31
 msgid ""
-"When you add a new column, Odoo might not be able to map it automatically if"
-" its label doesn't fit any field in Odoo. Don't worry! You can map new "
+"When you add a new column, Flectra might not be able to map it automatically if"
+" its label doesn't fit any field in Flectra. Don't worry! You can map new "
 "columns manually when you test the import. Search the list for the "
 "corresponding field."
 msgstr ""
@@ -234,7 +234,7 @@ msgstr ""
 msgid ""
 "In order to re-create relationships between different records, you should "
 "use the unique identifier from the original application and map it to the "
-"**ID** (External ID) column in Odoo. When you import another record that "
+"**ID** (External ID) column in Flectra. When you import another record that "
 "links to the first one, use **XXX/ID** (XXX/External ID) to the original "
 "unique identifier. You can also find this record using its name but you will"
 " be stuck if at least 2 records have the same name."
@@ -253,7 +253,7 @@ msgstr ""
 
 #: ../../general/base_import/import_faq.rst:62
 msgid ""
-"Odoo tries to find with some heuristic, based on the first ten lines of the "
+"Flectra tries to find with some heuristic, based on the first ten lines of the "
 "files, the type of field for each column inside your file. For example if "
 "you have a column only containing numbers, only the fields that are of type "
 "*Integer* will be displayed for you to choose from. While this behavior "
@@ -275,7 +275,7 @@ msgstr ""
 
 #: ../../general/base_import/import_faq.rst:81
 msgid ""
-"Odoo can automatically detect if a column is a date and it will try to guess"
+"Flectra can automatically detect if a column is a date and it will try to guess"
 " the date format from a set of most used date format. While this process can"
 " work for a lot of simple date format, some exotic date format will not be "
 "recognize and it is also possible to have some confusion (day and month "
@@ -285,7 +285,7 @@ msgstr ""
 
 #: ../../general/base_import/import_faq.rst:83
 msgid ""
-"To view which date format Odoo has found from your file you can check the "
+"To view which date format Flectra has found from your file you can check the "
 "**Date Format** that is shown when clicking on **Options** under the file "
 "selector. If this format is incorrect you can change it to your liking using"
 " the *ISO 8601* to define the format."
@@ -295,7 +295,7 @@ msgstr ""
 msgid ""
 "If you are importing an excel (.xls, .xlsx) file, you can use date cells to "
 "store dates as the display of dates in excel is different from the way it is"
-" stored. That way you will be sure that the date format is correct in Odoo "
+" stored. That way you will be sure that the date format is correct in Flectra "
 "whatever your locale date format is."
 msgstr ""
 
@@ -306,10 +306,10 @@ msgstr ""
 #: ../../general/base_import/import_faq.rst:93
 msgid ""
 "Yes, we fully support numbers with parenthesis to represent negative sign as"
-" well as numbers with currency sign attached to them. Odoo also "
+" well as numbers with currency sign attached to them. Flectra also "
 "automatically detect which thousand/decimal separator you use (you can "
 "change those under **options**). If you use a currency symbol that is not "
-"known to Odoo, it might not be recognized as a number though and it will "
+"known to Flectra, it might not be recognized as a number though and it will "
 "crash."
 msgstr ""
 
@@ -372,7 +372,7 @@ msgstr ""
 
 #: ../../general/base_import/import_faq.rst:117
 msgid ""
-"Note that if your CSV file has a tabulation as separator, Odoo will not "
+"Note that if your CSV file has a tabulation as separator, Flectra will not "
 "detect the separations. You will need to change the file format options in "
 "your spreadsheet application. See the following question."
 msgstr ""
@@ -406,15 +406,15 @@ msgstr ""
 msgid ""
 "Some fields define a relationship with another object. For example, the "
 "country of a contact is a link to a record of the 'Country' object. When you"
-" want to import such fields, Odoo will have to recreate links between the "
-"different records. To help you import such fields, Odoo provides 3 "
+" want to import such fields, Flectra will have to recreate links between the "
+"different records. To help you import such fields, Flectra provides 3 "
 "mechanisms. You must use one and only one mechanism per field you want to "
 "import."
 msgstr ""
 
 #: ../../general/base_import/import_faq.rst:135
 msgid ""
-"For example, to reference the country of a contact, Odoo proposes you 3 "
+"For example, to reference the country of a contact, Flectra proposes you 3 "
 "different fields to import:"
 msgstr ""
 
@@ -424,7 +424,7 @@ msgstr ""
 
 #: ../../general/base_import/import_faq.rst:138
 msgid ""
-"Country/Database ID: the unique Odoo ID for a record, defined by the ID "
+"Country/Database ID: the unique Flectra ID for a record, defined by the ID "
 "postgresql column"
 msgstr ""
 
@@ -597,13 +597,13 @@ msgid ""
 "\"Database ID\", records that have already been imported will be modified "
 "instead of being created. This is very usefull as it allows you to import "
 "several times the same CSV file while having made some changes in between "
-"two imports. Odoo will take care of creating or modifying each record "
+"two imports. Flectra will take care of creating or modifying each record "
 "depending if it's new or not."
 msgstr ""
 
 #: ../../general/base_import/import_faq.rst:201
 msgid ""
-"This feature allows you to use the Import/Export tool of Odoo to modify a "
+"This feature allows you to use the Import/Export tool of Flectra to modify a "
 "batch of records in your favorite spreadsheet application."
 msgstr ""
 
@@ -613,14 +613,14 @@ msgstr ""
 
 #: ../../general/base_import/import_faq.rst:208
 msgid ""
-"If you do not set all fields in your CSV file, Odoo will assign the default "
+"If you do not set all fields in your CSV file, Flectra will assign the default "
 "value for every non defined fields. But if you set fields with empty values "
-"in your CSV file, Odoo will set the EMPTY value in the field, instead of "
+"in your CSV file, Flectra will set the EMPTY value in the field, instead of "
 "assigning the default value."
 msgstr ""
 
 #: ../../general/base_import/import_faq.rst:213
-msgid "How to export/import different tables from an SQL application to Odoo?"
+msgid "How to export/import different tables from an SQL application to Flectra?"
 msgstr ""
 
 #: ../../general/base_import/import_faq.rst:215
@@ -634,7 +634,7 @@ msgstr ""
 #: ../../general/base_import/import_faq.rst:217
 msgid ""
 "To manage relations between tables, you can use the \"External ID\" "
-"facilities of Odoo. The \"External ID\" of a record is the unique identifier"
+"facilities of Flectra. The \"External ID\" of a record is the unique identifier"
 " of this record in another application. This \"External ID\" must be unique "
 "accoss all the records of all objects, so it's a good practice to prefix "
 "this \"External ID\" with the name of the application or table. (like "
@@ -683,59 +683,59 @@ msgstr ""
 
 #: ../../general/base_import/import_faq.rst:250
 msgid ""
-"The two files produced are ready to be imported in Odoo without any "
+"The two files produced are ready to be imported in Flectra without any "
 "modifications. After having imported these two CSV files, you will have 4 "
 "contacts and 3 companies. (the firsts two contacts are linked to the first "
 "company). You must first import the companies and then the persons."
 msgstr ""
 
-#: ../../general/odoo_basics.rst:3
+#: ../../general/flectra_basics.rst:3
 msgid "BASICS"
 msgstr ""
 
-#: ../../general/odoo_basics/add_user.rst:3
+#: ../../general/flectra_basics/add_user.rst:3
 msgid "How to add a user"
 msgstr ""
 
-#: ../../general/odoo_basics/add_user.rst:5
+#: ../../general/flectra_basics/add_user.rst:5
 msgid ""
-"Odoo provides you with the option to add additional users at any given "
+"Flectra provides you with the option to add additional users at any given "
 "point."
 msgstr ""
 
-#: ../../general/odoo_basics/add_user.rst:9
+#: ../../general/flectra_basics/add_user.rst:9
 msgid "Add individual users"
 msgstr ""
 
-#: ../../general/odoo_basics/add_user.rst:11
+#: ../../general/flectra_basics/add_user.rst:11
 msgid ""
 "From the Settings module, go to the submenu :menuselection:`Users --> Users`"
 " and click on **CREATE.** First add the name of your new user and the "
-"professional email address - the one he will use to log into Odoo instance -"
+"professional email address - the one he will use to log into Flectra instance -"
 " and a picture."
 msgstr ""
 
-#: ../../general/odoo_basics/add_user.rst:19
+#: ../../general/flectra_basics/add_user.rst:19
 msgid ""
 "Under Access Rights, you can choose which applications your user can access "
 "and use. Different levels of rights are available depending on the app."
 msgstr ""
 
-#: ../../general/odoo_basics/add_user.rst:23
+#: ../../general/flectra_basics/add_user.rst:23
 msgid ""
 "When you’re done editing the page and have clicked on **SAVE**, an "
 "invitation email will automatically be sent to the user. The user must click"
 " on it to accept the invitation to your instance and create a log-in."
 msgstr ""
 
-#: ../../general/odoo_basics/add_user.rst:32
+#: ../../general/flectra_basics/add_user.rst:32
 msgid ""
 "Remember that each additional user will increase your subscription fees. "
-"Refer to our `*Pricing page* <https://www.odoo.com/pricing>`__ for more "
+"Refer to our `*Pricing page* <https://www.flectrahq.com/pricing>`__ for more "
 "information."
 msgstr ""
 
-#: ../../general/odoo_basics/add_user.rst:39
+#: ../../general/flectra_basics/add_user.rst:39
 msgid ""
 "You can also add a new user on the fly from your dashboard. From the above "
 "screenshot, enter the email address of the user you would like to add and "
@@ -744,80 +744,80 @@ msgid ""
 "under the :menuselection:`Settings --> Users menu`."
 msgstr ""
 
-#: ../../general/odoo_basics/add_user.rst:45
+#: ../../general/flectra_basics/add_user.rst:45
 msgid ""
 "`Deactivating Users <../../db_management/documentation.html#deactivating-"
 "users>`_"
 msgstr ""
 
-#: ../../general/odoo_basics/add_user.rst:46
+#: ../../general/flectra_basics/add_user.rst:46
 msgid ":doc:`../../crm/salesteam/setup/create_team`"
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:3
-msgid "Manage Odoo in your own language"
+#: ../../general/flectra_basics/choose_language.rst:3
+msgid "Manage Flectra in your own language"
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:5
+#: ../../general/flectra_basics/choose_language.rst:5
 msgid ""
-"Odoo provides you with the option to manage Odoo in different languages, and"
-" each user can use Odoo in his own language ."
+"Flectra provides you with the option to manage Flectra in different languages, and"
+" each user can use Flectra in his own language ."
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:9
+#: ../../general/flectra_basics/choose_language.rst:9
 msgid "Load your desired language"
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:11
+#: ../../general/flectra_basics/choose_language.rst:11
 msgid ""
-"The first thing to do is to load your desired language on your Odoo "
+"The first thing to do is to load your desired language on your Flectra "
 "instance."
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:14
+#: ../../general/flectra_basics/choose_language.rst:14
 msgid ""
 "From the general dashboard click on the **Settings** app; on the top left of"
 " the page select :menuselection:`Translations --> Load a Translation`, "
 "select a language to install and click on **LOAD.**"
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:23
+#: ../../general/flectra_basics/choose_language.rst:23
 msgid ""
 "If you check the \"Websites to translate\" checkbox you will have the option"
 " to change the navigation language on your website."
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:27
+#: ../../general/flectra_basics/choose_language.rst:27
 msgid "Change your language"
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:29
+#: ../../general/flectra_basics/choose_language.rst:29
 msgid ""
 "You can change the language to the installed language by going to the drop-"
 "down menu at the top right side of the screen, choose **Preferences**."
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:36
+#: ../../general/flectra_basics/choose_language.rst:36
 msgid ""
 "Then change the Language setting to your installed language and click "
 "**SAVE.**"
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:42
+#: ../../general/flectra_basics/choose_language.rst:42
 msgid "Open a new menu to view the changes."
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:45
+#: ../../general/flectra_basics/choose_language.rst:45
 msgid "Change another user's language"
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:47
+#: ../../general/flectra_basics/choose_language.rst:47
 msgid ""
-"Odoo also gives you the possibility for each user to choose his preferred "
+"Flectra also gives you the possibility for each user to choose his preferred "
 "language."
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:50
+#: ../../general/flectra_basics/choose_language.rst:50
 msgid ""
 "To change the language for a different user, choose :menuselection:`Users "
 "--> Users` from the Settings app. Here you have a list of all users and you "
@@ -827,6 +827,6 @@ msgid ""
 "**SAVE.**"
 msgstr ""
 
-#: ../../general/odoo_basics/choose_language.rst:61
+#: ../../general/flectra_basics/choose_language.rst:61
 msgid ":doc:`../../website/publish/translate`"
 msgstr ""

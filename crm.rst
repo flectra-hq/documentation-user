@@ -1,4 +1,4 @@
-:banner: banners/flectra-crm.jpg
+:banner: banners/crm.png
 
 ===
 CRM
@@ -9,5 +9,6 @@ CRM
 
    crm/pipeline
    crm/acquire_leads
+   crm/track_leads
    crm/performance
    crm/optimize

@@ -5,6 +5,5 @@ Overview
 .. toctree::
    :titlesonly:
 
-   overview/start
-   overview/setup
-
+   overview/getting_started
+   overview/register

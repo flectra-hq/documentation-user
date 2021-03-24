@@ -1,4 +1,4 @@
-:banner: banners/flectra_inventory.jpg
+:banner: banners/inventory.png
 
 =========
 Inventory
@@ -7,8 +7,6 @@ Inventory
 .. toctree::
    :titlesonly:
 
-   inventory/overview
-   inventory/settings
    inventory/management
    inventory/shipping
    inventory/routes

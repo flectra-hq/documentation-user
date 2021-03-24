@@ -1,46 +1,31 @@
-===================
-How to handle tips?
-===================
+===================================
+Integrate a tip option into payment
+===================================
 
-Configuration
-=============
+As it is customary to tip in many countries all over the world, it is
+important to have the option in your PoS interface.
 
-From the dashboard, click on :menuselection:`... --> Settings`.
+Configure Tipping
+=================
+
+To activate the *Tips* feature, go to :menuselection:`Point of Sale
+--> Configuration --> Point of sale` and select your PoS.
+
+Under the Bills & Receipts category, you will find *Tips*. Select it
+and create a *Tip Product* such as *Tips* in this case.
 
 .. image:: media/tips01.png
     :align: center
 
-Add a product for the tip.
+Add Tips to the bill
+====================
+
+Once on the payment interface, you now have a new *Tip* button
 
 .. image:: media/tips02.png
     :align: center
 
-In the tip product page, be sure to set a sale price of ``0€`` 
-and to remove all the taxes in the accounting tab.
+Add the tip your customer wants to leave and process to the payment.
 
 .. image:: media/tips03.png
     :align: center
-
-Adding a tip
-============
-
-On the payment page, tap on **Tip**
-
-.. image:: media/tips04.png
-    :align: center
-
-Tap down the amount of the tip:
-
-.. image:: media/tips05.png
-    :align: center
-
-The total amount has been updated and you can now register the payment.
-
-.. image:: media/tips06.png
-    :align: center
-
-.. seealso::
-    * :doc:`../shop/cash_control`
-    * :doc:`../shop/invoice`
-    * :doc:`../shop/refund`
-    * :doc:`../shop/seasonal_discount`

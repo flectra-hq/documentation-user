@@ -1,4 +1,4 @@
-:banner: banners/flectra-purchase.jpg
+:banner: banners/purchase.png
 
 ========
 Purchase
@@ -7,6 +7,6 @@ Purchase
 .. toctree::
    :titlesonly:
 
-   purchase/overview
-   purchase/purchases
-   purchase/replenishment
+   purchase/products
+   purchase/manage_deals
+   purchase/advanced

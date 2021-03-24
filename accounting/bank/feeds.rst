@@ -5,4 +5,7 @@ Bank Feeds
 .. toctree::
    :titlesonly:
 
-   feeds/manual
+   feeds/bank_statements
+   feeds/bank_synchronization
+   feeds/ponto
+   feeds/saltedge

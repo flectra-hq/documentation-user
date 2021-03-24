@@ -12,15 +12,14 @@ Configuration
 First of all you have to select the multi locations option. Go to
 :menuselection:`Configuration --> Settings` in the **Inventory application**.
 Then tick the **Manage several locations per
-warehouse** option. Please don't forget to **Save** your changes.
+warehouse** option. Please don't forget to **apply** your changes.
 
 .. image:: media/inter01.png
    :align: center
 
 .. tip::
-
-	This option should also be ticked if you wish to manage different
-	locations and routes in your warehouse.
+   This option should also be ticked if you wish to manage different
+   locations and routes in your warehouse.
 
 Creating a new warehouse
 ========================
@@ -37,11 +36,10 @@ characters maximum.
    :align: center
 
 .. tip::
-
-	please note that the **Short Name** is very important as it will
-	appear on your transfer orders and other warehouse documents. It might
-	be smart to use an understandable one (e.g.: WH/[first letters of
-	location]).
+   Please note that the **Short Name** is very important as it will
+   appear on your transfer orders and other warehouse documents. It might
+   be smart to use an understandable one (e.g.: WH/[first letters of
+   location]).
 
 If you go back to your dashboard, new operations will automatically have
 been generated for your new warehouse.
@@ -56,7 +54,7 @@ If you create a new warehouse you might already have an existing
 physical inventory in it. In that case you should create an inventory in
 Flectra, if not you can skip this step.
 
-Go into the inventory application, select :menuselection:`MASTER DATA -->
+Go into the inventory application, select :menuselection:`Inventory Control -->
 Inventory Adjustment`. You can then create a new inventory by clicking on
 **Create**. Fill in the **Inventory Reference**, **Date**
 and be sure to select the right warehouse and location.
@@ -110,14 +108,14 @@ It is also possible to manually transfer each product:
 1. Via your dashboard, select the transfer order in the source location.
 
    .. image:: media/inter08.png
-	  :align: center
+      :align: center
 
 2. Select the right transfer order
 
    .. image:: media/inter09.png
       :align: center
 
-3. Click on the little logo in the lower right
+3. Click on the little pencil logo in the lower right
 corner in order to open the operation details window. In this new
 window you can manually indicate how much products you process
 
@@ -125,10 +123,9 @@ window you can manually indicate how much products you process
    :align: center
 
 .. tip::
-
-	If you decide to partially process the transfer order (e.g. a part of the
-	products can't be shipped yet due to an unexpected event), Flectra will
-	automatically ask if you wish to create a **backorder**.
-	Create a backorder if you expect to process the remaining products
-	later, do not create a backorder if you will not supply/receive the
-	remaining products.
+   If you decide to partially process the transfer order (e.g. a part of the
+   products can't be shipped yet due to an unexpected event), Flectra will
+   automatically ask if you wish to create a **backorder**.
+   Create a backorder if you expect to process the remaining products
+   later, do not create a backorder if you will not supply/receive the
+   remaining products.

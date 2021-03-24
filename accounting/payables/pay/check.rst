@@ -20,10 +20,9 @@ country. As an example, the **U.S. Check Printing** module is required to
 print U.S. checks.
 
 .. note::
-
-	According to your country and the chart of account you use, those
-	modules may be installed by default. (example: United States users have
-	nothing to install, it's configured by default).
+   According to your country and the chart of account you use, those
+   modules may be installed by default. (example: United States users have
+   nothing to install, it's configured by default).
 
 Activate checks payment methods
 -------------------------------
@@ -36,6 +35,20 @@ account on :menuselection:`More --> Settings` option. On the
 
 .. image:: ./media/check01.png
   :align: center
+
+Compatible check stationery for printing checks
+===============================================
+
+United States
+-------------
+
+For the United States, Flectra supports by default the check formats of:
+
+- **Quickbooks & Quicken**: check on top, stubs in the middle and bottom
+- **Peachtree**: check in the middle, stubs on top and bottom
+- **ADP**: check in the bottom, and stubs on the top.
+
+It is also possible to customize your own check format through customizations.
 
 Pay a supplier bill with a check
 ================================
@@ -57,12 +70,6 @@ and validate the payment dialog.
 .. image:: ./media/check02.png
   :align: center
 
-Explanation of the fields of the payment screen:
-
-.. demo:fields:: account.action_account_payments
-
-.. _PrintChecks:
-
 Print checks
 ------------
 
@@ -83,9 +90,7 @@ Print Check from the top "print" menu.
 .. image:: ./media/check03.png
   :align: center
 
-.. _ReconicleBankStatements:
-
-Reconcile Bank Statements
+Reconcile bank statements
 -------------------------
 
 Once you process your bank statement, when the check is credited from
@@ -93,10 +98,9 @@ your bank account, Flectra will propose you automatically to match it with
 the payment. This will mark the payment as **Reconciled**.
 
 .. tip::
-
-	to review checks that have not been credited, open the list of
-	payments and filter on the Sent state. Review those payments that have a
-	date more than 2 weeks ago.
+   To review checks that have not been credited, open the list of
+   payments and filter on the Sent state. Review those payments that have a
+   date more than 2 weeks ago.
 
 Pay anything with a check
 =========================
@@ -108,8 +112,12 @@ payment and select a payment method by check.
 If you pay a specific supplier bill, put the reference of the bill in
 the **Memo** field.
 
+.. image:: ./media/check04.png
+  :align: center
+
 Once your payment by check is registered, don't forget to **Confirm** it.
 Once confirmed, you can use **Print Check** directly or follow the preceding
 flow to print checks in batch:
 
--  `Print checks <PrintChecks_>`_
+-  `Print checks`_
+-  `Reconcile bank statements`_

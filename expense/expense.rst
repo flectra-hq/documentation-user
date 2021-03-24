@@ -1,4 +1,4 @@
-:banner: banners/flectra_expense.jpg
+:banner: banners/expense.png
 
 ========
 Expenses
@@ -33,7 +33,7 @@ Here are some examples to configure:
 Don't forget to set an expense tax on each expense type 
 (and an account if you use Flectra Accounting). 
 It's usually a good practice to use a tax that is configured 
-with *Tax Included in Price* (see: :doc:`../accounting/others/taxes/tax_included`).
+with :ref:`Tax Included in Price <taxes/included-in-price>`.
 That way, employees report expenses with 
 prices including taxes, which is usually the expected behaviour.
 
@@ -75,14 +75,14 @@ Let your employees record their expenses from a simple email.
 Make a snapshot of the receipt and send it by email, or simply forward a bill!
 
 The only thing to do is setting up an email alias in 
-:menuselection:`Expenses --> Configuration --> Settings`.
+:menuselection:`Expenses --> Configuration --> Settings` (e.g. *expenses* @mycompany.flectra.com). 
 For security purposes, only authenticated employee emails 
 (cfr. *Work Email* in employee detail form) are accepted.
 
 .. tip::
     The expense product is set automatically if the mail subject contains 
-    the product's internal reference between brackets (e.g. [Food]). 
-    Type the expense amount in the mail subject to set it on the expense too.
+    the product's internal reference in first position.
+    Type the expense amount in the mail subject to set it on the expense too (e.g. Ref001 Food 100€).
 
 How to submit expenses to managers
 ==================================
@@ -90,7 +90,7 @@ How to submit expenses to managers
 When you are ready to submit your expenses to your manager 
 (e.g. at the end of a business trip, or once a month), 
 go to the menu :menuselection:`My Expenses --> Expenses to Submit`. Select all expenses 
-from the list view and click on :menuselection:`Action > Submit to Manager`. 
+from the list view and click on :menuselection:`Action --> Submit to Manager`.
 Save the newly created expense report (i.e. set of expenses), 
 and wait for your manager to approve it.
 
@@ -112,6 +112,12 @@ validate from the top menu :menuselection:`To Approve --> Expense Reports to App
 Such users must have at least *Officers* access rights for *Expenses*.
 
 .. image:: ./media/expense_approval_01.png
+   :align: center
+
+They can review expense reports, approve or reject them, as well as providing 
+feedback thanks to the integrated communication tool.
+
+.. image:: ./media/expense_approval_02.png
    :align: center
 
 As a team manager you can easily find the expense reports of your team members. 
@@ -150,6 +156,8 @@ To record the payment or pay by check, click *Register a Payment*.
 See how you can easily manage the payment process in Flectra:
 
 * :doc:`../accounting/payables/pay/check`
+* :doc:`../accounting/payables/pay/sepa`
+
 
 How to re-invoice expenses to your customers
 ============================================
@@ -208,7 +216,7 @@ Invoice expenses
 ----------------
 
 Now you can invoice the order. It shows up in 
-:menuselection:`Sales --> Invoicing --> Orders to Invoice`
+:menuselection:`Sales --> Invoicing --> Sales`
 to Invoice. The expenses have been added automatically in the order
 lines. Such items show up in blue (i.e. to invoice).
 

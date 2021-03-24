@@ -57,8 +57,11 @@ You can edit following data:
 How to set specific prices per variant
 ======================================
 
-You can also set a specific public price per variant by clicking *Variant*
-in the product detail form.
+You can also set a specific public price per variant by clicking *Variant Prices*
+in the product detail form (action in top-left corner).
+
+.. image:: ./media/variant_prices_button.png
+   :align: center
 
 The Price Extra is added to the product price whenever the corresponding attribute
 value is selected.

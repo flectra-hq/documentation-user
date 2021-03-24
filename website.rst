@@ -1,4 +1,4 @@
-:banner: banners/flectra_website.jpg
+:banner: banners/seo.png
 
 =======
 Website
@@ -9,5 +9,6 @@ Website
 
    website/publish
    website/optimize
+   
 
 
