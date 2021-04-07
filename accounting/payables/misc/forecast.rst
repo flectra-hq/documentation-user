@@ -42,20 +42,6 @@ will propose you automatically the right payment term.
     If you do not set a specific payment term on a vendor, you will still be
     able to set a specific payment term on the vendor bill.
 
-Forecast bills to pay with the Aged Payables report
-===================================================
-
-In order to track amounts to be paid to the vendors, use the Aged
-Payable report. You can get it from the Reports menu of the Accounting
-application. This report gives you a summary per vendor of the amounts
-to pay, compared to their due date (the due date being computed on each
-bill using the payment term).
-
-.. image:: ./media/forecast03.png
-  :align: center
-
-This reports tells you how much you will have to pay within the next
-months.
 
 Select bills to pay
 ===================

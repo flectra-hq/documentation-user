@@ -61,7 +61,7 @@ The Make to Order configuration is available on your product form
 through your :menuselection:`Inventory --> Inventory control --> Products` (or any
 other module where products are available).
 
-On the product form, under Inventory, click on "Make To Order".
+On the product form, under Inventory, click on "Manufacture".
 
 .. image:: media/strategies03.png
     :align: center

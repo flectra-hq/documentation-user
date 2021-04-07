@@ -15,7 +15,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra 14.0\n"
+"Project-Id-Version: Flectra 2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-04 11:02+0100\n"
 "PO-Revision-Date: 2020-09-22 14:40+0000\n"
@@ -826,7 +826,7 @@ msgstr "Definition"
 #: ../../db_management/db_upgrade.rst:32
 msgid ""
 "An upgrade is switching to a newer version of Flectra (e.g., Flectra 13.0 to Flectra "
-"14.0)"
+"2.0)"
 msgstr ""
 
 #: ../../db_management/db_upgrade.rst:34
@@ -1030,7 +1030,7 @@ msgstr ""
 #: ../../db_management/db_upgrade.rst:0
 msgid ""
 "``python <(curl -s beta.upgrade.flectra.com/upgrade) test -d <your db name> -t "
-"14.0``"
+"2.0``"
 msgstr ""
 
 #: ../../db_management/db_upgrade.rst:137
@@ -1758,7 +1758,7 @@ msgid ""
 "If your database does not run a :ref:`major version <supported_versions>` of"
 " Flectra, you cannot host it on-premises yet, you have to upgrade it first to a"
 " new major version. (*e.g.: If your database runs Flectra 12.3 which is not a "
-"major version, you have to upgrade it first to Flectra 13.0 or 14.0.*)"
+"major version, you have to upgrade it first to Flectra 13.0 or 2.0.*)"
 msgstr ""
 
 #: ../../db_management/hosting_changes.rst:35
@@ -1784,7 +1784,7 @@ msgid ""
 "If your database does not run a :ref:`major version <supported_versions>` of"
 " Flectra, you cannot host it on Flectra.sh yet, you have to upgrade it first to a "
 "new major version. (*e.g.: If your database runs Flectra 12.3 which is not a "
-"major version, you have to upgrade it first to Flectra 13.0 or 14.0.*)"
+"major version, you have to upgrade it first to Flectra 13.0 or 2.0.*)"
 msgstr ""
 
 #: ../../db_management/hosting_changes.rst:47

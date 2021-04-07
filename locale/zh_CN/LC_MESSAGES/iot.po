@@ -16,7 +16,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra 14.0\n"
+"Project-Id-Version: Flectra 2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-02 12:05+0100\n"
 "PO-Revision-Date: 2020-09-22 14:41+0000\n"

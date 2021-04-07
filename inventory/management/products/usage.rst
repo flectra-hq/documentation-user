@@ -22,14 +22,10 @@ run the scheduler, the quantity added in the automatically generated
 purchase order will be in dozens but what will enter the stock will be
 units.
 
-.. image:: media/usage_02.png
-    :align: center
 
 .. image:: media/usage_03.png
     :align: center
 
-.. image:: media/usage_04.png
-    :align: center
 
 Packages
 ========

@@ -41,5 +41,3 @@ Now, if I purchase apples and carrots to my supplier, they will be grouped in th
 .. image:: media/putaw4.png
    :align: center
 
-.. image:: media/putaw5.png
-   :align: center

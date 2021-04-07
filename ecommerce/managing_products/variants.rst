@@ -33,9 +33,7 @@ See all the variants from the product template detail form.
 
 .. image:: ./media/variants_button.png
    :align: center
-   :scale: 50
-   :width: 50
-   :height: 50
+
 
 You can edit following data:
 
@@ -57,7 +55,7 @@ You can edit following data:
 How to set specific prices per variant
 ======================================
 
-You can also set a specific public price per variant by clicking *Variant Prices*
+You can also set a specific public price per variant by clicking *Configure Variants*
 in the product detail form (action in top-left corner).
 
 .. image:: ./media/variant_prices_button.png

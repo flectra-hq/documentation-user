@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra 14.0\n"
+"Project-Id-Version: Flectra 2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 11:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -3776,7 +3776,7 @@ msgid "Getting compliant with Flectra is very easy."
 msgstr ""
 
 #: ../../accounting/fiscal_localizations/localizations/france.rst:50
-msgid "Your company is requested by the tax administration to deliver a certificate of conformity testifying that your software complies with the anti-fraud legislation. This certificate is granted by Flectra SA to Flectra Enterprise users `here <https://www.flectrahq.com/my/contract/french-certification/>`_. If you use Flectra Community, you should `upgrade to Flectra Enterprise <https://www.flectrahq.com/documentation/14.0/setup/enterprise.html>`_ or contact your Flectra service provider."
+msgid "Your company is requested by the tax administration to deliver a certificate of conformity testifying that your software complies with the anti-fraud legislation. This certificate is granted by Flectra SA to Flectra Enterprise users `here <https://www.flectrahq.com/my/contract/french-certification/>`_. If you use Flectra Community, you should `upgrade to Flectra Enterprise <https://www.flectrahq.com/documentation/2.0/setup/enterprise.html>`_ or contact your Flectra service provider."
 msgstr ""
 
 #: ../../accounting/fiscal_localizations/localizations/france.rst:58

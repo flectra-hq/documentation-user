@@ -51,9 +51,3 @@ to turn it red (*Unpublished*).
 .. image:: ./media/comment_unpublish.png
    :align: center
 
-..tip::
-    You can access the web page from the detail form by clicking the *Published*
-    smart button (and vice versa).
-
-.. image:: ./media/comment_webpage.png
-   :align: center

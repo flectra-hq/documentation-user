@@ -106,6 +106,7 @@ To do so, go to :menuselection:`Configuration --> Settings`. Then, activate *Sto
 *Multi-Steps Routes*, and *Lots & Serial Numbers*.
 
 .. image:: media/enabled-features.png
+.. image:: media/enabled-features_2.png
    :align: center
    :alt: features to enable in order to properly use removal strategies.
 

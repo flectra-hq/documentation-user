@@ -20,12 +20,6 @@ Choose a delivery method and then click on **Edit**.
 .. image:: media/label_type01.png
     :align: center
 
-In the **Pricing** tab, under **Fedex label stock type**, you can choose
-one of the label types available. The availability will vary depending
-on the carrier.
-
-.. image:: media/label_type02.png
-    :align: center
 
 Once this is done, you can see the result if you go to the Sales module
 and you create a new sale order.

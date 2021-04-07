@@ -129,43 +129,6 @@ Tags
 Some accounting reports require **tags** to be set on the relevant accounts. By default, you can
 choose among the tags that are used by the *Cash Flow Statement*.
 
-Account Groups
---------------
-
-**Account Groups** are useful to list multiple accounts as *sub-accounts* of a bigger account and
-thus consolidate reports such as the **Trial Balance**.
-
-To create a new Account Group, open the account you want to configure as sub-account, click on the
-*Group* drop-down selector, select *Create and Edit...*, fill out the form, and save. Next,
-set all the sub-accounts with the right Account Group.
-
-To display your **Trial Balance** report with your Account Groups, go to :menuselection:`Accounting
---> Reporting --> Trial Balance`, then open the *Options* menu and select **Hierarchy and
-Subtotals**.
-
-.. image:: media/chart_of_accounts02.png
-   :align: center
-   :alt: Account Groups in the Trial Balance in Flectra Accounting
-
-Allow Reconciliation
---------------------
-
-Some accounts, such as accounts made to record the transactions of a payment method, can be used for
-the reconciliation of journal entries.
-
-For example, an invoice paid with a credit card can be *marked as paid* if reconciled with the
-payment. Therefore, the account used to record credit card payments needs to be configured as
-*allowing reconciliation*.
-
-To do so, check the **Allow Reconciliation** box and save.
-
-Deprecated
-----------
-
-It is not possible to delete an account once a transaction has been recorded on it. You can make
-them unusable by using the **Deprecated** feature.
-
-To do so, check the **Deprecated** box and save.
 
 .. seealso::
    * :doc:`../../payables/supplier_bills/assets`

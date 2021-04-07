@@ -52,7 +52,7 @@ of conformity testifying that your software complies with the anti-fraud
 legislation. This certificate is granted by Flectra SA to Flectra Enterprise users 
 `here <https://www.flectrahq.com/my/contract/french-certification/>`_.
 If you use Flectra Community, you should 
-`upgrade to Flectra Enterprise <https://www.flectrahq.com/documentation/14.0/setup/enterprise.html>`_
+`upgrade to Flectra Enterprise <https://www.flectrahq.com/documentation/2.0/setup/enterprise.html>`_
 or contact your Flectra service provider.
 
 In case of non-conformity, your company risks a fine of €7,500.

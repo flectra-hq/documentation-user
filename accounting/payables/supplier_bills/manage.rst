@@ -115,16 +115,6 @@ receive the products.
 
 Purchasing service products does not trigger a delivery order.
 
-Managing Vendor Bills
----------------------
-
-When you receive a vendor bill for a previous purchase, be sure to
-record it in the Purchases application under the **Control Menu**. You
-need to create a new vendor bill even if you already registered a
-purchase order.
-
-.. image:: ./media/manage06.png
-  :align: center
 
 The first thing you will need to do upon creating a vendor bill is to
 select the appropriate vendor, since doing so will also pull up any associated

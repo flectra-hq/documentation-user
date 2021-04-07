@@ -48,7 +48,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra 14.0\n"
+"Project-Id-Version: Flectra 2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 11:19+0100\n"
 "PO-Revision-Date: 2020-09-22 14:40+0000\n"
@@ -5932,7 +5932,7 @@ msgid ""
 "legislation. This certificate is granted by Flectra SA to Flectra Enterprise users"
 " `here <https://www.flectrahq.com/my/contract/french-certification/>`_. If you "
 "use Flectra Community, you should `upgrade to Flectra Enterprise "
-"<https://www.flectrahq.com/documentation/14.0/setup/enterprise.html>`_ or contact"
+"<https://www.flectrahq.com/documentation/2.0/setup/enterprise.html>`_ or contact"
 " your Flectra service provider."
 msgstr ""
 

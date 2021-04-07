@@ -51,7 +51,7 @@ Manually
 --------
 
 As an employee (Employee in user access rights), you can record 
-expenses from :menuselection:`My Expenses --> Expenses to Submit`.
+expenses from :menuselection:`My Expenses --> Expenses to Report`.
 
 .. image:: ./media/expense_submit_01.png
    :align: center

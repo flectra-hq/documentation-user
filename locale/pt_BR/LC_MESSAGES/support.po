@@ -11,7 +11,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra 14.0\n"
+"Project-Id-Version: Flectra 2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-04 11:02+0100\n"
 "PO-Revision-Date: 2020-09-22 14:42+0000\n"
@@ -79,8 +79,8 @@ msgid "Release date"
 msgstr "Data de lançamento"
 
 #: ../../support/supported_versions.rst:27
-msgid "**Flectra 14.0**"
-msgstr "**Flectra 14.0**"
+msgid "**Flectra 2.0**"
+msgstr "**Flectra 2.0**"
 
 #: ../../support/supported_versions.rst:27
 #: ../../support/supported_versions.rst:27
@@ -518,9 +518,9 @@ msgstr ""
 #: ../../support/where_can_i_get_support.rst:33
 msgid ""
 "`Buy Flectra Enterprise "
-"<https://www.flectrahq.com/documentation/14.0/setup/enterprise.html>`_ to get the"
+"<https://www.flectrahq.com/documentation/2.0/setup/enterprise.html>`_ to get the"
 " support and bugfix services."
 msgstr ""
 "`Compre o Flectra Enterprise "
-"<https://www.flectrahq.com/documentation/14.0/setup/enterprise.html>`_ para obter"
+"<https://www.flectrahq.com/documentation/2.0/setup/enterprise.html>`_ para obter"
 " os serviços de suporte e correção de bugs."

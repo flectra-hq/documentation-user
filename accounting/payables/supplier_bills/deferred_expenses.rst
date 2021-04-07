@@ -57,19 +57,7 @@ deferred.
    :align: center
    :alt: Selection of a Deferred Expense Account on a draft bill in Flectra Accounting
 
-Choose a different Expense Account for specific products
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Start editing the product, go to the *Accounting* tab, select the right **Expense Account**, and
-save.
-
-.. image:: media/deferred_expenses03.png
-   :align: center
-   :alt: Change of the Expense Account for a product in Flectra
-
-.. tip::
-   It is possible to automate the creation of expense entries for these products (see:
-   `Automate the Deferred Expenses`_).
 
 Change the account of a posted journal item
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -186,10 +174,6 @@ You have three choices for the **Automate Deferred Expense** field:
    :align: center
    :alt: Automate Deferred Expense on an account in Flectra Accounting
 
-.. tip::
-   You can, for example, select this account as the default **Expense Account** of a product to
-   fully automate its purchase. (see: `Choose a different Expense Account for specific
-   products`_).
 
 .. seealso::
    * :doc:`../../overview/getting_started/chart_of_accounts`

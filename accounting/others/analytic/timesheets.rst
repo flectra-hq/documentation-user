@@ -25,8 +25,7 @@ module name and install them.
 .. image:: media/timesheets05.png
    :align: center
 
-.. image:: media/timesheets11.png
-   :align: center
+
 
 Next you will need to enable analytical accounting. To do so enter the
 **Accounting app**. Select :menuselection:`Configuration --> Settings` and tick the
@@ -69,9 +68,6 @@ We thus need to create a **sales order** with a **service** product invoiced
 **based on time and material** and tracked by timesheets with **hours** as unit
 of measures.
 
-.. image:: media/timesheets03.png
-   :align: center
-
 
 We save a Sales Order with the service product **External Consulting**. An
 analytical account will automatically be generated once the **Sales Order**
@@ -92,8 +88,6 @@ Account** discussed above.
 
 Harry worked three hours on a SWOT analysis for Smith&Co.
 
-.. image:: media/timesheets01.png
-   :align: center
 
 In the meantime, Cedric discussed businesses needs with the customer for
 1 hour and specified it as well in his personal timesheet, pointing as

@@ -32,72 +32,9 @@ users).
   You may have a look at the *Deposit Ticket feature* if you deposit
   several checks to your bank accounts in batch.
 
-Option 1: Undeposited Funds
-===========================
 
-Configuration
--------------
-
--  Create a journal **Checks**
-
--  Set **Undeposited Checks** as a defaut credit/debit account
-
--  Set the bank account related to this journal as **Allow Reconciliation**
-
-From check payments to bank statements
---------------------------------------
-
-The first way to handle checks is to create a check journal. Thus,
-checks become a payment method in itself and you will record two
-transactions.
-
-Once you receive a customer check, go to the related invoice and click
-on **Register Payment**. Fill in the information about the payment:
-
--  Payment method: Check Journal (that you configured with the debit and
-   credit default accounts as **Undeposited Funds**)
-
--  Memo: write the Check number
-
-.. image:: ./media/check02.png
-  :align: center
-
-This operation will produce the following journal entry:
-
-+----------------------+-------------------+----------+----------+
-| Account              | Statement Match   | Debit    | Credit   |
-+======================+===================+==========+==========+
-| Account Receivable   |                   |          | 100.00   |
-+----------------------+-------------------+----------+----------+
-| Undeposited Funds    |                   | 100.00   |          |
-+----------------------+-------------------+----------+----------+
-
-The invoice is marked as paid as soon as you record the check.
-
-Then, once you get the bank statements, you will match this statement
-with the check that is in Undeposited Funds.
-
-+---------------------+-------------------+----------+----------+
-| Account             | Statement Match   | Debit    | Credit   |
-+=====================+===================+==========+==========+
-| Undeposited Funds   | X                 |          | 100.00   |
-+---------------------+-------------------+----------+----------+
-| Bank                |                   | 100.00   |          |
-+---------------------+-------------------+----------+----------+
-
-
-If you use this approach to manage received checks, you get the list of
-checks that have not been cashed in the **Undeposit Funds** account
-(accessible, for example, from the general ledger).
-
-.. Note:: 
-    Both methods will produce the same data in your accounting at the
-    end of the process. But, if you have checks that have not been cashed,
-    this one is cleaner because those checks have not been reported yet on
-    your bank account.
-
-Option 2: One journal entry only
-================================
+One journal entry only
+======================
 
 Configuration
 -------------
@@ -142,10 +79,4 @@ books:
     you will have to reconcile entries afterwards (matching payments with
     invoices)
 
-If you use this approach to manage received checks, you can use the
-report **Bank Reconciliation Report** to verify which checks have been
-received or paid by the bank. (this report is available from the **More**
-option from the Accounting dashboard on the related bank account).
 
-.. image:: ./media/check01.png
-  :align: center

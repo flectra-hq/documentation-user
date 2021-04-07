@@ -19,12 +19,6 @@ modules are available:
   the minimal configuration needed for a company  to operate in Argentina and under the AFIP
   (Administración Federal de Ingresos Públicos) regulations and guidelines.
 
-- **l10n_ar_reports**: Add VAT Book report which is a legal requirement in Argentine and that holds
-  the VAT detail info of sales or purchases recorded on the journal entries. This module includes as
-  well the VAT summary report that is used to analyze the invoice
-  
-- **l10n_ar_edi**: This module includes all technical and functional requirements to generate 
-  Electronic Invoice via web service, based on the AFIP regulations. 
 
 
 Configuration

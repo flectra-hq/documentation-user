@@ -21,7 +21,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra 14.0\n"
+"Project-Id-Version: Flectra 2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-04 11:02+0100\n"
 "PO-Revision-Date: 2020-09-22 15:13+0000\n"
@@ -2418,7 +2418,7 @@ msgstr ""
 #: ../../website/publish/on-premise_geo-ip-installation.rst:32
 msgid ""
 "`CLI documentation "
-"<https://www.flectrahq.com/documentation/14.0/reference/cmdline.html>`_."
+"<https://www.flectrahq.com/documentation/2.0/reference/cmdline.html>`_."
 msgstr ""
 
 #: ../../website/publish/on-premise_geo-ip-installation.rst:34
@@ -2468,7 +2468,7 @@ msgstr ""
 msgid ""
 "If a reversed proxy is used, make sure to configure it correctly. See "
 "`--proxy-mode "
-"<https://www.flectrahq.com/documentation/14.0/reference/cmdline.html#cmdoption-"
+"<https://www.flectrahq.com/documentation/2.0/reference/cmdline.html#cmdoption-"
 "flectra-bin-proxy-mode>`__"
 msgstr ""
 

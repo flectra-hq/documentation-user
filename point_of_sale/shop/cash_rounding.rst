@@ -19,7 +19,7 @@ Configuration
 Go to :menuselection:`Point of Sale --> Configuration --> Settings` 
 and enable *Cash Rounding*, then click on *Save*.
 
-.. image:: media/cash_rounding01.png
+.. image:: media/cash_rounding011.png
     :align: center
 
 Go to :menuselection:`Point of Sale --> Configuration --> Point of 

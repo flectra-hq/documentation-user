@@ -17,12 +17,9 @@ From Vendor Bill to Payment
 Record a new vendor bill
 ------------------------
 
-When a vendor bill is received, you can record it from :menuselection:`Purchases --> Vendor Bills` 
+When a vendor bill is received, you can record it from :menuselection:`Vendor --> Bills` 
 in the Accounting application. As a shortcut,
-you can also use the **New Bill** feature on the accounting dashboard.
 
-.. image:: ./media/vendor_bill05.png
-   :align: center
 
 To register a new vendor bill, start by selecting a vendor and inputting
 their invoice as the **Vendor Reference**, then add and confirm the product
@@ -109,36 +106,6 @@ list and reminds you of how many checks you have left to be printed.
 .. image:: ./media/vendor_bill02.png
    :align: center
 
-By selecting the amount of checks to be printed, you can dive right into
-a list of all payments that are ready to be processed.
-
-Select all the checks you wish to print (use the first checkbox to
-select them all) and set the action to **Print Checks**. Flectra will ask you
-to set the next check number in the sequence and will then print all the
-checks at once.
-
-.. image:: ./media/vendor_bill03.png
-   :align: center
-
-Reporting
-=========
-
-Aged payable balance
---------------------
-
-In order to get a list of open vendor bills and their related due dates,
-you can use the **Aged Payable** report, under the reporting menu, (in
-:menuselection:`Reporting --> Business Statement --> Aged payable`) to get a visual of all of
-your outstanding bills.
-
-.. image:: ./media/vendor_bill04.png
-   :align: center
-
-From here, you can click directly on a vendors name to open up the
-details of all outstanding bills and the amounts due, or you can
-annotate any line for managements information. At any point in time
-while you're looking through the report, you can print directly to Excel
-or PDF and get exactly what you see on the screen.
 
 .. seealso::
     * :doc:`customer_invoice`
