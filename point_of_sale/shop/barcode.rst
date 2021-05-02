@@ -20,7 +20,7 @@ select it.
 Add barcodes to product
 =======================
 
-Go to :menuselection:`Point of Sale --> Catalog --> Products` and
+Go to :menuselection:`Point of Sale --> Products --> Products` and
 select a product.
 
 Under the general information tab, you can find a barcode field where

@@ -25,7 +25,3 @@ Once on the payment interface, you now have a new *Tip* button
 .. image:: media/tips02.png
     :align: center
 
-Add the tip your customer wants to leave and process to the payment.
-
-.. image:: media/tips03.png
-    :align: center

@@ -50,8 +50,6 @@ Once done, create a sale order for the product and confirm it. Flectra will auto
 .. image:: media/cross7.png
    :align: center
 
-.. image:: media/cross8.png
-   :align: center
 
 Now, go to the *Purchase* app. There, you will find the purchase order that has been automatically triggered by the system. Validate it and receive the products in the *Input Location*.
 
@@ -61,18 +59,4 @@ Now, go to the *Purchase* app. There, you will find the purchase order that has 
 .. image:: media/cross10.png
    :align: center
 
-When the products have been received from the supplier, you can go back to your initial sale order and validate the internal transfer from *Input* to *Output*.
 
-.. image:: media/cross11.png
-   :align: center
-
-.. image:: media/cross12.png
-   :align: center
-
-The delivery order is now ready to be processed and can be validated too.
-
-.. image:: media/cross13.png
-   :align: center
-
-.. image:: media/cross14.png
-   :align: center

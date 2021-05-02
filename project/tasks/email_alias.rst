@@ -18,7 +18,7 @@ Configure the email alias in your project
 -----------------------------------------
 
 | Now that you have the incoming email server set up, go to
-  :menuselection:`Project --> Configuration --> Projects --> Edit`. Under the *Emails* tab, define
+  :menuselection:`Project --> Configuration --> Projects --> Edit`. Under the *Setting* tab, define
   the wanted email alias and choose the policy to receive a message.
 | In addition, you can now directly set it when creating a new project.
 

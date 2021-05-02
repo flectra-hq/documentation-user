@@ -70,17 +70,12 @@ Use a channel as a mailing list
    :align: center
    :alt: View of a channel’s settings form emphasizing the tab moderation in Flectra Discuss
 
-Moderators can: *Accept*, *Reject*, *Discard*, *Always Allow* or *Ban* messages.
-
-.. image:: media/moderate_messages.png
-   :align: center
-   :alt: View of a message to be moderated in Flectra Discuss
 
 .. note::
    Members of a mailing channel receive messages through email regardless of their
    :doc:`notification preference <get_started>`.
 
-Once a channel is moderated, the menu *Ban List* allows you to add email addresses per moderated
+Once a channel is moderated, the menu *Moderation* allows you to add email addresses per moderated
 channel to auto-ban them from sending messages.
 
 .. image:: media/ban_list.png

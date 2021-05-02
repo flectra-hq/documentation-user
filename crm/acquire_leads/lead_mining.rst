@@ -57,9 +57,6 @@ Credits`; or go to :menuselection:`Settings --> In-App Purchases --> View my Ser
 .. image:: media/LM6.png
    :align: center
 
-.. image:: media/LM7.png
-   :align: center
-
 
 .. tip::
     The blue box will automatically tell you how many credits are going to be consumed.

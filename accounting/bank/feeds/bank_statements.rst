@@ -33,18 +33,6 @@ Statements*, or on the three dots, and then on *Import Statement*.
    :align: center
    :alt: Import a bank statement file in Flectra Accounting
 
-Next, select the file you want to import and click on *Import*.
-
-Flectra opens an **import widget** to help you set the **Formatting Options** and **map** the
-different columns you want to import.
-
-.. image:: media/bank-statements-02.png
-   :align: center
-   :alt: Register bank statements manually in Flectra Accounting
-
-.. note::
-   Quicken Interchange Format (.QIF) is an older file format that is no longer supported since 2005. 
-   If possible, prefer OFX files over QIF.
 
 Register bank statements manually
 =================================

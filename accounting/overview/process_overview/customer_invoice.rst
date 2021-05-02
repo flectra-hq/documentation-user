@@ -49,10 +49,10 @@ There is nothing to stop users from creating their own draft invoices.
 
 Let's create a customer invoice with following information:
 
-- Customer: Agrolait
-- Product: iMac
+- Customer: Deco Addict
+- Product: Whiteboard Pen
 - Quantity: 1
-- Unit Price: 100
+- Unit Price: 1.20
 - Taxes: Tax 15%
 
 .. image:: ./media/invoice01.png
@@ -88,8 +88,6 @@ generated when you validate the invoice. You can see the details by
 clicking on the entry in the Journal Entry field in the "Other Info"
 tab.
 
-.. image:: ./media/invoice04.png
-   :align: center
 
 Send the invoice to customer
 ============================
@@ -141,96 +139,3 @@ according to your accounting localisation.
 
 Create a bank statement from the accounting dashboard with the related
 journal and enter an amount of $100 .
-
-.. image:: ./media/invoice06.png
-   :align: center
-
-Reconcile
-=========
-
-Now let's reconcile!
-
-.. image:: ./media/invoice07.png
-   :align: center
-
-You can now go through every transaction and reconcile them or you can mass reconcile with instructions at the bottom.
-
-After reconciling the items in the sheet, the related invoice will now
-display "You have outstanding payments for this customer. You can
-reconcile them to pay this invoice. "
-
-.. image:: ./media/invoice08.png
-   :align: center
-
-.. image:: ./media/invoice09.png
-   :align: center
-
-Apply the payment. Below, you can see that the payment has been added to
-the invoice.
-
-.. image:: ./media/invoice10.png
-   :align: center
-
-Payment Followup
-================
-
-There's a growing trend of customers paying bills later and later.
-Therefore, collectors must make every effort to collect money and
-collect it faster.
-
-Flectra will help you define your follow-up strategy. To remind customers
-to pay their outstanding invoices, you can define different actions
-depending on how severely overdue the customer is. These actions are
-bundled into follow-up levels that are triggered when the due date of an
-invoice has passed a certain number of days. If there are other overdue
-invoices for the same customer, the actions of the most overdue invoice
-will be executed.
-
-By going to the customer record and diving into the "Overdue Payments"
-you will see the follow-up message and all overdue invoices.
-
-.. image:: ./media/invoice11.png
-   :align: center
-
-.. image:: ./media/invoice12.png
-   :align: center
-
-Customer aging report:
-----------------------
-
-The customer aging report will be an additional key tool for the
-collector to understand the customer credit issues, and to prioritize
-their work.
-
-Use the aging report to determine which customers are overdue and begin
-your collection efforts.
-
-.. image:: ./media/invoice13.png
-   :align: center
-
-Profit and loss
-===============
-
-The Profit and Loss statement displays your revenue and expense details.
-Ultimately, this gives you a clear image of your Net Profit and Loss. It
-is sometimes referred to as the "Income Statement" or "Statement of
-Revenues and Expenses."
-
-.. image:: ./media/invoice14.png
-   :align: center
-
-Balance sheet
-=============
-
-The balance sheet summarizes your company's liabilities,
-assets and equity at a specific moment in time.
-
-.. image:: ./media/invoice15.png
-   :align: center
-
-.. image:: ./media/invoice16.png
-   :align: center
-
-For example, if you manage your inventory using the perpetual accounting
-method, you should expect a decrease in account "Current Assets" once
-the material has been shipped to the customer.

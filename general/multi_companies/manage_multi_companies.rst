@@ -107,5 +107,5 @@ under *Settings*, click on *Configure Document Layout*.
    Remember to test all workflows as an user other than the administrator.
 
 .. seealso::
-   - `Multi-company Guidelines <https://www.flectrahq.com/documentation/14.0/howtos/company.html>`_
+   - `Multi-company Guidelines <https://www.flectrahq.com/documentation/2.0/howtos/company.html>`_
    - :doc:`../../accounting/others/multicurrencies/how_it_works`

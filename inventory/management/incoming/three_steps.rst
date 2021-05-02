@@ -23,7 +23,7 @@ actions together. In this case, we will chain the picking step to the shipping s
 To enable *Multi-Step Routes*, go to :menuselection:`Inventory --> Configuration --> Settings` and 
 activate the option.
 
-.. image:: media/three_steps_01.png
+.. image:: media/two_steps_01.png
    :align: center
    :alt: View of the features to enable in order to use multi-step routes for goods reception
 
@@ -100,10 +100,10 @@ transfer. Then, the transfer can be directly validated.
 Now, the transfer that enters the products to stock is *Ready*. Here, it is again ready to be 
 validated in order to transfer the products to your stock location.
 
-.. image:: media/three_steps_08.png
+.. image:: media/three_steps_06.png
    :align: center
    :alt: View of the button to click to see the internal transfers that need to be processed
 
-.. image:: media/three_steps_09.png
+.. image:: media/three_steps_07.png
    :align: center
    :alt: View of the move (internal transfer) from the quality control area to the stock

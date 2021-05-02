@@ -13,7 +13,7 @@ and knowledge, supporting the feeling of belonging to a community (your communit
 Set up
 ------
 
-Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Team` and enable *Help Center*.
+Go to :menuselection:`Helpdesk --> Configuration --> Setting` and enable *Helpdesk Forum*.
 
 .. image:: media/help_center_feature.png
    :align: center

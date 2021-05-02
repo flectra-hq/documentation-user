@@ -33,14 +33,3 @@ needed type, and decide if you would like the requests to be validated or not.
 Considering that validation is not required, the requested time off is automatically displayed in
 *Timesheets*. If validation is necessary, the time is automatically allocated after the responsible
 person for validating does it so.
-
-.. image:: media/timesheets.png
-   :align: center
-   :alt: Video of timesheets emphasizing the requested time off from the employee in Flectra Timesheets
-
-Click on the magnifying glass, hovering over the concerned cell, to access all the aggregated data
-on that cell (day), and see details regarding the project/task.
-
-.. image:: media/timesheet_description.png
-   :align: center
-   :alt: View of the details of a project/task in Flectra Timeheets

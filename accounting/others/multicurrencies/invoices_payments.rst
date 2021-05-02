@@ -32,7 +32,7 @@ Configure your journal
 
 In order to register payments in other currencies, you have to remove
 the currency constraint on the journal. Go to the accounting
-application, on the journal, click on :menuselection:`More --> Settings`.
+application, on the journal, click on :menuselection:`More --> Configuration`.
 
 .. image:: media/invoice01.png
    :align: center
@@ -110,9 +110,6 @@ Exchange Rate Journal
 
 Go to :menuselection:`Adviser --> Journal Entries` and look for the **Exchange
 Difference** journal entries. All the exchange rates differences are recorded in it.
-
-.. image:: media/invoice09.png
-   :align: center
 
 .. include:: full_reconcile_warning.rst
 

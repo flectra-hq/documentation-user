@@ -16,7 +16,7 @@ In this case, some additional configuration is required.
 Go in :menuselection:`accounting --> configuration --> settings` and activate
 the fiscal years.
 
-.. image:: media/fiscal_year02.png
+.. image:: media/fiscal_year01.png
     :align: center
 
 You can then configure your fiscal years in

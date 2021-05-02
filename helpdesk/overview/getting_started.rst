@@ -46,7 +46,7 @@ Set up stages and share it among teams
 ======================================
 
 To set up stages, go to :menuselection:`Helpdesk --> Configuration --> Stages`. Then, create and/or
-edit stages as you need and set specific teams to use certain stages under *Team*.
+edit stages as you need.
 
 .. image:: media/stages_teams.png
    :align: center

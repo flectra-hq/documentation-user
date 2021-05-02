@@ -33,24 +33,5 @@ these steps:
 
 3. Register the transactions, specifying the customers linked to the transaction
 
-Put money in
-------------
-
-Put money in is used to placed your cash manually before starting your
-transactions. From the Register Transactions window, go to :menuselection:`More
---> Put money in`
-
-.. image:: ./media/put-money-in.png
-   :align: center
-
-Take money out
---------------
-
-Take money out is used to collect/get yor your cash manually after
-ending all your transactions. From the Register Transaction windows, go to :menuselection:`More
---> Take money out`
-
-.. image:: ./media/put-money-out.png
-   :align: center
 
 The transactions will be added to the current cash payment registration.

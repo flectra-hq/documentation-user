@@ -49,6 +49,3 @@ Product from Second warehouse\*.
 
 .. image:: media/virtual_warehouses_06.png
    :align: center
-
-.. image:: media/virtual_warehouses_07.png
-   :align: center

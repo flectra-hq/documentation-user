@@ -47,7 +47,7 @@ Make sure the currency is active.
 .. image:: media/works03.png
    :align: center
 
-Click on **View Rates** to edit it and to see the history :
+Click on **Rates** to edit it and to see the history :
 
 .. image:: media/works04.png
    :align: center
@@ -55,8 +55,6 @@ Click on **View Rates** to edit it and to see the history :
 Click on **Create** to add the rate. Fill in the date and the rate.
 Click on **Save** when you are done.
 
-.. image:: media/works05.png
-   :align: center
 
 Live Currency Rate
 ------------------
@@ -94,7 +92,7 @@ Configure your journals
 
 In order to register payments in other currencies, you have to remove
 the currency constraint on the journal. Go to the accounting
-application, Click on **More** on the journal and **Settings**.
+application, Click on **More** on the journal and **Configuration**.
 
 .. image:: media/works08.png
    :align: center

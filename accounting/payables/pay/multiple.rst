@@ -67,19 +67,6 @@ middle of the page, click on **Register Payment**.
 Insert the details of the payment. The system calculated the total
 amount for both bills, but you can modify it freely. Click on **Validate**.
 
-Record the payment, reconcile afterwards
-----------------------------------------
-
-You can also reconcile a payment with bills after the payment has been
-recorded.
-
-First, we need to create a payment
-
-This will handle from :menuselection:`Dashboard --> Bank journal -->
-More Option --> Send Money`
-
-.. image:: ./media/multiple07.png
-  :align: center
 
 Creating payment order with check payment method. Selecting related
 Vendor and amount which remain to pay. After filling all details, we
@@ -127,18 +114,6 @@ payment term.
 We have created the following bills:
 
 .. image:: ./media/multiple11.png
-  :align: center
-
-We will pay the invoices by creating bank statement where we will adjust
-the cash discount our vendor provided under payment terms.
-
-.. image:: ./media/multiple12.png
-  :align: center
-
-Before reconciling this bank statement, we need to create one statement
-model for cash discount.
-
-.. image:: ./media/multiple13.png
   :align: center
 
 Now we are going back to bank statement and opening reconcile view.

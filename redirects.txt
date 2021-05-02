@@ -176,7 +176,7 @@ discuss/overview.rst discuss/overview/get_started.rst                      # (#6
 crm/optimize/onsip.rst general/voip/onsip.rst                    # crm/optimize/* --> general/voip/*
 crm/optimize/setup.rst general/voip/asterisk.rst                 # crm/optimize/setup --> general/voip/asterisk
 
-# Redirections introduced in 14.0 :
+# Redirections introduced in 2.0 :
 
 crm/optimize/mail_client_extension.rst crm/optimize/outlook_extension.rst                           # mail_client_extension -> outlook_extension  |  mail_client_extension is the first link provided as a tip in Flectra 14 but should be updated and point directly to outlook_extension
 crm/optimize/google_calendar_credentials.rst general/calendars/google/google_calendar_credentials.rst    # (#765)

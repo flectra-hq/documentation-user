@@ -118,13 +118,6 @@ Select the "Cost" Budgetary Position and specify the Planned Amount.
 As we are recording a cost, we need to specify a **negative amount**.
 Finally, select the corresponding analytic account.
 
-.. image:: media/budget08.png
-   :align: center
-
-Click on **Save & new** to input the revenue budget. The Budgetary
-Position is Revenue and the Planned Amount is 1000. Save and close
-
-You'll need to **Confirm** and **Approve** the budget.
 
 Check your budget
 =================

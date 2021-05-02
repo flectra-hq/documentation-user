@@ -35,8 +35,6 @@ in the *Inventory tab*. Then, click on save.
 .. image:: media/serial_numbers_02.png
     :align: center
 
-.. image:: media/serial_numbers_03.png
-    :align: center
 
 Manage Serial Numbers
 =====================

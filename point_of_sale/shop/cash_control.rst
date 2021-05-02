@@ -21,23 +21,15 @@ Under the payments category, you will find the cash control setting.
 In this example, you can see I want to have 275$ in various denomination
 at the opening and closing.
 
-When clicking on **Opening/Closing Values** you will be able to create
-those values.
-
-.. image:: media/cash_control02.png
-    :align: center
 
 Start a session
 ===============
 
-You now have a new button added when you open a session, *Set opening
-Balance*
+On your point of sale dashboard click on new session:
 
 .. image:: media/cash_control03.png
     :align: center
 
-.. image:: media/cash_control04.png
-    :align: center
 
 By default it will use the values you added before, but you can always
 modify it.

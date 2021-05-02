@@ -33,35 +33,6 @@ price is already calculated, your payment controls will be simplified.
 .. image:: media/cash_discounts02.png
   :align: center
 
-Grant the cash discount
-=======================
-
-The customer fulfilled the payment terms and therefore benefits from the
-cash discount. When you process the bank statement, match the payment
-with the related journal entry. Then, select the remaining cash discount
-and click on *Create Write-off* to reconcile it.
-
-.. image:: media/cash_discounts03.png
-  :align: center
-
-.. tip::
-  You can also create a dedicated reconciliation model to make
-  the process easier. In this case, you should add a tax to the model
-  based on the taxes applied to your invoices. This means that if you
-  handle multiple tax rates, you need to create several reconciliation
-  models. Note that depending on your localisation, you might already have
-  a Cash Discount model available by default.
-
-Register the full payment
-=========================
-
-In this case, the customer has not fulfilled the payment term and cannot
-benefit from the cash discount. When you process the bank statement,
-match the payment with the two related journal entries.
-
-.. image:: media/cash_discounts04.png
-  :align: center
-
 
 .. seealso::
   * :doc:`../../receivables/customer_invoices/payment_terms`

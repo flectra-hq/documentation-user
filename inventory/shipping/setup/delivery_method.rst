@@ -34,9 +34,9 @@ Configure the delivery method
 -----------------------------
 
 To configure your delivery methods, go to the **Inventory** module, 
-click on :menuselection:`Configuration --> Delivery Methods`.
+click on :menuselection:`Configuration --> Shipping Methods`.
 
-First set a name and a transporter company.
+First set a name and a company.
 
 .. image:: media/setup03.png
    :align: center

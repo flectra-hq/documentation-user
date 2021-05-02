@@ -73,13 +73,13 @@ is marked as done.
 You can enter the picking operation from here, or access it through the
 inventory dashboard.
 
-.. image:: media/three_steps_05.png
+.. image:: media/three_steps_06.png
     :align: center
 
 In case you have the product in stock, it has automatically been
 reserved and you can simply validate the picking document.
 
-.. image:: media/three_steps_06.png
+.. image:: media/three_steps_066.png
     :align: center
 
 Once the picking has been validated, the packing order is ready to be

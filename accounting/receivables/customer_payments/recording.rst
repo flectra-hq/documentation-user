@@ -71,30 +71,6 @@ under "Outstanding Payments".
 .. image:: ./media/recording03.png
   :align: center
 
-Reconciling all your outstanding payments and invoices
-------------------------------------------------------
-
-If you want to reconcile all outstanding payments and invoices at once
-(instead of doing so one by one), you can use the batch reconciliation
-feature within Flectra.
-
-The batch reconciliation feature is available from the dashboard on the
-Customer Invoices card and the Vendor Bills card for reconciling
-Accounts Receivable and Payable, respectively.
-
-.. image:: ./media/recording04.png
-  :align: center
-
-The payments matching tool will open all unreconciled customers or
-vendors and will give you the opportunity to process them all one by
-one, doing the matching of all their payments and invoices at once.
-
-.. image:: ./media/recording05.png
-  :align: center
-
-During the reconciliation, if the sum of the debits and credits do not
-match, it means there is still a remaining balance that either needs to
-be reconciled at a later date, or needs to be written off directly.
 
 Transferring money from one bank account to another
 ===================================================
