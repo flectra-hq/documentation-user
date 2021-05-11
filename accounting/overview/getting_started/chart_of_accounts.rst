@@ -104,7 +104,7 @@ Assets, Deferred Expenses, and Deferred Revenues Automation
 
 Some Account Types display a new field **to automate** the creation of :ref:`Assets
 <assets-automation>` entries, :ref:`Deferred Expenses <deferred-expenses-automation>` entries,
-and :ref:`Deferred Revenues <deferred-revenues-automation>` entries.
+
 
 You have three choices for the **Automation** field:
 

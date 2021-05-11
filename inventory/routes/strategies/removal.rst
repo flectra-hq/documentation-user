@@ -127,8 +127,7 @@ As said, a *FIFO* strategy implies that products stocked first move out first. C
 that method if they are selling products with short demand cycles, such as clothes, and to ensure 
 they are not stuck with outdated styles in stock.
 
-For this example, we created three lots of white shirts. Those are from the All/Clothes category, 
-where we put *FIFO* as the removal strategy. In our stock location (WH/Stock), we now find the 
+For this example, we created three lots of laptops.where we put *FIFO* as the removal strategy. In our stock location (WH/Stock), we now find the 
 three lots available.
 
 .. image:: media/inventory-valuation.png
@@ -160,8 +159,8 @@ test our *LIFO* strategy. Once again, open the product category via :menuselecti
    :align: center
    :alt: last in first out strategy set up as forced removal strategy.
 
-Now, create a sale order for 4 white shirts and check that the reserved products are from lots 
-000003 and 000002.
+Now, create a sale order for 2 laptops and check that the reserved products are from lots 
+0000000000029 and 0000000000030.
 
 .. image:: media/reserved-lots-LIFO.png
    :align: center
@@ -183,10 +182,6 @@ particular case, they are dispatched according to their expiration date.
 By activating *Expiration Dates*, it becomes possible to define different dates on the serial/lot 
 numbers to be used in *FEFO*. These dates can be set by going to :menuselection:`Inventory --> 
 Master Data --> Lots/Serial Numbers`.
-
-.. image:: media/removal-date.png
-   :align: center
-   :alt: view of the removal date for 0000001.
 
 Lots are picked based on their removal date, from earliest to latest. Lots without a removal date 
 defined are picked after lots with removal dates.
@@ -214,10 +209,3 @@ For this particular case, let’s use hand cream. As usual, we have three lots o
 | 0000003               | Hand Cream    | 10/31/2019            |
 +-----------------------+---------------+-----------------------+
 
-When we realize a sale for 25 units of Hand Cream, we can see that the lot numbers which have been 
-automatically reserved by Flectra are the ones with the closest expiration date, meaning 0000001 and 
-0000003.
-
-.. image:: media/reserved-hand-cream.png
-   :align: center
-   :alt: two hand cream lots reserved for sell with the FEFO strategy.

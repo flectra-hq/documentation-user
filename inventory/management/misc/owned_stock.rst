@@ -41,5 +41,3 @@ owns the stock.
 Once the receipt is validated, the products enter your stock but still
 belong to the owner. They don’t impact your inventory valuation.
 
-.. image:: media/owned_stock_03.png
-    :align: center

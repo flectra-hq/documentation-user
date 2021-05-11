@@ -14,4 +14,3 @@ Manufacturing Management
    management/alternative_wc
    management/subcontracting
    management/routing_kit_bom
-   management/use_mps

@@ -8,14 +8,6 @@ the interests of your website visitors.
 Every tracked page they visit will be recorded on your lead/opportunity
 if they use the contact form on your website.
 
-Configuration
-=============
-
-To use this feature, install the free module *Lead Scoring* under your
-*Apps* page (only available in Flectra Enterprise).
-
-.. image:: media/prospect_visits01.png
-   :align: center
 
 Track a webpage
 ===============

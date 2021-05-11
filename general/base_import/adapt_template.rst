@@ -36,7 +36,7 @@ Feel free to use the one of your previous software to ease the transition to Fle
 Setting an ID is not mandatory when importing but it helps in many cases:
 
 * Update imports: you can import the same file several times without creating duplicates;
-* Import relation fields (see here below).
+* Import relation fields (see here below)..
 
 How to import relation fields
 =============================

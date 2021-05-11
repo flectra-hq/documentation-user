@@ -102,22 +102,3 @@ the payment. This will mark the payment as **Reconciled**.
    payments and filter on the Sent state. Review those payments that have a
    date more than 2 weeks ago.
 
-Pay anything with a check
-=========================
-
-You can register a payment that is not related to a supplier bill. To do
-so, use the top menu :menuselection:`Purchases --> Payments`. Register your
-payment and select a payment method by check.
-
-If you pay a specific supplier bill, put the reference of the bill in
-the **Memo** field.
-
-.. image:: ./media/check04.png
-  :align: center
-
-Once your payment by check is registered, don't forget to **Confirm** it.
-Once confirmed, you can use **Print Check** directly or follow the preceding
-flow to print checks in batch:
-
--  `Print checks`_
--  `Reconcile bank statements`_

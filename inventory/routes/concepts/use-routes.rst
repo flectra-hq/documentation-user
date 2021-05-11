@@ -356,9 +356,6 @@ Obviously, the packing zone needs products ready to be packed. So, an
 internal transfer is requested to the stock and employees can gather the
 required products from the warehouse.
 
-.. image:: media/detailed-operations-transfer.png
-   :align: center
-   :alt: view of the detailed operations for a transfer between the stock and packing zones
 
 As explained in this documentation introduction, the last step in the
 process (here the delivery order) is the first to be triggered, which

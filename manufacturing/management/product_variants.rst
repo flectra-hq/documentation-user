@@ -6,9 +6,6 @@ Flectra allows you to use one bill of materials for multiple variants of
 the same product. Simply enable variants from
 :menuselection:`Configuration --> Settings`.
 
-.. image:: media/product_variants01.png
-    :align: center
-
 You will then be able to specify which component lines are to be used in
 the manufacture of each product variant. You may specify multiple
 variants for each line. If no variant is specified, the line will be

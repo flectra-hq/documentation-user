@@ -17,7 +17,7 @@ As, an example, in Colombia you may have the following invoice:
    :align: center
 
 In this example, the **company** who sent the invoice owes $20 of taxes to
-the **government** and the **customer** owes $10 of taxes to the **government**.
+the **government** and the **customer** owes $10 of taxes to the **government**..
 
 Configuration
 =============

@@ -25,9 +25,6 @@ Commands are shortcuts that do specific actions within the chat window:
 
 To access the ticket or lead created from the chat, click on the shortcut link.
 
-.. image:: media/create_ticket.png
-   :align: center
-   :alt: View of the chat window with a helpdesk ticket created in Flectra Live Chat
 
 .. tip::
    Helpdesk tickets created from the chat automatically add the conversation as a description of

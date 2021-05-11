@@ -39,7 +39,7 @@ a tax or click on *Create*.
 
 .. important::
    Taxes have three different labels, each one having a specific use. Refer to the following table to
-   see where they are displayed.
+   see where they are displayed..
 
    +------------------+-------------------------+-------------------------+
    | :ref:`Tax Name   | :ref:`Label on Invoice  | :ref:`Tax Group         |
@@ -234,9 +234,6 @@ For example, a product has a Sales Price of $1000, and we apply a *10% of Price*
 | 1,000       | 900.10      | 90.9     | 1,000.00 |
 +-------------+-------------+----------+----------+
 
-.. note::
-   If you need to define prices accurately, both tax-included and tax-excluded, please refer to the
-   following documentation: :doc:`B2B_B2C`.
 
 .. note::
    - **Invoices**: By default, the Line Subtotals displayed on your invoices are *Tax-Excluded*. To
@@ -256,7 +253,7 @@ With this option, the total tax-included becomes the taxable basis for the other
 the same product.
 
 You can configure a new :ref:`Group of Taxes <taxes/computation>` to include this tax, or add it
-directly to a product line.
+directly to a product line..
 
 .. image:: media/taxes-subsequent-line.png
    :align: center
@@ -277,6 +274,4 @@ directly to a product line.
 .. seealso::
 
   - :doc:`fiscal_positions`
-  - :doc:`B2B_B2C`
-  - :doc:`taxcloud`
   - :doc:`../../reporting/declarations/tax_returns`

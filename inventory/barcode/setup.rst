@@ -7,4 +7,3 @@ Setup
    :glob:
 
    setup/hardware
-   setup/software

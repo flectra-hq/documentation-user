@@ -8,5 +8,3 @@ Shipping Operations
 
    operation/invoicing
    operation/multipack
-   operation/labels
-   operation/cancel

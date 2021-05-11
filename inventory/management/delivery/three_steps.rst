@@ -59,8 +59,6 @@ If you click the button, you should now see three different pickings:
 
 3. The last one with a reference OUT to designate the shipping process.
 
-.. image:: media/three_steps_04.png
-    :align: center
 
 Process the Picking, Packing, and Delivery
 ==========================================

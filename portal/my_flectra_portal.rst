@@ -65,54 +65,6 @@ invoice has been paid.
 Just click on the invoice if you wish to see more information, pay the invoice,
 or download a PDF version of the document.
 
-Tickets
--------
-
-When you submit a ticket through `Flectra Support <https://www.flectrahq.com/help>`_,
-a ticket will be created. Here you can find all the tickets that you have opened,
-the conversations between you and our Agents, and the statuses and IDs (# Ref) of the tickets.
-
-.. image:: media/tickets.png
-   :align: center
-
-Subscriptions
--------------
-
-You can access your subscriptions with Flectra from this section. The first page
-shows you the subscriptions that you have and their status.
-
-.. image:: media/subscriptionstatus.png
-   :align: center
-
-By clicking on the subscription you will access all the details regarding your
-plan: the number of applications purchased, the billing information,
-and the payment method.
-
-To change the payment method, click on "Change Payment Method" and enter the new
-credit card details.
-
-.. image:: media/changemethod.png
-   :align: center
-
-If you want to remove the credit cards that are saved, you can do so by clicking on
-"Manage your payment methods" at the bottom of the page. Click "Delete" to
-delete the payment method.
-
-.. image:: media/managepayment.png
-   :align: center
-
-.. warning::
-   At the date of the next invoice, if there is no payment information provided or if your credit
-   card has expired, the status of your subscription will change to "To Renew". You will then have 7
-   days to provide a valid method of payment. After this delay, the subscription will be closed, and
-   you will no longer be able to access the database.
-
-Success Packs
--------------
-With a Success Pack/Partner Success Pack, you are assigned an expert to provide
-unique personalized assistance to help you customize your solution and optimize
-your workflows as part of your initial implementation.
-
 
 Delete your Flectra.com account
 ===============================

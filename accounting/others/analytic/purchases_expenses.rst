@@ -43,12 +43,6 @@ accounting box.
 .. image:: media/purchase05.png
    :align: center
 
-Moreover, scroll down and tick the **Analytic accounting for purchases**
-box.
-
-.. image:: media/purchase06.png
-   :align: center
-
 Don't forget to save your changes.
 
 Create an Analytical account.
@@ -134,7 +128,7 @@ Simply open it to check the costs related to that account.
 Enter the accounting module, click on :menuselection:`Advisers --> Analytic Accounts
 --> Open Charts`.
 
-Select "consulting pack - Smith" and click on the cost and revenue
+Select "consulting pack" and click on the cost and revenue
 button to have an overview of all cost linked to the account.
 
 .. image:: media/purchase11.png

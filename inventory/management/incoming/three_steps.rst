@@ -61,9 +61,6 @@ Order* as the source document:
 
 3. The last one with a reference *INT* to designate the move to stock.
 
-.. image:: media/three_steps_03.png
-   :align: center
-   :alt: View of the three moves created by the purchase of products in three steps strategy
 
 Process the receipt, quality control and entry in stock
 =======================================================

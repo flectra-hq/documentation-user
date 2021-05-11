@@ -84,8 +84,6 @@ On the dashboard, click on **Reconcile # Items**
 If everything was right (correct partner name, right amount) flectra will
 do the reconciliations **automatically**.
 
-.. image:: media/use08.png
-   :align: center
 
 If some issues are found, you will need to take **manual actions**.
 
@@ -103,6 +101,3 @@ right and validate all related payments :
 
 .. tip::
    Hit CTRL-Enter to reconcile all the balanced items in the sheet.
-
-.. seealso::
-   * :doc:`../feeds/bank_synchronization`

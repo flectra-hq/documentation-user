@@ -49,4 +49,3 @@ its ratings.
 
 .. seealso::
    - :doc:`../../portal/my_flectra_portal`
-   - :doc:`../advanced/close_tickets`
