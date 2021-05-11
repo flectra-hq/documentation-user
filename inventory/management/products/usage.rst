@@ -43,26 +43,3 @@ PACK", do this for each package.
 .. image:: media/usage_05.png
     :align: center
 
-.. image:: media/usage_06.png
-    :align: center
-
-Packaging
-=========
-
-The packaging is the physical container that protects your product. If
-you are selling computers, the packaging contains the computer with the
-notice and the power plug.
-
-In Flectra, packagings are used for indicative purposes on sale orders.
-They can be specified on the product form, in the inventory tab.
-
-.. image:: media/usage_07.png
-    :align: center
-
-.. image:: media/usage_08.png
-    :align: center
-
-.. note::
-        Another useful use of the packaging is for product reception. By
-        scanning the barcode of the packaging, Flectra adds the number of units
-        contained in the packing on the picking.

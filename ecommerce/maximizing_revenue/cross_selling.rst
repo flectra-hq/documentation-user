@@ -37,19 +37,6 @@ such a new screen pops up as an extra step.
 .. image:: ./media/cross_sell_optional_web.png
    :align: center
 
-To publish optional products:
 
-* Install *eCommerce Optional Products* addon in *Apps* menu. Remove the default filter to
-  search on addons as well, otherwise only main apps show up.
 
-.. image:: ./media/cross_sell_optional_install.png
-   :align: center
-
-* Select optional items from the *Sales* tab of the product detail form.
-
-.. image:: ./media/cross_sell_optional.png
-   :align: center
-
-.. note::
-    The quantity of optional items added to cart is the same than the main item.
 

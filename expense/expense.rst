@@ -66,8 +66,6 @@ expenses from :menuselection:`My Expenses --> Expenses to Report`.
    photo/scan of the receipt from the discussion thread. 
    That will help the manager and the accountant validate it.
 
-.. image:: ./media/expense_submit_02.png
-   :align: center
 
 In one click from emails
 ------------------------
@@ -117,9 +115,6 @@ Such users must have at least *Officers* access rights for *Expenses*.
 They can review expense reports, approve or reject them, as well as providing 
 feedback thanks to the integrated communication tool.
 
-.. image:: ./media/expense_approval_02.png
-   :align: center
-
 As a team manager you can easily find the expense reports of your team members. 
 You need to be set as manager in the detail form of those employees.
 
@@ -156,7 +151,7 @@ To record the payment or pay by check, click *Register a Payment*.
 See how you can easily manage the payment process in Flectra:
 
 * :doc:`../accounting/payables/pay/check`
-* :doc:`../accounting/payables/pay/sepa`
+
 
 
 How to re-invoice expenses to your customers
@@ -187,40 +182,3 @@ Setup
 .. image:: media/expense_invoicing_01.png
   :align: center
 
-Create an order
----------------
-
--  As a salesman, create and confirm a Sales Order for the services
-   delivered to your customer. If you don't put any expense in the
-   order, it will be added automatically once posted by the
-   accountant.
-
--  Link the expense to the Sale Order.
-
-.. image:: media/expense_invoicing_02.png
-  :align: center
-
-Submit, validate and post expenses
-----------------------------------
-
--  As a manager, make sure the analytic account is set on every expense
-   line on approving expenses reports. Click the line to add one if
-   missing. Employees are already able to set one when submitting.
-
-.. image:: media/expense_invoicing_03.png
-  :align: center
-
--  As an accountant, post journal entries.
-
-Invoice expenses
-----------------
-
-Now you can invoice the order. It shows up in 
-:menuselection:`Sales --> Invoicing --> Sales`
-to Invoice. The expenses have been added automatically in the order
-lines. Such items show up in blue (i.e. to invoice).
-
-.. image:: media/expense_invoicing_04.png
-  :align: center
-
-e (i.e. to invoice). 

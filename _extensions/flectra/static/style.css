@@ -1086,7 +1086,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #875A7B;
+  color: #009efb;
   text-decoration: none;
 }
 a:hover,
@@ -3480,7 +3480,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #fff;
 }
 .btn-link {
-  color: #875A7B;
+  color: #009efb;
   font-weight: normal;
   border-radius: 0;
 }
@@ -4081,7 +4081,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #F2F2F2;
-  border-color: #875A7B;
+  border-color: #009efb;
 }
 .nav .nav-divider {
   height: 1px;
@@ -9637,12 +9637,12 @@ article.doc-body .code-fields ul em {
   font-weight: 600;
 }
 .card-img {
-  background: #75526b;
-  background: -webkit-linear-gradient(99deg, #875A7B 10%, #62495B 90%);
-  background: -moz-linear-gradient(99deg, #875A7B 10%, #62495B 90%);
-  background: -ms-linear-gradient(99deg, #875A7B 10%, #62495B 90%);
-  background: -o-linear-gradient(99deg, #875A7B 10%, #62495B 90%);
-  background: linear-gradient(99deg, #875A7B 10%, #62495B 90%);
+  background: #009efb;
+  background: -webkit-linear-gradient(99deg, #009efb 10%, #009efb 90%);
+  background: -moz-linear-gradient(99deg, #009efb 10%, #009efb 90%);
+  background: -ms-linear-gradient(99deg, #009efb 10%, #009efb 90%);
+  background: -o-linear-gradient(99deg, #009efb 10%, #009efb 90%);
+  background: linear-gradient(99deg, #009efb 10%, #009efb 90%);
   position: absolute;
   top: 0;
   left: auto;
@@ -9665,12 +9665,12 @@ article.doc-body .code-fields ul em {
   -moz-transform-origin: 50% 0px 0px;
   -ms-transform-origin: 50% 0px 0px;
   transform-origin: 50% 0px 0px;
-  background: #75526b;
-  background: -webkit-linear-gradient(99deg, #875A7B 10%, #62495B 90%);
-  background: -moz-linear-gradient(99deg, #875A7B 10%, #62495B 90%);
-  background: -ms-linear-gradient(99deg, #875A7B 10%, #62495B 90%);
-  background: -o-linear-gradient(99deg, #875A7B 10%, #62495B 90%);
-  background: linear-gradient(99deg, #875A7B 10%, #62495B 90%);
+  background: #009efb;
+  background: -webkit-linear-gradient(99deg, #009efb 10%, #4f96c0 90%);
+  background: -moz-linear-gradient(99deg, #009efb 10%, #4f96c0 90%);
+  background: -ms-linear-gradient(99deg, #009efb 10%, #4f96c0 90%);
+  background: -o-linear-gradient(99deg, #009efb 10%, #4f96c0 90%);
+  background: linear-gradient(99deg, #009efb 10%, #4f96c0 90%);
 }
 @media screen and (min-width: 768px) {
   .card.top {

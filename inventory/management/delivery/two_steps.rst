@@ -61,6 +61,10 @@ the shipping process.
 .. image:: media/two_steps_05.png
     :align: center
 
+
+.. image:: media/two_steps_066.png
+    :align: center
+
 Process the Picking and the Delivery
 ====================================
 
@@ -77,8 +81,6 @@ inventory dashboard.
 In case you have the product in stock, it has automatically been
 reserved and you can simply validate the picking document.
 
-.. image:: media/two_steps_07.png
-    :align: center
 
 Once the picking has been validated, the delivery order is ready to be
 processed. Thanks to the fact that the documents are chained, the

@@ -10,7 +10,7 @@ Configuration
 To activate *Reprint Receipt*, go to :menuselection:`Point of Sale
 --> Configuration --> Point of sale`. and select your PoS interface.
 
-Under the Bills & Receipts category, you will find *Reprint Receipt*
+Under the PoS interface, you will find *Manage Orders*
 option.
 
 .. note::

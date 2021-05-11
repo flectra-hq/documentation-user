@@ -195,7 +195,7 @@ quantities, you will need to belong to the group **Purchase Manager**.
 Ask your system administrator to enable these access on :menuselection:`Settings
 --> Users --> Users --> Access Rights`. Once you belong to the correct group,
 select the product(s) you wish to modify, and you should see a new field appear,
-labeled **Control Purchase Bills**.
+labeled **Control Policy**.
 
 .. image:: ./media/manage08.png
   :align: center

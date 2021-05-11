@@ -10,12 +10,6 @@ This introductory guide will help you acquire the tools and knowledge you need t
 documentation, whether you plan to make a minor content change or document an application from
 scratch.
 
-.. note::
-   This tutorial only concerns the `user documentation
-   <https://www.flectrahq.com/documentation/user/index.html>`_ of Flectra. The documentation for `developing
-   in Flectra <https://www.flectrahq.com/documentation/master/index.html>`_ in maintained alongside the
-   source code of Flectra at `github.com/flectra/flectra <https://github.com/flectra/flectra/tree/master/doc>`_.
-
 .. _contributing/rst-intro:
 
 reStructuredText
@@ -48,7 +42,7 @@ Getting started
 ===============
 
 As our documentation is maintained on GitHub, you will need a free GitHub account. Click `here
-<https://github.com/join>`_ to create one.
+<https://gitlab.com/join>`_ to create one.
 
 Now, depending on whether you want to update existing content, or rather work on new content and
 make file changes, you have two courses of action:
@@ -63,7 +57,7 @@ make file changes, you have two courses of action:
 
 .. _contributing/github-interface:
 
-Use the GitHub interface
+Use the GitLab interface
 ========================
 
 #. Verify that you are browsing the documentation in the version that you intend to change. The
@@ -71,10 +65,8 @@ Use the GitHub interface
 
    .. image:: media/version-selector.png
 
-#. Head over to the page that you want to change and click on the **Edit on GitHub** button in the
+#. Head over to the page that you want to change and click on the **Edit on GitLab** button in the
    bottom of the left menu.
-
-   .. image:: media/edit-on-github.png
 
 #. If you do not have edit rights on the repository (`flectra/documentation-user
    <https://github.com/flectra/documentation-user>`_), you need to fork it by clicking on the

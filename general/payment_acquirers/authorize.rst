@@ -100,10 +100,6 @@ reserved for 30 days on the customer's card, but not charged yet.
 To capture the payment, go to the related Sales Order and click on *Capture Transaction*. If the
 order is canceled, you can click on *Void Transaction* to unlock the funds from the customer's card.
 
-.. image:: media/authorize-capture.png
-   :align: center
-   :alt: Hold the credit card payment until you capture or revoke it on Flectra
-
 .. warning::
    After **30 days**, the transaction is **voided automatically** by Authorize.net.
 

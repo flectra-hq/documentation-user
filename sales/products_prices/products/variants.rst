@@ -212,7 +212,7 @@ button to access the list of variant values.
 
 Click on the variant name you wish to add a value to, to make the 3
 fields editable. In the **Attribute Price Extra** field, add the cost of
-the variant that will be added to the original price.
+the variant that will be added to the original price..
 
 .. image:: media/variant06.png
    :align: center

@@ -56,7 +56,7 @@ Quotation* with some storable products to receive from a supplier. Once
 the *RfQ* is confirmed, the receipt picking will be created and
 automatically linked to your purchase order.
 
-.. image:: media/two_steps_04.png
+.. image:: media/one_step_02.png
    :align: center
 
 Now, by clicking on the *1 Receipt* button, you will see the first

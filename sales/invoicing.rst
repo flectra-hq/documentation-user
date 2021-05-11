@@ -10,4 +10,3 @@ Invoicing Method
    invoicing/proforma
    invoicing/milestone
    invoicing/expense
-   invoicing/subscriptions

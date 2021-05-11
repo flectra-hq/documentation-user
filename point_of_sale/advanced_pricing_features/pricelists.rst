@@ -41,6 +41,3 @@ among the different *pricelists* you added before.
 
 .. image:: media/pricelists_04.png
    :align: center
-
-.. seealso::
-   * :doc:`../../sales/products_prices/prices/pricing`
