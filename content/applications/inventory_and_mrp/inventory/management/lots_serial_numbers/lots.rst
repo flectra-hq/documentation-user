@@ -24,7 +24,7 @@ First, you need to activate the tracking of lot numbers. To do so, go to
 :menuselection:`Inventory --> Configuration --> Settings` and tick *Lots & Serial
 Numbers*. Then, click on save.
 
-.. image:: media/lots_01.png
+.. image:: media/serial_numbers_01.png
     :align: center
 
 Product Configuration
@@ -40,8 +40,6 @@ inventory tab.
 .. image:: media/lots_02.png
     :align: center
 
-.. image:: media/lots_03.png
-    :align: center
 
 Manage Lots
 ===========
@@ -118,20 +116,20 @@ To track an item, open the *Inventory* module and, in :menuselection:`Master Dat
 Lots/Serial Numbers`, click on the lot number corresponding to your
 search.
 
-.. image:: media/lots_09.png
+.. image:: media/serial_numbers_12.png
     :align: center
 
 When you open the *Traceability* information, you see in which
 documents the lot number has been used.
 
-.. image:: media/lots_10.png
+.. image:: media/serial_numbers_13.png
     :align: center
 
 Now, if you want to locate the lot number, you can do so by clicking on
 the *Location* stat button.
 
-.. image:: media/lots_11.png
+.. image:: media/serial_numbers_14.png
     :align: center
 
-.. image:: media/lots_12.png
+.. image:: media/serial_numbers_15.png
     :align: center

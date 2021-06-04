@@ -27,8 +27,7 @@ core of its development with its perfect integration with all Flectra apps and w
 <accounting/bank/reconciliation/reconciliation_models>`.
 
 .. seealso::
-   - `Flectra Invoicing: product page <https://www.flectra.com/app/invoicing>`_
-   - `Flectra Accounting: product page <https://www.flectra.com/app/accounting>`_
+   - `Flectra Accounting: product page <https://flectrahq.com/accounting>`_
 
 Double-entry bookkeeping
 ========================

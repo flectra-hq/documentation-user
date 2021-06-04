@@ -17,18 +17,12 @@ Overview
 
 .. _db-upgrade/process:
 
-The upgrade process
--------------------
 
-This documentation is for our *On-Premise* (self-hosted) and *Flectra.sh* customers. If you are hosted
-Online, please check our :ref:`instruction page for our Online (SaaS) customers <upgrade_button>`.
-
-.. _db-upgrade/definition:
 
 Definition
 ~~~~~~~~~~
 
-An upgrade is switching to a newer version of Flectra (e.g., Flectra 13.0 to Flectra2.0)
+An upgrade is switching to a newer version of Flectra (e.g., Flectra 1.0 to Flectra 2.0)
 
 An upgrade does not cover:
 
@@ -103,11 +97,6 @@ The upgrade process varies depending on where your database is hosted.
 
 .. _db-upgrade/online:
 
-Online (SaaS)
--------------
-
-If you are hosted Online, please check our :ref:`instruction page for our Online (SaaS) customers
-<upgrade_button>`.
 
 On-Premise
 ----------

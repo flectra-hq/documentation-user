@@ -43,6 +43,4 @@ For Exim
 
    - `Exim <https://www.exim.org/docs.html>`_
 
-.. tip::
-   If you don't have access/manage your email server, use :ref:`inbound messages
-   <discuss/email_servers/inbound_messages>`.
+

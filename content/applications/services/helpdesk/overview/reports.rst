@@ -44,17 +44,4 @@ customers not only expect fast responses but they also want their issues to be h
    :alt: View of helpdesk ticket analysis of the hours to close by ticket type and team in
          Flectra Helpdesk
 
-Save filters
-~~~~~~~~~~~~
 
-Save the filters you use the most and avoid having to reconstruct them every time they are
-needed. To do so, set the groups, filters, and measures needed. Then, go to *Favorites*.
-
-.. image:: media/favorites.png
-   :align: center
-   :alt: View of helpdesk ticket analysis emphasizing the option to add a filter as a favorite one
-         in Flectra Helpdesk
-
-.. seealso::
-   - :doc:`receiving_tickets`
-   - :doc:`sla`

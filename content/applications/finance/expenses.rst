@@ -7,8 +7,6 @@ Expenses
 **Flectra Expenses** streamlines the management of expenses. Employees can submit their expenses;
 managers can approve them; accountants can record them and process the payments.
 
-.. seealso::
-   - `Flectra Expenses: product page <https://www.flectra.com/app/expenses>`_
 
 How to set expense types
 ========================
@@ -194,40 +192,3 @@ Setup
 .. image:: expenses/expense_invoicing_01.png
   :align: center
 
-Create an order
----------------
-
--  As a salesman, create and confirm a Sales Order for the services
-   delivered to your customer. If you don't put any expense in the
-   order, it will be added automatically once posted by the
-   accountant.
-
--  Link the expense to the Sale Order.
-
-.. image:: expenses/expense_invoicing_02.png
-  :align: center
-
-Submit, validate and post expenses
-----------------------------------
-
--  As a manager, make sure the analytic account is set on every expense
-   line on approving expenses reports. Click the line to add one if
-   missing. Employees are already able to set one when submitting.
-
-.. image:: expenses/expense_invoicing_03.png
-  :align: center
-
--  As an accountant, post journal entries.
-
-Invoice expenses
-----------------
-
-Now you can invoice the order. It shows up in 
-:menuselection:`Sales --> Invoicing --> Sales`
-to Invoice. The expenses have been added automatically in the order
-lines. Such items show up in blue (i.e. to invoice).
-
-.. image:: expenses/expense_invoicing_04.png
-  :align: center
-
-e (i.e. to invoice). 

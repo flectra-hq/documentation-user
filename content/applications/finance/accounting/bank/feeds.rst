@@ -6,5 +6,3 @@ Bank Feeds
    :titlesonly:
 
    feeds/bank_statements
-   feeds/ponto
-   feeds/saltedge

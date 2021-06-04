@@ -119,11 +119,6 @@ If everything is correct, validate the session and post the closing entries.
     :align: center
     :alt: Point of sale sales report before closing the session.
 
-.. tip::
-   To connect the PoS hardware with an Flectra IoT Box, please refer to these
-   docs: :doc:`Connect an IoT Box to your database
-   </applications/productivity/iot/config/connect>` and :doc:`Use the IoT Box for the PoS
-   </applications/productivity/iot/config/pos>`.
 
 View your statistics
 ====================

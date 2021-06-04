@@ -1,17 +1,15 @@
 
 .. _setup/install:
 
-==================
+===================
 Installing Flectra
-==================
+===================
 
 There are multiple ways to install Flectra, or not install it at all, depending
 on the intended use case.
 
 This documents attempts to describe most of the installation options.
 
-:ref:`setup/install/online`
-    The easiest way to use Flectra in production or to try it.
 
 :ref:`setup/install/packaged`
     Suitable for testing Flectra, developing modules and can be used for
@@ -29,22 +27,9 @@ This documents attempts to describe most of the installation options.
 
 .. _setup/install/editions:
 
-Editions
-========
-
-There are two different Editions_ of Flectra: the Community and Enterprise versions.
-Using the Enterprise version is possible on our SaaS_ and accessing the code is
-restricted to Enterprise customers and partners. The Community version is freely
-available to anyone.
-
-If you already use the Community version and wish to upgrade to Enterprise, please
-refer to :ref:`setup/enterprise` (except for :ref:`setup/install/source`).
-
-
-.. _setup/install/online:
 
 Online
-======
+=======
 
 Demo
 ----
