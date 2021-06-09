@@ -46,6 +46,3 @@ its ratings.
    :align: center
    :alt: View of the helpdesk ticket from a user’s portal emphasizing the link to the helpdesk team
          in Flectra Helpdesk
-
-.. seealso::
-   - :doc:`../advanced/close_tickets`

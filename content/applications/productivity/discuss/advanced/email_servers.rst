@@ -17,7 +17,7 @@ Scope of this documentation
 
 This document is **mainly dedicated to Flectra on-premise users** who don't
 benefit from an out-of-the-box solution to send and receive emails in Flectra,
-unlike `Flectra Online <https://www.flectra.com/trial>`__ & `Flectra.sh <https://www.flectra.sh>`__.
+unlike `Flectra Online <https://www.flectrahq.com/trial>`__ & `Flectra.sh <https://www.flectra.sh>`__.
 
 
 .. warning::
@@ -108,8 +108,6 @@ Restriction
 -----------
 Please note that the port 25 is blocked for security reasons. Try using 587, 465 or 2525.
 
-.. _discuss/email_servers/inbound_messages:
-
 How to manage inbound messages
 ==============================
 
@@ -120,19 +118,19 @@ Flectra relies on generic email aliases to fetch incoming messages.
   catchall alias (**catchall@**). 
 
 * **Bounced messages** are routed to **bounce@** in order to track them in Flectra.
-  This is especially used in `Flectra Email Marketing <https://www.flectra.com/page/email-marketing>`__ 
+  This is especially used in `Flectra Email Marketing <https://www.flectrahq.com/page/email-marketing>`__ 
   to opt-out invalid recipients.    
 
 * **Original messages**: Several business objects have their own alias to 
   create new records in Flectra from incoming emails:
 
-  * Sales Channel (to create Leads or Opportunities in `Flectra CRM <https://www.flectra.com/page/crm>`__),
+  * Sales Channel (to create Leads or Opportunities in `Flectra CRM <https://www.flectrahq.com/page/crm>`__),
   
-  * Support Channel (to create Tickets in `Flectra Helpdesk <https://www.flectra.com/page/helpdesk>`__),
+  * Support Channel (to create Tickets in `Flectra Helpdesk <https://www.flectrahq.com/page/helpdesk>`__),
 
-  * Projects (to create new Tasks in `Flectra Project <https://www.flectra.com/page/project-management>`__),
+  * Projects (to create new Tasks in `Flectra Project <https://www.flectrahq.com/page/project-management>`__),
 
-  * Job Positions (to create Applicants in `Flectra Recruitment <https://www.flectra.com/page/recruitment>`__),
+  * Job Positions (to create Applicants in `Flectra Recruitment <https://www.flectrahq.com/page/recruitment>`__),
 
   * etc.
 
@@ -156,56 +154,10 @@ alias in your mail server.
 .. image:: media/incoming_server.png
     :align: center
 
-* If you use Flectra Online or Flectra.sh, We do recommend to redirect incoming messages 
+* If you use Flectra Online, We do recommend to redirect incoming messages 
   to Flectra's domain name rather than exclusively use your own email server. 
   That way you will receive incoming messages without delay. Indeed, Flectra Online is fetching
   incoming messages of external servers once per hour only. 
   You should set redirections for all the email addresses to Flectra's domain name in your 
-  email server (e.g. *catchall@mydomain.ext* to *catchall@mycompany.flectra.com*).
+  email server (e.g. *catchall@mydomain.ext* to *catchall@mycompany.flectrahq.com*).
 
-.. tip:: All the aliases are customizable in Flectra.
-   Object aliases can be edited from their  respective configuration view.
-   To edit catchall and bounce aliases, you first need to activate the
-   :doc:`Developer mode </applications/general/developer_mode>`.
-
- Then go to :menuselection:`Settings --> Technical --> Parameters --> System Parameters`
- to customize the aliases (*mail.catchall.alias* & * mail.bounce.alias*).
-
- .. image:: media/system_parameters.png
-    :align: center
-
-.. note:: By default inbound messages are fetched every 5 minutes in Flectra on-premise.
-   You can change this value in :doc:`Developer mode </applications/general/developer_mode>`.
-   Go to :menuselection:`Settings --> Technical --> Automation -->
-   Scheduled Actions` and look for *Mail: Fetchmail Service*.
-
-.. _Office 365 documentation:
-    https://support.office.com/en-us/article/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-office-365-69f58e99-c550-4274-ad18-c805d654b4c4
-
-Set up different dedicated servers for transactional and mass mails
-===================================================================
-
-Flectra's e-mail server has the capability of sending 200 e-mails per day on Flectra SH Cloud Platform.
-However, if needed, you can use a separate Mail Transfer Agent (MTA) servers for transactional
-e-mails and mass mailings.
-Example: use Flectra's own mail server for transactional e-mails, and Sendgrid, Amazon SES, or Mailgun
-for mass mailings. Another alternative is to use Postmark for transactional e-mails, and Amazon SES
-or Sendgrid for mass mailings.
-
-.. note::
-   A default outgoing email server is already configured. You should not create an alternative one
-   unless you want to use a specific external outgoing email server for technical reasons.
-
-To do this, you should first enable the :doc:`Developer mode
-</applications/general/developer_mode>` and then go to :menuselection:`Settings --> Technical
---> Outgoing` e-mail servers. There you have to create two e-mail MTA server settings. One for
-transactional e-mails and one for mass mail servers. Be sure to mark the priority of transactional
-e-mail servers as low as the mass email servers.
-
-Now, go to :menuselection:`Email Marketing --> Settings` and enable *Dedicated Server*.
-With these settings, Flectra uses the server with the lower priority for transactional emails, and the
-server here selected for mass mails.
-Note that in this case, you have to set your domain's Sender Policy Framework (SPF) records to
-include both transactional and mass mail servers. If your server resides with xxxx.flectra.com, the
-available options are Sendinblue and Mailchimp, as your e-mails would be originated from the
-xxxx.flectra.com domain.

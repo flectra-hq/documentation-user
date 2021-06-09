@@ -47,14 +47,6 @@ Get certified with Flectra
 
 Getting compliant with Flectra is very easy.
 
-Your company is requested by the tax administration to deliver a certificate
-of conformity testifying that your software complies with the anti-fraud 
-legislation. This certificate is granted by Flectra SA to Flectra Enterprise users
-`here <https://www.flectra.com/my/contract/french-certification/>`_.
-If you use Flectra Community, you should
-:doc:`upgrade to Flectra Enterprise </administration/enterprise>`
-or contact your Flectra service provider.
-
 In case of non-conformity, your company risks a fine of €7,500.
 
 To get the certification just follow the following steps:

@@ -85,40 +85,4 @@ which couldn’t be completely processed.
     :alt: How to handle batch transfers with unavailable products. Creation of a backorder inside 
           of a batch transfer
 
-.. image:: media/batch_transfers_10.png
-    :align: center
-    :alt: View of how backorders are handled in Flectra's batch transfers
 
-Process a Batch Transfer from the Barcode app
-=============================================
-
-Enter the *Barcode* application, select the *Batch Transfers* menu.
-
-.. image:: media/batch_transfers_11.png
-    :align: center
-    :alt: View of the Flectra Barcode app dashboard
-
-Then, you can enter the batch transfer on which you want to work. Batch
-transfers can easily be grouped per responsible if necessary.
-
-.. image:: media/batch_transfers_12.png
-    :align: center
-    :alt: View of the batch transfers dashboard inside of the Barcode app
-
-In the batch transfer, products are classified per
-location. The source document is visible on each line and a color-code
-helps differentiate them.
-
-.. image:: media/batch_transfers_13.png
-    :align: center
-    :alt: View of an in progress batch transfer with the Flectra Barcode application
-
-To see the products to pick from another location, click on the *Next*
-button.
-
-.. image:: media/batch_transfers_14.png
-    :align: center
-    :alt: View of a ready and completed batch transfer inside of the Flectra Barcode application
-
-Once all the products have been picked, click on *Validate* (on the
-last page) to mark the batch transfer as done.

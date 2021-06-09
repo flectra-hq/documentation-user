@@ -1,5 +1,4 @@
-
-.. _db_management/documentation:
+:banner: banners/users.png
 
 ==================
 Users and Features
@@ -20,13 +19,10 @@ instances. Before carrying any of these procedures, we **strongly** advise
 to test them on a duplicate of your database first. That way, if something goes
 wrong, your day-to-day business is not impacted. 
 
-.. note:: You can find guides on how to duplicate your databases both for
-    :ref:`online <duplicate_online>` and :ref:`on premise <duplicate_premise>`
-    installations.
 
 .. note:: If you have questions about the content of this page or if you
     encounter an issue while carrying out these procedures, please contact
-    us through our `support form <https://www.flectra.com/help>`__.
+    us through our `support form <https://www.flectrahq.com/help>`__.
 
 
 Deactivating Users
@@ -64,41 +60,6 @@ The user is now deactivated.
 
 .. danger:: **Never** deactivate the main user (*admin*)
 
-Uninstalling Apps
-=================
-
-.. warning:: Make sure you first test what you are about to do on a 
-    :ref:`duplicate <duplicate_online>` of your database before making any
-    changes (*especially* installing/uninstalling apps).
-
-In your Flectra instance click on **Settings**; in this app, you will be
-able to see how many applications you have installed. Click on **Browse
-Apps** to access the list of your installed applications. 
-
-+----------------+----------------+
-|   |settings|   | |browse_apps|  |
-+----------------+----------------+
-
-In your applications' dashboard, you will see all the icons of your
-applications. Click on the application you want to uninstall. Then, on
-the form of the application, click on **Uninstall**.
-
-.. image:: media/uninstall.png
-    :align: center
-
-.. danger:: Some applications have dependencies, like Invoicing, eCommerce,
-    etc. Therefore, the system will give you a warning message to advise
-    you of what is about to be removed. If you uninstall your application,
-    all its dependencies will be uninstalled as well (and the data in them
-    will permanently disappear). If you are sure you still want to uninstall
-    it, then click **Confirm**. 
-
-Last, after having checked the warning message (if any), click **Confirm**.
-
-.. image:: media/uninstall_deps.png
-    :align: center
-
-You have finished uninstalling your application. 
 
 Good to know
 ============

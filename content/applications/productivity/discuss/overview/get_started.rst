@@ -21,9 +21,6 @@ Access your *Preferences* and choose how you would like your notifications to be
   they are shown in the *Inbox*.
 | Messages can then be *Marked as Todo*, *Replied*, or *Marked as Read*.
 
-.. image:: media/inbox_actions.png
-   :align: center
-   :alt: View of an inbox message and its action options in Flectra Discuss
 
 The messages tagged as *Mark as Todo* are also shown in *Starred*, while the ones *Marked as Read*
 are moved to *History*.
@@ -35,11 +32,11 @@ are moved to *History*.
 Start Chatting
 ==============
 
-The first time you log in to your account, OdooBot sends you a message asking for permission to
+The first time you log in to your account, FlectraBot sends you a message asking for permission to
 receive desktop notifications to chats. If accepted, you receive push notifications to the messages
 sent to you despite of where you are in Flectra.
 
-.. image:: media/odoobot_push.png
+.. image:: media/flectrabot_push.png
    :align: center
    :alt: View of the messages under the messaging menu emphasizing the request for push
          notifications for Flectra Discuss
@@ -57,22 +54,6 @@ To start a chat, click on *New Message* on the *Messaging Menu*, or go to *Discu
 
 You can also create :doc:`public and private channels <team_communication>`.
 
-Mentions in the chat and on the Chatter
----------------------------------------
-
-| To mention a user within a chat or the chatter type *@user-name*; to refer to a channel, type
-  *#channel-name*.
-| A notification is sent to the user mentioned either to his *Inbox* or through email, depending
-  on his settings.
-
-.. image:: media/chat_windows.png
-   :align: center
-   :alt: View of a couple of chat window messages for Flectra Discuss
-
-.. tip::
-   When a user is mentioned, the search list (list of names) suggests values first based on the
-   task’s followers, and secondly on *Employees*. If the record being searched does not match with
-   either a follower or employee, the scope of the search becomes all partners.
 
 Chat status
 -----------

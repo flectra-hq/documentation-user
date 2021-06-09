@@ -67,11 +67,6 @@ We thus need to create a **sales order** with a **service** product invoiced
 **based on time and material** and tracked by timesheets with **hours** as unit
 of measures.
 
-.. image:: media/timesheets03.png
-   :align: center
-
-
-
 We save a Sales Order with the service product **External Consulting**. An
 analytical account will automatically be generated once the **Sales Order**
 is confirmed. Our employees will have to point to that account (in this
@@ -88,11 +83,6 @@ As an employee linked to a user, Harry can enter the **Timesheet** app and
 specify his timesheets for the contract. Logged on Harry's account we enter the
 **Timesheet** app and enter a detailed line pointing to the **Analytical
 Account** discussed above.
-
-Harry worked three hours on a SWOT analysis for Smith&Co.
-
-.. image:: media/timesheets01.png
-   :align: center
 
 In the meantime, Cedric discussed businesses needs with the customer for
 1 hour and specified it as well in his personal timesheet, pointing as

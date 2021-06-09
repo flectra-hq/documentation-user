@@ -57,9 +57,6 @@ Credits`; or go to :menuselection:`Settings --> In-App Purchases --> View my Ser
 .. image:: media/LM6.png
    :align: center
 
-.. image:: media/LM7.png
-   :align: center
-
 
 .. tip::
     The blue box will automatically tell you how many credits are going to be consumed.
@@ -67,6 +64,3 @@ Credits`; or go to :menuselection:`Settings --> In-App Purchases --> View my Ser
 .. tip::
    If you are on Flectra Online (SAAS) and have the Enterprise version, you benefit from free trial credits to test the feature.
 
-.. seealso::
-   * :doc:`In-App Purchases (IAP) </applications/general/in_app_purchase/in_app_purchase>`
- 

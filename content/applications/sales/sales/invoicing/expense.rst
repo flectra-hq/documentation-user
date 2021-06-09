@@ -53,13 +53,4 @@ submit.
 
 It can then be submitted to the manager, approved and finally posted.
 
-.. image:: media/expense05.png
-   :align: center
-
-.. image:: media/expense06.png
-   :align: center
-
-.. image:: media/expense07.png
-   :align: center
-
 It will then be in the sales order and ready to be invoiced.

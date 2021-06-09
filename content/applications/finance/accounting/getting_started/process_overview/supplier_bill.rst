@@ -119,25 +119,5 @@ checks at once.
 .. image:: ./media/vendor_bill03.png
    :align: center
 
-Reporting
-=========
-
-Aged payable balance
---------------------
-
-In order to get a list of open vendor bills and their related due dates,
-you can use the **Aged Payable** report, under the reporting menu, (in
-:menuselection:`Reporting --> Business Statement --> Aged payable`) to get a visual of all of
-your outstanding bills.
-
-.. image:: ./media/vendor_bill04.png
-   :align: center
-
-From here, you can click directly on a vendors name to open up the
-details of all outstanding bills and the amounts due, or you can
-annotate any line for managements information. At any point in time
-while you're looking through the report, you can print directly to Excel
-or PDF and get exactly what you see on the screen.
-
 .. seealso::
     * :doc:`customer_invoice`

@@ -13,7 +13,7 @@ and knowledge, supporting the feeling of belonging to a community (your communit
 Set up
 ------
 
-Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Team` and enable *Help Center*.
+Go to :menuselection:`Helpdesk --> Configuration --> Setting` and enable *Helpdesk Forum*.
 
 .. image:: media/help_center_feature.png
    :align: center
@@ -35,11 +35,6 @@ From now on, logged in users can start their discussions. To keep track of posts
    :align: center
    :alt: Overview of the Forums page of a website to show the available ones in Flectra Helpdesk
 
-Turn tickets into forum posts by simply clicking on *Share on the Forum* on the ticket's page.
-
-.. image:: media/share_forum.png
-   :align: center
-   :alt: Overview of the Forums page of a website to show the available ones in Flectra Helpdesk
 
 eLearning
 =========
@@ -51,7 +46,7 @@ answers there.
 Set up
 ------
 
-Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Teams` and enable *eLearning*.
+Go to :menuselection:`Helpdesk --> Configuration --> Setting` and enable *eLearning*.
 
 .. image:: media/elearning_feature.png
    :align: center

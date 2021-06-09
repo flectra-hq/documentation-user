@@ -126,24 +126,6 @@ Tags
 Some accounting reports require **tags** to be set on the relevant accounts. By default, you can
 choose among the tags that are used by the *Cash Flow Statement*.
 
-Account Groups
---------------
-
-**Account Groups** are useful to list multiple accounts as *sub-accounts* of a bigger account and
-thus consolidate reports such as the **Trial Balance**.
-
-To create a new Account Group, open the account you want to configure as sub-account, click on the
-*Group* drop-down selector, select *Create and Edit...*, fill out the form, and save. Next,
-set all the sub-accounts with the right Account Group.
-
-To display your **Trial Balance** report with your Account Groups, go to :menuselection:`Accounting
---> Reporting --> Trial Balance`, then open the *Options* menu and select **Hierarchy and
-Subtotals**.
-
-.. image:: media/chart_of_accounts02.png
-   :align: center
-   :alt: Account Groups in the Trial Balance in Flectra Accounting
-
 Allow Reconciliation
 --------------------
 

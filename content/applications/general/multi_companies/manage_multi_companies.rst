@@ -47,7 +47,7 @@ company only. To do so, on their forms, choose between:
    :alt: View of a product's form emphasizing the company field in Flectra Sales
 
 Employees' access
------------------
+------------------
 
 Once companies are created, manage your employees' :doc:`Access Rights <../flectra_basics/users>`
 for *Multi Companies*.
@@ -77,26 +77,6 @@ under *Settings*, click on *Configure Document Layout*.
 .. image:: media/document_layout.png
    :align: center
    :alt: View of the settings page emphasizing the document layout field in Flectra
-
-Inter-Company Transactions
---------------------------
-
-First, make sure each one of your companies is properly set in relation to:
-
-- :doc:`Chart of Accounts <../../finance/accounting/getting_started/initial_configuration/chart_of_accounts>`
-- :doc:`Taxes <../../finance/accounting/taxation/taxes/default_taxes>`
-- :doc:`Fiscal Positions <../../finance/accounting/taxation/taxes/fiscal_positions>`
-- :doc:`Journals <../../finance/accounting/bank/setup/bank_accounts>`
-- :doc:`Fiscal Localizations <../../finance/accounting/fiscal_localizations/overview/fiscal_localization_packages>`
-
-
-Now, activate the *Inter-Company Transactions* option under *Settings*. With the respective company
-*activated* and *selected*, choose if you would like operations between companies to be synchronized
-at an invoice/bills level or at a sales/purchase orders level.
-
-.. image:: media/inter_company_transactions.png
-   :align: center
-   :alt: View of the settings page emphasizing the inter company transaction field in Flectra
 
 - **Synchronize invoice/bills**: generates a bill/invoice when a company confirms a bill/invoice for
   the selected company.

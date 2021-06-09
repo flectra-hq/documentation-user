@@ -20,8 +20,6 @@ You first have to activate the setting in
 You will be asked to define the Tax Cash Basis Journal.
 
 .. image:: media/cash_basis_taxes01.png
-    :width: 5.04688in
-    :height: 0.79688in
     :align: center
 
 Once this is done, you can configure your taxes in
