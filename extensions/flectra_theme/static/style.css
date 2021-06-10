@@ -2707,8 +2707,10 @@ textarea.form-control-lg {
     pointer-events: none;
     opacity: 0.65; }
 
+  #btn_1:hover{color:black}
+
 .btn-primary {
-  color: #fff;
+  color: rgb(0, 0, 0);
   background-color: #00807D;
   border-color: #00807D; }
   .btn-primary:hover {
@@ -8700,8 +8702,8 @@ aside.o_page_toc {
           margin: -3rem -3rem 3rem;
           padding: 2rem 3rem; } }
       #wrap main.o_index .o_content_fw_banner .btn-primary {
-        background-color: #00A09D;
-        border-color: #00A09D; }
+        background-color: #ffffff;
+        border-color: #ffffff; }
     #wrap main.o_index p, #wrap main.o_index h5, #wrap main.o_index .h5 {
       color: #888888; }
     #wrap main.o_index h5, #wrap main.o_index .h5 {

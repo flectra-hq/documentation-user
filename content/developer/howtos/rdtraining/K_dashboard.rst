@@ -7,7 +7,7 @@ Advanced K: Dashboards
 .. warning::
 
     This tutorial assumes you have completed the :ref:`Core Training <howto/rdtraining>` and have
-    access to Flectra Enterprise features.
+    access to Flectra Professional features.
 
     To follow the exercise, it is recommended that you fetch the branch
     2.0-core from the repository XXX, it
@@ -15,7 +15,7 @@ Advanced K: Dashboards
     as a starting point.
 
 The term "Dashboard" is used in Flectra for objects that display data, but involves different
-implementations. This tutorial will only focus on the Enterprise view that is used to provide
+implementations. This tutorial will only focus on the Professional view that is used to provide
 aggregated data visualization. They can be added as a ``view_mode`` to an existing model (i.e. a
 view you can switch to via the view buttons in the top right of a view), but they are also often
 used as a view for to a special model customized for data visualization. You may hear these
@@ -24,7 +24,7 @@ special views referred to as SQL views.
 It is useful to note there is a "Dashboard" app in Flectra Community. This app allows users to create
 their own customized view of data, but the customization is only visible to each user and can
 only be viewed within the "Dashboard" app. Technically it is possible to make global dashboards
-using this ``board`` module, but it is much easier to do as an Enterprise view. Plus it looks nicer
+using this ``board`` module, but it is much easier to do as an Professional view. Plus it looks nicer
 and has extra features not available in ``board``. Some other dashboards within Flectra also exist,
 but they are custom made and are beyond the scope of this tutorial.
 
@@ -33,18 +33,18 @@ The documentation related to this topic can be found in :ref:`reference/views/da
 File Structure
 ==============
 
-You probably have already guessed that since dashboard views are an Enterprise view, they must have
-a dependency on an Enterprise module. The Enterprise module is ``web_dashboard``. Don't forget to
+You probably have already guessed that since dashboard views are an Professional view, they must have
+a dependency on an Professional module. The Professional module is ``web_dashboard``. Don't forget to
 add it to your manifest file! It is standard to add dashboards intended to be used as a
 ``view_mode`` for one of your module's models (in the ``model`` folder``) to the views directory
 (i.e. the same file that contains the other views for the same model).
 
-It is standard to create a separate Enterprise module to add extra Enterprise views and features to
+It is standard to create a separate Professional module to add extra Professional views and features to
 a Community module. This is done in a similar manner as the module link technique covered within
 :ref:`howto/rdtraining/14_other_module`. The difference is that instead of linking 2 different
 modules, we are extending our `estate` module. We do this by creating a new module and adding both
-the Community module and its necessary Enterprise module dependencies to its manifest. You will
-commonly see "enterprise" in the module's directory name. To keep this tutorial simple, we will
+the Community module and its necessary Professional module dependencies to its manifest. You will
+commonly see "Professional" in the module's directory name. To keep this tutorial simple, we will
 add dashboards to our existing ``estate`` module.
 
 SQL Views have 2 parts: their xml file (don't forget to add it to your manifest file) and their
@@ -97,10 +97,6 @@ Dashboards can display data in different ways, including:
 * using a ``widget``
 * using another ``view`` as a subview
 
-There are many useful statistics and visuals we can provide for our real estate example using
-these options. A full example to reference while doing the exercises in this section is
-`viewable here <https://github.com/flectra/enterprise/blob/6fd3244ae168dc73c348a9c1870796e89d8ef594/crm_enterprise/views/crm_lead_views.xml#L106-L133>`__
-(restricted github repository link).
 
 Data
 ----

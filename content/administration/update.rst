@@ -19,7 +19,7 @@ definitions:
 
 Updating (an Flectra installation)
   Refers to the process of obtaining the latest revision of the source code for
-  your current Flectra Edition. For example, updating your Flectra Enterprise 13.0 to the
+  your current Flectra Edition. For example, updating your Flectra Professional 1.0 to the
   latest revision.
   This does not directly cause any change to the contents of your Flectra database, and
   can be undone by reinstalling the previous revision of the source code.
@@ -64,10 +64,10 @@ Step 1: Download an updated Flectra version
 ===========================================
 
 The central download page is https://www.flectra.com/page/download. If you see a "Buy" link for the
-Flectra Enterprise download, make sure you are logged into Flectra.com with the same login that is
-linked to your Flectra Enterprise subscription.
+Flectra Professional download, make sure you are logged into Flectra.com with the same login that is
+linked to your Flectra Professional subscription.
 
-Alternatively, you can use the unique download link that was included with your Flectra Enterprise
+Alternatively, you can use the unique download link that was included with your Flectra Professional
 purchase confirmation email.
 
 .. note:: Downloading an updated version is not necessary if you installed via Github (see below)
@@ -125,7 +125,7 @@ Source Install (Github)
 -----------------------
 If you have originally installed Flectra with a full Github clone of the official repositories, the
 update procedure requires you to pull the latest source code via git.
-Change into the directory for each repository (the main Flectra repository, and the Enterprise
+Change into the directory for each repository (the main Flectra repository, and the Professional
 repository), and run the following commands::
 
      git fetch

@@ -111,8 +111,8 @@ Here is a simplified module directory:
 Flectra Editions
 ================
 
-Flectra is available in `two versions`_: Flectra Enterprise (licensed & shared sources) and Flectra Community
-(open-source). In addition to services such as support or upgrades, the Enterprise version provides extra
+Flectra is available in `two versions`_: Flectra Professional (licensed & shared sources) and Flectra Community
+(open-source). In addition to services such as support or upgrades, the Professional version provides extra
 functionalities to Flectra. From a technical point-of-view, these functionalities are simply
 new modules installed on top of the modules provided by the Community version.
 

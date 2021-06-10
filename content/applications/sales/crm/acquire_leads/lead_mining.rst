@@ -62,5 +62,5 @@ Credits`; or go to :menuselection:`Settings --> In-App Purchases --> View my Ser
     The blue box will automatically tell you how many credits are going to be consumed.
 
 .. tip::
-   If you are on Flectra Online (SAAS) and have the Enterprise version, you benefit from free trial credits to test the feature.
+   If you are on Flectra Online (SAAS) and have the Professional version, you benefit from free trial credits to test the feature.
 

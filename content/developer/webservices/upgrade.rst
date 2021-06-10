@@ -49,7 +49,7 @@ The ``create`` method
 
     Creates a database upgrade request
 
-    :param str contract: (required) your enterprise contract reference
+    :param str contract: (required) your professional contract reference
     :param str email: (required) your email address
     :param str target: (required) the Flectra version you want to upgrade to. Valid choices: 11.0, 12.0, 13.0
     :param str aim: (required) the purpose of your upgrade database request. Valid choices: test, production.

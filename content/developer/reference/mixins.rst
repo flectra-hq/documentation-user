@@ -854,7 +854,7 @@ You can find concrete examples of integration in the following models:
 
 * ``crm.lead`` in the CRM (*crm*) Application
 * ``hr.applicant`` in the Recruitment Process (*hr_recruitment*) Application
-* ``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Enterprise only) Application
+* ``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Professional only) Application
 
 .. _reference/mixins/website/published:
 
@@ -1072,4 +1072,4 @@ you a quick bird's eye view of your customer ratings.
 You can find concrete examples of integration in the following models:
 
 * ``project.task`` in the Project (*rating_project*) Application
-* ``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Enterprise only) Application
+* ``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Professional only) Application

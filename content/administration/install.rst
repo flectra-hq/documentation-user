@@ -61,15 +61,15 @@ Packaged installers
 
 Flectra provides packaged installers for Windows, deb-based distributions
 (Debian, Ubuntu, …) and RPM-based distributions (Fedora, CentOS, RHEL, …) for
-both the Community and Enterprise versions.
+both the Community and Professional versions.
 
 These packages automatically set up all dependencies (for the Community version),
 but may be difficult to keep up-to-date.
 
 Official Community packages with all relevant dependency requirements are
-available on our nightly_ server. Both Communtiy and Enterprise packages can
+available on our nightly_ server. Both Communtiy and Professional packages can
 be downloaded from our download_ page (you must to be logged in as a paying
-customer or partner to download the Enterprise packages).
+customer or partner to download the Professional packages).
 
 Windows
 -------
@@ -113,13 +113,13 @@ used to install *Flectra Community Edition* by executing the following commands:
 
 You can then use the usual `apt-get upgrade` command to keep your installation up-to-date.
 
-At this moment, there is no nightly repository for the Enterprise Edition.
+At this moment, there is no nightly repository for the Professional Edition.
 
 Deb Package
 ^^^^^^^^^^^
 
 Instead of using the repository as described above, the 'deb' packages for both the *Community* and
-*Enterprise* editions can be downloaded from the `official download page <download_>`_.
+*Professional* editions can be downloaded from the `official download page <download_>`_.
 
 Next, execute the following commands:
 
@@ -177,7 +177,7 @@ RPM package
 ^^^^^^^^^^^
 
 Instead of using the repository as described above, the 'rpm' packages for both the *Community* and
-*Enterprise* editions can be downloaded from the `official download page <download_>`_.
+*Professional* editions can be downloaded from the `official download page <download_>`_.
 
 Once downloaded, the package can be installed using the 'dnf' package manager:
 
@@ -224,10 +224,9 @@ Community Edition:
 * `GitHub repository <community-repository_>`_
 * `Nightly server <nightly_>`_
 
-Enterprise Edition:
+Professional Edition:
 
 * `Official download page <download_>`_
-* `GitHub repository <enterprise-repository_>`_
 
 Git
 ^^^
@@ -371,10 +370,10 @@ Community Edition:
 * `GitHub repository <community-repository_>`_
 * `Nightly server <nightly_>`_
 
-Enterprise Edition:
+Professional Edition:
 
 * `Official download page <download_>`_
-* `GitHub repository <enterprise-repository_>`_
+
 
 Git
 ^^^
@@ -484,7 +483,7 @@ command-line interface of the server. It is located at the root of the Flectra C
 To configure the server, you can either specify :ref:`command-line arguments <reference/cmdline/server>` or a
 :ref:`configuration file <reference/cmdline/config>`.
 
-.. tip:: For the Enterprise edition, you must add the path to the `enterprise` addons to the
+.. tip:: For the Professional edition, you must add the path to the `professional` addons to the
          `addons-path` argument. Note that it must come before the other paths in `addons-path` for
          addons to be loaded correctly.
 
@@ -624,7 +623,7 @@ command-line interface of the server. It is located at the root of the Flectra C
 To configure the server, you can either specify :ref:`command-line arguments <reference/cmdline/server>` or a
 :ref:`configuration file <reference/cmdline/config>`.
 
-.. tip:: For the Enterprise edition, you must add the path to the `enterprise` addons to the
+.. tip:: For the Professional edition, you must add the path to the `professional` addons to the
          `addons-path` argument. Note that it must come before the other paths in `addons-path` for
          addons to be loaded correctly.
 
@@ -678,7 +677,7 @@ official Flectra `docker image <https://registry.hub.docker.com/_/flectra/>`_ pa
 .. _virtualenvwrapper: https://virtualenvwrapper.readthedocs.io/en/latest/
 .. _pywin32: http://sourceforge.net/projects/pywin32/files/pywin32/
 .. _community-repository: https://github.com/flectra/flectra
-.. _enterprise-repository: https://github.com/flectra/enterprise
+.. _enterprise-repository: https://github.com/flectra/professional
 .. _git: https://git-scm.com/
 .. _Editions: https://www.flectra.com/pricing#pricing_table_features
 .. _nightly: https://nightly.flectra.com/

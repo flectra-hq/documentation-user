@@ -18,7 +18,7 @@ Be careful, you can only change the accounting package as long as you have not c
 German Accounting Reports
 =========================
 
-Here is the list of German-specific reports available on Flectra Enterprise:
+Here is the list of German-specific reports available on Flectra Professional:
 
 - Balance Sheet 
 - Profit & Loss
@@ -29,7 +29,7 @@ Export from Flectra to Datev
 ============================
 
 It is possible to export your accounting entries from Flectra to Datev. To be able to use this
-feature, the german accounting localization needs to be installed on your Flectra Enterprise database.
+feature, the german accounting localization needs to be installed on your Flectra Professional database.
 Then you can go in :menuselection:`Accounting --> Reporting --> General Ledger` then click on the
 **Export Datev (csv)** button. 
 

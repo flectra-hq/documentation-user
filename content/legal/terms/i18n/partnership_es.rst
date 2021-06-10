@@ -35,15 +35,15 @@ ODOO y EL COLABORADOR se denominan individualmente “Parte” y conjuntamente �
 1 Objeto
 ========
 El presente contrato tiene por objeto regular las condiciones bajo las cuales ODOO presta servicios
-a EL COLABORADOR, acceso al software Flectra Enterprise Edition, y bajo las cuales EL COLABORADOR
+a EL COLABORADOR, acceso al software Flectra Professional Edition, y bajo las cuales EL COLABORADOR
 cumple con las obligaciones establecidas a continuación.
 
 Por la presente ODOO nombra a EL COLABORADOR, y EL COLABORADOR acepta ser nombrado, socio no
-exclusivo para promover y vender “Flectra Enterprise Edition” a los clientes.
+exclusivo para promover y vender “Flectra Professional Edition” a los clientes.
 
-EL COLABORADOR se compromete a hacer su mejor esfuerzo para vender contratos de Flectra Enterprise a
+EL COLABORADOR se compromete a hacer su mejor esfuerzo para vender contratos de Flectra Professional a
 sus clientes. En apoyo a esta afirmación, EL COLABORADOR dará prioridad a la comercialización
-de la versión “Flectra Enterprise Edition” a clientes potenciales y clientes.
+de la versión “Flectra Professional Edition” a clientes potenciales y clientes.
 EL COLABORADOR siempre tiene la posibilidad de vender servicios con otras versiones del software,
 como “Flectra Community Edition”, en caso de ser necesario.
 
@@ -65,15 +65,15 @@ sin visibilidad como socio oficial hasta que obtengan la experiencia requerida;
 según su experiencia con Flectra.
 
 El nivel de colaboración otorgado a EL COLABORADOR depende de los ingresos anuales de
-Flectra Enterprise generados para ODOO (en términos de Usuarios de Flectra Enterprise vendidos).
+Flectra Professional generados para ODOO (en términos de Usuarios de Flectra Professional vendidos).
 Las renovaciones de los contratos existentes no cuentan para el número de Usuarios vendidos,
 pero EL COLABORADOR sigue recibiendo una comisión por estos
 contratos, tal como se indica en la sección :ref:`benefits_es`..
 
 La tabla siguiente resume los requisitos para cada nivel de colaboración.
 
-La Tasa de Retención se define como la relación entre el número de contratos de Flectra Enterprise que
-están actualmente activos y la cantidad de contratos de Flectra Enterprise que han estado activos en
+La Tasa de Retención se define como la relación entre el número de contratos de Flectra Professional que
+están actualmente activos y la cantidad de contratos de Flectra Professional que han estado activos en
 algún momento en los últimos 12 meses.
 
 Las certificaciones son personales, por lo que cuando un miembro certificado del personal deja
@@ -152,7 +152,7 @@ En el momento de la resolución de este contrato, EL COLABORADOR:
  - no deberá utilizar más los materiales y/o la marca Flectra ni reclamar la existencia de ninguna
    colaboración o relación con ODOO;
  - deberá cumplir con sus obligaciones durante cualquier período de aviso previo a dicha resolución;
- - ya no podrá usar Flectra Enterprise para fines de desarrollo, prueba o producción
+ - ya no podrá usar Flectra Professional para fines de desarrollo, prueba o producción
 
 .. _p_liability_es:
 

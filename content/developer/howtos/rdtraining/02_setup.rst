@@ -92,11 +92,11 @@ All the Flectra sources will be located in `$HOME/src/`
     $ mkdir -p $HOME/src
     $ cd $HOME/src
     $ git clone git@github.com:flectra/flectra.git
-    $ git clone git@github.com:flectra/enterprise.git
+    $ git clone git@github.com:flectra/Professional.git
 
 .. tip:: Cloning the repositories will take a while, enjoy a cup of coffee while you wait.
 
-.. tip:: You may need to ask your manager for read rights to fetch the enterprise repository.
+.. tip:: You may need to ask your manager for read rights to fetch the Professional repository.
 
 .. _howto/rdtraining/02_setup/development_repository:
 
@@ -110,7 +110,7 @@ your code in the fork and submit a
 to the Flectra repository.
 
 If you are lucky enough to work at Flectra, the forks already exist. They are called
-`flectra-dev/flectra` and `flectra-dev/enterprise`.
+`flectra-dev/flectra` and `flectra-dev/Professional`.
 
 .. code-block:: console
 
@@ -119,10 +119,10 @@ If you are lucky enough to work at Flectra, the forks already exist. They are ca
     $ git remote rename origin flectra #change the name of origin (the flectra repository) to flectra
     $ git remote set-url --push flectra no_push #remove the possibility to push to flectra (you can only push to flectra-dev)
 
-    $ cd  $HOME/src/enterprise
-    $ git remote add enterprise-dev git@github.com:flectra-dev/enterprise.git
-    $ git remote rename origin enterprise
-    $ git remote set-url --push enterprise no_push
+    $ cd  $HOME/src/Professional
+    $ git remote add Professional-dev git@github.com:flectra-dev/Professional.git
+    $ git remote rename origin Professional
+    $ git remote set-url --push Professional no_push
 
 
 Useful git commands
@@ -131,7 +131,7 @@ Useful git commands
 Here are some useful git commands for your day-to-day work.
 
 * Change branch:
-  When you change branches, both repositories (flectra and enterprise) must be synchronized, i.e. both
+  When you change branches, both repositories (flectra and Professional) must be synchronized, i.e. both
   need to be in the same branch.
 
   .. code-block:: console
@@ -139,7 +139,7 @@ Here are some useful git commands for your day-to-day work.
     $ cd $HOME/src/flectra
     $ git checkout2.0
 
-    $ cd $HOME/src/enterprise
+    $ cd $HOME/src/Professional
     $ git checkout2.0
 
 * Fetch and rebase:
@@ -150,9 +150,9 @@ Here are some useful git commands for your day-to-day work.
     $ git fetch --all --prune
     $ git rebase --autostash flectra/2.0
 
-    $ cd $HOME/src/enterprise
+    $ cd $HOME/src/Professional
     $ git fetch --all --prune
-    $ git rebase --autostash enterprise/2.0
+    $ git rebase --autostash Professional/2.0
 
 
 Install the dependencies
@@ -253,7 +253,7 @@ Once all dependencies are set up, Flectra can be launched by running flectra-bin
 .. code-block:: console
 
     $ cd $HOME/src/flectra/
-    $ ./flectra-bin --addons-path="addons/,../enterprise/" -d rd-demo
+    $ ./flectra-bin --addons-path="addons/,../Professional/" -d rd-demo
 
 There are multiple :ref:`command-line arguments <reference/cmdline/server>` that you can use to
 configure the server. In this training you will only need some of them.
