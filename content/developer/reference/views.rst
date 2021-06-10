@@ -458,7 +458,7 @@ Cohort
 
 .. raw:: html
 
-   <span class="badge" style="background-color:#AD5E99">Enterprise feature</span>
+   <span class="badge" style="background-color:#AD5E99">Professional feature</span>
 
 The cohort view is used to display and understand the way some data changes over
 a period of time.  For example, imagine that for a given business, clients can
@@ -534,7 +534,7 @@ Dashboard
 
 .. raw:: html
 
-   <span class="badge" style="background-color:#AD5E99">Enterprise feature</span>
+   <span class="badge" style="background-color:#AD5E99">Professional feature</span>
 
 Like pivot and graph view, The dashboard view is used to display aggregate data.
 However, the dashboard can embed sub views, which makes it possible to have a
@@ -946,7 +946,7 @@ Gantt
 
 .. raw:: html
 
-   <span class="badge" style="background-color:#AD5E99">Enterprise feature</span>
+   <span class="badge" style="background-color:#AD5E99">Professional feature</span>
 
 Gantt views appropriately display Gantt charts (for scheduling).
 
@@ -1640,7 +1640,7 @@ Map
 
 .. raw:: html
 
-   <span class="badge" style="background-color:#AD5E99">Enterprise feature</span>
+   <span class="badge" style="background-color:#AD5E99">Professional feature</span>
 
 This view is able to display records on a map and the routes between them. The record are represented by pins. It also allows the visualization of fields from the model in a popup tied to the record's pin.
 

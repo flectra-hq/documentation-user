@@ -1,8 +1,8 @@
-.. _enterprise_agreement_fr:
+.. _Professional_agreement_fr:
 
-==============================================
-Flectra Enterprise Subscription Agreement (FR)
-==============================================
+================================================
+Flectra Professional Subscription Agreement (FR)
+================================================
 
 .. note:: Version 9c - 2020-06-15
 
@@ -17,8 +17,8 @@ Flectra Enterprise Subscription Agreement (FR)
 .. v9c: minor wording changes, tuned User definition, + copyright guarantee (re-application of v8a changes
         on all branches)
 
-En vous abonnant aux services de Flectra Enterprise (les "Services") fournis par Flectra SA et ses filiales
-(collectivement, "Flectra SA") en relation avec Flectra Enterprise Edition ou Flectra Community Edition
+En vous abonnant aux services de Flectra Professional (les "Services") fournis par Flectra SA et ses filiales
+(collectivement, "Flectra SA") en relation avec Flectra Professional Edition ou Flectra Community Edition
 (le "Logiciel"), hébergé sur le plate-formes Cloud d'Flectra SA (la "Plate-forme Cloud") ou sur site
 ("Auto-Hébergement"), vous (le "Client") acceptez d'être lié par les conditions générales suivantes
 (le "Contrat").
@@ -80,7 +80,7 @@ Versions Couvertes
     Couvertes du Logiciel, qui comprennent les 3 plus récentes versions majeures.
 
 
-.. _enterprise_access_fr:
+.. _Professional_access_fr:
 
 3 Accès au Logiciel
 ===================
@@ -90,12 +90,8 @@ La Plate-forme Cloud est hébergée et entièrement gérée par Flectra SA, and 
 En cas d'Auto-Hébergement, le Client héberge lui-même le Logiciel sur un système informatique de
 son choix, hors du contrôle d'Flectra SA.
 
-Pour toute la durée du présent Contrat, Flectra SA octroie au Client une licence non exclusive,
-non transférable d'utilisation (exécution, modification, exécution après modification) du logiciel
-Flectra Enterprise Edition, conformément aux conditions énoncées à la section :ref:`appendix_a_fr`.
-
 Le Client accepte de prendre toutes les mesures nécessaires pour garantir l'exécution sans aucune
-modification de la partie du Logiciel qui vérifie la validité de l'utilisation d'Flectra Enterprise
+modification de la partie du Logiciel qui vérifie la validité de l'utilisation d'Flectra Professional
 Edition et recueille des statistiques à cet effet, y compris mais sans s'y limiter, l'exécution
 du Logiciel, le nombre d'Utilisateurs, les Apps installées et le nombre de lignes de code des
 Modules Supplémentaires Couverts.
@@ -106,7 +102,7 @@ respectant sa politique officielle de confidentialité, telle que publiée sur
 https://www.flectra.com/privacy.
 
 À l'expiration ou la résiliation de ce Contrat, cette licence est immédiatement révoquée et le
-Client accepte de cesser toute utilisation du logiciel Flectra Enterprise Edition et de la Plate-forme
+Client accepte de cesser toute utilisation du logiciel Flectra Professional Edition et de la Plate-forme
 Cloud.
 
 Si le Client devait enfreindre les dispositions de la présente section, il accepte de payer
@@ -286,7 +282,7 @@ la Plate-forme Cloud d'Flectra.
 5.1 Tarifs standards
 --------------------
 
-Les tarifs standards pour le contrat d'abonnement à Flectra Enterprise et les Services sont basés sur le nombre
+Les tarifs standards pour le contrat d'abonnement à Flectra Professional et les Services sont basés sur le nombre
 d'Utilisateurs et les Apps installées, et précisés par écrit à la conclusion du contrat.
 
 Pendant la durée du contrat, si le Client a plus d'Utilisateurs ou d'Apps que spécifié au moment
@@ -346,8 +342,8 @@ Le Client accepte de / d':
   les nombres spécifiés à la conclusion du Contrat, et dans ce cas, de régler les frais
   supplémentaires applicables telles que décrits à la section :ref:`charges_standard_fr`;
 - Prendre toutes les mesures nécessaires pour garantir l'exécution non modifiée de la partie du
-  Logiciel qui vérifie la validité de l'utilisation de Flectra Enterprise Edition, comme décrit à la
-  section :ref:`enterprise_access_fr`;
+  Logiciel qui vérifie la validité de l'utilisation de Flectra Professional Edition, comme décrit à la
+  section :ref:`Professional_access_fr`;
 - Désigner 1 personne de contact représentant le Client pour toute la durée du contrat ;
 - Signaler par écrit à Flectra SA avec un préavis de 30 jours en cas de changement de point de contact
   principal, pour collaborer avec un autre Partenaire Flectra, ou directement avec Flectra SA.
@@ -358,12 +354,12 @@ Lorsque le Client choisit d'utiliser la Plate-forme Cloud, il accepte aussi de:
   en choisissant un mot de passe sûr et en ne le partageant avec personne;
 - Faire une utilisation raisonnable des Services d'Hébergement, à l'exclusion de toute activité
   illégale ou abusive, et de respecter strictement les règles indiquées dans la Politique
-  d'Utilisation Acceptable: https://www.flectra.com/acceptable-use.
+  d'Utilisation Acceptable: https://www.flectrahq.com/acceptable-use.
 
 Lorsque le Client choisit l'Auto-Hébergement, il accepte aussi de:
 
 - Fournir tout accès nécessaire à Flectra SA pour vérifier la validité de l'utilisation d'Flectra
-  Enterprise Edition sur demande (par exemple, si la validation automatique ne fonctionne pas pour
+  Professional Edition sur demande (par exemple, si la validation automatique ne fonctionne pas pour
   le Client) ;
 - Prendre toutes les mesures raisonnables pour protéger les fichiers et les bases de données
   du Client et s'assurer que les données du Client sont en sûreté et sécurisées, en reconnaissant
@@ -612,27 +608,12 @@ du présent contrat par une disposition valable ayant les mêmes effets et objec
 
 .. _appendix_a_fr:
 
-9 Appendice A: Flectra Enterprise Edition License
-=================================================
 
-Flectra Enterprise Edition est publié sous la licence Flectra Enterprise Edition License v1.0,
-définie ci-dessous.
-
-
-.. raw:: html
-
-    <tt>
-
-.. raw:: latex
-
-    {\tt
-
-
-Flectra Enterprise Edition License v1.0
+Flectra Professional Edition License v1.0
 
 Ce logiciel et les fichiers associés (le "Logiciel") ne peuvent être utilisés
 (c'est-à-dire exécutés, modifiés, ou exécutés avec des modifications) qu'avec
-un contrat Flectra Enterprise Subscription en ordre de validité, et pour le nombre
+un contrat Flectra Professional Subscription en ordre de validité, et pour le nombre
 d'utilisateurs prévus dans ce contrat.
 
 Un contrat de Partnariat avec Flectra S.A. en ordre de validité donne les mêmes
@@ -641,12 +622,12 @@ environnement de test ou de développement.
 
 Vous êtes autorisé à développer des modules Flectra basés sur le Logiciel et
 à les distribuer sous la license de votre choix, pour autant que cette licence
-soit compatible avec les conditions de la licence Flectra Enterprise Edition Licence
+soit compatible avec les conditions de la licence Flectra Professional Edition Licence
 (Par exemple: LGPL, MIT ou d'autres licenses propriétaires similaires à celle-ci).
 
 Vous êtes autorisé à utiliser des modules Flectra publiés sous n'importe quelle
 licence, pour autant que leur licence soit compatible avec les conditions
-de la licence Flectra Enterprise Edition License (Notamment tous les
+de la licence Flectra Professional Edition License (Notamment tous les
 modules publiés sur l'Flectra Apps Store sur flectra.com/apps).
 
 Il est interdit de publier, distribuer, accorder des sous-licences, ou vendre

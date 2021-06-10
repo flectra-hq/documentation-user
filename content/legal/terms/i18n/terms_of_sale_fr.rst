@@ -9,7 +9,7 @@ Conditions Générales de Vente
 Ces conditions régissent la vente de produits et services entre
 Flectra S.A. et ses filiales (collectivement, "Flectra S.A.") et le client.
 Des conditions supplémentaires peuvent s'appliquer pour d'autres services
-offerts par Flectra S.A. (par exemple, l'Flectra Enterprise Subscription Agreement).
+offerts par Flectra S.A. (par exemple, l'Flectra Professional Subscription Agreement).
 Si ces conditions supplémentaires entrent en contradiction avec les Conditions
 Générales de Vente, les conditions supplémentaires prévaudront.
 

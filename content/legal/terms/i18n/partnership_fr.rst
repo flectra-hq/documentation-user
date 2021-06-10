@@ -34,15 +34,15 @@ le terme « les Parties ».
 1 Objectif
 ==========
 L’objectif de ce Contrat est de présenter les conditions auxquelles ODOO fournit des services au
-PARTENAIRE et l’accès au logiciel Flectra Enterprise Edition, et en vertu desquelles le PARTENAIRE
+PARTENAIRE et l’accès au logiciel Flectra Professional Edition, et en vertu desquelles le PARTENAIRE
 se plie aux obligations énoncées ci-après.
 
 Par le présent accord, ODOO désigne le PARTENAIRE, désignation acceptée par le PARTENAIRE,
-comme partenaire non exclusif pour promouvoir et vendre « Flectra Enterprise Edition » à des clients.
+comme partenaire non exclusif pour promouvoir et vendre « Flectra Professional Edition » à des clients.
 
-Le PARTENAIRE s’engage à faire tous les efforts possibles pour vendre des contrats Flectra Enterprise
+Le PARTENAIRE s’engage à faire tous les efforts possibles pour vendre des contrats Flectra Professional
 à ses clients. Pour étayer ces efforts, le PARTENAIRE commercialisera en priorité la version
-« Flectra Enterprise Edition » aux prospects et clients. Si nécessaire, le PARTENAIRE peut vendre des
+« Flectra Professional Edition » aux prospects et clients. Si nécessaire, le PARTENAIRE peut vendre des
 services sur d’autres versions du logiciel, comme « Flectra Community Edition ».
 
 2 Durée du Contrat
@@ -62,8 +62,8 @@ mise en oeuvre d'Flectra, mais sans la visibilité d'un partenaire officiel, en 
 l'expérience requise; tandis qu' "Official Partners" est prévu pour les sociétés qui veulent la visibilité
 en tant que partenaire Ready, Silver ou Gold, suivant leur niveau d'expérience.
 
-Le niveau de partenariat accordé au PARTENAIRE dépend des nouvelles recettes annuelles Flectra Enterprise
-générées par le PARTENAIRE pour ODOO (en terme du nombre de nouveaux utilisateur Flectra Enterprise vendus),
+Le niveau de partenariat accordé au PARTENAIRE dépend des nouvelles recettes annuelles Flectra Professional
+générées par le PARTENAIRE pour ODOO (en terme du nombre de nouveaux utilisateur Flectra Professional vendus),
 du nombre de ressources internes certifiées, et du taux de rétention de clients.
 Les renouvellements de contrats existants
 n’entrent pas en ligne de compte pour le nombre de nouveaux utilisateurs vendus, mais le PARTENAIRE
@@ -71,8 +71,8 @@ reçoit tout de même une commission sur ces contrats, comme indiqué dans la se
 
 Le tableau ci-dessous résume les exigences pour chaque niveau de partenariat.
 
-Le Taux de Rétention est défini comme le rapport entre le nombre de contrats Flectra Enterprise qui sont
-toujours en cours, et le nombre de contrats Flectra Enterprise qui ont été actifs à un moment au cours
+Le Taux de Rétention est défini comme le rapport entre le nombre de contrats Flectra Professional qui sont
+toujours en cours, et le nombre de contrats Flectra Professional qui ont été actifs à un moment au cours
 des 12 derniers mois.
 
 Les certifications sont personnelles, donc lorsqu’un membre du personnel quitte ou rejoint l’entreprise,
@@ -150,7 +150,7 @@ PARTENAIRE.
 
 
 .. [#pcom_fr1] “Collaborer avec un Partenaire Flectra” et “Modules Supplémentaires Couverts” sont
-   définis dans le contrat "Flectra Enterprise Subscription Agreement" entre ODOO et le client.
+   définis dans le contrat "Flectra Professional Subscription Agreement" entre ODOO et le client.
 
 
 5 Frais
@@ -174,7 +174,7 @@ d’un tel manquement, la Partie non fautive peut mettre un terme immédiat à c
  - n’utilisera plus le matériel et le nom de marque d’Flectra et ses marques déposées, et ne revendiquera plus l’existence
    d’un partenariat ou d’une relation quelconque avec ODOO ;
  - respectera ses engagements pendant toute période de préavis précédant une telle résiliation ;
- - ne pourra plus utiliser Flectra Enterprise, que ce soit à des fins de développement,
+ - ne pourra plus utiliser Flectra Professional, que ce soit à des fins de développement,
    de test ou de production.
 
 .. _p_liability_fr:

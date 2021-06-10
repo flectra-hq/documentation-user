@@ -156,7 +156,7 @@ The credits are consumed per each document that is sent to the OSE.
 What do you need to do?
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-- In Flectra, once your enterprise contract is activated and you start working in Production, you 
+- In Flectra, once your Professional contract is activated and you start working in Production, you 
   need to buy credits once the first 1000 are consumed.
 - As Digiflow is the OSE used in the IAP, you need to affiliate it as the official OSE for your 
   company on the SUNAT website. This is a simple process. For more information, please check

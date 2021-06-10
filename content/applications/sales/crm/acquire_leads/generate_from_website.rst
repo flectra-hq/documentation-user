@@ -41,7 +41,7 @@ Configuration
 =============
 
 You will need to install the free *Form Builder* module, only
-available in Flectra Enterprise.
+available in Flectra Professional.
 
 .. image:: media/generate_from_website05.png
    :align: center

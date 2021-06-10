@@ -12,7 +12,7 @@ Below you can find videos with a general description of the localization, and ho
 Introduction
 ============
 
-Flectra Enterprise users in Mexico have free access to a set of modules that allow them to issue
+Flectra Professional users in Mexico have free access to a set of modules that allow them to issue
 electronic invoices according to the specifications of the SAT for `version 3.3 of the CFDI
 <http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/GuiaAnexo20Global.pdf>`_,
 a legal requirement as of January 1, 2018. These modules also add relevant accounting reports (for

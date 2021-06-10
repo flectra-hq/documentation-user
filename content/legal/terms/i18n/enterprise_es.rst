@@ -1,14 +1,14 @@
 
-.. _enterprise_agreement_es:
+.. _Professional_agreement_es:
 
-==============================================
-Flectra Enterprise Subscription Agreement (ES)
-==============================================
+================================================
+Flectra Professional Subscription Agreement (ES)
+================================================
 
 .. note:: Version 8.0 - 2018-05-22
 
-Al suscribirse a los servicios de Flectra Enterprise proporcionados por
-Flectra SA y sus afiliados (colectivamente “Flectra SA”) en relación a Flectra Enterprise
+Al suscribirse a los servicios de Flectra Professional proporcionados por
+Flectra SA y sus afiliados (colectivamente “Flectra SA”) en relación a Flectra Professional
 Edition u Flectra Community Edition, alojados en las plataformas *Cloud
 Hosting* (la nube de Flectra) o en las instalaciones *On Premise*
 ("Self-Hosting"), usted (el "Cliente") acepta regirse por lo siguientes términos y condiciones:
@@ -60,7 +60,7 @@ Versiones Cubiertas
     del software en el momento que se acuerda este contrato. De no ser el caso, se pueden realizar
     cargos adicionales, como se describe en el apartado número :ref:`charges_es`
 
-    .. _enterprise_access_es:
+    .. _Professional_access_es:
 
 3 Acceso al Software
 ====================
@@ -72,14 +72,10 @@ remota por el cliente. Con la opción de self/hosting o alojado en servidores pr
 en su lugar aloja el software en sistemas informáticos de su elección, que no están bajo el control
 de Flectra SA.
 
-Durante la vigencia de este Acuerdo, Flectra SA otorga al Cliente una
-licencia no exclusiva e intransferible para usar (ejecutar, modificar, ejecutar después de la
-modificación) las opciones adquiridas del software, según los términos establecidos en el
-:ref:`appendix_a_es`.
 
 El Cliente acuerda tomar todas las medidas necesarias para garantizar la ejecución y verificación
 de la parte del Software que se encuentra instalada o descargada tanto la verificación del uso de
-Flectra Enterprise Edition, incluyendo pero no limitado a la ejecución de su instancia, el número de
+Flectra Professional Edition, incluyendo pero no limitado a la ejecución de su instancia, el número de
 usuarios activos/instalados y las aplicaciones instaladas.
 
 Flectra SA se compromete a no divulgar figuras individuales o nombradas a terceros sin el
@@ -88,7 +84,7 @@ Política de Privacidad oficial, publicado en `Flectra Privacy <https://www.flec
 
 Al vencimiento o terminación de este Acuerdo, esta licencia se revoca
 inmediatamente y el cliente acepta dejar de usar el software Flectra
-Enterprise Edition y la plataforma en la nube.
+Professional Edition y la plataforma en la nube.
 
 En caso de que el Cliente incumpla los términos de esta sección, el
 Cliente acepta pagar a Flectra SA una tarifa adicional igual a 300% del
@@ -268,7 +264,7 @@ Flectra SA.
 5.1 Cargos estándares
 ---------------------
 
-Los cargos estándares para la suscripción de Flectra Enterprise y los
+Los cargos estándares para la suscripción de Flectra Professional y los
 Servicios se basan en el número de Usuarios y las Aplicaciones
 instaladas, en la versión de software utilizada por el cliente.
 
@@ -345,7 +341,7 @@ El Cliente se compromete a:
 
 - Tomar todas las medidas necesarias para garantizar la ejecución no
   modificada de la parte del Software que verifica la validez del uso
-  de Flectra Enterprise Edition, como se describe en la sección :ref:`enterprise_access_es`;
+  de Flectra Professional Edition, como se describe en la sección :ref:`Professional_access_es`;
 
 - Designar a 1 persona de contacto dedicada del Cliente durante toda la duración del Acuerdo;
 
@@ -367,7 +363,7 @@ Tomar todas las medidas razonables para proteger los archivos y las
 bases de datos del Cliente y para garantizar que los datos del Cliente sean seguros y estén
 protegidos, reconociendo que Flectra SA no se hace responsable de ninguna pérdida de datos
 
-Otorgar a Flectra SA el acceso necesario para verificar la validez de la Edición Enterprise de Flectra
+Otorgar a Flectra SA el acceso necesario para verificar la validez de la Edición Professional de Flectra
 uso a solicitud (por ejemplo, si la validación automática no es válida para el Cliente);
 
 6.2 No solicitar o contratar
@@ -616,13 +612,3 @@ objetivos.
 
 .. _appendix_a_es:
 
-9 Apéndice A: Licencia de Flectra Enterprise Edition
-====================================================
-
-.. only:: latex
-
-   Flectra Enterprise Edition tiene licencia de Flectra Enterprise Edition License v1.0, definido como sigue:
-
-    .. highlight:: none
-
-    .. literalinclude:: ../../licenses/enterprise_license.txt

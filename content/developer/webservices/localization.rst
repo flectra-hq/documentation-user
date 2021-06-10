@@ -415,7 +415,7 @@ How to create a new dynamic report?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you need to add some reports on your localization, you need to create a new module named **l10n_xx_reports**.
-Furthermore, this additional module must be present in the ``enterprise`` repository and must have at least two dependencies,
+Furthermore, this additional module must be present in the ``professional`` repository and must have at least two dependencies,
 one to bring all the stuff for your localization module and one more, ``account_reports``, to design dynamic reports.
 
 .. code-block:: py

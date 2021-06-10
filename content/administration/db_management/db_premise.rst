@@ -29,7 +29,7 @@ message:
 Solutions
 '''''''''
 
-* Do you have a valid Enterprise subscription?
+* Do you have a valid Professional subscription?
 
   * Check if your subscription details get the tag "In Progress" on
     your `Flectra Account
@@ -94,7 +94,7 @@ Error message due to too many users
 -----------------------------------
 
 If you have more users in your local database than provisionned in your
-Flectra Enterprise subscription, you may encounter this message:
+Flectra Professional subscription, you may encounter this message:
 
 .. image:: media/add_more_users.png
     :align: center

@@ -1,9 +1,9 @@
 
-.. _enterprise_agreement_de:
+.. _Professional_agreement_de:
 
-==============================================
-Flectra Enterprise Subscription Agreement (DE)
-==============================================
+================================================
+Flectra Professional Subscription Agreement (DE)
+================================================
 
 
 .. v6: add "App" definition + update pricing per-App
@@ -58,17 +58,13 @@ Abgedeckte Versionen
     die unter :ref:`charges_de` beschrieben werden.
 
 
-.. _enterprise_access_de:
+.. _Professional_access_de:
 
-3. Zugriff auf die Flectra Enterprise Edition
-=============================================
-
-Für die Laufzeit dieser Vereinbarung gewährt Flectra SA dem Kunden eine nicht-ausschließliche,
-nicht übertragbare Nutzungslizenz (Ausführung, Änderung, Ausführung nach Änderung)
-der Flectra Enterprise Edition-Software unter den in :ref:`appendix_a_de` festgelegten Bedingungen.
+3. Zugriff auf die Flectra Professional Edition
+===============================================
 
 Der Kunde erklärt, alle notwendigen Maßnahmen zu ergreifen, um die unveränderte Ausführung des
-Teils der Software zu gewährleisten, mit dem die gültige Nutzung der Flectra Enterprise Edition
+Teils der Software zu gewährleisten, mit dem die gültige Nutzung der Flectra Professional Edition
 überprüft wird und die zu diesem Zweck Statistiken sammelt, einschließlich unter anderem
 die Ausführung einer Instanz, die Anzahl der Benutzer und die installierten Apps.
 
@@ -77,7 +73,7 @@ an Dritte weiterzugeben und alle gesammelten Daten gemäß seiner offiziellen Da
 zu behandeln, die unter https://www.flectra.com/privacy veröffentlicht ist.
 
 Nach Ablauf oder Kündigung dieser Vereinbarung wird diese Lizenz sofort widerrufen und der Kunde
-ist verpflichtet, die Nutzung der Flectra Enterprise Edition-Software einzustellen.
+ist verpflichtet, die Nutzung der Flectra Professional Edition-Software einzustellen.
 
 Sollte der Kunde gegen die Bestimmungen dieses Abschnitts verstoßen, so ist er verpflichtet,
 Flectra SA eine zusätzliche Gebühr in Höhe von 300 % des geltenden Listenpreises für
@@ -194,7 +190,7 @@ mit der aktualisierten Datenbank erhalten.
 5.1 Standardgebühren
 --------------------
 
-Die Standardgebühren für das Flectra Enterprise Abonnement, die Fehlerbehebung,
+Die Standardgebühren für das Flectra Professional Abonnement, die Fehlerbehebung,
 die Sicherheitsmitteilungen und die Upgrades basieren auf der Anzahl der Benutzer, den
 installierten Apps, der vom Kunden verwendeten Softwareversion und werden bei Unterzeichnung
 der Vereinbarung schriftlich festgehalten.
@@ -265,10 +261,10 @@ Der Kunde stimmt folgenden Klauseln zu:
   sollten. In diesem Falle wird er die geltende zusätzliche Gebühr gemäß dem Abschnitt
   :ref:`charges_standard_de` entrichten;
 - er wird alle notwendigen Maßnahmen zu ergreifen, um die unveränderte Ausführung des Teils der
-  Software zu gewährleisten, mit dem die gültige Nutzung der Flectra Enterprise Edition überprüft,
-  wie sie in :ref:`enterprise_access_de` beschrieben wird;
+  Software zu gewährleisten, mit dem die gültige Nutzung der Flectra Professional Edition überprüft,
+  wie sie in :ref:`Professional_access_de` beschrieben wird;
 - er wird Flectra SA den notwendigen Zugang einräumen, um die Gültigkeit der Nutzung der Flectra
-  Enterprise Edition auf Anfrage zu prüfen (z. B. wenn die automatische Validierung für den Kunden
+  Professional Edition auf Anfrage zu prüfen (z. B. wenn die automatische Validierung für den Kunden
   nicht funktioniert);
 - er wird 1 speziellen Ansprechpartner des Kunden für die gesamte Laufzeit der Vereinbarung
   ernennen;
@@ -452,17 +448,7 @@ Bestimmung möglichst mit gleichen Wirkungen und Zielen zu ersetzen.
 
 .. _appendix_a_de:
 
-9. Anhang A: Flectra Enterprise Edition-Lizenz
-==============================================
 
-.. only:: latex
-
-    Die Flectra Enterprise Edition ist unter nachstehend definierten der Flectra Enterprise Edition
-    Lizenz v1.0 lizenziert:
-
-    .. highlight:: none
-
-    .. literalinclude:: ../../licenses/enterprise_license.txt
 
 
 

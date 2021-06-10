@@ -9,7 +9,7 @@ General Terms of Sale
 These General Terms of Sale govern the sale of products and services by
 Flectra S.A. and its affiliates (collectively, "Flectra S.A.") to the client.
 Additional terms may apply for services provided by Flectra S.A. (for example, the
-Enterprise Subscription Agreement). If these additional terms are inconsistent
+Professional Subscription Agreement). If these additional terms are inconsistent
 with the General Terms of Sale, the additional terms will prevail over these
 General Terms of Sale.
 

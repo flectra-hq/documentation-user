@@ -28,14 +28,14 @@ ODOO and PARTNER are individually referred to as a "Party" and collectively refe
 1 Purpose
 =========
 The purpose of this agreement is to set forth the conditions under which ODOO provides services to
-PARTNER, access to the Flectra Enterprise Edition software, and under which PARTNER complies with the
+PARTNER, access to the Flectra Professional Edition software, and under which PARTNER complies with the
 obligations set out hereafter.
 
 ODOO hereby appoints PARTNER, and PARTNER hereby accepts the appointment, to be a non-exclusive partner
-promoting and selling "Flectra Enterprise Edition" to customers.
+promoting and selling "Flectra Professional Edition" to customers.
 
-PARTNER commits to doing its best effort to sell Flectra Enterprise contracts to its clients.
-To support that, PARTNER will market in priority the "Flectra Enterprise Edition" version to prospects
+PARTNER commits to doing its best effort to sell Flectra Professional contracts to its clients.
+To support that, PARTNER will market in priority the "Flectra Professional Edition" version to prospects
 and customers. PARTNER still has the option to sell services on other versions of the software,
 like "Flectra Community Edition", should it be needed.
 
@@ -56,16 +56,16 @@ without visibility as an official partner until they get the required experience
 “Official Partners” is for companies who want the visibility as Ready, Silver, and Gold,
 according to their experience with Flectra.
 
-Partnership level granted to PARTNER depends on the annual new Flectra Enterprise revenue generated
-for ODOO (in terms of Flectra Enterprise Users sold), the number of certified resources and the customer
+Partnership level granted to PARTNER depends on the annual new Flectra Professional revenue generated
+for ODOO (in terms of Flectra Professional Users sold), the number of certified resources and the customer
 Retention Rate.
 Renewals of existing contracts do not count towards the number of Users Sold, but PARTNER
 still gets a commission on these contracts as stated in section :ref:`benefits`.
 
 The table below summarizes the requirements that have to be met for each partnership level.
 
-The Retention Rate is defined as the ratio between the number of Flectra Enterprise contracts that
-are currently active, and the number of Flectra Enterprise contracts that have been active at some point
+The Retention Rate is defined as the ratio between the number of Flectra Professional contracts that
+are currently active, and the number of Flectra Professional contracts that have been active at some point
 in the last 12 months
 
 Certifications are personal, so when a certified staff member leaves or joins the company,
@@ -172,7 +172,7 @@ PARTNER shall only receive the commission for the Maintenance of Covered Extra M
 as long as the customer does not notify ODOO that they want to stop Working with PARTNER.
 
 .. [#pcom1] “Working with an Flectra Partner” and “Covered Extra Modules” are defined in the Flectra
-   Enterprise Subscription Agreement between ODOO and customers.
+   Professional Subscription Agreement between ODOO and customers.
 
 5 Fees
 ======
@@ -196,7 +196,7 @@ On expiry or termination of this Agreement, PARTNER:
  - shall not use anymore the materials and the Flectra brand name, trademarks and logos or claim
    the existence of any partnership or relationship with ODOO ;
  - shall comply with its obligations during any notice period prior to such termination ;
- - may not use Flectra Enterprise anymore, for development, test or production purpose
+ - may not use Flectra Professional anymore, for development, test or production purpose
 
 .. _p_liability:
 

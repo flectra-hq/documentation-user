@@ -53,16 +53,7 @@ Available manifest fields are:
     distribution license for the module.
     Possible values:
 
-    * `GPL-2`
-    * `GPL-2 or any later version`
-    * `GPL-3`
-    * `GPL-3 or any later version`
-    * `AGPL-3`
-    * `LGPL-3`
-    * `Other OSI approved licence`
-    * `OEEL-1` (Flectra Enterprise Edition License v1.0)
-    * `OPL-1` (Flectra Proprietary License v1.0)
-    * `Other proprietary`
+    * `FPEL-1` (Flectra Professional Edition License v1.0)
 
 ``category`` (``str``, default: ``Uncategorized``)
     classification category within Flectra, rough business domain for the module.

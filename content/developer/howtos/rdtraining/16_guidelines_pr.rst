@@ -34,7 +34,7 @@ Configure development repository
 --------------------------------
 
 We will start by creating a git development environment for the 'custom' folder, like we did in the
-beginning for 'flectra' and 'enterprise'. The PR will target the `flectra/technical-training-sandbox` repository.
+beginning for 'flectra' and 'Professional'. The PR will target the `flectra/technical-training-sandbox` repository.
 
 To do this the first step is to
 `fork <https://guides.github.com/activities/forking/>`__  in GitHub
@@ -58,7 +58,7 @@ folder to be able to commit your work.
 
 Note that if your work is already in a :ref:`Git and GitHub configured folder <howto/rdtraining/02_setup/development_repository>`
 the previous steps are not needed. This is the case when you start working in the
-'flectra' or 'enterprise' folders.
+'flectra' or 'Professional' folders.
 
 Branch, Commit & Push
 ---------------------
@@ -139,21 +139,6 @@ commits you can just copy/paste your commit messages as the PR message.
 
 .. image:: 16_guidelines_pr/media/pr_message.png
 
-Additional Info for Flectra Staff
-=================================
-
-Now that you know the basics, here are some more useful pages if you haven't seen them already:
-
-- Our `welcome <https://github.com/flectra/enterprise/wiki/Welcome>`__ page has extra info about
-  working at Flectra as well as additional
-  `tutorials <https://github.com/flectra/enterprise/wiki/Welcome#3-technical-training>`__ that are
-  both language and Flectra specific.
-- Once you are ready to start doing tasks, it is important to note that Flectra follows a
-  `rebasing workflow instead of merging <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>`__
-  for your PRs.
-  `This cheatsheet <https://github.com/flectra/enterprise/wiki/GIT-Cheatsheet#pull-request-flow>`__ describes
-  how to do this flow. If you want to become more of a rebasing master, then
-  `this tutorial <https://www.atlassian.com/git/tutorials/rewriting-history>`__ is extra useful.
 
 Test on the runbot
 ==================

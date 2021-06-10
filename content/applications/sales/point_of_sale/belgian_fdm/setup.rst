@@ -10,7 +10,7 @@ government-certified device called a **Fiscal Data Module** (also
 known as a **blackbox**). This device works together with the POS
 application and logs certain transactions. On top of that, the used
 POS application must also be certified by the government and must
-adhere to strict standards specified by them. `Flectra 9 (Enterprise Edition) is a
+adhere to strict standards specified by them. `Flectra 9 (Professional Edition) is a
 certified application
 <http://www.systemedecaisseenregistreuse.be/systemes-certifies>`_. More
 information concerning the Fiscal Data Module can be found on `the
@@ -73,7 +73,7 @@ SaaS instance. The usage of the module from the source or a modified version
 will **not** be certified. For on-premise users, we also support the Fiscal Data
 Module in such installations. The main restriction is that this requires an
 obfuscated version of the ``pos_blackbox_be`` module we will provide on request
-for Enterprise customers.
+for Professional customers.
 
 Restrictions
 ============

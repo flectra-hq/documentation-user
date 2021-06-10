@@ -59,8 +59,8 @@ The upgrade process in a nutshell:
 Service Level Agreement
 -----------------------
 
-What is covered by the Enterprise Licence?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What is covered by the Professional Licence?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Databases hosted on Flectra’s Cloud platforms (Saas and Flectra.sh) or On-Premise (Self-Hosting) enjoy the
 following service at all times.

@@ -1,9 +1,9 @@
 
-.. _enterprise_agreement_nl:
+.. _Professional_agreement_nl:
 
-==============================================
-Flectra Enterprise Subscription Agreement (NL)
-==============================================
+================================================
+Flectra Professional Subscription Agreement (NL)
+================================================
 
 
 .. v6: add "App" definition + update pricing per-App
@@ -65,19 +65,14 @@ Gedekte Versies
     aanvullende kosten van toepassing, zoals beschreven in :ref:`charges_standard_nl`.
 
 
-.. _enterprise_access_nl:
+.. _Professional_access_nl:
 
-3 Toegang tot de Flectra Enterprise Edition
-===========================================
-
-Voor de duur van deze Overeenkomst geeft Flectra NV de Klant een niet-exclusieve,
-niet-overdraagbare licentie om de Flectra Enterprise Edition-software te gebruiken
-(uitvoeren, wijzigen, uitvoeren na wijziging) onder de voorwaarden uiteengezet
-in :ref:`appendix_a_nl`.
+3 Toegang tot de Flectra Professional Edition
+=============================================
 
 De Klant gaat ermee akkoord alle nodige maatregelen te nemen om de ongewijzigde
 uitvoering te waarborgen van het deel van de Software dat de geldigheid van het
-gebruik van de Flectra Enterprise Edition controleert en statistieken verzamelt
+gebruik van de Flectra Professional Edition controleert en statistieken verzamelt
 voor dat doel, met inbegrip van maar niet beperkt tot het uitvoeren van een
 extensie, het aantal Gebruikers en geïnstalleerde Apps.
 
@@ -87,7 +82,7 @@ gegevens te behandelen in overeenstemming met zijn officiële Privacybeleid,
 gepubliceerd op https://www.flectra.com/privacy.
 
 Bij het aflopen of beëindigen van deze Overeenkomst wordt deze licentie
-onmiddellijk ingetrokken en gaat de Klant ermee akkoord om de Flectra Enterprise
+onmiddellijk ingetrokken en gaat de Klant ermee akkoord om de Flectra Professional
 Edition-software niet meer te gebruiken.
 
 Indien de Klant de voorwaarden van deze sectie schendt, gaat de Klant ermee
@@ -212,7 +207,7 @@ geïnstalleerde modules van derden ontvangen.
 5.1 Standaardkosten
 -------------------
 
-De standaardkosten voor het Flectra Enterprise-abonnement, de Bugfixingdienst, de
+De standaardkosten voor het Flectra Professional-abonnement, de Bugfixingdienst, de
 Beveiligingswaarschuwingendienst en de Upgradedienst zijn gebaseerd op het
 aantal Gebruikers, de geïnstalleerde Apps, de Softwareversie die door de Klant
 wordt gebruikt en schriftelijk wordt gespecificeerd bij de ondertekening van de
@@ -288,10 +283,10 @@ De Klant gaat ermee akkoord om:
   gespecificeerde aantallen overschrijden en in dat geval de toepasselijke extra vergoeding
   betalen zoals beschreven in de sectie :ref:`charges_standard_nl`;
 - alle nodige maatregelen te nemen om de ongewijzigde uitvoering te waarborgen van het deel
-  van de Software dat de geldigheid van het gebruik van de Flectra Enterprise
-  Edition bevestigt, zoals beschreven in :ref:`enterprise_access_nl`;
+  van de Software dat de geldigheid van het gebruik van de Flectra Professional
+  Edition bevestigt, zoals beschreven in :ref:`Professional_access_nl`;
 - Flectra NV de nodige toegang verlenen om de geldigheid van het gebruik van de Flectra
-  Enterprise Edition op verzoek te controleren (bv. indien blijkt dat de
+  Professional Edition op verzoek te controleren (bv. indien blijkt dat de
   automatische validatie niet werkt voor de Klant);
 - 1 speciale Klantencontactpersoon aan te wijzen voor de volledige duur van de
   Overeenkomst;
@@ -487,16 +482,4 @@ een geldige bepaling met dezelfde effecten en doelstellingen.
 
 
 .. _appendix_a_nl:
-
-9 Bijlage A: Flectra Enterprise Edition-licentie
-================================================
-
-.. only:: latex
-
-    De Flectra Enterprise Edition wordt in licentie gegeven onder de
-    Flectra Enterprise Edition License v1.0, die als volgt wordt gedefinieerd:
-
-    .. highlight:: none
-
-    .. literalinclude:: ../../licenses/enterprise_license.txt
 
