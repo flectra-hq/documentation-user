@@ -2708,6 +2708,7 @@ textarea.form-control-lg {
     opacity: 0.65; }
 
   #btn_1:hover{color:black}
+  #btn_2{color:#fff; }
 
 .btn-primary {
   color: rgb(0, 0, 0);
