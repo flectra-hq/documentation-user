@@ -1,3 +1,4 @@
+:show-content:
 :orphan:
 :custom-css: legal.css
 :hide-page-toc:

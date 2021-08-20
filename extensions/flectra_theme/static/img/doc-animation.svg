@@ -209,7 +209,7 @@
   <animate attributeName="d" repeatDur="indefinite" dur="3.2258064516129035s" keyTimes="0;0.5;1" values="M 1476 681  L 1487 573  L 1305 509 Z;M 1519 664  L 1491 534  L 1301 545 Z;M 1476 681  L 1487 573  L 1305 509 Z"></animate>
 </path><path d="M 778 -137  L 697 -175  L 820 -48 Z" stroke="#654e66" fill="#654e66">
   <animate attributeName="d" repeatDur="indefinite" dur="3.2258064516129035s" keyTimes="0;0.5;1" values="M 778 -137  L 697 -175  L 820 -48 Z;M 791 -188  L 675 -126  L 788 8 Z;M 778 -137  L 697 -175  L 820 -48 Z"></animate>
-</path><path d="M 1041 -213  L 920 -184  L 1059 -46 Z" stroke="#62495b" fill="#62495b">
+</path><path d="M 1041 -213  L 920 -184  L 1059 -46 Z" stroke="#2496f6" fill="#2496f6">
   <animate attributeName="d" repeatDur="indefinite" dur="3.2258064516129035s" keyTimes="0;0.5;1" values="M 1041 -213  L 920 -184  L 1059 -46 Z;M 1087 -201  L 884 -175  L 1025 -34 Z;M 1041 -213  L 920 -184  L 1059 -46 Z"></animate>
 </path><path d="M 778 -137  L 473 -196  L 697 -175 Z" stroke="#665574" fill="#665574">
   <animate attributeName="d" repeatDur="indefinite" dur="3.2258064516129035s" keyTimes="0;0.5;1" values="M 778 -137  L 473 -196  L 697 -175 Z;M 791 -188  L 473 -174  L 675 -126 Z;M 778 -137  L 473 -196  L 697 -175 Z"></animate>
