@@ -54,12 +54,12 @@ header.o_main_header{
         padding: 0 1rem;
         > .o_logo {
             img {
-                margin-bottom: -2px;
+                margin-bottom: -18px;
                 vertical-align: baseline;
             }
             span {
                 @include font-size($font-size-base);
-                color: $o-violet;
+                color: #333;
                 @include o-easter-egg($img:'img/ducky.svg');
             }
         }
@@ -138,7 +138,7 @@ header.o_main_header{
 
 .o_logo img {
     @include media-breakpoint-up(lg) {
-        height: 40px
+        height: 56px
     }
 }
 
@@ -186,7 +186,7 @@ header.o_main_header{
     background-color: lighten($o-violet-dark, 70%) ;
     z-index: 10;
     @include font-size($font-size-secondary);
-    color: $o-violet-dark;
+    color: #333;
 
     .toctree-l1 {
         padding-top: .5rem;
@@ -239,7 +239,7 @@ header.o_main_header{
         background: $white;
     }
     &::-webkit-scrollbar-thumb {
-        background-color: $o-violet-darker ;
+        background-color: #2596f6 ;
         border-radius: 0;
     }
 }
@@ -315,7 +315,7 @@ header.o_main_header{
             position: sticky;
             top: $o-header-height;
             right: 0;
-            width: $o-on-page-width;
+            width: auto;
             height: 100%;
             max-height: calc(100vh - #{$o-header-height});
             padding: 3rem 3rem 3rem 0;
@@ -431,7 +431,7 @@ header.o_main_header{
                 }
             }
             .o_cat_banner {
-                background-color: $o-violet;
+                background-color: #2596f6;
                 border-radius: 5px;
                 text-align: center;
                 background-repeat: no-repeat;
@@ -442,7 +442,7 @@ header.o_main_header{
                     color: $white;
                 }
                 &.o-bg-violet-light {
-                    background-color: lighten($o-violet, 20%);
+                    background-color: lighten($o-violet, 0%);
                 }
                 &:not(.shadow){
                     background-image: url('img/bg-cat.svg');
@@ -945,4 +945,18 @@ footer {
         }
 
     }
+}
+
+a{
+    color: #333 !important;
+}
+
+#btn_1{
+    background-color: #f8f8f8 !important;
+}
+
+#btn_2{
+    background-color: #2596f6 !important;
+    box-shadow: unset !important;
+    color: #fff !important;
 }

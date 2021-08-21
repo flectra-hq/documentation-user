@@ -1,4 +1,4 @@
-Flectra Enterprise Edition License v1.0
+Flectra Professional Edition License v1.0
 
 This software and associated files (the "Software") can only be used (executed,
 modified, executed after modifications) with a valid Flectra Enterprise
