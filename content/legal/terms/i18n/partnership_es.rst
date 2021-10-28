@@ -1,0 +1,268 @@
+.. _partnership_agreement_es:
+
+==================================
+Flectra Partnership Agreement (ES)
+==================================
+
+.. warning::
+    Esta es una traducción al español del "Flectra Partnership Agreement".
+    Esta traducción se proporciona con la esperanza de que facilitará la comprensión,
+    pero no tiene valor legal.
+    La única referencia oficial de los términos y condiciones del "Flectra Partnership Agreement" es
+    :ref:`la versión original en inglés <partnership_agreement>`.
+
+..    -- Uncomment when needed --
+..    ESTA VERSIÓN NO ESTÁ ACTUALIZADA. PARA LA ÚLTIMA VERSIÓN POR FAVOR VEA
+..    :ref:`LA VERSIÓN ORIGINAL EN INGLÉS <partnership_agreement>`
+
+.. v6a: typo in section 4.4
+.. v7: introduce "Learning Partners" and a few related changes
+.. v8: simplified, clarified, added trademark use restrictions, updated benefits
+.. v8a: minor clarifications and simplifications
+
+.. note:: Versión 8a - 2019-08-09
+
+| ENTRE:
+|  FlectraHQ, Inc.., una empresa que tiene su sede social en Chaussée de Namur, 40, 1367 Grand-Rosière,
+|  Bélgica, y sus filiales (en adelante denominados conjuntamente “FLECTRA”)
+| Y:
+|  _____________________________________________, una empresa que tiene su domicilio social en
+|  _____________________________________________________________________________________.
+|  (en adelante denominado “EL COLABORADOR”)
+
+FLECTRA y EL COLABORADOR se denominan individualmente “Parte” y conjuntamente “las Partes”.
+
+1 Objeto
+========
+El presente contrato tiene por objeto regular las condiciones bajo las cuales FLECTRA presta servicios
+a EL COLABORADOR, acceso al software Flectra Professional Edition, y bajo las cuales EL COLABORADOR
+cumple con las obligaciones establecidas a continuación.
+
+Por la presente FLECTRA nombra a EL COLABORADOR, y EL COLABORADOR acepta ser nombrado, socio no
+exclusivo para promover y vender “Flectra Professional Edition” a los clientes.
+
+EL COLABORADOR se compromete a hacer su mejor esfuerzo para vender contratos de Flectra Professional a
+sus clientes. En apoyo a esta afirmación, EL COLABORADOR dará prioridad a la comercialización
+de la versión “Flectra Professional Edition” a clientes potenciales y clientes.
+EL COLABORADOR siempre tiene la posibilidad de vender servicios con otras versiones del software,
+como “Flectra Community Edition”, en caso de ser necesario.
+
+2 Duración del Contrato
+=======================
+La duración de este contrato será de un año ("la Duración") a partir de la fecha de la firma.
+Se renueva automáticamente por una duración igual, a menos que cualquiera de las partes notifique
+por escrito a la otra parte su terminación como mínimo 30 días antes del final de la duración.
+
+4 Servicios de colaboración
+===========================
+
+4.1 Niveles de colaboración
+---------------------------
+El programa de socios de Flectra consta de dos tipos de asociaciones y cuatro niveles;
+"Learning Partners" es para empresas que desean todo lo necesario para comenzar a implementar Flectra,
+sin visibilidad como socio oficial hasta que obtengan la experiencia requerida;
+"Official Partners" es para empresas que desean la visibilidad como Ready, Silver y Gold,
+según su experiencia con Flectra.
+
+El nivel de colaboración otorgado a EL COLABORADOR depende de los ingresos anuales de
+Flectra Professional generados para FLECTRA (en términos de Usuarios de Flectra Professional vendidos).
+Las renovaciones de los contratos existentes no cuentan para el número de Usuarios vendidos,
+pero EL COLABORADOR sigue recibiendo una comisión por estos
+contratos, tal como se indica en la sección :ref:`benefits_es`..
+
+La tabla siguiente resume los requisitos para cada nivel de colaboración.
+
+La Tasa de Retención se define como la relación entre el número de contratos de Flectra Professional que
+están actualmente activos y la cantidad de contratos de Flectra Professional que han estado activos en
+algún momento en los últimos 12 meses.
+
+Las certificaciones son personales, por lo que cuando un miembro certificado del personal deja
+la empresa, EL COLABORADOR debe notificarlo a FLECTRA para que actualice la cantidad de recursos
+certificados activos para el contrato de colaboración.
+
+FLECTRA revisará trimestralmente el nivel de colaboración de EL COLABORADOR y lo ajustará al nivel
+más alto para el cual se cumplan los 3 requisitos.
+
+Sin embargo, los "Official Partners" pueden actualizarse automáticamente a un nivel superior una
+vez que alcancen los 3 requisitos para ese nivel de colaboración.
+
+.. _benefits_es:
+
+4.2 Ventajas
+------------
+
+En la tabla siguiente se describen los detalles de las ventajas para cada nivel de colaboración:
+
+.. only:: latex
+
+    .. tabularcolumns:: |L|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
+
+4.3 Reconocimiento de socios
+----------------------------
+FLECTRA promocionará EL COLABORADOR como socio oficial en el sitio web oficial (flectrahq.com).
+
+FLECTRA concede a EL COLABORADOR, de forma no exclusiva, el derecho a usar y reproducir el logotipo
+de socio de FLECTRA del nivel de colaboración correspondiente y el nombre “Flectra” en relación con este
+contrato de colaboración.
+
+Cada Parte se compromete a respetar todos los derechos de la otra Parte en todos los elementos
+mencionados en el párrafo anterior y, más concretamente, cada Parte debe abstenerse de causar
+cualquier analogía o crear confusión entre sus respectivas compañías en el público general,
+por cualquier motivo y por cualquier medio.
+
+4.4 Ventajas de la formación
+----------------------------
+EL COLABORADOR tiene acceso a la base de conocimiento de FLECTRA durante la duración de este Contrato.
+La base de conocimiento de FLECTRA es una plataforma electrónica en línea que contiene un conjunto de
+documentos comerciales, funcionales y de marketing para ayudar a EL COLABORADOR a adquirir
+y aprovechar el conocimiento de Flectra, hacer crecer su negocio, atraer más clientes y crear
+conciencia de marca.
+
+EL COLABORADOR podrá acceder al coaching comercial facilitado por su gestor de cuentas
+especializado, designado por FLECTRA.
+
+EL COLABORADOR también tiene la opción de comprar servicios de soporte o de formación
+suscribiéndose a un Success Pack de Flectra, por una tarifa adicional.
+
+4.5  Comisiones por los servicios de Flectra vendidos por EL COLABORADOR
+------------------------------------------------------------------------
+Para los servicios FLECTRA comprados por un cliente a través de EL COLABORADOR, y siempre que el
+PARTNER mantenga una relación contractual con el cliente correspondiente, EL COLABORADOR
+ecibirá una comisión de acuerdo con la tabla de la sección :ref:`benefits_es` y su nivel de
+asociación en la fecha de la factura del cliente.
+
+
+5 Tarifas
+=========
+EL COLABORADOR se compromete a pagar la tarifa de la colaboración al recibir la factura anual
+enviada por FLECTRA. La tarifa se especificará por escrito al momento de la firma de este contracto.
+
+EL COLABORADOR reconoce que la tarifa de colaboración mencionadas anteriormente no son reembolsables.
+
+6 Resolución
+============
+En el caso de que cualquiera de las Partes no cumpla con cualquiera de sus obligaciones que se
+derivan de este documento, y si tal incumplimiento no se ha rectificado en un período de 30 días
+naturales a partir de la notificación por escrito de dicho incumplimiento, la Parte que no
+incumplió sus obligaciones puede rescindir este contrato inmediatamente.
+
+6.1 Consecuencia de la resolución
+---------------------------------
+En el momento de la resolución de este contrato, EL COLABORADOR:
+ - no deberá utilizar más los materiales y/o la marca Flectra ni reclamar la existencia de ninguna
+   colaboración o relación con FLECTRA;
+ - deberá cumplir con sus obligaciones durante cualquier período de aviso previo a dicha resolución;
+ - ya no podrá usar Flectra Professional para fines de desarrollo, prueba o producción
+
+.. _p_liability_es:
+
+7 Responsabilidad e indemnizaciones
+===================================
+Ambas Partes están vinculadas por una obligación de medios aquí descrita.
+
+En la medida máxima permitida por la ley, la responsabilidad de FLECTRA por cualquier reclamo,
+pérdida, daño o gasto derivado de cualquier manera o bajo cualquier circunstancia del presente
+contrato se limitará a los daños directos demostrados, pero en ningún caso excederá por todos los
+eventos o series de eventos relacionados que ocasionen daños la cantidad total de las tarifas
+pagadas por EL COLABORADOR en el transcurso de los seis (6) meses inmediatamente anteriores a la
+fecha del evento que dio lugar a dicha reclamación.
+
+En ningún caso FLECTRA será responsable de ningún daño indirecto o consecuente, incluyendo,
+entre otros, reclamaciones de clientes o terceros, pérdidas de ingresos, ganancias, ahorros,
+pérdidas de negocios y otras pérdidas financieras, costos de paralización y retraso, datos perdidos
+o dañados derivados o relacionados con el cumplimiento de sus obligaciones en virtud de este contrato.
+
+EL COLABORADOR reconoce que no tiene ninguna expectativa y que no ha recibido garantías de recuperar
+ninguna inversión realizada en la ejecución de este contrato y el programa de socios de Flectra o de
+obtener ninguna cantidad anticipada de ganancias en virtud de este contrato.
+
+
+8 Imagen de marca
+=================
+La marca "Flectra" (incluida la palabra y sus representaciones visuales y logotipos) es exclusiva
+propiedad de FLECTRA.
+
+FLECTRA autoriza a PARTNER a usar la marca "Flectra" para promocionar sus productos y servicios,
+solo por la Duración del Contrato, siempre que:
+
+- no hay confusión posible de que el servicio sea proporcionado por PARTNER, no por FLECTRA;
+- PARTNER no use la palabra "Flectra" en el nombre de su compañía, nombre de producto,
+  nombre de dominio y no registrar ninguna marca que la incluya.
+
+Ambas Partes se abstendrán de dañar de ninguna manera la imagen de marca y la reputación de la otra
+Parte en el cumplimiento de este contrato.
+
+El incumplimiento de las disposiciones de esta sección será causa de resolución de este Contrato.
+
+
+8.1 Publicidad
+--------------
+EL COLABORADOR concede a FLECTRA el derecho no exclusivo de utilizar el nombre y las marcas
+comerciales de EL COLABORADOR en comunicados de prensa, promociones u otros anuncios públicos.
+En concreto, EL COLABORADOR acepta que se le mencione, y que el logotipo y la marca comercial
+de EL COLABORADOR se use solo para este fin, en la lista oficial de socios de FLECTRA.
+
+.. _no_soliciting_es:
+
+8.2 No captación o contratación
+-------------------------------
+Excepto cuando la otra Parte dé su consentimiento por escrito, cada Parte, sus afiliados y
+representantes acuerdan no captar u ofrecer empleo a ningún empleado de la otra Parte
+que participe en la realización o uso de los servicios de este contrato,
+durante la duración de este contrato y por un período de 24 meses a partir de la fecha de
+resolución o expiración de este contrato.
+En caso de cualquier incumplimiento de las condiciones de esta sección que conduzca al despido de
+dicho empleado con este objetivo, la Parte incumplidora se compromete a pagar a la otra parte
+la cantidad de 30 000,00 EUR (€) (treinta mil euros).
+
+
+8.3  Contratistas independientes
+--------------------------------
+Las Partes son contratistas independientes, y este contrato no debe interpretarse como la
+configuración de cualquier Parte como socia, empresa conjunta o fiduciaria de la otra,
+como la creación de otra forma de asociación legal que exigiría responsabilidad a una Parte por
+la acción o la falta de acción de la otra, o como la prestación a cada Parte del derecho,
+poder o autoridad (expresa o implícita) para crear cualquier deber u obligación de la otra.
+
+
+.. _gov_law_es:
+
+9  Ley y jurisdicción aplicables
+================================
+Este contrato se rige y se interpreta de acuerdo con las leyes de Bélgica.
+Todas las disputas que surjan en relación con este contrato para las que no se pueda encontrar una
+solución amistosa serán resueltas definitivamente en los Tribunales de Bélgica en Nivelles.
+
+
+.. |vnegspace| raw:: latex
+
+        \vspace{-.5cm}
+
+.. |vspace| raw:: latex
+
+        \vspace{.8cm}
+
+.. |hspace| raw:: latex
+
+        \hspace{4cm}
+
+.. only:: html
+
+    .. rubric:: Firmas
+
+    +---------------------------------------+------------------------------------------+
+    | Por FLECTRA,                          | Por EL COLABORADOR                       |
+    +---------------------------------------+------------------------------------------+
+
+
+.. only:: latex
+
+    .. topic:: Firmas
+
+        |vnegspace|
+        |hspace| Por FLECTRA, |hspace| Por EL COLABORADOR,
+        |vspace|
+
+
+.. _appendix_p_a_es:
+
