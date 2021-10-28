@@ -118,4 +118,4 @@ them have their own **Due Date**.
 
 .. seealso:: 
    - :doc:`cash_discounts`
-   - `Flectra Tutorials: Terms and Conditions (T&C) and Payment Terms <https://www.flectra.com/r/fpv>`_
+   - `Flectra Tutorials: Terms and Conditions (T&C) and Payment Terms <https://www.flectrahq.com/r/fpv>`_

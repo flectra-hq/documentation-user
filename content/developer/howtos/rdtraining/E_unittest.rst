@@ -57,7 +57,7 @@ Before knowing how to write tests, we need to know how to run them.
                         examples: :TestClass.test_func,/test_module,external
     --screencasts=DIR   Screencasts will go in DIR/{db_name}/screencasts.
     --screenshots=DIR   Screenshots will go in DIR/{db_name}/screenshots.
-                        Defaults to /tmp/odoo_tests.
+                        Defaults to /tmp/flectra_tests.
 
   $ # run all the tests of account, and modules installed by account
   $ # the dependencies already installed are not tested
@@ -87,9 +87,9 @@ Runbot
 ------
 
 **Reference**: the documentation related to this topic can be found in
-`Runbot FAQ <https://runbot.flectra.com/doc>`__.
+`Runbot FAQ <https://runbot.flectrahq.com/doc>`__.
 
-Most of the tests are run on `Runbot <https://runbot.flectra.com>`__ every time a commit is pushed on
+Most of the tests are run on `Runbot <https://runbot.flectrahq.com>`__ every time a commit is pushed on
 GitHub.
 
 You can see the state of a commit/branch by filtering on the runbot dashboard.
@@ -125,22 +125,22 @@ You can also login on a build built by Runbot. There are 3 users usable: `admin`
 versions without having to build it locally. The full logs are also available; these are used for
 monitoring.
 
-Robodoo
--------
+Robflectra
+----------
 
 You will most likely have to gain a little bit more experience before having the rights to summon
-robodoo, but here are a few remarks anyways.
+robflectra, but here are a few remarks anyways.
 
-Robodoo is the guy spamming the CI status as tags on your PRs, but he is also the guy that kindly
+Robflectra is the guy spamming the CI status as tags on your PRs, but he is also the guy that kindly
 integrates your commits on the main repositories.
 
-When the last batch is green, the reviewer can ask robodoo to merge your PR (actually it is more
+When the last batch is green, the reviewer can ask robflectra to merge your PR (actually it is more
 a `rebase` than a `merge`). It will then go to the mergebot.
 
 Mergebot
 --------
 
-`Mergebot <https://mergebot.flectra.com>`__ is the last testing phase before merging a PR.
+`Mergebot <https://mergebot.flectrahq.com>`__ is the last testing phase before merging a PR.
 
 It will take the commits in your branch not yet present on the target, stage it and rerun the tests
 one more time, including the Professional version even if you are only changing something in
@@ -149,7 +149,7 @@ community.
 This step can fail with a `Staging failed` error message. This could be due to
 
 * a nondeterministic bug that is already on the target. If you are an Flectra employee, you can check
-  those here: https://runbot.flectra.com/runbot/errors
+  those here: https://runbot.flectrahq.com/runbot/errors
 * a nondeterministic bug that you introduced but wasn't detected in the CI before
 * an incompatibility with another commit merged right before and what you are trying to merge
 * an incompatibility with the Professional repository if you only did changes in the community repo

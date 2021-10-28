@@ -241,7 +241,7 @@ Open the ``__manifest__.py`` you created and copy/paste the following:
 Replace the first four property’s values with anything you like.
 These values will be used to identify your new theme in Flectra’s backend.
 
-``category`` defines your module category (always “Theme”) and, after a slash, the subcategory. You can use one subcategory from the Flectra Apps categories list. (https://www.flectra.com/apps/themes)
+``category`` defines your module category (always “Theme”) and, after a slash, the subcategory. You can use one subcategory from the Flectra Apps categories list. (https://www.flectrahq.com/apps/themes)
 
 ``depends`` specifies the modules needed by our theme to work properly. For our tutorial theme, we only need website and website_theme_install to install/update.
 If you need blogging or eCommerce features as well, you have to add those modules too.

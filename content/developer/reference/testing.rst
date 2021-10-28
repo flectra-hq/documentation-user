@@ -523,7 +523,7 @@ taken at the moment of the failure and written in
 
 .. code-block:: console
 
-  '/tmp/odoo_tests/{db_name}/screenshots/'
+  '/tmp/flectra_tests/{db_name}/screenshots/'
 
 Two new command line arguments were added since Flectra 13.0 to control this behavior:
 :option:`--screenshots <flectra-bin --screenshots>` and :option:`--screencasts <flectra-bin --screencasts>`

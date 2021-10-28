@@ -934,13 +934,13 @@ The custom event widgets is a more advanced system, which mimic the DOM events
 API.  Whenever an event is triggered, it will 'bubble up' the component tree,
 until it reaches the root widget, or is stopped.
 
-- *trigger_up*: this is the method that will create a small *OdooEvent* and
+- *trigger_up*: this is the method that will create a small *flectraEvent* and
   dispatch it in the component tree.  Note that it will start with the component
   that triggered the event
 - *custom_events*: this is the equivalent of the *event* dictionary, but for
   flectra events.
 
-The OdooEvent class is very simple.  It has three public attributes: *target*
+The flectraEvent class is very simple.  It has three public attributes: *target*
 (the widget that triggered the event), *name* (the event name) and *data* (the
 payload).  It also has 2 methods: *stopPropagation* and *is_stopped*.
 

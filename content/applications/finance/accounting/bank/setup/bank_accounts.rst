@@ -88,4 +88,4 @@ how the bank statements are recorded and posted in the **Bank Statements** secti
 
 .. seealso::
    * :doc:`../feeds/bank_statements`
-   * `Flectra Tutorials: Accounting Basics <https://www.flectra.com/r/lsZ>`_
+   * `Flectra Tutorials: Accounting Basics <https://www.flectrahq.com/r/lsZ>`_

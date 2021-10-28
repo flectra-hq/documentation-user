@@ -292,7 +292,7 @@ in ``/etc/nginx/sites-enabled/flectra.conf`` set:
   upstream flectra {
    server 127.0.0.1:8069;
   }
-  upstream odoochat {
+  upstream flectrachat {
    server 127.0.0.1:8072;
   }
 
@@ -331,7 +331,7 @@ in ``/etc/nginx/sites-enabled/flectra.conf`` set:
 
    # Redirect longpoll requests to flectra longpolling port
    location /longpolling {
-   proxy_pass http://odoochat;
+   proxy_pass http://flectrachat;
    }
 
    # Redirect requests to flectra backend server
@@ -459,7 +459,7 @@ security-related topics:
 
 - Keep installations updated by regularly installing the latest builds,
   either via GitHub or by downloading the latest version from
-  https://www.flectra.com/page/download or http://nightly.flectra.com
+  https://www.flectrahq.com/page/download or http://nightly.flectrahq.com
 
 - Configure your server in multi-process mode with proper limits matching your typical
   usage (memory/CPU/timeouts). See also :ref:`builtin_server`.
@@ -658,4 +658,4 @@ Here are the supported browsers:
 .. _use an SSH tunnel:
     https://www.postgresql.org/docs/9.6/static/ssh-tunnels.html
 .. _WSGI: https://wsgi.readthedocs.org/
-.. _POSBox: https://www.flectra.com/page/point-of-sale-hardware#part_2
+.. _POSBox: https://www.flectrahq.com/page/point-of-sale-hardware#part_2

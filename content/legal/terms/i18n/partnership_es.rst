@@ -23,22 +23,22 @@ Flectra Partnership Agreement (ES)
 .. note:: Versión 8a - 2019-08-09
 
 | ENTRE:
-|  Flectra S.A., una empresa que tiene su sede social en Chaussée de Namur, 40, 1367 Grand-Rosière,
-|  Bélgica, y sus filiales (en adelante denominados conjuntamente “ODOO”)
+|  FlectraHQ, Inc.., una empresa que tiene su sede social en Chaussée de Namur, 40, 1367 Grand-Rosière,
+|  Bélgica, y sus filiales (en adelante denominados conjuntamente “FLECTRA”)
 | Y:
 |  _____________________________________________, una empresa que tiene su domicilio social en
 |  _____________________________________________________________________________________.
 |  (en adelante denominado “EL COLABORADOR”)
 
-ODOO y EL COLABORADOR se denominan individualmente “Parte” y conjuntamente “las Partes”.
+FLECTRA y EL COLABORADOR se denominan individualmente “Parte” y conjuntamente “las Partes”.
 
 1 Objeto
 ========
-El presente contrato tiene por objeto regular las condiciones bajo las cuales ODOO presta servicios
+El presente contrato tiene por objeto regular las condiciones bajo las cuales FLECTRA presta servicios
 a EL COLABORADOR, acceso al software Flectra Professional Edition, y bajo las cuales EL COLABORADOR
 cumple con las obligaciones establecidas a continuación.
 
-Por la presente ODOO nombra a EL COLABORADOR, y EL COLABORADOR acepta ser nombrado, socio no
+Por la presente FLECTRA nombra a EL COLABORADOR, y EL COLABORADOR acepta ser nombrado, socio no
 exclusivo para promover y vender “Flectra Professional Edition” a los clientes.
 
 EL COLABORADOR se compromete a hacer su mejor esfuerzo para vender contratos de Flectra Professional a
@@ -65,7 +65,7 @@ sin visibilidad como socio oficial hasta que obtengan la experiencia requerida;
 según su experiencia con Flectra.
 
 El nivel de colaboración otorgado a EL COLABORADOR depende de los ingresos anuales de
-Flectra Professional generados para ODOO (en términos de Usuarios de Flectra Professional vendidos).
+Flectra Professional generados para FLECTRA (en términos de Usuarios de Flectra Professional vendidos).
 Las renovaciones de los contratos existentes no cuentan para el número de Usuarios vendidos,
 pero EL COLABORADOR sigue recibiendo una comisión por estos
 contratos, tal como se indica en la sección :ref:`benefits_es`..
@@ -77,10 +77,10 @@ están actualmente activos y la cantidad de contratos de Flectra Professional qu
 algún momento en los últimos 12 meses.
 
 Las certificaciones son personales, por lo que cuando un miembro certificado del personal deja
-la empresa, EL COLABORADOR debe notificarlo a ODOO para que actualice la cantidad de recursos
+la empresa, EL COLABORADOR debe notificarlo a FLECTRA para que actualice la cantidad de recursos
 certificados activos para el contrato de colaboración.
 
-ODOO revisará trimestralmente el nivel de colaboración de EL COLABORADOR y lo ajustará al nivel
+FLECTRA revisará trimestralmente el nivel de colaboración de EL COLABORADOR y lo ajustará al nivel
 más alto para el cual se cumplan los 3 requisitos.
 
 Sin embargo, los "Official Partners" pueden actualizarse automáticamente a un nivel superior una
@@ -99,10 +99,10 @@ En la tabla siguiente se describen los detalles de las ventajas para cada nivel 
 
 4.3 Reconocimiento de socios
 ----------------------------
-ODOO promocionará EL COLABORADOR como socio oficial en el sitio web oficial (flectra.com).
+FLECTRA promocionará EL COLABORADOR como socio oficial en el sitio web oficial (flectrahq.com).
 
-ODOO concede a EL COLABORADOR, de forma no exclusiva, el derecho a usar y reproducir el logotipo
-de socio de ODOO del nivel de colaboración correspondiente y el nombre “Flectra” en relación con este
+FLECTRA concede a EL COLABORADOR, de forma no exclusiva, el derecho a usar y reproducir el logotipo
+de socio de FLECTRA del nivel de colaboración correspondiente y el nombre “Flectra” en relación con este
 contrato de colaboración.
 
 Cada Parte se compromete a respetar todos los derechos de la otra Parte en todos los elementos
@@ -112,21 +112,21 @@ por cualquier motivo y por cualquier medio.
 
 4.4 Ventajas de la formación
 ----------------------------
-EL COLABORADOR tiene acceso a la base de conocimiento de ODOO durante la duración de este Contrato.
-La base de conocimiento de ODOO es una plataforma electrónica en línea que contiene un conjunto de
+EL COLABORADOR tiene acceso a la base de conocimiento de FLECTRA durante la duración de este Contrato.
+La base de conocimiento de FLECTRA es una plataforma electrónica en línea que contiene un conjunto de
 documentos comerciales, funcionales y de marketing para ayudar a EL COLABORADOR a adquirir
 y aprovechar el conocimiento de Flectra, hacer crecer su negocio, atraer más clientes y crear
 conciencia de marca.
 
 EL COLABORADOR podrá acceder al coaching comercial facilitado por su gestor de cuentas
-especializado, designado por ODOO.
+especializado, designado por FLECTRA.
 
 EL COLABORADOR también tiene la opción de comprar servicios de soporte o de formación
 suscribiéndose a un Success Pack de Flectra, por una tarifa adicional.
 
 4.5  Comisiones por los servicios de Flectra vendidos por EL COLABORADOR
 ------------------------------------------------------------------------
-Para los servicios ODOO comprados por un cliente a través de EL COLABORADOR, y siempre que el
+Para los servicios FLECTRA comprados por un cliente a través de EL COLABORADOR, y siempre que el
 PARTNER mantenga una relación contractual con el cliente correspondiente, EL COLABORADOR
 ecibirá una comisión de acuerdo con la tabla de la sección :ref:`benefits_es` y su nivel de
 asociación en la fecha de la factura del cliente.
@@ -135,7 +135,7 @@ asociación en la fecha de la factura del cliente.
 5 Tarifas
 =========
 EL COLABORADOR se compromete a pagar la tarifa de la colaboración al recibir la factura anual
-enviada por ODOO. La tarifa se especificará por escrito al momento de la firma de este contracto.
+enviada por FLECTRA. La tarifa se especificará por escrito al momento de la firma de este contracto.
 
 EL COLABORADOR reconoce que la tarifa de colaboración mencionadas anteriormente no son reembolsables.
 
@@ -150,7 +150,7 @@ incumplió sus obligaciones puede rescindir este contrato inmediatamente.
 ---------------------------------
 En el momento de la resolución de este contrato, EL COLABORADOR:
  - no deberá utilizar más los materiales y/o la marca Flectra ni reclamar la existencia de ninguna
-   colaboración o relación con ODOO;
+   colaboración o relación con FLECTRA;
  - deberá cumplir con sus obligaciones durante cualquier período de aviso previo a dicha resolución;
  - ya no podrá usar Flectra Professional para fines de desarrollo, prueba o producción
 
@@ -160,14 +160,14 @@ En el momento de la resolución de este contrato, EL COLABORADOR:
 ===================================
 Ambas Partes están vinculadas por una obligación de medios aquí descrita.
 
-En la medida máxima permitida por la ley, la responsabilidad de ODOO por cualquier reclamo,
+En la medida máxima permitida por la ley, la responsabilidad de FLECTRA por cualquier reclamo,
 pérdida, daño o gasto derivado de cualquier manera o bajo cualquier circunstancia del presente
 contrato se limitará a los daños directos demostrados, pero en ningún caso excederá por todos los
 eventos o series de eventos relacionados que ocasionen daños la cantidad total de las tarifas
 pagadas por EL COLABORADOR en el transcurso de los seis (6) meses inmediatamente anteriores a la
 fecha del evento que dio lugar a dicha reclamación.
 
-En ningún caso ODOO será responsable de ningún daño indirecto o consecuente, incluyendo,
+En ningún caso FLECTRA será responsable de ningún daño indirecto o consecuente, incluyendo,
 entre otros, reclamaciones de clientes o terceros, pérdidas de ingresos, ganancias, ahorros,
 pérdidas de negocios y otras pérdidas financieras, costos de paralización y retraso, datos perdidos
 o dañados derivados o relacionados con el cumplimiento de sus obligaciones en virtud de este contrato.
@@ -180,12 +180,12 @@ obtener ninguna cantidad anticipada de ganancias en virtud de este contrato.
 8 Imagen de marca
 =================
 La marca "Flectra" (incluida la palabra y sus representaciones visuales y logotipos) es exclusiva
-propiedad de ODOO.
+propiedad de FLECTRA.
 
-ODOO autoriza a PARTNER a usar la marca "Flectra" para promocionar sus productos y servicios,
+FLECTRA autoriza a PARTNER a usar la marca "Flectra" para promocionar sus productos y servicios,
 solo por la Duración del Contrato, siempre que:
 
-- no hay confusión posible de que el servicio sea proporcionado por PARTNER, no por ODOO;
+- no hay confusión posible de que el servicio sea proporcionado por PARTNER, no por FLECTRA;
 - PARTNER no use la palabra "Flectra" en el nombre de su compañía, nombre de producto,
   nombre de dominio y no registrar ninguna marca que la incluya.
 
@@ -197,10 +197,10 @@ El incumplimiento de las disposiciones de esta sección será causa de resoluci�
 
 8.1 Publicidad
 --------------
-EL COLABORADOR concede a ODOO el derecho no exclusivo de utilizar el nombre y las marcas
+EL COLABORADOR concede a FLECTRA el derecho no exclusivo de utilizar el nombre y las marcas
 comerciales de EL COLABORADOR en comunicados de prensa, promociones u otros anuncios públicos.
 En concreto, EL COLABORADOR acepta que se le mencione, y que el logotipo y la marca comercial
-de EL COLABORADOR se use solo para este fin, en la lista oficial de socios de ODOO.
+de EL COLABORADOR se use solo para este fin, en la lista oficial de socios de FLECTRA.
 
 .. _no_soliciting_es:
 
@@ -260,7 +260,7 @@ solución amistosa serán resueltas definitivamente en los Tribunales de Bélgic
     .. topic:: Firmas
 
         |vnegspace|
-        |hspace| Por ODOO, |hspace| Por EL COLABORADOR,
+        |hspace| Por FLECTRA, |hspace| Por EL COLABORADOR,
         |vspace|
 
 

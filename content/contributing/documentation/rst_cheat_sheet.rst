@@ -124,8 +124,8 @@ Example
 ~~~~~~~
 
 This excerpt of :abbr:`RST (reStructuredText)`: ``For instance, `this is a hyperlink reference
-<https://flectra.com>`_.`` is rendered as follows in HTML: “For instance, `this is a hyperlink
-reference <https://flectra.com>`_.”
+<https://flectrahq.com>`_.`` is rendered as follows in HTML: “For instance, `this is a hyperlink
+reference <https://flectrahq.com>`_.”
 
 .. _contributing/external-hyperlink-targets:
 
@@ -297,7 +297,7 @@ RST
 Render
 ******
 
-Download this `module structure template <https://example.com/doc/odoosh/extras/my_module.zip>`_ to
+Download this `module structure template <https://example.com/doc/flectrash/extras/my_module.zip>`_ to
 start building your module in no time.
 
 .. _contributing/image:

@@ -18,7 +18,7 @@ These guidelines should be applied to every new module and to all new developmen
     strictly supersedes any other style guidelines. In other words please never
     modify existing files in order to apply these guidelines. It avoids disrupting
     the revision history of code lines. Diff should be kept minimal. For more
-    details, see our `pull request guide <https://flectra.com/submit-pr>`_.
+    details, see our `pull request guide <https://flectrahq.com/submit-pr>`_.
 
 .. warning::
 
@@ -54,7 +54,7 @@ File naming
 
 File naming is important to quickly find information through all flectra addons.
 This section explains how to name files in a standard flectra module. As an
-example we use a `plant nursery <https://github.com/tivisse/odoodays-2018/tree/master/plant_nursery>`_ application.
+example we use a `plant nursery <https://github.com/tivisse/flectradays-2018/tree/master/plant_nursery>`_ application.
 It holds two main models *plant.nursery* and *plant.order*.
 
 Concerning *models*, split the business logic by sets of models belonging to

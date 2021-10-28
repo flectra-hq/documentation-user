@@ -37,8 +37,8 @@ A reference to the rendered :file:`prices.html` and :file:`variants.html` could 
 
 #. Absolute:
 
-   - ``https://flectra.com/documentation/2.0/applications/sales/sales/products_prices/prices.html``
-   - ``https://flectra.com/documentation/2.0/applications/sales/sales/products_prices/products/variants.html``
+   - ``https://flectrahq.com/documentation/2.0/applications/sales/sales/products_prices/prices.html``
+   - ``https://flectrahq.com/documentation/2.0/applications/sales/sales/products_prices/products/variants.html``
 
 #. Relative:
 

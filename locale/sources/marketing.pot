@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -141,7 +141,7 @@ msgid "The price of an SMS depends on the destination and the length (number of 
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:37
-msgid "To see the **price per country, please consult**: `Flectra SMS - FAQ <https://iap-services.flectra.com/iap/sms/pricing#sms_faq_01>`_."
+msgid "To see the **price per country, please consult**: `Flectra SMS - FAQ <https://iap-services.flectrahq.com/iap/sms/pricing#sms_faq_01>`_."
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:39
@@ -161,7 +161,7 @@ msgid "Or go to :menuselection:`Settings --> View my Services`."
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:65
-msgid "If you are on Flectra Online (SAAS) and have the Enterprise version, you benefit from free trial credits to test the feature."
+msgid "If you are on Flectra Online (SAAS) and have the Professional version, you benefit from free trial credits to test the feature."
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:70
@@ -253,7 +253,7 @@ msgid "**How does the GDPR regulation affect this service?**"
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:130
-msgid "Please find our `Privacy Policy here <https://iap.flectra.com/privacy#sms>`__."
+msgid "Please find our `Privacy Policy here <https://iap.flectrahq.com/privacy#sms>`__."
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:132
@@ -261,7 +261,7 @@ msgid "**Can I use my own SMS provider?**"
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:134
-msgid "Yes, but it is not possible out of the box. Our experts can help you customize your database to make it happen. Please, check our success packs `here <https://www.flectra.com/pricing-packs>`_."
+msgid "Yes, but it is not possible out of the box. Our experts can help you customize your database to make it happen. Please, check our success packs `here <https://www.flectrahq.com/pricing-packs>`_."
 msgstr ""
 
 #: ../../content/applications/marketing/survey.rst:3

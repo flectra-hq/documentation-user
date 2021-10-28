@@ -44,10 +44,6 @@ website. Follow the purple drops; they will help you in the first steps.
   :align: center
 
 
-.. note::
-   If you run Flectra Online, don’t forget to redirect any new domain name to your Flectra database
-   (``CNAME``) and to authorize it Flectra-side. See :doc:`domain_name`.
-
 Create the menu
 ===============
 
@@ -123,8 +119,6 @@ be redirected to the right website using GeoIP.
   on-premise, don’t forget to install *GeoIP* library.
   See :doc:`on-premise_geo-ip-installation`
 
-.. seealso::
-   - :doc:`domain_name`
 
 Customize the visitor experience
 ================================

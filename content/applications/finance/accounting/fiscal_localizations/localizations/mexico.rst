@@ -48,7 +48,7 @@ filter "Apps" and search for ``l10n_mx``.
    :alt: Installation of the Mexican localization module in Flectra Apps
 
 .. note::
-   If you created the database from `www.flectra.com <https://www.flectra.com>`_ and chose "Mexico" as the
+   If you created the database from `www.flectrahq.com <https://www.flectrahq.com>`_ and chose "Mexico" as the
    country when creating your account, some of the Mexican localization modules will have been
    installed automatically. In that case we observe that some modules have a button that says
    "Install", while others will instead have a label that says "Installed".

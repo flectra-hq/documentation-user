@@ -18,11 +18,6 @@ See also the `GPL FAQ <http://www.gnu.org/licenses/gpl-faq.en.html>`_ and the
 Flectra 2 Professional Edition
 ==============================
 
-.. use <tt> to avoid default <pre> styling
-
-.. raw:: html
-
-    <tt>
 
 For copyright information, please see the COPYRIGHT file.
 
@@ -82,11 +77,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
-
-
-.. raw:: html
-
-    </tt>
 
 
 .. _flectra_apps_license:
@@ -324,14 +314,9 @@ See `Flectra Professional Edition. <../licenses/licenses.html#flectra-2-professi
 Flectra Apps
 ============
 
-Unless otherwise stated, Flectra Apps by Flectra SA (including the website themes) are published under
+Unless otherwise stated, Flectra Apps by FlectraHQ, Inc. (including the website themes) are published under
 the Flectra Proprietary License v1.0, defined as follows
 
-.. use <tt> to avoid default <pre> styling
-
-.. raw:: html
-
-    <tt>
 
 Flectra Proprietary License v1.0
 

@@ -422,4 +422,4 @@ one to bring all the stuff for your localization module and one more, ``account_
 
     'depends': ['l10n_xx', 'account_reports'],
 
-Once it's done, you can start the creation of your report statements. The documentation is available in the following `slides <https://www.flectra.com/slides/slide/how-to-create-custom-accounting-report-415>`_.
+Once it's done, you can start the creation of your report statements. The documentation is available in the following `slides <https://www.flectrahq.com/slides/slide/how-to-create-custom-accounting-report-415>`_.

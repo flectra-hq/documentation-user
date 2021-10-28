@@ -36,9 +36,9 @@ Terms and Conditions
 Other legal references
 ======================
 
-- `Flectra Cloud Service Level Agreement (SLA) <https://www.flectra.com/cloud-sla>`_
-- `Flectra Cloud Acceptable Use Policy <https://www.flectra.com/acceptable-use>`_
-- `Flectra SA's Privacy Policy <https://www.flectra.com/privacy>`_
-- `Flectra SA's GDPR Compliance Guide <https://www.flectra.com/gdpr>`_
+- `Flectra Cloud Service Level Agreement (SLA) <https://www.flectrahq.com/cloud-sla>`_
+- `Flectra Cloud Acceptable Use Policy <https://www.flectrahq.com/acceptable-use>`_
+- `FlectraHQ, Inc.'s Privacy Policy <https://www.flectrahq.com/privacy>`_
+- `FlectraHQ, Inc.'s GDPR Compliance Guide <https://www.flectrahq.com/gdpr>`_
 - :ref:`cla`
 - :ref:`germany/gobd`

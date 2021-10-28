@@ -43,7 +43,7 @@ Demo_ instances require no local installation, just a web browser.
 SaaS
 ----
 
-Trivial to start with, fully managed and migrated by Flectra S.A., Flectra's SaaS_
+Trivial to start with, fully managed and migrated by FlectraHQ, Inc.., Flectra's SaaS_
 provides private instances and starts out free. It can be used to discover and
 test Flectra and do non-code customizations (i.e. incompatible with custom modules
 or the Flectra Apps Store) without having to install it locally.
@@ -102,13 +102,13 @@ Flectra2.0 'deb' package currently supports `Debian Buster`_, `Ubuntu 20.04`_ or
 Repository
 ^^^^^^^^^^
 
-Flectra S.A. provides a repository that can be used with  Debian and Ubuntu distributions. It can be
+FlectraHQ, Inc.. provides a repository that can be used with  Debian and Ubuntu distributions. It can be
 used to install *Flectra Community Edition* by executing the following commands:
 
 .. code-block:: console
 
-    $ wget -O - https://nightly.flectra.com/flectra.key | sudo apt-key add -
-    $ sudo sh -c 'echo "deb http://nightly.flectra.com/2.0/nightly/deb/ ./" >> /etc/apt/sources.list.d/flectra.list'
+    $ wget -O - https://nightly.flectrahq.com/flectra.key | sudo apt-key add -
+    $ sudo sh -c 'echo "deb http://nightly.flectrahq.com/2.0/nightly/deb/ ./" >> /etc/apt/sources.list.d/flectra.list'
     $ sudo apt-get update && sudo apt-get install flectra
 
 You can then use the usual `apt-get upgrade` command to keep your installation up-to-date.
@@ -162,13 +162,13 @@ server:
 Repository
 ^^^^^^^^^^
 
-Flectra S.A. provides a repository that can be used with the Fedora distributions.
+FlectraHQ, Inc.. provides a repository that can be used with the Fedora distributions.
 It can be used to install *Flectra Community Edition* by executing the following
 commands:
 
 .. code-block:: console
 
-    $ sudo dnf config-manager --add-repo=https://nightly.flectra.com/2.0/nightly/rpm/flectra.repo
+    $ sudo dnf config-manager --add-repo=https://nightly.flectrahq.com/2.0/nightly/rpm/flectra.repo
     $ sudo dnf install -y flectra
     $ sudo systemctl enable flectra
     $ sudo systemctl start flectra
@@ -183,7 +183,7 @@ Once downloaded, the package can be installed using the 'dnf' package manager:
 
 .. code-block:: console
 
-    $ sudo dnf localinstall odoo_14.0.latest.noarch.rpm
+    $ sudo dnf localinstall flectra_2.0.latest.noarch.rpm
     $ sudo systemctl enable flectra
     $ sudo systemctl start flectra
 
@@ -655,9 +655,9 @@ The full documentation on how to use Flectra with Docker can be found on the
 official Flectra `docker image <https://registry.hub.docker.com/_/flectra/>`_ page.
 
 .. _Debian Buster: https://www.debian.org/releases/buster/
-.. _demo: https://demo.flectra.com
+.. _demo: https://demo.flectrahq.com
 .. _docker: https://www.docker.com
-.. _download: https://www.flectra.com/page/download
+.. _download: https://www.flectrahq.com/page/download
 .. _Ubuntu 20.04: http://releases.ubuntu.com/20.04/
 .. _EPEL: https://fedoraproject.org/wiki/EPEL
 .. _PostgreSQL: http://www.postgresql.org
@@ -665,7 +665,7 @@ official Flectra `docker image <https://registry.hub.docker.com/_/flectra/>`_ pa
 .. _install pip:
     https://pip.pypa.io/en/latest/installing.html#install-pip
 .. _Quilt: http://en.wikipedia.org/wiki/Quilt_(software)
-.. _saas: https://www.flectra.com/page/start
+.. _saas: https://www.flectrahq.com/page/start
 .. _the wkhtmltopdf download page: https://github.com/wkhtmltopdf/wkhtmltopdf/releases/tag/0.12.5
 .. _UAC: http://en.wikipedia.org/wiki/User_Account_Control
 .. _wkhtmltopdf: http://wkhtmltopdf.org
@@ -677,8 +677,8 @@ official Flectra `docker image <https://registry.hub.docker.com/_/flectra/>`_ pa
 .. _virtualenvwrapper: https://virtualenvwrapper.readthedocs.io/en/latest/
 .. _pywin32: http://sourceforge.net/projects/pywin32/files/pywin32/
 .. _community-repository: https://github.com/flectra/flectra
-.. _enterprise-repository: https://github.com/flectra/professional
+.. _professional-repository: https://github.com/flectra/professional
 .. _git: https://git-scm.com/
-.. _Editions: https://www.flectra.com/pricing#pricing_table_features
-.. _nightly: https://nightly.flectra.com/
-.. _extra: https://nightly.flectra.com/extra/
+.. _Editions: https://www.flectrahq.com/pricing#pricing_table_features
+.. _nightly: https://nightly.flectrahq.com/
+.. _extra: https://nightly.flectrahq.com/extra/

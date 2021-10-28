@@ -138,16 +138,3 @@ If you have multiple commits, you can either make a summary of the commits as th
 commits you can just copy/paste your commit messages as the PR message.
 
 .. image:: 16_guidelines_pr/media/pr_message.png
-
-
-Test on the runbot
-==================
-
-Flectra has its own :abbr:`CI (Continuous integration)` server named `runbot <https://runbot.flectra.com/>`__. All
-commits, branches and PR will be tested to avoid regressions or breaking of the stable versions.
-All the runs that pass the tests are deployed on their own server with demo data.
-
-.. exercise:: Play with the runbot.
-
-    Feel free to go to the runbot website and open the last stable version of Flectra to check out all the available
-    applications and functionalities.

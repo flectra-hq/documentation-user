@@ -10,7 +10,7 @@ You can upload any PDF file and add drag-and-dropping fields on it. These fields
 filled out with the user's detail if they are logged in.
 
 .. seealso::
-   - `Flectra Sign: product page <https://www.flectra.com/app/sign>`_
+   - `Flectra Sign: product page <https://www.flectrahq.com/app/sign>`_
 
 Validity of electronic signatures
 =================================

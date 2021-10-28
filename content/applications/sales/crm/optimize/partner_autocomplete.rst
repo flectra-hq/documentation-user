@@ -42,4 +42,4 @@ Pricing
      the suggested company will be the website link and the logo.
    - If you are on Flectra Online (SAAS) and you have the professional version, you benefit from free
      trial credits to test the feature.
-   - Learn about our *Privacy Policy* `here <https://iap.flectra.com/privacy#header_2>`_.
+   - Learn about our *Privacy Policy* `here <https://iap.flectrahq.com/privacy#header_2>`_.

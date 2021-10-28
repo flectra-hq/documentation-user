@@ -44,7 +44,7 @@ Running the server
 .. option:: -s, --save
 
     saves the server configuration to the current configuration file
-    (:file:`{$HOME}/.odoorc` by default, and can be overridden using
+    (:file:`{$HOME}/.flectrarc` by default, and can be overridden using
     :option:`-c`).
 
 .. option:: --without-demo
@@ -63,7 +63,7 @@ Running the server
 .. option:: --screenshots
 
     Specify directory where to write screenshots when an HttpCase.browser_js test
-    fails. It defaults to :file:`/tmp/odoo_tests/{db_name}/screenshots`
+    fails. It defaults to :file:`/tmp/flectra_tests/{db_name}/screenshots`
 
 .. option:: --screencasts
 
@@ -102,11 +102,11 @@ Database
 
     - ``%h`` is replaced by the whole hostname the request is made on.
     - ``%d`` is replaced by the subdomain the request is made on, with the
-      exception of ``www`` (so domain ``flectra.com`` and ``www.flectra.com`` both
+      exception of ``www`` (so domain ``flectrahq.com`` and ``www.flectrahq.com`` both
       match the database ``flectra``).
 
       These operations are case sensitive. Add option ``(?i)`` to match all
-      databases (so domain ``flectra.com`` using ``(?i)%d`` matches the database
+      databases (so domain ``flectrahq.com`` using ``(?i)%d`` matches the database
       ``Flectra``).
 
     Since version 11, it's also possible to restrict access to a given database
@@ -476,7 +476,7 @@ Some conversions don't match the pattern:
 * :option:`--i18n-import` and :option:`--i18n-export` aren't available at all
   from configuration files
 
-The default configuration file is :file:`{$HOME}/.odoorc` which
+The default configuration file is :file:`{$HOME}/.flectrarc` which
 can be overridden using :option:`--config <flectra-bin -c>`. Specifying
 :option:`--save <flectra-bin -s>` will save the current configuration state back
 to that file. The configuration items relative to the command-line are to be
@@ -514,7 +514,7 @@ This enables direct interaction with the :ref:`orm <reference/orm>` and its func
 
 .. code-block:: console
 
-   $ odoo_bin shell
+   $ flectra_bin shell
 
 .. option:: --shell-interface (ipython|ptpython|bpython|python)
 
@@ -537,7 +537,7 @@ Scaffolding is available via the :command:`flectra-bin scaffold` subcommand.
 
 .. code-block:: console
 
-    $ odoo_bin scaffold my_module /addons/
+    $ flectra_bin scaffold my_module /addons/
 
 .. option:: name (required)
 
@@ -570,7 +570,7 @@ generation of the model's records to test your modules in databases containing n
 
 .. code-block:: console
 
-    $ odoo_bin populate
+    $ flectra_bin populate
 
 .. option:: --models
 
@@ -714,7 +714,7 @@ Identifying Extra Modules
 
 To distinguish between standard and extra modules, Flectra Cloc uses the following heuristic:
 modules that are located (real file system path, after following symbolic links)
-in the same parent directory as the ``base``, ``web`` or ``web_enterprise``
+in the same parent directory as the ``base``, ``web`` or ``web_professional``
 standard modules are considered standard. Other modules are treated as extra modules.
 
 

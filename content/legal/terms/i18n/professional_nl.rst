@@ -40,7 +40,7 @@ Gebruiker
 App
     Een "App" is een gespecialiseerde groep functies die beschikbaar is
     voor installatie in de Software en wordt vermeld in de publieke sectie
-    “Prijzen” van de website van Flectra NV <https://www.flectra.com> bij de
+    “Prijzen” van de website van Flectra NV <https://www.flectrahq.com> bij de
     ondertekening van deze Overeenkomst.
 
 Bug
@@ -79,7 +79,7 @@ extensie, het aantal Gebruikers en geïnstalleerde Apps.
 Flectra NV verbindt zich ertoe om individuele of vermelde cijfers niet bekend te
 maken aan derden zonder de toestemming van de Klant, en om alle verzamelde
 gegevens te behandelen in overeenstemming met zijn officiële Privacybeleid,
-gepubliceerd op https://www.flectra.com/privacy.
+gepubliceerd op https://www.flectrahq.com/privacy.
 
 Bij het aflopen of beëindigen van deze Overeenkomst wordt deze licentie
 onmiddellijk ingetrokken en gaat de Klant ermee akkoord om de Flectra Professional
@@ -144,7 +144,7 @@ openbare bekendmaking.
 4.3 Upgradediensten
 --------------------
 
-.. _upgrade_odoo_nl:
+.. _upgrade_flectra_nl:
 
 Upgradedienst voor de Software
 ++++++++++++++++++++++++++++++++

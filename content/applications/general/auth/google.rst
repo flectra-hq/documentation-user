@@ -38,7 +38,7 @@ How to allow users to sign in with their Google account
 
 - Check that the application type is set on **Web Application**. Now configure the allowed pages on which you will be redirected.
 
-- To achieve this, complete the field **Authorized redirect URIs**. Copy paste the following link in the box: http://mydomain.flectra.com/auth_oauth/signin. Then click on **Create**
+- To achieve this, complete the field **Authorized redirect URIs**. Copy paste the following link in the box: http://mydomain.flectrahq.com/auth_oauth/signin. Then click on **Create**
 
 .. image:: media/google08.png
     :align: center

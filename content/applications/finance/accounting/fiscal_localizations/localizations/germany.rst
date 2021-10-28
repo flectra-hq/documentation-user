@@ -96,7 +96,7 @@ application.
   backups can be downloaded and backed up on external systems.
 
   .. seealso::
-     `Flectra Cloud Hosting - Service Level Agreement <https://www.odooo.com/cloud-sla>`_
+     `Flectra Cloud Hosting - Service Level Agreement <https://www.flectrao.com/cloud-sla>`_
 
 - If the server is operated locally, it is the responsibility of the user to create the necessary
   backup infrastructure.

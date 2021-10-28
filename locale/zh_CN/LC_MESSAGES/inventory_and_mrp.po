@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -16,7 +16,7 @@
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2021
 # Gary Wei <Gary.wei@elico-corp.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
-# Mandy Choy <mnc@flectra.com>, 2021
+# Mandy Choy <mnc@flectrahq.com>, 2021
 # Miao Zhou <zhoumiao_nuaa@outlook.com>, 2021
 # Datasource International <Hennessy@datasourcegroup.com>, 2021
 # 
@@ -73,7 +73,7 @@ msgid ""
 "Once you have clicked on *Inventory Adjustments*, Flectra will automatically "
 "create one. Note that, if you work with multi-location, you first need to "
 "specify in which location the inventory adjustment takes place."
-msgstr "点击*库存调整*后，Odoo将自动创建。注意，如有多个库位，你需首先指定进行库存调整的库位。"
+msgstr "点击*库存调整*后，flectra将自动创建。注意，如有多个库位，你需首先指定进行库存调整的库位。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/adjustments.rst:24
 msgid ""
@@ -205,7 +205,7 @@ msgid ""
 "create a new line for the Pasta product for a quantity of 1.5 Kg. For the "
 "point of sale, a price depending on the quantity will also be computed."
 msgstr ""
-"如果你称了1.5千克的意大利面，你将打印出以下条码2112345015002。如在POS中扫描此条码，或在条码应用程序中接收产品时，Odoo将自动为该意大利面产品创建新的一行，数量为1.5千克。POS则将根据该数量计算价格。"
+"如果你称了1.5千克的意大利面，你将打印出以下条码2112345015002。如在POS中扫描此条码，或在条码应用程序中接收产品时，flectra将自动为该意大利面产品创建新的一行，数量为1.5千克。POS则将根据该数量计算价格。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/barcode_nomenclature.rst:70
 msgid "Rule Types"
@@ -387,7 +387,7 @@ msgid ""
 "If you work with serial/lot numbers taking all products into consideration, "
 "you can scan the barcode of the lot/serial number and Flectra will increase the"
 " quantity of the product, setting its lot/serial number."
-msgstr "如你处理包含所有产品的序列号/批号，你应扫描该批号/序列号的条码，Odoo将增加产品数量，设置其批号/序列号。"
+msgstr "如你处理包含所有产品的序列号/批号，你应扫描该批号/序列号的条码，flectra将增加产品数量，设置其批号/序列号。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/internal.rst:99
 msgid ""
@@ -427,7 +427,7 @@ msgid ""
 "Getting started with barcode scanning in Flectra is fairly easy. Yet, a good "
 "user experience relies on an appropriate hardware setup. This guide will "
 "help you through the task of choosing and configuring the barcode scanner."
-msgstr "在Odoo中使用条码扫描相当容易。但是一个好的用户体验依赖与正确的硬件设置。该向导会帮你完成从条码枪的选择到设置。"
+msgstr "在flectra中使用条码扫描相当容易。但是一个好的用户体验依赖与正确的硬件设置。该向导会帮你完成从条码枪的选择到设置。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/setup/hardware.rst:11
 msgid "Find the barcode scanner that suits your needs"
@@ -439,7 +439,7 @@ msgid ""
 "**Inventory** and **Barcode Scanning** apps are the **USB scanner**, **the "
 "bluetooth scanner** and the **mobile computer scanner**."
 msgstr ""
-"推荐3种不同的条码扫描器与Odoo **库存** 和 **条形码** 应用一起使用，如 **USB扫描器** ， **蓝牙扫描器** 和 "
+"推荐3种不同的条码扫描器与flectra **库存** 和 **条形码** 应用一起使用，如 **USB扫描器** ， **蓝牙扫描器** 和 "
 "**移动计算机扫描器**  。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/setup/hardware.rst:20
@@ -461,7 +461,7 @@ msgid ""
 "your smartphone from time to time and use the software 'manually'."
 msgstr ""
 " "
-"**蓝牙扫描器**能与智能手机或者平板电脑进行配对，如果你想要移动设备但又不想投入太多，使用蓝牙扫描器就是不错的选择。你可使用智能手机登陆Odoo，并把智能手机和蓝牙扫描器配对，即可在仓库中扫描作业，你可不时查看智能手机并“手动”使用软件。"
+"**蓝牙扫描器**能与智能手机或者平板电脑进行配对，如果你想要移动设备但又不想投入太多，使用蓝牙扫描器就是不错的选择。你可使用智能手机登陆flectra，并把智能手机和蓝牙扫描器配对，即可在仓库中扫描作业，你可不时查看智能手机并“手动”使用软件。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/setup/hardware.rst:32
 msgid ""
@@ -474,7 +474,7 @@ msgid ""
 " it is essential to test it first."
 msgstr ""
 "在繁忙的业务中，**移动电脑扫描器** "
-"是最简便的解决方法。它由一个小型电脑和一个内置条码扫描器构成。这是一种非常高效的的解决方案，但你需要确保该设备能流畅运行Odoo。最近使用Android"
+"是最简便的解决方法。它由一个小型电脑和一个内置条码扫描器构成。这是一种非常高效的的解决方案，但你需要确保该设备能流畅运行flectra。最近使用Android"
 " + Google Chrome浏览器或者Windows + IE "
 "Mobile浏览器的模式可以实现该功能。但是，由于市面上有各种不同的型号和配置，你必须先进行测试。"
 
@@ -509,13 +509,13 @@ msgid ""
 "explicitly configured by scanning a specific barcode in the user manual ('CR"
 " suffix ON', 'Apply Enter for suffix', etc.)."
 msgstr ""
-"默认的, Odoo在每次成功的扫描之间有50毫秒的延时(这样可以避免偶然的重复扫描)。如果你想禁用该延时, "
+"默认的, flectra在每次成功的扫描之间有50毫秒的延时(这样可以避免偶然的重复扫描)。如果你想禁用该延时, "
 "你可以通过在每次扫描条码之后插入一个回车配置你的扫描枪。这通常是默认的配置并且能通过扫描用户手册中特定的条码进行配置('CR 后缀 "
 "ON','申请输入后缀', 等等。)。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/setup/software.rst:3
 msgid "Activate the Barcodes in Flectra"
-msgstr "在Odoo中启用条码"
+msgstr "在flectra中启用条码"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/setup/software.rst:5
 msgid ""
@@ -617,7 +617,7 @@ msgstr "多数零售产品使用EAN-13条码。这种条码需要适当授权才
 msgid ""
 "Still, as Flectra supports any string as a barcode, you can always define your "
 "own barcode format for internal use."
-msgstr "但Odoo支持所有字符串的条码，所以你也可以定义内部使用的条码格式。"
+msgstr "但flectra支持所有字符串的条码，所以你也可以定义内部使用的条码格式。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management.rst:3
 msgid "Warehouse Management"
@@ -709,10 +709,10 @@ msgstr "知晓产品在供应链上游的状况是很有用的。如果你没有
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/dropshipping.rst:47
 msgid ""
 "For more information and insights about Drop-Shipping, you can read our "
-"blog: `*What is drop-shipping and how to use it* <https://www.flectra.com/blog"
+"blog: `*What is drop-shipping and how to use it* <https://www.flectrahq.com/blog"
 "/business-hacks-1/post/what-is-drop-shipping-and-how-to-use-it-250>`__."
 msgstr ""
-"关于直运的详情及见解，请阅读我们的博客 *直运是什么以及如何使用*  <https://www.flectra.com/blog/business-"
+"关于直运的详情及见解，请阅读我们的博客 *直运是什么以及如何使用*  <https://www.flectrahq.com/blog/business-"
 "hacks-1/post/what-is-drop-shipping-and-how-to-use-it-250>`__。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/dropshipping.rst:52
@@ -760,7 +760,7 @@ msgid ""
 "Once the sale order is confirmed, Flectra automatically generates a *Request "
 "for Quotation* for the supplier who will proceed to the drop-shipping. You "
 "can find it in the *Purchase* app, with the sale order as *Source Document*."
-msgstr "确认销售订单后，Odoo为处理直运的供应商自动生成*报价请求*。你可在*采购*应用程序中查看，销售订单为*源单据*。"
+msgstr "确认销售订单后，flectra为处理直运的供应商自动生成*报价请求*。你可在*采购*应用程序中查看，销售订单为*源单据*。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/dropshipping.rst:97
 msgid ""
@@ -791,7 +791,7 @@ msgstr "依赖于销售产品的类型, 仓库的空间大小, 每天的单子�
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/inventory_flow.rst:9
 msgid ""
 "Flectra allows you to handle shipping from your warehouse in 3 different ways:"
-msgstr "Odoo能让我们以3种方式处理发货 :"
+msgstr "flectra能让我们以3种方式处理发货 :"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/inventory_flow.rst:12
 msgid "**One step (shipping)**: Ship directly from stock"
@@ -876,7 +876,7 @@ msgid ""
 "With Flectra, you can choose among different types of labels for your delivery "
 "orders. Follow the steps below and give an appropriate label type to your "
 "delivery."
-msgstr "在Odoo中, 你可以为交货单选择不同类型的标签。按照以下步骤给交货单选择合适的标签。"
+msgstr "在flectra中, 你可以为交货单选择不同类型的标签。按照以下步骤给交货单选择合适的标签。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/label_type.rst:15
 msgid ""
@@ -1000,7 +1000,7 @@ msgid ""
 "that process may not reflect reality and your company could require more "
 "steps before shipping."
 msgstr ""
-"当订单到达运输部门进行最终交付时，Odoo默认情况下设置为采用一步操作：一旦所有商品都可用，就可以在单个交付订单中进行运输。 "
+"当订单到达运输部门进行最终交付时，flectra默认情况下设置为采用一步操作：一旦所有商品都可用，就可以在单个交付订单中进行运输。 "
 "但是，该过程可能无法反映现实，并且您的公司可能需要更多步骤才能发货。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/three_steps.rst:11
@@ -1132,7 +1132,7 @@ msgid ""
 "When an order goes to the shipping department for final delivery, Flectra is "
 "set up by default to utilize a one-step operation: once all goods are "
 "available, they are able to be shipped in a single delivery order."
-msgstr "一个订单进入到发货部门的最后一步时, Odoo默认会使用一步操作 :　一旦所有的货物都准备好, 就可以使用一张发货单进行发货"
+msgstr "一个订单进入到发货部门的最后一步时, flectra默认会使用一步操作 :　一旦所有的货物都准备好, 就可以使用一张发货单进行发货"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/two_steps.rst:9
 msgid ""
@@ -1218,7 +1218,7 @@ msgstr "取决于因子例如收到货物的类型, 仓库的空间大小, 每�
 #: ../../content/applications/inventory_and_mrp/inventory/management/incoming/handle_receipts.rst:12
 msgid ""
 "Flectra allows you to handle receipts from your warehouse in 3 different ways:"
-msgstr "Odoo允许有3种方式从仓库收货 :"
+msgstr "flectra允许有3种方式从仓库收货 :"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/incoming/handle_receipts.rst:15
 msgid "**One step**: Receive goods directly in stock."
@@ -1241,7 +1241,7 @@ msgid ""
 "standard, the reception is a one step process, but changing the "
 "configuration can allow to have 2 or even 3 steps."
 msgstr ""
-"Odoo使用 **路线** 准确的定义了你如何进行收货步骤。该配置在仓库层面完成。标准状况下, 收货一步完成, 但是通过更改配置可以进行2或者3步收货。"
+"flectra使用 **路线** 准确的定义了你如何进行收货步骤。该配置在仓库层面完成。标准状况下, 收货一步完成, 但是通过更改配置可以进行2或者3步收货。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/incoming/handle_receipts.rst:27
 msgid "The principles are the following:"
@@ -1281,7 +1281,7 @@ msgstr ""
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/incoming/handle_receipts.rst:55
 msgid "This is the default configuration in Flectra."
-msgstr "Odoo中默认的配置"
+msgstr "flectra中默认的配置"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/incoming/handle_receipts.rst:68
 msgid ":doc:`../delivery/inventory_flow`"
@@ -1380,7 +1380,7 @@ msgid ""
 "the reception is a one-step process, but it can also be configured to have "
 "two-steps or three-steps processes."
 msgstr ""
-"Odoo使用路线定义如何处理不同的收货步骤。 这些路线的配置在仓库级别完成。 默认情况下，接收是一个单步过程，但是也可以将其配置为具有两步或三步过程。"
+"flectra使用路线定义如何处理不同的收货步骤。 这些路线的配置在仓库级别完成。 默认情况下，接收是一个单步过程，但是也可以将其配置为具有两步或三步过程。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/incoming/three_steps.rst:13
 msgid ""
@@ -1503,7 +1503,7 @@ msgid ""
 " steps. The configuration is done at the *Warehouse* level. By default, the "
 "reception is a one-step process, but changing the configuration can allow "
 "you to have 2 steps."
-msgstr "Odoo使用路线精确定义如何处理不同的收货步骤。该配置可以在*仓库*层面完成。默认情况下，收货是一步完成，通过变更配置可允许2步收货。"
+msgstr "flectra使用路线精确定义如何处理不同的收货步骤。该配置可以在*仓库*层面完成。默认情况下，收货是一步完成，通过变更配置可允许2步收货。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/incoming/two_steps.rst:13
 msgid ""
@@ -1621,7 +1621,7 @@ msgid ""
 "system but are different in their behavior. They are both managed within the"
 " **Inventory**, **Purchases** and **Sales** app."
 msgstr ""
-"在Odoo中, 批次号和序列号在系统中有者相同的逻辑但是不同的表现行为。他们都是在 **库存** , **采购** , **销售** 模块中使用。"
+"在flectra中, 批次号和序列号在系统中有者相同的逻辑但是不同的表现行为。他们都是在 **库存** , **采购** , **销售** 模块中使用。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/differences.rst:12
 msgid ""
@@ -1706,7 +1706,7 @@ msgstr "很多公司的产品都有到期日，必须基于这些日期对产品
 msgid ""
 "With Flectra, you can track your products based on their expiration dates, even"
 " if they are already tracked by lots or serial numbers."
-msgstr "Odoo可根据到期日追踪产品，即使已经按批号或序列号追踪这些产品。"
+msgstr "flectra可根据到期日追踪产品，即使已经按批号或序列号追踪这些产品。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/expiration_dates.rst:14
 #: ../../content/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/serial_numbers.rst:15
@@ -1807,13 +1807,13 @@ msgstr ""
 msgid ""
 "Flectra has the capacity to manage lots, ensuring compliance with the "
 "traceability requirements imposed by the majority of industries."
-msgstr "Odoo可管理批次，确保符合大多数行业的可追溯性要求。"
+msgstr "flectra可管理批次，确保符合大多数行业的可追溯性要求。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/lots.rst:14
 msgid ""
 "The double-entry management in Flectra enables you to run very advanced "
 "traceability."
-msgstr "Odoo中的复式管理使你进行非常高级的追踪。"
+msgstr "flectra中的复式管理使你进行非常高级的追踪。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/lots.rst:18
 msgid "Setting Up"
@@ -1890,7 +1890,7 @@ msgid ""
 "After that, you will have to manually enter the number of products that are "
 "contained in each one of the lots."
 msgstr ""
-"打开供应商提供的批号电子数据表，复制列表。然后，你可将它们直接粘贴到Odoo的*批号/序列号名称*一列，自动创建必要的行。之后，你必须手动输入每个批次包含的产品数量。"
+"打开供应商提供的批号电子数据表，复制列表。然后，你可将它们直接粘贴到flectra的*批号/序列号名称*一列，自动创建必要的行。之后，你必须手动输入每个批次包含的产品数量。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/lots.rst:93
 msgid "Operation Types"
@@ -1962,7 +1962,7 @@ msgstr ""
 msgid ""
 "If you want to do it or run very advanced traceability, the Flectra double-"
 "entry management is the feature you need."
-msgstr "如你想要使用此功能，或允许高级可追溯性功能，需使用Odoo的复式分录管理。"
+msgstr "如你想要使用此功能，或允许高级可追溯性功能，需使用flectra的复式分录管理。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/serial_numbers.rst:20
 msgid ""
@@ -2029,11 +2029,11 @@ msgid ""
 "create the necessary lines. To do so, you have to enter the first serial "
 "number of your set and the number of products you have to assign a serial "
 "number to."
-msgstr "利用分配多个序列号的功能，Odoo可自动创建必要的行。为此，你必须输入一组中的首个序列号，及需要分配序列号的产品数量。"
+msgstr "利用分配多个序列号的功能，flectra可自动创建必要的行。为此，你必须输入一组中的首个序列号，及需要分配序列号的产品数量。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/serial_numbers.rst:80
 msgid "Once done, click on *Assign Serial Numbers* and Flectra will do the rest."
-msgstr "完成后，点击*分配序列号*，Odoo将完成其余操作。"
+msgstr "完成后，点击*分配序列号*，flectra将完成其余操作。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/serial_numbers.rst:91
 msgid ""
@@ -2042,7 +2042,7 @@ msgid ""
 "column of the wizard. Doing so, Flectra will automatically create the lines you"
 " need."
 msgstr ""
-"如要使用复制/粘贴功能，打开接收的包含序列号的电子数据表，复制列表。然后，你可将它们直接粘贴到向导的*批号/序列号名称*一列。之后，Odoo将自动创建你需要的行。"
+"如要使用复制/粘贴功能，打开接收的包含序列号的电子数据表，复制列表。然后，你可将它们直接粘贴到向导的*批号/序列号名称*一列。之后，flectra将自动创建你需要的行。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/serial_numbers.rst:106
 msgid "Operation types"
@@ -2237,7 +2237,7 @@ msgstr "代销库存是工厂和供应商发布新产品的好办法。因为零
 msgid ""
 "Of course, Flectra has the ability to manage those consignee stocks through "
 "advanced settings."
-msgstr "当然，Odoo能通过高级设置管理代销库存。"
+msgstr "当然，flectra能通过高级设置管理代销库存。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/misc/owned_stock.rst:20
 msgid ""
@@ -2290,7 +2290,7 @@ msgid ""
 "By using lead times, Flectra provides end dates, the **Commitment Date**, for "
 "each process. On a sales order, for example, this is the date your customer "
 "will get the products he ordered."
-msgstr "通过使用交货期，Odoo为每个过程提供结束日期，即 *承诺日期* 。 例如，在销售订单上，这是您的客户获得订购的产品的日期。"
+msgstr "通过使用交货期，flectra为每个过程提供结束日期，即 *承诺日期* 。 例如，在销售订单上，这是您的客户获得订购的产品的日期。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/planning/scheduled_dates.rst:13
 msgid ""
@@ -2353,7 +2353,7 @@ msgid ""
 "adds the line to the RFQ instead of creating a new one. Then, the specific "
 "date is set on the line."
 msgstr ""
-"**购买天数** ：采购部门用来验证采购订单的天数。 如果已经打开了对同一供应商的另一个询价，Odoo会将行添加到询价中，而不是创建新的询价。 "
+"**购买天数** ：采购部门用来验证采购订单的天数。 如果已经打开了对同一供应商的另一个询价，flectra会将行添加到询价中，而不是创建新的询价。 "
 "然后，在该行上设置特定日期。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/planning/scheduled_dates.rst:58
@@ -2460,7 +2460,7 @@ msgid ""
 "In many cases, customers order several products at the same time. Those can "
 "have different lead times but still need to be delivered, at once or "
 "separately. Fortunately, Flectra can help you handle these cases easily."
-msgstr "在许多情况下，客户会同时订购多个产品。 交货时间可能不同，但仍需要一次或单独交付。 幸好Odoo可以帮助您轻松处理这些案件。"
+msgstr "在许多情况下，客户会同时订购多个产品。 交货时间可能不同，但仍需要一次或单独交付。 幸好flectra可以帮助您轻松处理这些案件。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/planning/scheduled_dates.rst:137
 msgid ""
@@ -2772,7 +2772,7 @@ msgstr ""
 #: ../../content/applications/inventory_and_mrp/inventory/management/products/uom.rst:12
 msgid ""
 "You can set up Flectra to work with different units of measure for one product."
-msgstr "在Odoo中你可以设置一个产品可以有不同的计量单位。"
+msgstr "在flectra中你可以设置一个产品可以有不同的计量单位。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/products/uom.rst:18
 msgid ""
@@ -2888,7 +2888,7 @@ msgid ""
 "have the possibility to specify the unit of measure in which you manage your"
 " stock and the one which is used when purchasing the product to your "
 "supplier."
-msgstr "计量单位规定了处理产品时所用的单位。在Odoo中，你可指定管理库存和从供应商处采购产品所用的计量单位。"
+msgstr "计量单位规定了处理产品时所用的单位。在flectra中，你可指定管理库存和从供应商处采购产品所用的计量单位。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/products/usage.rst:16
 msgid ""
@@ -2939,14 +2939,14 @@ msgstr "包装是指保护产品的实体容器。如果你出售电脑，包装
 msgid ""
 "In Flectra, packagings are used for indicative purposes on sale orders. They "
 "can be specified on the product form, in the inventory tab."
-msgstr "在Odoo中，包装用于销售订单的指示性用途。它们可从“库存”选项卡的“产品表单”上指定。"
+msgstr "在flectra中，包装用于销售订单的指示性用途。它们可从“库存”选项卡的“产品表单”上指定。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/products/usage.rst:70
 msgid ""
 "Another useful use of the packaging is for product reception. By scanning "
 "the barcode of the packaging, Flectra adds the number of units contained in the"
 " packing on the picking."
-msgstr "包装的另一个用途是产品收货。通过扫描包装条目，Odoo将包装中包含的产品件数加入拣货系统。"
+msgstr "包装的另一个用途是产品收货。通过扫描包装条目，flectra将包装中包含的产品件数加入拣货系统。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/replenishment_strategies.rst:3
 msgid "Inventory Adjustment"
@@ -3009,7 +3009,7 @@ msgstr "将额外成本整合到产品中（到岸成本） "
 msgid ""
 "The landed cost feature in Flectra allows to include additional costs "
 "(shipment, insurance, customs duties, etc.) into the cost of the product."
-msgstr "Odoo中的到岸成本功能可将额外费用（运费、保险、海关、关税等）纳入产品成本中。"
+msgstr "flectra中的到岸成本功能可将额外费用（运费、保险、海关、关税等）纳入产品成本中。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/reporting/integrating_landed_costs.rst:10
 msgid ""
@@ -3370,7 +3370,7 @@ msgstr "注意，这是财务意义上的先进先出。首个“进入”的价
 msgid ""
 "FIFO is advised if you manage all your workflows into Flectra (Sales, "
 "Purchases, Inventory). It suits any kind of users."
-msgstr "如你在Odoo中管理所有工作流程（销售、采购、库存），则建议使用FIFO。它适合各种用户。"
+msgstr "如你在flectra中管理所有工作流程（销售、采购、库存），则建议使用FIFO。它适合各种用户。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config.rst:171
 msgid "Inventory Valuation: Manual or Automated"
@@ -3422,7 +3422,7 @@ msgid ""
 "This is the default configuration in Flectra and it works out-of-the-box. Check"
 " following operations and find out how Flectra is managing the accounting "
 "postings."
-msgstr "这是Odoo中默认的配置并且可以拿来即用。检查以下作业并查看Odoo如何管理会计过账。"
+msgstr "这是flectra中默认的配置并且可以拿来即用。检查以下作业并查看flectra如何管理会计过账。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config.rst:203
 #: ../../content/applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config.rst:362
@@ -3605,7 +3605,7 @@ msgstr "制造订单"
 msgid ""
 "At the end of the month/year, your company does a physical inventory or just"
 " relies on the inventory in Flectra to value the stock into your books."
-msgstr "在月／年末, 依靠公司盘点或者只是依赖于Odoo中的库存来计算库存价值并入账。"
+msgstr "在月／年末, 依靠公司盘点或者只是依赖于flectra中的库存来计算库存价值并入账。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config.rst:254
 msgid ""
@@ -3762,7 +3762,7 @@ msgstr "使用库存计价"
 msgid ""
 "In this documentation, we will explain how the inventory valuation works in "
 "Flectra."
-msgstr "在本文档中，我们将说明Odoo如何进行库存计价。"
+msgstr "在本文档中，我们将说明flectra如何进行库存计价。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/reporting/using_inventory_valuation.rst:13
 msgid "Inventory valuation: the basics"
@@ -3858,7 +3858,7 @@ msgid ""
 "In Flectra, a **Warehouse** is the actual building/place in which your items "
 "are stocked. You can setup multiple warehouses and create moves between "
 "warehouses."
-msgstr "在Odoo中 **仓库** 是你存放货物的实际的建筑／地方。你可以设置多仓库并在不同的仓库质检调拨。"
+msgstr "在flectra中 **仓库** 是你存放货物的实际的建筑／地方。你可以设置多仓库并在不同的仓库质检调拨。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/warehouses/difference_warehouse_location.rst:9
 msgid ""
@@ -3908,7 +3908,7 @@ msgid ""
 "you more detailed levels of analysis of your stock operations and the "
 "organization of your warehouses."
 msgstr ""
-"在Odoo中, 库位按照级别进行架构组织。根据库位之间的父－子关系, "
+"在flectra中, 库位按照级别进行架构组织。根据库位之间的父－子关系, "
 "你可以把库位配置为一个树形结构。这能让你对库存操作进行详细的分析以及对仓库进行更好的管理。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes.rst:3
@@ -3934,10 +3934,10 @@ msgstr "交叉转运是指将收到的产品直接发给客户，而不让产品
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/cross_dock.rst:11
 msgid ""
 "For more information on how to organize your warehouse, read our blog: `What"
-" is cross-docking and is it for me? <https://www.flectra.com/blog/business-"
+" is cross-docking and is it for me? <https://www.flectrahq.com/blog/business-"
 "hacks-1/post/what-is-cross-docking-and-is-it-for-me-270>`__"
 msgstr ""
-"关于如何组织你的仓库的更多信息，阅读博客：`什么是交叉转运？我适合使用交叉转运吗？ <https://www.flectra.com/blog"
+"关于如何组织你的仓库的更多信息，阅读博客：`什么是交叉转运？我适合使用交叉转运吗？ <https://www.flectrahq.com/blog"
 "/business-hacks-1/post/what-is-cross-docking-and-is-it-for-me-270>`__"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/cross_dock.rst:16
@@ -3987,7 +3987,7 @@ msgid ""
 "your *Customer Location. Both are in state *Waiting Another Operation* "
 "because we still need to order the product to our supplier."
 msgstr ""
-"完成后，为产品创建销售订单并确认。Odoo将自动创建与销售订单关联的两项调拨操作。第一项是从*入货库位*到*出货库位*的调拨操作，对应将产品移至*交叉转运*区域。第二项是从*出货库位*到*客户库位*的发货单。两者状态都是*等待其他作业*，因为你还需要向供应商订购产品。"
+"完成后，为产品创建销售订单并确认。flectra将自动创建与销售订单关联的两项调拨操作。第一项是从*入货库位*到*出货库位*的调拨操作，对应将产品移至*交叉转运*区域。第二项是从*出货库位*到*客户库位*的发货单。两者状态都是*等待其他作业*，因为你还需要向供应商订购产品。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/cross_dock.rst:56
 msgid ""
@@ -4259,7 +4259,7 @@ msgid ""
 "by the rules. Yes, Flectra simplifies your life."
 msgstr ""
 "可以使用具有 *推拉规则* 功能的 *路线* 配置此类战略流程。 正确配置所有内容后，库存应用可以按照规则给出的说明自动生成转帐。 "
-"是的，Odoo简化了您的工作流程。"
+"是的，flectra简化了您的工作流程。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/use-routes.rst:16
 msgid "Inside the warehouse"
@@ -4323,8 +4323,8 @@ msgid ""
 "*Customer Location* is found, and a transfer between the two locations is "
 "created."
 msgstr ""
-"我们可以说 *拉规则* 用于履行客户订单（销售订单）。 因此，Odoo会在 *客户位置* 生成订单中每种产品的需求。 由于 *拉规则* "
-"是由需求触发的，因此Odoo会在 *客户位置* 上查找 *拉规则* 。 在我们的案例中，找到了将产品从 *发货区域* 转移到 *客户地点* "
+"我们可以说 *拉规则* 用于履行客户订单（销售订单）。 因此，flectra会在 *客户位置* 生成订单中每种产品的需求。 由于 *拉规则* "
+"是由需求触发的，因此flectra会在 *客户位置* 上查找 *拉规则* 。 在我们的案例中，找到了将产品从 *发货区域* 转移到 *客户地点* "
 "的交货单提取规则，并创建了两个地点之间的转移。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/use-routes.rst:65
@@ -4335,7 +4335,7 @@ msgid ""
 "triggered until a transfer between the *Stock* and the *Picking Area* is "
 "created."
 msgstr ""
-"然后，Odoo发现了另一个拉规则，试图满足 *装运区域* 的需求: *包装规则* ，将产品从*包装区域* 转移到 *装运区域* "
+"然后，flectra发现了另一个拉规则，试图满足 *装运区域* 的需求: *包装规则* ，将产品从*包装区域* 转移到 *装运区域* "
 "。最后，其他规则被触发，直到创建了 *库存* 和 *拣货区* 之间的转移。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/use-routes.rst:72
@@ -4344,7 +4344,7 @@ msgid ""
 "going backwards. While working, the operator process these transfers in the "
 "opposite order: first the picking, then the packing, then the delivery "
 "order."
-msgstr "所有这些转移都是由Odoo预先生成的，从结尾开始一直逆向计算。 在工作时，操作员以倒序处理这些转移：首先是拣货，然后是包装，然后是交货单。"
+msgstr "所有这些转移都是由flectra预先生成的，从结尾开始一直逆向计算。 在工作时，操作员以倒序处理这些转移：首先是拣货，然后是包装，然后是交货单。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/use-routes.rst:77
 msgid "Push Rules"
@@ -4401,7 +4401,7 @@ msgstr "使用路线和规则"
 msgid ""
 "Since *Routes* are a collection of *Push and Pull Rules*, Flectra helps you "
 "manage advanced routes configuration such as:"
-msgstr "由于 *路线* 是 *推拉规则* 的集合，因此Odoo可帮助您管理高级路线配置，例如："
+msgstr "由于 *路线* 是 *推拉规则* 的集合，因此flectra可帮助您管理高级路线配置，例如："
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/use-routes.rst:110
 msgid "Manage product manufacturing chains;"
@@ -4454,7 +4454,7 @@ msgid ""
 "There, open your warehouse and edit it to see the pre-configured routes for "
 "incoming and outgoing shipments."
 msgstr ""
-"仓库菜单中提供了Odoo的预配置路线。 要找到它，请前往 :menuselection:`库存 --> 配置 --> 仓库。 "
+"仓库菜单中提供了flectra的预配置路线。 要找到它，请前往 :menuselection:`库存 --> 配置 --> 仓库。 "
 "在此打开您的仓库并进行编辑，以查看进出货物的预配置路线。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/use-routes.rst:144
@@ -4465,7 +4465,7 @@ msgid ""
 "--> Routes` to see the routes Flectra generated for you."
 msgstr ""
 "一些更高级的路线（例如分装船）已经配置为使您的生活更轻松。 这些是根据您的运输选择而定。 做出选择后，前往 :menuselection:`库存 -->"
-" 配置 --> 路线，查看Odoo为您生成的路线。"
+" 配置 --> 路线，查看flectra为您生成的路线。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/use-routes.rst:153
 msgid ""
@@ -4578,7 +4578,7 @@ msgid ""
 "The available rules trigger various actions. If Flectra offers *Push* and "
 "*Pull* rules, others are also available. Here are some explanations for all "
 "of them:"
-msgstr "可用规则触发各种动作。 如果Odoo提供 *推* 和 *拉* 规则，其他规则也是可用。 这是所有这些的一些解释："
+msgstr "可用规则触发各种动作。 如果flectra提供 *推* 和 *拉* 规则，其他规则也是可用。 这是所有这些的一些解释："
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/use-routes.rst:259
 msgid ""
@@ -4589,7 +4589,7 @@ msgid ""
 "fulfill this need."
 msgstr ""
 "**提货** ：该规则由特定库存位置中的产品需求触发。 需求可能来自已确认的销售订单，也可能来自需要特定组件的制造订单。 "
-"当需求出现在源位置时，Odoo会生成一个行动以满足需求。"
+"当需求出现在源位置时，flectra会生成一个行动以满足需求。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/use-routes.rst:264
 msgid ""
@@ -4766,7 +4766,7 @@ msgid ""
 " taking products off the receiving shipments and directly putting them into "
 "the most appropriate location."
 msgstr ""
-"优秀的仓库实施方案会确保产品自动移至合适的目的地库位。为了简化这一流程，Odoo使用*上架策略*功能。但什么是上架策略？上架是指从接收到的货物中分出产品并将它们直接送至最合适的库位。"
+"优秀的仓库实施方案会确保产品自动移至合适的目的地库位。为了简化这一流程，flectra使用*上架策略*功能。但什么是上架策略？上架是指从接收到的货物中分出产品并将它们直接送至最合适的库位。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/routes/strategies/putaway.rst:7
 msgid ""
@@ -5179,7 +5179,7 @@ msgstr "如何取消发给货代的发货请求？"
 msgid ""
 "Flectra can handle various delivery methods, including third party shippers. "
 "Flectra will be linked with the transportation company tracking system."
-msgstr "Odoo可以处理不同交货方式, 包含第三方货代。Odoo可以和第三方货代公司的追踪系统链接。"
+msgstr "flectra可以处理不同交货方式, 包含第三方货代。flectra可以和第三方货代公司的追踪系统链接。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/operation/cancel.rst:12
 msgid ""
@@ -5362,8 +5362,8 @@ msgid ""
 "manage the transport company, the real prices and the destination. And "
 "finally, you will be able to print the shipping labels directly from Flectra."
 msgstr ""
-"Odoo可以处理不同的交货方式, 包含与第三方的货代的追踪信息集成。它可以让你管理货运公司, 运输的实际价格和目的地。最终, "
-"你可以在Odoo直接打印运单上的标签。"
+"flectra可以处理不同的交货方式, 包含与第三方的货代的追踪信息集成。它可以让你管理货运公司, 运输的实际价格和目的地。最终, "
+"你可以在flectra直接打印运单上的标签。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/operation/labels.rst:18
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/third_party_shipper.rst:17
@@ -5517,7 +5517,7 @@ msgid ""
 "By default, Flectra considers that your delivery is composed of one package. "
 "But you can easily ship your deliveries with more than one package. It is "
 "fully integrated with the third-party shippers."
-msgstr "默认状况下, Odoo会认为发货单只有一个包裹构成, 但是你可以在一张发货单上配置多个包裹。它和第三方货运公司完全集成起来。"
+msgstr "默认状况下, flectra会认为发货单只有一个包裹构成, 但是你可以在一张发货单上配置多个包裹。它和第三方货运公司完全集成起来。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/operation/multipack.rst:15
 msgid ""
@@ -5609,14 +5609,14 @@ msgid ""
 "Flectra can handle various delivery methods, but it is not activated by "
 "default. Delivery methods can be used for your sale orders, your deliveries "
 "but also on your e-commerce."
-msgstr "Odoo可以处理不同的交货方式, 但是该功能在默认设置下没有激活。交货方式可以用在销售订单上, 交货单上还可以用在电商中。"
+msgstr "flectra可以处理不同的交货方式, 但是该功能在默认设置下没有激活。交货方式可以用在销售订单上, 交货单上还可以用在电商中。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/delivery_method.rst:12
 msgid ""
 "Delivery methods allow you to manage the transport company, the price and "
 "the destination. You can even integrate Flectra with external shippers to "
 "compute the real price and the packagings."
-msgstr "交货方式能让你管理货代供应商的公司, 价格以及目的地。你甚至还可以集成Odoo和外部的货运公司来计算实际价格和包装"
+msgstr "交货方式能让你管理货代供应商的公司, 价格以及目的地。你甚至还可以集成flectra和外部的货运公司来计算实际价格和包装"
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/delivery_method.rst:20
 msgid "Install the inventory module"
@@ -5675,7 +5675,7 @@ msgid ""
 "price and packagings, and handle the printing the shipping labels. See "
 ":doc:`third_party_shipper`"
 msgstr ""
-"你可以把Odoo和外部的货代公司进行集成, 这样可以计算实际的价格, 包装, 以及处理打印装箱单的标签等。参照 "
+"你可以把flectra和外部的货代公司进行集成, 这样可以计算实际的价格, 包装, 以及处理打印装箱单的标签等。参照 "
 ":doc:`third_party_shipper` "
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/delivery_method.rst:74
@@ -5718,7 +5718,7 @@ msgstr ":doc:`../operation/invoicing` "
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/dhl_credentials.rst:3
 msgid "How to get DHL credentials for integration with Flectra?"
-msgstr "如何得到用于集成DHL到Odoo的凭证？"
+msgstr "如何得到用于集成DHL到flectra的凭证？"
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/dhl_credentials.rst:5
 msgid "In order to use the Flectra DHL API, you will need:"
@@ -5769,7 +5769,7 @@ msgid ""
 "Flectra can be linked with the transportation company tracking system. It will "
 "allow you to manage the transport company, the real prices and the "
 "destination."
-msgstr "Odoo可以处理不同的交货方式, 包含第三方货代。Odoo可以和货运公司的追踪系统链接。这会让你管理货代公司, 运输价格以及目的地。"
+msgstr "flectra可以处理不同的交货方式, 包含第三方货代。flectra可以和货运公司的追踪系统链接。这会让你管理货代公司, 运输价格以及目的地。"
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/third_party_shipper.rst:19
 msgid ""
@@ -5899,7 +5899,7 @@ msgstr "如何得到用于集成UPS的证书？"
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/ups_credentials.rst:5
 msgid "In order to use the Flectra UPS API, you will need:"
-msgstr "要使用Odoo UPS API, 你需要 :"
+msgstr "要使用flectra UPS API, 你需要 :"
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/ups_credentials.rst:7
 msgid "A UPS.com user ID and password"
@@ -6062,7 +6062,7 @@ msgid ""
 "it so you can keep tracking manufacturing orders and your employees have an "
 "alternative work center to use."
 msgstr ""
-"你必须追踪员工的工作，知晓何时使用了哪个工作中心，以便有效安排维护。你现在可以利用Odoo配置以上事务，以便追踪制造订单，让员工也有可使用的替代工作中心。"
+"你必须追踪员工的工作，知晓何时使用了哪个工作中心，以便有效安排维护。你现在可以利用flectra配置以上事务，以便追踪制造订单，让员工也有可使用的替代工作中心。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/alternative_wc.rst:15
 msgid ""
@@ -6140,7 +6140,7 @@ msgid ""
 "With Flectra, you can link multiple BoMs to each product and use it to describe"
 " multiple variants of them. Each BoM will, yet, be associated with one "
 "product only."
-msgstr "在Odoo中，你可将多个物料清单与一种产品关联，用于描述产品的多种变体。但每个物料清单仅与一种产品挂钩。"
+msgstr "在flectra中，你可将多个物料清单与一种产品关联，用于描述产品的多种变体。但每个物料清单仅与一种产品挂钩。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/bill_configuration.rst:13
 msgid ""
@@ -6228,7 +6228,7 @@ msgstr "添加副产品"
 msgid ""
 "In Flectra, a *by-product* is any product produced by a *BoM* in addition to "
 "the primary product."
-msgstr "在Odoo中，*副产品*是指*物料清单*产出主产品之外的其他产品。"
+msgstr "在flectra中，*副产品*是指*物料清单*产出主产品之外的其他产品。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/bill_configuration.rst:78
 msgid ""
@@ -6255,7 +6255,7 @@ msgid ""
 " the kit product is to be managed. In either case, both the *Inventory* and "
 "*Manufacturing* apps must be installed."
 msgstr ""
-"*套件*是指交货前未组装或混合的一组部件。它们在Odoo中被称为*物料清单*。根据套件产品的管理形式，有两种基本的*套件*配置方法。每种方法中，都必须安装“库存”和“制造”应用程序。"
+"*套件*是指交货前未组装或混合的一组部件。它们在flectra中被称为*物料清单*。根据套件产品的管理形式，有两种基本的*套件*配置方法。每种方法中，都必须安装“库存”和“制造”应用程序。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/kit_shipping.rst:12
 msgid "Manage Stock of Component Products"
@@ -6344,7 +6344,7 @@ msgid ""
 "same product. Simply enable variants from :menuselection:`Configuration --> "
 "Settings`."
 msgstr ""
-"Odoo允许你为同一产品的多个变量使用物料清单。启用变量的方式很简单，只需从 :menuselection:`配置 --> 设置` 中选择。"
+"flectra允许你为同一产品的多个变量使用物料清单。启用变量的方式很简单，只需从 :menuselection:`配置 --> 设置` 中选择。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/product_variants.rst:12
 msgid ""
@@ -6494,7 +6494,7 @@ msgid ""
 "Materials* or to represent your manufacturing flow more accurately. A "
 "*subassembly product* is a manufactured product that is used as a component "
 "to make another one."
-msgstr "在Odoo中，你可用分组件产品简化复杂的*物料清单*，或更准确地代表制造过程。*分组件产品*是指用作另一个产品部件的已制产品。"
+msgstr "在flectra中，你可用分组件产品简化复杂的*物料清单*，或更准确地代表制造过程。*分组件产品*是指用作另一个产品部件的已制产品。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/sub_assemblies.rst:10
 msgid ""
@@ -6583,7 +6583,7 @@ msgstr "这是转包制造“C”的例子，它是用原材料“A”和“B”
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/subcontracting.rst:23
 msgid ""
 "With its subcontracting feature, Flectra helps you handle this flow easily."
-msgstr "凭借其分包功能，Odoo帮助您轻松处理这一流程。"
+msgstr "凭借其分包功能，flectra帮助您轻松处理这一流程。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/subcontracting.rst:28
 msgid ""
@@ -6634,7 +6634,7 @@ msgid ""
 "products are received, validate the receipt (2), with the actual quantity "
 "received. Then Flectra automatically created several inventory moves:"
 msgstr ""
-"一旦*PO*被验证(1)，将创建一个等待的收据。当收到产品时，验证收据(2)，与实际收到的数量。然后Odoo将自动创建了几个库存移动的记录:"
+"一旦*PO*被验证(1)，将创建一个等待的收据。当收到产品时，验证收据(2)，与实际收到的数量。然后flectra将自动创建了几个库存移动的记录:"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/subcontracting.rst:68
 msgid ""
@@ -6657,7 +6657,7 @@ msgid ""
 "Of course, Flectra does all the transactions for you, automatically. Simply "
 "control the vendor bill with the usual matching process with the purchase "
 "order."
-msgstr "当然，Odoo会自动为你做所有的交易。只需通过与采购订单的常规匹配过程控制供应商账单。"
+msgstr "当然，flectra会自动为你做所有的交易。只需通过与采购订单的常规匹配过程控制供应商账单。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/subcontracting.rst:79
 msgid ""
@@ -6667,7 +6667,7 @@ msgid ""
 "materials used."
 msgstr ""
 "*采购订单* "
-"是可选的。如果您想与正确的分包商手动创建收据，Odoo仍然可以执行所有的行动。如果转包商没有对每一件物品给出固定的价格，而是对所使用的时间和材料给出固定的价格，那么这种方法是有用的。"
+"是可选的。如果您想与正确的分包商手动创建收据，flectra仍然可以执行所有的行动。如果转包商没有对每一件物品给出固定的价格，而是对所使用的时间和材料给出固定的价格，那么这种方法是有用的。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/subcontracting.rst:85
 msgid "Inventory Valuation"
@@ -6861,7 +6861,7 @@ msgid ""
 "manufacturing step but, because the manufacturing process is handled by an "
 "external party, it can be defined on the product reception."
 msgstr ""
-"Odoo品控应用程序可以控制分包商生产产品的质量。品控检查可以在生产过程中进行，但由于生产过程是由外部方处理的，所以可以在产品接收过程中进行定义。"
+"flectra品控应用程序可以控制分包商生产产品的质量。品控检查可以在生产过程中进行，但由于生产过程是由外部方处理的，所以可以在产品接收过程中进行定义。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/subcontracting.rst:224
 msgid ""
@@ -6963,7 +6963,7 @@ msgid ""
 "In case you manually edit the *To replenish* quantity, a small cross will "
 "appear on the left. In case you want to go back to the automatically "
 "computed value given by Flectra, you can click the cross."
-msgstr "如你手动编辑*待补货*数量，左侧将出现一个小十字。如你想要返回Odoo提供的自动计算值，你可点击十字图标。"
+msgstr "如你手动编辑*待补货*数量，左侧将出现一个小十字。如你想要返回flectra提供的自动计算值，你可点击十字图标。"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/use_mps.rst:83
 msgid "Cells color signification"

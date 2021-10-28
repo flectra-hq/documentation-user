@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # r <263737@qq.com>, 2021
-# Emily Jia <eji@flectra.com>, 2021
+# Emily Jia <eji@flectrahq.com>, 2021
 # v2exerer <9010446@qq.com>, 2021
 # 开源智造OSCG-老杨 <yangxunbo@163.com>, 2021
-# Manga Tsang <mts@flectra.com>, 2021
+# Manga Tsang <mts@flectrahq.com>, 2021
 # 飛行de魚 <cnpioneer@163.com>, 2021
 # LINYUN TONG <tong.linyun@elico-corp.com>, 2021
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2021
@@ -20,7 +20,7 @@
 # xiaobin wu <bd5dml@gmail.com>, 2021
 # lttlsnk <lttlsnk@gmail.com>, 2021
 # bf2549c5415a9287249cba2b8a5823c7, 2021
-# Felix Yuen <fyu@flectra.com>, 2021
+# Felix Yuen <fyu@flectrahq.com>, 2021
 # Daniel Yang <daniel.yang.zhenyu@gmail.com>, 2021
 # inspur qiuguodong <qiuguodong@inspur.com>, 2021
 # waveyeung <waveyeung@qq.com>, 2021
@@ -43,11 +43,11 @@
 # zpq001 <zpq001@live.com>, 2021
 # Eddie Lim <bhweelim@yahoo.com>, 2021
 # guohuadeng <guohuadeng@hotmail.com>, 2021
-# Cécile Collart <cco@flectra.com>, 2021
+# Cécile Collart <cco@flectrahq.com>, 2021
 # 稀饭~~ <wangwhai@qq.com>, 2021
 # John Lin <linyinhuan@139.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
-# Mandy Choy <mnc@flectra.com>, 2021
+# Mandy Choy <mnc@flectrahq.com>, 2021
 # Datasource International <Hennessy@datasourcegroup.com>, 2021
 # 
 #, fuzzy
@@ -91,7 +91,7 @@ msgid ""
 "Importing your bank statements in Flectra Accounting allows you to keep track "
 "of the financial movements that occur on your bank accounts and reconcile "
 "them with the transactions recorded in your accounting."
-msgstr "将银行对账单导入Odoo的会计模块，以便于你跟踪银行账户的资金流动，并且还方便你调节银行对账单与会计分录以保持一致。"
+msgstr "将银行对账单导入flectra的会计模块，以便于你跟踪银行账户的资金流动，并且还方便你调节银行对账单与会计分录以保持一致。"
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_statements.rst:9
 msgid ""
@@ -119,7 +119,7 @@ msgstr "导入银行对账单文件"
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_statements.rst:21
 msgid "Flectra supports multiple file formats to import bank statements:"
-msgstr "Odoo支持银行对账单的文件格式有多种："
+msgstr "flectra支持银行对账单的文件格式有多种："
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_statements.rst:23
 msgid "SEPA recommended Cash Management format (CAMT.053)"
@@ -231,7 +231,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:8
 msgid ""
 "To check if your bank is compatible with Flectra, go to `Flectra Accounting "
-"Features <https://www.flectra.com/page/accounting-features>`_, and click on "
+"Features <https://www.flectrahq.com/page/accounting-features>`_, and click on "
 "*See list of supported institutions*."
 msgstr ""
 
@@ -241,7 +241,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:17
 msgid "To connect to the banks, Flectra uses multiple web-services:"
-msgstr "为了连接到银行，Odoo使用了多种Web服务："
+msgstr "为了连接到银行，flectra使用了多种Web服务："
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:19
 msgid "**Plaid**: United States of America and Canada"
@@ -308,15 +308,15 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:30
 msgid ""
-"To be able to use this service, you need to have a valid Flectra Enterprise "
+"To be able to use this service, you need to have a valid Flectra Professional "
 "subscription. So make sure that your database is registered with your Flectra "
-"Enterprise contract. We also use a proxy between your database and the third"
+"Professional contract. We also use a proxy between your database and the third"
 " party provider so, in case of a connection error, please check that you "
 "don't have a firewall or a proxy blocking the following address:"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:36
-msgid "https://production.odoofin.com/"
+msgid "https://production.flectrafin.com/"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:39
@@ -405,7 +405,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:94
 msgid ""
 "To report a connection error to the `Flectra support "
-"<https://www.flectra.com/help>`_, go to :menuselection:`Accounting --> "
+"<https://www.flectrahq.com/help>`_, go to :menuselection:`Accounting --> "
 "Configuration --> Online Synchronization`, select the connection that "
 "failed, and copy the error description and the reference."
 msgstr ""
@@ -423,7 +423,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:105
 msgid ""
 "This disconnection can be caused by the Flectra support. In this case, please "
-"contact the `support <https://www.flectra.com/help>`_ directly with your client"
+"contact the `support <https://www.flectrahq.com/help>`_ directly with your client"
 " id or the reference of the error listed in the chatter."
 msgstr ""
 
@@ -525,7 +525,7 @@ msgstr "**在线版本** ：是的，即使您受益于一个应用程序免费�
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:162
 msgid ""
-"**Enterprise Version**: Yes, if you have a valid enterprise contract linked "
+"**Professional Version**: Yes, if you have a valid professional contract linked "
 "to your database."
 msgstr "**企业版本**：是的，如果您有链接到数据库的有效企业合同。"
 
@@ -557,7 +557,7 @@ msgstr "某些银行有额外的安全措施，需要额外的步骤，如短信
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:180
 msgid "Not all of my past transactions are in Flectra, why?"
-msgstr "所有我的过去交易都不在Odoo，为什么？"
+msgstr "所有我的过去交易都不在flectra，为什么？"
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:182
 msgid ""
@@ -586,9 +586,9 @@ msgstr ""
 msgid ""
 "If your bank account is properly linked to a journal and posted transactions"
 " are not visible in your database, please `submit a support ticket "
-"<https://www.flectra.com/help>`_."
+"<https://www.flectrahq.com/help>`_."
 msgstr ""
-"如果您的银行帐户正确链接到日记帐，并且已过帐的交易在您的数据库中不可见，`请'提交支持票证 <https://www.flectra.com/help>`_ "
+"如果您的银行帐户正确链接到日记帐，并且已过帐的交易在您的数据库中不可见，`请'提交支持票证 <https://www.flectrahq.com/help>`_ "
 "。"
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:197
@@ -630,7 +630,7 @@ msgid ""
 "number of bank institutions that can be synchronized with Flectra."
 msgstr ""
 "**Ponto** 是一项服务，可让公司和专业人士在一个地方汇总其帐户，并直接在一个应用程序中查看其所有交易。 "
-"它是一种第三方解决方案，正在不断扩大可以与Odoo同步的银行机构的数量。"
+"它是一种第三方解决方案，正在不断扩大可以与flectra同步的银行机构的数量。"
 
 #: ../../content/applications/finance/accounting/bank/feeds/ponto.rst:13
 msgid ""
@@ -690,7 +690,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/ponto.rst:50
 msgid "Link your Ponto account with your Flectra database"
-msgstr "将您的Ponto帐户与Odoo数据库链接"
+msgstr "将您的Ponto帐户与flectra数据库链接"
 
 #: ../../content/applications/finance/accounting/bank/feeds/ponto.rst:52
 msgid ""
@@ -819,7 +819,7 @@ msgstr ""
 msgid ""
 "Flectra can synchronize directly with your bank to get all bank statements "
 "imported automatically into your database."
-msgstr "Odoo可以直接与您的银行同步，以将所有银行对帐单自动导入到您的数据库中。"
+msgstr "flectra可以直接与您的银行同步，以将所有银行对帐单自动导入到您的数据库中。"
 
 #: ../../content/applications/finance/accounting/bank/feeds/saltedge.rst:16
 msgid "Salt Edge is a free third-party provider."
@@ -953,7 +953,7 @@ msgid ""
 "A company might have several bank accounts or cash registers. Within flectra it"
 " is possible to handle internal transfers of money with only a couple of "
 "clicks."
-msgstr "一个公司可能有几个银行账号或现金账号。使用odoo, 内部转移钱只是几个点击就可解决了。"
+msgstr "一个公司可能有几个银行账号或现金账号。使用flectra, 内部转移钱只是几个点击就可解决了。"
 
 #: ../../content/applications/finance/accounting/bank/misc/interbank.rst:9
 msgid ""
@@ -974,7 +974,7 @@ msgid ""
 "default transfer account go into the accounting module settings, select "
 ":menuselection:`Configuration --> Settings`."
 msgstr ""
-"处理内部转账需要在科目表中添加转账科目。Odoo将根据你所在国家的科目表自动生成一个科目。如要配置科目表并检查默认的转账科目，前往会计模块设置，并选择 "
+"处理内部转账需要在科目表中添加转账科目。flectra将根据你所在国家的科目表自动生成一个科目。如要配置科目表并检查默认的转账科目，前往会计模块设置，并选择 "
 ":menuselection:`配置 --> 设置` 。"
 
 #: ../../content/applications/finance/accounting/bank/misc/interbank.rst:25
@@ -1064,7 +1064,7 @@ msgstr "导入银行对账单并调节"
 msgid ""
 "Note that the bank balance computed by Flectra is different that the last "
 "statement of your bank."
-msgstr "注意, 银行余额在Odoo的计算与银行最新的对账单是不同的."
+msgstr "注意, 银行余额在flectra的计算与银行最新的对账单是不同的."
 
 #: ../../content/applications/finance/accounting/bank/misc/interbank.rst:97
 msgid ""
@@ -1084,7 +1084,7 @@ msgid ""
 "that no errors were made. Fill in the **Ending balance** and click on the "
 "**Reconcile** button."
 msgstr ""
-"填上 **交易行** 。一旦完成, Odoo将显示 **计算余额** 。计算的余额是理论上你的账户的余额。如果与银行对账单一致, 就意味着没有错误。填写"
+"填上 **交易行** 。一旦完成, flectra将显示 **计算余额** 。计算的余额是理论上你的账户的余额。如果与银行对账单一致, 就意味着没有错误。填写"
 " **期末余额** , 然后点击 **对账** 按钮。"
 
 #: ../../content/applications/finance/accounting/bank/misc/interbank.rst:114
@@ -1319,11 +1319,11 @@ msgid ""
 "lot of time. Luckily, with Flectra you can very easily match your invoices or "
 "any other payment document with your bank statements."
 msgstr ""
-"将会计记录与银行对账单匹配的工作量比较大。你需要找到对应的发票，比较发票金额及合作伙伴详情与银行对账单是否相符。这些步骤需要很多时间。幸运的是，使用Odoo，你可以很容易地将发票或其他付款文件与银行对账单匹配。"
+"将会计记录与银行对账单匹配的工作量比较大。你需要找到对应的发票，比较发票金额及合作伙伴详情与银行对账单是否相符。这些步骤需要很多时间。幸运的是，使用flectra，你可以很容易地将发票或其他付款文件与银行对账单匹配。"
 
 #: ../../content/applications/finance/accounting/bank/reconciliation/use_cases.rst:10
 msgid "Two options of the reconciliation process exist in Flectra."
-msgstr "Odoo中有2种对账过程选项。"
+msgstr "flectra中有2种对账过程选项。"
 
 #: ../../content/applications/finance/accounting/bank/reconciliation/use_cases.rst:12
 msgid "We can directly specify the payment on the invoice"
@@ -1374,7 +1374,7 @@ msgid ""
 "By clicking on **register payment,** we are telling Flectra that our customer "
 "has paid the Invoice. We thus have to specify the amount and the payment "
 "method."
-msgstr "通过点击**付款登记**，我们告诉Odoo，客户已支付。我们需要在此指定金额和支付方式。"
+msgstr "通过点击**付款登记**，我们告诉flectra，客户已支付。我们需要在此指定金额和支付方式。"
 
 #: ../../content/applications/finance/accounting/bank/reconciliation/use_cases.rst:52
 msgid ""
@@ -1418,7 +1418,7 @@ msgstr "在仪表板, 点击 **调节# 项** "
 msgid ""
 "If everything was right (correct partner name, right amount) flectra will do "
 "the reconciliations **automatically**."
-msgstr "如果一切是正确的 (正确的合作伙伴名字，金额正确)， odoo会 **自动** 调节。"
+msgstr "如果一切是正确的 (正确的合作伙伴名字，金额正确)， flectra会 **自动** 调节。"
 
 #: ../../content/applications/finance/accounting/bank/reconciliation/use_cases.rst:90
 msgid "If some issues are found, you will need to take **manual actions**."
@@ -1461,7 +1461,7 @@ msgstr ""
 msgid ""
 "In Flectra Accounting, each Bank Account is configured to have a dedicated "
 "*Journal* which is configured to post all entries in a dedicated *Account*."
-msgstr "在Odoo 会计应用中，每个银行帐户都配置有专用的 *日记帐 * ，该日记帐配置为在专用 *帐户* 中过帐所有条目。"
+msgstr "在flectra 会计应用中，每个银行帐户都配置有专用的 *日记帐 * ，该日记帐配置为在专用 *帐户* 中过帐所有条目。"
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:12
 msgid ""
@@ -1486,7 +1486,7 @@ msgid ""
 " your bank account manually and :doc:`upload the bank statements manually "
 "<../feeds/bank_statements>`."
 msgstr ""
-"您可以将银行帐户连接到Odoo数据库，也可以手动配置银行帐户，然后 :doc:`手动上传银行对帐单 "
+"您可以将银行帐户连接到flectra数据库，也可以手动配置银行帐户，然后 :doc:`手动上传银行对帐单 "
 "<../feeds/bank_statements>`。"
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:31
@@ -1536,7 +1536,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:56
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:65
 msgid "**Name**: the bank account's name, as displayed on Flectra."
-msgstr "**名称** ：银行帐户的名称，如Odoo上所示。"
+msgstr "**名称** ：银行帐户的名称，如flectra上所示。"
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:57
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:66
@@ -1555,7 +1555,7 @@ msgstr "**银行** ：单击 *创建和编辑* 以配置银行的详细信息。
 msgid ""
 "**Code**: this code is your Journal's *Short Code*, as displayed on Flectra. By"
 " default, Flectra creates a new Journal with this Short Code."
-msgstr "**代码** ：此代码是您的日记帐的 *短代码* ，如Odoo所示。 默认情况下，Odoo会使用此短代码创建一个新日记帐。"
+msgstr "**代码** ：此代码是您的日记帐的 *短代码* ，如flectra所示。 默认情况下，flectra会使用此短代码创建一个新日记帐。"
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:62
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:71
@@ -1572,7 +1572,7 @@ msgstr ""
 msgid ""
 "Flectra detects the bank account type (e.g., IBAN) and enables some features "
 "accordingly."
-msgstr "Odoo会检测银行帐户类型（例如IBAN），并相应地启用某些功能。"
+msgstr "flectra会检测银行帐户类型（例如IBAN），并相应地启用某些功能。"
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:75
 msgid "Advanced configuration"
@@ -1614,7 +1614,7 @@ msgstr ":doc:`../feeds/bank_statements`"
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:95
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:194
-msgid "`Flectra Tutorials: Accounting Basics <https://www.flectra.com/r/lsZ>`_"
+msgid "`Flectra Tutorials: Accounting Basics <https://www.flectrahq.com/r/lsZ>`_"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:3
@@ -1629,14 +1629,14 @@ msgid ""
 "the currency of the company and the value in the currency of the "
 "transaction."
 msgstr ""
-"在Odoo，每一笔交易以公司的默认币种记录。报告都是基于公司的币种。对于以其他币种发生的交易, "
-"Odoo同时以公司的币种的价值，以及以交易币种的价值存储。"
+"在flectra，每一笔交易以公司的默认币种记录。报告都是基于公司的币种。对于以其他币种发生的交易, "
+"flectra同时以公司的币种的价值，以及以交易币种的价值存储。"
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:11
 msgid ""
 "When you have a bank account in a foreign currencies, for every transaction,"
 " Flectra stores two values:"
-msgstr "当你有一个外币的银行账户, 对于每笔交易, Odoo都保存两个值 :"
+msgstr "当你有一个外币的银行账户, 对于每笔交易, flectra都保存两个值 :"
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:14
 msgid "The debit/credit in the currency of the company"
@@ -1679,7 +1679,7 @@ msgid ""
 "created by default, but you should activate the ones you plan to support (to"
 " activate a currency, check its \"Active\" field)."
 msgstr ""
-"如Odoo配置为支持多币种，你应激活计划使用的币种。为此，进入菜单 :menuselection:`配置 --> "
+"如flectra配置为支持多币种，你应激活计划使用的币种。为此，进入菜单 :menuselection:`配置 --> "
 "币种`。默认情况下，所有币种都已创建，但你应激活计划支持的币种（要激活某币种，勾选其*有效*字段）。"
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:42
@@ -1706,7 +1706,7 @@ msgstr "在会计应用程序中, 我们首先去 :menuselection:`配置 --> 会
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:60
 msgid ""
 "Once you save this bank account, Flectra will create all the documents for you:"
-msgstr "一旦你保存这个银行账户, Odoo将为您创建的所有文件 :"
+msgstr "一旦你保存这个银行账户, flectra将为您创建的所有文件 :"
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:63
 msgid "An account in the trial balance"
@@ -1750,13 +1750,13 @@ msgid ""
 " gain or loss at the reconciliation of the payment with the invoice, "
 "depending if the currency rate increased or decreased between the invoice "
 "and the payment date."
-msgstr "这是你所要做的。Odoo将在调节时, 自动将发票日和付款日的汇率差计入外汇损益。"
+msgstr "这是你所要做的。flectra将在调节时, 自动将发票日和付款日的汇率差计入外汇损益。"
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:92
 msgid ""
 "Note that you can pay a foreign bill with another currency. In such a case, "
 "Flectra will automatically convert between the two currencies."
-msgstr "注意, 您可以用另一种货币支付外汇发票。在这种情况下, Odoo将自动完成两种货币之间的转换。"
+msgstr "注意, 您可以用另一种货币支付外汇发票。在这种情况下, flectra将自动完成两种货币之间的转换。"
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:96
 msgid "Customers Statements"
@@ -1774,7 +1774,7 @@ msgid ""
 "If you have several invoices with different currencies for the same "
 "customer, Flectra will split the customer statement by currency, as shown in "
 "the report below."
-msgstr "如果同一客户有几个不同货币的发票, Odoo将按货币分类, 如下报告所示。"
+msgstr "如果同一客户有几个不同货币的发票, flectra将按货币分类, 如下报告所示。"
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:109
 msgid ""
@@ -5975,10 +5975,10 @@ msgstr "与 Flectra 的兼容是非常容易的。"
 msgid ""
 "Your company is requested by the tax administration to deliver a certificate"
 " of conformity testifying that your software complies with the anti-fraud "
-"legislation. This certificate is granted by Flectra SA to Flectra Enterprise users"
-" `here <https://www.flectra.com/my/contract/french-certification/>`_. If you "
-"use Flectra Community, you should :doc:`upgrade to Flectra Enterprise "
-"</administration/enterprise>` or contact your Flectra service provider."
+"legislation. This certificate is granted by FlectraHQ, Inc. to Flectra Professional users"
+" `here <https://www.flectrahq.com/my/contract/french-certification/>`_. If you "
+"use Flectra Community, you should :doc:`upgrade to Flectra Professional "
+"</administration/professional>` or contact your Flectra service provider."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/france.rst:58
@@ -6020,10 +6020,10 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/france.rst:72
 msgid ""
-"Download the mandatory certificate of conformity delivered by Flectra SA `here "
-"<https://www.flectra.com/my/contract/french-certification/>`__."
+"Download the mandatory certificate of conformity delivered by FlectraHQ, Inc. `here "
+"<https://www.flectrahq.com/my/contract/french-certification/>`__."
 msgstr ""
-"下载 Flectra SA ' 这里 ' 提供的强制性合格证书<https://www.flectra.com/my/contract/french-"
+"下载 FlectraHQ, Inc. ' 这里 ' 提供的强制性合格证书<https://www.flectrahq.com/my/contract/french-"
 "certification/>`__."
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/france.rst:75
@@ -6303,9 +6303,9 @@ msgstr "German Accounting Reports"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:21
 msgid ""
-"Here is the list of German-specific reports available on Flectra Enterprise:"
+"Here is the list of German-specific reports available on Flectra Professional:"
 msgstr ""
-"Here is the list of German-specific reports available on Flectra Enterprise:"
+"Here is the list of German-specific reports available on Flectra Professional:"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:23
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/spain.rst:27
@@ -6331,19 +6331,19 @@ msgstr "合作伙伴增值税内"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:29
 msgid "Export from Flectra to Datev"
-msgstr "导出从Odoo到Datev"
+msgstr "导出从flectra到Datev"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:31
 msgid ""
 "It is possible to export your accounting entries from Flectra to Datev. To be "
 "able to use this feature, the german accounting localization needs to be "
-"installed on your Flectra Enterprise database. Then you can go in "
+"installed on your Flectra Professional database. Then you can go in "
 ":menuselection:`Accounting --> Reporting --> General Ledger` then click on "
 "the **Export Datev (csv)** button."
 msgstr ""
 "It is possible to export your accounting entries from Flectra to Datev. To be "
 "able to use this feature, the german accounting localization needs to be "
-"installed on your Flectra Enterprise database. Then you can go in "
+"installed on your Flectra Professional database. Then you can go in "
 ":menuselection:`Accounting --> Reporting --> General Ledger` then click on "
 "the **Export Datev (csv)** button."
 
@@ -6469,7 +6469,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:99
 msgid ""
-"`Flectra Cloud Hosting - Service Level Agreement <https://www.odooo.com/cloud-"
+"`Flectra Cloud Hosting - Service Level Agreement <https://www.flectrao.com/cloud-"
 "sla>`_"
 msgstr ""
 
@@ -7135,7 +7135,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/mexico.rst:15
 msgid ""
-"Flectra Enterprise users in Mexico have free access to a set of modules that "
+"Flectra Professional users in Mexico have free access to a set of modules that "
 "allow them to issue electronic invoices according to the specifications of "
 "the SAT for `version 3.3 of the CFDI "
 "<http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/GuiaAnexo20Global.pdf>`_,"
@@ -7201,7 +7201,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/mexico.rst:51
 msgid ""
-"If you created the database from `www.flectra.com <https://www.flectra.com>`_ and "
+"If you created the database from `www.flectrahq.com <https://www.flectrahq.com>`_ and "
 "chose \"Mexico\" as the country when creating your account, some of the "
 "Mexican localization modules will have been installed automatically. In that"
 " case we observe that some modules have a button that says \"Install\", "
@@ -9579,7 +9579,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/peru.rst:159
 msgid ""
-"In Flectra, once your enterprise contract is activated and you start working in"
+"In Flectra, once your professional contract is activated and you start working in"
 " Production, you need to buy credits once the first 1000 are consumed."
 msgstr ""
 
@@ -10266,8 +10266,8 @@ msgstr ""
 " for the hotel sector will switch from 3.8% to 3.7%."
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:71
-msgid "How to update your taxes in Flectra Enterprise (SaaS or On Premise)?"
-msgstr "How to update your taxes in Flectra Enterprise (SaaS or On Premise)?"
+msgid "How to update your taxes in Flectra Professional (SaaS or On Premise)?"
+msgstr "How to update your taxes in Flectra Professional (SaaS or On Premise)?"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:73
 msgid ""
@@ -10538,10 +10538,10 @@ msgstr "3.7% Incl."
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:139
 msgid ""
 "If you have questions or remarks, please contact our support using "
-"flectra.com/help."
+"flectrahq.com/help."
 msgstr ""
 "If you have questions or remarks, please contact our support using "
-"flectra.com/help."
+"flectrahq.com/help."
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:143
 msgid ""
@@ -11052,7 +11052,7 @@ msgid ""
 "performance against the plan. Flectra manages budgets using both General and "
 "Analytic Accounts."
 msgstr ""
-"管理预算是经营企业的重要组成部分。预算帮助相关人员意识到使用资金的方式，并指导他们组织和优先安排工作，以达到财务目标。预算可以计划想要的财务结果，然后根据计划来衡量实际表现。Odoo使用总账科目和分析科目来管理预算。"
+"管理预算是经营企业的重要组成部分。预算帮助相关人员意识到使用资金的方式，并指导他们组织和优先安排工作，以达到财务目标。预算可以计划想要的财务结果，然后根据计划来衡量实际表现。flectra使用总账科目和分析科目来管理预算。"
 
 #: ../../content/applications/finance/accounting/others/adviser/budget.rst:15
 msgid ""
@@ -11086,7 +11086,7 @@ msgid ""
 "Budgetary positions are lists of accounts for which you want to keep budgets"
 " (typically expense or income accounts). They need to be defined so Flectra can"
 " know it which accounts he needs to go get the budget information."
-msgstr "预算状况是指你记录预算（通常是费用或收入科目）的科目列表。你需要对它们进行定义，以便Odoo了解在哪些科目获取预算信息。"
+msgstr "预算状况是指你记录预算（通常是费用或收入科目）的科目列表。你需要对它们进行定义，以便flectra了解在哪些科目获取预算信息。"
 
 #: ../../content/applications/finance/accounting/others/adviser/budget.rst:45
 msgid ""
@@ -11161,7 +11161,7 @@ msgid ""
 "Charts`. Create a new Account called Smith&Co project and select the related"
 " partner."
 msgstr ""
-"Odoo需要知道与具体预算相关的成本或费用。因此，我们需要将发票和费用关联到定义的分析科目。创建分析科目，需进入会计模块并点击 "
+"flectra需要知道与具体预算相关的成本或费用。因此，我们需要将发票和费用关联到定义的分析科目。创建分析科目，需进入会计模块并点击 "
 ":menuselection:`顾问 --> 分析科目 --> 打开报表`。创建一个名为史密斯公司项目的新账户并选择相关的合作伙伴。"
 
 #: ../../content/applications/finance/accounting/others/adviser/budget.rst:98
@@ -11240,7 +11240,7 @@ msgid ""
 "Via the analytical account, Flectra can account the invoice lines and purchase "
 "lines booked in the accounts and will display them in the **Practical "
 "Amount** column."
-msgstr "通过分析账户, Odoo可以计算发票行和采购发票行, 金额将显示在 **实际金额** 列。"
+msgstr "通过分析账户, flectra可以计算发票行和采购发票行, 金额将显示在 **实际金额** 列。"
 
 #: ../../content/applications/finance/accounting/others/adviser/budget.rst:153
 msgid ""
@@ -12204,7 +12204,7 @@ msgid ""
 "and used on each sale order to determine whether any hours of the support "
 "contract remain."
 msgstr ""
-"在Odoo, 每个分析行列出了出售或使用的数量, 你通常会发现——含货币单位的合计(美元或英镑, 或其他选择)。所以, "
+"在flectra, 每个分析行列出了出售或使用的数量, 你通常会发现——含货币单位的合计(美元或英镑, 或其他选择)。所以, "
 "你可以得出每一笔销售订单的销售和使用数量, 这些用来确定是否支持合同时间有剩余。"
 
 #: ../../content/applications/finance/accounting/others/analytic/usage.rst:217
@@ -12235,12 +12235,12 @@ msgstr "产品退货时使用移动平均计算成本"
 #: ../../content/applications/finance/accounting/others/inventory/avg_price_valuation.rst:5
 msgid ""
 "As stated in the `*inventory valuation page* "
-"<https://www.flectra.com/documentation/functional/valuation.html>`__, one of "
+"<https://www.flectrahq.com/documentation/functional/valuation.html>`__, one of "
 "the possible costing method you can use in perpetual stock valuation, is the"
 " average cost."
 msgstr ""
 "在 `*inventory valuation page* "
-"<https://www.flectra.com/documentation/functional/valuation.html>`__, "
+"<https://www.flectrahq.com/documentation/functional/valuation.html>`__, "
 "一个可能的成本方式是你可以使用永恒的库存成本估值方式, 平均成本。"
 
 #: ../../content/applications/finance/accounting/others/inventory/avg_price_valuation.rst:10
@@ -12655,7 +12655,7 @@ msgid ""
 "After receiving their payments, you have the option to convert the amount "
 "into your company currency. Multi currency payment implies rates "
 "fluctuations. The rate differences are automatically recorded by Flectra."
-msgstr "在收到付款时, 可转换成公司货币。多货币支付意味着有利率的波动。Odoo将自动记录汇率的差异。"
+msgstr "在收到付款时, 可转换成公司货币。多货币支付意味着有利率的波动。flectra将自动记录汇率的差异。"
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/exchange.rst:19
 msgid "Enable multi-currencies"
@@ -12746,7 +12746,7 @@ msgid ""
 "When reconciling it, Flectra will directly match the payment with the right "
 "**Invoice**. You will get the invoice price in the invoice currency and the "
 "amount in your company currency."
-msgstr "调节的时候, Odoo将直接与正确的 **发票** 匹配。你会看到发票的货币下的金额及贵司默认货币的总额。"
+msgstr "调节的时候, flectra将直接与正确的 **发票** 匹配。你会看到发票的货币下的金额及贵司默认货币的总额。"
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/exchange.rst:97
 msgid "Check the exchange rate differences"
@@ -12791,7 +12791,7 @@ msgstr ":doc:`../../bank/reconciliation/use_cases` "
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/how_it_works.rst:3
 msgid "Flectra's multi-currency system"
-msgstr "Odoo的多币种系统"
+msgstr "flectra的多币种系统"
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/how_it_works.rst:8
 msgid ""
@@ -12801,7 +12801,7 @@ msgid ""
 "bank accounts in other currencies and run reports on your foreign currency "
 "activities."
 msgstr ""
-"在Odoo选择使用多种货币选项, 在销售发票, 报价和采购订单或收到账单和支付货款时, 可选择货币而不是本位币。用多种货币, 还可以用外币设置银行账户,"
+"在flectra选择使用多种货币选项, 在销售发票, 报价和采购订单或收到账单和支付货款时, 可选择货币而不是本位币。用多种货币, 还可以用外币设置银行账户,"
 " 也可用于报表。"
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/how_it_works.rst:18
@@ -12827,7 +12827,7 @@ msgid ""
 "month after the invoice was issued, the exchange rate has probably changed. "
 "The fluctuation implies some loss or profit that are recorded by Flectra."
 msgstr ""
-" **率差异账** 记录收款和预计收款之间的差异。例如, 如果发票开具1个月后才付款, 汇率可能已经改变了。波动意味着Odoo将记录一些损益。"
+" **率差异账** 记录收款和预计收款之间的差异。例如, 如果发票开具1个月后才付款, 汇率可能已经改变了。波动意味着flectra将记录一些损益。"
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/how_it_works.rst:35
 msgid "You can change it in the settings:"
@@ -12921,7 +12921,7 @@ msgstr "检查外币的字段是否为空, 或者需要在哪个货币下登记�
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/how_it_works.rst:110
 msgid "How is Flectra's multi-currency working?"
-msgstr "Odoo多币种是如何工作的？"
+msgstr "flectra多币种是如何工作的？"
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/how_it_works.rst:112
 #: ../../content/applications/finance/accounting/others/multicurrencies/invoices_payments.rst:50
@@ -12977,7 +12977,7 @@ msgid ""
 "When reconciling it, Flectra will directly match the payment with the right "
 "Invoice. You will get the invoice price in the invoice currency and the "
 "amount in your company currency."
-msgstr "当调节时, Odoo将收款直接与正确的发票匹配。你会得到的发票金额和公司本位币金额。"
+msgstr "当调节时, flectra将收款直接与正确的发票匹配。你会得到的发票金额和公司本位币金额。"
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/how_it_works.rst:161
 msgid ""
@@ -13004,7 +13004,7 @@ msgid ""
 "Flectra provides multi-currency support with automatic currency gross or loss "
 "entry adjustment. There are a few things Flectra has been to ease the user's "
 "life."
-msgstr "Odoo提供多种货币汇兑损益的调整。有几件事Odoo将简化用户工作。"
+msgstr "flectra提供多种货币汇兑损益的调整。有几件事flectra将简化用户工作。"
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/invoices_payments.rst:12
 msgid ""
@@ -13019,7 +13019,7 @@ msgid ""
 "When creating an invoice, the currency can be changed very easily; however "
 "Flectra takes the company currency as a default assignment. It will convert all"
 " the amounts automatically using that currency."
-msgstr "在创建发票时, 改变货币很容易; 然而公司本位币是作为一个默认值。Odoo将自动将外币转换成本位币."
+msgstr "在创建发票时, 改变货币很容易; 然而公司本位币是作为一个默认值。flectra将自动将外币转换成本位币."
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/invoices_payments.rst:25
 msgid "Enable Multi-Currency"
@@ -13067,7 +13067,7 @@ msgid ""
 "When reconciling it, Flectra will directly match the payment with the right "
 "invoice. You will get the invoice price in the invoice currency and the "
 "amount in your company currency."
-msgstr "调节的时候, Odoo将直接与正确的 **发票** 匹配。你会看到的发票货币下的金额及本位币下的总额。"
+msgstr "调节的时候, flectra将直接与正确的 **发票** 匹配。你会看到的发票货币下的金额及本位币下的总额。"
 
 #: ../../content/applications/finance/accounting/others/multicurrencies/invoices_payments.rst:111
 msgid ""
@@ -13433,7 +13433,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:3
 msgid "Initial setup of Flectra Accounting and Flectra Invoicing"
-msgstr "Odoo会计和Odoo发票的初始设置"
+msgstr "flectra会计和flectra发票的初始设置"
 
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:5
 msgid ""
@@ -13442,7 +13442,7 @@ msgid ""
 " get started. This onboarding banner is displayed until you choose to close "
 "it."
 msgstr ""
-"首次打开Odoo 会计应用程序时，*会计概观* 页面会出现逐步入门指南，该向导可帮助您使用会计应用。 该入门横幅将一直显示，直到您选择关闭它为止。"
+"首次打开flectra 会计应用程序时，*会计概观* 页面会出现逐步入门指南，该向导可帮助您使用会计应用。 该入门横幅将一直显示，直到您选择关闭它为止。"
 
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:9
 msgid ""
@@ -13459,7 +13459,7 @@ msgid ""
 "<../../fiscal_localizations/overview/fiscal_localization_packages>` for more"
 " information about Fiscal Localization Packages."
 msgstr ""
-"Odoo会计 会根据在创建数据库时选择的国家/地区为您的公司自动安装适当的 *财务本地化软件包* 。 这样，正确的帐户，报告和税款就可以使用了。 "
+"flectra会计 会根据在创建数据库时选择的国家/地区为您的公司自动安装适当的 *财务本地化软件包* 。 这样，正确的帐户，报告和税款就可以使用了。 "
 ":doc:`:点击此处<../../fiscal_localizations/overview/fiscal_localization_packages>`，以获取有关财政本地化软件包的更多信息。"
 
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:20
@@ -13601,13 +13601,13 @@ msgid ""
 "onboarding banner* is the one that welcomes you if you use the Invoicing app"
 " rather than the Accounting app."
 msgstr ""
-"还有另一个分步入门指南，可帮助您利用Odoo发票和会计应用程序。 如果您使用发票应用程序， *发票入门横幅* 会协助你，而不是会计入门横幅。"
+"还有另一个分步入门指南，可帮助您利用flectra发票和会计应用程序。 如果您使用发票应用程序， *发票入门横幅* 会协助你，而不是会计入门横幅。"
 
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:123
 msgid ""
 "If you have Flectra Accounting installed on your database, you can reach it by "
 "going to :menuselection:`Accounting --> Customers --> Invoices`."
-msgstr "如果您的数据库上安装了Odoo会计则可以通过：:menuselection:`会计 --> 客户 --> 发票`。"
+msgstr "如果您的数据库上安装了flectra会计则可以通过：:menuselection:`会计 --> 客户 --> 发票`。"
 
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:126
 msgid "The Invoicing onboarding banner is composed of four main steps:"
@@ -13655,7 +13655,7 @@ msgid ""
 "setup-company>`."
 msgstr ""
 "您也可以添加 *公司标语* 和文档的 *页脚* 。 "
-"请注意，Odoo会根据您先前在公司数据中配置的信息，自动将公司的电话号码，电子邮件，网站URL和税号（或增值税号）添加到页脚中。 "
+"请注意，flectra会根据您先前在公司数据中配置的信息，自动将公司的电话号码，电子邮件，网站URL和税号（或增值税号）添加到页脚中。 "
 "<accounting-setup-company>`."
 
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:163
@@ -13715,73 +13715,73 @@ msgstr ":doc:`chart_of_accounts`"
 msgid "Main Concepts"
 msgstr "主要概念"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:3
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:3
 msgid "The Accounting behind Flectra"
-msgstr "Odoo背后的会计学"
+msgstr "flectra背后的会计学"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:5
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:5
 msgid ""
 "This page summarises the way Flectra deals with typical accounts and "
 "transactions."
-msgstr "此页概述Odoo中典型的科目和业务的处理方式。"
+msgstr "此页概述flectra中典型的科目和业务的处理方式。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:9
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:9
 msgid "Double-entry bookkeeping"
 msgstr "复式记账"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:11
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:11
 msgid ""
 "Flectra automatically creates all the behind-the-scenes journal entries for "
 "each of your accounting transactions: customer invoices, point of sale "
 "order, expenses, inventory moves, etc."
-msgstr "Odoo为每个会计交易自动创建背后的日记账分录, 包括 :客户发票, 销售点订单, 报销, 库存移动, 等等。"
+msgstr "flectra为每个会计交易自动创建背后的日记账分录, 包括 :客户发票, 销售点订单, 报销, 库存移动, 等等。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:15
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:15
 msgid ""
 "Flectra uses the rules of double-entry bookkeeping system: all journal entries "
 "are automatically balanced (sum of debits = sum of credits)."
-msgstr "Odoo采用复式记账规则 : 所有日记账分录自动平衡（借方总和 = 贷方总和）。"
+msgstr "flectra采用复式记账规则 : 所有日记账分录自动平衡（借方总和 = 贷方总和）。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:19
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:19
 msgid ""
 "`Understand Flectra's accounting transactions per document "
-"<https://flectra.com/documentation/functional/accounting.html>`_"
+"<https://flectrahq.com/documentation/functional/accounting.html>`_"
 msgstr ""
-"`通过文档了解Odoo的会计交易 "
-"<https://flectra.com/documentation/functional/accounting.html>`_"
+"`通过文档了解flectra的会计交易 "
+"<https://flectrahq.com/documentation/functional/accounting.html>`_"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:23
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:23
 msgid "Accrual and Cash Basis Methods"
 msgstr "权责发生制和现金收付制方法"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:25
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:25
 msgid ""
 "Flectra supports both accrual and cash basis reporting. This allows you to "
 "report income / expense at the time transactions occur (i.e., accrual "
 "basis), or when payment is made or received (i.e., cash basis)."
-msgstr "Odoo支持权责发生制和收付实现制的报告。这允许你在交易发生时报告收入/费用（即权责发生制），或者收付款时（即收付实现制）报告。"
+msgstr "flectra支持权责发生制和收付实现制的报告。这允许你在交易发生时报告收入/费用（即权责发生制），或者收付款时（即收付实现制）报告。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:30
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:30
 msgid "Multi-companies"
 msgstr "多公司"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:32
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:32
 msgid ""
 "Flectra allows one to manage several companies within the same database. Each "
 "company has its own chart of accounts and rules. You can get consolidation "
 "reports following your consolidation rules."
-msgstr "Odoo允许在同一个数据库管理几个公司。每个公司有自己的科目表以及规则。依据你的合并规则，你可以得到合并报告。"
+msgstr "flectra允许在同一个数据库管理几个公司。每个公司有自己的科目表以及规则。依据你的合并规则，你可以得到合并报告。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:36
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:36
 msgid ""
 "Users can access several companies but always work in one company at a time."
 msgstr "用户可以访问几家公司，但在某个时间总是在一个公司工作。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:40
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:40
 msgid "Multi-currencies"
 msgstr "多币种"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:42
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:42
 msgid ""
 "Every transaction is recorded in the default currency of the company. For "
 "transactions occurring in another currency, Flectra stores both the value in "
@@ -13789,108 +13789,108 @@ msgid ""
 "transaction. Flectra can generate currencies gains and losses after the "
 "reconciliation of the journal items."
 msgstr ""
-"每一笔交易以公司的默认币种记录。对于以其他币种发生的交易, Odoo同时以公司的币种的价值，以及以交易币种的价值存储。 "
-"Odoo可以在分类账项目的调节后生成币种增益和损失。"
+"每一笔交易以公司的默认币种记录。对于以其他币种发生的交易, flectra同时以公司的币种的价值，以及以交易币种的价值存储。 "
+"flectra可以在分类账项目的调节后生成币种增益和损失。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:48
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:48
 msgid ""
 "Currency rates are updated once a day using a yahoo.com online web-service."
 msgstr "货币汇率使用yahoo.com在线网络服务每天更新一次。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:52
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:52
 msgid "International Standards"
 msgstr "国际标准"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:54
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:54
 msgid ""
 "Flectra accounting supports more than 50 countries. The Flectra core accounting "
 "implements accounting standards that are common to all countries. Specific "
 "modules exist per country for the specificities of the country like the "
 "chart of accounts, taxes, or bank interfaces."
 msgstr ""
-"Odoo会计应用程序支持超过50个国家。Odoo核心会计应用程序实施所有国家共用的会计准则。每个国家还有特定的模块，例如科目表、税收或银行接口。"
+"flectra会计应用程序支持超过50个国家。flectra核心会计应用程序实施所有国家共用的会计准则。每个国家还有特定的模块，例如科目表、税收或银行接口。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:60
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:60
 msgid "In particular, Flectra's core accounting engine supports:"
 msgstr "特别是, Flectra 核心会计引擎支持 :"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:62
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:62
 msgid ""
 "Anglo-Saxon Accounting (U.S., U.K.,, and other English-speaking countries "
 "including Ireland, Canada, Australia, and New Zealand) where costs of good "
 "sold are reported when products are sold/delivered."
 msgstr "盎格鲁 - 撒克逊会计准则（美国、英国、以及爱尔兰、加拿大、澳大利亚和新西兰等其他英语国家）在产品售出/交付完成时报告销货成本。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:66
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:66
 msgid "European accounting where expenses are accounted at the supplier bill."
 msgstr "欧洲会计, 费用记账在供应商帐单。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:69
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:69
 msgid "Flectra has modules to comply with IFRS rules."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:72
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:72
 msgid "Accounts Receivable & Payable"
 msgstr "应收账款和应付账款"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:74
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:74
 msgid ""
 "By default, Flectra uses a single account for all account receivable entries "
 "and one for all accounts payable entries. You can create separate accounts "
 "per customers/suppliers, but you don't need to."
 msgstr ""
-"默认, odoo使用单一科目用于所有的应收账款分录，以及另外一个用于所有的应付账款分录。你可以每个客户/供应商创建独立的科目, 但是没有必要这样做。"
+"默认, flectra使用单一科目用于所有的应收账款分录，以及另外一个用于所有的应付账款分录。你可以每个客户/供应商创建独立的科目, 但是没有必要这样做。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:79
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:79
 msgid ""
 "As transactions are associated to customers or suppliers, you get reports to"
 " perform analysis per customer/supplier such as the customer statement, "
 "revenues per customers, aged receivable/payables, ..."
 msgstr "由于交易关联了客户或供应商，你得到对每个客户/供应商进行分析的报告, , 如客户对账, 每客户收入, 到期的应收/应付款, ..."
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:84
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:84
 msgid "Wide range of financial reports"
 msgstr "更宽广范围的财务报表"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:86
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:86
 msgid ""
 "In Flectra, you can generate financial reports in real time. Flectra's reports "
 "range from basic accounting reports to advanced management reports. Flectra's "
 "reports include:"
-msgstr "在Odoo, 你可以实时生成财务报告。 Odoo的报告范围从基本的会计报告到高级的管理报告。 Odoo的报告包括 :"
+msgstr "在flectra, 你可以实时生成财务报告。 flectra的报告范围从基本的会计报告到高级的管理报告。 flectra的报告包括 :"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:90
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:90
 msgid "Performance reports (such as Profit and Loss, Budget Variance)"
 msgstr "绩效报告（如损益表, 预算差异）"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:91
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:91
 msgid ""
 "Position reports (such as Balance Sheet, Aged Payables, Aged Receivables)"
 msgstr "状况报告(如资产负债表, 到期应付款, 到期应收款)"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:93
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:93
 msgid "Cash reports (such as Bank Summary)"
 msgstr "现金报告（例如银行摘要）"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:94
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:94
 msgid "Detail reports (such as Trial Balance and General Ledger)"
 msgstr "详细报告（如试算表和总账）"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:95
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:95
 msgid "Management reports (such as Budgets, Executive Summary)"
 msgstr "管理报告（如预算, 执行概要）"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:97
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:97
 msgid ""
 "Flectra's report engine allows you to customize your own report based on your "
 "own formulae."
-msgstr "Odoo的报告引擎可让您根据自己的公式来定制您自己的报告。"
+msgstr "flectra的报告引擎可让您根据自己的公式来定制您自己的报告。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:101
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:101
 msgid "Import bank feeds automatically"
 msgstr "自动导入银行回单"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:103
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:103
 msgid ""
 "Bank reconciliation is a process that matches your bank statement lines, as "
 "supplied by the bank, to your accounting transactions in the general ledger."
@@ -13900,60 +13900,60 @@ msgid ""
 "banking or wait for your paper bank statements."
 msgstr ""
 "银行对帐是一个过程, 匹配银行提供的银行对账单明细和总账中的会计交易。 "
-"Odoo使得银行对帐容易，频繁的直接从你的银行导入银行对帐单明细到你的Odoo会计。这意味着你可以有现金流的每日视图, "
+"flectra使得银行对帐容易，频繁的直接从你的银行导入银行对帐单明细到你的flectra会计。这意味着你可以有现金流的每日视图, "
 "而无需登录到您的网上银行，或等候纸质银行对账单。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:111
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:111
 msgid ""
 "Flectra speeds up bank reconciliation by matching most of your imported bank "
 "statement lines to your accounting transactions. Flectra also remembers how "
 "you've treated other bank statement lines and provides suggested general "
 "ledger transactions."
 msgstr ""
-"Odoo通过匹配大部分导入的银行对帐单明细到你的会计交易，加快银行对账。 Odoo还记住你是如何处理其他的银行对帐单明细，并提供建议的总帐交易。"
+"flectra通过匹配大部分导入的银行对帐单明细到你的会计交易，加快银行对账。 flectra还记住你是如何处理其他的银行对帐单明细，并提供建议的总帐交易。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:117
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:117
 msgid "Calculate the tax you owe your tax authority"
 msgstr "计算你欠税务机关的税金"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:119
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:119
 msgid ""
 "Flectra totals all your accounting transactions for your tax period and uses "
 "these totals to calculate your tax obligation. You can then check your sales"
 " tax by running Flectra's Tax Report."
-msgstr "Odoo为你的纳税期间合计所有的会计交易，并使用这些汇总计算纳税的义务。然后, 您可以通过运行Odoo的税务报表来检查你的销售税金。"
+msgstr "flectra为你的纳税期间合计所有的会计交易，并使用这些汇总计算纳税的义务。然后, 您可以通过运行flectra的税务报表来检查你的销售税金。"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:124
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:124
 msgid "Inventory Valuation"
 msgstr "库存计价"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:126
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:126
 msgid ""
 "Flectra support both periodic (manual) and perpetual (automated) inventory "
 "valuations. The available methods are standard price, average price, LIFO "
 "(for countries allowing it) and FIFO."
 msgstr ""
-"Odoo支持定期(手动)以及永续(自动)库存估价。可用的成本方法有标准价、平均价、后进先出（LIFO对于允许的国家而言）以及先进先出(FIFO)"
+"flectra支持定期(手动)以及永续(自动)库存估价。可用的成本方法有标准价、平均价、后进先出（LIFO对于允许的国家而言）以及先进先出(FIFO)"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:131
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:131
 msgid ""
 "`View impact of the valuation method on your transactions "
-"<https://flectra.com/documentation/functional/valuation.html>`_"
+"<https://flectrahq.com/documentation/functional/valuation.html>`_"
 msgstr ""
-" `查看计价方法对交易的影响 <https://flectra.com/documentation/functional/valuation.html>`_"
+" `查看计价方法对交易的影响 <https://flectrahq.com/documentation/functional/valuation.html>`_"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:135
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:135
 msgid "Easy retained earnings"
 msgstr "容易的留存收益"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:137
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:137
 msgid ""
 "Retained earnings are the portion of income retained by your business. Flectra "
 "automatically calculates your current year earnings in real time so no year-"
 "end journal or rollover is required.  This is calculated by reporting the "
 "profit and loss balance to your balance sheet report automatically."
 msgstr ""
-"留存收益是指企业留存的部分收入。Odoo实时自动计算你的当年盈利，所以不需要进行年终分录或翻转。留存收益通过自动将损益表报告到资产负债表计算得出。"
+"留存收益是指企业留存的部分收入。flectra实时自动计算你的当年盈利，所以不需要进行年终分录或翻转。留存收益通过自动将损益表报告到资产负债表计算得出。"
 
 #: ../../content/applications/finance/accounting/overview/main_concepts/memento.rst:7
 msgid "Accounting Memento For Entrepreneurs (US GAAP)"
@@ -14294,7 +14294,7 @@ msgid ""
 "should need manual review. When the bank reconciliation process is finished,"
 " the balance on the bank account in Flectra should match the bank statement's "
 "balance."
-msgstr "Odoo可自动核销大多数的交易,只有少数需要手动审核。当银行核销完成, 银行科目上的余额应与银行对账单的余额一致。"
+msgstr "flectra可自动核销大多数的交易,只有少数需要手动审核。当银行核销完成, 银行科目上的余额应与银行对账单的余额一致。"
 
 #: ../../content/applications/finance/accounting/overview/main_concepts/memento.rst:203
 msgid "Checks Handling"
@@ -14391,7 +14391,7 @@ msgid ""
 "multiple invoices and taking discounts for early payments, you can do so "
 "efficiently and accurately."
 msgstr ""
-"Odoo支持多个发票和付款流程, 你可以选择和使用的匹配您的业务需求的流程。您是否想要接受一个付款对应一个发票,或一个付款涵盖, 或是现金折扣, "
+"flectra支持多个发票和付款流程, 你可以选择和使用的匹配您的业务需求的流程。您是否想要接受一个付款对应一个发票,或一个付款涵盖, 或是现金折扣, "
 "这样可以更高效、准确。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/customer_invoice.rst:12
@@ -14420,7 +14420,7 @@ msgid ""
 "supports the creation of what is called a Draft Invoice by Warehouse staff."
 msgstr ""
 "在大多数国家, 合同义务发生时开具发票。如果你将一个盒子发给客户, 你需要查看合同的条款, 然后开票。如果你的供应商给你发货, 需要查看合同的条款, "
-"然后开票。因此, 在发货前, 应将合同条款填写完整。在这一点上, Odoo支持由仓库人员开具草稿发票。"
+"然后开票。因此, 在发货前, 应将合同条款填写完整。在这一点上, flectra支持由仓库人员开具草稿发票。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/customer_invoice.rst:32
 msgid ""
@@ -14514,7 +14514,7 @@ msgstr "点击“验证”, 当发票已何时。发票将从草案状态转移�
 msgid ""
 "When you have validated an invoice, Flectra gives it a unique number from a "
 "defined, and modifiable, sequence."
-msgstr "当发票确认后, Odoo给它定义一个惟一的编号,可修改的序列号。"
+msgstr "当发票确认后, flectra给它定义一个惟一的编号,可修改的序列号。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/customer_invoice.rst:86
 msgid ""
@@ -14580,7 +14580,7 @@ msgid ""
 "entry has been reconciled with the payment entries. If there has not been a "
 "reconciliation, the invoice will remain in the Open state until you have "
 "entered the payment."
-msgstr "在Odoo, 当会计分录与付款分录核销后, 发票会到已支付状态。如果没有核销, 发票将保持在打开状态,直到登记付款。"
+msgstr "在flectra, 当会计分录与付款分录核销后, 发票会到已支付状态。如果没有核销, 发票将保持在打开状态,直到登记付款。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/customer_invoice.rst:124
 msgid ""
@@ -14596,7 +14596,7 @@ msgid ""
 "You can manually enter your bank statements in Flectra, or you can import them "
 "in from a csv file or from several other predefined formats according to "
 "your accounting localisation."
-msgstr "在Odoo, 可以手动输入银行对账单,或者从csv文件或从其他几个预定义的格式导入。"
+msgstr "在flectra, 可以手动输入银行对账单,或者从csv文件或从其他几个预定义的格式导入。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/customer_invoice.rst:142
 msgid ""
@@ -14651,7 +14651,7 @@ msgid ""
 "passed a certain number of days. If there are other overdue invoices for the"
 " same customer, the actions of the most overdue invoice will be executed."
 msgstr ""
-"Odoo将帮助你定义你的跟踪策略。提醒客户支付未清款,根据客户的逾期情况, 您可以定义不同的方式。一旦逾期条件符合, "
+"flectra将帮助你定义你的跟踪策略。提醒客户支付未清款,根据客户的逾期情况, 您可以定义不同的方式。一旦逾期条件符合, "
 "这些行动将被触发。如果这个客户还有其他未清款,逾期最长的发票将先被执行."
 
 #: ../../content/applications/finance/accounting/overview/process_overview/customer_invoice.rst:189
@@ -14716,14 +14716,14 @@ msgid ""
 " correct amount and at the right time (not too late, not too early; "
 "depending on your vendor policy). Flectra also offers reports to track your "
 "aged payable balances."
-msgstr "一旦采购发票在Odoo生成, 可选择正确的时间支付货款 (根据付款条款, 不早不晚)。Odoo还提供了账龄表, 用于管理未清款。"
+msgstr "一旦采购发票在flectra生成, 可选择正确的时间支付货款 (根据付款条款, 不早不晚)。flectra还提供了账龄表, 用于管理未清款。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/supplier_bill.rst:10
 msgid ""
 "If you want to control vendor bills received from your vendors, you can use "
 "the Flectra Purchase application that allows you to control and pre-complete "
 "them automatically based on past purchase orders."
-msgstr "如果你想管理供应商发票, 可使用Odoo采购应用程序, 程序可基于过去的采购订单控制和自动完成发票管理。"
+msgstr "如果你想管理供应商发票, 可使用flectra采购应用程序, 程序可基于过去的采购订单控制和自动完成发票管理。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/supplier_bill.rst:18
 msgid "Record a new vendor bill"
@@ -14752,7 +14752,7 @@ msgid ""
 "Save the invoice to update the pre tax and tax amounts at the bottom of the "
 "screen. You will most likely need to configure the prices of your products "
 "without taxes as Flectra will compute the tax for you."
-msgstr "在屏幕的下部, 更新税收和含税金额, 保存发票。将产品的价格配置成不含税, Odoo自动计算税收。"
+msgstr "在屏幕的下部, 更新税收和含税金额, 保存发票。将产品的价格配置成不含税, flectra自动计算税收。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/supplier_bill.rst:40
 msgid ""
@@ -14764,7 +14764,7 @@ msgid ""
 "a different tax amount on their bill, you can change the amount in the "
 "bottom left table to adjust and match."
 msgstr ""
-"在左下角,Odoo汇总了这张发票的所有税额。在一些国家,计算的方法不同(每行计算或是总的计算)。默认的方式是每行计算(可能不同的产品有不同的税率。例如酒精和香烟)。如果采购发票上的税额不同,你可以调整左下角的表,"
+"在左下角,flectra汇总了这张发票的所有税额。在一些国家,计算的方法不同(每行计算或是总的计算)。默认的方式是每行计算(可能不同的产品有不同的税率。例如酒精和香烟)。如果采购发票上的税额不同,你可以调整左下角的表,"
 " 使税额与之匹配。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/supplier_bill.rst:48
@@ -14834,7 +14834,7 @@ msgid ""
 "correctly)."
 msgstr ""
 "在那里,可选择的支付方式(例如支票账户、信用卡、支票等…)和支付总额。默认情况下是付清余款。备注字段,我们建议您设置供应商发票号码(如果设置正确, "
-"Odoo将自动填补这一字段)。"
+"flectra将自动填补这一字段)。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/supplier_bill.rst:94
 msgid ""
@@ -14854,13 +14854,13 @@ msgid ""
 "so directly from your vendor payments within Flectra. Whether you do so on a "
 "daily basis or prefer to do so at the end of the week, you can print in "
 "checks in batches."
-msgstr "如果你选择用支票支付你的供应商。Odoo提供一个方法直接从你的供应商付款来做。不管你每日做，还是在每周结束时做，你总是可以批量打印支票。"
+msgstr "如果你选择用支票支付你的供应商。flectra提供一个方法直接从你的供应商付款来做。不管你每日做，还是在每周结束时做，你总是可以批量打印支票。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/supplier_bill.rst:106
 msgid ""
 "If you have checks to print, Flectra's accounting dashboard acts as a to do "
 "list and reminds you of how many checks you have left to be printed."
-msgstr "如果你要打印支票,Odoo仪表盘有一个待办事项清单,提醒你还有多少需要打印。"
+msgstr "如果你要打印支票,flectra仪表盘有一个待办事项清单,提醒你还有多少需要打印。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/supplier_bill.rst:112
 msgid ""
@@ -14875,7 +14875,7 @@ msgid ""
 "the next check number in the sequence and will then print all the checks at "
 "once."
 msgstr ""
-"选择需要打印的所有支票(使用第一个复选框, 选择所有), 并设置 **打印支票** 。Odoo将要求您设置打印序列, 之后将打印所有的支票。"
+"选择需要打印的所有支票(使用第一个复选框, 选择所有), 并设置 **打印支票** 。flectra将要求您设置打印序列, 之后将打印所有的支票。"
 
 #: ../../content/applications/finance/accounting/overview/process_overview/supplier_bill.rst:124
 #: ../../content/applications/finance/accounting/reporting.rst:3
@@ -14942,7 +14942,7 @@ msgid ""
 "In order to track the vendor conditions, we use payment terms in Flectra. "
 "Payment terms allow to keep track of the conditions to compute the due date "
 "on an invoice. As an example, a payment term can be:"
-msgstr "为了追踪供应商付款条件,在Odoo中使用付款条件。付款条件可用于计算发票的到期日期。举个例子,一个付款方式可以是:"
+msgstr "为了追踪供应商付款条件,在flectra中使用付款条件。付款条件可用于计算发票的到期日期。举个例子,一个付款方式可以是:"
 
 #: ../../content/applications/finance/accounting/payables/misc/forecast.rst:20
 msgid "50% within 30 days"
@@ -14968,7 +14968,7 @@ msgid ""
 "default. Set the Vendor Payment Term field on the Accounting tab of a vendor"
 " form. That way, every time you will purchase to this vendor, Flectra will "
 "propose you automatically the right payment term."
-msgstr "付款条款的定义后,可定义供应商。在供应商表格的财务页签下, 设置付款条款。这样, 每次从这个供应商处采购,Odoo将自动建议这个付款方式。"
+msgstr "付款条款的定义后,可定义供应商。在供应商表格的财务页签下, 设置付款条款。这样, 每次从这个供应商处采购,flectra将自动建议这个付款方式。"
 
 #: ../../content/applications/finance/accounting/payables/misc/forecast.rst:42
 msgid ""
@@ -15046,7 +15046,7 @@ msgid ""
 "country. As an example, the **U.S. Check Printing** module is required to "
 "print U.S. checks."
 msgstr ""
-"要通过支票记录供应商的付款，您必须安装 **填写支票** 模块。 该模块处理在Odoo中记录支票的过程。 "
+"要通过支票记录供应商的付款，您必须安装 **填写支票** 模块。 该模块处理在flectra中记录支票的过程。 "
 "根据国家/地区，其他模块对于打印支票也是必需的。 例如，**美国支票打印** 模块才能打印美国支票。"
 
 #: ../../content/applications/finance/accounting/payables/pay/check.rst:23
@@ -15081,7 +15081,7 @@ msgstr "美国"
 
 #: ../../content/applications/finance/accounting/payables/pay/check.rst:45
 msgid "For the United States, Flectra supports by default the check formats of:"
-msgstr "对于美国, Odoo默认支持支票格式 :"
+msgstr "对于美国, flectra默认支持支票格式 :"
 
 #: ../../content/applications/finance/accounting/payables/pay/check.rst:47
 msgid "**Quickbooks & Quicken**: check on top, stubs in the middle and bottom"
@@ -15171,7 +15171,7 @@ msgid ""
 "Once you process your bank statement, when the check is credited from your "
 "bank account, Flectra will propose you automatically to match it with the "
 "payment. This will mark the payment as **Reconciled**."
-msgstr "当处理银行对账单时,支票已从银行账户支出, Odoo将自动与付款匹配。这标志着付款 **已调节对账** 。"
+msgstr "当处理银行对账单时,支票已从银行账户支出, flectra将自动与付款匹配。这标志着付款 **已调节对账** 。"
 
 #: ../../content/applications/finance/accounting/payables/pay/check.rst:101
 msgid ""
@@ -15221,7 +15221,7 @@ msgid ""
 "Flectra provides a simple and effective way to handle several bills at once, "
 "with various quick or complex options. With one single process, anyone is "
 "able to handle bills and payment in just a few clicks."
-msgstr "Odoo提供了一种简单而有效的方式来处理多个账单。用一个单一的过程,仅用几个点击可处理发票和付款。"
+msgstr "flectra提供了一种简单而有效的方式来处理多个账单。用一个单一的过程,仅用几个点击可处理发票和付款。"
 
 #: ../../content/applications/finance/accounting/payables/pay/multiple.rst:10
 msgid "Pay multiple bills with one payment"
@@ -15428,14 +15428,14 @@ msgid ""
 "account statement inside Flectra. The bank reconciliation process will "
 "seamlessly match the SEPA orders you sent to your bank with actual bank "
 "statements."
-msgstr "一旦银行处理完支付单据,你可以直接将银行对账单导入Odoo。Odoo将SEPA 付款单和银行对账单核销。"
+msgstr "一旦银行处理完支付单据,你可以直接将银行对账单导入flectra。flectra将SEPA 付款单和银行对账单核销。"
 
 #: ../../content/applications/finance/accounting/payables/pay/sepa.rst:35
 msgid ""
 "To pay suppliers with SEPA, you must install the **SEPA Credit Transfer** "
 "module. This module handle the process of generating SEPA files based on "
 "Flectra payments."
-msgstr "用SEPA支付,必须安装 **SEPA信用转帐** 模块。这个模块将Odoo付款申请生成SEPA文件。"
+msgstr "用SEPA支付,必须安装 **SEPA信用转帐** 模块。这个模块将flectra付款申请生成SEPA文件。"
 
 #: ../../content/applications/finance/accounting/payables/pay/sepa.rst:40
 msgid ""
@@ -15496,14 +15496,14 @@ msgid ""
 "(Bank Identifier Code). Flectra will automatically verify the IBAN format."
 msgstr ""
 "如果这是第一次支付这个供应商,需要填写收件人的银行账户信息,至少需要:银行的名字, IBAN 和 "
-"BIC(银行识别码)。Odoo会自动验证IBAN的格式。"
+"BIC(银行识别码)。flectra会自动验证IBAN的格式。"
 
 #: ../../content/applications/finance/accounting/payables/pay/sepa.rst:82
 msgid ""
 "For future payments to this vendor, Flectra will propose you automatically the "
 "bank accounts but you will be able to select another one or create a new "
 "one."
-msgstr "未来会付款给这个供应商,Odoo会自动提供银行账户,但你可更改或者创建一个新的。"
+msgstr "未来会付款给这个供应商,flectra会自动提供银行账户,但你可更改或者创建一个新的。"
 
 #: ../../content/applications/finance/accounting/payables/pay/sepa.rst:86
 msgid ""
@@ -15608,11 +15608,11 @@ msgstr ""
 msgid ""
 "Flectra Accounting handles depreciation by creating all depreciation entries "
 "automatically in *draft mode*. They are then posted periodically."
-msgstr "Odoo会计应用程序以*草稿模式*自动创建所有折旧分录，处理折旧事宜。然后再定期过账。"
+msgstr "flectra会计应用程序以*草稿模式*自动创建所有折旧分录，处理折旧事宜。然后再定期过账。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/assets.rst:21
 msgid "Flectra supports the following **Depreciation Methods**:"
-msgstr "Odoo支持以下**折旧方法**："
+msgstr "flectra支持以下**折旧方法**："
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/assets.rst:23
 msgid "Straight Line"
@@ -15749,7 +15749,7 @@ msgid ""
 "button) to generate all the values of the **Depreciation Board**. This board"
 " shows you all the entries that Flectra will post to depreciate your asset, and"
 " at which date."
-msgstr "完成后，点击*计算折旧*（在*确认*按钮旁边），生成**折旧面板**的所有值。该面板显示Odoo将过账资产折旧的所有分录和日期。"
+msgstr "完成后，点击*计算折旧*（在*确认*按钮旁边），生成**折旧面板**的所有值。该面板显示flectra将过账资产折旧的所有分录和日期。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/assets.rst:122
 #: ../../content/applications/finance/accounting/payables/supplier_bills/deferred_expenses.rst:114
@@ -15886,7 +15886,7 @@ msgid ""
 "of the asset, including the gain or loss on sale, which is based on the "
 "difference between the asset's book value at the time of the sale and the "
 "amount it is sold for."
-msgstr "然后，Odoo会计应用程序生成处置资产所需的所有日记账分录，包括出售损益，它基于资产在销售时的账面价值和它出售的金额之间的差额。"
+msgstr "然后，flectra会计应用程序生成处置资产所需的所有日记账分录，包括出售损益，它基于资产在销售时的账面价值和它出售的金额之间的差额。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/assets.rst:199
 msgid ""
@@ -16023,7 +16023,7 @@ msgid ""
 "Flectra Accounting handles deferred expenses and prepayments by spreading them "
 "in multiple entries that are automatically created in *draft mode* and then "
 "posted periodically."
-msgstr "Odoo会计应用程序处理递延费用和预付款的方法是将它们分散在多个分录中，它们以*草稿模式*自动创建，然后定期过账。"
+msgstr "flectra会计应用程序处理递延费用和预付款的方法是将它们分散在多个分录中，它们以*草稿模式*自动创建，然后定期过账。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/deferred_expenses.rst:31
 msgid ""
@@ -16081,7 +16081,7 @@ msgid ""
 "button) to generate all the values of the **Expense Board**. This board "
 "shows you all the entries that Flectra will post to recognize your expense, and"
 " at which date."
-msgstr "完成后，点击*计算递延*（在*确认*按钮旁边），生成**费用面板**的所有值。该面板显示Odoo将执行费用确认过账的所有分录和日期。"
+msgstr "完成后，点击*计算递延*（在*确认*按钮旁边），生成**费用面板**的所有值。该面板显示flectra将执行费用确认过账的所有分录和日期。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/deferred_expenses.rst:116
 msgid ""
@@ -16222,11 +16222,11 @@ msgid ""
 "need to do is to have purchase data in Flectra. Knowing what has been purchased"
 " and received is the first step towards understanding your purchase "
 "management processes."
-msgstr "如果你要设置供应商订单控制流程, 首先你要在Odoo里有采购数据.知道什么被采购和收到货是理解你的采购管理流程的第一步。"
+msgstr "如果你要设置供应商订单控制流程, 首先你要在flectra里有采购数据.知道什么被采购和收到货是理解你的采购管理流程的第一步。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/manage.rst:13
 msgid "Here is the standard work flow in Flectra:"
-msgstr "odoo标准工作流程 :"
+msgstr "flectra标准工作流程 :"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/manage.rst:15
 msgid ""
@@ -16278,7 +16278,7 @@ msgid ""
 "Creating products in Flectra is essential for quick and efficient purchasing "
 "within Flectra. Simply navigate to the Products submenu under Purchase and "
 "click create."
-msgstr "在Odoo中创建产品对于快速高效的采购必不可少。只需前往采购应用程序下的产品子菜单，并点击创建。"
+msgstr "在flectra中创建产品对于快速高效的采购必不可少。只需前往采购应用程序下的产品子菜单，并点击创建。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/manage.rst:50
 msgid ""
@@ -16394,7 +16394,7 @@ msgid ""
 "vendor bill, you may search through the list by inputting the vendor "
 "reference number or your internal purchase order number."
 msgstr ""
-"在创建供应商账单之前，你首先需要选择正确的供应商，这将带出相关的会计或价格表信息。在此，你可选择指定一个或多个采购订单来填充供应商账单。当你从列表中选择一个采购订单时，Odoo会带出该采购订单相关的所有未开发票的产品并自动填充下列信息。如你很难找到正确的供应商账单，可通过键入供应商参考号码或你的内部采购订单号进行搜索。"
+"在创建供应商账单之前，你首先需要选择正确的供应商，这将带出相关的会计或价格表信息。在此，你可选择指定一个或多个采购订单来填充供应商账单。当你从列表中选择一个采购订单时，flectra会带出该采购订单相关的所有未开发票的产品并自动填充下列信息。如你很难找到正确的供应商账单，可通过键入供应商参考号码或你的内部采购订单号进行搜索。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/manage.rst:143
 msgid ""
@@ -16426,7 +16426,7 @@ msgid ""
 " you may need to inquire further into this. At any point in time, before you"
 " validate the Vendor Bill, you may override this zero quantity."
 msgstr ""
-"每次你录入一个新的采购账单, Odoo会自动弹出基于从供应商处收到的产品数量。如果数量是零, 意味着你没有收到产品并简单提供一个提醒, "
+"每次你录入一个新的采购账单, flectra会自动弹出基于从供应商处收到的产品数量。如果数量是零, 意味着你没有收到产品并简单提供一个提醒, "
 "也许需要进一步查询。在这时, 在确认供应商账单前, 可以修改数量。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/manage.rst:162
@@ -16442,7 +16442,7 @@ msgid ""
 "If the bill you receive from the vendor has quantities that do not match the"
 " quantities automatically populated by Flectra, this could be due to several "
 "reasons:"
-msgstr "如果你收到的账单和Odoo自动填充的数量不符，也许是由以下原因引起的："
+msgstr "如果你收到的账单和flectra自动填充的数量不符，也许是由以下原因引起的："
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/manage.rst:171
 msgid ""
@@ -16536,7 +16536,7 @@ msgid ""
 "deleted the previous line items from the first purchase order, the bill will"
 " be linked to all the appropriate purchase orders."
 msgstr ""
-"当然建立一个供应商账单并选择合适的采购订单，你可以继续选择增加的采购订单。Odoo将根据你选择的采购订单增加行项目。如果你没有从首个采购订单删除之前的行项目，供应商账单将会链接到所有合适的采购单。"
+"当然建立一个供应商账单并选择合适的采购订单，你可以继续选择增加的采购订单。flectra将根据你选择的采购订单增加行项目。如果你没有从首个采购订单删除之前的行项目，供应商账单将会链接到所有合适的采购单。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/ocr.rst:3
 msgid "Digitize Vendor Bills with Optical Character Recognition (OCR)"
@@ -16616,16 +16616,16 @@ msgstr ""
 #: ../../content/applications/finance/accounting/payables/supplier_bills/ocr.rst:50
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:43
 msgid ""
-"If you are on Flectra Online (SAAS) and have the Enterprise version, you "
+"If you are on Flectra Online (SAAS) and have the Professional version, you "
 "benefit from free trial credits to test the feature."
-msgstr "如果你是Odoo Online (SAAS)企业版用户，你可用免费试用积点来测试这项功能。"
+msgstr "如果你是flectra Online (SAAS)企业版用户，你可用免费试用积点来测试这项功能。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/ocr.rst:52
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:45
 msgid ""
-"Click `here <https://iap.flectra.com/privacy#header_4>`_ to know about our "
+"Click `here <https://iap.flectrahq.com/privacy#header_4>`_ to know about our "
 "*Privacy Policy*."
-msgstr "点击`此处 <https://iap.flectra.com/privacy#header_4>`_，了解我们的*隐私政策*。"
+msgstr "点击`此处 <https://iap.flectrahq.com/privacy#header_4>`_，了解我们的*隐私政策*。"
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/purchase_receipts.rst:3
 msgid "Purchase Receipts"
@@ -16746,7 +16746,7 @@ msgid ""
 "having different due dates. Since the discounted price is already "
 "calculated, your payment controls will be simplified."
 msgstr ""
-"现金，你可以建立一个客户发票并选择你增加的现金折扣政策。一旦发票生效。Odoo将自动分解应收账款到两个不同到期日的分期付款计划。因为折扣价已经计算好了，你的支付控制将变的简单。"
+"现金，你可以建立一个客户发票并选择你增加的现金折扣政策。一旦发票生效。flectra将自动分解应收账款到两个不同到期日的分期付款计划。因为折扣价已经计算好了，你的支付控制将变的简单。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/cash_discounts.rst:37
 msgid "Grant the cash discount"
@@ -16823,7 +16823,7 @@ msgstr "在这里定义你的*舍入精度*、*舍入策略*和*舍入方法*。
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/cash_rounding.rst:28
 msgid "Flectra supports two **rounding strategies**:"
-msgstr "Odoo支持两种**舍入策略**。"
+msgstr "flectra支持两种**舍入策略**。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/cash_rounding.rst:30
 msgid ""
@@ -16932,7 +16932,7 @@ msgstr "贷项凭单编号以“R”开头，然后是其相关的文件编号�
 msgid ""
 "Flectra creates a draft credit note already prefilled with all the necessary "
 "information from the original invoice."
-msgstr "Odoo已经创建了一份贷项凭单草稿，并按原发票预填了所有必要信息。"
+msgstr "flectra已经创建了一份贷项凭单草稿，并按原发票预填了所有必要信息。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/credit_notes.rst:48
 msgid ""
@@ -16950,7 +16950,7 @@ msgstr "已经标记为*已付款*的发票只能使用这种选项。"
 msgid ""
 "Flectra creates a credit note, automatically validates it, and reconciles the "
 "original invoice with it."
-msgstr "Odoo创建贷项凭单，自动确认并与原发票对账。"
+msgstr "flectra创建贷项凭单，自动确认并与原发票对账。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/credit_notes.rst:62
 msgid ""
@@ -16963,7 +16963,7 @@ msgid ""
 "Flectra creates a credit note, automatically validates it, reconciles the "
 "original invoice with it, and open a new draft invoice prefilled with the "
 "same details from the original invoice."
-msgstr "Odoo创建贷项凭单，自动确认并与原发票对账，然后创建一份新的发票草稿并预填原发票的相同详情。"
+msgstr "flectra创建贷项凭单，自动确认并与原发票对账，然后创建一份新的发票草稿并预填原发票的相同详情。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/credit_notes.rst:71
 msgid ""
@@ -17049,7 +17049,7 @@ msgid ""
 "Flectra Accounting handles deferred revenues by spreading them in multiple "
 "entries that are automatically created in *draft mode* and then posted "
 "periodically."
-msgstr "Odoo会计应用程序处理递延收入的方法是将它们分散在多个分录中，它们以*草稿模式*自动创建，然后定期过账。"
+msgstr "flectra会计应用程序处理递延收入的方法是将它们分散在多个分录中，它们以*草稿模式*自动创建，然后定期过账。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/deferred_revenues.rst:30
 msgid ""
@@ -17135,7 +17135,7 @@ msgid ""
 " to generate all the values of the **Revenue Board**. This board shows you "
 "all the entries that Flectra will post to recognize your revenue, and at which "
 "date."
-msgstr "完成后，点击*计算收入*（在*确认*按钮旁边），生成**收入面板**的所有值。该面板显示Odoo将执行收入确认过账的所有分录和日期。"
+msgstr "完成后，点击*计算收入*（在*确认*按钮旁边），生成**收入面板**的所有值。该面板显示flectra将执行收入确认过账的所有分录和日期。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/deferred_revenues.rst:115
 msgid ""
@@ -17256,8 +17256,8 @@ msgstr "例如，你可将此科目选择为某产品默认的**收入科目**�
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/deferred_revenues.rst:195
 msgid ""
 "`Flectra Academy: Deferred Revenues (Recognition) "
-"<https://www.flectra.com/r/EWO>`_"
-msgstr "`Odoo学院：递延收入（确认） <https://www.flectra.com/r/EWO>`_"
+"<https://www.flectrahq.com/r/EWO>`_"
+msgstr "`flectra学院：递延收入（确认） <https://www.flectrahq.com/r/EWO>`_"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/epc_qr_code.rst:3
 msgid "Add EPC QR Codes to invoices"
@@ -17298,7 +17298,7 @@ msgstr "配置你的银行账户日记账"
 msgid ""
 "Make sure that your *Bank Account* is correctly configured on Flectra with your"
 " IBAN and BIC."
-msgstr "确保在Odoo中正确配置你的*银行账户*，检查IBAN和BIC是否正确。"
+msgstr "确保在flectra中正确配置你的*银行账户*，检查IBAN和BIC是否正确。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/epc_qr_code.rst:32
 msgid ""
@@ -17330,13 +17330,13 @@ msgstr "前往 :menuselection:`会计 --> 客户 --> 发票`，并创建新发�
 msgid ""
 "Before posting it, open the *Other Info* tab. Flectra automatically fills out "
 "the *Bank Account* field with your IBAN."
-msgstr "在过账之前，打开*其他信息*选项卡。Odoo将自动填写*银行账户*字段和IBAN。"
+msgstr "在过账之前，打开*其他信息*选项卡。flectra将自动填写*银行账户*字段和IBAN。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/epc_qr_code.rst:51
 msgid ""
 "Make sure that the account indicated is the one you want to use to receive "
 "your customer’s payment as Flectra uses this field to generate the EPC QR Code."
-msgstr "确保填写的账户是你想要用来接收客户付款的账户，因为Odoo将用此字段生成EPC二维码。"
+msgstr "确保填写的账户是你想要用来接收客户付款的账户，因为flectra将用此字段生成EPC二维码。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/epc_qr_code.rst:59
 msgid ""
@@ -17348,8 +17348,8 @@ msgstr "如你想要开具不含EPC二维码的发票，只需在发票的*其�
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/epc_qr_code.rst:65
 msgid ""
 "`Flectra Academy: QR Code on Invoices for European Customers "
-"<https://www.flectra.com/r/VuU>`_"
-msgstr "`Odoo学院：在欧洲客户的发票上添加二维码 <https://www.flectra.com/r/VuU>`_"
+"<https://www.flectrahq.com/r/VuU>`_"
+msgstr "`flectra学院：在欧洲客户的发票上添加二维码 <https://www.flectrahq.com/r/VuU>`_"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/overview.rst:3
 msgid "Overview of the invoicing process"
@@ -17364,7 +17364,7 @@ msgid ""
 "validate draft invoices and send the invoices in batch (by regular mail or "
 "email)."
 msgstr ""
-"基于你的业务场景以及你所使用的模块, 在Odoo中有几种不同的方式去自动触发客户发票。通常, "
+"基于你的业务场景以及你所使用的模块, 在flectra中有几种不同的方式去自动触发客户发票。通常, "
 "系统创建草稿发票(发票信息从其他单据例如销售订单或者合同)并且会计只需要确认草稿发票并且批量的发送即可(快递或者电子邮件)"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/overview.rst:12
@@ -17459,7 +17459,7 @@ msgid ""
 "fully paid. If you allow paying orders by check or wire transfer, Flectra only "
 "creates an order and the invoice will be triggered once the payment is "
 "received."
-msgstr "在全部付款完成后, 电商订单也会触发订单的创建, 如果允许通过支票和电汇付款, Odoo只会创建一张订单并且一旦付款完成发票会触发。"
+msgstr "在全部付款完成后, 电商订单也会触发订单的创建, 如果允许通过支票和电汇付款, flectra只会创建一张订单并且一旦付款完成发票会触发。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/overview.rst:72
 msgid "Contracts"
@@ -17831,7 +17831,7 @@ msgstr ":doc:`cash_discounts` "
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/payment_terms.rst:121
 msgid ""
 "`Flectra Tutorials: Terms and Conditions (T&C) and Payment Terms "
-"<https://www.flectra.com/r/fpv>`_"
+"<https://www.flectrahq.com/r/fpv>`_"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:3
@@ -17843,7 +17843,7 @@ msgid ""
 "Direct mail is a great way to capture individuals’ attention at a time where"
 " inboxes are always full. Flectra allows you to send invoices and follow-up "
 "reports by post, worldwide, directly from your database."
-msgstr "在电子邮件收件箱总是被挤得满满当当的时候，直接邮寄是吸引个人关注的好方法。Odoo可直接从数据库向全球各地邮政寄送发票和催款报告。"
+msgstr "在电子邮件收件箱总是被挤得满满当当的时候，直接邮寄是吸引个人关注的好方法。flectra可直接从数据库向全球各地邮政寄送发票和催款报告。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:10
 msgid "Set up Snailmail"
@@ -18059,7 +18059,7 @@ msgstr ""
 msgid ""
 "You can record customer mandates in Flectra, and generate XML files containing "
 "pending payments made with an SDD mandate."
-msgstr "您可以在Odoo中记录客户委托，并生成XML文件，其中包含使用SDD委托进行的待付款项。"
+msgstr "您可以在flectra中记录客户委托，并生成XML文件，其中包含使用SDD委托进行的待付款项。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/batch_sdd.rst:0
 msgid ""
@@ -18223,7 +18223,7 @@ msgid ""
 " specifications, as required by the SEPA customer-to-bank Implementation "
 "Guidelines, which ensures compatibility with the banks."
 msgstr ""
-"Odoo生成的文件遵循SEPA客户到银行实施指南所要求的SEPA直接付款 **PAIN.008.001.02**规范，以确保与银行的兼容性。"
+"flectra生成的文件遵循SEPA客户到银行实施指南所要求的SEPA直接付款 **PAIN.008.001.02**规范，以确保与银行的兼容性。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/batch_sdd.rst:117
 msgid ""
@@ -18242,7 +18242,7 @@ msgstr "选择要包含在SDD XML文件中的所有付款，然后单击 *操作
 msgid ""
 "Flectra then takes you to your *Batch Payment*’s form. Click on *Validate* and "
 "download the SDD XML file."
-msgstr "然后，Odoo带您进入*批量付款* 表格。 单击 *验证* 并下载 SDD XML文件。"
+msgstr "然后，flectra带您进入*批量付款* 表格。 单击 *验证* 并下载 SDD XML文件。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/batch_sdd.rst:138
 msgid ""
@@ -18264,8 +18264,8 @@ msgstr ":doc:`batch`"
 #: ../../content/applications/finance/accounting/receivables/customer_payments/batch_sdd.rst:147
 msgid ""
 "`Flectra Academy: SEPA Direct Debit Mandates (SDD) "
-"<https://www.flectra.com/r/Zxs>`_"
-msgstr "`Odoo学院：SEPA直接借记授权(SDD) <https://www.flectra.com/r/Zxs>`_"
+"<https://www.flectrahq.com/r/Zxs>`_"
+msgstr "`flectra学院：SEPA直接借记授权(SDD) <https://www.flectrahq.com/r/Zxs>`_"
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/batch_sdd.rst:148
 msgid ""
@@ -18283,7 +18283,7 @@ msgstr "通过支票注册客户付款"
 msgid ""
 "There are two ways to handle payments received by checks. Flectra support both "
 "approaches so that you can use the one that better fits your habits."
-msgstr "有两种方法可处理收款。Odoo都支持，你可选择一个适合你的。"
+msgstr "有两种方法可处理收款。flectra都支持，你可选择一个适合你的。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/check.rst:9
 msgid ""
@@ -18316,7 +18316,7 @@ msgstr "我们建议使用第一种方法, 更准确(你的银行帐户余额是
 msgid ""
 "Even if the first method is cleaner, Flectra support the second approach "
 "because some accountants are used to it (quickbooks and peachtree users)."
-msgstr "即使第一个方法更干净，Odoo仍支持第二种方法, 因为一些会计已习惯使用(指导书和其他用户)。"
+msgstr "即使第一个方法更干净，flectra仍支持第二种方法, 因为一些会计已习惯使用(指导书和其他用户)。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/check.rst:32
 msgid ""
@@ -18483,7 +18483,7 @@ msgid ""
 "It is essential for your business to collect payments when they are overdue."
 " Flectra will help you identify payments that are late and will allow you to "
 "send the appropriate reminders."
-msgstr "对于你的企业而言，在逾期付款时收取款项非常重要。Odoo将帮助你识别延迟付款，并可发送适当的提醒。"
+msgstr "对于你的企业而言，在逾期付款时收取款项非常重要。flectra将帮助你识别延迟付款，并可发送适当的提醒。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/followup.rst:10
 msgid "Manage your follow-ups"
@@ -18564,7 +18564,7 @@ msgid ""
 "action. You can also edit the template used for the statement according to "
 "the stage of the process."
 msgstr ""
-"Odoo中默认可用的催款计划包括多项操作，但你可根据自己的需要自定义。根据具体的逾期天数，计划发送邮件、信件或采取人为操作。你还可根据流程阶段编辑使用的声明模板。"
+"flectra中默认可用的催款计划包括多项操作，但你可根据自己的需要自定义。根据具体的逾期天数，计划发送邮件、信件或采取人为操作。你还可根据流程阶段编辑使用的声明模板。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/followup.rst:69
 msgid ""
@@ -18640,7 +18640,7 @@ msgstr "记录付款的不同方式"
 msgid ""
 "In Flectra, a payment can either be linked directly to an invoice or be a stand"
 " alone record for use on a later date:"
-msgstr "在Odoo，付款可直接链接到一个发票或是单独记录："
+msgstr "在flectra，付款可直接链接到一个发票或是单独记录："
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/recording.rst:8
 msgid ""
@@ -18680,7 +18680,7 @@ msgid ""
 "linked to the specific invoice any longer. If you unreconcile a payment in a"
 " different currency, Flectra will create a journal entry to reverse the "
 "Currency Exchange Loss/Gain posted at the time of reconciliation."
-msgstr "如果付款未核销，它已入账但未与发票关联。如果外币的付款未核销，当核销时, Odoo将创建汇兑损益的凭证。"
+msgstr "如果付款未核销，它已入账但未与发票关联。如果外币的付款未核销，当核销时, flectra将创建汇兑损益的凭证。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/recording.rst:38
 msgid "Payments not tied to an invoice"
@@ -18731,7 +18731,7 @@ msgid ""
 "payment for this customer or vendor is available. In this case, you can "
 "reconcile this payment to the invoice near the totals at the bottom, under "
 "\"Outstanding Payments\"."
-msgstr "当确认一个新的发票，Odoo会提醒你这个客户或供应商可用的款项。在这种情况下，您可以将此付款与发票总额核销，“未支付款项”。"
+msgstr "当确认一个新的发票，flectra会提醒你这个客户或供应商可用的款项。在这种情况下，您可以将此付款与发票总额核销，“未支付款项”。"
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/recording.rst:75
 msgid "Reconciling all your outstanding payments and invoices"
@@ -18843,7 +18843,7 @@ msgid ""
 "The configuration of the **Tax Return Periodicity** allows Flectra Accounting "
 "to compute your Tax Return correctly and also to send you a reminder to "
 "never miss a tax return deadline."
-msgstr "**税收返还周期** 的配置使Odoo 会计能够正确计算您的税收返还，并向您发送提醒，以确保您不会错过税收返还截止日期。"
+msgstr "**税收返还周期** 的配置使flectra 会计能够正确计算您的税收返还，并向您发送提醒，以确保您不会错过税收返还截止日期。"
 
 #: ../../content/applications/finance/accounting/reporting/declarations/tax_returns.rst:27
 msgid ""
@@ -18860,7 +18860,7 @@ msgstr "**定期** ：在此定义是每月还是每三个月提交一次纳税�
 #: ../../content/applications/finance/accounting/reporting/declarations/tax_returns.rst:31
 msgid ""
 "**Reminder**: define when Flectra should remind you to file your tax return."
-msgstr "**提醒** ：定义Odoo何时应提醒您提交纳税申报单。"
+msgstr "**提醒** ：定义flectra何时应提醒您提交纳税申报单。"
 
 #: ../../content/applications/finance/accounting/reporting/declarations/tax_returns.rst:32
 msgid "**Journal**: select the journal in which to record the tax return."
@@ -18883,7 +18883,7 @@ msgid ""
 " recorded transactions use the right taxes. You can see on each Journal Item"
 " which Tax Grid is used for that transaction."
 msgstr ""
-"Odoo会根据您的税款配置的 **税收网格** 设置生成税收报告。 因此，确保所有记录的交易使用正确的税金至关重要。 "
+"flectra会根据您的税款配置的 **税收网格** 设置生成税收报告。 因此，确保所有记录的交易使用正确的税金至关重要。 "
 "您可以在每个日记帐项目上看到该交易使用了哪个税收网格。"
 
 #: ../../content/applications/finance/accounting/reporting/declarations/tax_returns.rst:53
@@ -18971,7 +18971,7 @@ msgid ""
 " right column. It includes all the values to report to the tax authorities, "
 "along with the amount you have to pay or be refunded."
 msgstr ""
-"查看生成的日记帐分录后，单击 *发布* 。 除了发布条目外，Odoo还会自动创建带有 *税收报告* "
+"查看生成的日记帐分录后，单击 *发布* 。 除了发布条目外，flectra还会自动创建带有 *税收报告* "
 "的PDF文件，您可以从沟通栏中下载该文件并在右列进行预览。 它包括所有要向税务机关报告，以及您必须支付或退款的金额。"
 
 #: ../../content/applications/finance/accounting/reporting/declarations/tax_returns.rst:116
@@ -18984,7 +18984,7 @@ msgid ""
 " as described above."
 msgstr ""
 "如果你忘了 :ref:`锁定您的纳税日期 <tax_return_lock>` 之前点击 *关闭日记帐分录* , "
-"Odoo会自动将您的会计期间锁定为与输入的会计日期相同的日期。 当您单击 *发布* 时，会发生这种自动锁定。 "
+"flectra会自动将您的会计期间锁定为与输入的会计日期相同的日期。 当您单击 *发布* 时，会发生这种自动锁定。 "
 "此安全机制可以防止出现一些财务错误，但如上所述，建议您先手动锁定纳税日期。"
 
 #: ../../content/applications/finance/accounting/reporting/declarations/tax_returns.rst:124
@@ -19392,7 +19392,7 @@ msgstr "会计年度"
 
 #: ../../content/applications/finance/accounting/taxation/fiscal_year/close_fiscal_year.rst:3
 msgid "Do a year end in Flectra (close a fiscal year)"
-msgstr "在Odoo进行年度結算（关闭会计年度）"
+msgstr "在flectra进行年度結算（关闭会计年度）"
 
 #: ../../content/applications/finance/accounting/taxation/fiscal_year/close_fiscal_year.rst:5
 msgid ""
@@ -19491,7 +19491,7 @@ msgid ""
 "loans, bank accounts, prepayments, sales tax statements, etc...) to agree "
 "these against your Flectra balances."
 msgstr ""
-"如果您的会计师/记账员正在通过年底审计，他们可能想要所有资产负债表项目（例如贷款，银行帐户，预付款，销售税报表等）的纸质副本，这些应该与Odoo余额一致。"
+"如果您的会计师/记账员正在通过年底审计，他们可能想要所有资产负债表项目（例如贷款，银行帐户，预付款，销售税报表等）的纸质副本，这些应该与flectra余额一致。"
 
 #: ../../content/applications/finance/accounting/taxation/fiscal_year/close_fiscal_year.rst:67
 msgid ""
@@ -19517,8 +19517,8 @@ msgid ""
 "Statement**, the beginning date will correspond with the beginning of the "
 "**Fiscal Year** and the account balances will all be 0."
 msgstr ""
-"在Odoo中，没有必要做一个特定的年底结账分录，以关闭损益表科目。这些报表实时创建，这意味着 **损益表** "
-"直接对应于您在Odoo中指定的年终日期。因此，任何时候你生成 **损益表** ，开始日期将对应于 **财政年度** 的开始，并且科目余额将全部为0。"
+"在flectra中，没有必要做一个特定的年底结账分录，以关闭损益表科目。这些报表实时创建，这意味着 **损益表** "
+"直接对应于您在flectra中指定的年终日期。因此，任何时候你生成 **损益表** ，开始日期将对应于 **财政年度** 的开始，并且科目余额将全部为0。"
 
 #: ../../content/applications/finance/accounting/taxation/fiscal_year/close_fiscal_year.rst:86
 msgid ""
@@ -19594,7 +19594,7 @@ msgid ""
 "easily do sales order with a price having taxes excluded (or included): "
 "that's easy."
 msgstr ""
-"Odoo能容易地管理两种用例, 不管你在产品的标价上是否包含税。如果你对所有产品都标含税价(或者不含税价), 你也可以在销售订单上报不含税价(含税价) "
+"flectra能容易地管理两种用例, 不管你在产品的标价上是否包含税。如果你对所有产品都标含税价(或者不含税价), 你也可以在销售订单上报不含税价(含税价) "
 ":就是这么简单。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/B2B_B2C.rst:15
@@ -19684,7 +19684,7 @@ msgid ""
 "and you have no specific configuration to do."
 msgstr ""
 "要避免此种复杂状况, 最好的办法就是只选择一种方法管理价格并固定下来 :价格含税或者不含税。在产品表单中设置为默认的(在产品相关的默认税上), "
-"然后让Odoo根据价格表和财政位置自动计算其余的。只要专注于和客户谈判。这样就实现了开箱即用, 而你不需要做特别的配置。"
+"然后让flectra根据价格表和财政位置自动计算其余的。只要专注于和客户谈判。这样就实现了开箱即用, 而你不需要做特别的配置。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/B2B_B2C.rst:73
 msgid ""
@@ -19952,7 +19952,7 @@ msgid ""
 "default revenue account. The balance of this account will then always be at "
 "zero."
 msgstr ""
-"最后两个日记账项目是中性的，但它们可确保基本税金额的准确性，以保证Odoo税收报告的准确性。我们建议使用默认的收入科目。该科目的余额将始终为零。"
+"最后两个日记账项目是中性的，但它们可确保基本税金额的准确性，以保证flectra税收报告的准确性。我们建议使用默认的收入科目。该科目的余额将始终为零。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/default_taxes.rst:5
 msgid ""
@@ -19962,7 +19962,7 @@ msgid ""
 "create a new product or add a new line on an invoice."
 msgstr ""
 "**默认税项** :doc:`税项 "
-"<taxes>`定义了当没有其他指示要使用哪种税项时自动选择的设置，例如，当您创建新产品或在发票上添加新行时，Odoo会使用默认填充 **税预** "
+"<taxes>`定义了当没有其他指示要使用哪种税项时自动选择的设置，例如，当您创建新产品或在发票上添加新行时，flectra会使用默认填充 **税预** "
 "字段。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/default_taxes.rst:14
@@ -19973,7 +19973,7 @@ msgid ""
 "Fiscal Position."
 msgstr ""
 ":doc:`财政状况<fiscal_positions>` 考虑了默认税。 "
-"因此，如果将`财政状况应用于发票，Odoo将应用相关的税而不是默认税，作为映射的财政状况。"
+"因此，如果将`财政状况应用于发票，flectra将应用相关的税而不是默认税，作为映射的财政状况。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/default_taxes.rst:21
 msgid ""
@@ -20234,7 +20234,7 @@ msgid ""
 "In Flectra, a withholding tax is defined by creating a negative tax. For a "
 "retention of 10%, you would configure the following tax (accessible through "
 ":menuselection:`Configuration --> Taxes`):"
-msgstr "在Odoo, 创建一个负的税来定义预提税。保留的10%, 需要一下配置(通过:menuselection:`配置 --> 税收`):"
+msgstr "在flectra, 创建一个负的税来定义预提税。保留的10%, 需要一下配置(通过:menuselection:`配置 --> 税收`):"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/retention.rst:32
 msgid ""
@@ -20274,7 +20274,7 @@ msgid ""
 "print or send the invoice, Flectra does the correct grouping amongst all the "
 "taxes."
 msgstr ""
-"当你看到客户发票, 只能得到一个 **税行** , 这行汇总了的税收(正常的税收和保留税)。但是当你打印或发送发票, Odoo将正确地组合所有的税。"
+"当你看到客户发票, 只能得到一个 **税行** , 这行汇总了的税收(正常的税收和保留税)。但是当你打印或发送发票, flectra将正确地组合所有的税。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/retention.rst:63
 msgid "The printed invoice will show the different amounts in each tax group."
@@ -20307,7 +20307,7 @@ msgstr "在*TaxCloud* <https://taxcloud.net/#register>`__地址下创建一个�
 #: ../../content/applications/finance/accounting/taxation/taxes/taxcloud.rst:18
 msgid ""
 "Register your Flectra website on TaxCloud to get an *API ID* and an *API Key*."
-msgstr "在TaxCloud上注册你的Odoo网站，获得一个*API ID*和*API密钥*。"
+msgstr "在TaxCloud上注册你的flectra网站，获得一个*API ID*和*API密钥*。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/taxcloud.rst:23
 msgid ""
@@ -20323,7 +20323,7 @@ msgstr "在TaxCloud的设置中，点击 *管理税务州* ，以确认你收取
 
 #: ../../content/applications/finance/accounting/taxation/taxes/taxcloud.rst:27
 msgid "In Flectra"
-msgstr "在Odoo上"
+msgstr "在flectra上"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/taxcloud.rst:28
 msgid ""
@@ -20378,7 +20378,7 @@ msgid ""
 ":doc:`fiscal_positions`). A Fiscal Position for the United States is created"
 " when installing *TaxCloud*. Everything works out-of-the-box."
 msgstr ""
-"在Odoo中，营业税是根据财政状况计算的（请参阅  :doc:`财政状况）。 安装 *TaxCloud* 时会创建美国的财政职位。 一切开箱即用。"
+"在flectra中，营业税是根据财政状况计算的（请参阅  :doc:`财政状况）。 安装 *TaxCloud* 时会创建美国的财政职位。 一切开箱即用。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/taxcloud.rst:54
 msgid ""
@@ -20386,7 +20386,7 @@ msgid ""
 "this fiscal position.  Go to :menuselection:`Accounting --> Configuration "
 "--> Fiscal Positions` to open and edit the record."
 msgstr ""
-"你可将Odoo配置为自动检测使用该财政状况的客户。前往 :menuselection:`会计 --> 配置 --> 财政状况`，打开并编辑记录。"
+"你可将flectra配置为自动检测使用该财政状况的客户。前往 :menuselection:`会计 --> 配置 --> 财政状况`，打开并编辑记录。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/taxcloud.rst:61
 msgid ""
@@ -20437,7 +20437,7 @@ msgid ""
 "the equivalent of a 7% tax on half the price), but this might be surprising "
 "from a user point of view."
 msgstr ""
-"另一个特别的奇怪之处可能是用户界面：想象一下，你从TaxCloud类别*[20110]计算机*中销售了一件产品，并且你已制定了促销计划，提供产品的50%折扣。如果该产品的税率为7%，则从TaxCloud集成计算的税率将显示3.5%。这是因为折扣已包括在发送到TaxCloud的价格中，但是在Odoo中，该折扣完全在另一行显示。结果，你的税务计算是正确的（因为全价3.5%的税费相当于半价7%的税费)，但从用户的角度来看，这可能让人感到奇怪。"
+"另一个特别的奇怪之处可能是用户界面：想象一下，你从TaxCloud类别*[20110]计算机*中销售了一件产品，并且你已制定了促销计划，提供产品的50%折扣。如果该产品的税率为7%，则从TaxCloud集成计算的税率将显示3.5%。这是因为折扣已包括在发送到TaxCloud的价格中，但是在flectra中，该折扣完全在另一行显示。结果，你的税务计算是正确的（因为全价3.5%的税费相当于半价7%的税费)，但从用户的角度来看，这可能让人感到奇怪。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/taxes.rst:5
 msgid ""
@@ -20445,7 +20445,7 @@ msgid ""
 " depending mostly on your company's localization. To make sure they are "
 "recorded with accuracy, Flectra's tax engine supports all kinds of uses and "
 "computations."
-msgstr "**税** 的类型很多，它们的应用差异很大，这主要取决于您公司的本地化。 为了确保准确记录，Odoo的税务引擎支持各种用途和计算。"
+msgstr "**税** 的类型很多，它们的应用差异很大，这主要取决于您公司的本地化。 为了确保准确记录，flectra的税务引擎支持各种用途和计算。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/taxes.rst:12
 msgid "Activate Sales Taxes from the List view"
@@ -20906,7 +20906,7 @@ msgid ""
 "This helps you make sure that your contacts provided you with a valid VAT "
 "number without leaving Flectra interface."
 msgstr ""
-"保存联系人时，Odoo提供了 **验证增值税号** 的功能。 这可以帮助您确保您的联系人在不离开Odoo界面的情况下为您提供了有效的增值税号。"
+"保存联系人时，flectra提供了 **验证增值税号** 的功能。 这可以帮助您确保您的联系人在不离开flectra界面的情况下为您提供了有效的增值税号。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/vat_validation.rst:15
 msgid ""
@@ -20931,7 +20931,7 @@ msgstr "每当您创建或修改联系人时，请务必填写 **国家/地区**
 msgid ""
 "When you click on *Save*, Flectra runs a VIES VAT number check, and displays an"
 " error message if the VAT number is invalid."
-msgstr "当您单击 *保存* 时，Odoo将运行VIES增值税号检查，如果增值税号无效，则会显示一条错误消息。"
+msgstr "当您单击 *保存* 时，flectra将运行VIES增值税号检查，如果增值税号无效，则会显示一条错误消息。"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/vat_validation.rst:39
 msgid ""
@@ -20963,7 +20963,7 @@ msgid ""
 "real cost per expense."
 msgstr ""
 "追踪费用的第一步是从 *配置* "
-"菜单中配置公司允许的费用类型（在Odoo中作为产品管理）。当特定费用以固定价格报销时，在产品上设置成本。否则，将成本保存为0.0，员工将报告每项费用的实际成本。"
+"菜单中配置公司允许的费用类型（在flectra中作为产品管理）。当特定费用以固定价格报销时，在产品上设置成本。否则，将成本保存为0.0，员工将报告每项费用的实际成本。"
 
 #: ../../content/applications/finance/expense/expense.rst:16
 msgid "Here are some examples to configure:"
@@ -21006,7 +21006,7 @@ msgid ""
 " way, employees report expenses with prices including taxes, which is "
 "usually the expected behaviour."
 msgstr ""
-"请勿忘记针对每个报销费用类别设置费用税（及科目，如你使用Odoo会计应用程序）。使用 *含税价格* 配置税收一般是很好的做法（参见： "
+"请勿忘记针对每个报销费用类别设置费用税（及科目，如你使用flectra会计应用程序）。使用 *含税价格* 配置税收一般是很好的做法（参见： "
 ":ref:`价格含税 <taxes/included-in-price>` ）。这样，员工报告的费用已包含税收，这通常是期望的做法。"
 
 #: ../../content/applications/finance/expense/expense.rst:40
@@ -21071,11 +21071,11 @@ msgstr "员工通过电子邮件即可记录费用。添加收据截图并通过
 msgid ""
 "The only thing to do is setting up an email alias in "
 ":menuselection:`Expenses --> Configuration --> Settings` (e.g. *expenses* "
-"@mycompany.flectra.com). For security purposes, only authenticated employee "
+"@mycompany.flectrahq.com). For security purposes, only authenticated employee "
 "emails (cfr. *Work Email* in employee detail form) are accepted."
 msgstr ""
 "只需在 :menuselection:`费用 --> 配置 --> 设置`设置邮件别名（例如，*费用* "
-"@mycompany.flectra.com）。为了安全起见，只接受经过认证的员工邮件（员工详情表中的 *工作邮件* ）。"
+"@mycompany.flectrahq.com）。为了安全起见，只接受经过认证的员工邮件（员工详情表中的 *工作邮件* ）。"
 
 #: ../../content/applications/finance/expense/expense.rst:82
 msgid ""
@@ -21173,7 +21173,7 @@ msgid ""
 "is using Flectra."
 msgstr ""
 "如要进行费用过账，必须为员工设置 *家庭地址* 。如在过账时收到相关的阻止消息，点击员工，进入 *个人信息* "
-"选项卡并在地址簿中选择/创建员工的联系人。如对方使用Odoo，则已自动创建联系人。"
+"选项卡并在地址簿中选择/创建员工的联系人。如对方使用flectra，则已自动创建联系人。"
 
 #: ../../content/applications/finance/expense/expense.rst:149
 msgid "How to reimburse employees"
@@ -21190,7 +21190,7 @@ msgstr ""
 
 #: ../../content/applications/finance/expense/expense.rst:155
 msgid "See how you can easily manage the payment process in Flectra:"
-msgstr "查看如何在Odoo中轻松管理付款流程："
+msgstr "查看如何在flectra中轻松管理付款流程："
 
 #: ../../content/applications/finance/expense/expense.rst:157
 msgid ":doc:`../accounting/payables/pay/check`"

@@ -4,10 +4,10 @@
 
 ### Requirements
 
-- [Git](https://www.flectra.com/documentation/2.0/contributing/documentation/introduction_guide.html#install-git)
-- [Python 3.6, 3.7, or 3.8](https://www.flectra.com/documentation/2.0/contributing/documentation/introduction_guide.html#python)
+- [Git](https://www.flectrahq.com/documentation/2.0/contributing/documentation/introduction_guide.html#install-git)
+- [Python 3.6, 3.7, or 3.8](https://www.flectrahq.com/documentation/2.0/contributing/documentation/introduction_guide.html#python)
 - Python dependencies listed in the file [`requirements.txt`](https://github.com/flectra/documentation/tree/2.0/requirements.txt).
-- [Make](https://www.flectra.com/documentation/2.0/contributing/documentation/introduction_guide.html#make)
+- [Make](https://www.flectrahq.com/documentation/2.0/contributing/documentation/introduction_guide.html#make)
 - A local copy of the [flectra/flectra repository in2.0](https://github.com/flectra/flectra/tree/2.0) (Optional)
 
 ### Instructions
@@ -23,7 +23,7 @@
 
 2. Open the file `documentation/_build/html/index.html` in your web browser to display the render.
 
-3. See [this guide](https://www.flectra.com/documentation/2.0/contributing/documentation/introduction_guide.html#preview-your-changes)
+3. See [this guide](https://www.flectrahq.com/documentation/2.0/contributing/documentation/introduction_guide.html#preview-your-changes)
    for more detailed instructions.
 
 Optional: to fully build the developer documentation with inline docstrings for documented Python
@@ -34,7 +34,7 @@ be shown.
 ## Contribute to the documentation
 
 For contributions to the content of the documentation, please refer to the
-[Introduction Guide](https://www.flectra.com/documentation/2.0/contributing/documentation/introduction_guide.html).
+[Introduction Guide](https://www.flectrahq.com/documentation/2.0/contributing/documentation/introduction_guide.html).
 
 To **report a content issue**, **request new content** or **ask a question**, use the
 [repository's issue tracker](https://github.com/flectra/documentation-user/issues) as usual.
@@ -46,5 +46,5 @@ If you have a pull request that is ready for review, request one from the
 ## Learn More
 
 To learn more about Flectra, in addition to the documentation, have a look at
-[the official eLearning](https://flectra.com/slides) and
-[Scale-up, The Business Game](https://www.flectra.com/page/scale-up-business-game).
+[the official eLearning](https://flectrahq.com/slides) and
+[Scale-up, The Business Game](https://www.flectrahq.com/page/scale-up-business-game).

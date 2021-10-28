@@ -8,7 +8,7 @@ the probability of this happening.
 
 .. raw:: html
 
-   <div align="center" style="color:#AD5E99; font-size: 2rem ;margin: 20px 0"> <b>What is the right
+   <div align="center" style="color:#2496f6; font-size: 2rem ;margin: 20px 0"> <b>What is the right
    way to go?</b> </div>
 
 1. If you adopt such methods, you are among companies that actively and indirectly spread the
@@ -46,7 +46,7 @@ Once enabled, this option gives your customers the right to close their own subs
    **Flectra Subscriptions** application.
 
 Close your first subscription
-=============================
+==============================
 
 Administrator view
 ------------------

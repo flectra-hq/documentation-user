@@ -59,7 +59,7 @@ To get the certification just follow the following steps:
   encrypted for the inalterability check. To edit your company’s data,
   go to :menuselection:`Settings --> Users & Companies --> Companies`.
   Select a country from the list; Do not create a new country.
-* Download the mandatory certificate of conformity delivered by Flectra SA `here <https://www.flectra.com/my/contract/french-certification/>`__.
+* Download the mandatory certificate of conformity delivered by FlectraHQ, Inc. `here <https://www.flectrahq.com/my/contract/french-certification/>`__.
 
 .. note::
    * To install the module in any system created before

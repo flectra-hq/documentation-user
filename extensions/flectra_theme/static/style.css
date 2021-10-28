@@ -8632,7 +8632,7 @@ aside.o_page_toc {
       position: sticky;
       top: 90px;
       right: 0;
-      width: auto;
+      width: 20%;
       height: 100%;
       max-height: calc(100vh - 90px);
       padding: 3rem 3rem 3rem 0;

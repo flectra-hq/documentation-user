@@ -81,7 +81,7 @@ Let your employees record their expenses from a simple email.
 Make a snapshot of the receipt and send it by email, or simply forward a bill!
 
 The only thing to do is setting up an email alias in 
-:menuselection:`Expenses --> Configuration --> Settings` (e.g. *expenses* @mycompany.flectra.com). 
+:menuselection:`Expenses --> Configuration --> Settings` (e.g. *expenses* @mycompany.flectrahq.com). 
 For security purposes, only authenticated employee emails 
 (cfr. *Work Email* in employee detail form) are accepted.
 

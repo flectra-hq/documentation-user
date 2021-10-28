@@ -34,7 +34,7 @@ How much does it cost to send an SMS?
 =====================================
 | The price of an SMS depends on the destination and the length (number of characters) of the message.
 | To see the **price per country,
-  please consult**: `Flectra SMS - FAQ <https://iap-services.flectra.com/iap/sms/pricing#sms_faq_01>`_.
+  please consult**: `Flectra SMS - FAQ <https://iap-services.flectrahq.com/iap/sms/pricing#sms_faq_01>`_.
 
 The number of SMSs a message represents will be always available to you in your database.
 
@@ -107,9 +107,9 @@ More common questions
 
 #. **How does the GDPR regulation affect this service?**
 
-   Please find our `Privacy Policy here <https://iap.flectra.com/privacy#sms>`__.
+   Please find our `Privacy Policy here <https://iap.flectrahq.com/privacy#sms>`__.
 
 #. **Can I use my own SMS provider?**
 
    Yes, but it is not possible out of the box. Our experts can help you customize your database
-   to make it happen. Please, check our success packs `here <https://www.flectra.com/pricing-packs>`_.
+   to make it happen. Please, check our success packs `here <https://www.flectrahq.com/pricing-packs>`_.

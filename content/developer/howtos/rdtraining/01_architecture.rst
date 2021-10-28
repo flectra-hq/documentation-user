@@ -128,4 +128,4 @@ to make sure we start on the same page during the development of our new applica
     https://docs.python.org/3.6/tutorial/
 
 .. _two versions:
-    https://www.flectra.com/page/editions
+    https://www.flectrahq.com/page/editions

@@ -41,7 +41,7 @@ Link a Spreadsheet with Flectra
 | From this new file, configure your database.
 | Go to :menuselection:`Flectra --> Server Settings --> Database Name --> Username --> Password`.
 
-.. image:: media/odoo_menu.png
+.. image:: media/flectra_menu.png
    :align: center
    :alt: Menu called Flectra is shown on the settings bar in the Spreadsheet
 

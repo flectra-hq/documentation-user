@@ -71,7 +71,7 @@ def setup(app):
             app,
             os.path.relpath(obj_source_path, project_root),
             line,
-            odoo_repository=True)
+            flectra_repository=True)
     app.config.linkcode_resolve = linkcode_resolve
 
     return {
@@ -79,12 +79,12 @@ def setup(app):
         'parallel_write_safe': True
     }
 
-def make_github_link(app, path, line=None, mode="blob", odoo_repository=False):
+def make_github_link(app, path, line=None, mode="blob", flectra_repository=False):
     config = app.config
 
     user = config.github_user
     project = config.github_project
-    if odoo_repository:
+    if flectra_repository:
         user = 'flectra'
         project = 'flectra'
 

@@ -49,12 +49,3 @@ This matrix shows the support status of every version.
 
 .. |orange| image:: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMzIuMTkgMjMyLjE5Ij48Y2lyY2xlIGN4PSIxMTYuMDkiIGN5PSIxMTYuMDkiIHI9IjExNi4wOSIgc3R5bGU9ImZpbGw6I2ZmYTcwMCIvPjwvc3ZnPg==
    :width: 15
-
-I run an older version of Flectra/OpenERP/TinyERP
-=================================================
-
-OpenERP 7.0, 6.1, 6.0 and 5.0 is not supported anymore, on any platform.
-
-TinyERP 4.0, 3.0, 2.0 and 1.0 is not supported anymore, on any platform.
-
-You should consider `upgrading <https://upgrade.flectra.com/>`_ your database.
