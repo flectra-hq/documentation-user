@@ -33,16 +33,16 @@ Solutions
 
   * Check if your subscription details get the tag "In Progress" on
     your `Flectra Account
-    <https://accounts.flectra.com/my/subscription>`__ or with your Account Manager
+    <https://accounts.flectrahq.com/my/subscription>`__ or with your Account Manager
 
 * Have you already linked a database with your subscription reference?
 
   * You can link only one database per subscription.
     (Need a test or a development database? `Find a partner
-    <https://www.flectra.com/partners>`__)
+    <https://www.flectrahq.com/partners>`__)
 
   * You can unlink the old database yourself on your `Flectra Contract
-    <https://accounts.flectra.com/my/subscription>`__ with the button "Unlink database"
+    <https://accounts.flectrahq.com/my/subscription>`__ with the button "Unlink database"
 
     .. image:: media/unlink_single_db.png
         :align: center
@@ -62,7 +62,7 @@ Solutions
 
   * If it's not the case, you may have multiple databases sharing the same
     UUID. Please check on your `Flectra Contract
-    <https://accounts.flectra.com/my/subscription>`__, a short message will appear
+    <https://accounts.flectrahq.com/my/subscription>`__, a short message will appear
     specifying which database is problematic:
 
     .. image:: media/unlink_db_name_collision.png
@@ -82,7 +82,7 @@ Solutions
     validation servers. In other words, make sure that the Flectra server is able
     to open outgoing connections towards:
 
-      * services.flectra.com on port 443 (or 80)
+      * services.flectrahq.com on port 443 (or 80)
       * services.openerp.com on port 443 (or 80) for older deployments
 
   * Once you activated your database, you must keep these ports open, as the
@@ -140,10 +140,10 @@ Solutions
     if you wish to pay by Wire Transfer, your subscription will effectively be renewed
     only when the payment arrives, which can take a few days. Credit card payments are
     processed immediately.
-* Contact our `Support <https://www.flectra.com/help>`__
+* Contact our `Support <https://flectrahq.com/flectra-erp-support>`__
 
 None of those solutions worked for you? Please contact our
-`Support <https://www.flectra.com/help>`__
+`Support <https://flectrahq.com/flectra-erp-support>`__
 
 
 .. _force_ping:

@@ -1509,9 +1509,9 @@ Examples can be easily adapted from XML-RPC to JSON-RPC.
     systems without *explicitly* going through XML-RPC or JSON-RPC, such as:
 
     * https://github.com/akretion/ooor
-    * https://github.com/OCA/odoorpc
+    * https://github.com/OCA/flectrarpc
     * https://github.com/nicolas-van/openerp-client-lib
-    * http://pythonhosted.org/OdooRPC
+    * http://pythonhosted.org/flectraRPC
     * https://github.com/abhishek-jaiswal/php-openerp-lib
 
 .. [#autofields] it is possible to :ref:`disable the automatic creation of some

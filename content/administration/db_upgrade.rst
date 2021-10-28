@@ -2,7 +2,7 @@
 .. |assistance-contact| replace::
    If you need Flectra assistance on this matter, please contact your Flectra Account Manager or contact
    our `Sales department`_.
-.. _Sales department: mailto:sales@flectra.com
+.. _Sales department: mailto:sales@flectrahq.com
 
 .. _db-upgrade:
 
@@ -81,7 +81,7 @@ What upgrading does NOT cover
 * The cleaning of pre-existing data & configuration while upgrading
 * Any new developments and/or upgrade of your own :ref:`custom modules
   <db-upgrade/faq/custom-modules>`
-* `Training <https://www.flectra.com/learn>`_ on the new version
+* `Training <https://www.flectrahq.com/learn>`_ on the new version
 
 
 
@@ -103,10 +103,10 @@ On-Premise
 
 There are two possibilities:
 
-#. Via the interface of our `website form <https://upgrade.flectra.com>`_
+#. Via the interface of our `website form <https://upgrade.flectrahq.com>`_
 #. | For technically-advanced users and partners, via the following command line (to be used on the
      machine where your database is hosted):
-   | ``python <(curl -s beta.upgrade.flectra.com/upgrade) test -d <your db name> -t2.0``
+   | ``python <(curl -s beta.upgrade.flectrahq.com/upgrade) test -d <your db name> -t2.0``
 
 What does it do?
 ~~~~~~~~~~~~~~~~
@@ -155,7 +155,7 @@ When you do not find any discrepancies, you'll be able to:
 Request a test database
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-When filling the `website form <https://upgrade.flectra.com>`_, select *Testing* purpose.
+When filling the `website form <https://upgrade.flectrahq.com>`_, select *Testing* purpose.
 
 .. image:: media/db-upgrade-test-purpose.png
    :align: center
@@ -181,7 +181,7 @@ Assistance
 If you encounter issues or problems in the **test database**, please contact the Flectra Upgrade
 Support:
 
-#. Connect to our `Flectra Support page <https://www.flectra.com/help>`_.
+#. Connect to our `Flectra Support page <https://www.flectrahq.com/help>`_.
 #. Under the *Ticket Description* section, select *An issue related to my upgrade* ticket type.
 
    .. image:: media/db-upgrade-test-assistance.png
@@ -219,7 +219,7 @@ The production upgrade request is when you decide to upgrade your current databa
 production data (invoices, VAT returns, inventories, current orders) to a new version of your choice.
 
 After your :ref:`tests <db-upgrade/steps-test>` are completed to your satisfaction, submit the
-request to upgrade your production database via our `website form <https://upgrade.flectra.com>`_.
+request to upgrade your production database via our `website form <https://upgrade.flectrahq.com>`_.
 Select *Production* purpose.
 
 .. image:: media/db-upgrade-production-purpose.png
@@ -240,7 +240,7 @@ Assistance
 If you encounter issues or problems in the **production database**, please contact the **Flectra
 Support**:
 
-#. Connect to our `Flectra Support page <https://www.flectra.com/help>`_.
+#. Connect to our `Flectra Support page <https://www.flectrahq.com/help>`_.
 #. Under the *Ticket Description* section, select the appropriate type related to your issue but
    **do not select** the option *An issue related to my upgrade*.
 
@@ -279,7 +279,7 @@ When to upgrade?
 ----------------
 
 Whenever you want. You can make your upgrade request as soon as a new version is released on our
-`website form <https://upgrade.flectra.com>`_.
+`website form <https://upgrade.flectrahq.com>`_.
 
 .. _db-upgrade/faq/availability:
 
@@ -329,7 +329,7 @@ Upgrade of the custom modules
 
 
 If you have a custom code, you can choose to have it upgraded by our services, by one of our
-`partners <https://www.flectra.com/partners>`_ or you can do it yourself.
+`partners <https://www.flectrahq.com/partners>`_ or you can do it yourself.
 
 .. note:: |assistance-contact|
 
@@ -337,7 +337,7 @@ If you have a custom code, you can choose to have it upgraded by our services, b
 Release Notes by version
 ------------------------
 
-Open our `Release Note <https://www.flectra.com/page/release-notes>`_ page to get a summary of the new
+Open our `Release Note <https://www.flectrahq.com/page/release-notes>`_ page to get a summary of the new
 features and improvements made in each version.
 
 .. _db-upgrade/assistance:
@@ -351,7 +351,7 @@ Contact our Upgrade service support
 -----------------------------------
 
 Should you have any more questions about the upgrade, do not hesitate to send a message to `Flectra
-Upgrade Team <mailto:upgrade@flectra.com>`_. We will be very pleased to answer it as soon as possible.
+Upgrade Team <mailto:upgrade@flectrahq.com>`_. We will be very pleased to answer it as soon as possible.
 
 .. _db-upgrade/supported-versions:
 

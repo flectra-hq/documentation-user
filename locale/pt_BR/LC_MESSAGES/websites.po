@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -85,10 +85,10 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:26
 msgid ""
 "See how to do it: "
-"https://www.flectra.com/openerp_website/static/src/video/e-commerce/editing.mp4"
+"https://www.flectrahq.com/openerp_website/static/src/video/e-commerce/editing.mp4"
 msgstr ""
 "Veja como fazer isso: "
-"https://www.flectra.com/openerp_website/static/src/video/e-commerce/editing.mp4"
+"https://www.flectrahq.com/openerp_website/static/src/video/e-commerce/editing.mp4"
 
 #: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:29
 msgid "Quick add to cart"
@@ -1363,7 +1363,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:50
-msgid "You can also access the link tracker on *flectra.com/r* via your browser."
+msgid "You can also access the link tracker on *flectrahq.com/r* via your browser."
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:51
@@ -1503,22 +1503,22 @@ msgstr "** Flectra Blogs **: escreva ótimos conteúdos."
 #: ../../content/applications/websites/website/optimize/seo.rst:62
 msgid ""
 "**Flectra Slides**: publish all your Powerpoint or PDF presentations. Their "
-"content is automatically indexed on the web page. Example: `flectra.com/slides"
-"/public-channel-1 <https://www.flectra.com/slides/public-channel-1>`_"
+"content is automatically indexed on the web page. Example: `flectrahq.com/slides"
+"/public-channel-1 <https://www.flectrahq.com/slides/public-channel-1>`_"
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:66
 msgid ""
 "**Flectra Forum**: let your community create contents for you. Example: "
-"`flectra.com/forum/1 <https://flectra.com/forum/1>`_ (accounts for 30% of Flectra.com"
+"`flectrahq.com/forum/1 <https://flectrahq.com/forum/1>`_ (accounts for 30% of flectrahq.com"
 " landing pages)"
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:70
 msgid ""
 "**Flectra Mailing List Archive**: publish mailing list archives on your "
-"website. Example: `flectra.com/groups/community-59 "
-"<https://www.flectra.com/groups/community-59>`_ (1000 pages created per month)"
+"website. Example: `flectrahq.com/groups/community-59 "
+"<https://www.flectrahq.com/groups/community-59>`_ (1000 pages created per month)"
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:76
@@ -1728,8 +1728,8 @@ msgstr ""
 " uma postagem):"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:184
-msgid "https://www.flectra.com/blog/company-news-5/post/the-flectra-story-56"
-msgstr "https://www.flectra.com/blog/company-news-5/post/the-flectra-story-56"
+msgid "https://www.flectrahq.com/blog/company-news-5/post/the-flectra-story-56"
+msgstr "https://www.flectrahq.com/blog/company-news-5/post/the-flectra-story-56"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:186
 msgid "In the above example:"
@@ -1754,8 +1754,8 @@ msgstr ""
 "páginas sejam indexadas por mecanismos de pesquisa. Exemplo:"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:196
-msgid "https://www.flectra.com/blog/page/3"
-msgstr "https://www.flectra.com/blog/page/3"
+msgid "https://www.flectrahq.com/blog/page/3"
+msgstr "https://www.flectrahq.com/blog/page/3"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:199
 msgid "Changes in URLs & Titles"
@@ -2141,14 +2141,14 @@ msgstr "este arquivo CSS é otimizado para ser pequeno"
 msgid ""
 "**Pre-processed:** The CSS framework used by Flectra is Bootstrap. Although a "
 "theme might use another framework, most of `Flectra themes "
-"<https://www.flectra.com/apps/themes>`__ extend and customize Bootstrap "
+"<https://www.flectrahq.com/apps/themes>`__ extend and customize Bootstrap "
 "directly. Since Flectra supports Less and Sass, you can modify CSS rules "
 "instead of overwriting them through extra CSS lines, resulting in a smaller "
 "file."
 msgstr ""
 "** Pré-processado: ** O framework CSS usado pelo Flectra é Bootstrap. Embora um"
-" tema possa usar outra estrutura, a maioria dos temas do ʻOdoo "
-"<https://www.flectra.com/apps/themes> `__ estendem e personalizam o Bootstrap "
+" tema possa usar outra estrutura, a maioria dos temas do ʻflectra "
+"<https://www.flectrahq.com/apps/themes> `__ estendem e personalizam o Bootstrap "
 "diretamente. Como Flectra oferece suporte a Less e Sass, você pode modificar as"
 " regras CSS em vez de substituí-las por meio de linhas CSS extras, "
 "resultando em um arquivo menor."
@@ -2521,7 +2521,7 @@ msgid ""
 "and eCommerce (Drupal, Wordpress, Magento, Prestashop). The following link "
 "provides an analysis of the major open source CMS and eCommerce compared to "
 "Flectra when it comes to high query volumes: "
-"`https://www.flectra.com/slides/slide/197 <https://www.flectra.com/slides/slide"
+"`https://www.flectrahq.com/slides/slide/197 <https://www.flectrahq.com/slides/slide"
 "/flectra-cms-performance-comparison-and-optimisation-197>`_"
 msgstr ""
 
@@ -2659,8 +2659,8 @@ msgstr ""
 " do mapa do site, etc.). O Flectra o cria automaticamente. Seu conteúdo é:"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:634
-msgid "User-agent: \\* Sitemap: https://www.flectra.com/sitemap.xml"
-msgstr "Agente do usuário: \\* Sitemap: https://www.flectra.com/sitemap.xml"
+msgid "User-agent: \\* Sitemap: https://www.flectrahq.com/sitemap.xml"
+msgstr "Agente do usuário: \\* Sitemap: https://www.flectrahq.com/sitemap.xml"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:637
 msgid ""
@@ -2691,12 +2691,12 @@ msgstr "Como usar meu próprio nome de domínio"
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:5
 msgid ""
-"By default, your Flectra Online instance and website have a *.flectra.com* domain "
+"By default, your Flectra Online instance and website have a *.flectrahq.com* domain "
 "name, for both the URL and the emails. But you can change to a custom one "
 "(e.g. www.yourcompany.com)."
 msgstr ""
 "Por padrão, sua instância e site do Flectra Online têm um nome de domínio * "
-".flectra.com *, tanto para o URL quanto para os e-mails. Mas você pode mudar "
+".flectrahq.com *, tanto para o URL quanto para os e-mails. Mas você pode mudar "
 "para um personalizado (por exemplo, www.suaempresa.com)."
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:10
@@ -2798,14 +2798,14 @@ msgstr "Como aplicar meu nome de domínio à minha instância Flectra"
 #: ../../content/applications/websites/website/publish/domain_name.rst:46
 msgid ""
 "First let's authorize the redirection (yourcompany.com -> "
-"yourcompany.flectra.com):"
+"yourcompany.flectrahq.com):"
 msgstr ""
 "Primeiro vamos autorizar o redirecionamento (suaempresa.com -> "
-"suaempresa.flectra.com):"
+"suaempresa.flectrahq.com):"
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:48
-msgid "Open your Flectra.com account from your homepage."
-msgstr "Abra sua conta Flectra.com em sua página inicial."
+msgid "Open your flectrahq.com account from your homepage."
+msgstr "Abra sua conta flectrahq.com em sua página inicial."
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:53
 msgid "Go to the *Manage Databases* page."
@@ -2839,12 +2839,12 @@ msgstr ""
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:74
 msgid ""
-"Create a CNAME record *www.yourdomain.com* pointing to *mywebsite.flectra.com*."
+"Create a CNAME record *www.yourdomain.com* pointing to *mywebsite.flectrahq.com*."
 " If you want to use the naked domain (e.g. yourdomain.com), you need to "
 "redirect *yourdomain.com* to *www.yourdomain.com*."
 msgstr ""
 "Crie um registro CNAME * www.seudominio.com * apontando para * "
-"meuwebsite.flectra.com *. Se você deseja usar o domínio sem www (por exemplo, "
+"meuwebsite.flectrahq.com *. Se você deseja usar o domínio sem www (por exemplo, "
 "seudominio.com), é necessário redirecionar * seudomínio.com * para * "
 "www.seudominio.com *."
 
@@ -2929,7 +2929,7 @@ msgid ""
 "If you want to do it manually, you can go to :menuselection:`Settings --> "
 "Technical --> System Parameters` . Find the entry called ``web.base.url`` "
 "(you can create it if it does not exist) and enter the full URL of your "
-"website, like ``https://www.myodoowebsite.com``."
+"website, like ``https://www.myflectrawebsite.com``."
 msgstr ""
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:107
@@ -2951,12 +2951,12 @@ msgstr "Meu site é indexado duas vezes pelo Google"
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:115
 msgid ""
-"If you set up a custom domain *mydomain.com* name for *mydatabase.flectra.com*,"
+"If you set up a custom domain *mydomain.com* name for *mydatabase.flectrahq.com*,"
 " Google indexes your website under both names. This is a limitation of the "
 "Flectra cloud platforms/"
 msgstr ""
 "Se você configurar um nome de domínio personalizado * meudominio.com * para "
-"* meubancodedados.flectra.com *, o Google indexará seu site com os dois nomes. "
+"* meubancodedados.flectrahq.com *, o Google indexará seu site com os dois nomes. "
 "Esta é uma limitação das plataformas de nuvem Flectra /"
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:120

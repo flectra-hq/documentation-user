@@ -46,7 +46,7 @@ Points to be Considered while Implementing Drop-Shipping
 .. tip::
       For more information and insights about Drop-Shipping, you can read our
       blog: `*What is drop-shipping and how to use
-      it* <https://www.flectra.com/blog/business-hacks-1/post/what-is-drop-shipping-and-how-to-use-it-250>`__.
+      it* <https://www.flectrahq.com/blog/business-hacks-1/post/what-is-drop-shipping-and-how-to-use-it-250>`__.
 
 Configure Drop-Shipping
 =======================

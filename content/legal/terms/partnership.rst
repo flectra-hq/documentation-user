@@ -15,23 +15,23 @@ Flectra Partnership Agreement
 .. note:: Version 9b - 2021-01-12
 
 | BETWEEN:
-|  Flectra S.A., having its registered office at Chaussée de Namur, 40, 1367 Grand-Rosière,
-|  Belgium, and its affiliates (collectively referred to as “ODOO”)
+|  FlectraHQ, Inc.., having its registered office at Chaussée de Namur, 40, 1367 Grand-Rosière,
+|  Belgium, and its affiliates (collectively referred to as “FLECTRA”)
 | AND:
 |  _____________________________________________, a company having its registered office at
 |  _____________________________________________________________________________________.
 |  (hereinafter referred to as “PARTNER”)
 
-ODOO and PARTNER are individually referred to as a "Party" and collectively referred to as
+FLECTRA and PARTNER are individually referred to as a "Party" and collectively referred to as
 "the Parties".
 
 1 Purpose
 =========
-The purpose of this agreement is to set forth the conditions under which ODOO provides services to
+The purpose of this agreement is to set forth the conditions under which FLECTRA provides services to
 PARTNER, access to the Flectra Professional Edition software, and under which PARTNER complies with the
 obligations set out hereafter.
 
-ODOO hereby appoints PARTNER, and PARTNER hereby accepts the appointment, to be a non-exclusive partner
+FLECTRA hereby appoints PARTNER, and PARTNER hereby accepts the appointment, to be a non-exclusive partner
 promoting and selling "Flectra Professional Edition" to customers.
 
 PARTNER commits to doing its best effort to sell Flectra Professional contracts to its clients.
@@ -57,7 +57,7 @@ without visibility as an official partner until they get the required experience
 according to their experience with Flectra.
 
 Partnership level granted to PARTNER depends on the annual new Flectra Professional revenue generated
-for ODOO (in terms of Flectra Professional Users sold), the number of certified resources and the customer
+for FLECTRA (in terms of Flectra Professional Users sold), the number of certified resources and the customer
 Retention Rate.
 Renewals of existing contracts do not count towards the number of Users Sold, but PARTNER
 still gets a commission on these contracts as stated in section :ref:`benefits`.
@@ -69,9 +69,9 @@ are currently active, and the number of Flectra Professional contracts that have
 in the last 12 months
 
 Certifications are personal, so when a certified staff member leaves or joins the company,
-PARTNER must notify ODOO.
+PARTNER must notify FLECTRA.
 
-PARTNER's partnership level will be reviewed quarterly by ODOO, and adjusted
+PARTNER's partnership level will be reviewed quarterly by FLECTRA, and adjusted
 to the highest level for which the 3 requirements are met.
 
 However, "Official Partners" may be upgraded automatically to a higher level once they reach the
@@ -94,7 +94,7 @@ The details of the benefits for each level of the partnership are described in t
 +=======================================+==================+====================+====================+====================+
 | **Recognition**                       |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Visibility on flectra.com             | No               | "Ready Partner"    | "Silver Partner"   | "Gold Partner"     |
+| Visibility on flectrahq.com           | No               | "Ready Partner"    | "Silver Partner"   | "Gold Partner"     |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | Right to use "Flectra" trademark and  | Yes              | Yes                | Yes                | Yes                |
 | Partner Logo                          |                  |                    |                    |                    |
@@ -119,7 +119,7 @@ The details of the benefits for each level of the partnership are described in t
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | Access to marketing material          | Yes              | Yes                | Yes                | Yes                |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| PARTNER Event - ODOO support &        | No               | Yes                | Yes                | Yes                |
+| PARTNER Event - FLECTRA support &     | No               | Yes                | Yes                | Yes                |
 | Promotion                             |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 
@@ -128,9 +128,9 @@ The details of the benefits for each level of the partnership are described in t
 
 4.3 Partner Recognition
 -----------------------
-ODOO will promote "Official Partners" on the Flectra Partners list on flectra.com.
+FLECTRA will promote "Official Partners" on the Flectra Partners list on flectrahq.com.
 
-ODOO grants PARTNER, on a non-exclusive basis, the right to use and reproduce the ODOO Partner logo
+FLECTRA grants PARTNER, on a non-exclusive basis, the right to use and reproduce the FLECTRA Partner logo
 of the corresponding partnership level, and the "Flectra" name in relation to this partnership
 agreement.
 
@@ -140,44 +140,44 @@ or creating any confusion between their respective company in the mind of the ge
 
 4.4 Training Benefits
 ---------------------
-PARTNER has access to the ODOO knowledge base for the duration of this Agreement.
-The ODOO knowledge base is an online e-platform containing a set of commercial, marketing
+PARTNER has access to the FLECTRA knowledge base for the duration of this Agreement.
+The FLECTRA knowledge base is an online e-platform containing a set of commercial, marketing
 and functional documents, to help PARTNER acquire and leverage Flectra knowledge, grow its business,
 attract more customers, and build brand awareness.
 
 PARTNER will have access to commercial coaching provided by their dedicated Account Manager, as
-appointed by ODOO.
+appointed by FLECTRA.
 
 PARTNER also has the option to purchase support services or training by subscribing to an Flectra
 Success Pack, for an extra fee.
 
 4.5  Commissions on Flectra Services sold by PARTNER
 ----------------------------------------------------
-For ODOO services purchased by a customer through PARTNER, and as long as PARTNER maintains a
+For FLECTRA services purchased by a customer through PARTNER, and as long as PARTNER maintains a
 contractual relationship with the corresponding customer, PARTNER shall receive a commission
 according to the table of section :ref:`benefits` and their Partnership level at the date of the
 customer invoice.
 
 Once a month, PARTNER will receive a purchase order with the commission due for the preceding month.
-Based on this purchase order, PARTNER shall invoice ODOO, and will be paid within 15 days upon
+Based on this purchase order, PARTNER shall invoice FLECTRA, and will be paid within 15 days upon
 receipt of the invoice.
 
 **Maintenance of Covered Extra Modules**
 
 PARTNER acknowledges and agrees that when a customer decides to Work with PARTNER [#pcom1]_ ,
-ODOO will delegate the Maintenance of Covered Extra Modules to PARTNER, who becomes the main point
+FLECTRA will delegate the Maintenance of Covered Extra Modules to PARTNER, who becomes the main point
 of contact of the customer.
 
 PARTNER shall only receive the commission for the Maintenance of Covered Extra Modules
-as long as the customer does not notify ODOO that they want to stop Working with PARTNER.
+as long as the customer does not notify FLECTRA that they want to stop Working with PARTNER.
 
 .. [#pcom1] “Working with an Flectra Partner” and “Covered Extra Modules” are defined in the Flectra
-   Professional Subscription Agreement between ODOO and customers.
+   Professional Subscription Agreement between FLECTRA and customers.
 
 5 Fees
 ======
 PARTNER agrees to pay the Partnership Annual Fee upon receipt of the annual
-invoice sent by ODOO. The fee will be specified in writing at the time of signature of this
+invoice sent by FLECTRA. The fee will be specified in writing at the time of signature of this
 agreement.
 
 PARTNER acknowledges that the above-mentioned Partnership fee is not refundable.
@@ -194,7 +194,7 @@ breach, this Agreement may be terminated immediately by the non-breaching Party.
 ------------------------------
 On expiry or termination of this Agreement, PARTNER:
  - shall not use anymore the materials and the Flectra brand name, trademarks and logos or claim
-   the existence of any partnership or relationship with ODOO ;
+   the existence of any partnership or relationship with FLECTRA ;
  - shall comply with its obligations during any notice period prior to such termination ;
  - may not use Flectra Professional anymore, for development, test or production purpose
 
@@ -204,13 +204,13 @@ On expiry or termination of this Agreement, PARTNER:
 ===========================
 Both Parties are bound by a best endeavours obligation hereunder.
 
-To the maximum extent permitted by law, ODOO’s liability for any and all claims, losses, damages or
+To the maximum extent permitted by law, FLECTRA’s liability for any and all claims, losses, damages or
 expenses from any cause whatsoever and howsoever arising under this Agreement will be limited to
 the direct damages proved, but will in no event exceed for all damage-causing event or series of
 connected events causing damages the total amount for the fees paid by PARTNER in the course of the
 six (6) months immediately preceding the date of the event giving rise to such claim.
 
-In no event will ODOO be liable for any indirect or consequential damages, including but not limited
+In no event will FLECTRA be liable for any indirect or consequential damages, including but not limited
 third parties or customer claims, loss of revenue, profits, savings, loss of business or other
 financial loss, costs of standstill or delay, lost or corrupted data arising out of or in connection
 with the performance of its obligations under this Agreement.
@@ -224,12 +224,12 @@ or that he shall obtain any anticipated amount of profits by virtue of this Agre
 =============
 
 The "Flectra" mark (including the word mark and its visual representations and logos) is the exclusive
-property of ODOO.
+property of FLECTRA.
 
-ODOO authorizes PARTNER to use the "Flectra" mark to promote its products and services,
+FLECTRA authorizes PARTNER to use the "Flectra" mark to promote its products and services,
 for the duration of this agreement only, as long as:
 
-- There is no possible confusion that the service is provided by PARTNER, not ODOO;
+- There is no possible confusion that the service is provided by PARTNER, not FLECTRA;
 - PARTNER does not use the word “Flectra” in their company name, product name, domain name,
   and does not register any trademark that includes it.
 
@@ -241,10 +241,10 @@ Non-compliance with the provisions of this section shall be a cause for terminat
 
 8.1 Publicity
 -------------
-PARTNER grants ODOO the nonexclusive right to use PARTNER's name or trademarks in press releases,
+PARTNER grants FLECTRA the nonexclusive right to use PARTNER's name or trademarks in press releases,
 advertisements or other public announcements.
 
-In particular, PARTNER accepts to be mentioned in the official list of Flectra Partners on flectra.com,
+In particular, PARTNER accepts to be mentioned in the official list of Flectra Partners on flectrahq.com,
 and that PARTNER's logo and trademarks may be used for this purpose only.
 
 
@@ -297,7 +297,7 @@ found shall be finally settled by the Courts of Belgium in Nivelles.
     .. rubric:: Signatures
 
     +---------------------------------------+------------------------------------------+
-    | For ODOO,                             | For PARTNER                              |
+    | For FLECTRA,                          | For PARTNER                              |
     +---------------------------------------+------------------------------------------+
 
 
@@ -306,7 +306,7 @@ found shall be finally settled by the Courts of Belgium in Nivelles.
     .. topic:: Signatures
 
         |vnegspace|
-        |hspace| For ODOO, |hspace| For PARTNER,
+        |hspace| For FLECTRA, |hspace| For PARTNER,
         |vspace|
 
 

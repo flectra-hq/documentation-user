@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -13,7 +13,7 @@
 # Philipp Hug <philipp@hug.cx>, 2021
 # Thorsten Vocks <thorsten.vocks@openbig.org>, 2021
 # Ermin Trevisan <trevi@twanda.com>, 2021
-# Johannes Croe <jcr@flectra.com>, 2021
+# Johannes Croe <jcr@flectrahq.com>, 2021
 # Chris Egal <sodaswed@web.de>, 2021
 # Patrick Heuel <patrick.heuel@flectra-bs.com>, 2021
 # Felix Schubert <felix.schubert@go-erp.com>, 2021
@@ -22,13 +22,13 @@
 # Andreas Stauder <andreas.stauder@brain-tec.ch>, 2021
 # Tina Rittmüller <tr@ife.de>, 2021
 # Katharina Moritz <kmo@e2f.com>, 2021
-# Leon Grill <leg@flectra.com>, 2021
+# Leon Grill <leg@flectrahq.com>, 2021
 # Robert Förster <hello@suppliot.eu>, 2021
 # Andreas Schmidt <schmigo@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Wolfgang Taferner, 2021
 # Rudolf Schnapka <rs@techno-flex.de>, 2021
-# Cécile Collart <cco@flectra.com>, 2021
+# Cécile Collart <cco@flectrahq.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -37,7 +37,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 07:12+0200\n"
 "PO-Revision-Date: 2021-05-18 05:17+0000\n"
-"Last-Translator: Cécile Collart <cco@flectra.com>, 2021\n"
+"Last-Translator: Cécile Collart <cco@flectrahq.com>, 2021\n"
 "Language-Team: German (https://www.transifex.com/flectra/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -207,7 +207,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:8
 msgid ""
 "To check if your bank is compatible with Flectra, go to `Flectra Accounting "
-"Features <https://www.flectra.com/page/accounting-features>`_, and click on "
+"Features <https://www.flectrahq.com/page/accounting-features>`_, and click on "
 "*See list of supported institutions*."
 msgstr ""
 
@@ -284,15 +284,15 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:30
 msgid ""
-"To be able to use this service, you need to have a valid Flectra Enterprise "
+"To be able to use this service, you need to have a valid Flectra Professional "
 "subscription. So make sure that your database is registered with your Flectra "
-"Enterprise contract. We also use a proxy between your database and the third"
+"Professional contract. We also use a proxy between your database and the third"
 " party provider so, in case of a connection error, please check that you "
 "don't have a firewall or a proxy blocking the following address:"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:36
-msgid "https://production.odoofin.com/"
+msgid "https://production.flectrafin.com/"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:39
@@ -381,7 +381,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:94
 msgid ""
 "To report a connection error to the `Flectra support "
-"<https://www.flectra.com/help>`_, go to :menuselection:`Accounting --> "
+"<https://www.flectrahq.com/help>`_, go to :menuselection:`Accounting --> "
 "Configuration --> Online Synchronization`, select the connection that "
 "failed, and copy the error description and the reference."
 msgstr ""
@@ -399,7 +399,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:105
 msgid ""
 "This disconnection can be caused by the Flectra support. In this case, please "
-"contact the `support <https://www.flectra.com/help>`_ directly with your client"
+"contact the `support <https://www.flectrahq.com/help>`_ directly with your client"
 " id or the reference of the error listed in the chatter."
 msgstr ""
 
@@ -501,7 +501,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:162
 msgid ""
-"**Enterprise Version**: Yes, if you have a valid enterprise contract linked "
+"**Professional Version**: Yes, if you have a valid professional contract linked "
 "to your database."
 msgstr ""
 
@@ -562,7 +562,7 @@ msgstr ""
 msgid ""
 "If your bank account is properly linked to a journal and posted transactions"
 " are not visible in your database, please `submit a support ticket "
-"<https://www.flectra.com/help>`_."
+"<https://www.flectrahq.com/help>`_."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:197
@@ -1555,7 +1555,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:95
 #: ../../content/applications/finance/accounting/overview/getting_started/setup.rst:194
-msgid "`Flectra Tutorials: Accounting Basics <https://www.flectra.com/r/lsZ>`_"
+msgid "`Flectra Tutorials: Accounting Basics <https://www.flectrahq.com/r/lsZ>`_"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:3
@@ -5174,10 +5174,10 @@ msgstr ""
 msgid ""
 "Your company is requested by the tax administration to deliver a certificate"
 " of conformity testifying that your software complies with the anti-fraud "
-"legislation. This certificate is granted by Flectra SA to Flectra Enterprise users"
-" `here <https://www.flectra.com/my/contract/french-certification/>`_. If you "
-"use Flectra Community, you should :doc:`upgrade to Flectra Enterprise "
-"</administration/enterprise>` or contact your Flectra service provider."
+"legislation. This certificate is granted by FlectraHQ, Inc. to Flectra Professional users"
+" `here <https://www.flectrahq.com/my/contract/french-certification/>`_. If you "
+"use Flectra Community, you should :doc:`upgrade to Flectra Professional "
+"</administration/professional>` or contact your Flectra service provider."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/france.rst:58
@@ -5216,8 +5216,8 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/france.rst:72
 msgid ""
-"Download the mandatory certificate of conformity delivered by Flectra SA `here "
-"<https://www.flectra.com/my/contract/french-certification/>`__."
+"Download the mandatory certificate of conformity delivered by FlectraHQ, Inc. `here "
+"<https://www.flectrahq.com/my/contract/french-certification/>`__."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/france.rst:75
@@ -5453,7 +5453,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:21
 msgid ""
-"Here is the list of German-specific reports available on Flectra Enterprise:"
+"Here is the list of German-specific reports available on Flectra Professional:"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:23
@@ -5486,7 +5486,7 @@ msgstr ""
 msgid ""
 "It is possible to export your accounting entries from Flectra to Datev. To be "
 "able to use this feature, the german accounting localization needs to be "
-"installed on your Flectra Enterprise database. Then you can go in "
+"installed on your Flectra Professional database. Then you can go in "
 ":menuselection:`Accounting --> Reporting --> General Ledger` then click on "
 "the **Export Datev (csv)** button."
 msgstr ""
@@ -5624,10 +5624,10 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:99
 msgid ""
-"`Flectra Cloud Hosting - Service Level Agreement <https://www.odooo.com/cloud-"
+"`Flectra Cloud Hosting - Service Level Agreement <https://www.flectrao.com/cloud-"
 "sla>`_"
 msgstr ""
-"`Flectra Cloud Hosting - Service Level Agreement <https://www.odooo.com/cloud-"
+"`Flectra Cloud Hosting - Service Level Agreement <https://www.flectrao.com/cloud-"
 "sla>`_"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:101
@@ -5765,7 +5765,7 @@ msgid ""
 "transaction can be quickly found by a third-party expert. Flectra ensures this "
 "out-of-the-box."
 msgstr ""
-"Die in Odooo gespeicherten Finanzdaten sind per Definition geordnet und "
+"Die in flectrao gespeicherten Finanzdaten sind per Definition geordnet und "
 "können nach den meisten im Modell vorhandenen Feldern neu geordnet werden. "
 "Eine bestimmte Anordnung wird von der GoBD nicht angeordnet, aber das System"
 " muss sicherstellen, dass ein bestimmtes Finanzgeschäft von einem "
@@ -6242,7 +6242,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/mexico.rst:15
 msgid ""
-"Flectra Enterprise users in Mexico have free access to a set of modules that "
+"Flectra Professional users in Mexico have free access to a set of modules that "
 "allow them to issue electronic invoices according to the specifications of "
 "the SAT for `version 3.3 of the CFDI "
 "<http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/GuiaAnexo20Global.pdf>`_,"
@@ -6308,7 +6308,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/mexico.rst:51
 msgid ""
-"If you created the database from `www.flectra.com <https://www.flectra.com>`_ and "
+"If you created the database from `www.flectrahq.com <https://www.flectrahq.com>`_ and "
 "chose \"Mexico\" as the country when creating your account, some of the "
 "Mexican localization modules will have been installed automatically. In that"
 " case we observe that some modules have a button that says \"Install\", "
@@ -8663,7 +8663,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/peru.rst:159
 msgid ""
-"In Flectra, once your enterprise contract is activated and you start working in"
+"In Flectra, once your professional contract is activated and you start working in"
 " Production, you need to buy credits once the first 1000 are consumed."
 msgstr ""
 
@@ -9315,7 +9315,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:71
-msgid "How to update your taxes in Flectra Enterprise (SaaS or On Premise)?"
+msgid "How to update your taxes in Flectra Professional (SaaS or On Premise)?"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:73
@@ -9561,7 +9561,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:139
 msgid ""
 "If you have questions or remarks, please contact our support using "
-"flectra.com/help."
+"flectrahq.com/help."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:143
@@ -11188,7 +11188,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/others/inventory/avg_price_valuation.rst:5
 msgid ""
 "As stated in the `*inventory valuation page* "
-"<https://www.flectra.com/documentation/functional/valuation.html>`__, one of "
+"<https://www.flectrahq.com/documentation/functional/valuation.html>`__, one of "
 "the possible costing method you can use in perpetual stock valuation, is the"
 " average cost."
 msgstr ""
@@ -12626,71 +12626,71 @@ msgstr ""
 msgid "Main Concepts"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:3
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:3
 msgid "The Accounting behind Flectra"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:5
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:5
 msgid ""
 "This page summarises the way Flectra deals with typical accounts and "
 "transactions."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:9
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:9
 msgid "Double-entry bookkeeping"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:11
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:11
 msgid ""
 "Flectra automatically creates all the behind-the-scenes journal entries for "
 "each of your accounting transactions: customer invoices, point of sale "
 "order, expenses, inventory moves, etc."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:15
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:15
 msgid ""
 "Flectra uses the rules of double-entry bookkeeping system: all journal entries "
 "are automatically balanced (sum of debits = sum of credits)."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:19
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:19
 msgid ""
 "`Understand Flectra's accounting transactions per document "
-"<https://flectra.com/documentation/functional/accounting.html>`_"
+"<https://flectrahq.com/documentation/functional/accounting.html>`_"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:23
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:23
 msgid "Accrual and Cash Basis Methods"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:25
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:25
 msgid ""
 "Flectra supports both accrual and cash basis reporting. This allows you to "
 "report income / expense at the time transactions occur (i.e., accrual "
 "basis), or when payment is made or received (i.e., cash basis)."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:30
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:30
 msgid "Multi-companies"
 msgstr "Multi-Unternehmen"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:32
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:32
 msgid ""
 "Flectra allows one to manage several companies within the same database. Each "
 "company has its own chart of accounts and rules. You can get consolidation "
 "reports following your consolidation rules."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:36
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:36
 msgid ""
 "Users can access several companies but always work in one company at a time."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:40
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:40
 msgid "Multi-currencies"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:42
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:42
 msgid ""
 "Every transaction is recorded in the default currency of the company. For "
 "transactions occurring in another currency, Flectra stores both the value in "
@@ -12699,16 +12699,16 @@ msgid ""
 "reconciliation of the journal items."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:48
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:48
 msgid ""
 "Currency rates are updated once a day using a yahoo.com online web-service."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:52
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:52
 msgid "International Standards"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:54
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:54
 msgid ""
 "Flectra accounting supports more than 50 countries. The Flectra core accounting "
 "implements accounting standards that are common to all countries. Specific "
@@ -12716,86 +12716,86 @@ msgid ""
 "chart of accounts, taxes, or bank interfaces."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:60
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:60
 msgid "In particular, Flectra's core accounting engine supports:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:62
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:62
 msgid ""
 "Anglo-Saxon Accounting (U.S., U.K.,, and other English-speaking countries "
 "including Ireland, Canada, Australia, and New Zealand) where costs of good "
 "sold are reported when products are sold/delivered."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:66
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:66
 msgid "European accounting where expenses are accounted at the supplier bill."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:69
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:69
 msgid "Flectra has modules to comply with IFRS rules."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:72
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:72
 msgid "Accounts Receivable & Payable"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:74
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:74
 msgid ""
 "By default, Flectra uses a single account for all account receivable entries "
 "and one for all accounts payable entries. You can create separate accounts "
 "per customers/suppliers, but you don't need to."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:79
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:79
 msgid ""
 "As transactions are associated to customers or suppliers, you get reports to"
 " perform analysis per customer/supplier such as the customer statement, "
 "revenues per customers, aged receivable/payables, ..."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:84
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:84
 msgid "Wide range of financial reports"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:86
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:86
 msgid ""
 "In Flectra, you can generate financial reports in real time. Flectra's reports "
 "range from basic accounting reports to advanced management reports. Flectra's "
 "reports include:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:90
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:90
 msgid "Performance reports (such as Profit and Loss, Budget Variance)"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:91
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:91
 msgid ""
 "Position reports (such as Balance Sheet, Aged Payables, Aged Receivables)"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:93
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:93
 msgid "Cash reports (such as Bank Summary)"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:94
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:94
 msgid "Detail reports (such as Trial Balance and General Ledger)"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:95
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:95
 msgid "Management reports (such as Budgets, Executive Summary)"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:97
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:97
 msgid ""
 "Flectra's report engine allows you to customize your own report based on your "
 "own formulae."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:101
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:101
 msgid "Import bank feeds automatically"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:103
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:103
 msgid ""
 "Bank reconciliation is a process that matches your bank statement lines, as "
 "supplied by the bank, to your accounting transactions in the general ledger."
@@ -12805,7 +12805,7 @@ msgid ""
 "banking or wait for your paper bank statements."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:111
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:111
 msgid ""
 "Flectra speeds up bank reconciliation by matching most of your imported bank "
 "statement lines to your accounting transactions. Flectra also remembers how "
@@ -12813,39 +12813,39 @@ msgid ""
 "ledger transactions."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:117
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:117
 msgid "Calculate the tax you owe your tax authority"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:119
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:119
 msgid ""
 "Flectra totals all your accounting transactions for your tax period and uses "
 "these totals to calculate your tax obligation. You can then check your sales"
 " tax by running Flectra's Tax Report."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:124
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:124
 msgid "Inventory Valuation"
 msgstr "Inventur Bewertung"
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:126
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:126
 msgid ""
 "Flectra support both periodic (manual) and perpetual (automated) inventory "
 "valuations. The available methods are standard price, average price, LIFO "
 "(for countries allowing it) and FIFO."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:131
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:131
 msgid ""
 "`View impact of the valuation method on your transactions "
-"<https://flectra.com/documentation/functional/valuation.html>`_"
+"<https://flectrahq.com/documentation/functional/valuation.html>`_"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:135
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:135
 msgid "Easy retained earnings"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/overview/main_concepts/in_odoo.rst:137
+#: ../../content/applications/finance/accounting/overview/main_concepts/in_flectra.rst:137
 msgid ""
 "Retained earnings are the portion of income retained by your business. Flectra "
 "automatically calculates your current year earnings in real time so no year-"
@@ -15434,14 +15434,14 @@ msgstr ""
 #: ../../content/applications/finance/accounting/payables/supplier_bills/ocr.rst:50
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:43
 msgid ""
-"If you are on Flectra Online (SAAS) and have the Enterprise version, you "
+"If you are on Flectra Online (SAAS) and have the Professional version, you "
 "benefit from free trial credits to test the feature."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/ocr.rst:52
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:45
 msgid ""
-"Click `here <https://iap.flectra.com/privacy#header_4>`_ to know about our "
+"Click `here <https://iap.flectrahq.com/privacy#header_4>`_ to know about our "
 "*Privacy Policy*."
 msgstr ""
 
@@ -16050,7 +16050,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/deferred_revenues.rst:195
 msgid ""
 "`Flectra Academy: Deferred Revenues (Recognition) "
-"<https://www.flectra.com/r/EWO>`_"
+"<https://www.flectrahq.com/r/EWO>`_"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/epc_qr_code.rst:3
@@ -16139,7 +16139,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/epc_qr_code.rst:65
 msgid ""
 "`Flectra Academy: QR Code on Invoices for European Customers "
-"<https://www.flectra.com/r/VuU>`_"
+"<https://www.flectrahq.com/r/VuU>`_"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/overview.rst:3
@@ -16615,7 +16615,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/payment_terms.rst:121
 msgid ""
 "`Flectra Tutorials: Terms and Conditions (T&C) and Payment Terms "
-"<https://www.flectra.com/r/fpv>`_"
+"<https://www.flectrahq.com/r/fpv>`_"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:3
@@ -17021,7 +17021,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/receivables/customer_payments/batch_sdd.rst:147
 msgid ""
 "`Flectra Academy: SEPA Direct Debit Mandates (SDD) "
-"<https://www.flectra.com/r/Zxs>`_"
+"<https://www.flectrahq.com/r/Zxs>`_"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/batch_sdd.rst:148
@@ -19675,7 +19675,7 @@ msgstr ""
 msgid ""
 "The only thing to do is setting up an email alias in "
 ":menuselection:`Expenses --> Configuration --> Settings` (e.g. *expenses* "
-"@mycompany.flectra.com). For security purposes, only authenticated employee "
+"@mycompany.flectrahq.com). For security purposes, only authenticated employee "
 "emails (cfr. *Work Email* in employee detail form) are accepted."
 msgstr ""
 

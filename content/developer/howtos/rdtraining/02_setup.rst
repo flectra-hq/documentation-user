@@ -28,7 +28,7 @@ because the Flectra source code is managed on GitHub. Once installed, you can se
 
     $ sudo apt install git
     $ git config --global user.name "Your full name"
-    $ git config --global user.email "xyz@flectra.com"
+    $ git config --global user.email "xyz@flectrahq.com"
 
 Configure GitHub
 ----------------
@@ -53,7 +53,7 @@ Here is a step-by-step procedure:
 
   .. code-block:: console
 
-    $ ssh-keygen -t ed25519 -C "xyz@flectra.com"
+    $ ssh-keygen -t ed25519 -C "xyz@flectrahq.com"
     $ ssh-add ~/.ssh/id_ed25519
     $ sudo apt-get install xclip
     $ xclip -sel clip < ~/.ssh/id_ed25519.pub
@@ -313,7 +313,7 @@ The Developer or Debug Mode gives you access to additional (advanced) tools.
 
 This is useful for training and we assume that the user is in developer mode for the rest of the tutorials.
 
-To activate the developer or debug mode you can follow the steps `here <https://www.flectra.com/documentation/user/general/developer_mode/activate.html>`__.
+To activate the developer or debug mode you can follow the steps `here <https://www.flectrahq.com/documentation/user/general/developer_mode/activate.html>`__.
 
 Extra tools
 ===========
@@ -439,11 +439,11 @@ Here is a list of commands:
 
     To avoid killing the worker when debugging, you can add these arguments when launching the
     server: `--limit-time-cpu=9999 --limit-time-real=9999`
-    Another solution is to add them directly in the `~/.odoorc` file:
+    Another solution is to add them directly in the `~/.flectrarc` file:
 
     .. code-block:: console
 
-        $ cat ~/.odoorc
+        $ cat ~/.flectrarc
         [options]
         limit_time_cpu = 9999
         limit_time_real = 9999

@@ -109,29 +109,6 @@ Which only prints a small message in the browser's console.
 
 The files in the ``static`` folder, need to be defined within the module in order for them to be loaded correctly. Everything in ``src/xml`` is defined in ``__manifest__.py`` while the contents of ``src/css`` and ``src/js`` are defined in ``petstore.xml``, or a similar file.
 
-.. warning::
-
-    All JavaScript files are concatenated and :term:`minified` to improve
-    application load time.
-
-    One of the drawback is debugging becomes more difficult as
-    individual files disappear and the code is made significantly less
-    readable. It is possible to disable this process by enabling the
-    "developer mode": log into your Flectra instance (user *admin* password
-    *admin* by default) open the user menu (in the top-right corner of the
-    Flectra screen) and select :guilabel:`About Flectra` then :guilabel:`Activate
-    the developer mode`:
-
-    .. image:: web/about_odoo.png
-        :align: center
-
-    .. image:: web/devmode.png
-        :align: center
-
-    This will reload the web client with optimizations disabled, making
-    development and debugging significantly more comfortable.
-
-.. todo:: qweb files hooked via __manifest__.py, but js and CSS use bundles
 
 Flectra JavaScript Module
 =========================

@@ -14,7 +14,7 @@ _logger = logging.getLogger(__name__)
 
 # General information about the project.
 project = 'Flectra'
-copyright = 'Flectra S.A.'
+copyright = 'FlectraHQ, Inc..'
 
 # `version` if the version info for the project being documented, acts as replacement for |version|,
 # also used in various other places throughout the built documents.
@@ -58,22 +58,22 @@ extension_dir = Path('extensions')
 sys.path.insert(0, str(extension_dir.absolute()))
 
 # Search for the directory of flectra sources to know whether autodoc should be used on the dev doc
-odoo_dir = Path('flectra')
-odoo_dir_in_path = False
-if not odoo_dir.is_dir():
+flectra_dir = Path('flectra')
+flectra_dir_in_path = False
+if not flectra_dir.is_dir():
     _logger.warning(
-        f"Could not find Flectra sources directory at {odoo_dir.absolute()}.\n"
+        f"Could not find Flectra sources directory at {flectra_dir.absolute()}.\n"
         f"The 'Developer' documentation will be built but autodoc directives will be skipped.\n"
         f"In order to fully build the 'Developer' documentation, clone the repository with "
         f"`git clone https://github.com/flectra/flectra` or create a symbolink link."
     )
 else:
-    sys.path.insert(0, str(odoo_dir.absolute()))
-    from flectra import release as odoo_release  # Don't collide with Sphinx's 'release' config option
-    odoo_version = odoo_release.version if 'alpha' not in odoo_release.version else 'master'
-    if release != odoo_version:
+    sys.path.insert(0, str(flectra_dir.absolute()))
+    from flectra import release as flectra_release  # Don't collide with Sphinx's 'release' config option
+    flectra_version = flectra_release.version if 'alpha' not in flectra_release.version else 'master'
+    if release != flectra_version:
         _logger.warning(
-            f"Found Flectra sources directory but with version '{odoo_version}' incompatible with "
+            f"Found Flectra sources directory but with version '{flectra_version}' incompatible with "
             f"documentation version '{version}'.\n"
             f"The 'Developer' documentation will be built but autodoc directives will be skipped.\n"
             f"In order to fully build the 'Developer' documentation, checkout the matching branch"
@@ -81,13 +81,13 @@ else:
         )
     else:
         _logger.info(f"Found Flectra sources directory matching documentation version {release}.")
-        odoo_dir_in_path = True
+        flectra_dir_in_path = True
 
 # The Sphinx extensions to use, as module names.
 # They can be extensions coming with Sphinx (named 'sphinx.ext.*') or custom ones.
 extensions = [
     # Parse Python docstrings (autodoc, automodule, autoattribute directives)
-    'sphinx.ext.autodoc' if odoo_dir_in_path else 'autodoc_placeholder',
+    'sphinx.ext.autodoc' if flectra_dir_in_path else 'autodoc_placeholder',
 
     # Link sources in other projects (used to build the reference doc)
     'sphinx.ext.intersphinx',
@@ -112,7 +112,7 @@ extensions = [
     # Strange html domain logic used in memento pages
     'html_domain',
 ]
-if odoo_dir_in_path:
+if flectra_dir_in_path:
     # GitHub links generation
     extensions += [
         'sphinx.ext.linkcode',
@@ -200,34 +200,34 @@ latex_additional_files = ['static/latex/flectra.sty']
 # Grouping the document tree into LaTeX files. List of tuples:
 # (source start file, target name, title, author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('legal/terms/enterprise_tex', 'odoo_enterprise_agreement.tex',
-     'Flectra Enterprise Subscription Agreement', '', 'howto'),
+    ('legal/terms/professional_tex', 'flectra_professional_agreement.tex',
+     'Flectra Professional Subscription Agreement', '', 'howto'),
     ('legal/terms/partnership_tex',
-     'odoo_partnership_agreement.tex', 'Flectra Partnership Agreement', '', 'howto'),
+     'flectra_partnership_agreement.tex', 'Flectra Partnership Agreement', '', 'howto'),
     ('legal/terms/terms_of_sale',
      'terms_of_sale.tex', 'Flectra Terms of Sale', '', 'howto'),
 
-    ('legal/terms/i18n/enterprise_tex_fr', 'odoo_enterprise_agreement_fr.tex',
-     'Flectra Enterprise Subscription Agreement (FR)', '', 'howto'),
+    ('legal/terms/i18n/professional_tex_fr', 'flectra_professional_agreement_fr.tex',
+     'Flectra Professional Subscription Agreement (FR)', '', 'howto'),
     ('legal/terms/i18n/partnership_tex_fr',
-     'odoo_partnership_agreement_fr.tex', 'Flectra Partnership Agreement (FR)', '', 'howto'),
+     'flectra_partnership_agreement_fr.tex', 'Flectra Partnership Agreement (FR)', '', 'howto'),
     ('legal/terms/i18n/terms_of_sale_fr', 'terms_of_sale_fr.tex',
      u'Conditions Générales de Vente Flectra', '', 'howto'),
 
-    ('legal/terms/i18n/enterprise_tex_nl', 'odoo_enterprise_agreement_nl.tex',
-     'Flectra Enterprise Subscription Agreement (NL)', '', 'howto'),
+    ('legal/terms/i18n/professional_tex_nl', 'flectra_professional_agreement_nl.tex',
+     'Flectra Professional Subscription Agreement (NL)', '', 'howto'),
 
-    ('legal/terms/i18n/enterprise_tex_de', 'odoo_enterprise_agreement_de.tex',
-     'Flectra Enterprise Subscription Agreement (DE)', '', 'howto'),
+    ('legal/terms/i18n/professional_tex_de', 'flectra_professional_agreement_de.tex',
+     'Flectra Professional Subscription Agreement (DE)', '', 'howto'),
 
-    ('legal/terms/i18n/enterprise_tex_es', 'odoo_enterprise_agreement_es.tex',
-     'Flectra Enterprise Subscription Agreement (ES)', '', 'howto'),
+    ('legal/terms/i18n/professional_tex_es', 'flectra_professional_agreement_es.tex',
+     'Flectra Professional Subscription Agreement (ES)', '', 'howto'),
     ('legal/terms/i18n/partnership_tex_es',
-     'odoo_partnership_agreement_es.tex', 'Flectra Partnership Agreement (ES)', '', 'howto'),
+     'flectra_partnership_agreement_es.tex', 'Flectra Partnership Agreement (ES)', '', 'howto'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of the title page.
-latex_logo = 'static/img/odoo_logo.png'
+latex_logo = 'static/img/flectra_logo.png'
 
 # If true, show URL addresses after external links.
 latex_show_urls = 'True'
@@ -312,7 +312,7 @@ def _generate_alternate_urls(app, pagename, templatename, context, doctree):
 
     def _build_url(_version=None, _lang=None):
         if app.config.is_remote_build:
-            # Project root like https://www.flectra.com/documentation
+            # Project root like https://www.flectrahq.com/documentation
             _root = app.config.project_root
         else:
             # Project root like .../documentation/_build/html/2.0/fr

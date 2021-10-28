@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -1206,7 +1206,7 @@ msgid "Gantt"
 msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:981
-msgid "The gantt view requires the web_gantt module which is present in :ref:`the enterprise edition <setup/install/editions>` version."
+msgid "The gantt view requires the web_gantt module which is present in :ref:`the professional edition <setup/install/editions>` version."
 msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:984
@@ -1661,7 +1661,7 @@ msgid "https://github.com/akretion/ooor"
 msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:1512
-msgid "https://github.com/OCA/odoorpc"
+msgid "https://github.com/OCA/flectrarpc"
 msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:1513
@@ -1669,7 +1669,7 @@ msgid "https://github.com/nicolas-van/openerp-client-lib"
 msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:1514
-msgid "http://pythonhosted.org/OdooRPC"
+msgid "http://pythonhosted.org/flectraRPC"
 msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:1515
@@ -2188,7 +2188,7 @@ msgid "Replace the first four property’s values with anything you like. These 
 msgstr ""
 
 #: ../../content/developer/howtos/themes.rst:244
-msgid "``category`` defines your module category (always “Theme”) and, after a slash, the subcategory. You can use one subcategory from the Flectra Apps categories list. (https://www.flectra.com/apps/themes)"
+msgid "``category`` defines your module category (always “Theme”) and, after a slash, the subcategory. You can use one subcategory from the Flectra Apps categories list. (https://www.flectrahq.com/apps/themes)"
 msgstr ""
 
 #: ../../content/developer/howtos/themes.rst:246
@@ -5599,7 +5599,7 @@ msgid "provide an alternate :ref:`configuration file <reference/cmdline/config>`
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:46
-msgid "saves the server configuration to the current configuration file (:file:`{$HOME}/.odoorc` by default, and can be overridden using :option:`-c`)."
+msgid "saves the server configuration to the current configuration file (:file:`{$HOME}/.flectrarc` by default, and can be overridden using :option:`-c`)."
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:52
@@ -5615,7 +5615,7 @@ msgid "select the tests to run by using tags."
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:65
-msgid "Specify directory where to write screenshots when an HttpCase.browser_js test fails. It defaults to :file:`/tmp/odoo_tests/{db_name}/screenshots`"
+msgid "Specify directory where to write screenshots when an HttpCase.browser_js test fails. It defaults to :file:`/tmp/flectra_tests/{db_name}/screenshots`"
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:70
@@ -5659,11 +5659,11 @@ msgid "``%h`` is replaced by the whole hostname the request is made on."
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:104
-msgid "``%d`` is replaced by the subdomain the request is made on, with the exception of ``www`` (so domain ``flectra.com`` and ``www.flectra.com`` both match the database ``flectra``)."
+msgid "``%d`` is replaced by the subdomain the request is made on, with the exception of ``www`` (so domain ``flectrahq.com`` and ``www.flectrahq.com`` both match the database ``flectra``)."
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:108
-msgid "These operations are case sensitive. Add option ``(?i)`` to match all databases (so domain ``flectra.com`` using ``(?i)%d`` matches the database ``Flectra``)."
+msgid "These operations are case sensitive. Add option ``(?i)`` to match all databases (so domain ``flectrahq.com`` using ``(?i)%d`` matches the database ``Flectra``)."
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:112
@@ -6035,7 +6035,7 @@ msgid ":option:`--i18n-import` and :option:`--i18n-export` aren't available at a
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:479
-msgid "The default configuration file is :file:`{$HOME}/.odoorc` which can be overridden using :option:`--config <flectra-bin -c>`. Specifying :option:`--save <flectra-bin -s>` will save the current configuration state back to that file. The configuration items relative to the command-line are to be specified in the section ``[options]``."
+msgid "The default configuration file is :file:`{$HOME}/.flectrarc` which can be overridden using :option:`--config <flectra-bin -c>`. Specifying :option:`--save <flectra-bin -s>` will save the current configuration state back to that file. The configuration items relative to the command-line are to be specified in the section ``[options]``."
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:485
@@ -6223,7 +6223,7 @@ msgid "Identifying Extra Modules"
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:715
-msgid "To distinguish between standard and extra modules, Flectra Cloc uses the following heuristic: modules that are located (real file system path, after following symbolic links) in the same parent directory as the ``base``, ``web`` or ``web_enterprise`` standard modules are considered standard. Other modules are treated as extra modules."
+msgid "To distinguish between standard and extra modules, Flectra Cloc uses the following heuristic: modules that are located (real file system path, after following symbolic links) in the same parent directory as the ``base``, ``web`` or ``web_professional`` standard modules are considered standard. Other modules are treated as extra modules."
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:722
@@ -6873,7 +6873,7 @@ msgid "This page introduces the Flectra Coding Guidelines. Those aim to improve 
 msgstr ""
 
 #: ../../content/developer/reference/guidelines.rst:17
-msgid "When modifying existing files in **stable version** the original file style strictly supersedes any other style guidelines. In other words please never modify existing files in order to apply these guidelines. It avoids disrupting the revision history of code lines. Diff should be kept minimal. For more details, see our `pull request guide <https://flectra.com/submit-pr>`_."
+msgid "When modifying existing files in **stable version** the original file style strictly supersedes any other style guidelines. In other words please never modify existing files in order to apply these guidelines. It avoids disrupting the revision history of code lines. Diff should be kept minimal. For more details, see our `pull request guide <https://flectrahq.com/submit-pr>`_."
 msgstr ""
 
 #: ../../content/developer/reference/guidelines.rst:25
@@ -6929,7 +6929,7 @@ msgid "File naming"
 msgstr ""
 
 #: ../../content/developer/reference/guidelines.rst:55
-msgid "File naming is important to quickly find information through all flectra addons. This section explains how to name files in a standard flectra module. As an example we use a `plant nursery <https://github.com/tivisse/odoodays-2018/tree/master/plant_nursery>`_ application. It holds two main models *plant.nursery* and *plant.order*."
+msgid "File naming is important to quickly find information through all flectra addons. This section explains how to name files in a standard flectra module. As an example we use a `plant nursery <https://github.com/tivisse/flectradays-2018/tree/master/plant_nursery>`_ application. It holds two main models *plant.nursery* and *plant.order*."
 msgstr ""
 
 #: ../../content/developer/reference/guidelines.rst:60
@@ -9001,7 +9001,7 @@ msgid "The custom event widgets is a more advanced system, which mimic the DOM e
 msgstr ""
 
 #: ../../content/developer/reference/javascript_reference.rst:937
-msgid "*trigger_up*: this is the method that will create a small *OdooEvent* and dispatch it in the component tree.  Note that it will start with the component that triggered the event"
+msgid "*trigger_up*: this is the method that will create a small *flectraEvent* and dispatch it in the component tree.  Note that it will start with the component that triggered the event"
 msgstr ""
 
 #: ../../content/developer/reference/javascript_reference.rst:940
@@ -9009,7 +9009,7 @@ msgid "*custom_events*: this is the equivalent of the *event* dictionary, but fo
 msgstr ""
 
 #: ../../content/developer/reference/javascript_reference.rst:943
-msgid "The OdooEvent class is very simple.  It has three public attributes: *target* (the widget that triggered the event), *name* (the event name) and *data* (the payload).  It also has 2 methods: *stopPropagation* and *is_stopped*."
+msgid "The flectraEvent class is very simple.  It has three public attributes: *target* (the widget that triggered the event), *name* (the event name) and *data* (the payload).  It also has 2 methods: *stopPropagation* and *is_stopped*."
 msgstr ""
 
 #: ../../content/developer/reference/javascript_reference.rst:947
@@ -11171,7 +11171,7 @@ msgid "``alias_name`` - :class:`~flectra.fields.Char`"
 msgstr ""
 
 #: ../../content/developer/reference/mixins.rst:586
-msgid "name of the email alias, e.g. 'jobs' if you want to catch emails for <jobs@example.flectra.com>"
+msgid "name of the email alias, e.g. 'jobs' if you want to catch emails for <jobs@example.flectrahq.com>"
 msgstr ""
 
 #: ../../content/developer/reference/mixins.rst:591
@@ -11306,7 +11306,7 @@ msgid "These models have a single field ``name`` (i.e. they are simply there to 
 msgstr ""
 
 #: ../../content/developer/reference/mixins.rst:808
-msgid "Once a customer visits your website with these parameters set in the url (i.e. https://www.flectra.com/?campaign_id=mixin_talk&source_id=www.flectra.com&medium_id=website), three cookies are set in the visitor's website for these parameters. Once a object that inherits the utm.mixin is created from the website (i.e. lead form, job application, etc.), the utm.mixin code kicks in and fetches the values from the cookies to set them in the new record. Once this is done, you can then use the campaign/source/medium fields as any other field when defining reports and views (group by, etc.)."
+msgid "Once a customer visits your website with these parameters set in the url (i.e. https://www.flectrahq.com/?campaign_id=mixin_talk&source_id=www.flectrahq.com&medium_id=website), three cookies are set in the visitor's website for these parameters. Once a object that inherits the utm.mixin is created from the website (i.e. lead form, job application, etc.), the utm.mixin code kicks in and fetches the values from the cookies to set them in the new record. Once this is done, you can then use the campaign/source/medium fields as any other field when defining reports and views (group by, etc.)."
 msgstr ""
 
 #: ../../content/developer/reference/mixins.rst:817
@@ -11314,7 +11314,7 @@ msgid "To extend this behaviour, simply add a relational field to a simple model
 msgstr ""
 
 #: ../../content/developer/reference/mixins.rst:846
-msgid "This will tell the system to create a cookie named *odoo_utm_my_field* with the value found in the url parameter ``my_field``; once a new record of this model is created by a call from a website form, the generic override of the ``create()`` method of ``utm.mixin`` will fetch the default values for this field from the cookie (and the ``my_module.my_track`` record will be creatwed on the fly if it does not exist yet)."
+msgid "This will tell the system to create a cookie named *flectra_utm_my_field* with the value found in the url parameter ``my_field``; once a new record of this model is created by a call from a website form, the generic override of the ``create()`` method of ``utm.mixin`` will fetch the default values for this field from the cookie (and the ``my_module.my_track`` record will be creatwed on the fly if it does not exist yet)."
 msgstr ""
 
 #: ../../content/developer/reference/mixins.rst:856
@@ -11323,7 +11323,7 @@ msgstr ""
 
 #: ../../content/developer/reference/mixins.rst:857
 #: ../../content/developer/reference/mixins.rst:1075
-msgid "``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Enterprise only) Application"
+msgid "``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Professional only) Application"
 msgstr ""
 
 #: ../../content/developer/reference/mixins.rst:862
@@ -11483,7 +11483,7 @@ msgid "This page documents how you can access mobile native components like Came
 msgstr ""
 
 #: ../../content/developer/reference/mobile.rst:22
-msgid "These features work with **Flectra Enterprise 10.0+** only"
+msgid "These features work with **Flectra Professional 10.0+** only"
 msgstr ""
 
 #: ../../content/developer/reference/mobile.rst:25
@@ -11731,7 +11731,7 @@ msgid "`Other OSI approved licence`"
 msgstr ""
 
 #: ../../content/developer/reference/module.rst:63
-msgid "`OEEL-1` (Flectra Enterprise Edition License v1.0)"
+msgid "`OEEL-1` (Flectra Professional Edition License v1.0)"
 msgstr ""
 
 #: ../../content/developer/reference/module.rst:64
@@ -17392,11 +17392,11 @@ msgid "Extract API"
 msgstr ""
 
 #: ../../content/developer/webservices/extract_api.rst:7
-msgid "Flectra provides a service allowing you to automate the processing of your invoices. The service scans your document using an Optical Character Recognition (OCR) engine and then uses AI-based algorithms to extract the fields of interest such as the total, the due date, or the invoice lines. More functional information can be found on the `demo page <https://www.flectra.com/page/invoice-automation>`_."
+msgid "Flectra provides a service allowing you to automate the processing of your invoices. The service scans your document using an Optical Character Recognition (OCR) engine and then uses AI-based algorithms to extract the fields of interest such as the total, the due date, or the invoice lines. More functional information can be found on the `demo page <https://www.flectrahq.com/page/invoice-automation>`_."
 msgstr ""
 
 #: ../../content/developer/webservices/extract_api.rst:11
-msgid "This service is a paid service. Each invoice processing will cost you one credit. Three different sized packs can be bought on `iap.flectra.com <https://iap.flectra.com/iap/in-app-services/259?sortby=date>`_."
+msgid "This service is a paid service. Each invoice processing will cost you one credit. Three different sized packs can be bought on `iap.flectrahq.com <https://iap.flectrahq.com/iap/in-app-services/259?sortby=date>`_."
 msgstr ""
 
 #: ../../content/developer/webservices/extract_api.rst:13
@@ -17408,7 +17408,7 @@ msgid "Invoices"
 msgstr ""
 
 #: ../../content/developer/webservices/extract_api.rst:18
-msgid "The extract API use the JSON-RPC2_ protocol. The diffent routes are located at the following address: **https://iap-extract.flectra.com**."
+msgid "The extract API use the JSON-RPC2_ protocol. The diffent routes are located at the following address: **https://iap-extract.flectrahq.com**."
 msgstr ""
 
 #: ../../content/developer/webservices/extract_api.rst:21
@@ -18114,7 +18114,7 @@ msgid "A credit can also simply be associated with a fixed amount of money to pa
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:64
-msgid "The value of the credits is fixed with the help of prepaid credit packs that the clients can buy on https://iap.flectra.com (see :ref:`Packs <iap-packages>`)."
+msgid "The value of the credits is fixed with the help of prepaid credit packs that the clients can buy on https://iap.flectrahq.com (see :ref:`Packs <iap-packages>`)."
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:67
@@ -18202,7 +18202,7 @@ msgid "complete this part with screenshots"
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:123
-msgid "The first step is to register your service on the IAP endpoint (production and/or test) before you can actually query user accounts. To create a service, go to your *Portal Account* on the IAP endpoint (https://iap.flectra.com for production, https://iap-sandbox.flectra.com for testing, the endpoints are *independent* and *not synchronized*). Alternatively, you can go to your portal on Flectra (https://iap.flectra.com/my/home) and select *In-App Services*."
+msgid "The first step is to register your service on the IAP endpoint (production and/or test) before you can actually query user accounts. To create a service, go to your *Portal Account* on the IAP endpoint (https://iap.flectrahq.com for production, https://iap-sandbox.flectrahq.com for testing, the endpoints are *independent* and *not synchronized*). Alternatively, you can go to your portal on Flectra (https://iap.flectrahq.com/my/home) and select *In-App Services*."
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:132
@@ -18242,7 +18242,7 @@ msgid "Your :class:`ServiceKey` *is a secret*, leaking your service key allows o
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:168
-msgid ":samp:`trial credits` - :class:`Float`: This corresponds to the credits you are ready to offer upon first use to your app users. Note that such service will only be available to clients that have an active enterprise contract."
+msgid ":samp:`trial credits` - :class:`Float`: This corresponds to the credits you are ready to offer upon first use to your app users. Note that such service will only be available to clients that have an active professional contract."
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:172
@@ -18373,7 +18373,7 @@ msgid "`coalroller_service/controllers/main.py`"
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:407
-msgid "for the actual IAP will the \"portal\" page be on flectra.com or iap.flectra.com?"
+msgid "for the actual IAP will the \"portal\" page be on flectrahq.com or iap.flectrahq.com?"
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:409
@@ -18405,7 +18405,7 @@ msgid "otherwise, if an error is raised from the body of the ``with``, cancel th
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:426
-msgid "By default, :class:`~flectra.addons.iap.tools.iap_tools.iap_charge` contacts the *production* IAP endpoint, https://iap.flectra.com. While developing and testing your service you may want to point it towards the *development* IAP endpoint https://iap-sandbox.flectra.com."
+msgid "By default, :class:`~flectra.addons.iap.tools.iap_tools.iap_charge` contacts the *production* IAP endpoint, https://iap.flectrahq.com. While developing and testing your service you may want to point it towards the *development* IAP endpoint https://iap-sandbox.flectrahq.com."
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:431
@@ -18453,7 +18453,7 @@ msgid "Exceptions are returned as JSON-RPC2_ errors, the formal exception name i
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:525
-msgid "`iap.flectra.com documentation`_ for additional information."
+msgid "`iap.flectrahq.com documentation`_ for additional information."
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:528
@@ -18470,7 +18470,7 @@ msgid "Any amount currently on hold by a pending transaction is considered unava
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:538
-msgid "Returns a :class:`TransactionToken` identifying the pending transaction which can be used to capture (confirm) or cancel said transaction (`iap.flectra.com documentation`_)."
+msgid "Returns a :class:`TransactionToken` identifying the pending transaction which can be used to capture (confirm) or cancel said transaction (`iap.flectrahq.com documentation`_)."
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:544
@@ -18549,7 +18549,7 @@ msgid "Exceptions aside, these are *abstract types* used for clarity, you should
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:643
-msgid "String identifying your service on https://iap.flectra.com (production) as well as the account related to your service in the client's database."
+msgid "String identifying your service on https://iap.flectrahq.com (production) as well as the account related to your service in the client's database."
 msgstr ""
 
 #: ../../content/developer/webservices/iap.rst:648
@@ -18840,11 +18840,11 @@ msgid "How to create a new dynamic report?"
 msgstr ""
 
 #: ../../content/developer/webservices/localization.rst:417
-msgid "If you need to add some reports on your localization, you need to create a new module named **l10n_xx_reports**. Furthermore, this additional module must be present in the ``enterprise`` repository and must have at least two dependencies, one to bring all the stuff for your localization module and one more, ``account_reports``, to design dynamic reports."
+msgid "If you need to add some reports on your localization, you need to create a new module named **l10n_xx_reports**. Furthermore, this additional module must be present in the ``professional`` repository and must have at least two dependencies, one to bring all the stuff for your localization module and one more, ``account_reports``, to design dynamic reports."
 msgstr ""
 
 #: ../../content/developer/webservices/localization.rst:425
-msgid "Once it's done, you can start the creation of your report statements. The documentation is available in the following `slides <https://www.flectra.com/slides/slide/how-to-create-custom-accounting-report-415>`_."
+msgid "Once it's done, you can start the creation of your report statements. The documentation is available in the following `slides <https://www.flectrahq.com/slides/slide/how-to-create-custom-accounting-report-415>`_."
 msgstr ""
 
 #: ../../content/developer/webservices/flectra.rst:5
@@ -18868,7 +18868,7 @@ msgid "If you already have an Flectra server installed, you can just use its par
 msgstr ""
 
 #: ../../content/developer/webservices/flectra.rst:95
-msgid "For Flectra Online instances (<domain>.flectra.com), users are created without a *local* password (as a person you are logged in via the Flectra Online authentication system, not by the instance itself). To use XML-RPC on Flectra Online instances, you will need to set a password on the user account you want to use:"
+msgid "For Flectra Online instances (<domain>.flectrahq.com), users are created without a *local* password (as a person you are logged in via the Flectra Online authentication system, not by the instance itself). To use XML-RPC on Flectra Online instances, you will need to set a password on the user account you want to use:"
 msgstr ""
 
 #: ../../content/developer/webservices/flectra.rst:101
@@ -18892,7 +18892,7 @@ msgid "Set a :guilabel:`New Password` value then click :guilabel:`Change Passwor
 msgstr ""
 
 #: ../../content/developer/webservices/flectra.rst:108
-msgid "The *server url* is the instance's domain (e.g. *https://mycompany.flectra.com*), the *database name* is the name of the instance (e.g. *mycompany*). The *username* is the configured user's login as shown by the *Change Password* screen."
+msgid "The *server url* is the instance's domain (e.g. *https://mycompany.flectrahq.com*), the *database name* is the name of the instance (e.g. *mycompany*). The *username* is the configured user's login as shown by the *Change Password* screen."
 msgstr ""
 
 #: ../../content/developer/webservices/flectra.rst:146
@@ -18936,7 +18936,7 @@ msgid "demo"
 msgstr ""
 
 #: ../../content/developer/webservices/flectra.rst:192
-msgid "To make exploration simpler, you can also ask https://demo.flectra.com for a test database:"
+msgid "To make exploration simpler, you can also ask https://demo.flectrahq.com for a test database:"
 msgstr ""
 
 #: ../../content/developer/webservices/flectra.rst:224
@@ -19292,7 +19292,7 @@ msgid "This document describes the API used to upgrade an Flectra database to a 
 msgstr ""
 
 #: ../../content/developer/webservices/upgrade.rst:15
-msgid "It allows a database to be upgraded without ressorting to the html form at https://upgrade.flectra.com Although the database will follow the same process described on that form."
+msgid "It allows a database to be upgraded without ressorting to the html form at https://upgrade.flectrahq.com Although the database will follow the same process described on that form."
 msgstr ""
 
 #: ../../content/developer/webservices/upgrade.rst:20
@@ -19364,7 +19364,7 @@ msgid "Creates a database upgrade request"
 msgstr ""
 
 #: ../../content/developer/webservices/upgrade.rst:52
-msgid "(required) your enterprise contract reference"
+msgid "(required) your professional contract reference"
 msgstr ""
 
 #: ../../content/developer/webservices/upgrade.rst:53

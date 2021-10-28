@@ -4,4 +4,4 @@
    :maxdepth: 4
    :hidden:
 
-   enterprise_fr
+   professional_fr

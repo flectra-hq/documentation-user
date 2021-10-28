@@ -20,7 +20,7 @@ The subscription business model is becoming more popular. Are you wondering why?
 
 .. raw:: html
 
-   <div align="center" style="color:#AD5E99; font-size: 2rem ;margin: 20px 0"> <b>Simplicity.
+   <div align="center" style="color:#2496f6; font-size: 2rem ;margin: 20px 0"> <b>Simplicity.
    Higher customer retention. Opportunities for marketing. Business consistency. Better cash flow
    management.</b> </div>
 

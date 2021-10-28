@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -934,7 +934,7 @@ msgid "Example"
 msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:126
-msgid "This excerpt of :abbr:`RST (reStructuredText)`: ``For instance, `this is a hyperlink reference <https://flectra.com>`_.`` is rendered as follows in HTML: “For instance, `this is a hyperlink reference <https://flectra.com>`_.”"
+msgid "This excerpt of :abbr:`RST (reStructuredText)`: ``For instance, `this is a hyperlink reference <https://flectrahq.com>`_.`` is rendered as follows in HTML: “For instance, `this is a hyperlink reference <https://flectrahq.com>`_.”"
 msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:133
@@ -1094,7 +1094,7 @@ msgid "The ``download`` directive allows referencing files (that are not necessa
 msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:300
-msgid "Download this `module structure template <https://example.com/doc/odoosh/extras/my_module.zip>`_ to start building your module in no time."
+msgid "Download this `module structure template <https://example.com/doc/flectrash/extras/my_module.zip>`_ to start building your module in no time."
 msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:306
@@ -1342,11 +1342,11 @@ msgid "Absolute:"
 msgstr ""
 
 #: ../../content/contributing/documentation/rst_guidelines.rst:40
-msgid "``https://flectra.com/documentation/2.0/applications/sales/sales/products_prices/prices.html``"
+msgid "``https://flectrahq.com/documentation/2.0/applications/sales/sales/products_prices/prices.html``"
 msgstr ""
 
 #: ../../content/contributing/documentation/rst_guidelines.rst:41
-msgid "``https://flectra.com/documentation/2.0/applications/sales/sales/products_prices/products/variants.html``"
+msgid "``https://flectrahq.com/documentation/2.0/applications/sales/sales/products_prices/products/variants.html``"
 msgstr ""
 
 #: ../../content/contributing/documentation/rst_guidelines.rst:43

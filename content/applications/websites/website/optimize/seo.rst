@@ -61,15 +61,15 @@ modules to help you build your website content:
 
 - **Flectra Slides**: publish all your Powerpoint or PDF presentations.
   Their content is automatically indexed on the web page. Example:
-  `flectra.com/slides/public-channel-1 <https://www.flectra.com/slides/public-channel-1>`_
+  `flectrahq.com/slides/public-channel-1 <https://www.flectrahq.com/slides/public-channel-1>`_
 
 - **Flectra Forum**: let your community create contents for you. Example:
-  `flectra.com/forum/1 <https://flectra.com/forum/1>`_
-  (accounts for 30% of Flectra.com landing pages)
+  `flectrahq.com/forum/1 <https://flectrahq.com/forum/1>`_
+  (accounts for 30% of flectrahq.com landing pages)
 
 - **Flectra Mailing List Archive**: publish mailing list archives on your
   website. Example:
-  `flectra.com/groups/community-59 <https://www.flectra.com/groups/community-59>`_
+  `flectrahq.com/groups/community-59 <https://www.flectrahq.com/groups/community-59>`_
   (1000 pages created per month)
 
 .. note::
@@ -181,7 +181,7 @@ an example, the following URLs all do a 301 redirect to the above URL:
 Some URLs have several dynamic parts, like this one (a blog category and
 a post): 
 
--  https://www.flectra.com/blog/company-news-5/post/the-flectra-story-56
+-  https://www.flectrahq.com/blog/company-news-5/post/the-flectra-story-56
 
 In the above example:
 
@@ -193,7 +193,7 @@ When an Flectra page has a pager, the page number is set directly in the
 URL (does not have a GET argument). This allows every page to be indexed
 by search engines. Example: 
 
--  https://www.flectra.com/blog/page/3
+-  https://www.flectrahq.com/blog/page/3
 
 Changes in URLs & Titles
 ------------------------
@@ -387,7 +387,7 @@ cached (server-side and browser-side). The result:
 
 **Pre-processed:** The CSS framework used by Flectra is Bootstrap.
 Although a theme might use another framework, most of `Flectra
-themes <https://www.flectra.com/apps/themes>`__ extend and customize
+themes <https://www.flectrahq.com/apps/themes>`__ extend and customize
 Bootstrap directly. Since Flectra supports Less and Sass, you can modify
 CSS rules instead of overwriting them through extra CSS lines,
 resulting in a smaller file.
@@ -563,8 +563,8 @@ In addition to being fast, Flectra is also more scalable than traditional
 CMS and eCommerce (Drupal, Wordpress, Magento, Prestashop). The
 following link provides an analysis of the major open source CMS and
 eCommerce compared to Flectra when it comes to high query volumes:
-`https://www.flectra.com/slides/slide/197
-<https://www.flectra.com/slides/slide/flectra-cms-performance-comparison-and-optimisation-197>`_
+`https://www.flectrahq.com/slides/slide/197
+<https://www.flectrahq.com/slides/slide/flectra-cms-performance-comparison-and-optimisation-197>`_
 
 .. todo:: fix above link
 
@@ -632,7 +632,7 @@ general indexing rules of the a``/robots.txt`` file (allowed robots,
 sitemap path, etc.). Flectra automatically creates it. Its content is:
 
 User-agent: \*
-Sitemap: https://www.flectra.com/sitemap.xml
+Sitemap: https://www.flectrahq.com/sitemap.xml
 
 It means that all robots are allowed to index your website
 and there is no other indexing rule than specified in the sitemap

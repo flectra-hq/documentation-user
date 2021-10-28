@@ -36,7 +36,7 @@ Auto Return
 *Auto Return* automatically redirects your customers to Flectra once the
 payment is processed. Check *Auto Return* and enter your domain name
 with the suffix ``/shop/confirmation`` as *Return URL*
-(e.g. ``https://yourcompany.flectra.com/shop/confirmation``).
+(e.g. ``https://yourcompany.flectrahq.com/shop/confirmation``).
 
 This URL is requested in Paypal but not used in practice as Flectra
 transmits it at each transaction. Don’t worry if you manage several
@@ -76,7 +76,7 @@ is virtually guaranteed since IPN resends a confirmation until your site acknowl
 | To activate IPN, get back to *Website payments* menu and click
   *Update* in *Instant Payment Notification*.
 | The *Notification URL* to set is your domain name +
-  “payment/paypal/ipn” (e.g. ``https://yourcompany.flectra.com/payment/paypal/ipn``).
+  “payment/paypal/ipn” (e.g. ``https://yourcompany.flectrahq.com/payment/paypal/ipn``).
 
 .. image:: media/paypal05.png
     :align: center

@@ -75,7 +75,7 @@ Sync with Outlook
      created in Outlook, and therefore, no redundant emails will be sent during the first
      synchronization. After the sync, events will only send one confirmation email.
 
-      .. image:: media/archive_odoocalendar.png
+      .. image:: media/archive_flectracalendar.png
          :align: center
          :alt: Archive events in Flectra Calendar
 

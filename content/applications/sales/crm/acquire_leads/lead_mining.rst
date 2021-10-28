@@ -33,7 +33,7 @@ From there, click on the **Generate Leads** button, a window where you will be a
 
 When choosing to target Companied and their contacts you can choose the contacts you are getting based on Role or Seniority. 
 When getting contact information make sure to be aware of the latest EU regulation, get more information about General Data Protection Regulation on
-`Flectra GDPR <http://flectra.com/gdpr>`__, 
+`Flectra GDPR <http://flectrahq.com/gdpr>`__, 
 
 
 You can decide to filter the leads you are getting depending on the size (number of employees) of the companies.
@@ -50,7 +50,7 @@ Pricing
 ==================
 This is an In-App Purchase feature, each generated lead will cost you one credit.
 If you choose to get contact information each contact will also cost us one additional credit.
-Here is the pricing for this `feature <https://iap.flectra.com/iap/in-app-services/167?>`__, 
+Here is the pricing for this `feature <https://iap.flectrahq.com/iap/in-app-services/167?>`__, 
 To buy credits you can either go to :menuselection:`CRM --> Configuration --> Settings --> Buy
 Credits`; or go to :menuselection:`Settings --> In-App Purchases --> View my Services`.
 

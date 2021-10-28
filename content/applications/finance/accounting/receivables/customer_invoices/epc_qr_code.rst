@@ -62,4 +62,4 @@ the EPC QR Code.
 
 .. seealso::
    * :doc:`../../bank/setup/bank_accounts`
-   * `Flectra Academy: QR Code on Invoices for European Customers <https://www.flectra.com/r/VuU>`_
+   * `Flectra Academy: QR Code on Invoices for European Customers <https://www.flectrahq.com/r/VuU>`_

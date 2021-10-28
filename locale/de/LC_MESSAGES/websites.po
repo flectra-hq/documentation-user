@@ -1,10 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Jérôme JEK <jek@flectra.com>, 2021
+# Jérôme JEK <jek@flectrahq.com>, 2021
 # Thomas Neu <t.neu@runbox.com>, 2021
 # philku79 <philip.kuss@gmx.de>, 2021
 # e2f <projects@e2f.com>, 2021
@@ -74,7 +74,7 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:26
 msgid ""
 "See how to do it: "
-"https://www.flectra.com/openerp_website/static/src/video/e-commerce/editing.mp4"
+"https://www.flectrahq.com/openerp_website/static/src/video/e-commerce/editing.mp4"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:29
@@ -1197,7 +1197,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:50
-msgid "You can also access the link tracker on *flectra.com/r* via your browser."
+msgid "You can also access the link tracker on *flectrahq.com/r* via your browser."
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:51
@@ -1307,22 +1307,22 @@ msgstr ""
 #: ../../content/applications/websites/website/optimize/seo.rst:62
 msgid ""
 "**Flectra Slides**: publish all your Powerpoint or PDF presentations. Their "
-"content is automatically indexed on the web page. Example: `flectra.com/slides"
-"/public-channel-1 <https://www.flectra.com/slides/public-channel-1>`_"
+"content is automatically indexed on the web page. Example: `flectrahq.com/slides"
+"/public-channel-1 <https://www.flectrahq.com/slides/public-channel-1>`_"
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:66
 msgid ""
 "**Flectra Forum**: let your community create contents for you. Example: "
-"`flectra.com/forum/1 <https://flectra.com/forum/1>`_ (accounts for 30% of Flectra.com"
+"`flectrahq.com/forum/1 <https://flectrahq.com/forum/1>`_ (accounts for 30% of flectrahq.com"
 " landing pages)"
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:70
 msgid ""
 "**Flectra Mailing List Archive**: publish mailing list archives on your "
-"website. Example: `flectra.com/groups/community-59 "
-"<https://www.flectra.com/groups/community-59>`_ (1000 pages created per month)"
+"website. Example: `flectrahq.com/groups/community-59 "
+"<https://www.flectrahq.com/groups/community-59>`_ (1000 pages created per month)"
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:76
@@ -1491,7 +1491,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:184
-msgid "https://www.flectra.com/blog/company-news-5/post/the-flectra-story-56"
+msgid "https://www.flectrahq.com/blog/company-news-5/post/the-flectra-story-56"
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:186
@@ -1514,7 +1514,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:196
-msgid "https://www.flectra.com/blog/page/3"
+msgid "https://www.flectrahq.com/blog/page/3"
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:199
@@ -1818,7 +1818,7 @@ msgstr ""
 msgid ""
 "**Pre-processed:** The CSS framework used by Flectra is Bootstrap. Although a "
 "theme might use another framework, most of `Flectra themes "
-"<https://www.flectra.com/apps/themes>`__ extend and customize Bootstrap "
+"<https://www.flectrahq.com/apps/themes>`__ extend and customize Bootstrap "
 "directly. Since Flectra supports Less and Sass, you can modify CSS rules "
 "instead of overwriting them through extra CSS lines, resulting in a smaller "
 "file."
@@ -2115,7 +2115,7 @@ msgid ""
 "and eCommerce (Drupal, Wordpress, Magento, Prestashop). The following link "
 "provides an analysis of the major open source CMS and eCommerce compared to "
 "Flectra when it comes to high query volumes: "
-"`https://www.flectra.com/slides/slide/197 <https://www.flectra.com/slides/slide"
+"`https://www.flectrahq.com/slides/slide/197 <https://www.flectrahq.com/slides/slide"
 "/flectra-cms-performance-comparison-and-optimisation-197>`_"
 msgstr ""
 
@@ -2218,7 +2218,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:634
-msgid "User-agent: \\* Sitemap: https://www.flectra.com/sitemap.xml"
+msgid "User-agent: \\* Sitemap: https://www.flectrahq.com/sitemap.xml"
 msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:637
@@ -2247,7 +2247,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:5
 msgid ""
-"By default, your Flectra Online instance and website have a *.flectra.com* domain "
+"By default, your Flectra Online instance and website have a *.flectrahq.com* domain "
 "name, for both the URL and the emails. But you can change to a custom one "
 "(e.g. www.yourcompany.com)."
 msgstr ""
@@ -2340,11 +2340,11 @@ msgstr ""
 #: ../../content/applications/websites/website/publish/domain_name.rst:46
 msgid ""
 "First let's authorize the redirection (yourcompany.com -> "
-"yourcompany.flectra.com):"
+"yourcompany.flectrahq.com):"
 msgstr ""
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:48
-msgid "Open your Flectra.com account from your homepage."
+msgid "Open your flectrahq.com account from your homepage."
 msgstr ""
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:53
@@ -2373,7 +2373,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:74
 msgid ""
-"Create a CNAME record *www.yourdomain.com* pointing to *mywebsite.flectra.com*."
+"Create a CNAME record *www.yourdomain.com* pointing to *mywebsite.flectrahq.com*."
 " If you want to use the naked domain (e.g. yourdomain.com), you need to "
 "redirect *yourdomain.com* to *www.yourdomain.com*."
 msgstr ""
@@ -2444,7 +2444,7 @@ msgid ""
 "If you want to do it manually, you can go to :menuselection:`Settings --> "
 "Technical --> System Parameters` . Find the entry called ``web.base.url`` "
 "(you can create it if it does not exist) and enter the full URL of your "
-"website, like ``https://www.myodoowebsite.com``."
+"website, like ``https://www.myflectrawebsite.com``."
 msgstr ""
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:107
@@ -2466,7 +2466,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:115
 msgid ""
-"If you set up a custom domain *mydomain.com* name for *mydatabase.flectra.com*,"
+"If you set up a custom domain *mydomain.com* name for *mydatabase.flectrahq.com*,"
 " Google indexes your website under both names. This is a limitation of the "
 "Flectra cloud platforms/"
 msgstr ""

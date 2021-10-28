@@ -137,7 +137,7 @@ included in Flectra by default
 +-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
 
 If you have questions or remarks, please contact our support using
-flectra.com/help.
+flectrahq.com/help.
 
 .. tip::
     Don't forget to update your fiscal positions. If you have a version

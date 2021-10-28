@@ -8,7 +8,7 @@ Flectra Professional Subscription Agreement (ES)
 .. note:: Version 8.0 - 2018-05-22
 
 Al suscribirse a los servicios de Flectra Professional proporcionados por
-Flectra SA y sus afiliados (colectivamente “Flectra SA”) en relación a Flectra Professional
+FlectraHQ, Inc. y sus afiliados (colectivamente “FlectraHQ, Inc.”) en relación a Flectra Professional
 Edition u Flectra Community Edition, alojados en las plataformas *Cloud
 Hosting* (la nube de Flectra) o en las instalaciones *On Premise*
 ("Self-Hosting"), usted (el "Cliente") acepta regirse por lo siguientes términos y condiciones:
@@ -40,14 +40,14 @@ Usuario
 Aplicación
     Una "Aplicación" es un grupo especializado de funciones
     disponibles para la instalación en el Software, y listados en la sección de precios públicos
-    del `sitio web de Flectra SA <https://www.flectra.com/es_ES/>`__
+    del `sitio web de FlectraHQ, Inc. <https://www.flectrahq.com/es_ES/>`__
 
 Error/Bug
     Se considera un error cualquier falla del Software que
     resulte en una detención completa, un rastreo de errores o una violación de la seguridad,
     y no es causada directamente por una instalación o configuración defectuosa.
     El incumplimiento de algunas especificaciones o requisitos será considerado como error a
-    discreción del Flectra SA (Por ejemplo, cuando el Software no cumple con el comportamiento ni
+    discreción del FlectraHQ, Inc. (Por ejemplo, cuando el Software no cumple con el comportamiento ni
     los resultados para el cual fue diseñado, o cuando una característica específica del país
     ya no cumple con los requisitos legales de contabilidad).
 
@@ -67,10 +67,10 @@ Versiones Cubiertas
 
 El cliente puede utilizar el software alojado en la plataforma en la
 nube, o elegir la opción de instalarlo en servidores propios. La
-plataforma en la nube está alojada y totalmente administrada por Flectra SA y se accede de forma
+plataforma en la nube está alojada y totalmente administrada por FlectraHQ, Inc. y se accede de forma
 remota por el cliente. Con la opción de self/hosting o alojado en servidores propios, el cliente
 en su lugar aloja el software en sistemas informáticos de su elección, que no están bajo el control
-de Flectra SA.
+de FlectraHQ, Inc..
 
 
 El Cliente acuerda tomar todas las medidas necesarias para garantizar la ejecución y verificación
@@ -78,16 +78,16 @@ de la parte del Software que se encuentra instalada o descargada tanto la verifi
 Flectra Professional Edition, incluyendo pero no limitado a la ejecución de su instancia, el número de
 usuarios activos/instalados y las aplicaciones instaladas.
 
-Flectra SA se compromete a no divulgar figuras individuales o nombradas a terceros sin el
+FlectraHQ, Inc. se compromete a no divulgar figuras individuales o nombradas a terceros sin el
 consentimiento del Cliente, y tratar con todos los datos recopilados de conformidad con su
-Política de Privacidad oficial, publicado en `Flectra Privacy <https://www.flectra.com/privacy/>`__
+Política de Privacidad oficial, publicado en `Flectra Privacy <https://www.flectrahq.com/privacy/>`__
 
 Al vencimiento o terminación de este Acuerdo, esta licencia se revoca
 inmediatamente y el cliente acepta dejar de usar el software Flectra
 Professional Edition y la plataforma en la nube.
 
 En caso de que el Cliente incumpla los términos de esta sección, el
-Cliente acepta pagar a Flectra SA una tarifa adicional igual a 300% del
+Cliente acepta pagar a FlectraHQ, Inc. una tarifa adicional igual a 300% del
 precio de lista aplicable para el número real de Usuarios y Aplicaciones
 instaladas.
 
@@ -101,10 +101,10 @@ instaladas.
 4.1 Servicio de corrección de errores
 -------------------------------------
 
-Durante la vigencia de este Acuerdo, Flectra SA se compromete a hacer todos los esfuerzos razonables
+Durante la vigencia de este Acuerdo, FlectraHQ, Inc. se compromete a hacer todos los esfuerzos razonables
 para remediar cualquier error del software enviado por el cliente a través del canal apropiado
-(dirección de correo electrónico de la mesa de servicio de Flectra SA o el formulario del sitio web
-`Flectra Help <https://www.flectra.com/help/>`__ y comenzar a analizar la resolución del error dentro de
+(dirección de correo electrónico de la mesa de servicio de FlectraHQ, Inc. o el formulario del sitio web
+`Flectra Help <https://www.flectrahq.com/help/>`__ y comenzar a analizar la resolución del error dentro de
 un tiempo estimado de 2 días hábiles.
 
 El cliente entiende que los errores causados por una modificación o
@@ -118,13 +118,13 @@ Software utilizado por el cliente, el cliente acepta actualizar su
 sistema a esa revisión para obtener la corrección. No se le pedirá al
 cliente que actualice a la versión más reciente como solución.
 
-Cuando se corrige un error en cualquier Versión Cubierta, Flectra SA se
+Cuando se corrige un error en cualquier Versión Cubierta, FlectraHQ, Inc. se
 compromete a solucionar el error en todas las Versiones Cubiertas
 recientes del software.
 
 Ambas partes reconocen que tal como se especifica en la licencia del
 Software y en la sección :ref:`liability_es`,
-Flectra SA no se hace responsable de los errores en el Software.
+FlectraHQ, Inc. no se hace responsable de los errores en el Software.
 
 4.2 Servicio de actualizaciones de seguridad
 --------------------------------------------
@@ -134,7 +134,7 @@ Flectra SA no se hace responsable de los errores en el Software.
 Auto-alojamiento/Self-Hosting
 +++++++++++++++++++++++++++++
 
-Durante la vigencia de este Acuerdo, Flectra SA se compromete a enviar un "Aviso de Seguridad" al
+Durante la vigencia de este Acuerdo, FlectraHQ, Inc. se compromete a enviar un "Aviso de Seguridad" al
 cliente para cualquier error de seguridad que se descubra en las Versiones Cubiertas del software,
 al menos 2 semanas antes de hacer público el Aviso de seguridad, a menos que el error ya haya sido
 divulgado públicamente por un tercero. Los avisos de seguridad incluyen una descripción completa
@@ -149,7 +149,7 @@ divulgación pública.
 Plataforma en la nube/Cloud Hosting
 +++++++++++++++++++++++++++++++++++
 
-Flectra SA se compromete a aplicar las soluciones de seguridad para
+FlectraHQ, Inc. se compromete a aplicar las soluciones de seguridad para
 cualquier error de seguridad descubierto en una versión del software
 alojado en la plataforma de la nube, en todos los sistemas bajo su
 control, tan pronto como la solución esté disponible, sin requerir
@@ -160,12 +160,12 @@ ninguna acción manual del cliente.
 4.3 Servicios de actualización
 ------------------------------
 
-.. _upgrade_odoo_es:
+.. _upgrade_flectra_es:
 
 **Servicio de actualización para el software**
 
 Durante la vigencia de este Acuerdo, el Cliente puede enviar solicitudes de actualización a través
-del canal apropiado (normalmente, el sitio web del servicio de actualización de Flectra SA), para
+del canal apropiado (normalmente, el sitio web del servicio de actualización de FlectraHQ, Inc.), para
 convertir una base de datos del software de una Versión Cubierta del software a una Versión
 Cubierta más reciente.
 
@@ -216,7 +216,7 @@ instalados junto con la base de datos actualizada.
 -------------------------------------------------------
 
 Durante la vigencia de este Acuerdo, cuando el Cliente elija utilizar la
-Plataforma en la nube (Cloud Hosting), Flectra SA se compromete a proporcionar los
+Plataforma en la nube (Cloud Hosting), FlectraHQ, Inc. se compromete a proporcionar los
 siguientes servicios:
 
 -  Elección de múltiples regiones de alojamiento (mínimo 3: Europa,
@@ -230,7 +230,7 @@ siguientes servicios:
 
 Los detalles de los servicios de alojamiento en la nube se describen en
 la página del Acuerdo de nivel de servicio:
-`Cloud SLA <http://www.flectra.com/cloud-sla>`__.
+`Cloud SLA <http://www.flectrahq.com/cloud-sla>`__.
 
 .. _support_service_es:
 
@@ -241,7 +241,7 @@ Alcance
 +++++++
 
 Durante la vigencia de este Acuerdo, el Cliente puede abrir un número
-ilimitado de tickets de soporte en `Flectra SA <https://www.flectra.com/help>`__,
+ilimitado de tickets de soporte en `FlectraHQ, Inc. <https://www.flectrahq.com/help>`__,
 exclusivamente para preguntas relacionadas con errores (:ref:`bugfix_es`) u orientación con
 respecto al uso de las características estándar del Software y los Servicios (funcionalidades,
 uso previsto, configuración, solución de problemas).
@@ -252,7 +252,7 @@ Auto-Hosting o servicios que requieren acceso a la base de datos del
 Cliente a través de la compra de un Service Pack o Paquete de
 Implementación. En caso de que no quede claro si una solicitud está
 cubierta por este Acuerdo o un Service Pack, la decisión es a discreción de la disponibilidad de
-Flectra SA.
+FlectraHQ, Inc..
 
 .. _charges_es:
 
@@ -278,7 +278,7 @@ adicionales, para el resto del plazo.
 Si en el momento de la conclusión de este Acuerdo, el Cliente utiliza
 una Versión Cubierta que no es la más reciente, los cargos estándares
 pueden incrementarse en un 50% durante la duración del primer plazo, a discreción exclusiva de
-Flectra SA, para cubrir los costos de mantenimiento adicionales.
+FlectraHQ, Inc., para cubrir los costos de mantenimiento adicionales.
 
 .. _charges_renewal_es:
 
@@ -302,7 +302,7 @@ en el código fuente de esos módulos, independientemente del lenguaje de progra
 (Python, Javascript, etc.) o el formato de datos (XML, CSV, etc.), excluyendo líneas en blanco y
 líneas de comentarios.
 
-Flectra SA se reserva el derecho de rechazar una solicitud de actualización para módulos de terceros
+FlectraHQ, Inc. se reserva el derecho de rechazar una solicitud de actualización para módulos de terceros
 en virtud de lo anterior si la calidad del código fuente de esos módulos es demasiado baja,
 o si estos módulos constituyen una interfaz con software o sistemas de terceros.
 La actualización de dichos módulos puede ser sujeta a una oferta por separado, fuera de este Acuerdo.
@@ -330,11 +330,11 @@ cliente es responsable.
 
 El Cliente se compromete a:
 
-- Pagar a Flectra SA cualquier cargo aplicable por los Servicios del
+- Pagar a FlectraHQ, Inc. cualquier cargo aplicable por los Servicios del
   presente Acuerdo, según las condiciones de pago especificadas en la
   factura correspondiente;
 
-- Notificar inmediatamente a Flectra SA cuando su número real de usarios
+- Notificar inmediatamente a FlectraHQ, Inc. cuando su número real de usarios
   o aplicaciones instaladas exceda el número especificado al final
   del Acuerdo y, en este caso, el pago de la tarifa adicional
   aplicable como se describe en la sección :ref:`charges_standard_es`;
@@ -354,16 +354,16 @@ acuerda además:
 
 - Hacer uso razonable de los servicios de alojamiento, cone xclusiónde cualquier actividad ilegal
   o actividades abusivas, y observar estrictamente las reglas descritas en la Política de uso
-  aceptable publicada en `acceptable use <https://www.flectra.com/acceptable-use>`__.
+  aceptable publicada en `acceptable use <https://www.flectrahq.com/acceptable-use>`__.
 
 Cuando el Cliente elige la opción de Auto-alojamiento, el Cliente acepta
 además:
 
 Tomar todas las medidas razonables para proteger los archivos y las
 bases de datos del Cliente y para garantizar que los datos del Cliente sean seguros y estén
-protegidos, reconociendo que Flectra SA no se hace responsable de ninguna pérdida de datos
+protegidos, reconociendo que FlectraHQ, Inc. no se hace responsable de ninguna pérdida de datos
 
-Otorgar a Flectra SA el acceso necesario para verificar la validez de la Edición Professional de Flectra
+Otorgar a FlectraHQ, Inc. el acceso necesario para verificar la validez de la Edición Professional de Flectra
 uso a solicitud (por ejemplo, si la validación automática no es válida para el Cliente);
 
 6.2 No solicitar o contratar
@@ -428,54 +428,54 @@ Procesamiento de datos personales
 
 Las partes reconocen que la base de datos del Cliente puede contener
 datos personales, para los cuales el cliente es el controlador. Estos
-datos serán procesados por Flectra SA cuando el Cliente así lo indique,
+datos serán procesados por FlectraHQ, Inc. cuando el Cliente así lo indique,
 mediante el uso de cualquiera de los Servicios que requieren una base de
 datos (por ejemplo, los Servicios de hospedaje en la nube o el Servicio
 de actualización de la base de datos), o si el Cliente transfiere su
-base de datos o una parte de su base de datos a Flectra SA por cualquier
+base de datos o una parte de su base de datos a FlectraHQ, Inc. por cualquier
 motivo relacionado con este Acuerdo.
 
 Este procesamiento se realizará de conformidad con la legislación de
-protección de datos. En particular, Flectra SA se compromete a:
+protección de datos. En particular, FlectraHQ, Inc. se compromete a:
 
 - (a) Solo procesar los datos personales cuando y como lo indique el Cliente, y para elp ropósito
   de realizar uno de los Servicios en virtud de este Acuerdo, a menos que sea requerido por la
-  ley, en cuyo caso, Flectra SA proporcionará un aviso previo al Cliente, a menos que la ley lo prohíba;
-- (b) garantizar que todas las personas dentro de Flectra SA” autorizadas para procesar los Datos
+  ley, en cuyo caso, FlectraHQ, Inc. proporcionará un aviso previo al Cliente, a menos que la ley lo prohíba;
+- (b) garantizar que todas las personas dentro de FlectraHQ, Inc.” autorizadas para procesar los Datos
   personales estén comprometidos con la confidencialidad;
 - (c) implementar y mantener medidas técnicas y organizativas adecuadas para proteger los datos
   personales contra el procesamiento no autorizado o ilegal y contra la pérdida accidental,
   destrucción, daño, robo, alteración o divulgación;
 - (d) enviará sin demora al Cliente cualquier solicitud de protección de datos que se haya enviado
-  a Flectra SA con respecto a la base de datos del Cliente;
+  a FlectraHQ, Inc. con respecto a la base de datos del Cliente;
 - (e) notificar al Cliente inmediatamente al momento de conocer y confirmar cualquier accidente,
   el procesamiento no autorizado o ilegal de, la divulgación o el acceso a los datos personales;
 - (f) notificar al Cliente si las instrucciones de procesamiento infringen la Protección de datos
-  aplicables a la legislación, en opinión de Flectra SA;
+  aplicables a la legislación, en opinión de FlectraHQ, Inc.;
 - (g) poner a disposición del Cliente toda la información necesaria para demostrar el cumplimiento
   con la legislación de protección de datos, permitir y contribuir razonablemente
   a las auditorías, incluidas las inspecciones, realizadas o exigidas por el Cliente;
 - (h) eliminar permanentemente todas las copias de la base de datos del Cliente en posesión de
-  Flectra SA, o devolver dichos datos, a elección del Cliente, a la terminación de este Acuerdo,
+  FlectraHQ, Inc., o devolver dichos datos, a elección del Cliente, a la terminación de este Acuerdo,
   sujeto a los retrasos especificados en la Política de privacidad
-  de Flectra SA (`Privacy <https://www.flectra.com/privacy>`__).
+  de FlectraHQ, Inc. (`Privacy <https://www.flectrahq.com/privacy>`__).
 
-Con respecto a los puntos (d) a (f), el Cliente acepta proporcionar a Flectra SA un contacto preciso
+Con respecto a los puntos (d) a (f), el Cliente acepta proporcionar a FlectraHQ, Inc. un contacto preciso
 para información en todo momento, según sea necesario para notificar al responsable de Protección
 de Datos del Cliente.
 
 Sub procesadores
 ++++++++++++++++
 
-El Cliente reconoce y acepta que para proporcionar los Servicios, Flectra SA puede utilizar
+El Cliente reconoce y acepta que para proporcionar los Servicios, FlectraHQ, Inc. puede utilizar
 proveedores de servicios de terceros (sub procesadores) para procesar datos personales.
-Flectra SA se compromete a utilizar únicamente sub procesadores de conformidad con la legislación de
-protección de datos. Este uso será cubierto por un contrato entre Flectra SA y el Sub procesador
+FlectraHQ, Inc. se compromete a utilizar únicamente sub procesadores de conformidad con la legislación de
+protección de datos. Este uso será cubierto por un contrato entre FlectraHQ, Inc. y el Sub procesador
 que proporciona garantías al efecto.
 
-La Política de privacidad de Flectra SA, publicada en `Flectra Privacy <https://www.flectra.com/privacy>`_
+La Política de privacidad de FlectraHQ, Inc., publicada en `Flectra Privacy <https://www.flectrahq.com/privacy>`_
 proporciona información actualizada sobre los nombres y propósitos de los Sub procesadores
-actualmente en uso por Flectra SA para la ejecución de los Servicios.
+actualmente en uso por FlectraHQ, Inc. para la ejecución de los Servicios.
 
 .. _termination_es:
 
@@ -488,7 +488,7 @@ incumplimiento no ha sido subsanado dentro de los 30 días de calendario posteri
 a la notificación por escrito de dicho incumplimiento, este Acuerdo puede ser rescindido
 inmediatamente por la Parte que no incumple.
 
-Además, Flectra SA puede rescindir el Contrato inmediatamente en caso de que el Cliente incumpla
+Además, FlectraHQ, Inc. puede rescindir el Contrato inmediatamente en caso de que el Cliente incumpla
 con pagos de las tarifas aplicables a los
 Servicios dentro de la fecha de vencimiento especificada en el factura.
 
@@ -506,7 +506,7 @@ cualquier terminación o vencimiento de este Acuerdo.
 7.1 Garantías
 -------------
 
-Durante la vigencia de este Acuerdo, Flectra SA se compromete a utilizar
+Durante la vigencia de este Acuerdo, FlectraHQ, Inc. se compromete a utilizar
 esfuerzos comercialmente razonables con la finalidad de ejecutar los
 Servicios de acuerdo con los estándares de la industria generalmente
 aceptados siempre y cuando:
@@ -516,13 +516,13 @@ funcionamiento y, en el caso de Auto-Hosting, el software se instala en
 un entorno operativo adecuado;
 
 el Cliente proporciona información adecuada para la resolución de
-problemas y, para el Auto alojamiento, cualquier acceso que Flectra SA
+problemas y, para el Auto alojamiento, cualquier acceso que FlectraHQ, Inc.
 puede necesitar para identificar, reproducir y resolver problemas;
 
-Todos los montos adeudados a Flectra SA han sido pagados.
+Todos los montos adeudados a FlectraHQ, Inc. han sido pagados.
 
-El único y exclusivo remedio del Cliente y la única obligación de Flectra SA por cualquier
-incumplimiento de esta garantía es para Flectra SA reanudar la ejecución de los Servicios sin cargo
+El único y exclusivo remedio del Cliente y la única obligación de FlectraHQ, Inc. por cualquier
+incumplimiento de esta garantía es para FlectraHQ, Inc. reanudar la ejecución de los Servicios sin cargo
 adicional.
 
 .. _disclaimers_es:
@@ -538,7 +538,7 @@ garantía implícita de comercialización, idoneidad para un propósito
 particular o no infracción, en la medida máxima permitida por la ley
 aplicable.
 
-Flectra SA no garantiza que el Software cumpla con leyes o regulaciones
+FlectraHQ, Inc. no garantiza que el Software cumpla con leyes o regulaciones
 locales o internacionales.
 
 .. _liability_es:

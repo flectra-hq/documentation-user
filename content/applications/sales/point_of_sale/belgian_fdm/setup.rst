@@ -68,7 +68,7 @@ PIN that you received with your VAT signing card.
 Certification & On-premise
 ==========================
 
-The certification granted by the government is restricted to the use on flectra.com
+The certification granted by the government is restricted to the use on flectrahq.com
 SaaS instance. The usage of the module from the source or a modified version
 will **not** be certified. For on-premise users, we also support the Fiscal Data
 Module in such installations. The main restriction is that this requires an

@@ -79,9 +79,9 @@ To do so, log into your Authorize.Net account, go to :menuselection:`Account -->
 Settings --> Transaction Response Settings --> Response/Receipt URLs`, and set the default links:
 
 - | Default Receipt URL:
-  | *https://[yourcompany.flectra.com]*/**payment/authorize/return**
+  | *https://[yourcompany.flectrahq.com]*/**payment/authorize/return**
 - | Default Relay Response URL:
-  | *https://[yourcompany.flectra.com]*/**shop/confirmation**
+  | *https://[yourcompany.flectrahq.com]*/**shop/confirmation**
 
 .. note::
    | Failing to complete this step results in the following error:

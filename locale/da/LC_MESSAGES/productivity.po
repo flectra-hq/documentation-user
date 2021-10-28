@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -66,7 +66,7 @@ msgstr ""
 msgid ""
 "This document is **mainly dedicated to Flectra on-premise users** who don't "
 "benefit from an out-of-the-box solution to send and receive emails in Flectra, "
-"unlike `Flectra Online <https://www.flectra.com/trial>`__ & `Flectra.sh "
+"unlike `Flectra Online <https://www.flectrahq.com/trial>`__ & `Flectra.sh "
 "<https://www.flectra.sh>`__."
 msgstr ""
 
@@ -170,14 +170,14 @@ msgstr ""
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:82
 msgid ""
 "If no TXT record is set for SPF, create one with following definition: "
-"v=spf1 include:_spf.flectra.com ~all"
+"v=spf1 include:_spf.flectrahq.com ~all"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:84
 msgid ""
-"In case a SPF TXT record is already set, add \"include:_spf.flectra.com\". e.g."
+"In case a SPF TXT record is already set, add \"include:_spf.flectrahq.com\". e.g."
 " for a domain name that sends emails via Flectra Online and via G Suite it "
-"could be: v=spf1 include:_spf.flectra.com include:_spf.google.com ~all"
+"could be: v=spf1 include:_spf.flectrahq.com include:_spf.google.com ~all"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:88
@@ -208,9 +208,9 @@ msgid ""
 "You should do the same thing if DKIM (Domain Keys Identified Mail) is "
 "enabled on your email server. In the case of Flectra Online & Flectra.sh, you "
 "should add a DNS \"flectra._domainkey\" CNAME record to "
-"\"flectra._domainkey.flectra.com\". For example, for \"foo.com\" they should have "
+"\"flectra._domainkey.flectrahq.com\". For example, for \"foo.com\" they should have "
 "a record \"flectra._domainkey.foo.com\" that is a CNAME with the value "
-"\"flectra._domainkey.flectra.com\"."
+"\"flectra._domainkey.flectrahq.com\"."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:108
@@ -242,7 +242,7 @@ msgstr ""
 msgid ""
 "**Bounced messages** are routed to **bounce@** in order to track them in "
 "Flectra. This is especially used in `Flectra Email Marketing "
-"<https://www.flectra.com/page/email-marketing>`__ to opt-out invalid "
+"<https://www.flectrahq.com/page/email-marketing>`__ to opt-out invalid "
 "recipients."
 msgstr ""
 
@@ -255,25 +255,25 @@ msgstr ""
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:129
 msgid ""
 "Sales Channel (to create Leads or Opportunities in `Flectra CRM "
-"<https://www.flectra.com/page/crm>`__),"
+"<https://www.flectrahq.com/page/crm>`__),"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:131
 msgid ""
 "Support Channel (to create Tickets in `Flectra Helpdesk "
-"<https://www.flectra.com/page/helpdesk>`__),"
+"<https://www.flectrahq.com/page/helpdesk>`__),"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:133
 msgid ""
-"Projects (to create new Tasks in `Flectra Project <https://www.flectra.com/page"
+"Projects (to create new Tasks in `Flectra Project <https://www.flectrahq.com/page"
 "/project-management>`__),"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:135
 msgid ""
 "Job Positions (to create Applicants in `Flectra Recruitment "
-"<https://www.flectra.com/page/recruitment>`__),"
+"<https://www.flectrahq.com/page/recruitment>`__),"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:137
@@ -314,7 +314,7 @@ msgid ""
 "Flectra Online is fetching incoming messages of external servers once per hour "
 "only. You should set redirections for all the email addresses to Flectra's "
 "domain name in your email server (e.g. *catchall@mydomain.ext* to "
-"*catchall@mycompany.flectra.com*)."
+"*catchall@mycompany.flectrahq.com*)."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:169
@@ -383,9 +383,9 @@ msgid ""
 " priority for transactional emails, and the server here selected for mass "
 "mails. Note that in this case, you have to set your domain's Sender Policy "
 "Framework (SPF) records to include both transactional and mass mail servers."
-" If your server resides with xxxx.flectra.com, the available options are "
+" If your server resides with xxxx.flectrahq.com, the available options are "
 "Sendinblue and Mailchimp, as your e-mails would be originated from the "
-"xxxx.flectra.com domain."
+"xxxx.flectrahq.com domain."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_template.rst:3
@@ -518,7 +518,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:38
 msgid ""
-"The first time you log in to your account, OdooBot sends you a message "
+"The first time you log in to your account, flectraBot sends you a message "
 "asking for permission to receive desktop notifications to chats. If "
 "accepted, you receive push notifications to the messages sent to you despite"
 " of where you are in Flectra."
@@ -903,8 +903,8 @@ msgstr ""
 msgid ""
 "If you are on Runbot, do not forget to add the -all or -base in the token "
 "(e.g. this token **http://375228-saas-11-5-iot-"
-"f3f920.runbot16.flectra.com\\|4957098401** should become "
-"**http://375228-saas-11-5-iot-f3f920-all.runbot16.flectra.com\\|4957098401**)."
+"f3f920.runbot16.flectrahq.com\\|4957098401** should become "
+"**http://375228-saas-11-5-iot-f3f920-all.runbot16.flectrahq.com\\|4957098401**)."
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/connect.rst:66
@@ -959,7 +959,7 @@ msgid ""
 "Go to Balena’s website and download `Etcher <https://www.balena.io/>`__. "
 "It’s a free and open-source utility used for burning image files. Install "
 "and launch it. Download the latest image from `nightly "
-"<http://nightly.flectra.com/master/iotbox/>`__."
+"<http://nightly.flectrahq.com/master/iotbox/>`__."
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:32
@@ -1008,7 +1008,7 @@ msgid ""
 "Any of the supported hardware (receipt printer, barcode scanner, cash "
 "drawer, payment terminal, scale, customer display, etc.). The list of "
 "supported hardware can be found on the `POS Hardware page "
-"<https://www.flectra.com/page/point-of-sale-hardware>`__"
+"<https://www.flectrahq.com/page/point-of-sale-hardware>`__"
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/pos.rst:30
@@ -1299,7 +1299,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/iot/devices/camera.rst:17
 msgid ""
-"If your camera is a `*supported one* <https://www.flectra.com/page/iot-"
+"If your camera is a `*supported one* <https://www.flectrahq.com/page/iot-"
 "hardware>`__, there is no need to set up anything as it will be detected as "
 "soon as it is connected."
 msgstr ""
@@ -1358,7 +1358,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:18
 msgid ""
-"If your footswitch is a `supported one <https://www.flectra.com/page/iot-"
+"If your footswitch is a `supported one <https://www.flectrahq.com/page/iot-"
 "hardware>`__, there is no need to set up anything since it will be "
 "automatically detected when connected."
 msgstr ""
@@ -1396,7 +1396,7 @@ msgstr ""
 msgid ""
 "With Flectra’s *IoT Box*, it is possible to connect measurement tools to your "
 "database. Find the list of supported devices here: `Supported devices "
-"<https://www.flectra.com/page/iot-hardware>`__,."
+"<https://www.flectrahq.com/page/iot-hardware>`__,."
 msgstr ""
 
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:10
@@ -1462,7 +1462,7 @@ msgstr ""
 #: ../../content/applications/productivity/iot/devices/printer.rst:13
 msgid ""
 "The IoT Box supports printers connected through USB, network or Bluetooth. "
-"`Supported printers <https://www.flectra.com/page/iot-hardware>`__ will be "
+"`Supported printers <https://www.flectrahq.com/page/iot-hardware>`__ will be "
 "detected automatically and will appear in the *Devices* list of your IoT "
 "app."
 msgstr ""
@@ -1620,7 +1620,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/iot/devices/scale.rst:17
 msgid ""
-"If your scale is `compatibale with Flectra IoT Box <https://www.flectra.com/page"
+"If your scale is `compatibale with Flectra IoT Box <https://www.flectrahq.com/page"
 "/iot-hardware>`_, there is no need to set up anything because it will be "
 "automatically detected as soon as it is connected."
 msgstr ""
@@ -2032,7 +2032,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:95
-msgid "`Studio Basics <https://www.flectra.com/fr_FR/slides/studio-31>`_"
+msgid "`Studio Basics <https://www.flectrahq.com/fr_FR/slides/studio-31>`_"
 msgstr ""
 
 #: ../../content/applications/productivity/studio/how_to.rst:3
@@ -2170,7 +2170,7 @@ msgstr ""
 #: ../../content/applications/productivity/studio/how_to/reports.rst:40
 msgid ""
 "**Visible for** is used to set which :doc:`groups "
-"</applications/general/odoo_basics/users>` can have access to specific "
+"</applications/general/flectra_basics/users>` can have access to specific "
 "elements in the report. **Limit visibility to groups**, under *Report*, sets"
 " the visibility of the report to specifics groups, meaning that users "
 "belonging to other groups do not see the same final document."

@@ -80,10 +80,10 @@ of your outgoing emails, don't forget to authorize Flectra as a sending host in 
 domain name settings. Here is the configuration for Flectra Online:
 
 * If no TXT record is set for SPF, create one with following definition:
-  v=spf1 include:_spf.flectra.com ~all
-* In case a SPF TXT record is already set, add "include:_spf.flectra.com".
+  v=spf1 include:_spf.flectrahq.com ~all
+* In case a SPF TXT record is already set, add "include:_spf.flectrahq.com".
   e.g. for a domain name that sends emails via Flectra Online and via G Suite it could be:
-  v=spf1 include:_spf.flectra.com include:_spf.google.com ~all
+  v=spf1 include:_spf.flectrahq.com include:_spf.google.com ~all
 
 Find `here <https://www.mail-tester.com/spf/>`__ the exact procedure to 
 create or modify TXT records in your own domain registrar.
@@ -100,9 +100,9 @@ Allow DKIM
 You should do the same thing if DKIM (Domain Keys Identified Mail) 
 is enabled on your email server. In the case of Flectra Online & Flectra.sh,
 you should add a DNS "flectra._domainkey" CNAME record to 
-"flectra._domainkey.flectra.com". 
+"flectra._domainkey.flectrahq.com". 
 For example, for "foo.com" they should have a record "flectra._domainkey.foo.com" 
-that is a CNAME with the value "flectra._domainkey.flectra.com".
+that is a CNAME with the value "flectra._domainkey.flectrahq.com".
 
 Restriction
 -----------

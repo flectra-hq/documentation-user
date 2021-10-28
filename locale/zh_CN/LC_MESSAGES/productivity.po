@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -14,7 +14,7 @@
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2021
 # 稀饭~~ <wangwhai@qq.com>, 2021
 # F4NNIU <sparkamax@gmail.com>, 2021
-# Mandy Choy <mnc@flectra.com>, 2021
+# Mandy Choy <mnc@flectrahq.com>, 2021
 # 新 陈 <powersstar@163.com>, 2021
 # 
 #, fuzzy
@@ -50,19 +50,19 @@ msgstr "‎如何使用我的邮件服务器在 Flectra 中发送和接收电子
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:6
 msgid "If you are a user of Flectra Online or Flectra.sh..."
-msgstr "如果你是Odoo Online或Odoo.sh的用户..."
+msgstr "如果你是flectra Online或flectra.sh的用户..."
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:8
 msgid ""
 "You have nothing to do! **Flectra sets up its own mail servers for your "
 "database.** Outgoing and incoming emails work out-of-the-box!"
-msgstr "你什么也不需要做！**Odoo为你的服务器设置了自己的邮件服务器。** 接收和发送电子邮件功能开箱即用！"
+msgstr "你什么也不需要做！**flectra为你的服务器设置了自己的邮件服务器。** 接收和发送电子邮件功能开箱即用！"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:11
 msgid ""
 "Unless you plan to send large batches of mass mailing that could require the"
 " use of an external mail server, simply enjoy your new Flectra database."
-msgstr "除非你计划发送大量邮件，可能需要使用外部邮件服务器，否则只需享受你的新Odoo数据库即可。"
+msgstr "除非你计划发送大量邮件，可能需要使用外部邮件服务器，否则只需享受你的新flectra数据库即可。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:16
 msgid "Scope of this documentation"
@@ -72,12 +72,12 @@ msgstr "本文档的范围"
 msgid ""
 "This document is **mainly dedicated to Flectra on-premise users** who don't "
 "benefit from an out-of-the-box solution to send and receive emails in Flectra, "
-"unlike `Flectra Online <https://www.flectra.com/trial>`__ & `Flectra.sh "
+"unlike `Flectra Online <https://www.flectrahq.com/trial>`__ & `Flectra.sh "
 "<https://www.flectra.sh>`__."
 msgstr ""
-"本文件 **主要针对Odoo本地部署的用户** ，他们无法像`Flectra Online "
-"<https://www.flectra.com/trial>`__和`Flectra.sh "
-"<https://www.flectra.sh>`__那样，直接通过开箱即用的解决方案在Odoo上收发邮件。"
+"本文件 **主要针对flectra本地部署的用户** ，他们无法像`Flectra Online "
+"<https://www.flectrahq.com/trial>`__和`Flectra.sh "
+"<https://www.flectra.sh>`__那样，直接通过开箱即用的解决方案在flectra上收发邮件。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:25
 msgid ""
@@ -193,18 +193,18 @@ msgstr ""
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:82
 msgid ""
 "If no TXT record is set for SPF, create one with following definition: "
-"v=spf1 include:_spf.flectra.com ~all"
+"v=spf1 include:_spf.flectrahq.com ~all"
 msgstr ""
-"‎如果没有为 SPF 设置 TXT 记录，请创建一个具有以下定义的记录：v_spf1 include：_spf.flectra.com _~all "
+"‎如果没有为 SPF 设置 TXT 记录，请创建一个具有以下定义的记录：v_spf1 include：_spf.flectrahq.com _~all "
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:84
 msgid ""
-"In case a SPF TXT record is already set, add \"include:_spf.flectra.com\". e.g."
+"In case a SPF TXT record is already set, add \"include:_spf.flectrahq.com\". e.g."
 " for a domain name that sends emails via Flectra Online and via G Suite it "
-"could be: v=spf1 include:_spf.flectra.com include:_spf.google.com ~all"
+"could be: v=spf1 include:_spf.flectrahq.com include:_spf.google.com ~all"
 msgstr ""
-"如果已经为SPF设置TXT记录，在通过Odoo Online发送邮件的域名中添加“include:_spf.flectra.com”，通过G "
-"Suite发送的则可为：v=spf1 include:_spf.flectra.com include:_spf.google.com ~all"
+"如果已经为SPF设置TXT记录，在通过flectra Online发送邮件的域名中添加“include:_spf.flectrahq.com”，通过G "
+"Suite发送的则可为：v=spf1 include:_spf.flectrahq.com include:_spf.google.com ~all"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:88
 msgid ""
@@ -223,7 +223,7 @@ msgid ""
 "Adding more than one SPF record for a domain can cause problems with mail "
 "delivery and spam classification. Instead, we recommend using only one SPF "
 "record by modifying it to authorize Flectra."
-msgstr "为一个域添加多个SPF记录可能导致邮件被分类为垃圾。我们建议仅修改一个SPF记录以授权给Odoo。"
+msgstr "为一个域添加多个SPF记录可能导致邮件被分类为垃圾。我们建议仅修改一个SPF记录以授权给flectra。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:99
 msgid "Allow DKIM"
@@ -234,12 +234,12 @@ msgid ""
 "You should do the same thing if DKIM (Domain Keys Identified Mail) is "
 "enabled on your email server. In the case of Flectra Online & Flectra.sh, you "
 "should add a DNS \"flectra._domainkey\" CNAME record to "
-"\"flectra._domainkey.flectra.com\". For example, for \"foo.com\" they should have "
+"\"flectra._domainkey.flectrahq.com\". For example, for \"foo.com\" they should have "
 "a record \"flectra._domainkey.foo.com\" that is a CNAME with the value "
-"\"flectra._domainkey.flectra.com\"."
+"\"flectra._domainkey.flectrahq.com\"."
 msgstr ""
-"如果你的邮件服务器启用了DKIM（域密钥标识邮件），你也需要进行同样的操作。对于Odoo Online 和 "
-"Flectra.sh，你需要向“flectra._domainkey.flectra.com”添加DNS“flectra._domainkey”CNAME记录。例如，对于“foo.com”，它们应有一条“flectra._domainkey.foo.com”记录，这是值为“flectra._domainkey.flectra.com”的CNAME。"
+"如果你的邮件服务器启用了DKIM（域密钥标识邮件），你也需要进行同样的操作。对于flectra Online 和 "
+"Flectra.sh，你需要向“flectra._domainkey.flectrahq.com”添加DNS“flectra._domainkey”CNAME记录。例如，对于“foo.com”，它们应有一条“flectra._domainkey.foo.com”记录，这是值为“flectra._domainkey.flectrahq.com”的CNAME。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:108
 msgid "Restriction"
@@ -257,7 +257,7 @@ msgstr "如何管理入站邮件"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:116
 msgid "Flectra relies on generic email aliases to fetch incoming messages."
-msgstr "Odoo依赖通用的电子邮件别名来收取入站邮件。"
+msgstr "flectra依赖通用的电子邮件别名来收取入站邮件。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:118
 msgid ""
@@ -265,47 +265,47 @@ msgid ""
 "discussion thread (and to the inbox of all its followers) by the catchall "
 "alias (**catchall@**)."
 msgstr ""
-"从Odoo所发邮件对应的 **回复邮件** 通过catchall别名（**catchall@**）接入原来的讨论话题（以及所有关注者的收件箱）。"
+"从flectra所发邮件对应的 **回复邮件** 通过catchall别名（**catchall@**）接入原来的讨论话题（以及所有关注者的收件箱）。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:122
 msgid ""
 "**Bounced messages** are routed to **bounce@** in order to track them in "
 "Flectra. This is especially used in `Flectra Email Marketing "
-"<https://www.flectra.com/page/email-marketing>`__ to opt-out invalid "
+"<https://www.flectrahq.com/page/email-marketing>`__ to opt-out invalid "
 "recipients."
 msgstr ""
-"**退回的邮件** 接入 **bounce@** ，以便在Odoo上追踪。这项功能特别用于`Odoo邮件营销 "
-"<https://www.flectra.com/page/email-marketing>`__，可取消选择无效的收件人。"
+"**退回的邮件** 接入 **bounce@** ，以便在flectra上追踪。这项功能特别用于`flectra邮件营销 "
+"<https://www.flectrahq.com/page/email-marketing>`__，可取消选择无效的收件人。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:126
 msgid ""
 "**Original messages**: Several business objects have their own alias to "
 "create new records in Flectra from incoming emails:"
-msgstr "**原始邮件** ：几个业务对象有自己的别名，从入站邮件中创建Odoo新记录："
+msgstr "**原始邮件** ：几个业务对象有自己的别名，从入站邮件中创建flectra新记录："
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:129
 msgid ""
 "Sales Channel (to create Leads or Opportunities in `Flectra CRM "
-"<https://www.flectra.com/page/crm>`__),"
-msgstr "销售渠道（在`Flectra CRM <https://www.flectra.com/page/crm>`__中创建线索或商机），"
+"<https://www.flectrahq.com/page/crm>`__),"
+msgstr "销售渠道（在`Flectra CRM <https://www.flectrahq.com/page/crm>`__中创建线索或商机），"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:131
 msgid ""
 "Support Channel (to create Tickets in `Flectra Helpdesk "
-"<https://www.flectra.com/page/helpdesk>`__),"
-msgstr "支持渠道（在`Odoo服务台 <https://www.flectra.com/page/helpdesk>`__创建工单），"
+"<https://www.flectrahq.com/page/helpdesk>`__),"
+msgstr "支持渠道（在`flectra服务台 <https://www.flectrahq.com/page/helpdesk>`__创建工单），"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:133
 msgid ""
-"Projects (to create new Tasks in `Flectra Project <https://www.flectra.com/page"
+"Projects (to create new Tasks in `Flectra Project <https://www.flectrahq.com/page"
 "/project-management>`__),"
-msgstr "项目（在`Odoo项目 <https://www.flectra.com/page/project-management>`__中创建新任务），"
+msgstr "项目（在`flectra项目 <https://www.flectrahq.com/page/project-management>`__中创建新任务），"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:135
 msgid ""
 "Job Positions (to create Applicants in `Flectra Recruitment "
-"<https://www.flectra.com/page/recruitment>`__),"
-msgstr "工作岗位（在`Odoo招聘 <https://www.flectra.com/page/recruitment>`__中创建申请人），"
+"<https://www.flectrahq.com/page/recruitment>`__),"
+msgstr "工作岗位（在`flectra招聘 <https://www.flectrahq.com/page/recruitment>`__中创建申请人），"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:137
 msgid "etc."
@@ -316,7 +316,7 @@ msgid ""
 "Depending on your mail server, there might be several methods to fetch "
 "emails. The easiest and most recommended method is to manage one email "
 "address per Flectra alias in your mail server."
-msgstr "根据你的邮件服务器，可能有几种方法来收取邮件。最简单也最推荐的方法是在邮件服务器中按Odoo别名管理邮件地址。"
+msgstr "根据你的邮件服务器，可能有几种方法来收取邮件。最简单也最推荐的方法是在邮件服务器中按flectra别名管理邮件地址。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:143
 msgid ""
@@ -336,7 +336,7 @@ msgid ""
 "Perform on Incoming Mails* blank. Once all the information has been filled "
 "out, click on *TEST & CONFIRM*."
 msgstr ""
-"如果你使用本地部署的Odoo，请在Odoo中为每个别名创建一个 *入站邮件服务器* "
+"如果你使用本地部署的flectra，请在flectra中为每个别名创建一个 *入站邮件服务器* "
 "。你也可以在一般设置中进行操作。根据你的电子邮件提供商的设置填写表单。将 *对入站邮件执行的操作* 留空。在填写完毕所有信息后，点击 *测试和确认* 。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:159
@@ -347,16 +347,16 @@ msgid ""
 "Flectra Online is fetching incoming messages of external servers once per hour "
 "only. You should set redirections for all the email addresses to Flectra's "
 "domain name in your email server (e.g. *catchall@mydomain.ext* to "
-"*catchall@mycompany.flectra.com*)."
+"*catchall@mycompany.flectrahq.com*)."
 msgstr ""
-"如果你使用Odoo "
-"Online或Odoo.sh，我们建议将入站邮件重定向到Odoo的域名，而不是仅使用你自己的邮件服务器。这样，你将不会延迟接收入站邮件。实际上，Flectra"
-" Online每小时仅收取一次外部服务器的入站邮件。你应在电子邮件服务器中将所有电子邮件地址的重定向设置为Odoo的域名（例如， "
-"*catchall@mydomain.ext* 设为 *catchall@mycompany.flectra.com* ）。"
+"如果你使用flectra "
+"Online或flectra.sh，我们建议将入站邮件重定向到flectra的域名，而不是仅使用你自己的邮件服务器。这样，你将不会延迟接收入站邮件。实际上，Flectra"
+" Online每小时仅收取一次外部服务器的入站邮件。你应在电子邮件服务器中将所有电子邮件地址的重定向设置为flectra的域名（例如， "
+"*catchall@mydomain.ext* 设为 *catchall@mycompany.flectrahq.com* ）。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:169
 msgid "All the aliases are customizable in Flectra."
-msgstr "Odoo中所有别名都是可自定义的。"
+msgstr "flectra中所有别名都是可自定义的。"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:167
 msgid ""
@@ -422,9 +422,9 @@ msgid ""
 " priority for transactional emails, and the server here selected for mass "
 "mails. Note that in this case, you have to set your domain's Sender Policy "
 "Framework (SPF) records to include both transactional and mass mail servers."
-" If your server resides with xxxx.flectra.com, the available options are "
+" If your server resides with xxxx.flectrahq.com, the available options are "
 "Sendinblue and Mailchimp, as your e-mails would be originated from the "
-"xxxx.flectra.com domain."
+"xxxx.flectrahq.com domain."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_template.rst:3
@@ -547,7 +547,7 @@ msgid ""
 "and notifications where you were mentioned or that you follow, to be sent "
 "through email. By choosing *Handle in Flectra*, they are shown in the *Inbox*."
 msgstr ""
-"默认情况下，该字段设置为 *通过电子邮件处理* ，使您被提及或关注的消息，注释和通知通过电子邮件发送。 通过选择 *在Odoo中处理* ，它们将显示在 "
+"默认情况下，该字段设置为 *通过电子邮件处理* ，使您被提及或关注的消息，注释和通知通过电子邮件发送。 通过选择 *在flectra中处理* ，它们将显示在 "
 "*收件箱* 中。"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:22
@@ -566,13 +566,13 @@ msgstr "开始聊天"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:38
 msgid ""
-"The first time you log in to your account, OdooBot sends you a message "
+"The first time you log in to your account, flectraBot sends you a message "
 "asking for permission to receive desktop notifications to chats. If "
 "accepted, you receive push notifications to the messages sent to you despite"
 " of where you are in Flectra."
 msgstr ""
-"首次登录帐户时，OdooBot 会向您发送一条消息，询问您是否有权接收聊天的桌面通知。 "
-"如果接受，则无论您在Odoo中的位置如何，您都会收到消息的推送通知。"
+"首次登录帐户时，flectraBot 会向您发送一条消息，询问您是否有权接收聊天的桌面通知。 "
+"如果接受，则无论您在flectra中的位置如何，您都会收到消息的推送通知。"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:48
 msgid ""
@@ -674,7 +674,7 @@ msgstr "在哪里可以查看我的日程安排？"
 msgid ""
 "Access and manage your activities wherever you are in Flectra by the "
 "*Activities* menu."
-msgstr "通过 *活动* 菜单访问和管理您在Odoo中的任何活动。"
+msgstr "通过 *活动* 菜单访问和管理您在flectra中的任何活动。"
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:20
 msgid "Plan activities"
@@ -696,7 +696,7 @@ msgid ""
 "meeting, etc.). However, you can set new ones going to "
 ":menuselection:`Settings --> Activity types`."
 msgstr ""
-"默认情况下，Odoo中有许多活动类型（如电话，电子邮件，会议等）。 但是，您也可以在设置新的活动类型 :menuselection:`设置 --> "
+"默认情况下，flectra中有许多活动类型（如电话，电子邮件，会议等）。 但是，您也可以在设置新的活动类型 :menuselection:`设置 --> "
 "活动类型 。"
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:42
@@ -713,7 +713,7 @@ msgstr "推荐后续行动"
 msgid ""
 "Flectra helps you to plan a flow of activities by allowing you to set "
 "*Recommended Next Activities*."
-msgstr "Odoo允许您设置 *推荐后续行动* ，从而帮助您计划活动流程。"
+msgstr "flectra允许您设置 *推荐后续行动* ，从而帮助您计划活动流程。"
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:55
 msgid ""
@@ -964,12 +964,12 @@ msgstr ""
 msgid ""
 "If you are on Runbot, do not forget to add the -all or -base in the token "
 "(e.g. this token **http://375228-saas-11-5-iot-"
-"f3f920.runbot16.flectra.com\\|4957098401** should become "
-"**http://375228-saas-11-5-iot-f3f920-all.runbot16.flectra.com\\|4957098401**)."
+"f3f920.runbot16.flectrahq.com\\|4957098401** should become "
+"**http://375228-saas-11-5-iot-f3f920-all.runbot16.flectrahq.com\\|4957098401**)."
 msgstr ""
 "如果您使用 Runbot, 不要忘记在复制令牌添加 -all 和 -base (例如这个令牌 **http://375228-saas-11-5"
-"-iot-f3f920.runbot16.flectra.com\\|4957098401** 应该为 **http://375228-saas-11-5"
-"-iot-f3f920-all.runbot16.flectra.com\\|4957098401**)。"
+"-iot-f3f920.runbot16.flectrahq.com\\|4957098401** 应该为 **http://375228-saas-11-5"
+"-iot-f3f920-all.runbot16.flectrahq.com\\|4957098401**)。"
 
 #: ../../content/applications/productivity/iot/config/connect.rst:66
 msgid ""
@@ -1023,7 +1023,7 @@ msgid ""
 "Go to Balena’s website and download `Etcher <https://www.balena.io/>`__. "
 "It’s a free and open-source utility used for burning image files. Install "
 "and launch it. Download the latest image from `nightly "
-"<http://nightly.flectra.com/master/iotbox/>`__."
+"<http://nightly.flectrahq.com/master/iotbox/>`__."
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:32
@@ -1072,7 +1072,7 @@ msgid ""
 "Any of the supported hardware (receipt printer, barcode scanner, cash "
 "drawer, payment terminal, scale, customer display, etc.). The list of "
 "supported hardware can be found on the `POS Hardware page "
-"<https://www.flectra.com/page/point-of-sale-hardware>`__"
+"<https://www.flectrahq.com/page/point-of-sale-hardware>`__"
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/pos.rst:30
@@ -1367,11 +1367,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/iot/devices/camera.rst:17
 msgid ""
-"If your camera is a `*supported one* <https://www.flectra.com/page/iot-"
+"If your camera is a `*supported one* <https://www.flectrahq.com/page/iot-"
 "hardware>`__, there is no need to set up anything as it will be detected as "
 "soon as it is connected."
 msgstr ""
-"如果您的相机在 `*支持的设备* <https://www.flectra.com/page/iot-"
+"如果您的相机在 `*支持的设备* <https://www.flectrahq.com/page/iot-"
 "hardware>`__中，则无需进行任何设置，因为连接之后，会自动检测到。"
 
 #: ../../content/applications/productivity/iot/devices/camera.rst:25
@@ -1430,11 +1430,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:18
 msgid ""
-"If your footswitch is a `supported one <https://www.flectra.com/page/iot-"
+"If your footswitch is a `supported one <https://www.flectrahq.com/page/iot-"
 "hardware>`__, there is no need to set up anything since it will be "
 "automatically detected when connected."
 msgstr ""
-"如果您的脚踏开关在 `支持的设备 <https://www.flectra.com/page/iot-"
+"如果您的脚踏开关在 `支持的设备 <https://www.flectrahq.com/page/iot-"
 "hardware>`__,中，无需进行任何设置，因为连接后会自动检测到。"
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:26
@@ -1472,10 +1472,10 @@ msgstr "连接测量工具"
 msgid ""
 "With Flectra’s *IoT Box*, it is possible to connect measurement tools to your "
 "database. Find the list of supported devices here: `Supported devices "
-"<https://www.flectra.com/page/iot-hardware>`__,."
+"<https://www.flectrahq.com/page/iot-hardware>`__,."
 msgstr ""
 "借助 Flectra 的  *物联网盒子* "
-"，可以将测量工具连接到您的数据库。在此处查找支持的设备列表：\"支持的设备<https://www.flectra.com/page/iot-"
+"，可以将测量工具连接到您的数据库。在此处查找支持的设备列表：\"支持的设备<https://www.flectrahq.com/page/iot-"
 "hardware>`__。"
 
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:10
@@ -1544,7 +1544,7 @@ msgstr ""
 #: ../../content/applications/productivity/iot/devices/printer.rst:13
 msgid ""
 "The IoT Box supports printers connected through USB, network or Bluetooth. "
-"`Supported printers <https://www.flectra.com/page/iot-hardware>`__ will be "
+"`Supported printers <https://www.flectrahq.com/page/iot-hardware>`__ will be "
 "detected automatically and will appear in the *Devices* list of your IoT "
 "app."
 msgstr ""
@@ -1703,7 +1703,7 @@ msgstr "在某些情况下，可能需要USB转串口适配器。"
 
 #: ../../content/applications/productivity/iot/devices/scale.rst:17
 msgid ""
-"If your scale is `compatibale with Flectra IoT Box <https://www.flectra.com/page"
+"If your scale is `compatibale with Flectra IoT Box <https://www.flectrahq.com/page"
 "/iot-hardware>`_, there is no need to set up anything because it will be "
 "automatically detected as soon as it is connected."
 msgstr ""
@@ -2140,8 +2140,8 @@ msgstr ""
 "**Menu** 是执行和操作的按钮。在 Flectra Studio 中，要创建菜单（模型）并重新排列其层次结构，请单击*Edit Menu*。"
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:95
-msgid "`Studio Basics <https://www.flectra.com/fr_FR/slides/studio-31>`_"
-msgstr "`Studio Basics <https://www.flectra.com/fr_FR/slides/studio-31>`_"
+msgid "`Studio Basics <https://www.flectrahq.com/fr_FR/slides/studio-31>`_"
+msgstr "`Studio Basics <https://www.flectrahq.com/fr_FR/slides/studio-31>`_"
 
 #: ../../content/applications/productivity/studio/how_to.rst:3
 msgid "How To"
@@ -2293,7 +2293,7 @@ msgstr "示例：如果选择显示产品图像，可以设置可见性规则，
 #: ../../content/applications/productivity/studio/how_to/reports.rst:40
 msgid ""
 "**Visible for** is used to set which :doc:`groups "
-"</applications/general/odoo_basics/users>` can have access to specific "
+"</applications/general/flectra_basics/users>` can have access to specific "
 "elements in the report. **Limit visibility to groups**, under *Report*, sets"
 " the visibility of the report to specifics groups, meaning that users "
 "belonging to other groups do not see the same final document."

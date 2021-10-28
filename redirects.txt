@@ -30,7 +30,7 @@ contributing/documentation/guidelines.rst contributing/documentation/rst_guideli
 
 # Redirections introduced in 12.0 :
 
-administration/odoo_sh/documentation.rst administration/odoo_sh.rst # moved during doc-apocalypse (#945)
+administration/flectra_sh/documentation.rst administration/flectra_sh.rst # moved during doc-apocalypse (#945)
 support/user_doc.rst contributing/documentation/introduction_guide.rst  # removed in forward-port of #544 (b109c3af)
 
 # Redirections introduced in 13.0 :
@@ -100,7 +100,7 @@ accounting/fiscality/taxes/retention.rst applications/finance/accounting/taxatio
 accounting/fiscality/taxes/taxcloud.rst applications/finance/accounting/taxation/taxes/taxcloud.rst                                    # fiscality/* -> taxation/*
 accounting/fiscality/taxes/taxes.rst applications/finance/accounting/taxation/taxes/taxes.rst                                          # fiscality/* -> taxation/*
 accounting/fiscality/taxes/vat_validation.rst applications/finance/accounting/taxation/taxes/vat_validation.rst                        # fiscality/* -> taxation/*
-applications/finance/accounting/overview/main_concepts/in_odoo.rst applications/finance/accounting.rst                                                                      # finance/accounting/overview/main_concepts/in_odoo -> finance/accounting.rst
+applications/finance/accounting/overview/main_concepts/in_flectra.rst applications/finance/accounting.rst                                                                      # finance/accounting/overview/main_concepts/in_flectra -> finance/accounting.rst
 applications/finance/accounting/overview/main_concepts/memento.rst applications/finance/accounting/getting_started/memento.rst                                              # overview/main_concepts/* -> getting_started/*
 applications/finance/accounting/overview/getting_started/chart_of_accounts.rst applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst  # overview/getting_started/* -> getting_started/initial_configuration/*
 applications/finance/accounting/overview/getting_started/setup.rst applications/finance/accounting/getting_started/initial_configuration/setup.rst                          # overview/getting_started/* -> getting_started/initial_configuration/*
@@ -195,7 +195,7 @@ discuss/overview.rst applications/productivity/discuss/overview/get_started.rst 
 crm/optimize/onsip.rst applications/general/voip/onsip.rst                    # crm/optimize/* --> general/voip/*
 crm/optimize/setup.rst applications/general/voip/asterisk.rst                 # crm/optimize/setup --> general/voip/asterisk
 
-general/odoo_basics/add_user.rst applications/general/odoo_basics/users.rst      # add_user --> users
+general/flectra_basics/add_user.rst applications/general/flectra_basics/users.rst      # add_user --> users
 
 applications/finance/sign/overview/signature_validity.rst applications/finance/sign.rst        #sign/overview/signature_validity -> sign/*
 

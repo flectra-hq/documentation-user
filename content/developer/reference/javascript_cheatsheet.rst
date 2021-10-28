@@ -121,7 +121,7 @@ This is usually done with code looking like this:
 
 .. code-block:: javascript
 
-    var HomeMenu = require('web_enterprise.HomeMenu');
+    var HomeMenu = require('web_professional.HomeMenu');
 
     HomeMenu.include({
         render: function () {

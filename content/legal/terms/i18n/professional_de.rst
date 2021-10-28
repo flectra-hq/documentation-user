@@ -37,13 +37,13 @@ Benutzer
 App
     Eine „App“ ist eine spezielle Gruppe von Funktionen, die in der Software installiert
     werden können und bei Unterzeichnung dieser Vereinbarung in der öffentlichen Preisliste der
-    `Flectra SA-Website <https://www.flectra.com>`_ aufgeführt sind.
+    `FlectraHQ, Inc.-Website <https://www.flectrahq.com>`_ aufgeführt sind.
 
 Fehler (Bug)
     Als Fehler (oder auch Bug) gilt jeder Fehler der Software, der zu einem vollständigen Stopp,
     einer Traceback-Fehlermeldung oder einer Sicherheitsverletzung führt und nicht direkt durch
     eine fehlerhafte Installation oder Konfiguration verursacht wird. Eine Nichteinhaltung von
-    Spezifikationen oder Anforderungen wird im Ermessen von Flectra SA als Fehler angesehen
+    Spezifikationen oder Anforderungen wird im Ermessen von FlectraHQ, Inc. als Fehler angesehen
     (in der Regel dann, wenn die Software nicht die Ergebnisse oder die Leistungswerte liefert,
     für die sie entwickelt wurde oder wenn eine landesspezifische Funktion nicht mehr den
     gesetzlichen Buchhaltungsanforderungen entspricht).
@@ -68,15 +68,15 @@ Teils der Software zu gewährleisten, mit dem die gültige Nutzung der Flectra P
 überprüft wird und die zu diesem Zweck Statistiken sammelt, einschließlich unter anderem
 die Ausführung einer Instanz, die Anzahl der Benutzer und die installierten Apps.
 
-Flectra SA ist verpflichtet, einzelne keine einzelnen oder benannten Zahlen ohne Zustimmung des Kunden
+FlectraHQ, Inc. ist verpflichtet, einzelne keine einzelnen oder benannten Zahlen ohne Zustimmung des Kunden
 an Dritte weiterzugeben und alle gesammelten Daten gemäß seiner offiziellen Datenschutzrichtlinie
-zu behandeln, die unter https://www.flectra.com/privacy veröffentlicht ist.
+zu behandeln, die unter https://www.flectrahq.com/privacy veröffentlicht ist.
 
 Nach Ablauf oder Kündigung dieser Vereinbarung wird diese Lizenz sofort widerrufen und der Kunde
 ist verpflichtet, die Nutzung der Flectra Professional Edition-Software einzustellen.
 
 Sollte der Kunde gegen die Bestimmungen dieses Abschnitts verstoßen, so ist er verpflichtet,
-Flectra SA eine zusätzliche Gebühr in Höhe von 300 % des geltenden Listenpreises für
+FlectraHQ, Inc. eine zusätzliche Gebühr in Höhe von 300 % des geltenden Listenpreises für
 die tatsächliche Anzahl der Nutzer zu zahlen.
 
 
@@ -88,9 +88,9 @@ die tatsächliche Anzahl der Nutzer zu zahlen.
 4.1 Fehlerbehebung
 ------------------
 
-Während der Laufzeit dieser Vereinbarung ist Flectra SA verpflichtet, alle zumutbaren Anstrengungen
+Während der Laufzeit dieser Vereinbarung ist FlectraHQ, Inc. verpflichtet, alle zumutbaren Anstrengungen
 zu unternehmen, um die Fehler zu beheben, die vom Kunden über den entsprechenden Kanal
-(üblicherweise die E-Mail-Adresse oder das Websiteformular des Flectra SA Servicedesks)
+(üblicherweise die E-Mail-Adresse oder das Websiteformular des FlectraHQ, Inc. Servicedesks)
 eingereicht wurden, und mit der Bearbeitung dieser Einsendungen des Kunden innerhalb von
 2 Werktagen zu beginnen.
 
@@ -103,17 +103,17 @@ so ist der Kunde verpflichtet, seine Systeme auf diese Version zu aktualisieren,
 um die Korrektur zu erhalten. Der Kunde wird nicht aufgefordert, auf eine neuere abgedeckte
 Version der Software zu aktualisieren, um einen Fehler zu beheben.
 
-Wenn ein Fehler in einer abgedeckten Version behoben wurde, ist Flectra SA verpflichtet,
+Wenn ein Fehler in einer abgedeckten Version behoben wurde, ist FlectraHQ, Inc. verpflichtet,
 den Fehler auch in allen neueren abgedeckten Versionen der Software zu beheben.
 
-Beide Parteien erkennen an, dass Flectra SA gemäß der Softwarelizenz und dem Abschnitt
+Beide Parteien erkennen an, dass FlectraHQ, Inc. gemäß der Softwarelizenz und dem Abschnitt
 :ref:`liability_de` dieser Vereinbarung für Fehler in der Software nicht haftbar gemacht werden kann.
 
 
 4.2 Sicherheitsmitteilungen
 ---------------------------
 
-Für die Dauer dieser Vereinbarung ist Flectra SA verpflichtet, dem Kunden für jedes Sicherheitsproblem,
+Für die Dauer dieser Vereinbarung ist FlectraHQ, Inc. verpflichtet, dem Kunden für jedes Sicherheitsproblem,
 das in den abgedeckten Versionen der Software entdeckt wurde, eine Sicherheitsmitteilung zuzusenden.
 Diese Zusendung muss mindestens 2 Wochen vor Veröffentlichung der Sicherheitsmitteilung erfolgen,
 außer wenn der Fehler bereits von Dritten öffentlich gemacht wurde.
@@ -130,13 +130,13 @@ werden müssen, die im Abschnitt :ref:`confidentiality_de` beschrieben werden.
 4.3 Upgrade-Dienstleistungen
 ----------------------------
 
-.. _upgrade_odoo_de:
+.. _upgrade_flectra_de:
 
 Upgrade-Service für die Software
 ++++++++++++++++++++++++++++++++
 
 Während der Laufzeit dieser Vereinbarung kann der Kunde Upgrade-Anfragen über den entsprechenden
-Kanal übermitteln (üblicherweise die Website der Flectra SA für den Upgrade-Service), um eine
+Kanal übermitteln (üblicherweise die Website der FlectraHQ, Inc. für den Upgrade-Service), um eine
 Datenbank der Software einer abgedeckten Softwareversion auf eine neuere abgedeckte Version
 (die „Zielversion“) zu konvertieren.
 
@@ -202,7 +202,7 @@ Listenpreises für die zusätzlichen Benutzer oder Apps zu entrichten.
 
 Sollte der Kunde bei Unterzeichnung dieser Vereinbarung eine abgedeckte Version verwenden,
 bei der es sich nicht um die neueste Version handelt, so können die Standardgebühren für die erste
-Laufzeit im Ermessen der Flectra SA um 50 % erhöht werden, um die zusätzlichen Wartungskosten
+Laufzeit im Ermessen der FlectraHQ, Inc. um 50 % erhöht werden, um die zusätzlichen Wartungskosten
 abzudecken.
 
 .. _charges_renewal_de:
@@ -225,7 +225,7 @@ Tausend Zeilen. Die Codezeilen umfassen alle Textzeilen im Quellcode dieser Modu
 von Programmiersprache (Python, Javascript usw.) oder Datenformat (XML, TSV usw.). Ausgenommen
 sind Leer- und Kommentarzeilen.
 
-Flectra SA behält sich das Recht vor, eine Upgrade-Anfrage für Drittanbieter-Module unter den
+FlectraHQ, Inc. behält sich das Recht vor, eine Upgrade-Anfrage für Drittanbieter-Module unter den
 vorstehenden Bedingungen abzulehnen, wenn die Qualität des Quellcodes dieser Module zu schlecht
 sein oder diese Module eine Schnittstelle mit Drittanbieter-Software oder -Systemen darstellen
 sollten. Das Upgrade dieser Module erfolgt vorbehaltlich eines separaten Angebots außerhalb der
@@ -239,7 +239,7 @@ vorliegenden Vereinbarung.
 Alle Gebühren und Abgaben verstehen sich ausschließlich aller geltenden Steuern, Gebühren oder
 Abgaben auf Bundes-, Provinz-, Bundesland- oder Kommunalebene oder anderer Behörden (zusammen
 als „Steuern“ bezeichnet). Der Kunde ist für die Zahlung sämtlicher Steuern im Zusammenhang mit
-seinen Käufen im Rahmen dieser Vereinbarung verantwortlich, außer wenn Flectra SA rechtlich
+seinen Käufen im Rahmen dieser Vereinbarung verantwortlich, außer wenn FlectraHQ, Inc. rechtlich
 verpflichtet sein sollte, Steuern zu zahlen oder einzuziehen, für welche der Kunde verantwortlich
 ist.
 
@@ -254,23 +254,23 @@ ist.
 
 Der Kunde stimmt folgenden Klauseln zu:
 
-- er zahlt Flectra SA sämtliche Gebühren für die Dienstleistungen im Rahmen der vorliegenden
+- er zahlt FlectraHQ, Inc. sämtliche Gebühren für die Dienstleistungen im Rahmen der vorliegenden
   Vereinbarung gemäß den Zahlungsbedingungen, die auf der entsprechenden Rechnung angegeben sind;
-- er wird Flectra SA unverzüglich informieren, sobald seine tatsächliche Benutzerzahl oder die Anzahl
+- er wird FlectraHQ, Inc. unverzüglich informieren, sobald seine tatsächliche Benutzerzahl oder die Anzahl
   der installierten Apps die bei Unterzeichnung der Vereinbarung angegebenen Zahlen überschreiten
   sollten. In diesem Falle wird er die geltende zusätzliche Gebühr gemäß dem Abschnitt
   :ref:`charges_standard_de` entrichten;
 - er wird alle notwendigen Maßnahmen zu ergreifen, um die unveränderte Ausführung des Teils der
   Software zu gewährleisten, mit dem die gültige Nutzung der Flectra Professional Edition überprüft,
   wie sie in :ref:`Professional_access_de` beschrieben wird;
-- er wird Flectra SA den notwendigen Zugang einräumen, um die Gültigkeit der Nutzung der Flectra
+- er wird FlectraHQ, Inc. den notwendigen Zugang einräumen, um die Gültigkeit der Nutzung der Flectra
   Professional Edition auf Anfrage zu prüfen (z. B. wenn die automatische Validierung für den Kunden
   nicht funktioniert);
 - er wird 1 speziellen Ansprechpartner des Kunden für die gesamte Laufzeit der Vereinbarung
   ernennen;
 - er wird alle angemessenen Maßnahmen ergreifen, um die Dateien und Datenbanken des Kunden zu
   schützen und sicherzustellen, dass die Kundendaten sicher sind, während er anerkennt,
-  dass Flectra SA für Datenverluste nicht haftbar gemacht werden kann;
+  dass FlectraHQ, Inc. für Datenverluste nicht haftbar gemacht werden kann;
 
 
 .. _no_soliciting_de:
@@ -334,7 +334,7 @@ Verstoß nicht innerhalb von 30 Kalendertagen nach schriftlicher Benachrichtigun
 Verstoß nicht behoben worden sein, so kann dieser Vertrag von der nicht säumigen Partei fristlos
 gekündigt werden.
 
-Außerdem kann Flectra SA den Vertrag sofort kündigen, falls der Kunde die geltenden Gebühren für
+Außerdem kann FlectraHQ, Inc. den Vertrag sofort kündigen, falls der Kunde die geltenden Gebühren für
 die Dienstleistungen nicht bis zum in der entsprechenden Rechnung angegebenen Fälligkeitsdatum
 bezahlt.
 
@@ -353,18 +353,18 @@ Die Abschnitte ":ref:`confidentiality_de`”, “:ref:`disclaimers_de`”, “:r
 7.1 Garantie
 ---------------
 
-Für die Laufzeit dieser Vereinbarung ist Flectra SA verpflichtet, wirtschaftlich angemessene
+Für die Laufzeit dieser Vereinbarung ist FlectraHQ, Inc. verpflichtet, wirtschaftlich angemessene
 Anstrengungen zu unternehmen, um die Dienstleistungen gemäß den allgemein branchenweit
 anerkannten Standards auszuführen, sofern folgende Bedingungen erfüllt sind:
 
 - die Computersysteme des Kunden befinden sich in einem guten Betriebszustand und die Software
   ist in einer geeigneten Betriebsumgebung installiert;
 - der Kunde stellt angemessene Informationen und Zugänge für die Fehlerbehebung bereit, damit
-  Flectra SA Probleme identifizieren, reproduzieren und beheben kann;
-- alle Flectra SA zustehenden Beträge wurden bezahlt.
+  FlectraHQ, Inc. Probleme identifizieren, reproduzieren und beheben kann;
+- alle FlectraHQ, Inc. zustehenden Beträge wurden bezahlt.
 
-Das einzige und ausschließliche Rechtsmittel des Kunden und die einzige Verpflichtung von Flectra SA
-bei Verstößen gegen diese Garantie besteht darin, dass Flectra SA die Ausführung der Dienste ohne
+Das einzige und ausschließliche Rechtsmittel des Kunden und die einzige Verpflichtung von FlectraHQ, Inc.
+bei Verstößen gegen diese Garantie besteht darin, dass FlectraHQ, Inc. die Ausführung der Dienste ohne
 zusätzliche Kosten wiederaufnimmt.
 
 .. _disclaimers_de:
@@ -378,7 +378,7 @@ Art ein, und beide Parteien lehnen alle implizierten Garantien ausdrücklich ab,
 jeglicher stillschweigenden Zusicherung der Marktgängigkeit, der Eignung für einen bestimmten
 Zweck oder der Nichtverletzung, soweit diese Einschränkung nach geltendem Recht zulässig ist.
 
-Flectra SA garantiert nicht, dass die Software örtlichen oder internationalen Gesetzen oder
+FlectraHQ, Inc. garantiert nicht, dass die Software örtlichen oder internationalen Gesetzen oder
 Rechtsvorschriften entspricht.
 
 .. _liability_de:

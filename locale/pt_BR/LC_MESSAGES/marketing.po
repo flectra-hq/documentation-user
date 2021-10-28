@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -7,7 +7,7 @@
 # Rafael H L Moretti <rafael.moretti@gmail.com>, 2021
 # Mateus Lopes <mateus1@gmail.com>, 2021
 # grazziano <gra.negocia@gmail.com>, 2021
-# Keli Brugalli <kbr@flectra.com>, 2021
+# Keli Brugalli <kbr@flectrahq.com>, 2021
 # Éder Brito <britoederr@gmail.com>, 2021
 # 
 #, fuzzy
@@ -201,7 +201,7 @@ msgstr ""
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:37
 msgid ""
 "To see the **price per country, please consult**: `Flectra SMS - FAQ <https"
-"://iap-services.flectra.com/iap/sms/pricing#sms_faq_01>`_."
+"://iap-services.flectrahq.com/iap/sms/pricing#sms_faq_01>`_."
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:39
@@ -224,7 +224,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:65
 msgid ""
-"If you are on Flectra Online (SAAS) and have the Enterprise version, you "
+"If you are on Flectra Online (SAAS) and have the Professional version, you "
 "benefit from free trial credits to test the feature."
 msgstr ""
 
@@ -338,7 +338,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:130
 msgid ""
-"Please find our `Privacy Policy here <https://iap.flectra.com/privacy#sms>`__."
+"Please find our `Privacy Policy here <https://iap.flectrahq.com/privacy#sms>`__."
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:132
@@ -349,7 +349,7 @@ msgstr ""
 msgid ""
 "Yes, but it is not possible out of the box. Our experts can help you "
 "customize your database to make it happen. Please, check our success packs "
-"`here <https://www.flectra.com/pricing-packs>`_."
+"`here <https://www.flectrahq.com/pricing-packs>`_."
 msgstr ""
 
 #: ../../content/applications/marketing/survey.rst:3

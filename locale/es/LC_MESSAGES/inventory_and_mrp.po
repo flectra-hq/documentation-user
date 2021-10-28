@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Flectra S.A.
+# Copyright (C) FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,14 +8,14 @@
 # Susanna Pujol, 2021
 # Antonio Trueba, 2021
 # Julián Andrés Osorio López <mcjulian1107@gmail.com>, 2021
-# renodoo <ren@flectra.com>, 2021
+# renflectra <ren@flectrahq.com>, 2021
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2021
 # David Sanchez <david.sanchez@jarsa.com.mx>, 2021
 # AleEscandon <alejandra.escandon@jarsa.com.mx>, 2021
 # Paloma Yazmin Reyes Morales <paloma.reyes@jarsa.com.mx>, 2021
 # Katerina Katapodi <katerinakatapodi@gmail.com>, 2021
 # Miguel Orueta <mo@landoo.es>, 2021
-# Jon Perez <jop@flectra.com>, 2021
+# Jon Perez <jop@flectrahq.com>, 2021
 # Fernando La Chica <fernandolachica@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2021
@@ -911,12 +911,12 @@ msgstr ""
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/dropshipping.rst:47
 msgid ""
 "For more information and insights about Drop-Shipping, you can read our "
-"blog: `*What is drop-shipping and how to use it* <https://www.flectra.com/blog"
+"blog: `*What is drop-shipping and how to use it* <https://www.flectrahq.com/blog"
 "/business-hacks-1/post/what-is-drop-shipping-and-how-to-use-it-250>`__."
 msgstr ""
 "Para obtener más información e información sobre Drop-Shipping, puede leer "
 "nuestro blog: `*Qué es drop-shipping y cómo "
-"usarlo*<https://www.flectra.com/blog/business-hacks-1/post/what-is-drop-"
+"usarlo*<https://www.flectrahq.com/blog/business-hacks-1/post/what-is-drop-"
 "shipping-and-how-to-use-it-250>`__."
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/dropshipping.rst:52
@@ -4316,7 +4316,7 @@ msgstr ""
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/cross_dock.rst:11
 msgid ""
 "For more information on how to organize your warehouse, read our blog: `What"
-" is cross-docking and is it for me? <https://www.flectra.com/blog/business-"
+" is cross-docking and is it for me? <https://www.flectrahq.com/blog/business-"
 "hacks-1/post/what-is-cross-docking-and-is-it-for-me-270>`__"
 msgstr ""
 

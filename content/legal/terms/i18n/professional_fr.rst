@@ -17,9 +17,9 @@ Flectra Professional Subscription Agreement (FR)
 .. v9c: minor wording changes, tuned User definition, + copyright guarantee (re-application of v8a changes
         on all branches)
 
-En vous abonnant aux services de Flectra Professional (les "Services") fournis par Flectra SA et ses filiales
-(collectivement, "Flectra SA") en relation avec Flectra Professional Edition ou Flectra Community Edition
-(le "Logiciel"), hébergé sur le plate-formes Cloud d'Flectra SA (la "Plate-forme Cloud") ou sur site
+En vous abonnant aux services de Flectra Professional (les "Services") fournis par FlectraHQ, Inc. et ses filiales
+(collectivement, "FlectraHQ, Inc.") en relation avec Flectra Professional Edition ou Flectra Community Edition
+(le "Logiciel"), hébergé sur le plate-formes Cloud d'FlectraHQ, Inc. (la "Plate-forme Cloud") ou sur site
 ("Auto-Hébergement"), vous (le "Client") acceptez d'être lié par les conditions générales suivantes
 (le "Contrat").
 
@@ -46,19 +46,19 @@ Utilisateur
 
 App
     Une "App" est un ensemble de fonctionnalités, disponible pour installation dans le Logiciel,
-    et inclus dans la section Tarifs Flectra sur `le site d'Flectra SA <https://www.flectra.com>`_, au moment
+    et inclus dans la section Tarifs Flectra sur `le site d'FlectraHQ, Inc. <https://www.flectrahq.com>`_, au moment
     de la conclusion de ce Contrat.
 
 Partenaire Flectra
     Un Partenaire Flectra est un individu ou société tierce, choisi par le Client et qui collabore
     avec celui-ci pour les services liés à Flectra. Le Client peut choisir à tout moment de travailler
-    avec un autre Partenaire Flectra, ou avec Flectra SA directement (moyennant préavis).
+    avec un autre Partenaire Flectra, ou avec FlectraHQ, Inc. directement (moyennant préavis).
 
 Module Supplémentaire
     Un Module Supplémentaire est un répertoire de fichiers de code source, ou un ensemble de
     personnalisations nécessitant du code Python créées dans une base de données (par ex. avec Flectra Studio),
     pour ajouter des fonctionnalités ou changer des comportements du Logiciel. Il peut avoir été
-    développé par le Client, par Flectra SA, par un Partenaire Flectra pour le compte du Client, ou
+    développé par le Client, par FlectraHQ, Inc., par un Partenaire Flectra pour le compte du Client, ou
     par des tiers.
 
 Module Supplémentaire Couvert
@@ -71,7 +71,7 @@ Bug
     un arrêt complet, un message d'erreur avec trace d'exécution, ou une brèche de sécurité, et
     n'est pas directement causé par un problème d'installation ou une configuration défectueuse.
     Un non-respect des spécifications ou des besoins
-    sera considéré comme un Bug à la discrétion d'Flectra SA (en général, lorsque le Logiciel
+    sera considéré comme un Bug à la discrétion d'FlectraHQ, Inc. (en général, lorsque le Logiciel
     ne produit pas les résultats ou la performance pour lesquels il a été conçu, ou lorsqu'une
     fonctionnalité spécifique à un pays ne répond plus aux exigences comptables légales de ce pays).
 
@@ -86,9 +86,9 @@ Versions Couvertes
 ===================
 
 Le Client peut utiliser le Logiciel hébergé sur la Plate-forme Cloud, ou choisir l'option de l'Auto-Hébergement.
-La Plate-forme Cloud est hébergée et entièrement gérée par Flectra SA, and accédée à distance par le Client.
+La Plate-forme Cloud est hébergée et entièrement gérée par FlectraHQ, Inc., and accédée à distance par le Client.
 En cas d'Auto-Hébergement, le Client héberge lui-même le Logiciel sur un système informatique de
-son choix, hors du contrôle d'Flectra SA.
+son choix, hors du contrôle d'FlectraHQ, Inc..
 
 Le Client accepte de prendre toutes les mesures nécessaires pour garantir l'exécution sans aucune
 modification de la partie du Logiciel qui vérifie la validité de l'utilisation d'Flectra Professional
@@ -96,17 +96,17 @@ Edition et recueille des statistiques à cet effet, y compris mais sans s'y limi
 du Logiciel, le nombre d'Utilisateurs, les Apps installées et le nombre de lignes de code des
 Modules Supplémentaires Couverts.
 
-Flectra SA s'engage à ne pas divulguer à une tierce partie d'informations chiffrées personnelles ou
+FlectraHQ, Inc. s'engage à ne pas divulguer à une tierce partie d'informations chiffrées personnelles ou
 spécifiques sans le consentement du Client, et à traiter toutes les données recueillies en
 respectant sa politique officielle de confidentialité, telle que publiée sur
-https://www.flectra.com/privacy.
+https://www.flectrahq.com/privacy.
 
 À l'expiration ou la résiliation de ce Contrat, cette licence est immédiatement révoquée et le
 Client accepte de cesser toute utilisation du logiciel Flectra Professional Edition et de la Plate-forme
 Cloud.
 
 Si le Client devait enfreindre les dispositions de la présente section, il accepte de payer
-à Flectra SA des frais supplémentaires équivalents à 300 % du tarif en vigueur applicable
+à FlectraHQ, Inc. des frais supplémentaires équivalents à 300 % du tarif en vigueur applicable
 correspondant au nombre réel d'Utilisateurs et aux Apps installées.
 
 
@@ -120,7 +120,7 @@ correspondant au nombre réel d'Utilisateurs et aux Apps installées.
 4.1 Service de correction de Bugs
 ---------------------------------
 
-Pour la durée de ce Contrat, Flectra SA s'engage à déployer tous les efforts raisonnables pour
+Pour la durée de ce Contrat, FlectraHQ, Inc. s'engage à déployer tous les efforts raisonnables pour
 corriger tout Bug du Logiciel ou des Modules Supplémentaires Couverts qui pourrait être signalé
 par le Client en suivant la procédure appropriée (généralement par le biais du formulaire en ligne
 ou des numéros de téléphone indiqués sur Module Supplémentaire Couvert, ou en cas de travail avec
@@ -131,11 +131,11 @@ Dès que le Bug est remédié, un correctif approprié sera communiqué au Clien
 Si le Client utilise une Version Couverte, il ne lui sera jamais demandé de passer à une Version Couverte
 plus récente pour obtenir un correctif.
 
-Lorsqu'un Bug est corrigé dans une Version Couverte, Flectra SA s'engage à le corriger dans toutes
+Lorsqu'un Bug est corrigé dans une Version Couverte, FlectraHQ, Inc. s'engage à le corriger dans toutes
 les Versions Couvertes plus récentes du Logiciel.
 
 Les deux parties reconnaissent que comme spécifié dans la licence du Logiciel et à la section
-:ref:`liability_fr` de ce Contrat, Flectra SA ne peut être tenue responsable des Bugs du Logiciel ou
+:ref:`liability_fr` de ce Contrat, FlectraHQ, Inc. ne peut être tenue responsable des Bugs du Logiciel ou
 des Modules Supplémentaires Couverts.
 
 
@@ -147,7 +147,7 @@ des Modules Supplémentaires Couverts.
 Auto-Hébergement
 ++++++++++++++++
 
-Pour la durée du Contrat, Flectra SA s'engage à envoyer une "alerte de sécurité"" au Client
+Pour la durée du Contrat, FlectraHQ, Inc. s'engage à envoyer une "alerte de sécurité"" au Client
 pour tout Bug présentant un risque de sécurité qui serait découvert dans les Versions Couvertes
 du Logiciel (à l'exclusion des Modules Supplémentaires), au moins 2 semaines avant de
 rendre ladite alerte de sécurité publique, et ce à moins que le Bug ait déjà été rendu public par un tiers.
@@ -163,7 +163,7 @@ sécurité comme des Informations Confidentielles telles que décrites à la sec
 Plate-forme Cloud
 +++++++++++++++++
 
-Flectra SA s'engage à appliquer les correctifs de sécurité pour tout Bug de sécurité découvert
+FlectraHQ, Inc. s'engage à appliquer les correctifs de sécurité pour tout Bug de sécurité découvert
 dans une version du Logiciel hébergé sur la Plate-forme Cloud, sur tous les systèmes sous son
 contrôle, dès que le correctif est disponible, et sans intervention manuelle du Client.
 
@@ -173,13 +173,13 @@ contrôle, dès que le correctif est disponible, et sans intervention manuelle d
 4.3 Service de migration
 ------------------------
 
-.. _upgrade_odoo_fr:
+.. _upgrade_flectra_fr:
 
 Service de migration du Logiciel
 ++++++++++++++++++++++++++++++++
 
 Pour la durée du présent Contrat, le Client peut soumettre des demandes de migration en suivant
-les procédures appropriées (généralement, via le site du service de migration d'Flectra SA),
+les procédures appropriées (généralement, via le site du service de migration d'FlectraHQ, Inc.),
 afin de convertir une base de données du Logiciel depuis n'importe quelle version du Logiciel vers
 une Version Couverte plus récente (la "Version Cible").
 
@@ -214,7 +214,7 @@ qu'un résultat satisfaisant soit obtenu.
 -------------------------------
 
 Pour la durée du présent Contrat, lorsque le Client choisit d'utiliser la Plate-forme Cloud,
-Flectra SA s'engage à fournir au minimum le service suivant:
+FlectraHQ, Inc. s'engage à fournir au minimum le service suivant:
 
 - Choix de plusieurs régions d'hébergement (minimum 3: Europe, America, Asia/Pacific)
 - Hébergement en centre de données Tiers-III ou équivalent, avec 99.9% de disponibilité
@@ -223,7 +223,7 @@ Flectra SA s'engage à fournir au minimum le service suivant:
 - Plan de Reprise d'Activité, testé régulièrement
 
 Les détails du Service d'Hébergement Cloud sont décrits sur la page du Service Level Agreement:
-https://www.flectra.com/cloud-sla.
+https://www.flectrahq.com/cloud-sla.
 
 
 .. _support_service_fr:
@@ -242,13 +242,13 @@ Supplémentaires Couverts
 D'autres types de demandes, telles que celles relatives à des développements ou des personnalisations,
 peuvent être couvertes par l'achat d'un contrat de service séparé.
 Au cas où il n'est pas clair qu'une demande est couverte par ce Contrat, la décision sera à la
-discrétion d'Flectra SA.
+discrétion d'FlectraHQ, Inc..
 
 Disponibilité
 +++++++++++++
 
-Les demandes d'assistances peuvent être soumises à tout moment en ligne via https://www.flectra.com/help,
-ou par téléphone directement aux différents bureaux d'Flectra SA, ou en cas de travail avec un 
+Les demandes d'assistances peuvent être soumises à tout moment en ligne via https://www.flectrahq.com/help,
+ou par téléphone directement aux différents bureaux d'FlectraHQ, Inc., ou en cas de travail avec un 
 Partenaire Flectra, le canal préconisé par ce partenaire, pendant les heures de bureau
 correspondantes.
 
@@ -260,14 +260,14 @@ Collaboration avec un Partenaire Flectra
 
 Pour les services de correction de Bug, d'assistance et de migration, le Client peut choisir
 de collaborer avec un Partenaire Flectra comme point de contact principal, ou directement avec
-Flectra SA.
+FlectraHQ, Inc..
 
-Si le Client choisit un Partenaire Flectra, Flectra SA sous-traitera les services liés au Modules
+Si le Client choisit un Partenaire Flectra, FlectraHQ, Inc. sous-traitera les services liés au Modules
 Supplémentaires Couverts à ce partenaire, qui deviendra le point de contact principal du client.
-Le Partenaire Flectra peut obtenir de l'assistance de second niveau auprès d'Flectra SA pour le compte
+Le Partenaire Flectra peut obtenir de l'assistance de second niveau auprès d'FlectraHQ, Inc. pour le compte
 du Client, concernant les fonctions standard du Logiciel.
 
-Si le Client décide de collaborer directement avec Flectra SA, les services liés aux Modules
+Si le Client décide de collaborer directement avec FlectraHQ, Inc., les services liés aux Modules
 Supplémentaires Couverts ne seront fournis que *si et seulement si* le Client est hébergé sur
 la Plate-forme Cloud d'Flectra.
 
@@ -300,7 +300,7 @@ source de ces modules, peu importe le langage de programmation (Python, Javascri
 à l'installation ou à l'exécution du Logiciel.
 
 Lorsque le Client demande une migration, pour chaque Module Supplémentaire Couvert qui n'a pas fait
-l'objet de frais de maintenance pour les 12 derniers mois, Flectra SA peut facturer des frais
+l'objet de frais de maintenance pour les 12 derniers mois, FlectraHQ, Inc. peut facturer des frais
 supplémentaires unique de 16€ par 100 lignes de code, pour chaque mois de maintenance manquant.
 
 
@@ -323,7 +323,7 @@ par reconduction, sans dépasser les tarifs en vigueur les plus récents.
 Tous les frais et tarifs sont indiqués hors taxes, frais et charges fédérales,
 provinciales, locales ou autres taxes gouvernementales applicables (collectivement,
 les "Taxes"). Le Client est responsable du paiement de toutes les Taxes liées aux achats effectués
-par le Client en vertu du présent Contrat, sauf lorsque Flectra SA est légalement tenue de payer ou de
+par le Client en vertu du présent Contrat, sauf lorsque FlectraHQ, Inc. est légalement tenue de payer ou de
 percevoir les Taxes dont le client est responsable.
 
 .. _conditions_fr:
@@ -336,17 +336,17 @@ percevoir les Taxes dont le client est responsable.
 
 Le Client accepte de / d':
 
-- Payer à Flectra SA les frais applicables pour les Services en vertu du présent Contrat,
+- Payer à FlectraHQ, Inc. les frais applicables pour les Services en vertu du présent Contrat,
   conformément aux conditions de paiement spécifiées à la souscription du présent Contrat ;
-- Aviser immédiatement Flectra SA si le nombre réel d'Utilisateurs ou les Apps installées dépassent
+- Aviser immédiatement FlectraHQ, Inc. si le nombre réel d'Utilisateurs ou les Apps installées dépassent
   les nombres spécifiés à la conclusion du Contrat, et dans ce cas, de régler les frais
   supplémentaires applicables telles que décrits à la section :ref:`charges_standard_fr`;
 - Prendre toutes les mesures nécessaires pour garantir l'exécution non modifiée de la partie du
   Logiciel qui vérifie la validité de l'utilisation de Flectra Professional Edition, comme décrit à la
   section :ref:`Professional_access_fr`;
 - Désigner 1 personne de contact représentant le Client pour toute la durée du contrat ;
-- Signaler par écrit à Flectra SA avec un préavis de 30 jours en cas de changement de point de contact
-  principal, pour collaborer avec un autre Partenaire Flectra, ou directement avec Flectra SA.
+- Signaler par écrit à FlectraHQ, Inc. avec un préavis de 30 jours en cas de changement de point de contact
+  principal, pour collaborer avec un autre Partenaire Flectra, ou directement avec FlectraHQ, Inc..
 
 Lorsque le Client choisit d'utiliser la Plate-forme Cloud, il accepte aussi de:
 
@@ -358,12 +358,12 @@ Lorsque le Client choisit d'utiliser la Plate-forme Cloud, il accepte aussi de:
 
 Lorsque le Client choisit l'Auto-Hébergement, il accepte aussi de:
 
-- Fournir tout accès nécessaire à Flectra SA pour vérifier la validité de l'utilisation d'Flectra
+- Fournir tout accès nécessaire à FlectraHQ, Inc. pour vérifier la validité de l'utilisation d'Flectra
   Professional Edition sur demande (par exemple, si la validation automatique ne fonctionne pas pour
   le Client) ;
 - Prendre toutes les mesures raisonnables pour protéger les fichiers et les bases de données
   du Client et s'assurer que les données du Client sont en sûreté et sécurisées, en reconnaissant
-  qu'Flectra SA ne peut être tenue responsable de toute perte de données ;
+  qu'FlectraHQ, Inc. ne peut être tenue responsable de toute perte de données ;
 
 
 6.2 Non solicitation ou embauche
@@ -429,53 +429,53 @@ Traitement de Données à Caractère Personnel
 +++++++++++++++++++++++++++++++++++++++++++
 
 Les parties conviennent que la base de données du Client peut contenir des Données à Caractère Personnel,
-pour lesquelles le Client est le Responsable de Traitement. Ces données seront traitées par Flectra SA
+pour lesquelles le Client est le Responsable de Traitement. Ces données seront traitées par FlectraHQ, Inc.
 quand le Client en donnera l'instruction, par son utilisation des Services qui requièrent une base
 de données (tels que le Service d'Hébergement ou le Service de migration), ou si le Client
-transfère sa base de données ou une partie de celle-ci à Flectra SA pour toute autre raison
+transfère sa base de données ou une partie de celle-ci à FlectraHQ, Inc. pour toute autre raison
 relative à l'exécution du présent Contrat.
 
 Ce traitement sera exécuté en conformité avec la Législation sur la Protection des Données.
-En particulier, Flectra SA s'engage à:
+En particulier, FlectraHQ, Inc. s'engage à:
 
 - (a) Ne traiter les Données à Caractère Personnel que quand et comme demandé par le Client, et
   pour la finalité de l'exécution de l'un des Services du Contrat, à moins que la loi ne l'exige,
-  auquel cas Flectra SA préviendra préalablement le Client, à moins que la loi ne l'interdise;
-- (b) S'assurer que tout le personnel d'Flectra SA autorisé à traiter les Données à Caractère Personnel
+  auquel cas FlectraHQ, Inc. préviendra préalablement le Client, à moins que la loi ne l'interdise;
+- (b) S'assurer que tout le personnel d'FlectraHQ, Inc. autorisé à traiter les Données à Caractère Personnel
   soit soumis à un devoir de confidentialité ;
 - (c) Mettre en oeuvre et maintenir des mesures de sécurité appropriées au niveau technique et
   organisationnel, afin de protéger les Données à Caractère Personnel de tout traitement non
   autorisé ou illégal, et de toute perte accidentelle, destruction, dégât, vol, altération ou
   divulgation ;
 - (d) Transmettre promptement au Client toute demande relative à des Données à Caractère Personnel qui
-  aurait été soumise à Flectra SA au sujet de la base de données du Client ;
+  aurait été soumise à FlectraHQ, Inc. au sujet de la base de données du Client ;
 - (e) Signaler au Client dès la prise de connaissance et la confirmation de tout traitement, accès
   ou divulgation non autorisés, accidentels ou illégal des Données à Caractère Personnel ;
 - (f) Signaler au Client lorsque ses instructions de traitement vont à l'encontre de la Législation
-  sur la Protection des Données, d'après Flectra SA ;
+  sur la Protection des Données, d'après FlectraHQ, Inc. ;
 - (g) Fournir au Client toute information nécessaire à la démonstration de la conformité avec la
   Législation sur la Protection des Données, autoriser et contribuer de façon raisonnable à des
   audits, y compris des inspections, conduits ou mandatés par le Client dans ce but;
-- (h) Supprimer définitivement tout copie de la base de données du Client en possession d'Flectra SA,
+- (h) Supprimer définitivement tout copie de la base de données du Client en possession d'FlectraHQ, Inc.,
   ou retourner ces données, au choix du Client, lors de la résiliation de ce Contrat,
-  en respect des délais indiqués dans la `Politique de Protection des Données <https://www.flectra.com/privacy>`_
-  d'Flectra SA ;
+  en respect des délais indiqués dans la `Politique de Protection des Données <https://www.flectrahq.com/privacy>`_
+  d'FlectraHQ, Inc. ;
 
-Concernant les points (d) à (f), le Client s'engage à fournir à Flectra SA des informations de
+Concernant les points (d) à (f), le Client s'engage à fournir à FlectraHQ, Inc. des informations de
 contact valables, tel que nécessaire pour toute notification auprès du responsable de protection des
 données du Client.
 
 Sous-traitants
 ++++++++++++++
 
-Le Client convient et accepte que pour fournir les Services, Flectra SA peut faire appel à des
+Le Client convient et accepte que pour fournir les Services, FlectraHQ, Inc. peut faire appel à des
 prestataires de service tiers (Sous-traitants) pour traiter les Données à Caractère Personnel.
-Flectra SA s'engage à n'utiliser de tels Sous-traitants qu'en conformité avec la Législation
-sur la Protection des Données. Cet usage sera couvert par un contrat entre Flectra SA et le Sous-traitant
+FlectraHQ, Inc. s'engage à n'utiliser de tels Sous-traitants qu'en conformité avec la Législation
+sur la Protection des Données. Cet usage sera couvert par un contrat entre FlectraHQ, Inc. et le Sous-traitant
 qui offrira toutes les garanties nécessaires à cet effet.
-La Politique de Protection des Données d'Flectra SA, publiée à l'adresse https://www.flectra.com/privacy
+La Politique de Protection des Données d'FlectraHQ, Inc., publiée à l'adresse https://www.flectrahq.com/privacy
 fournit des informations actualisées sur les noms et les finalités des Sous-traitants utilisés par
-Flectra SA pour l'exécution des Services.
+FlectraHQ, Inc. pour l'exécution des Services.
 
 
 .. _termination_fr:
@@ -489,7 +489,7 @@ civils à compter de la notification écrite de cette violation, le présent
 contrat peut être résilié immédiatement par la partie qui n'a pas commis la
 violation.
 
-En outre, Flectra SA peut résilier le contrat immédiatement dans le cas où le
+En outre, FlectraHQ, Inc. peut résilier le contrat immédiatement dans le cas où le
 Client ne paie pas les frais applicables pour les services dans les 21 jours suivant la date d'échéance
 indiquée sur la facture correspondante, après minimum 3 rappels.
 
@@ -508,11 +508,11 @@ Durée de l'applicabilité des dispositions:
 7.1 Garantie
 ------------
 
-Flectra SA détient le copyright ou un équivalent [#cla_fr1]_ sur 100% du code du Logiciel, et confirme que
+FlectraHQ, Inc. détient le copyright ou un équivalent [#cla_fr1]_ sur 100% du code du Logiciel, et confirme que
 toutes les librairies logicielles nécessaires au fonctionnement du Logiciel sont disponibles sous une
 licence compatible avec la licence du Logiciel.
 
-Pendant la durée du présent contrat, Flectra SA s'engage à déployer les efforts
+Pendant la durée du présent contrat, FlectraHQ, Inc. s'engage à déployer les efforts
 raisonnables sur le plan commercial pour exécuter les Services conformément aux
 normes du secteur généralement acceptées à condition que :
 
@@ -520,15 +520,15 @@ normes du secteur généralement acceptées à condition que :
   que le Logiciel soit installé selon les bonnes pratiques en vigueur;
 - Le Client fournisse les informations adéquates nécessaires au dépannage et, pour l'Auto-Hébergement,
   tout accès utile, de telle
-  sorte qu'Flectra SA puisse identifier, reproduire et gérer les problèmes ;
-- Tous les montants dus à Flectra SA, qui sont échus, aient été réglés.
+  sorte qu'FlectraHQ, Inc. puisse identifier, reproduire et gérer les problèmes ;
+- Tous les montants dus à FlectraHQ, Inc., qui sont échus, aient été réglés.
 
-La reprise de l'exécution des Services par Flectra SA sans frais supplémentaires constitue la seule et
-unique réparation pour le Client et la seule obligation d'Flectra SA pour tout manquement à cette
+La reprise de l'exécution des Services par FlectraHQ, Inc. sans frais supplémentaires constitue la seule et
+unique réparation pour le Client et la seule obligation d'FlectraHQ, Inc. pour tout manquement à cette
 garantie.
 
-.. [#cla_fr1] Les contributions externes sont couvertes par un `Copyright License Agreement <https://www.flectra.com/cla>`_
-              fournissant une licence de copyright et de brevet permanente, gratuite et irrévocable à Flectra SA.
+.. [#cla_fr1] Les contributions externes sont couvertes par un `Copyright License Agreement <https://www.flectrahq.com/cla>`_
+              fournissant une licence de copyright et de brevet permanente, gratuite et irrévocable à FlectraHQ, Inc..
 
 
 .. _disclaimers_fr:
@@ -542,7 +542,7 @@ décline expressément toutes garanties implicites, y compris toute garantie
 implicite de qualité marchande, d'adéquation à un usage particulier ou de non-
 contrefaçon, dans les limites autorisées par la loi en vigueur.
 
-Flectra SA ne garantit pas que le Logiciel soit conforme à toute loi ou réglementation locale ou
+FlectraHQ, Inc. ne garantit pas que le Logiciel soit conforme à toute loi ou réglementation locale ou
 internationale.
 
 
@@ -616,7 +616,7 @@ Ce logiciel et les fichiers associés (le "Logiciel") ne peuvent être utilisés
 un contrat Flectra Professional Subscription en ordre de validité, et pour le nombre
 d'utilisateurs prévus dans ce contrat.
 
-Un contrat de Partnariat avec Flectra S.A. en ordre de validité donne les mêmes
+Un contrat de Partnariat avec FlectraHQ, Inc.. en ordre de validité donne les mêmes
 permissions que ci-dessus, mais uniquement pour un usage restreint à un
 environnement de test ou de développement.
 
@@ -628,7 +628,7 @@ soit compatible avec les conditions de la licence Flectra Professional Edition L
 Vous êtes autorisé à utiliser des modules Flectra publiés sous n'importe quelle
 licence, pour autant que leur licence soit compatible avec les conditions
 de la licence Flectra Professional Edition License (Notamment tous les
-modules publiés sur l'Flectra Apps Store sur flectra.com/apps).
+modules publiés sur l'Flectra Apps Store sur flectrahq.com/apps).
 
 Il est interdit de publier, distribuer, accorder des sous-licences, ou vendre
 tout copie du Logiciel ou toute copie modifiée du Logiciel.
