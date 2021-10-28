@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2015-TODAY, Flectra S.A.
+# Copyright (C) 2015-TODAY, FlectraHQ, Inc..
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nils van Flectra <nvo@flectra.com>, 2021
+# Nils van Flectra <nvo@flectrahq.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra 2.0\n"
+"Project-Id-Version: Flectra2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-04 11:02+0100\n"
 "PO-Revision-Date: 2020-09-22 14:40+0000\n"
-"Last-Translator: Nils van Flectra <nvo@flectra.com>, 2021\n"
+"Last-Translator: Nils van Flectra <nvo@flectrahq.com>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/flectra/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
