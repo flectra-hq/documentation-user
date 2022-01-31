@@ -290,7 +290,7 @@ in ``/etc/nginx/sites-enabled/flectra.conf`` set:
 
   #flectra server
   upstream flectra {
-   server 127.0.0.1:8069;
+   server 127.0.0.1:7073;
   }
   upstream flectrachat {
    server 127.0.0.1:8072;

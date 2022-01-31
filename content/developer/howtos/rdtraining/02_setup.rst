@@ -295,7 +295,7 @@ The last two can be used to prevent the worker from being killed when debugging 
 Log in to Flectra
 -----------------
 
-Open `http://localhost:8069/` on your browser. We recommend you use:
+Open `http://localhost:7073/` on your browser. We recommend you use:
 `Firefox <https://www.mozilla.org/fr/firefox/new/>`__,
 `Chrome <https://www.google.com/intl/fr/chrome/>`__
 (`Chromium <https://www.chromium.org/Home>`__ the open source equivalent) or any other browser with

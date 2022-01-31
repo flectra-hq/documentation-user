@@ -41,7 +41,7 @@ Although it does absolutely nothing we can install it:
 
       $ ./flectra-bin --addons-path addons,my-modules
 
-* go to http://localhost:8069
+* go to http://localhost:7073
 * create a new database including demonstration data
 * to go :menuselection:`Settings --> Modules --> Modules`
 * in the top-right corner remove the *Installed* filter and search for
@@ -75,7 +75,7 @@ Shut down your server (:kbd:`^C`) then restart it:
 
     $ ./flectra-bin --addons-path addons,my-modules
 
-and open a page to http://localhost:8069/academy/academy/, you should see your
+and open a page to http://localhost:7073/academy/academy/, you should see your
 "page" appear:
 
 .. figure:: website/helloworld.png
@@ -134,7 +134,7 @@ Academy` and clicking :guilabel:`Upgrade`.
 
         $ flectra-bin --addons-path addons,my-modules -d academy -u academy
 
-Going to http://localhost:8069/academy/academy/ should now result in:
+Going to http://localhost:7073/academy/academy/ should now result in:
 
 .. image:: website/basic-list.png
 
@@ -268,7 +268,7 @@ The last step is to alter model and template to use our demonstration data:
 
 Restart the server and update the module (in order to update the manifest
 and templates and load the demo file) then navigate to
-http://localhost:8069/academy/academy/. The page should look slightly
+http://localhost:7073/academy/academy/. The page should look slightly
 different: names should simply be prefixed by a number (the database
 identifier for the teacher).
 
@@ -331,7 +331,7 @@ integration and a few other services (e.g. default styling, theming) via the
     </flectra>
 
 After restarting the server while updating the module (in order to update the
-manifest and template) access http://localhost:8069/academy/academy/ should
+manifest and template) access http://localhost:7073/academy/academy/ should
 yield a nicer looking page with branding and a number of built-in page
 elements (top-level menu, footer, …)
 
@@ -374,8 +374,8 @@ create a new controller method which takes a bit of URL and prints it out:
     def teacher(self, name):
         return '<h1>{}</h1>'.format(name)
 
-restart Flectra, access http://localhost:8069/academy/Alice/ and
-http://localhost:8069/academy/Bob/ and see the difference.
+restart Flectra, access http://localhost:7073/academy/Alice/ and
+http://localhost:7073/academy/Bob/ and see the difference.
 
 As the name indicates, `converter patterns`_ don't just do extraction, they
 also do *validation* and *conversion*, so we can change the new controller
@@ -388,9 +388,9 @@ to only accept integers:
     def teacher(self, id):
         return '<h1>{} ({})</h1>'.format(id, type(id).__name__)
 
-Restart Flectra, access http://localhost:8069/academy/2, note how the old value
+Restart Flectra, access http://localhost:7073/academy/2, note how the old value
 was a string, but the new one was converted to an integers. Try accessing
-http://localhost:8069/academy/Carol/ and note that the page was not found:
+http://localhost:7073/academy/Carol/ and note that the page was not found:
 since "Carol" is not an integer, the route was ignored and no route could be
 found.
 
@@ -610,7 +610,7 @@ Let's create a menu for our model:
                     action="action_academy_teachers"/>
     </flectra>
 
-then accessing http://localhost:8069/web/ in the top left should be a menu
+then accessing http://localhost:7073/web/ in the top left should be a menu
 :guilabel:`Academy`, which is selected by default, as it is the first menu,
 and having opened a listing of teachers. From the listing it is possible to
 :guilabel:`Create` new teacher records, and to switch to the "form" by-record

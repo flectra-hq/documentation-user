@@ -38,7 +38,7 @@ Other legal references
 
 - `Flectra Cloud Service Level Agreement (SLA) <https://www.flectrahq.com/cloud-sla>`_
 - `Flectra Cloud Acceptable Use Policy <https://www.flectrahq.com/acceptable-use>`_
-- `FlectraHQ, Inc.'s Privacy Policy <https://www.flectrahq.com/privacy>`_
-- `FlectraHQ, Inc.'s GDPR Compliance Guide <https://www.flectrahq.com/gdpr>`_
+- `FlectraHQ, Inc.'s Privacy Policy <https://flectrahq.com/privacy-policy>`_
+- `FlectraHQ, Inc.'s GDPR Compliance Guide <https://www.flectrahq.com/#>`_
 - :ref:`cla`
 - :ref:`germany/gobd`

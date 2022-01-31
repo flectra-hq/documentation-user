@@ -281,7 +281,7 @@ HTTP
 
 .. option:: --http-port <port>
 
-    Port on which the HTTP server listens, defaults to 8069.
+    Port on which the HTTP server listens, defaults to 7073.
 
 .. option:: --longpolling-port <port>
 

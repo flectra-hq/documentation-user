@@ -350,7 +350,7 @@ A typical way to run the server would be:
 
 Where `CommunityPath` is the path of the Flectra Community installation, `dbuser` is the
 PostgreSQL login, `dbpassword` is the PostgreSQL password
-and `mydb` is the default database to serve on `localhost:8069`. You can add other
+and `mydb` is the default database to serve on `localhost:7073`. You can add other
 directory paths separated by a comma to ``addons`` at the end of the addons-path option.
 
 Linux
@@ -502,7 +502,7 @@ A typical way to run the server would be:
     $ python3 flectra-bin --addons-path=addons -d mydb
 
 Where `CommunityPath` is the path of the Flectra Community installation
-and `mydb` is the default database to serve on `localhost:8069`. You can add other
+and `mydb` is the default database to serve on `localhost:7073`. You can add other
 directory paths separated by a comma to ``addons`` at the end of the addons-path option.
 
 Mac OS
@@ -642,7 +642,7 @@ A typical way to run the server would be:
     $ python3 flectra-bin --addons-path=addons -d mydb
 
 Where `CommunityPath` is the path of the Flectra Community installation
-and `mydb` is the default database to serve on `localhost:8069`. You can add other
+and `mydb` is the default database to serve on `localhost:7073`. You can add other
 directory paths separated by a comma to ``addons`` at the end of the addons-path option.
 
 
