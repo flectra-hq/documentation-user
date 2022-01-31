@@ -15,7 +15,7 @@ Manage your follow-ups
     sending a statement to a customer that has already paid you.
 
 The overdue invoices you need to follow-up on are available by default
-in :menuselection:`Accounting --> Sales --> Follow-up Reports`. There,
+in :menuselection:`Accounting --> Follow-Up --> Payment Follow-up Reports`. There,
 you can easily send a reminder by email or print it as a letter. Then,
 you can click on the *Done* button to view the next follow-up that
 needs your attention.
@@ -36,13 +36,11 @@ bad, normal or good debtors on the follow-up reports.
 .. image:: media/followup01.png
     :align: center
 
-Send reminders in batch
+Send Letters and Emails
 =======================
 
 To get your follow-up process easier, you can send reminder emails in
-batch from your follow-up reports page. Select all the reports you would
-like to process, click on *Action* and then on *Process Follow-ups*.
-A pdf document containing all of the follow-up letters for you to print
+batch from your follow-up reports page. A pdf document containing all of the follow-up letters for you to print
 will also be automatically generated.
 
 .. image:: media/followup02.png
@@ -52,9 +50,7 @@ Plan a follow-up process
 ========================
 
 To plan a follow-up process, go to :menuselection:`Accounting -->
-Configuration --> Settings` and activate the *Follow-up Levels*
-feature under the *Customer Payments* section. Then, click on the new
-*Follow-up Levels* button that has appeared on your settings page.
+Configuration --> Follow-Up Levels`. Here you can create follow-up plans.
 
 A follow-up plan with several actions is available by default in Flectra,
 but you can customize it any way you want. Depending on a specific

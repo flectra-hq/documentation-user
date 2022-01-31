@@ -1553,7 +1553,7 @@ msgid "the user printing the report"
 msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:1325
-msgid "Because reports are standard web pages, they are available through a URL and output parameters can be manipulated through this URL, for instance the HTML version of the *Invoice* report is available through http://localhost:8069/report/html/account.report_invoice/1 (if ``account`` is installed) and the PDF version through http://localhost:8069/report/pdf/account.report_invoice/1."
+msgid "Because reports are standard web pages, they are available through a URL and output parameters can be manipulated through this URL, for instance the HTML version of the *Invoice* report is available through http://localhost:7073/report/html/account.report_invoice/1 (if ``account`` is installed) and the PDF version through http://localhost:7073/report/pdf/account.report_invoice/1."
 msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:1336
@@ -1569,7 +1569,7 @@ msgid "The wkhtmltopdf_ process will use the ``web.base.url`` system parameter a
 msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:1349
-msgid "``report.url``, pointing to an URL reachable from your server (probably ``http://localhost:8069`` or something similar). It will be used for this particular purpose only."
+msgid "``report.url``, pointing to an URL reachable from your server (probably ``http://localhost:7073`` or something similar). It will be used for this particular purpose only."
 msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:1353
@@ -4360,7 +4360,7 @@ msgid "start the Flectra server"
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:44
-msgid "go to http://localhost:8069"
+msgid "go to http://localhost:7073"
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:45
@@ -4406,7 +4406,7 @@ msgid "Shut down your server (:kbd:`^C`) then restart it:"
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:78
-msgid "and open a page to http://localhost:8069/academy/academy/, you should see your \"page\" appear:"
+msgid "and open a page to http://localhost:7073/academy/academy/, you should see your \"page\" appear:"
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:84
@@ -4453,7 +4453,7 @@ msgid "Alternatively, Flectra can be restarted :option:`and update modules at th
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:137
-msgid "Going to http://localhost:8069/academy/academy/ should now result in:"
+msgid "Going to http://localhost:7073/academy/academy/ should now result in:"
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:142
@@ -4553,7 +4553,7 @@ msgid "Because :meth:`~flectra.models.Model.search` returns a set of records mat
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:269
-msgid "Restart the server and update the module (in order to update the manifest and templates and load the demo file) then navigate to http://localhost:8069/academy/academy/. The page should look slightly different: names should simply be prefixed by a number (the database identifier for the teacher)."
+msgid "Restart the server and update the module (in order to update the manifest and templates and load the demo file) then navigate to http://localhost:7073/academy/academy/. The page should look slightly different: names should simply be prefixed by a number (the database identifier for the teacher)."
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:276
@@ -4581,7 +4581,7 @@ msgid "use the website layout in the template"
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:333
-msgid "After restarting the server while updating the module (in order to update the manifest and template) access http://localhost:8069/academy/academy/ should yield a nicer looking page with branding and a number of built-in page elements (top-level menu, footer, …)"
+msgid "After restarting the server while updating the module (in order to update the manifest and template) access http://localhost:7073/academy/academy/ should yield a nicer looking page with branding and a number of built-in page elements (top-level menu, footer, …)"
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:340
@@ -4621,7 +4621,7 @@ msgid "We've seen a \"literal\" routing string, which matches a URL section exac
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:377
-msgid "restart Flectra, access http://localhost:8069/academy/Alice/ and http://localhost:8069/academy/Bob/ and see the difference."
+msgid "restart Flectra, access http://localhost:7073/academy/Alice/ and http://localhost:7073/academy/Bob/ and see the difference."
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:380
@@ -4629,7 +4629,7 @@ msgid "As the name indicates, `converter patterns`_ don't just do extraction, th
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:391
-msgid "Restart Flectra, access http://localhost:8069/academy/2, note how the old value was a string, but the new one was converted to an integers. Try accessing http://localhost:8069/academy/Carol/ and note that the page was not found: since \"Carol\" is not an integer, the route was ignored and no route could be found."
+msgid "Restart Flectra, access http://localhost:7073/academy/2, note how the old value was a string, but the new one was converted to an integers. Try accessing http://localhost:7073/academy/Carol/ and note that the page was not found: since \"Carol\" is not an integer, the route was ignored and no route could be found."
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:397
@@ -4733,7 +4733,7 @@ msgid "``academy/views.xml``"
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:613
-msgid "then accessing http://localhost:8069/web/ in the top left should be a menu :guilabel:`Academy`, which is selected by default, as it is the first menu, and having opened a listing of teachers. From the listing it is possible to :guilabel:`Create` new teacher records, and to switch to the \"form\" by-record view."
+msgid "then accessing http://localhost:7073/web/ in the top left should be a menu :guilabel:`Academy`, which is selected by default, as it is the first menu, and having opened a listing of teachers. From the listing it is possible to :guilabel:`Create` new teacher records, and to switch to the \"form\" by-record view."
 msgstr ""
 
 #: ../../content/developer/howtos/website.rst:619
@@ -5807,7 +5807,7 @@ msgid "TCP/IP address on which the HTTP server listens, defaults to ``0.0.0.0`` 
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:284
-msgid "Port on which the HTTP server listens, defaults to 8069."
+msgid "Port on which the HTTP server listens, defaults to 7073."
 msgstr ""
 
 #: ../../content/developer/reference/cmdline.rst:288

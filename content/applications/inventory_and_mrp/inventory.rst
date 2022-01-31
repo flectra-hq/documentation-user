@@ -10,3 +10,4 @@ Inventory
    inventory/shipping
    inventory/routes
    inventory/barcode
+   inventory/plm

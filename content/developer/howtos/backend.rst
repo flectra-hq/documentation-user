@@ -1325,9 +1325,9 @@ A report is a combination two elements:
 Because reports are standard web pages, they are available through a URL and
 output parameters can be manipulated through this URL, for instance the HTML
 version of the *Invoice* report is available through
-http://localhost:8069/report/html/account.report_invoice/1 (if ``account`` is
+http://localhost:7073/report/html/account.report_invoice/1 (if ``account`` is
 installed) and the PDF version through
-http://localhost:8069/report/pdf/account.report_invoice/1.
+http://localhost:7073/report/pdf/account.report_invoice/1.
 
 .. _reference/backend/reporting/printed-reports/pdf-without-styles:
 
@@ -1347,7 +1347,7 @@ http://localhost:8069/report/pdf/account.report_invoice/1.
     adding one of these system parameters:
 
     - ``report.url``, pointing to an URL reachable from your server
-      (probably ``http://localhost:8069`` or something similar). It will be
+      (probably ``http://localhost:7073`` or something similar). It will be
       used for this particular purpose only.
 
     - ``web.base.url.freeze``, when set to ``True``, will stop the
@@ -1420,7 +1420,7 @@ server with the library ``xmlrpc.client``::
             import functools
             import xmlrpc.client
             HOST = 'localhost'
-            PORT = 8069
+            PORT = 7073
             DB = 'openacademy'
             USER = 'admin'
             PASS = 'admin'
@@ -1466,7 +1466,7 @@ example assumes the **Productivity** app (``note``) is installed::
     import urllib.request
 
     HOST = 'localhost'
-    PORT = 8069
+    PORT = 7073
     DB = 'openacademy'
     USER = 'admin'
     PASS = 'admin'

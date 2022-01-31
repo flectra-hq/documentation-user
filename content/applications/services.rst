@@ -8,3 +8,4 @@ Services
     services/project
     services/timesheets
     services/helpdesk
+    services/calendar-appointments
