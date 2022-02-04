@@ -1,7 +1,9 @@
-===============
-Inventory & Mrp
-===============
+:nosearch:
 
+===============
+Inventory & MRP
+===============
+    
 
 .. toctree::
 

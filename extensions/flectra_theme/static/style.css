@@ -675,7 +675,7 @@ body {
   color: #212529;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -8750,6 +8750,30 @@ aside.o_page_toc {
       @media (min-width: 1200px) {
         #wrap main.o_fullwidth_page .toctree-l1 > a {
           font-size: 1.5rem; } }
+    #wrap main.o_fullwidth_page div.toctree-wrapper > ul {
+      display: flex;
+      flex-wrap: wrap; }
+      @media (max-width: 991.98px) {
+        #wrap main.o_fullwidth_page div.toctree-wrapper > ul > li {
+          width: 100%; } }
+      @media (min-width: 992px) {
+        #wrap main.o_fullwidth_page div.toctree-wrapper > ul > li {
+          width: 33%; }
+          #wrap main.o_fullwidth_page div.toctree-wrapper > ul > li:not(:nth-of-type(3n)) {
+            padding-right: 10%; } }
+    #wrap main .toctree-wrapper > ul, #wrap main .toctree-wrapper .toctree-l1 > ul {
+      padding-left: 0;
+      list-style: none; }
+    #wrap main .toctree-wrapper .toctree-l1 {
+      margin-bottom: 2rem; }
+    #wrap main .toctree-wrapper .toctree-l2 > a[href="#"] {
+      margin-top: 0.7rem;
+      display: inline-block; }
+    #wrap main .toctree-wrapper a[href="#"] {
+      pointer-events: none;
+      cursor: default;
+      color: #282F33;
+      font-weight: 600; }
     #wrap main.o_has_code_column article.doc-body > * {
       max-width: 100%; }
     #wrap main.o_has_code_column article.doc-body .content-switcher .nav-tabs .nav-link.active {
@@ -8805,7 +8829,7 @@ aside.o_page_toc {
     #wrap main article.doc-body {
       position: relative; }
       #wrap main article.doc-body .toctree-wrapper {
-        display: none; }
+        display: block; }
       #wrap main article.doc-body .o_git_link {
         font-size: 0.875rem;
         position: absolute;
