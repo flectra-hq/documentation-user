@@ -1,3 +1,4 @@
+:show-content:
 
 =================================
 Contributing to the documentation

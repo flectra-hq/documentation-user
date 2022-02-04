@@ -469,6 +469,45 @@ header.o_main_header{
                 border-bottom: 1px solid $gray-light;
                 margin-bottom: 1rem;
             }
+             div.toctree-wrapper > ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    > li {
+                        @include media-breakpoint-down(lg) {
+                            width: 100%;
+                        }
+                        @include media-breakpoint-up(lg) {
+                            width: 33%;
+                            &:not(:nth-of-type(3n)){
+                                padding-right: 10%;
+                            }
+                        }
+
+                    }
+                }
+        }
+
+         .toctree-wrapper {
+            > ul, .toctree-l1 > ul {
+                padding-left: 0;
+                list-style: none;
+            }
+
+            .toctree-l1 {
+                margin-bottom: 2rem;
+            }
+
+            .toctree-l2 > a[href="#"] {
+                margin-top: 0.7rem;
+                display: inline-block;
+            }
+
+            a[href="#"] {
+                pointer-events: none;
+                cursor: default;
+                color: $gray-darker;
+                font-weight: $fw_semibold;
+            }
         }
 
         // pages with column for code on the right
@@ -559,7 +598,7 @@ header.o_main_header{
 
             // hide ugly toctree on "in between" pages (e.g.: /applications.html, /administration.html, ...)
             .toctree-wrapper {
-                display: none;
+                display: block;
             }
 
             .o_git_link {

@@ -1,9 +1,15 @@
+:nosearch:
+:show-content:
+:hide-page-toc:
+:show-toc:
+
 ==============
 Administration
 ==============
 
 
 .. toctree::
+    :titlesonly:
 
     administration/install
     administration/deployment

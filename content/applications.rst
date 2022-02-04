@@ -1,9 +1,16 @@
+:nosearch:
+:show-content:
+:hide-page-toc:
+:show-toc:
+
 ============
 Applications
 ============
 
+Discover our user guides and configuration tutorials per application.
 
 .. toctree::
+    :maxdepth: 2
 
     applications/finance
     applications/sales
