@@ -31,6 +31,36 @@ Statements*, or on the three dots, and then on *Import Statement*.
    :align: center
    :alt: Import a bank statement file in Flectra Accounting
 
+Import CSV bank statement files
+===============================
+
+To import them, go to :menuselection:`Accounting --> Overview --> Bank`, click on *Create*.
+
+.. image:: media/bs-1.png
+   :align: center
+
+Click on `Statement Lines`.
+
+.. image:: media/bs-2.png
+   :align: center
+
+Now click on :menuselection:`Favourites --> Import Records`.
+
+.. image:: media/bs-3.png
+   :align: center
+
+Here you can upload the csv file of statement and click on `Import` button.
+
+.. image:: media/bs-4.png
+   :align: center
+
+Here you can see transactions and reconcile it by clicking on `Reconcile` button.
+
+.. image:: media/bs-5.png
+.. image:: media/bs-6.png
+   :align: center
+
+
 
 Register bank statements manually
 =================================
