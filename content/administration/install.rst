@@ -67,14 +67,14 @@ These packages automatically set up all dependencies (for the Community version)
 but may be difficult to keep up-to-date.
 
 Official Community packages with all relevant dependency requirements are
-available on our nightly_ server. Both Communtiy and Professional packages can
+available on our download_ server. Both Communtiy and Professional packages can
 be downloaded from our download_ page (you must to be logged in as a paying
 customer or partner to download the Professional packages).
 
 Windows
 -------
 
-#. Download the installer from our nightly_ server (Community only) or the Windows installer from
+#. Download the installer from our download_ server (Community only) or the Windows installer from
    the download_ page (any edition).
 #. Execute the downloaded file.
 
@@ -107,13 +107,13 @@ used to install *Flectra Community Edition* by executing the following commands:
 
 .. code-block:: console
 
-    $ wget -O - https://nightly.flectrahq.com/flectra.key | sudo apt-key add -
-    $ sudo sh -c 'echo "deb http://nightly.flectrahq.com/2.0/nightly/deb/ ./" >> /etc/apt/sources.list.d/flectra.list'
+    $ wget -O - https://download.flectrahq.com/flectra.key | sudo apt-key add -
+    $ sudo sh -c 'echo "deb http://download.flectrahq.com/2.0/download/deb/ ./" >> /etc/apt/sources.list.d/flectra.list'
     $ sudo apt-get update && sudo apt-get install flectra
 
 You can then use the usual `apt-get upgrade` command to keep your installation up-to-date.
 
-At this moment, there is no nightly repository for the Professional Edition.
+At this moment, there is no download repository for the Professional Edition.
 
 Deb Package
 ^^^^^^^^^^^
@@ -168,7 +168,7 @@ commands:
 
 .. code-block:: console
 
-    $ sudo dnf config-manager --add-repo=https://nightly.flectrahq.com/2.0/nightly/rpm/flectra.repo
+    $ sudo dnf config-manager --add-repo=https://download.flectrahq.com/2.0/download/rpm/flectra.repo
     $ sudo dnf install -y flectra
     $ sudo systemctl enable flectra
     $ sudo systemctl start flectra
@@ -222,7 +222,7 @@ Community Edition:
 
 * `Official download page <download_>`_
 * `GitHub repository <community-repository_>`_
-* `Nightly server <nightly_>`_
+* `Download server <download_>`_
 
 Professional Edition:
 
@@ -368,7 +368,7 @@ Community Edition:
 
 * `Official download page <download_>`_
 * `GitHub repository <community-repository_>`_
-* `Nightly server <nightly_>`_
+* `Download server <download_>`_
 
 Professional Edition:
 
@@ -520,7 +520,7 @@ Community Edition:
 
 * `Official download page <download_>`_
 * `GitHub repository <community-repository_>`_
-* `Nightly server <nightly_>`_
+* `Download server <download_>`_
 
 Git
 ^^^
@@ -680,5 +680,5 @@ official Flectra `docker image <https://registry.hub.docker.com/_/flectra/>`_ pa
 .. _professional-repository: https://github.com/flectra/professional
 .. _git: https://git-scm.com/
 .. _Editions: https://www.flectrahq.com/pricing#pricing_table_features
-.. _nightly: https://nightly.flectrahq.com/
-.. _extra: https://nightly.flectrahq.com/extra/
+.. _download: https://download.flectrahq.com/
+.. _extra: https://download.flectrahq.com/extra/

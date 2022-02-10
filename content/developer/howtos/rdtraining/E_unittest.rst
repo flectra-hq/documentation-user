@@ -116,7 +116,7 @@ A sub-build is green if all the tests are passing and there are no errors/warnin
     on.
   * The localization modules (i.e. country-specific modules) are not installed on Runbot (except
     the generic one), some modules with external dependencies can be excluded also.
-  * There is a nightly build running additional tests, like module operations, localization, single
+  * There is a download build running additional tests, like module operations, localization, single
     module installs, multi-builds for nondeterministic bugs, etc.
     These are not kept in the standard CI to shorten the time of execution.
 

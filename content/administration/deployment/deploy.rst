@@ -459,7 +459,7 @@ security-related topics:
 
 - Keep installations updated by regularly installing the latest builds,
   either via GitHub or by downloading the latest version from
-  https://www.flectrahq.com/page/download or http://nightly.flectrahq.com
+  https://www.flectrahq.com/page/download or http://download.flectrahq.com
 
 - Configure your server in multi-process mode with proper limits matching your typical
   usage (memory/CPU/timeouts). See also :ref:`builtin_server`.
