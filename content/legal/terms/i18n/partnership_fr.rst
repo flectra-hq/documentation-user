@@ -125,7 +125,7 @@ Le PARTENAIRE aura accès à un coaching commercial fourni par son Account Manag
 par FLECTRA.
 
 Le PARTENAIRE a également la possibilité d'acheter des services de support ou de formation en
-souscrivant à un Flectra Success Pack, moyennant un supplément.
+souscrivant à un Flectra On Boarding Services, moyennant un supplément.
 
 4.5 Commissions sur les Services Flectra vendus par le PARTENAIRE
 -----------------------------------------------------------------

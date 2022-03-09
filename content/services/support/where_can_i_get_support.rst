@@ -11,5 +11,5 @@ Flectra Community
 
 Here are some resources that might help you:
 
-- Our `documentation pages <https://www.flectrahq.com/page/docs>`_.
-- Ask your question on the `community forum <https://www.flectrahq.com/forum/help-1>`_.
+- Our `documentation pages <https://doc.flectrahq.com/>`_.
+- Ask your question on the `community forum <https://flectrahq.com/forum/help-1>`_.

@@ -114,7 +114,7 @@ msgid "The upgrade process can take some time, especially if you use multiple ap
 msgstr ""
 
 #: ../../content/administration/db_management/db_online.rst:64
-msgid "Unfortunately, it is impossible to give time estimates for every upgrade request, since flectrahq.com will test manually every database upgrade at least once and will need to correct/adapt changes made to the standard Flectra Apps (e.g. through Studio or through a Success Pack) on a case-by-case basis. This can make the process slower, since requests are treated in the order they arrive. This is especially true in the months following the release of a new major version, which can lengthen the upgrade delay significantly."
+msgid "Unfortunately, it is impossible to give time estimates for every upgrade request, since flectrahq.com will test manually every database upgrade at least once and will need to correct/adapt changes made to the standard Flectra Apps (e.g. through Studio or through a On Boarding Services) on a case-by-case basis. This can make the process slower, since requests are treated in the order they arrive. This is especially true in the months following the release of a new major version, which can lengthen the upgrade delay significantly."
 msgstr ""
 
 #: ../../content/administration/db_management/db_online.rst:72

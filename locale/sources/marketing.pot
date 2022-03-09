@@ -261,7 +261,7 @@ msgid "**Can I use my own SMS provider?**"
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:134
-msgid "Yes, but it is not possible out of the box. Our experts can help you customize your database to make it happen. Please, check our success packs `here <https://www.flectrahq.com/pricing-packs>`_."
+msgid "Yes, but it is not possible out of the box. Our experts can help you customize your database to make it happen. Please, check our On Boarding Servicess `here <https://www.flectrahq.com/pricing-packs>`_."
 msgstr ""
 
 #: ../../content/applications/marketing/survey.rst:3

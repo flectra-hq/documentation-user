@@ -149,7 +149,7 @@ PARTNER will have access to commercial coaching provided by their dedicated Acco
 appointed by FLECTRA.
 
 PARTNER also has the option to purchase support services or training by subscribing to an Flectra
-Success Pack, for an extra fee.
+On Boarding Services, for an extra fee.
 
 4.5  Commissions on Flectra Services sold by PARTNER
 ----------------------------------------------------

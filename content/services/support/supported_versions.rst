@@ -6,10 +6,10 @@ Supported versions
 ==================
 
 
-Flectra provides support and bug fixing **for the 3 last major versions** of Flectra.
+Flectra provides support and bug fixing **for the flectra v2.0** of Flectra.
 
 Users hosted on **Flectra Online** may use intermediary versions (sometimes called *SaaS versions*) that are
-supported as well. These versions are not published for Flectra.sh or On-Premise
+supported as well. These versions are not published for FlectraHQ Inc. or On-Premise
 installations.
 
 
@@ -21,11 +21,9 @@ This matrix shows the support status of every version.
 **Major releases are in bold type.**
 
 +------------------+----------------+--------------+----------------+-------+
-|                  | Flectra Online | On-Premise   |   Release date |       |
+|                  | Flectra Online |  On-Premise  |  Release date  |       |
 +==================+================+==============+================+=======+
 | **Flectra 2.0**  |   |green|      |   |green|    | October 2020   |       |
-+------------------+----------------+--------------+----------------+-------+
-| **Flectra 1.0**  |   |green|      |      N/A     | August 2019    |       |
 +------------------+----------------+--------------+----------------+-------+
 
 .. note::
