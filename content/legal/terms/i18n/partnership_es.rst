@@ -122,7 +122,7 @@ EL COLABORADOR podrá acceder al coaching comercial facilitado por su gestor de 
 especializado, designado por FLECTRA.
 
 EL COLABORADOR también tiene la opción de comprar servicios de soporte o de formación
-suscribiéndose a un Success Pack de Flectra, por una tarifa adicional.
+suscribiéndose a un On Boarding Services de Flectra, por una tarifa adicional.
 
 4.5  Comisiones por los servicios de Flectra vendidos por EL COLABORADOR
 ------------------------------------------------------------------------

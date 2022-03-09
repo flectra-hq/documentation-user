@@ -3413,7 +3413,7 @@ msgid "EL COLABORADOR podrá acceder al coaching comercial facilitado por su ges
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:214
-msgid "EL COLABORADOR también tiene la opción de comprar servicios de soporte o de formación suscribiéndose a un Success Pack de Flectra, por una tarifa adicional."
+msgid "EL COLABORADOR también tiene la opción de comprar servicios de soporte o de formación suscribiéndose a un On Boarding Services de Flectra, por una tarifa adicional."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:218
@@ -3892,7 +3892,7 @@ msgid "Le PARTENAIRE aura accès à un coaching commercial fourni par son Accoun
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:212
-msgid "Le PARTENAIRE a également la possibilité d'acheter des services de support ou de formation en souscrivant à un Flectra Success Pack, moyennant un supplément."
+msgid "Le PARTENAIRE a également la possibilité d'acheter des services de support ou de formation en souscrivant à un Flectra On Boarding Services, moyennant un supplément."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:216
@@ -4441,7 +4441,7 @@ msgid "PARTNER will have access to commercial coaching provided by their dedicat
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:204
-msgid "PARTNER also has the option to purchase support services or training by subscribing to an Flectra Success Pack, for an extra fee."
+msgid "PARTNER also has the option to purchase support services or training by subscribing to an Flectra On Boarding Services, for an extra fee."
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:208

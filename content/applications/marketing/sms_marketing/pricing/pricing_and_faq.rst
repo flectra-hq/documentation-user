@@ -112,4 +112,4 @@ More common questions
 #. **Can I use my own SMS provider?**
 
    Yes, but it is not possible out of the box. Our experts can help you customize your database
-   to make it happen. Please, check our success packs `here <https://www.flectrahq.com/pricing-packs>`_.
+   to make it happen. Please, check our On Boarding Servicess `here <https://www.flectrahq.com/pricing-packs>`_.
