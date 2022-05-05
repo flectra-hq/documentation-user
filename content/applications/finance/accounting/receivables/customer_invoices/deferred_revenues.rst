@@ -66,6 +66,9 @@ save.
    :align: center
    :alt: Change of the Income Account for a product in Flectra 
 
+.. tip::
+   It is possible to automate the creation of revenue entries for these products (see:
+   `Automate the Deferred Revenues`_).
 
 Change the account of a posted journal item
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,3 +81,112 @@ want to modify, click on the account, and select the right one.
    :align: center
    :alt: Modification of a posted journal item's account in Flectra Accounting 
 
+Deferred Revenues entries
+=========================
+
+Create a new entry
+------------------
+
+A **Deferred Revenues entry** automatically generates all journal entries in *draft mode*. They are
+then posted one by one at the right time until the full amount of the income is recognized.
+
+To create a new entry, go to :menuselection:`Accounting --> Accounting --> Deferred Revenues`, click
+on *Create*, and fill out the form.
+
+Click on **select related purchases** to link an existing journal item to this new entry. Some
+fields are then automatically filled out, and the journal item is now listed under the **Related
+Sales** tab.
+
+.. image:: media/deferred_revenues05.png
+   :align: center
+   :alt: Deferred Revenue entry in Flectra Accounting
+
+Once done, you can click on *Compute Revenue* (next to the *Confirm* button) to generate all the
+values of the **Revenue Board**. This board shows you all the entries that Flectra will post to
+recognize your revenue, and at which date.
+
+.. image:: media/deferred_revenues06.png
+   :align: center
+   :alt: Revenue Board in Flectra Accounting   
+   
+What does "Prorata Temporis" mean?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The **Prorata Temporis** feature is useful to recognize your revenue the most accurately possible.
+
+With this feature, the first entry on the Revenue Board is computed based on the time left between
+the *Prorata Date* and the *First Recognition Date* rather than the default amount of time between
+recognitions.
+
+For example, the Revenue Board above has its first revenue with an amount of $ 4.22 rather than
+$ 70.00. Consequently, the last entry is also lower and has an amount of $ 65.78.
+
+Deferred Entry from the Sales Journal
+-------------------------------------
+
+You can create a deferred entry from a specific journal item in your **Sales Journal**.
+
+To do so, open your Sales Journal by going to 
+:menuselection:`Accounting --> Accounting --> Sales`, and select the journal item you want to defer.
+Make sure that it is posted in the right account (see:
+`Change the account of a posted journal item`_).
+
+Then, click on *Action*, select **Create Deferred Entry**, and fill out the form the same way you
+would do to `create a new entry`_.
+
+.. image:: media/deferred_revenues07.png
+   :align: center
+   :alt: Create Deferred Entry from a journal item in Flectra Accounting
+
+Deferred Revenue Models
+=======================
+
+You can create **Deferred Revenue Models** to create your Deferred Revenue entries faster.
+
+To create a model, go to :menuselection:`Accounting --> Configuration --> Deferred Revenue Models`,
+click on *Create*, and fill out the form the same way you would do to create a new entry.
+
+.. tip::
+   You can also convert a *confirmed Deferred Revenue entry* into a model by
+   opening it from :menuselection:`Accounting --> Accounting --> Deferred
+   Revenues` and then, by clicking on the button *Save Model*.
+
+Apply a Deferred Revenue Model to a new entry
+---------------------------------------------
+
+When you create a new Deferred Revenue entry,  fill out the **Deferred Revenue Account** with the
+right recognition account.
+
+
+.. image:: media/deferred_revenues08.png
+   :align: center
+   :alt: Deferred Revenue model button in Flectra Accounting
+
+.. _deferred-revenues-automation:
+
+Automate the Deferred Revenues
+==============================
+
+When you create or edit an account of which the type is either *Current Liabilities* or *Non-current
+Liabilities*, you can configure it to defer the revenues that are credited on it automatically.
+
+You have three choices for the **Automate Deferred Revenue** field:
+
+#. **No:** this is the default value. Nothing happens.
+#. **Create in draft:** whenever a transaction is posted on the account, a draft *Deferred Revenues
+   entry* is created, but not validated. You must first fill out the form in
+   :menuselection:`Accounting --> Accounting --> Deferred Revenues`.
+#. **Create and validate:** you must also select a Deferred Revenue Model (see:
+   `Deferred Revenue Models`_). Whenever a transaction is posted on the account, a *Deferred
+   Revenues entry* is created and immediately validated.
+
+.. image:: media/deferred_revenues09.png
+   :align: center
+   :alt: Automate Deferred Revenue on an account in Flectra Accounting
+
+.. tip::
+   You can, for example, select this account as the default **Income Account** of a product to fully
+   automate its sale. (see: `Choose a different Income Account for specific products`_).
+
+.. seealso::
+   * :doc:`../../getting_started/initial_configuration/chart_of_accounts`
