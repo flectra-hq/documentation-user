@@ -12,5 +12,5 @@ Manufacturing Management
    management/sub_assemblies
    management/alternative_wc
    management/subcontracting
-   management/routing_kit_bom
    management/use_mps
+   management/mrp_machine
