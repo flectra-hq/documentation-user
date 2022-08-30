@@ -56,29 +56,3 @@ Configure your Product
 .. image:: media/barcode_nomenclature_03.png
     :align: center
 
-In case you weight 1,5 Kg of pasta, the balance will print you the
-following barcode 2112345015002. If you scan this barcode in your POS or
-when receiving products in your barcode application, Flectra will
-automatically create a new line for the Pasta product for a quantity of
-1.5 Kg. For the point of sale, a price depending on the quantity will
-also be computed.
-
-.. image:: media/barcode_nomenclature_04.png
-    :align: center
-
-Rule Types
-----------
-
-- **Priced Product**: allows you to identify the product and specify its price, used in POS.
-- **Discounted Product**: allows you to create one barcode per applied discount. You can then scan your product in the POS and then scan the discount barcode, discount will be applied on the normal price of the product.
-- **Weighted Product**: allows you to identify the product and specify its weight, used in both POS (in which the price is computed based on the weight) and in inventory.
-- **Client**: allows you to identify the customer, for example used with loyalty program.
-- **Cashier**: allows you to identify the cashier when entering the POS.
-- **Location**: allows you to identify the location on a transfer when multi-location is activated.
-- **Package**: allows you to identify packages on a transfer when packages are activated.
-- **Credit Card**: doesn’t need manual modification, exists for data from the Mercury module.
-- **Unit Product**: allows you to identify a product for both POS and transfers.
-
-.. note::
-        When the barcode pattern contains .*, it means that it can contain any
-        number of characters, those characters being any number.

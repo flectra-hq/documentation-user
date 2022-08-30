@@ -56,7 +56,7 @@ wondering why do we put the files in a report directory? We saw earlier that the
 for data visualization, therefore it is not editable. You can think of dashboards as interactive
 reports where you can click on statistics, graphs, and charts to see the specific data contributing
 to them. Note it is also standard to store the xml code for
-:ref:`PDF report templates <howto/rdtraining/J_reports>` in the report directory.
+
 
 It is expected that your work tree will look something like:
 
