@@ -64,11 +64,9 @@ Advanced topics
     rdtraining/B_acl_irrules
     rdtraining/C_data
     rdtraining/E_unittest
-    rdtraining/J_reports
     rdtraining/K_dashboard
 
 * :doc:`rdtraining/B_acl_irrules`
 * :doc:`rdtraining/C_data`
 * :doc:`rdtraining/E_unittest`
-* :doc:`rdtraining/J_reports`
 * :doc:`rdtraining/K_dashboard`
