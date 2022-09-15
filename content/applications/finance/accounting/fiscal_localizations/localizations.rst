@@ -12,6 +12,7 @@ Localizations
    localizations/colombia_ES
    localizations/france
    localizations/germany
+   localizations/india
    localizations/indonesia
    localizations/italy_IT
    localizations/mexico
