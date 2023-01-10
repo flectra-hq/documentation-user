@@ -58,24 +58,6 @@ Click on **Save** when you are done.
 .. image:: media/works05.png
    :align: center
 
-Live Currency Rate
-------------------
-
-By default, the currencies need to be updated manually. But you can
-synchronize it with `Yahoo <https://finance.yahoo.com/currency-converter/>`__ or
-the `European Central Bank <http://www.ecb.europa.eu>`__. In 
-:menuselection:`Configuration --> Settings`, go to the **Live Currency Rate** section.
-
-Choose the interval : Manually, Daily, Weekly or Monthly. You can always
-force the update by clicking on **Update Now**. Select the provider, and you
-are set !
-
-.. image:: media/works06.png
-   :align: center
-
-.. note::
-   Only the **active** currencies are updated
-
 Configure your charts of account
 --------------------------------
 
