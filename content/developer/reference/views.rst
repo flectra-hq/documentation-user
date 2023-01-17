@@ -1197,7 +1197,7 @@ attributes:
 ``class``
   adds HTML classes to the root HTML element of the Kanban view
 ``examples``
-  if set to a key in the `KanbanExamplesRegistry`_, examples on column setups will be available in the grouped kanban view. `Here <https://github.com/flectra/flectra/blob/99821fdcf89aa66ac9561a972c6823135ebf65c0/addons/project/static/src/js/project_task_kanban_examples.js#L27>`_ is an example of how to define those setups.
+  if set to a key in the `KanbanExamplesRegistry`_, examples on column setups will be available in the grouped kanban view. `Here <https://gitlab.com/flectra-hq/flectra/blob/99821fdcf89aa66ac9561a972c6823135ebf65c0/addons/project/static/src/js/project_task_kanban_examples.js#L27>`_ is an example of how to define those setups.
 ``group_create``
   whether the "Add a new column" bar is visible or not. Default: true.
 ``group_delete``
@@ -1268,7 +1268,7 @@ Possible children of the view element are:
     according to current user parameters, the latter is the direct value from
     a :meth:`~flectra.models.Model.read` (except for date and datetime fields
     that are `formatted according to user's locale
-    <https://github.com/flectra/flectra/blob/a678bd4e/addons/web_kanban/static/src/js/kanban_record.js#L102>`_)
+    <https://gitlab.com/flectra-hq/flectra/blob/a678bd4e/addons/web_kanban/static/src/js/kanban_record.js#L102>`_)
   ``context``
     the current context, coming from the action, and the one2many or many2many
     field in the case of a Kanban view embedded in a Form view
@@ -2135,4 +2135,4 @@ has the effect to activate first ``bar`` then ``foo``.
 .. _kanban board: https://en.wikipedia.org/wiki/Kanban_board
 .. _pivot table: https://en.wikipedia.org/wiki/Pivot_table
 .. _XPath: https://en.wikipedia.org/wiki/XPath
-.. _KanbanExamplesRegistry: https://github.com/flectra/flectra/blob/99821fdcf89aa66ac9561a972c6823135ebf65c0/addons/web/static/src/js/views/kanban/kanban_examples_registry.js
+.. _KanbanExamplesRegistry: https://gitlab.com/flectra-hq/flectra/blob/99821fdcf89aa66ac9561a972c6823135ebf65c0/addons/web/static/src/js/views/kanban/kanban_examples_registry.js

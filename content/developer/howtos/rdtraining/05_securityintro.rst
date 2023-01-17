@@ -18,7 +18,7 @@ Data Files (CSV)
 Flectra is a highly data driven system. Although behavior is customized using Python code, part of a
 module's value is in the data it sets up when loaded. One way to load data is through a CSV
 file. One example is the
-`list of country states <https://github.com/flectra/flectra/blob/master/flectra/addons/base/data/res.country.state.csv>`__
+`list of country states <https://gitlab.com/flectra-hq/flectra/blob/master/flectra/addons/base/data/res.country.state.csv>`__
 which is loaded at installation of the ``base`` module.
 
 .. code-block:: text
@@ -37,7 +37,7 @@ which is loaded at installation of the ``base`` module.
 - ``code`` is the code of the state.
 
 These three fields are
-`defined <https://github.com/flectra/flectra/blob/2ad2f3d6567b6266fc42c6d2999d11f3066b282c/flectra/addons/base/models/res_country.py#L108-L111>`__
+`defined <https://gitlab.com/flectra-hq/flectra/blob/2ad2f3d6567b6266fc42c6d2999d11f3066b282c/flectra/addons/base/models/res_country.py#L108-L111>`__
 in the ``res.country.state`` model.
 
 By convention, a file importing data is located in the ``data`` folder of a module. When the data
@@ -45,7 +45,7 @@ is related to security, it is located in the ``security`` folder. When the data 
 views and actions (we will cover this later), it is located in the ``views`` folder.
 Additionally, all of these files must be declared in the ``data``
 list within the ``__manifest__.py`` file. Our example file is defined
-`in the manifest of the base module <https://github.com/flectra/flectra/blob/e8697f609372cd61b045c4ee2c7f0fcfb496f58a/flectra/addons/base/__manifest__.py#L29>`__.
+`in the manifest of the base module <https://gitlab.com/flectra-hq/flectra/blob/e8697f609372cd61b045c4ee2c7f0fcfb496f58a/flectra/addons/base/__manifest__.py#L29>`__.
 
 Also note that the content of the data files is only loaded when a module is installed or
 updated.
@@ -57,9 +57,9 @@ updated.
     is loaded before ``A``.
 
     In the case of the country states, you will note that the
-    `list of countries <https://github.com/flectra/flectra/blob/e8697f609372cd61b045c4ee2c7f0fcfb496f58a/flectra/addons/base/__manifest__.py#L22>`__
+    `list of countries <https://gitlab.com/flectra-hq/flectra/blob/e8697f609372cd61b045c4ee2c7f0fcfb496f58a/flectra/addons/base/__manifest__.py#L22>`__
     is loaded **before** the
-    `list of country states <https://github.com/flectra/flectra/blob/e8697f609372cd61b045c4ee2c7f0fcfb496f58a/flectra/addons/base/__manifest__.py#L29>`__.
+    `list of country states <https://gitlab.com/flectra-hq/flectra/blob/e8697f609372cd61b045c4ee2c7f0fcfb496f58a/flectra/addons/base/__manifest__.py#L29>`__.
     This is because the states refer to the countries.
 
 Why is all this important for security? Because all the security configuration of a model is loaded through

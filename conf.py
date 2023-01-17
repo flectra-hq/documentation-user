@@ -65,7 +65,7 @@ if not flectra_dir.is_dir():
         f"Could not find Flectra sources directory at {flectra_dir.absolute()}.\n"
         f"The 'Developer' documentation will be built but autodoc directives will be skipped.\n"
         f"In order to fully build the 'Developer' documentation, clone the repository with "
-        f"`git clone https://github.com/flectra/flectra` or create a symbolink link."
+        f"`git clone https://gitlab.com/flectra-hq/flectra` or create a symbolink link."
     )
 else:
     sys.path.insert(0, str(flectra_dir.absolute()))

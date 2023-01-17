@@ -9,7 +9,7 @@ Translating Modules
 This section explains how to provide translation abilities to your module.
 
 .. note:: If you want to contribute to the translation of Flectra itself, please refer to the
-  `Flectra Wiki page <https://github.com/flectra/flectra/wiki/Translations>`_.
+  `Flectra Wiki page <https://gitlab.com/flectra-hq/flectra/wiki/Translations>`_.
 
 Exporting translatable term
 ===========================

@@ -82,7 +82,7 @@ In the form view of the ``test.model``, we define a specific list view for ``tes
 with fields ``field_1`` and ``field_2``.
 
 An example can be found
-`here <https://github.com/flectra/flectra/blob/0e12fa135882cd5095dbf15fe2f64231c6a84336/addons/event/views/event_tag_views.xml#L27-L33>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/0e12fa135882cd5095dbf15fe2f64231c6a84336/addons/event/views/event_tag_views.xml#L27-L33>`__.
 
 .. exercise:: Add an inline list view.
 
@@ -126,7 +126,7 @@ take extra options. An exhaustive list can be found in :ref:`reference/js/widget
     depicted in the **Goal** of this section.
 
     Tip: a simple example can be found
-    `here <https://github.com/flectra/flectra/blob/0e12fa135882cd5095dbf15fe2f64231c6a84336/addons/account/views/account_bank_statement_views.xml#L136>`__.
+    `here <https://gitlab.com/flectra-hq/flectra/blob/0e12fa135882cd5095dbf15fe2f64231c6a84336/addons/account/views/account_bank_statement_views.xml#L136>`__.
 
 .. warning:: Same field multiple times in a view
 
@@ -193,7 +193,7 @@ View
 Ordering is possible at the model level. This has the advantage of a consistent order everywhere
 a list of records is retrieved. However, it is also possible to define a specific order directly
 in a view thanks to the ``default_order`` attribute
-(`example <https://github.com/flectra/flectra/blob/892dd6860733c46caf379fd36f57219082331b66/addons/crm/report/crm_activity_report_views.xml#L30>`__).
+(`example <https://gitlab.com/flectra-hq/flectra/blob/892dd6860733c46caf379fd36f57219082331b66/addons/crm/report/crm_activity_report_views.xml#L30>`__).
 
 Manual
 ------
@@ -220,9 +220,9 @@ the ``sequence`` field must be the first field in the ``_order`` attribute.
     - Add the sequence to the ``estate.property.type`` list view with the correct widget.
 
     Tip: you can find an example here:
-    `model <https://github.com/flectra/flectra/blob/892dd6860733c46caf379fd36f57219082331b66/addons/crm/models/crm_stage.py#L36>`__
+    `model <https://gitlab.com/flectra-hq/flectra/blob/892dd6860733c46caf379fd36f57219082331b66/addons/crm/models/crm_stage.py#L36>`__
     and
-    `view <https://github.com/flectra/flectra/blob/892dd6860733c46caf379fd36f57219082331b66/addons/crm/views/crm_stage_views.xml#L23>`__.
+    `view <https://gitlab.com/flectra-hq/flectra/blob/892dd6860733c46caf379fd36f57219082331b66/addons/crm/views/crm_stage_views.xml#L23>`__.
 
 Attributes and options
 ======================
@@ -403,9 +403,9 @@ need to use the ``search_default_{$name}`` action context, where ``{$name}`` is 
 This means that we can define which filter(s) will be activated by default at the action level.
 
 Here is an example of an
-`action <https://github.com/flectra/flectra/blob/6decc32a889b46947db6dd4d42ef995935894a2a/addons/crm/report/crm_opportunity_report_views.xml#L115>`__
+`action <https://gitlab.com/flectra-hq/flectra/blob/6decc32a889b46947db6dd4d42ef995935894a2a/addons/crm/report/crm_opportunity_report_views.xml#L115>`__
 with its
-`corresponding filter <https://github.com/flectra/flectra/blob/6decc32a889b46947db6dd4d42ef995935894a2a/addons/crm/report/crm_opportunity_report_views.xml#L68>`__.
+`corresponding filter <https://gitlab.com/flectra-hq/flectra/blob/6decc32a889b46947db6dd4d42ef995935894a2a/addons/crm/report/crm_opportunity_report_views.xml#L68>`__.
 
 .. exercise:: Add a default filter.
 
@@ -514,7 +514,7 @@ Every time the partner name is changed, the description is modified.
 
     - On the ``estate.property.offer`` action, add a domain that defines ``property_type_id``
       as equal to the ``active_id`` (= the current record,
-      `here is an example <https://github.com/flectra/flectra/blob/df37ce50e847e3489eb43d1ef6fc1bac6d6af333/addons/event/views/event_views.xml#L162>`__)
+      `here is an example <https://gitlab.com/flectra-hq/flectra/blob/df37ce50e847e3489eb43d1ef6fc1bac6d6af333/addons/event/views/event_views.xml#L162>`__)
 
 Looking good? If not, don't worry, the :ref:`next chapter <howto/rdtraining/13_inheritance>` doesn't
 require stat buttons ;-)

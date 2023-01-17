@@ -337,7 +337,7 @@ For Python, we use PEP8 with these options ignored:
 
 For JavaScript, we use ESLint and you can find a `configuration file example here`_.
 
-.. _configuration file example here: https://github.com/flectra/flectra/wiki/Javascript-coding-guidelines#use-a-linter
+.. _configuration file example here: https://gitlab.com/flectra-hq/flectra/wiki/Javascript-coding-guidelines#use-a-linter
 .. _VSCode: https://code.visualstudio.com/
 .. _VSCodium: https://vscodium.com/
 .. _Sublime Text: https://www.sublimetext.com/

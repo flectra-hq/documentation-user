@@ -60,11 +60,11 @@ Take a look at how the ``crm_recurring_plan`` table is defined and how the corre
 file is imported:
 
 1. The model is defined in the file ``crm/models/crm_recurring_plan.py``
-   (see `here <https://github.com/flectra/flectra/blob/e80911aaead031e7523173789e946ac1fd27c7dc/addons/crm/models/crm_recurring_plan.py#L1-L9>`__)
+   (see `here <https://gitlab.com/flectra-hq/flectra/blob/e80911aaead031e7523173789e946ac1fd27c7dc/addons/crm/models/crm_recurring_plan.py#L1-L9>`__)
 2. The file ``crm_recurring_plan.py`` is imported in ``crm/models/__init__.py``
-   (see `here <https://github.com/flectra/flectra/blob/e80911aaead031e7523173789e946ac1fd27c7dc/addons/crm/models/__init__.py#L15>`__)
+   (see `here <https://gitlab.com/flectra-hq/flectra/blob/e80911aaead031e7523173789e946ac1fd27c7dc/addons/crm/models/__init__.py#L15>`__)
 3. The folder ``models`` is imported in ``crm/__init__.py``
-   (see `here <https://github.com/flectra/flectra/blob/e80911aaead031e7523173789e946ac1fd27c7dc/addons/crm/__init__.py#L5>`__)
+   (see `here <https://gitlab.com/flectra-hq/flectra/blob/e80911aaead031e7523173789e946ac1fd27c7dc/addons/crm/__init__.py#L5>`__)
 
 .. exercise:: Define the real estate properties model.
 
@@ -196,7 +196,7 @@ and :class:`~flectra.fields.Selection`.
 
     The ``garden_orientation`` field must have 4 possible values: 'North', 'South', 'East'
     and 'West'. The selection list is defined as a list of tuples, see
-    `here <https://github.com/flectra/flectra/blob/b0e0035b585f976e912e97e7f95f66b525bc8e43/addons/crm/report/crm_activity_report.py#L31-L34>`__
+    `here <https://gitlab.com/flectra-hq/flectra/blob/b0e0035b585f976e912e97e7f95f66b525bc8e43/addons/crm/report/crm_activity_report.py#L31-L34>`__
     for an example.
 
 When the fields are added to the model, restart the server with ``-u estate``

@@ -85,7 +85,7 @@ In keeping with Flectra's data-driven nature, a group is no more than a record o
 the ``res.groups`` model. They are normally part of a module's :ref:`master data
 <howto/rdtraining/C_data>`, defined in one of the module's data files.
 
-As simple example `can be found here <https://github.com/flectra/flectra/blob/532c083cbbe0ee6e7a940e2bdc9c677bd56b62fa/addons/hr/security/hr_security.xml#L9-L14>`_.
+As simple example `can be found here <https://gitlab.com/flectra-hq/flectra/blob/532c083cbbe0ee6e7a940e2bdc9c677bd56b62fa/addons/hr/security/hr_security.xml#L9-L14>`_.
 
 .. admonition:: what is the *category_id*?
 
@@ -490,19 +490,19 @@ Here are some examples:
   group will not be able to retrieve the field, or even know it exists.
 
   Example: in server actions, `only system users can see or update Python code
-  <https://github.com/flectra/flectra/blob/7058e338a980268df1c502b8b2860bdd8be9f727/flectra/addons/base/models/ir_actions.py#L414-L417>`_.
+  <https://gitlab.com/flectra-hq/flectra/blob/7058e338a980268df1c502b8b2860bdd8be9f727/flectra/addons/base/models/ir_actions.py#L414-L417>`_.
 * Groups on *view elements* (in XML) are a visibility feature, users outside the
   group will not be able to see the element or its content in the form but they
   will otherwise be able to interact with the object (including that field).
 
   Example: `only managers have an immediate filter to see their teams' leaves
-  <https://github.com/flectra/flectra/blob/8e19904bcaff8300803a7b596c02ec45fcf36ae6/addons/hr_holidays/report/hr_leave_reports.xml#L16>`_.
+  <https://gitlab.com/flectra-hq/flectra/blob/8e19904bcaff8300803a7b596c02ec45fcf36ae6/addons/hr_holidays/report/hr_leave_reports.xml#L16>`_.
 * Groups on menus and actions are visibility features, the menu or action will
   not be shown in the interface but that doesn't prevent directly interacting
   with the underlying object.
 
   Example: `only system administrators can see the elearning settings menu
-  <https://github.com/flectra/flectra/blob/ff828a3e0c5386dc54e6a46fd71de9272ef3b691/addons/website_slides/views/website_slides_menu_views.xml#L64-L69>`_.
+  <https://gitlab.com/flectra-hq/flectra/blob/ff828a3e0c5386dc54e6a46fd71de9272ef3b691/addons/website_slides/views/website_slides_menu_views.xml#L64-L69>`_.
 
 .. exercise::
 

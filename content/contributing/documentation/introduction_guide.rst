@@ -64,13 +64,13 @@ Use the GitHub interface
 
    .. image:: media/version-selector.png
 
-#. Head over to the page that you want to change and click on the **Edit on GitHub** button in the
+#. Head over to the page that you want to change and click on the **Edit on GitLab** button in the
    bottom of the left menu.
 
    .. image:: media/edit-on-github.png
 
 #. If you do not have edit rights on the repository (`flectra/documentation
-   <https://github.com/flectra/documentation>`_), you need to fork it by clicking on the appropriate
+   <https://gitlab.com/flectra-hq/documentation-user>`_), you need to fork it by clicking on the appropriate
    button. In other terms, you create a copy of the entire repository on your own account. If you do
    have the edit rights, skip this step.
 
@@ -152,14 +152,14 @@ Fetch the sources
 ~~~~~~~~~~~~~~~~~
 
 As stated earlier, our documentation (in all its versions) is maintained on GitHub at
-`github.com/flectra/documentation <https://github.com/flectra/documentation>`_. A modification is made by
+`github.com/flectra/documentation <https://gitlab.com/flectra-hq/documentation-user>`_. A modification is made by
 the mean of a :abbr:`PR (Pull Request)` (:dfn:`proposal of content changes`) to allow for a review
 of the changes before updating the sources of the documentation.
 
 Prior to submitting a modification, you need to make a copy of the sources and download that copy on
 your machine.
 
-#. Go to `github.com/flectra/documentation <https://github.com/flectra/documentation>`_ and click on the
+#. Go to `github.com/flectra/documentation <https://gitlab.com/flectra-hq/documentation-user>`_ and click on the
    **Fork** button in the top right corner.
 
    .. image:: media/fork-button.png
@@ -168,7 +168,7 @@ your machine.
 
    .. code-block:: console
 
-      $ git clone https://github.com/flectra/documentation
+      $ git clone https://gitlab.com/flectra-hq/documentation-user
       $ cd documentation/
 
    .. important::
@@ -216,7 +216,7 @@ Python comes with its own package manager: `pip
 a single command.
 
 #. Download and install the recommended release (`see README file
-   <https://github.com/flectra/documentation/tree/2.0/README.md>`_) of **Python 3** on your machine.
+   <https://gitlab.com/flectra-hq/documentation-user/tree/2.0/README.md>`_) of **Python 3** on your machine.
 #. Make sure to have **pip** installed on your machine (on Windows, you can install pip alongside
    Python).
 #. Execute the following commands in a terminal to verify that both installations finished
@@ -368,7 +368,7 @@ Submit your changes
       $ git push -u origin2.0-my_contribution
 
 #. Go to `github.com/flectra/documentation/pulls
-   <https://github.com/flectra/documentation/pulls>`_ and click on the **New pull request** button.
+   <https://gitlab.com/flectra-hq/documentation-user/pulls>`_ and click on the **New pull request** button.
 
    .. image:: media/new-pull-request.png
 

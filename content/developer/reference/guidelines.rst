@@ -996,7 +996,7 @@ Javascript coding guidelines
 - Never add minified Javascript Libraries
 - Use camelcase for class declaration
 
-More precise JS guidelines are detailed in the `github wiki  <https://github.com/flectra/flectra/wiki/Javascript-coding-guidelines>`_.
+More precise JS guidelines are detailed in the `github wiki  <https://gitlab.com/flectra-hq/flectra/wiki/Javascript-coding-guidelines>`_.
 You may also have a look at existing API in Javascript by looking Javascript
 References.
 

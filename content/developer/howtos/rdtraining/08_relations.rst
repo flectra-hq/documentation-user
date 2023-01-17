@@ -108,7 +108,7 @@ In Flectra, there are two models which we commonly refer to:
     The default value for the salesperson must be the current user. The buyer should not be copied.
 
     Tip: to get the default value, check the note below or look at an example
-    `here <https://github.com/flectra/flectra/blob/5bb8b927524d062be32f92eb326ef64091301de1/addons/crm/models/crm_lead.py#L92>`__.
+    `here <https://gitlab.com/flectra-hq/flectra/blob/5bb8b927524d062be32f92eb326ef64091301de1/addons/crm/models/crm_lead.py#L92>`__.
 
 .. note::
 
@@ -184,7 +184,7 @@ operations like ``recs1 | recs2``.
     - Add the field ``tag_ids`` to your ``estate.property`` model and in its form and tree views
 
     Tip: in the view, use the ``widget="many2many_tags"`` attribute as demonstrated
-    `here <https://github.com/flectra/flectra/blob/5bb8b927524d062be32f92eb326ef64091301de1/addons/crm_iap_lead_website/views/crm_reveal_views.xml#L36>`__.
+    `here <https://gitlab.com/flectra-hq/flectra/blob/5bb8b927524d062be32f92eb326ef64091301de1/addons/crm_iap_lead_website/views/crm_reveal_views.xml#L36>`__.
     The ``widget`` attribute will be explained in detail in :ref:`a later chapter of the training <howto/rdtraining/12_sprinkles>`.
     For now, you can try to adding and removing it and see the result ;-)
 

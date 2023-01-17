@@ -307,7 +307,7 @@ or use alias names that match.
       You won't be able to check if your model is correct until we create a view for it, but you are
       welcome to check your query directly in your database to see if the results are as you expect.
       If you struggle with this exercise, then
-      `here is an example <https://github.com/flectra/flectra/blob/7417d8fc138b9de550bc631435bcc08628c29bed/addons/crm/report/crm_activity_report.py>`__
+      `here is an example <https://gitlab.com/flectra-hq/flectra/blob/7417d8fc138b9de550bc631435bcc08628c29bed/addons/crm/report/crm_activity_report.py>`__
       to reference.
 
 View

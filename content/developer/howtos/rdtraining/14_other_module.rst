@@ -73,7 +73,7 @@ call. Maybe an example will make things clearer::
             return super().inherited_action()
 
 A practical example can be found
-`here <https://github.com/flectra/flectra/blob/f1f48cdaab3dd7847e8546ad9887f24a9e2ed4c1/addons/event_sale/models/account_move.py#L7-L16>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/f1f48cdaab3dd7847e8546ad9887f24a9e2ed4c1/addons/event_sale/models/account_move.py#L7-L16>`__.
 
 .. exercise:: Add the first step of invoice creation.
 
@@ -93,14 +93,14 @@ to have a look at its model to find the required fields and provide appropriate 
 A good way to learn is to look at how other modules already do what you want to do. For example, one of
 the basic flows of Sales is the creation of an invoice from a sales order. This looks like a good
 starting point since it does exactly what we want to do. Take some time to read and understand the
-`_create_invoices <https://github.com/flectra/flectra/blob/f1f48cdaab3dd7847e8546ad9887f24a9e2ed4c1/addons/sale/models/sale.py#L610-L717>`__
+`_create_invoices <https://gitlab.com/flectra-hq/flectra/blob/f1f48cdaab3dd7847e8546ad9887f24a9e2ed4c1/addons/sale/models/sale.py#L610-L717>`__
 method. When you are done crying because this simple task looks awfully complex, we can move
 forward in the tutorial.
 
 To create an invoice, we need the following information:
 
 - a ``partner_id``: the customer
-- a ``move_type``: it has several `possible values <https://github.com/flectra/flectra/blob/f1f48cdaab3dd7847e8546ad9887f24a9e2ed4c1/addons/account/models/account_move.py#L138-L147>`__
+- a ``move_type``: it has several `possible values <https://gitlab.com/flectra-hq/flectra/blob/f1f48cdaab3dd7847e8546ad9887f24a9e2ed4c1/addons/account/models/account_move.py#L138-L147>`__
 - a ``journal_id``: the accounting journal
 
 This is enough to create an empty invoice.
@@ -112,7 +112,7 @@ This is enough to create an empty invoice.
     - the ``partner_id`` is taken from the current ``estate.property``
     - the ``move_type`` should correspond to a 'Customer Invoice'
     - the ``journal_id`` must be a ``sale`` journal (when in doubt, have a look
-      `here <https://github.com/flectra/flectra/blob/f1f48cdaab3dd7847e8546ad9887f24a9e2ed4c1/addons/sale/models/sale.py#L534>`__)
+      `here <https://gitlab.com/flectra-hq/flectra/blob/f1f48cdaab3dd7847e8546ad9887f24a9e2ed4c1/addons/sale/models/sale.py#L534>`__)
 
     Tips:
 

@@ -282,7 +282,7 @@ These test classes are built on top of the ``unittest`` python module.
 .. note:: For more readability, split your tests into multiple files depending on the scope of the
   tests. You can also have a Common class that most of the tests should inherit from; that common
   class can define the whole set up for the module. For instance in
-  `account <https://github.com/flectra/flectra/blob/2.0/addons/account/tests/common.py>`__.
+  `account <https://gitlab.com/flectra-hq/flectra/blob/2.0/addons/account/tests/common.py>`__.
 
 .. exercise:: Ensure no one can create an offer for a sold Property, and create a test for it.
 

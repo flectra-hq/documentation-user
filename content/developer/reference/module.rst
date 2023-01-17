@@ -135,4 +135,4 @@ Available manifest fields are:
 
 .. _semantic versioning: https://semver.org
 .. _existing categories:
-     https://github.com/flectra/flectra/blob/2.0/flectra/addons/base/data/ir_module_category_data.xml
+     https://gitlab.com/flectra-hq/flectra/blob/2.0/flectra/addons/base/data/ir_module_category_data.xml

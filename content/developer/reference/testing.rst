@@ -629,13 +629,13 @@ the needed data generators.
     :members: cartesian, compute, constant, iterate, randint, randomize
 
 .. _qunit: https://qunitjs.com/
-.. _qunit_config.js: https://github.com/flectra/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/qunit_config.js#L49
-.. _web.tests_assets: https://github.com/flectra/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/views/webclient_templates.xml#L594
-.. _web.qunit_suite: https://github.com/flectra/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/views/webclient_templates.xml#L660
-.. _web.qunit_suite_tests: https://github.com/flectra/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/views/webclient_templates.xml#L680
-.. _controller: https://github.com/flectra/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/controllers/main.py#L637
-.. _test_js.py: https://github.com/flectra/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/tests/test_js.py#L13
-.. _test_utils.js: https://github.com/flectra/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/test_utils.js
-.. _mock server: https://github.com/flectra/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/mock_server.js
-.. _qunit assertions: https://github.com/flectra/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/qunit_asserts.js
-.. _createView: https://github.com/flectra/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/test_utils_create.js#L267
+.. _qunit_config.js: https://gitlab.com/flectra-hq/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/qunit_config.js#L49
+.. _web.tests_assets: https://gitlab.com/flectra-hq/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/views/webclient_templates.xml#L594
+.. _web.qunit_suite: https://gitlab.com/flectra-hq/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/views/webclient_templates.xml#L660
+.. _web.qunit_suite_tests: https://gitlab.com/flectra-hq/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/views/webclient_templates.xml#L680
+.. _controller: https://gitlab.com/flectra-hq/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/controllers/main.py#L637
+.. _test_js.py: https://gitlab.com/flectra-hq/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/tests/test_js.py#L13
+.. _test_utils.js: https://gitlab.com/flectra-hq/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/test_utils.js
+.. _mock server: https://gitlab.com/flectra-hq/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/mock_server.js
+.. _qunit assertions: https://gitlab.com/flectra-hq/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/qunit_asserts.js
+.. _createView: https://gitlab.com/flectra-hq/flectra/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/test_utils_create.js#L267

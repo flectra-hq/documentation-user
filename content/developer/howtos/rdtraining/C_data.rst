@@ -420,6 +420,6 @@ bypasses all the features of the ORM, computed fields (including metadata) and p
 * It can help to speed the import time by a lot
   `with huge files <https://github.com/flectra/professional/blob/d46cceef8c594b9056d0115edb7169e207a5986f/product_unspsc/hooks.py#L19>`__.
 * For more complex imports like for the
-  `translations <https://github.com/flectra/flectra/blob/e1f8d549895cd9c459e6350430f30d541d02838a/flectra/addons/base/models/ir_translation.py#L24>`__.
+  `translations <https://gitlab.com/flectra-hq/flectra/blob/e1f8d549895cd9c459e6350430f30d541d02838a/flectra/addons/base/models/ir_translation.py#L24>`__.
 * It can be necessary to
-  `initialize the database <https://github.com/flectra/flectra/blob/e1f8d549895cd9c459e6350430f30d541d02838a/flectra/addons/base/data/base_data.sql>`__.
+  `initialize the database <https://gitlab.com/flectra-hq/flectra/blob/e1f8d549895cd9c459e6350430f30d541d02838a/flectra/addons/base/data/base_data.sql>`__.

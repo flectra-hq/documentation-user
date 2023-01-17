@@ -90,7 +90,7 @@ field whenever some of its dependencies have been modified::
     records by using the dot notation, e.g. ``record.name``.
 
 Many examples of computed fields can be found in Flectra.
-`Here <https://github.com/flectra/flectra/blob/713dd3777ca0ce9d121d5162a3d63de3237509f4/addons/account/models/account_move.py#L3420-L3423>`__
+`Here <https://gitlab.com/flectra-hq/flectra/blob/713dd3777ca0ce9d121d5162a3d63de3237509f4/addons/account/models/account_move.py#L3420-L3423>`__
 is a simple one.
 
 .. exercise:: Compute the total area.
@@ -112,7 +112,7 @@ For relational fields it's possible to use paths through a field as a dependency
 
 The example is given with a :class:`~flectra.fields.Many2one`, but it is valid for
 :class:`~flectra.fields.Many2many` or a :class:`~flectra.fields.One2many`. An example can be found
-`here <https://github.com/flectra/flectra/blob/713dd3777ca0ce9d121d5162a3d63de3237509f4/addons/account/models/account_reconcile_model.py#L248-L251>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/713dd3777ca0ce9d121d5162a3d63de3237509f4/addons/account/models/account_reconcile_model.py#L248-L251>`__.
 
 Let's try it in our module with the following exercise!
 
@@ -124,7 +124,7 @@ Let's try it in our module with the following exercise!
     - Add the field to the form view as depicted in the first image of this section's **Goal**.
 
     Tip: you might want to try using the :meth:`~flectra.models.BaseModel.mapped` method. See
-    `here <https://github.com/flectra/flectra/blob/f011c9aacf3a3010c436d4e4f408cd9ae265de1b/addons/account/models/account_payment.py#L686>`__
+    `here <https://gitlab.com/flectra-hq/flectra/blob/f011c9aacf3a3010c436d4e4f408cd9ae265de1b/addons/account/models/account_payment.py#L686>`__
     for a simple example.
 
 Inverse Function
@@ -157,7 +157,7 @@ To support this Flectra provides the ability to use an ``inverse`` function::
                 record.amount = record.total / 2.0
 
 An example can be found
-`here <https://github.com/flectra/flectra/blob/2ccf0bd0dcb2e232ee894f07f24fdc26c51835f7/addons/crm/models/crm_lead.py#L308-L317>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/2ccf0bd0dcb2e232ee894f07f24fdc26c51835f7/addons/crm/models/crm_lead.py#L308-L317>`__.
 
 A compute method sets the field while an inverse method sets the field's
 dependencies.
@@ -191,7 +191,7 @@ Additional Information
 Computed fields are **not stored** in the database by default. Therefore it is **not
 possible** to search on a computed field unless a ``search`` method is defined. This topic is beyond the scope
 of this training, so we won't cover it. An example can be found
-`here <https://github.com/flectra/flectra/blob/f011c9aacf3a3010c436d4e4f408cd9ae265de1b/addons/event/models/event_event.py#L188>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/f011c9aacf3a3010c436d4e4f408cd9ae265de1b/addons/event/models/event_event.py#L188>`__.
 
 Another solution is to store the field with the ``store=True`` attribute. While this is
 usually convenient, pay attention to the potential computation load added to your model. Lets re-use
@@ -275,7 +275,7 @@ Additional Information
 ----------------------
 
 Onchanges methods can also return a non-blocking warning message
-(`example <https://github.com/flectra/flectra/blob/cd9af815ba591935cda367d33a1d090f248dd18d/addons/payment_authorize/models/payment.py#L34-L36>`__).
+(`example <https://gitlab.com/flectra-hq/flectra/blob/cd9af815ba591935cda367d33a1d090f248dd18d/addons/payment_authorize/models/payment.py#L34-L36>`__).
 
 How to use them?
 ================

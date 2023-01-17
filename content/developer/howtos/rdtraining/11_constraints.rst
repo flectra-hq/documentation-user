@@ -42,7 +42,7 @@ valid SQL constraint name, ``sql_definition`` is a table_constraint_ expression
 and ``message`` is the error message.
 
 You can find a simple example
-`here <https://github.com/flectra/flectra/blob/24b0b6f07f65b6151d1d06150e376320a44fd20a/addons/analytic/models/analytic_account.py#L20-L23>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/24b0b6f07f65b6151d1d06150e376320a44fd20a/addons/analytic/models/analytic_account.py#L20-L23>`__.
 
 .. exercise:: Add SQL constraints.
 
@@ -101,7 +101,7 @@ raise an exception if its invariant is not satisfied::
         # all records passed the test, don't return anything
 
 A simple example can be found
-`here <https://github.com/flectra/flectra/blob/3783654b87851bdeb11e32da78bb5b62865b869a/addons/account/models/account_payment_term.py#L104-L108>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/3783654b87851bdeb11e32da78bb5b62865b869a/addons/account/models/account_payment_term.py#L104-L108>`__.
 
 .. exercise:: Add Python constraints.
 

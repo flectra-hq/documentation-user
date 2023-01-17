@@ -96,7 +96,7 @@ Flectra2.0 'deb' package currently supports `Debian Buster`_, `Ubuntu 20.04`_ or
 
 .. warning:: `wkhtmltopdf` is not installed through **pip** and must be installed manually in
              version `0.12.5 <the wkhtmltopdf download page_>`_ for it to support headers and
-             footers. See our `wiki <https://github.com/flectra/flectra/wiki/Wkhtmltopdf>`_ for more
+             footers. See our `wiki <https://gitlab.com/flectra-hq/flectra/wiki/Wkhtmltopdf>`_ for more
              details on the various versions.
 
 Repository
@@ -156,7 +156,7 @@ server:
 
 .. warning:: `wkhtmltopdf` is not installed through **pip** and must be installed manually in
              version `0.12.5 <the wkhtmltopdf download page_>`_ for it to support headers and
-             footers. See our `wiki <https://github.com/flectra/flectra/wiki/Wkhtmltopdf>`_ for more
+             footers. See our `wiki <https://gitlab.com/flectra-hq/flectra/wiki/Wkhtmltopdf>`_ for more
              details on the various versions.
 
 Repository
@@ -311,7 +311,7 @@ on the requirements file in a terminal **with Administrator privileges**:
 
 .. warning:: `wkhtmltopdf` is not installed through **pip** and must be installed manually in
              version `0.12.5 <the wkhtmltopdf download page_>`_ for it to support headers and
-             footers. See our `wiki <https://github.com/flectra/flectra/wiki/Wkhtmltopdf>`_ for more
+             footers. See our `wiki <https://gitlab.com/flectra-hq/flectra/wiki/Wkhtmltopdf>`_ for more
              details on the various versions.
 
 For languages with right-to-left interface (such as Arabic or Hebrew), the package `rtlcss` is
@@ -676,7 +676,7 @@ official Flectra `docker image <https://registry.hub.docker.com/_/flectra/>`_ pa
 .. _virtualenv: https://pypi.python.org/pypi/virtualenv
 .. _virtualenvwrapper: https://virtualenvwrapper.readthedocs.io/en/latest/
 .. _pywin32: http://sourceforge.net/projects/pywin32/files/pywin32/
-.. _community-repository: https://github.com/flectra/flectra
+.. _community-repository: https://gitlab.com/flectra-hq/flectra
 .. _professional-repository: https://github.com/flectra/professional
 .. _git: https://git-scm.com/
 .. _Editions: https://www.flectrahq.com/pricing#pricing_table_features

@@ -2404,7 +2404,7 @@ do that, several steps should be done.
           }
 
 The ``updateControlPanel`` is the main method to customize the content in controlpanel.
-For more information, look into the `control_panel_renderer.js <https://github.com/flectra/flectra/blob/13.0/addons/web/static/src/js/views/control_panel/control_panel_renderer.js#L130>`_ file.
+For more information, look into the `control_panel_renderer.js <https://gitlab.com/flectra-hq/flectra/blob/13.0/addons/web/static/src/js/views/control_panel/control_panel_renderer.js#L130>`_ file.
 
 .. _.appendTo():
     https://api.jquery.com/appendTo/

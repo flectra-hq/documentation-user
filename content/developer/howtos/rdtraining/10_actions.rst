@@ -95,9 +95,9 @@ Finally, a public method should always return something so that it can be called
 When in doubt, just ``return True``.
 
 There are hundreds of examples in the Flectra source code. One example is this
-`button in a view <https://github.com/flectra/flectra/blob/cd9af815ba591935cda367d33a1d090f248dd18d/addons/crm/views/crm_lead_views.xml#L9-L11>`__
+`button in a view <https://gitlab.com/flectra-hq/flectra/blob/cd9af815ba591935cda367d33a1d090f248dd18d/addons/crm/views/crm_lead_views.xml#L9-L11>`__
 and its
-`corresponding Python method <https://github.com/flectra/flectra/blob/cd9af815ba591935cda367d33a1d090f248dd18d/addons/crm/models/crm_lead.py#L746-L760>`__
+`corresponding Python method <https://gitlab.com/flectra-hq/flectra/blob/cd9af815ba591935cda367d33a1d090f248dd18d/addons/crm/models/crm_lead.py#L746-L760>`__
 
 .. exercise:: Cancel and set a property as sold.
 
@@ -114,7 +114,7 @@ and its
       Refer to the second image of the **Goal** for the expected result.
 
       Tip: to use an icon as a button, have a look
-      `at this example <https://github.com/flectra/flectra/blob/cd9af815ba591935cda367d33a1d090f248dd18d/addons/event/views/event_views.xml#L521>`__.
+      `at this example <https://gitlab.com/flectra-hq/flectra/blob/cd9af815ba591935cda367d33a1d090f248dd18d/addons/event/views/event_views.xml#L521>`__.
 
     - When an offer is accepted, set the buyer and the selling price for the corresponding property.
 

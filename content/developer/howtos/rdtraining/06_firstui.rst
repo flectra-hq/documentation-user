@@ -21,7 +21,7 @@ In :ref:`howto/rdtraining/05_securityintro`, we added data through a CSV file. T
 format is convenient when the data to load has a simple format. When the format is more complex
 (e.g. load the structure of a view or an email template), we use the XML format. For example,
 this
-`help field <https://github.com/flectra/flectra/blob/09c59012bf80d2ccbafe21c39e604d6cfda72924/addons/crm/views/crm_lost_reason_views.xml#L61-L69>`__
+`help field <https://gitlab.com/flectra-hq/flectra/blob/09c59012bf80d2ccbafe21c39e604d6cfda72924/addons/crm/views/crm_lost_reason_views.xml#L61-L69>`__
 contains HTML tags. While it would be possible to load such data through a CSV file, it is more
 convenient to use an XML file.
 
@@ -89,7 +89,7 @@ A basic action for our ``test.model`` is:
   We'll see :ref:`later <howto/rdtraining/15_qwebintro>` that there can be other view modes.
 
 Examples can be found everywhere in Flectra, but
-`this <https://github.com/flectra/flectra/blob/09c59012bf80d2ccbafe21c39e604d6cfda72924/addons/crm/views/crm_lost_reason_views.xml#L57-L70>`__
+`this <https://gitlab.com/flectra-hq/flectra/blob/09c59012bf80d2ccbafe21c39e604d6cfda72924/addons/crm/views/crm_lost_reason_views.xml#L57-L70>`__
 is a good example of a simple action. Pay attention to the structure of the XML data file since you will
 need it in the following exercise.
 

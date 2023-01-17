@@ -46,7 +46,7 @@ lists all the fields to display in the table (where each field is a column):
     </tree>
 
 A simple example can be found
-`here <https://github.com/flectra/flectra/blob/6da14a3aadeb3efc40f145f6c11fc33314b2f15e/addons/crm/views/crm_lost_reason_views.xml#L46-L54>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/6da14a3aadeb3efc40f145f6c11fc33314b2f15e/addons/crm/views/crm_lost_reason_views.xml#L46-L54>`__.
 
 .. exercise:: Add a custom list view.
 
@@ -111,7 +111,7 @@ It is possible to use regular HTML tags such as ``div`` and ``h1`` as well as th
 (Flectra provides some built-in classes) to fine-tune the look.
 
 A simple example can be found
-`here <https://github.com/flectra/flectra/blob/6da14a3aadeb3efc40f145f6c11fc33314b2f15e/addons/crm/views/crm_lost_reason_views.xml#L16-L44>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/6da14a3aadeb3efc40f145f6c11fc33314b2f15e/addons/crm/views/crm_lost_reason_views.xml#L16-L44>`__.
 
 .. exercise:: Add a custom form view.
 
@@ -185,7 +185,7 @@ predefined searches. Filters must have one of the following attributes:
   results on the given field name
 
 A simple example can be found
-`here <https://github.com/flectra/flectra/blob/715a24333bf000d5d98b9ede5155d3af32de067c/addons/delivery/views/delivery_view.xml#L30-L44>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/715a24333bf000d5d98b9ede5155d3af32de067c/addons/delivery/views/delivery_view.xml#L30-L44>`__.
 
 Before going further in the exercise, it is necessary to introduce the 'domain' concept.
 

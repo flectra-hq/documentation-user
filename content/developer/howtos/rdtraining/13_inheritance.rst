@@ -93,7 +93,7 @@ when you need to call the parent method with a modified recordset.
 
     Tip: the ``property_id`` field is available in the ``vals``, but it is an ``int``. To
     instantiate an ``estate.property`` object, use ``self.env[model_name].browse(value)``
-    (`example <https://github.com/flectra/flectra/blob/136e4f66cd5cafe7df450514937c7218c7216c93/addons/gamification/models/badge.py#L57>`__)
+    (`example <https://gitlab.com/flectra-hq/flectra/blob/136e4f66cd5cafe7df450514937c7218c7216c93/addons/gamification/models/badge.py#L57>`__)
 
 Model Inheritance
 =================
@@ -136,7 +136,7 @@ existing model, which means we will use the first mechanism. For example::
 
 A practical example where two fields are added to
 a model can be found
-`here <https://github.com/flectra/flectra/blob/60e9410e9aa3be4a9db50f6f7534ba31fea3bc29/addons/account_fleet/models/account_move.py#L39-L47>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/60e9410e9aa3be4a9db50f6f7534ba31fea3bc29/addons/account_fleet/models/account_move.py#L39-L47>`__.
 
 By convention, each inherited model is defined in its own Python file. In our example, it would be
 ``models/inherited_model.py``.
@@ -226,14 +226,14 @@ on the element to be found. Both inheritances below have the same result.
     </field>
 
 An example of a view inheritance extension can be found
-`here <https://github.com/flectra/flectra/blob/691d1f087040f1ec7066e485d19ce3662dfc6501/addons/account_fleet/views/account_move_views.xml#L3-L17>`__.
+`here <https://gitlab.com/flectra-hq/flectra/blob/691d1f087040f1ec7066e485d19ce3662dfc6501/addons/account_fleet/views/account_move_views.xml#L3-L17>`__.
 
 .. exercise:: Add fields to the Users view.
 
     Add the ``property_ids`` field to the ``base.view_users_form`` in a new notebook page.
 
     Tip: an example an inheritance of the users' view can be found
-    `here <https://github.com/flectra/flectra/blob/691d1f087040f1ec7066e485d19ce3662dfc6501/addons/gamification/views/res_users_views.xml#L5-L14>`__. 
+    `here <https://gitlab.com/flectra-hq/flectra/blob/691d1f087040f1ec7066e485d19ce3662dfc6501/addons/gamification/views/res_users_views.xml#L5-L14>`__. 
 
 Inheritance is extensively used in Flectra due to its modular concept. Do not hesitate to read
 the corresponding documentation for more info!
