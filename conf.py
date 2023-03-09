@@ -95,6 +95,9 @@ extensions = [
     # Support the specialized to-do directives
     'sphinx.ext.todo',
 
+    # Content tabs
+    'sphinx_tabs.tabs',
+
     # Custom Flectra theme
     'flectra_theme',
 
