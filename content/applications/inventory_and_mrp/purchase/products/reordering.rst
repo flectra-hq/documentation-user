@@ -9,11 +9,11 @@ whenever a sales order is created.
 .. important:: You need to install the *Inventory app* to use reordering rules.
 
 Configure your storable product
-================================
+===============================
 
 Open or create a product with its *Product Type* set to *Storable Product*.
 
-.. image:: media/reordering-storable-product.png
+.. image:: reordering/product.png
    :align: center
    :alt: Set the product type in Flectra
 
@@ -29,7 +29,7 @@ must order to benefit from that price.
    won't work. For that purpose, you can add the same vendor multiple times with different prices
    for different quantities.
 
-.. image:: media/reordering-product-vendor.png
+.. image:: reordering/reordering-product-vendor.png
    :align: center
    :alt: Add vendor to a product in Flectra
 
@@ -42,7 +42,7 @@ Next, make sure the correct route is selected under the Inventory tab of your pr
 created your product within the Purchase app, the *Buy* route is selected by default. If you are
 looking to dropship your product, select *Dropship*.
 
-.. image:: media/reordering-product-routes.png
+.. image:: reordering/reordering-product-routes.png
    :align: center
    :alt: Choose product routes in Flectra
 
@@ -51,7 +51,7 @@ Set up your reordering rule
 
 Open your product and click on the *Reordering Rules* button.
 
-.. image:: media/reordering-button.png
+.. image:: reordering/reordering-button.png
    :align: center
    :alt: Reordering rules button on a product in Flectra
 
@@ -85,7 +85,7 @@ Bear in mind that you might go over the maximum quantity you set if your rule in
 multiple, as Flectra orders enough products to reach the maximum quantity and respect the set quantity
 multiple.
 
-.. image:: media/reordering-create-rule.png
+.. image:: reordering/reordering-create-rule.png
    :align: center
    :alt: Create a reordering rule in Flectra
 

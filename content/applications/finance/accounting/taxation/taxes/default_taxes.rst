@@ -1,12 +1,12 @@
 =============
-Default Taxes
+Default taxes
 =============
 
 **Default Taxes** define which :doc:`taxes <taxes>` are automatically selected when there is no
 other indication about which tax to use. For example, Flectra prefills the **Taxes** field with the
 Default Taxes when you create a new product or add a new line on an invoice.
 
-.. image:: media/default-taxes-invoice-line.png
+.. image:: default_taxes/default-taxes-invoice-line.png
    :align: center
    :alt: Flectra fills out the Tax field automatically according to the Default Taxes
 
@@ -19,14 +19,14 @@ Configuration
 =============
 
 **Default Taxes** are automatically set up according to the country selected at the creation of your
-database, or when you set up a :doc:`Fiscal Localization Package
-<../../fiscal_localizations/overview/fiscal_localization_packages>` for your company.
+database, or when you set up a :ref:`fiscal localization package <fiscal_localizations/packages>`
+for your company.
 
 To change your **Default Taxes**, go to :menuselection:`Accounting --> Configuration --> Settings
 --> Taxes --> Default Taxes`, select the appropriate taxes for your default **Sales Tax** and
 **Purchase Tax**, and click on *Save*.
 
-.. image:: media/default-taxes-configuration.png
+.. image:: default_taxes/default-taxes-configuration.png
    :align: center
    :alt: Define which taxes to use by default on Flectra
 
@@ -37,4 +37,4 @@ To change your **Default Taxes**, go to :menuselection:`Accounting --> Configura
 
   - :doc:`taxes`
   - :doc:`fiscal_positions`
-  - :doc:`../../fiscal_localizations/overview/fiscal_localization_packages`
+  - :doc:`../../../fiscal_localizations`

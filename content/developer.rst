@@ -13,7 +13,8 @@ Learn through tutorials and get help using reference guides.
 
 .. toctree::
     :titlesonly:
+    :maxdepth: 3
 
-    developer/reference
-    developer/webservices
+    developer/tutorials
     developer/howtos
+    developer/reference

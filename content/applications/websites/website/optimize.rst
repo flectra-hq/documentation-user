@@ -1,3 +1,5 @@
+:nosearch:
+
 ========
 Optimize
 ========
@@ -7,8 +9,6 @@ Optimize
 
    optimize/seo
    optimize/google_analytics
-   optimize/google_analytics_dashboard
-   optimize/website_jitsi
-
-
-
+   optimize/plausible
+   optimize/link_tracker
+   optimize/unsplash

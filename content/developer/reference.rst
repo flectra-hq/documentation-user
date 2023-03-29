@@ -1,4 +1,4 @@
-:types: reference
+:nosearch:
 
 =========
 Reference
@@ -7,21 +7,10 @@ Reference
 .. toctree::
     :titlesonly:
 
-    reference/orm
-    reference/data
-    reference/actions
-    reference/views
-    reference/module
-    reference/cmdline
-    reference/security
-    reference/testing
-
-    reference/http
-    reference/qweb
-    reference/javascript_cheatsheet
-    reference/javascript_reference
-    reference/translations
-    reference/reports
-    reference/mixins
-    reference/guidelines
-    reference/iot
+    reference/backend
+    reference/frontend
+    reference/user_interface
+    reference/standard_modules
+    reference/cli
+    reference/external_api
+    reference/extract_api

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) FlectraHQ, Inc..
+# Copyright (C) Flectra S.A.
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra2.0\n"
+"Project-Id-Version: Flectra 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 07:12+0200\n"
 "PO-Revision-Date: 2020-09-22 14:40+0000\n"

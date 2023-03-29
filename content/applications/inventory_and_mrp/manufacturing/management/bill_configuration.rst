@@ -1,90 +1,97 @@
-=========================
-Create Bills of Materials
-=========================
+==========================
+Create a bill of materials
+==========================
 
-A *Bill of Materials* is a document defining the quantity of each
-component required to manufacture a finished product. It also includes
-the routing and individual steps of the manufacturing process.
+A *Bill of Materials* (or *BoM* for short) is a document that defines the quantity of each
+component required to make or deliver a finished product. It can also include various operations
+and the individual step guidelines needed to complete a production process.
 
-With Flectra, you can link multiple BoMs to each product and use it to
-describe multiple variants of them. Each BoM will, yet, be associated
-with one product only.
+In Flectra Manufacturing, multiple :abbr:`BoMs (Bills of Materials)` can be linked to each product, so
+that even product variants can have their own tailored :abbr:`BoMs (Bills of Materials)`.
 
-This feature will help optimize your manufacturing process while saving
-you time.
+Correctly setting up a :abbr:`BoM (Bill of Materials)` helps optimize the manufacturing process and
+save time.
 
-Setting up a BoM
-================
+Set up a bill of baterials (BoM)
+================================
 
-You can use BoMs without routings. You will use this if you choose to
-manage your manufacturing operations using manufacturing orders only. In
-other words, you choose to realize your manufacturing process in one
-step and do not track the steps the product goes through.
+The simplest :abbr:`BoM (Bill of Materials)` setup is one without operations or instructions, only
+components. In this case, the production is solely managed using *Manufacturing Orders*.
 
-Before creating your *BoM*, you have to create the product using the
-*BoM* and, at least, one of the components. Go to the :menuselection:`Master Data menu --> Products`
-and create both the finished product and the component.
-
-Once done, go to the *Bills of Materials* menu under *Master Data*.
-Now, create it. Choose the product from the dropdown menu and add your
-components and the quantity. In this case, keep the default *BoM*
-type, which is *Manufacture this Product*.
-
-.. image:: media/bills_of_materials_01.png
-    :align: center
-
-Using the same BoM to describe Variants
----------------------------------------
-
-As said above, you can use *BoM* for *Product Variants*. It is
-basically the same as for the standard product.
-
-If your *BoM* is for one variant only, then specify which one in the
-*Product Variant* field. If not, specify the variant it is consumed
-for on each component line. You can add several variants for each
-component.
-
-.. image:: media/bills_of_materials_02.png
-    :align: center
-
-Adding a routing
-================
-
-You can add routing to your *BoM*. You will do this if you need to
-define a series of operations required by your manufacturing process. To
-use it, enable the *Work Orders* feature in the *Manufacturing* app
-settings.
-
-.. image:: media/bills_of_materials_03.png
-    :align: center
+To create a :abbr:`BoM (Bill of Materials)` from the :guilabel:`Manufacturing` module, go to
+:menuselection:`Products --> Bills of Materials`. Then, click :guilabel:`Create`. Next, specify the
+:guilabel:`Product`.
 
 .. note::
-         Each *BoM* can have only one routing while each routing can be used
-         multiple times.
+   A :abbr:`BoM (Bill of Materials)` can also be created directly from the product form, in which
+   case the :guilabel:`Product` field is pre-filled.
 
-Now that you have created your routing, add it to your *BoM*. You can
-select when, in the work operations, your components are consumed with
-the dropdown menu.
+For a standard :abbr:`BoM (Bill of Materials)`, set the :guilabel:`BoM Type` to
+:guilabel:`Manufacture this Product`. Then, click :guilabel:`Add a Line` to specify the various
+components that make up the production of the final product and their respective quantities. New
+components can be created quickly through the :abbr:`BoM (Bill of Materials)`, or can be created
+beforehand in :menuselection:`Manufacturing --> Products --> Products --> Create`. Finally, click
+:guilabel:`Save` to finish creating the :abbr:`BoM (Bill of Materials)`.
 
-.. image:: media/bills_of_materials_04.png
-    :align: center
+.. image:: bill_configuration/bom-form.png
+   :align: center
+   :alt: Set up a Bill of Materials.
 
-Adding By-Products
-==================
+Specify a bill of materials (BoM) for a product variant
+-------------------------------------------------------
 
-In Flectra, a *by-product* is any product produced by a *BoM* in
-addition to the primary product.
+:abbr:`BoMs (Bills of Materials)` can also be assigned to specific *Product Variants*, with two
+setup options available to choose from.
 
-To add *by-products* to a *BoM*, you will first need to enable them
-from the *Manufacturing* app settings.
+.. note::
+   In order to assign :abbr:`BoMs (Bills of Materials)` to product variants, the product's variant
+   attributes must already be configured on the product form.
 
-.. image:: media/bills_of_materials_05.png
-    :align: center
+The first method is to create one :abbr:`BoM (Bill of Materials)` per variant by creating a new
+:abbr:`BoM (Bill of Materials)` and specifying the :guilabel:`Product Variant`. The second method
+is to create one master :abbr:`BoM (Bill of Materials)` that contains all of the components, and
+specify which variant each component applies to using the :guilabel:`Apply on Variants` column.
 
-Once the feature is enabled, you can add your *By-Products* to your
-*BoMs*. You can add as many *By-Products* as you want. Just keep in
-mind that you need to register during which operation your by-product is
-produced.
+.. image:: bill_configuration/bom-variants.png
+   :align: center
+   :alt: Product Variants in the Bill of Materials.
 
-.. image:: media/bills_of_materials_06.png
-    :align: center
+Set up operations
+=================
+
+Add an :guilabel:`Operation` to a :abbr:`BoM (Bill of Materials)` to specify instructions for
+production and register time spent on an operation. To use this feature, first enable the
+:guilabel:`Work Orders` feature in :menuselection:`Manufacturing --> Configuration --> Settings -->
+Operations`.
+
+Then, when creating a new :abbr:`BoM (Bill of Materials)`, click on the :guilabel:`Operations` tab
+and click :guilabel:`Add a line` to add a new operation. In the :guilabel:`Create Operations` box,
+give the operation a name, specify the :guilabel:`Work Center` and duration settings. Like
+components, Flectra gives the option to specify a product variant in the :guilabel:`Apply on Variants`
+field so the operation only applies to that variant. Finally, click :guilabel:`Save & Close`.
+
+.. note::
+   Each operation is unique, as it is always exclusively linked to one :abbr:`BoM (Bill of
+   Materials)`. Operations can be reused when configuring a new :abbr:`BoM (Bill of Materials)`,
+   with the :guilabel:`Copy Existing Operations` feature.
+
+.. image:: bill_configuration/copy-existing-operations.png
+   :align: center
+   :alt: Copy Existing Operations feature.
+
+Add by-products to a bill of materials (BoM)
+============================================
+
+A *By-Product* is a residual product that is created during production in addition to the main
+product of a :abbr:`BoM (Bill of Materials)`. Unlike the primary product, there can be more than
+one by-product on a :abbr:`BoM (Bill of Materials)`.
+
+To add by-products to a :abbr:`BoM (Bill of Materials)`, first enable the :guilabel:`By-Products`
+feature in :menuselection:`Manufacturing --> Configuration --> Settings --> Operations`.
+
+Once the feature is enabled, you can add by-products to a :abbr:`BoM (Bill of Materials)` by
+clicking on the :guilabel:`Operations` tab and clicking :guilabel:`Add a line`. Then, name the
+by-product and indicate the :guilabel:`Quantity` and the :guilabel:`Unit of Measure`. If the
+:abbr:`BoM (Bill of Materials)` has configured operations, specify exactly which operation the
+by-product is produced from in the :guilabel:`Produced in Operation` field. Finally, click
+:guilabel:`Save`.

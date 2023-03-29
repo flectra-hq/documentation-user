@@ -1,0 +1,10 @@
+==========================
+Introduction to Flectra.sh
+==========================
+
+.. youtube:: QuNsa9n9PMg
+    :align: right
+    :width: 700
+    :height: 394
+
+The documentation will help you go live with your Flectra.sh project in no time.

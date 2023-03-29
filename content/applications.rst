@@ -3,11 +3,13 @@
 :hide-page-toc:
 :show-toc:
 
-============
-Applications
-============
+
+=========
+User Docs
+=========
 
 Discover our user guides and configuration tutorials per application.
+
 
 .. toctree::
     :maxdepth: 2
@@ -19,5 +21,4 @@ Discover our user guides and configuration tutorials per application.
     applications/marketing
     applications/services
     applications/productivity
-    applications/settings
     applications/general

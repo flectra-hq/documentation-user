@@ -1,5 +1,7 @@
+:nosearch:
+
 =====================
-Initial Configuration
+Initial configuration
 =====================
 
 .. toctree::

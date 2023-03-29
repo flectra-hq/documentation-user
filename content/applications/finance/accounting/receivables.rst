@@ -1,5 +1,7 @@
+:nosearch:
+
 ===================
-Account Receivables
+Account receivables
 ===================
 
 .. toctree::

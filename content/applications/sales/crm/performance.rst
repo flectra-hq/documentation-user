@@ -1,8 +1,11 @@
+:nosearch:
+
 ===================
-Analyze performance 
+Analyze performance
 ===================
 
 .. toctree::
    :titlesonly:
 
    performance/win_loss
+   performance/google_spreadsheets

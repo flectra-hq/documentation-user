@@ -1,3 +1,5 @@
+:nosearch:
+
 =====
 Setup
 =====
@@ -7,3 +9,4 @@ Setup
    :glob:
 
    setup/hardware
+   setup/software

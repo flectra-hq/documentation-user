@@ -11,6 +11,9 @@ Inventory
 advanced barcode scanner app. Learn how to manage lead times, automate replenishments, and configure
 advanced routes like drop-shipping, cross-docks, etc.
 
+.. seealso::
+   - `Flectra Tutorials: Inventory <https://www.flectra.com/slides/inventory-24>`_
+   - `Flectra Tutorials: Barcode Scanner <https://www.flectra.com/slides/barcode-30>`_
 
 .. toctree::
    :titlesonly:
@@ -19,4 +22,3 @@ advanced routes like drop-shipping, cross-docks, etc.
    inventory/shipping
    inventory/routes
    inventory/barcode
-   inventory/plm

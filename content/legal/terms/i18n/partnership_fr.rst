@@ -4,6 +4,9 @@
 Flectra Partnership Agreement (FR)
 ==================================
 
+.. only:: html
+
+    `Download PDF <odoo_partnership_agreement_fr.pdf>`_
 .. warning::
     Ceci est une traduction en français du contrat “Flectra Partnership Agreement”.
     Cette traduction est fournie dans l’espoir qu’elle facilitera sa compréhension, mais elle
@@ -16,11 +19,12 @@ Flectra Partnership Agreement (FR)
 .. v9: added maintenance commission + obligations
 .. v9a: minor clarification to allow OE commission even without maintenance
 .. v9b: 2021-01-12 - update requirements for Partnership levels
+.. v10: 2023-01-09 - change Flectra SH commission rate to 50%
 
-.. note:: Version 9b - 2021-01-12
+.. note:: Version 10 - 2023-01-09
 
 | ENTRE:
-|  FlectraHQ, Inc.., une entreprise dont le siège social se situe Chaussée de Namur, 40,
+|  Flectra S.A., une entreprise dont le siège social se situe Chaussée de Namur, 40,
 |  1367 Grand-Rosière, Belgique, et ses filialies (désignées collectivement « FLECTRA »)
 | ET:
 |  _____________________________________________, une entreprise dont le siège social se situe à
@@ -34,15 +38,15 @@ le terme « les Parties ».
 1 Objectif
 ==========
 L’objectif de ce Contrat est de présenter les conditions auxquelles FLECTRA fournit des services au
-PARTENAIRE et l’accès au logiciel Flectra Professional Edition, et en vertu desquelles le PARTENAIRE
+PARTENAIRE et l’accès au logiciel Flectra Enterprise Edition, et en vertu desquelles le PARTENAIRE
 se plie aux obligations énoncées ci-après.
 
 Par le présent accord, FLECTRA désigne le PARTENAIRE, désignation acceptée par le PARTENAIRE,
-comme partenaire non exclusif pour promouvoir et vendre « Flectra Professional Edition » à des clients.
+comme partenaire non exclusif pour promouvoir et vendre « Flectra Enterprise Edition » à des clients.
 
-Le PARTENAIRE s’engage à faire tous les efforts possibles pour vendre des contrats Flectra Professional
+Le PARTENAIRE s’engage à faire tous les efforts possibles pour vendre des contrats Flectra Enterprise
 à ses clients. Pour étayer ces efforts, le PARTENAIRE commercialisera en priorité la version
-« Flectra Professional Edition » aux prospects et clients. Si nécessaire, le PARTENAIRE peut vendre des
+« Flectra Enterprise Edition » aux prospects et clients. Si nécessaire, le PARTENAIRE peut vendre des
 services sur d’autres versions du logiciel, comme « Flectra Community Edition ».
 
 2 Durée du Contrat
@@ -50,6 +54,35 @@ services sur d’autres versions du logiciel, comme « Flectra Community Editio
 Ce Contrat restera en vigueur pendant un an (la « Durée ») à compter de la date de la signature.
 Il est automatiquement renouvelé pour une Durée équivalente, à moins qu’une partie transmette
 à l’autre partie une dénonciation écrite au moins 30 jours avant la fin de la Durée.
+
+
+3 Accès à Flectra Enterprise Edition
+====================================
+
+3.1 Accès à la plate-forme projet
+---------------------------------
+Pour aider le PARTENAIRE à promouvoir Flectra Enterprise Edition, FLECTRA octroie au PARTENAIRE l’accès
+à son dépôt de code pour toutes les « Apps Flectra Enterprise Edition » sous les conditions
+présentées dans :ref:`appendix_p_a_fr` et les conditions reprises dans ce Contrat.
+
+FLECTRA accorde aussi au PARTENAIRE un accès gratuit à la plate-forme FLECTRA.SH, exclusivement dans un
+but de test et de développement.
+
+.. _restrictions_fr:
+
+3.2 Restrictions
+----------------
+Le PARTENAIRE s’engage à maintenir la confidentialité du code source des Apps Flectra Enterprise
+Edition au sein de son personnel. L’accès au code source d’Flectra Enterprise Edition pour les clients
+est régi par l'Flectra Enterprise Subscription Agreement.
+Le PARTENAIRE s'engage à ne PAS redistribuer ce code à un tiers sans l’autorisation écrite d’FLECTRA.
+
+Le PARTENAIRE s'engage à n'offrir des services relatifs à Flectra Enterprise Edition qu'aux
+clients qui disposent d'un contrat Flectra Enterprise valide, et ce même pendant la phase d'implémentation.
+
+Nonobstant ce qui précède, le PARTENAIRE s’engage à préserver totalement l’intégrité du code
+d’Flectra Enterprise Edition requis pour vérifier la validité de l’utilisation d’Flectra Enterprise Edition
+et recueillir les données statistiques nécessaires à cette fin.
 
 4 Services du partenariat
 =========================
@@ -62,8 +95,8 @@ mise en oeuvre d'Flectra, mais sans la visibilité d'un partenaire officiel, en 
 l'expérience requise; tandis qu' "Official Partners" est prévu pour les sociétés qui veulent la visibilité
 en tant que partenaire Ready, Silver ou Gold, suivant leur niveau d'expérience.
 
-Le niveau de partenariat accordé au PARTENAIRE dépend des nouvelles recettes annuelles Flectra Professional
-générées par le PARTENAIRE pour FLECTRA (en terme du nombre de nouveaux utilisateur Flectra Professional vendus),
+Le niveau de partenariat accordé au PARTENAIRE dépend des nouvelles recettes annuelles Flectra Enterprise
+générées par le PARTENAIRE pour FLECTRA (en terme du nombre de nouveaux utilisateur Flectra Enterprise vendus),
 du nombre de ressources internes certifiées, et du taux de rétention de clients.
 Les renouvellements de contrats existants
 n’entrent pas en ligne de compte pour le nombre de nouveaux utilisateurs vendus, mais le PARTENAIRE
@@ -71,8 +104,20 @@ reçoit tout de même une commission sur ces contrats, comme indiqué dans la se
 
 Le tableau ci-dessous résume les exigences pour chaque niveau de partenariat.
 
-Le Taux de Rétention est défini comme le rapport entre le nombre de contrats Flectra Professional qui sont
-toujours en cours, et le nombre de contrats Flectra Professional qui ont été actifs à un moment au cours
++----------------------------------------------+------------------+--------------------+--------------------+--------------------+
+|                                              | Learning Partner | Official: Ready    | Official: Silver   | Official: Gold     |
++==============================================+==================+====================+====================+====================+
+| Nouveaux utilisateurs Flectra Enterprise     |   0              |  10                | 75                 | 200                |
+| vendus                                       |                  |                    |                    |                    |
++----------------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Nombre d'employés certifiés sur au moins une |   0              |  1                 |  2                 |  3                 |
+| des 3 dernières version d'Flectra            |                  |                    |                    |                    |
++----------------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Taux de Rétention minimum                    |   n/a            |  n/a               | 70%                |  80%               |
++----------------------------------------------+------------------+--------------------+--------------------+--------------------+
+
+Le Taux de Rétention est défini comme le rapport entre le nombre de contrats Flectra Enterprise qui sont
+toujours en cours, et le nombre de contrats Flectra Enterprise qui ont été actifs à un moment au cours
 des 12 derniers mois.
 
 Les certifications sont personnelles, donc lorsqu’un membre du personnel quitte ou rejoint l’entreprise,
@@ -96,13 +141,61 @@ Les avantages de chaque niveau de partenariat sont détaillés dans le tableau c
 
     .. tabularcolumns:: |L|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|
 
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+|                                       | Learning Partner | Official: Ready    | Official: Silver   | Official: Gold     |
++=======================================+==================+====================+====================+====================+
+| **Reconnaissance**                    |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Visibilité sur flectra.com            | Non              | "Ready Partner"    | "Silver Partner"   | "Gold Partner"     |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Droit d’utiliser la marque déposée et | Oui              | Oui                | Oui                | Oui                |
+| les logos                             |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| **Avantages formation**               |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Coaching Vente & Webinars             | Oui              | Oui                | Oui                | Oui                |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Accès à la base de connaissances      | Oui              | Oui                | Oui                | Oui                |
+| Flectra                               |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| **Avantages logiciel**                |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Accès au code source Flectra          | Oui              | Oui                | Oui                | Oui                |
+| Enterprise                            |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Code extension d'essai Flectra        | Oui              | Oui                | Oui                | Oui                |
+| Enterprise                            |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Accès à Flectra.SH dans un but de test| Oui              | Oui                | Oui                | Oui                |
+| ou de développement                   |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| **Avantages Ventes**                  |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Commission sur la plateforme          | 10%              | 50%                | 50%                | 50%                |
+| Flectra SH [#s1f]_                    |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Commission sur Flectra Enterprise     | 10%              | 10%                | 15%                | 20%                |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Commission sur la Maintenance de      | 82%              | 82%                | 82%                | 82%                |
+| Modules Supplémentaires               |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Accès à un Account Manager dédié et   | Non              | Oui                | Oui                | Oui                |
+| au Tableau de Bord Partenaire         |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| **Avantages marketing**               |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Accès au matériel de marketing        | Oui              | Oui                | Oui                | Oui                |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
+| Événement PARTENAIRE - FLECTRA        | Non              | Oui                | Oui                | Oui                |
+| support & promotion                   |                  |                    |                    |                    |
++---------------------------------------+------------------+--------------------+--------------------+--------------------+
 
 .. [#s1f] jusqu'à un maximum de 150€ (ou 180$) de commission mensuelle par contrat Flectra.SH.
 
 
 4.3 Reconnaissance du partenaire
 --------------------------------
-FLECTRA promouvra les "Official Partners" dans la liste des partenaires Flectra sur flectrahq.com.
+FLECTRA promouvra les "Official Partners" dans la liste des partenaires Flectra sur flectra.com.
 
 FLECTRA octroie au PARTENAIRE, sur une base non exclusive, le droit d’utiliser et de reproduire
 le logo partenaire d’FLECTRA du niveau de partenariat correspondant et le nom « Flectra » en relation
@@ -125,7 +218,7 @@ Le PARTENAIRE aura accès à un coaching commercial fourni par son Account Manag
 par FLECTRA.
 
 Le PARTENAIRE a également la possibilité d'acheter des services de support ou de formation en
-souscrivant à un Flectra On Boarding Services, moyennant un supplément.
+souscrivant à un Flectra Success Pack, moyennant un supplément.
 
 4.5 Commissions sur les Services Flectra vendus par le PARTENAIRE
 -----------------------------------------------------------------
@@ -150,7 +243,7 @@ PARTENAIRE.
 
 
 .. [#pcom_fr1] “Collaborer avec un Partenaire Flectra” et “Modules Supplémentaires Couverts” sont
-   définis dans le contrat "Flectra Professional Subscription Agreement" entre FLECTRA et le client.
+   définis dans le contrat "Flectra Enterprise Subscription Agreement" entre FLECTRA et le client.
 
 
 5 Frais
@@ -168,13 +261,17 @@ Dans le cas où l’une des Parties ne remplirait pas l’une des obligations me
 tel manquement ne serait remédié dans les 30 jours calendrier suivant la communication écrite
 d’un tel manquement, la Partie non fautive peut mettre un terme immédiat à ce Contrat.
 
+Maintien des dispositions:
+  Les sections « :ref:`restrictions_fr` », « :ref:`p_liability_fr` », et « :ref:`gov_law_fr` »
+  seront maintenues après expiration ou résiliation de ce Contrat.
+
 6.1 Conséquences de la résiliation
 ----------------------------------
 À l’expiration ou la résiliation de ce Contrat, le PARTENAIRE :
  - n’utilisera plus le matériel et le nom de marque d’Flectra et ses marques déposées, et ne revendiquera plus l’existence
    d’un partenariat ou d’une relation quelconque avec FLECTRA ;
  - respectera ses engagements pendant toute période de préavis précédant une telle résiliation ;
- - ne pourra plus utiliser Flectra Professional, que ce soit à des fins de développement,
+ - ne pourra plus utiliser Flectra Enterprise, que ce soit à des fins de développement,
    de test ou de production.
 
 .. _p_liability_fr:
@@ -290,3 +387,70 @@ finalement réglé par les Tribunaux de Belgique à Nivelles.
 
 
 .. _appendix_p_a_fr:
+
+10 Annexe A : Licence Flectra Enterprise Edition
+================================================
+
+Flectra Enterprise Edition est publié sous la licence Flectra Enterprise Edition License v1.0,
+définie ci-dessous.
+
+.. warning::
+    Ceci est une traduction en français de la licence “Flectra Enterprise Edition License”.
+    Cette traduction est fournie dans l’espoir qu’elle facilitera sa compréhension, mais elle
+    n'a aucune valeur légale.
+    La seule référence officielle des termes de la licence “Flectra Enterprise Edition License”
+    est la :ref:`version originale <odoo_enterprise_license>`.
+
+.. raw:: html
+
+    <tt>
+
+.. raw:: latex
+
+    {\tt
+
+
+Flectra Enterprise Edition License v1.0
+
+Ce logiciel et les fichiers associés (le "Logiciel") ne peuvent être utilisés
+(c'est-à-dire exécutés, modifiés, ou exécutés avec des modifications) qu'avec
+un contrat Flectra Enterprise Subscription en ordre de validité, et pour le nombre
+d'utilisateurs prévus dans ce contrat.
+
+Un contrat de Partnariat avec Flectra S.A. en ordre de validité donne les mêmes
+permissions que ci-dessus, mais uniquement pour un usage restreint à un
+environnement de test ou de développement.
+
+Vous êtes autorisé à développer des modules Flectra basés sur le Logiciel et
+à les distribuer sous la license de votre choix, pour autant que cette licence
+soit compatible avec les conditions de la licence Flectra Enterprise Edition Licence
+(Par exemple: LGPL, MIT ou d'autres licenses propriétaires similaires à celle-ci).
+
+Vous êtes autorisé à utiliser des modules Flectra publiés sous n'importe quelle
+licence, pour autant que leur licence soit compatible avec les conditions
+de la licence Flectra Enterprise Edition License (Notamment tous les
+modules publiés sur l'Flectra Apps Store sur flectra.com/apps).
+
+Il est interdit de publier, distribuer, accorder des sous-licences, ou vendre
+tout copie du Logiciel ou toute copie modifiée du Logiciel.
+
+Toute copie du Logiciel ou d'une partie substantielle de celui-ci doit
+inclure l'avis de droit d'auteur original ainsi que le texte de la présente licence.
+
+LE LOGICIEL EST FOURNI "EN L'ETAT", SANS AUCUNE GARANTIE DE QUELQUE NATURE QUE
+CE SOIT, EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS Y ETRE LIMITE, LES
+GARANTIES IMPLICITES DE COMMERCIABILITE, DE CONFORMITE A UNE UTILISATION
+PARTICULIERE, OU DE NON INFRACTION AUX DROITS D'UN TIERS.
+
+EN AUCUN CAS LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE POURRONT ETRE TENUS
+POUR RESPONSABLE A VOTRE EGARD DE RECLAMATIONS, DOMMAGES OU AUTRES RESPONSABILITES,
+EN VERTU D'UN CONTRAT, DÉLIT OU AUTREMENT, RELATIVEMENT AU LOGICIEL, A L'UTILISATION
+DU LOGICIEL, OU A TOUTE AUTRE MANIPULATION RELATIVE AU LOGICIEL.
+
+.. raw:: latex
+
+    }
+
+.. raw:: html
+
+    </tt>

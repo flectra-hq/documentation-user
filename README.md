@@ -1,50 +1,36 @@
-# Flectra documentation
+# Odoo documentation
 
 ## Build the documentation locally
 
 ### Requirements
 
-- [Git](https://www.flectrahq.com/documentation/2.0/contributing/documentation/introduction_guide.html#install-git)
-- [Python 3.6, 3.7, or 3.8](https://www.flectrahq.com/documentation/2.0/contributing/documentation/introduction_guide.html#python)
-- Python dependencies listed in the file [`requirements.txt`](https://gitlab.com/flectra-hq/documentation-user/tree/2.0/requirements.txt).
-- [Make](https://www.flectrahq.com/documentation/2.0/contributing/documentation/introduction_guide.html#make)
-- A local copy of the [flectra/flectra repository in2.0](https://gitlab.com/flectra-hq/flectra/tree/2.0) (Optional)
+- Git
+- Python 3.6, 3.7, or 3.8
+- Python dependencies listed in the file `requirements.txt`.
+- Make
+- A local copy of the [flectra/flectra repository](https://github.com/flectra/flectra) (optional)
 
 ### Instructions
 
-1. In a terminal, navigate to the root directory and compile the documentation to HTML with the
-   following command:
-
-   ```sh
-   make
-   ```
-
+1. In a terminal, navigate to the root directory of the documentation and build it `make`.
    Additional commands are available with `make help`.
-
-2. Open the file `documentation/_build/html/index.html` in your web browser to display the render.
-
-3. See [this guide](https://www.flectrahq.com/documentation/2.0/contributing/documentation/introduction_guide.html#preview-your-changes)
+2. Open the file `documentation/_build/html/index.html` in your web browser.
+3. See [this guide](https://www.flectra.com/documentation/latest/contributing/documentation.html)
    for more detailed instructions.
 
-Optional: to fully build the developer documentation with inline docstrings for documented Python
-functions, place your local copy of the `flectra/flectra` repository in the root directory. Alternatively,
-create a symbolic link with `flectra` as link name. If the Flectra sources are not found, a warning will
-be shown.
+Optional: place your local copy of the `flectra/flectra` repository in the parent directory or in the root
+directory of the documentation to build the latter with the documented Python docstrings.
 
 ## Contribute to the documentation
 
 For contributions to the content of the documentation, please refer to the
-[Introduction Guide](https://www.flectrahq.com/documentation/2.0/contributing/documentation/introduction_guide.html).
+[Introduction Guide](https://www.flectra.com/documentation/latest/contributing/documentation.html).
 
 To **report a content issue**, **request new content** or **ask a question**, use the
-[repository's issue tracker](https://gitlab.com/flectra-hq/documentation-user-user/issues) as usual.
-
-If you have a pull request that is ready for review, request one from the
-[flectra/doc-review](https://github.com/orgs/flectra/teams/doc-review) team.
-
+[repository's issue tracker](https://github.com/flectra/documentation/issues).
 
 ## Learn More
 
-To learn more about Flectra, in addition to the documentation, have a look at
-[the official eLearning](https://flectrahq.com/slides) and
-[Scale-up, The Business Game](https://www.flectrahq.com/page/scale-up-business-game).
+To learn more about Odoo, in addition to the documentation, have a look at
+[the official eLearning](https://flectra.com/slides) and
+[Scale-up, The Business Game](https://www.flectra.com/page/scale-up-business-game).

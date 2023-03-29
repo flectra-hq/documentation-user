@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) FlectraHQ, Inc..
+# Copyright (C) Flectra S.A.
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -16,7 +16,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra2.0\n"
+"Project-Id-Version: Flectra 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 07:12+0200\n"
 "PO-Revision-Date: 2020-09-22 14:41+0000\n"
@@ -229,7 +229,7 @@ msgstr ""
 #: ../../content/applications/sales/crm/acquire_leads/generate_from_website.rst:43
 msgid ""
 "You will need to install the free *Form Builder* module, only available in "
-"Flectra Professional."
+"Flectra Enterprise."
 msgstr ""
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_from_website.rst:52
@@ -306,7 +306,7 @@ msgid ""
 "contacts you are getting based on Role or Seniority. When getting contact "
 "information make sure to be aware of the latest EU regulation, get more "
 "information about General Data Protection Regulation on `Flectra GDPR "
-"<http://flectrahq.com/gdpr>`__,"
+"<http://flectra.com/gdpr>`__,"
 msgstr ""
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:39
@@ -339,7 +339,7 @@ msgid ""
 "This is an In-App Purchase feature, each generated lead will cost you one "
 "credit. If you choose to get contact information each contact will also cost"
 " us one additional credit. Here is the pricing for this `feature "
-"<https://iap.flectrahq.com/iap/in-app-services/167?>`__, To buy credits you can "
+"<https://iap.flectra.com/iap/in-app-services/167?>`__, To buy credits you can "
 "either go to :menuselection:`CRM --> Configuration --> Settings --> Buy "
 "Credits`; or go to :menuselection:`Settings --> In-App Purchases --> View my"
 " Services`."
@@ -354,7 +354,7 @@ msgstr ""
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:68
 #: ../../content/applications/sales/crm/optimize/outlook_extension.rst:169
 msgid ""
-"If you are on Flectra Online (SAAS) and have the Professional version, you "
+"If you are on Flectra Online (SAAS) and have the Enterprise version, you "
 "benefit from free trial credits to test the feature."
 msgstr ""
 
@@ -599,7 +599,7 @@ msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/outlook_extension.rst:0
 #: ../../content/applications/sales/crm/optimize/outlook_extension.rst:0
-msgid "``https://download.flectrahq.com/plugins/outlook/manifest.xml``"
+msgid "``https://download.flectra.com/plugins/outlook/manifest.xml``"
 msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/outlook_extension.rst:50
@@ -767,7 +767,7 @@ msgstr ""
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:48
 msgid ""
 "Learn about our *Privacy Policy* `here "
-"<https://iap.flectrahq.com/privacy#header_2>`_."
+"<https://iap.flectra.com/privacy#header_2>`_."
 msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/outlook_extension.rst:174
@@ -775,7 +775,7 @@ msgid ":doc:`../../../general/in_app_purchase/in_app_purchase`"
 msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/outlook_extension.rst:175
-msgid "`Flectra Tutorials: Lead Enrichment <https://www.flectrahq.com/r/p73>`_"
+msgid "`Flectra Tutorials: Lead Enrichment <https://www.flectra.com/r/p73>`_"
 msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:3
@@ -831,7 +831,7 @@ msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:46
 msgid ""
-"If you are on Flectra Online (SAAS) and you have the Professional version, you "
+"If you are on Flectra Online (SAAS) and you have the Enterprise version, you "
 "benefit from free trial credits to test the feature."
 msgstr ""
 
@@ -1059,7 +1059,7 @@ msgstr ""
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:14
 msgid ""
 "To use scoring, install the free module *Lead Scoring* under your *Apps* "
-"page (only available in Flectra Professional)."
+"page (only available in Flectra Enterprise)."
 msgstr ""
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:21
@@ -1155,7 +1155,7 @@ msgstr ""
 #: ../../content/applications/sales/crm/track_leads/prospect_visits.rst:14
 msgid ""
 "To use this feature, install the free module *Lead Scoring* under your "
-"*Apps* page (only available in Flectra Professional)."
+"*Apps* page (only available in Flectra Enterprise)."
 msgstr ""
 
 #: ../../content/applications/sales/crm/track_leads/prospect_visits.rst:21
@@ -1518,7 +1518,7 @@ msgid ""
 "**blackbox**). This device works together with the POS application and logs "
 "certain transactions. On top of that, the used POS application must also be "
 "certified by the government and must adhere to strict standards specified by"
-" them. `Flectra 9 (Professional Edition) is a certified application "
+" them. `Flectra 9 (Enterprise Edition) is a certified application "
 "<http://www.systemedecaisseenregistreuse.be/systemes-certifies>`_. More "
 "information concerning the Fiscal Data Module can be found on `the official "
 "website <http://www.systemedecaisseenregistreuse.be/>`_."
@@ -1596,11 +1596,11 @@ msgstr ""
 #: ../../content/applications/sales/point_of_sale/belgian_fdm/setup.rst:71
 msgid ""
 "The certification granted by the government is restricted to the use on "
-"flectrahq.com SaaS instance. The usage of the module from the source or a "
+"flectra.com SaaS instance. The usage of the module from the source or a "
 "modified version will **not** be certified. For on-premise users, we also "
 "support the Fiscal Data Module in such installations. The main restriction "
 "is that this requires an obfuscated version of the ``pos_blackbox_be`` "
-"module we will provide on request for Professional customers."
+"module we will provide on request for Enterprise customers."
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/belgian_fdm/setup.rst:79
@@ -3300,7 +3300,7 @@ msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:35
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:40
-msgid "Developer's Name: ``FlectraHQ, Inc..``"
+msgid "Developer's Name: ``Flectra S.A.``"
 msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:36
@@ -3318,12 +3318,12 @@ msgstr ""
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:43
 msgid ""
 "Amazon will then inform you that by submitting the form, you are giving "
-"access to your Seller Central Information to FlectraHQ, Inc.."
+"access to your Seller Central Information to Flectra S.A."
 msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:47
 msgid ""
-"FlectraHQ, Inc.. is unable to access your Amazon account's information without the "
+"Flectra S.A. is unable to access your Amazon account's information without the "
 "Authorization Token which is stored in your Flectra database - we do not store "
 "these tokens on our platform directly and are therefore unable to access "
 "your account's information outside of the Amazon Connector normal flows."

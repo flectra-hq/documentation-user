@@ -1,3 +1,5 @@
+:nosearch:
+
 ===================
 Manage your pricing
 ===================
@@ -5,4 +7,5 @@ Manage your pricing
 .. toctree::
    :titlesonly:
 
+   prices/pricing
    prices/currencies

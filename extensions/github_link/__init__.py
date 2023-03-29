@@ -19,9 +19,10 @@ Notes
 * explicitly imports ``flectra``, so useless for anyone else
 """
 
-import inspect
 import importlib
+import inspect
 import os.path
+
 import werkzeug
 
 
@@ -60,7 +61,7 @@ def setup(app):
         try:
             obj_source_path = inspect.getsourcefile(obj)
             _, line = inspect.getsourcelines(obj)
-        except (TypeError, IOError):
+        except (TypeError, OSError):
             # obj doesn't have a module, or something
             return None
 
@@ -71,7 +72,7 @@ def setup(app):
             app,
             os.path.relpath(obj_source_path, project_root),
             line,
-            flectra_repository=True)
+            odoo_repository=True)
     app.config.linkcode_resolve = linkcode_resolve
 
     return {
@@ -79,12 +80,12 @@ def setup(app):
         'parallel_write_safe': True
     }
 
-def make_github_link(app, path, line=None, mode="blob", flectra_repository=False):
+def make_github_link(app, path, line=None, mode="blob", odoo_repository=False):
     config = app.config
 
     user = config.github_user
     project = config.github_project
-    if flectra_repository:
+    if odoo_repository:
         user = 'flectra'
         project = 'flectra'
 
@@ -110,9 +111,9 @@ def add_doc_link(app, pagename, templatename, context, doctree):
         return
 
     # FIXME: find other way to recover current document's source suffix
-    # in Sphinx 1.3 it's possible to have mutliple source suffixes and that
+    # in Sphinx 1.3 it's possible to have multiple source suffixes and that
     # may be useful in the future
     source_suffix = app.config.source_suffix
     source_suffix = next(iter(source_suffix))
     context['github_link'] = lambda mode='edit': make_github_link(
-        app, 'content/%s%s' % (pagename, source_suffix), mode=mode)
+        app, f'content/{pagename}{source_suffix}', mode=mode)

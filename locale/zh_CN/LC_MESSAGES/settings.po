@@ -1,22 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) FlectraHQ, Inc..
+# Copyright (C) Flectra S.A.
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# max_xu <wangzhanwh@163.com>, 2021
-# 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
-# Mandy Choy <mnc@flectrahq.com>, 2021
-# Datasource International <Hennessy@datasourcegroup.com>, 2021
+# Martin Trigaux, 2022
+# max_xu <wangzhanwh@163.com>, 2022
+# Datasource International <Hennessy@datasourcegroup.com>, 2022
+# Mandy Choy <mnc@flectra.com>, 2022
+# zhao yonghui, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra2.0\n"
+"Project-Id-Version: Flectra 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 07:12+0200\n"
-"PO-Revision-Date: 2021-05-18 05:18+0000\n"
-"Last-Translator: Datasource International <Hennessy@datasourcegroup.com>, 2021\n"
+"PO-Revision-Date: 2022-10-04 12:54+0000\n"
+"Last-Translator: zhao yonghui, 2022\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/flectra/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +48,7 @@ msgid ""
 "subscription amount significantly (or switch you from a free account to a "
 "paying one on our online platform)."
 msgstr ""
-"flectra拥有及其多的功能 (包括企业资源计划，内容管理系统，客户关系管理应用，电子商务后端等等)， 但是它 *不是* "
+"Odoo拥有及其多的功能 (包括企业资源计划，内容管理系统，客户关系管理应用，电子商务后端等等)， 但是它 *不是* "
 "一个智能手机。在对你的数据库添加/卸载各类特性(特别是应用时) "
 "，你需要额外小心，因为这些操作可能产生显著的费用投入(比如将你从一个免费用户升级为我们平台上的付费用户)。"
 
@@ -58,7 +59,7 @@ msgid ""
 "to test them on a duplicate of your database first. That way, if something "
 "goes wrong, your day-to-day business is not impacted."
 msgstr ""
-"本页包含了如何管理你的flectra及其实例。在进行以下步骤前，我们 **强烈建议** "
+"本页包含了如何管理你的Odoo及其实例。在进行以下步骤前，我们 **强烈建议** "
 "您先在复制的数据库上进行测试。这样的话，即便有错误，也不会影响到实际的业务运作。"
 
 #: ../../content/applications/settings/users_and_features.rst:23
@@ -67,15 +68,16 @@ msgid ""
 " <duplicate_online>` and :ref:`on premise <duplicate_premise>` "
 "installations."
 msgstr ""
-"查看如何复制数据用于:ref:`线上 <duplicate_online>` 和:ref:`本地部署 <duplicate_premise>`安装。"
+"查看文档 :ref:`线上 <duplicate_online>` 和 :ref:`本地部署 <duplicate_premise>` "
+"了解如何复制数据库。"
 
 #: ../../content/applications/settings/users_and_features.rst:27
 msgid ""
 "If you have questions about the content of this page or if you encounter an "
 "issue while carrying out these procedures, please contact us through our "
-"`support form <https://www.flectrahq.com/help>`__."
+"`support form <https://www.flectra.com/help>`__."
 msgstr ""
-"如果你对这篇文章有任何问题或者当你执行程序时碰到问题，可以提交`支持请求 <https://www.flectrahq.com/help>`__来联系我们。"
+"如果你对这篇文章有任何问题或者当你执行程序时碰到问题，可以提交`支持请求 <https://www.flectra.com/help>`__来联系我们。"
 
 #: ../../content/applications/settings/users_and_features.rst:33
 msgid "Deactivating Users"
@@ -91,7 +93,7 @@ msgstr "当你想更改任何用户的状态时,请确保你拥有足够的 **�
 msgid ""
 "In your Flectra instance, click on **Settings**. You will have a section "
 "showing you the active users on your database. Click on **Manage Users.**"
-msgstr "在你的flectra实例中，点击 **设置** 。页面将显示数据库中有效的用户。点击 **管理用户** 。"
+msgstr "在你的Odoo实例中，点击 **设置** 。页面将显示数据库中有效的用户。点击 **管理用户** 。"
 
 #: ../../content/applications/settings/users_and_features.rst:42
 #: ../../content/applications/settings/users_and_features.rst:79
@@ -132,7 +134,7 @@ msgstr "**千万不要** 取消激活主用户 (*admin*)"
 
 #: ../../content/applications/settings/users_and_features.rst:68
 msgid "Uninstalling Apps"
-msgstr "卸载应用程式"
+msgstr "卸载应用"
 
 #: ../../content/applications/settings/users_and_features.rst:70
 msgid ""
@@ -147,7 +149,7 @@ msgid ""
 "In your Flectra instance click on **Settings**; in this app, you will be able "
 "to see how many applications you have installed. Click on **Browse Apps** to"
 " access the list of your installed applications."
-msgstr "在你的flectra实例中点击 **设置**  ；在此应用程序中，你可以看到已安装的应用。点击**浏览应用程序**来访问你所安装的应用程序列表。"
+msgstr "在你的Odoo实例中点击 **设置**  ；在此应用程序中，你可以看到已安装的应用。点击**浏览应用程序**来访问你所安装的应用程序列表。"
 
 #: ../../content/applications/settings/users_and_features.rst:79
 msgid "|browse_apps|"
@@ -208,8 +210,8 @@ msgid ""
 "need or use the Website itself, it is needed for the Online Quotes feature "
 "to work properly."
 msgstr ""
-"**flectra各个应用之间有互相依存的关系** "
-":这意味着一些你并不太会操作的模块,会因为其中的一些特性被需要而被系统自动安装。比如，如果你需要将你的客户报价用网页的形式展现，那网站构建器这个应用就会被自动安装。可能你完全不需要通过flectra的网站，但是这个应用中的在线报价技术特性却是你的需求能正常工作的前提条件。"
+"**Odoo各个应用之间有互相依存的关系** "
+":这意味着一些你并不太会操作的模块,会因为其中的一些特性被需要而被系统自动安装。比如，如果你需要将你的客户报价用网页的形式展现，那网站构建器这个应用就会被自动安装。可能你完全不需要通过Odoo的网站，但是这个应用中的在线报价技术特性却是你的需求能正常工作的前提条件。"
 
 #: ../../content/applications/settings/users_and_features.rst:119
 msgid ""

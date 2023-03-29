@@ -11,6 +11,9 @@ CRM
 accurate forecasts. Keep opportunities organized with the pipeline and manage your day-to-day
 activities with meetings and next activities.
 
+.. seealso::
+   - `Flectra Tutorials: CRM <https://www.flectra.com/slides/crm-16>`_
+
 .. toctree::
    :titlesonly:
 

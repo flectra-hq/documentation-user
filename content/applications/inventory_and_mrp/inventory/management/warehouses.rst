@@ -1,3 +1,5 @@
+:nosearch:
+
 ==========
 Warehouses
 ==========
@@ -6,4 +8,5 @@ Warehouses
    :titlesonly:
    :glob:
 
-   warehouses/difference_warehouse_location
+   warehouses/warehouses_locations
+   warehouses/resupply_warehouses

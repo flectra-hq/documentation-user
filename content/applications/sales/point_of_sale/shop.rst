@@ -1,3 +1,5 @@
+:nosearch:
+
 =============
 Shop Features
 =============
@@ -6,8 +8,9 @@ Shop Features
    :titlesonly:
 
    shop/invoice
-   shop/cash_control
    shop/barcode
+   shop/sales_order
    shop/multicashiers
-   shop/reprint
+   shop/receipts
    shop/cash_rounding
+   shop/serial_numbers

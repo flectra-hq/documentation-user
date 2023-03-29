@@ -8,7 +8,7 @@ the probability of this happening.
 
 .. raw:: html
 
-   <div align="center" style="color:#2496f6; font-size: 2rem ;margin: 20px 0"> <b>What is the right
+   <div align="center" style="color:#AD5E99; font-size: 2rem ;margin: 20px 0"> <b>What is the right
    way to go?</b> </div>
 
 1. If you adopt such methods, you are among companies that actively and indirectly spread the
@@ -30,12 +30,12 @@ on you and we will show you how to do that in our amazing application.
 Configuration
 =============
 
-Go to :menuselection:`Subscriptions --> Configuration --> Plans`. From there, you can
+Go to :menuselection:`Subscriptions --> Configuration --> Subscription templates`. From there, you can
 create a new *Subscription template* or modify an existing one. When editing your template, underneath
 the Invoicing tab, you have the possibility to activate the option *Closable by customer*.
 Once enabled, this option gives your customers the right to close their own subscriptions.
 
-.. image:: media/configuration-to-close-your-subscriptions.png
+.. image:: closing/configuration-to-close-your-subscriptions.png
   :align: center
   :alt: Configuration to close your subscription with Flectra Subscriptions
 
@@ -46,7 +46,7 @@ Once enabled, this option gives your customers the right to close their own subs
    **Flectra Subscriptions** application.
 
 Close your first subscription
-==============================
+=============================
 
 Administrator view
 ------------------
@@ -55,7 +55,7 @@ Once confirmed, a quotation becomes a sales order and a new subscription is auto
 Therefore, this subscription has the status *In progress*. From there, you have the possibility to
 close the subscription.
 
-.. image:: media/close-your-subscriptions-as-an-administrator.png
+.. image:: closing/close-your-subscriptions-as-an-administrator.png
   :align: center
   :alt: Close your subscription from an administration point of view with Flectra Subscriptions
 
@@ -64,20 +64,44 @@ expensive", "Subscription does not meet my requirements", "Subscription reached 
 Immediately after confirming your close reason, you can observe that the status of the subscription
 is now *Closed* and that the close reason is mentioned on the subscription.
 
-.. image:: media/use-of-close-reasons.png
+.. image:: closing/use-of-close-reasons.png
   :align: center
   :alt: What happens when you close your subscription with Flectra Subscriptions?
+
+Customer view
+-------------
+
+As previously explained in the *Administrator view* part, from the subscription form, you also have
+the possibility to visualize what your customers see when managing their subscriptions thanks to the
+*Customer preview* button. In this example, the customer has the choice to close his/her subscription
+whenever he/she wants to, due to the *Close Subscription* button.
+
+.. image:: closing/close-your-subscriptions-as-a-customer.png
+  :align: center
+  :alt: Close your subscription from a customer point of view with Flectra Subscriptions
+
+By using this button, the customer can specify the reason for cancelling his/her subscription and
+he/she can even leave a message.
+
+.. image:: closing/use-of-close-reasons-as-a-customer.png
+  :align: center
+  :alt: What happens when customers close their subscription with Flectra Subscriptions?
 
 By confirming the cancellation, the customer is redirected to his/her portal. The administrator is
 informed of this modification. Indeed, the status of the subscription becomes *Closed* and a note
 appears in the chatter with the new stage, the end date, the close reason, and the closing text
 added by the customer.
 
-.. image:: media/chatter-history-when-a-customer-closes-a-subscription_1.png
-.. image:: media/chatter-history-when-a-customer-closes-a-subscription.png
+.. image:: closing/chatter-history-when-a-customer-closes-a-subscription.png
   :align: center
   :alt: What happens when customers close their subscription in Flectra Subscriptions?
+
+.. note::
+   Before closing a subscription, check out our documentation on how to
+   :doc:`Create a quotation using subscription products <../../subscriptions/sales_flow/create_a_quotation>`
+   to understand how subscriptions are managed in the **Flectra Subscriptions** application.
 
 .. seealso::
   - :doc:`../../subscriptions/configuration/subscription_templates`
   - :doc:`../../subscriptions/configuration/subscription_products`
+  - :doc:`../../subscriptions/sales_flow/create_a_quotation`

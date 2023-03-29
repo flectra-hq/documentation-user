@@ -1,6 +1,8 @@
-====================
-Inventory Adjustment
-====================
+:nosearch:
+
+========================
+Replenishment strategies
+========================
 
 .. toctree::
    :titlesonly:

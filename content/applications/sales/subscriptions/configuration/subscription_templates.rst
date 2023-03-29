@@ -1,6 +1,6 @@
-======================
-Use subscription plans
-======================
+==========================
+Use subscription templates
+==========================
 
 The subscription business model is becoming more popular. Are you wondering why?
 
@@ -20,7 +20,7 @@ The subscription business model is becoming more popular. Are you wondering why?
 
 .. raw:: html
 
-   <div align="center" style="color:#2496f6; font-size: 2rem ;margin: 20px 0"> <b>Simplicity.
+   <div align="center" style="color:#AD5E99; font-size: 2rem ;margin: 20px 0"> <b>Simplicity.
    Higher customer retention. Opportunities for marketing. Business consistency. Better cash flow
    management.</b> </div>
 
@@ -31,11 +31,11 @@ edit, and manage your own subscription templates.
 Configuration
 =============
 
-Go to :menuselection:`Subscriptions --> Configuration --> Plan`. By default, Flectra
+Go to :menuselection:`Subscriptions --> Configuration --> Subscription templates`. By default, Flectra
 suggests you two types of subscription (MON - Monthly subscription *vs* YEA - Yearly subscription).
 You can also create your own ones.
 
-.. image:: media/default-subscription-templates.png
+.. image:: subscription_templates/default-subscription-templates.png
   :align: center
   :alt: Default subscription templates on Flectra Subscriptions
 
@@ -54,13 +54,32 @@ Among the payment options, an additional field called *Invoice email* appears wh
 *Send*, *Send & try to charge* or *Send after successful payment*. This field allows you to add an
 invoice email template to your subscription templates.
 
-.. image:: media/creation-of-subscription-templates.png
+.. image:: subscription_templates/creation-of-subscription-templates.png
   :align: center
   :alt: Create your own subscription templates on Flectra Subscriptions
 
 For each template, you can also choose if you want your customers to be able to close their
 subscriptions or not. If enabled, you can set an *Automatic closing* limit and specify the
 *Group of subscription* and *Journal* options.
+
+.. note::
+   On each template, you can add your **Terms and Conditions**. Specifying terms and conditions is
+   essential to set out important contractual points between the customers and the sellers (payment,
+   refund policy, cancellation, complaints, etc.).
+
+   .. image:: subscription_templates/terms-and-conditions-on-subscription-templates.png
+     :align: center
+     :alt: Terms & conditions on Flectra Subscriptions
+
+   Finally, if you want to know the basic running health status of your subscriptions, you also have
+   access to a specific tab called **Health Check**. There, you can edit and create your own
+   filters to define what is a subscription in good health *vs* bad health. The system automatically
+   summarizes all the records corresponding to these filters and you are able to manage them in one
+   click.
+
+   .. image:: subscription_templates/health-check-on-subscription-templates.png
+     :align: center
+     :alt: Health check on Flectra Subscriptions
 
 .. important::
    After creating your own subscription templates, be sure to check out our documentation on how to

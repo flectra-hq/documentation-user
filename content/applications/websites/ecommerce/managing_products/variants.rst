@@ -1,92 +1,86 @@
-==============================
-How to manage product variants
-==============================
+================
+Product variants
+================
 
-Product variants are used to offer variations of the same product to your
-customers on the products page. For example, the customer chooses a T-shirt
-and then selects its size and color.  In the example below, the customer
-chooses a phone, and then selects the memory; color and Wi-Fi band from the
-available options.
+Product variants are variations, such as different colors, materials, etc., of the same product.
+These variations can differ in price and availability from the product. Product variants can either
+be :doc:`created <../../../sales/sales/products_prices/products/variants>` or
+:doc:`imported <../../../sales/sales/products_prices/products/import>`.
 
-.. image:: ./media/variants.png
-   :align: center
+To use product variants, enable them under :menuselection:`Website --> Configuration --> Settings`,
+in the :guilabel:`Shop - Products` section.
 
-How to create attributes & variants
-===================================
+.. seealso::
+   - :doc:`../managing_products/products`
+   - :doc:`../../../sales/sales/products_prices/products/variants`
+   - :doc:`../../../sales/sales/products_prices/products/import`
 
-* Turn on *Products can have several attributes, defining variants (Example:
-  size, color,...)* in :menuselection:`Sales --> Settings`.
-
-* Select a product from the Products list, go to the *Variants* tab.
-
-* Add as many attributes as you need from 3 different types: radio buttons,
-  drop-down menu or color buttons. You get several variants as soon as there are
-  2 values for 1 attribute.
-
-.. image:: ./media/variants_setup.png
-   :align: center
-
-How to edit variants
+Product configurator
 ====================
 
-See all the variants from the product template detail form.
+Adding attributes and values to a product template allows the enabling of the **product
+configurator** on the product page. Customers use it to configure and select the product variant of
+their choice; or in the case of multiple attributes, combine those to create a specific variant.
 
-.. image:: ./media/variants_button.png
+.. image:: variants/variants-configurator.png
    :align: center
-   :scale: 50
-   :width: 50
-   :height: 50
+   :alt: Variants configurator
 
-You can edit following data:
+The **display type** of each attribute used in the product configurator can be edited through the
+**website builder** by clicking :menuselection:`Edit --> Customize` on the product page, and then
+clicking on one of the attributes. You can then select between four options:
 
-* Picture (will update in real time on the website),
-* Barcode,
-* Internal Reference (SKU #),
-* Volume,
-* Weight,
-* Active (available in quotes & website).
+- :guilabel:`Radio`
+- :guilabel:`Pills`
+- :guilabel:`Select`
+- :guilabel:`Color`
 
-.. note::
-   Both the Barcode and the Internal Reference are variant-specific.
-   You need to populate them once the variants generated.
+.. image:: variants/variants-display-type.png
+   :align: center
+   :alt: Display type options for attributes
+
+.. _variants-configurator-backend:
+
+Alternatively, the **display type** can be edited through :menuselection:`Website --> eCommerce -->
+Attributes`, selecting an **attribute**, and then choosing a :guilabel:`Display Type`; or through
+the **product template** by going to :menuselection:`eCommerce --> Products`, selecting a product,
+and then clicking :guilabel:`Attributes and Variants`.
 
 .. tip::
-   See and edit all the variants from :menuselection:`Sales --> Sales --> Product Variants`
-   as well. This might be quicker if you manage lots of variants.
+   Specific combinations of values can be excluded from the product configurator. This way,
+   customers are unable to select the excluded combination of values. To do so, go to
+   :menuselection:`Website --> eCommerce --> Products`, select a product, and go to
+   :guilabel:`Attributes and Variants`. Then, click on an **attribute**, select a **value**, and in
+   the :guilabel:`Exclude for` section, select a :guilabel:`Product Template` and the
+   :guilabel:`Attribute Values` to exclude.
 
-How to set specific prices per variant
-======================================
+Product specifications
+======================
 
-You can also set a specific public price per variant by clicking *Variant Prices*
-in the product detail form (action in top-left corner).
+Values used for each attribute are displayed as a **specification list** at the bottom of the
+product page. To be visible, the **specification list** must first be enabled on the product page by
+going to :menuselection:`Edit --> Customize` and selecting a placement for the field
+:guilabel:`Specification`.
 
-.. image:: ./media/variant_prices_button.png
+.. image:: variants/variants-specifications.png
    :align: center
-
-The Price Extra is added to the product price whenever the corresponding attribute
-value is selected.
-
-.. image:: ./media/variant_prices.png
-   :align: center
-
-.. image:: ./media/variant_prices_web.png
-   :align: center
+   :alt: Specifications list on the product page
 
 .. tip::
-   Pricelist formulas let you set advanced price computation methods for product variants.
-   See :doc:`../maximizing_revenue/pricing`.
+   The product **specification list** can also be used on products without variants. For that, make
+   sure to have no values combination. Products with single values for their attributes do not
+   generate variants.
 
-How to disable/archive variants
-===============================
+Filter catalog by attributes
+============================
 
-You can disable/archive specific variants so that they are no longer available in quotes &
-website (not existing in your stock, deprecated, etc.). Simply uncheck *Active* in their detail form.
+Customers **can** filter the **catalog** based on product attributes and values, allowing them to
+:ref:`filter <ecommerce-browsing>` the catalog based only on the attribute(s) of their choice.
 
-.. image:: ./media/variant_active.png
+To enable **attributes filtering**, go to :menuselection:`Edit --> Customize` from your **main shop
+page** and click on one of the :guilabel:`Categories` in the left column. Here, enable either
+:guilabel:`Left`, :guilabel:`Top`, or **both**, in the :guilabel:`Attributes` field.
+
+.. image:: variants/variants-categories.png
    :align: center
-
-To retrieve such archived items, hit *Archived* on searching the variants list. You can
-reactivate them the same way.
-
-.. image:: ./media/variant_archive.png
-   :align: center
+   :alt: Categories buttons

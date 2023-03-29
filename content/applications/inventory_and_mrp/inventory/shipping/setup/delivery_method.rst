@@ -1,5 +1,5 @@
 ===============================
-How to setup a delivery method? 
+How to setup a delivery method?
 ===============================
 
 Overview
@@ -23,7 +23,7 @@ Delivery methods are handled by the **Delivery costs** module. Go to
 **Apps** and search for the module. You should remove the **Apps** filter in
 order to see it :
 
-.. image:: media/setup05.png
+.. image:: delivery_method/setup05.png
    :align: center
 
 .. note::
@@ -33,12 +33,12 @@ order to see it :
 Configure the delivery method
 -----------------------------
 
-To configure your delivery methods, go to the **Inventory** module, 
+To configure your delivery methods, go to the **Inventory** module,
 click on :menuselection:`Configuration --> Delivery Methods`.
 
 First set a name and a transporter company.
 
-.. image:: media/setup03.png
+.. image:: delivery_method/setup03.png
    :align: center
 
 Then you'll have to set the pricing. It can be fixed or based on rules.
@@ -48,23 +48,27 @@ Then you'll have to set the pricing. It can be fixed or based on rules.
    amount, tick the option **Free if Order total is more
    than** and set a price.
 
-.. image:: media/setup06.png
+.. image:: delivery_method/setup06.png
    :align: center
 
 -  If the price varies according to rules, tick **Based on Rules**. Click
    on **add an item to a pricing rule**. Choose a condition based on
    either the weight, the volume, the price or the quantity.
 
-.. image:: media/setup04.png
+.. image:: delivery_method/setup04.png
    :align: center
 
 Finally you can limit the delivery method to a few destinations. The
 limit can be applied to some countries, states or even zip codes. This
 feature limits the list of countries on your e-commerce.
 
-.. image:: media/setup02.png
+.. image:: delivery_method/setup02.png
    :align: center
 
+.. note::
+    You can integrate Flectra with external shippers in order to compute the
+    real price and packagings, and handle the printing the shipping labels.
+    See :doc:`third_party_shipper`
 
 Delivery process
 ================
@@ -72,7 +76,7 @@ Delivery process
 Sale order
 ----------
 
-.. image:: media/setup07.png
+.. image:: delivery_method/setup07.png
    :align: center
 
 You can now choose the **Delivery Method** on your sale order. If you want
@@ -81,15 +85,16 @@ to invoice the price of the delivery charge on the sale order, click on
 a product.
 
 Delivery
-----------
+--------
 
 You can add or change the delivery method on the delivery itself.
 
-.. image:: media/setup01.png
+.. image:: delivery_method/setup01.png
    :align: center
 
 On the delivery, check the **Carrier Information**. The carrier is the
 chosen delivery method.
 
 .. seealso::
+    * :doc:`third_party_shipper`
     * :doc:`../operation/invoicing`

@@ -3,16 +3,20 @@
 :hide-page-toc:
 :show-toc:
 
-==============
-Administration
-==============
+====================
+Install and Maintain
+====================
+
+These guides provide instructions on how to install, maintain and upgrade Flectra databases.
+
+.. seealso::
+    :doc:`History of Versions <administration/maintain/supported_versions>`
 
 
 .. toctree::
     :titlesonly:
 
     administration/install
-    administration/deployment
-    administration/update
-    administration/db_upgrade
-    administration/db_management
+    administration/maintain
+    administration/upgrade
+    administration/odoo_sh

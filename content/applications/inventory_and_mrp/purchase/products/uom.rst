@@ -21,7 +21,7 @@ Enable units of measure
 Open your Sales app and go to :menuselection:`Configuration --> Settings`. Under Product Catalog,
 enable *Units of Measure*.
 
-.. image:: media/uom-enable-option.png
+.. image:: uom/uom-enable-option.png
    :align: center
    :alt: Enable the units of measure option in Flectra Sales
 
@@ -48,7 +48,7 @@ Back to the first example, if you purchase orange juice from your vendor in **ga
 to your customers in **liters**, first select *L* (liters) as the *Unit of Measure*, and *gal (US)*
 (gallons) as the *Purchase Unit of Measure*, then click on *Save*.
 
-.. image:: media/uom-product-configuration.png
+.. image:: uom/uom-product-configuration.png
    :align: center
    :alt: Configure a product's units of measure in Flectra
 
@@ -66,7 +66,7 @@ Category* in order to relate both units of measure.
 To do so, go to :menuselection:`Configuration --> Units of Measure Categories`. Click on *Create*
 and name the category.
 
-.. image:: media/uom-new-category.png
+.. image:: uom/uom-new-category.png
    :align: center
    :alt: Create a new units of measure category in Flectra Purchase
 
@@ -82,16 +82,16 @@ a multiple of this value.
 In the example, as you cannot purchase less than 1 roll and won't use fractions of a roll as a unit
 of measure, you can enter 1.
 
-.. image:: media/uom-new-reference-unit.png
+.. image:: uom/uom-new-reference-unit.png
    :align: center
    :alt: Create a new reference unit of measure in Flectra Purchase
 
 .. note:: If you use a *Rounding Precision* inferior to 0.01, a warning message might appear stating
    that it is higher than the *Decimal Accuracy* and that it might cause inconsistencies. If you
-   wish to use a *Rounding Precision* lower than 0.01, first :doc:`activate the Developer Mode
-   <../../../general/developer_mode/activate>`, then go to :menuselection:`Settings --> Technical -->
-   Database Structure --> Decimal Accuracy`, select *Product Unit of Measure* and edit *Digits*
-   accordingly. For example, if you want to use a rounding precision of 0.00001, set *Digits* to 5.
+   wish to use a *Rounding Precision* lower than 0.01, first activate the :ref:`developer mode
+   <developer-mode>`, then go to :menuselection:`Settings --> Technical --> Database Structure -->
+   Decimal Accuracy`, select *Product Unit of Measure* and edit *Digits* accordingly. For example,
+   if you want to use a rounding precision of 0.00001, set *Digits* to 5.
 
 Next, create a second unit of measure, name it, and select the same units of measure category as
 your reference unit. As *Type*, select *Smaller* or *Bigger than the reference Unit of Measure*,
@@ -105,12 +105,12 @@ should be smaller than 1.
 
 For your curtain roll, the ratio should be set to 100.
 
-.. image:: media/uom-second-unit.png
+.. image:: uom/uom-second-unit.png
    :align: center
    :alt: Create a second unit of measure in Flectra Purchase
 
 You can now configure your product just as you would using Flectra's standard units of measure.
 
-.. image:: media/uom-product-configuration-new-units.png
+.. image:: uom/uom-product-configuration-new-units.png
    :align: center
    :alt: Set a product's units of measure using your own units in Flectra Purchase

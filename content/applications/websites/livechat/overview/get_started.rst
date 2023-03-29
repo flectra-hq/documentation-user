@@ -13,14 +13,14 @@ Once *Live Chat* is installed on your database, if your website was created with
 application is automatically added to it. All that is left to do is to go to
 :menuselection:`Website --> Configuration --> Settings --> Live Chat`.
 
-.. image:: media/livechat_settings.png
+.. image:: get_started/livechat_settings.png
    :align: center
    :height: 300
    :alt: View of the settings page and the live chat feature for Flectra Live Chat
 
 Select the channel to be linked to your website or create one on the fly.
 
-.. image:: media/channels.png
+.. image:: get_started/channels.png
    :align: center
    :alt: View of a live chat channel form for Flectra Live Chat
 
@@ -35,7 +35,7 @@ Select the channel to be linked to your website or create one on the fly.
   the chat window automatically pops-up 3 seconds after users (from any country) land on the
   contact us page.
 
-.. image:: media/rules.png
+.. image:: get_started/rules.png
    :align: center
    :alt: View of a channel’s rules form for Flectra Live Chat
 
@@ -51,7 +51,7 @@ External options
   the *Widget* tab.
 | Flectra also offers an URL you can send to users so they can have access to a single live chat page.
 
-.. image:: media/widget.png
+.. image:: get_started/widget.png
    :align: center
    :alt: View of the widget tab for Flectra Live Chat
 
@@ -61,7 +61,7 @@ Managing chat requests
 Conversations initiated by visitors pop up as a direct message, and are shown in *Discuss*.
 Therefore, inquiries can be answered wherever you are in Flectra.
 
-.. image:: media/discuss.png
+.. image:: get_started/discuss.png
    :align: center
    :alt: View of the discuss application with a message sent through live chat in Flectra
 
@@ -74,7 +74,7 @@ Leave or join a channel
 Go to :menuselection:`Website --> Configuration --> Settings`, access your channel under
 *Live Chat*, and *Join Channel* or *Leave Channel*.
 
-.. image:: media/joinchannel.png
+.. image:: get_started/joinchannel.png
    :align: center
    :alt: View of a channel form and the option to join a channel for Flectra Live Chat
 

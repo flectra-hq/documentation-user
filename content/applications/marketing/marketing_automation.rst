@@ -3,12 +3,15 @@
 :hide-page-toc:
 :show-toc:
 
-===================
-Automated Marketing
-===================
+====================
+Marketing Automation
+====================
 
+.. seealso::
+   - `Flectra Tutorials: Marketing <https://www.flectra.com/slides/marketing-27>`_
 
 .. toctree::
    :titlesonly:
 
+   marketing_automation/getting_started
    marketing_automation/advanced

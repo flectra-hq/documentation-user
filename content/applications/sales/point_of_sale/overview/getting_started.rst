@@ -2,140 +2,155 @@
 Getting started
 ===============
 
-When working with a Point of Sale application, employees want a
-simple, and user-friendly solution. A solution that works online or
-offline and with any device.
-
-A Point of Sale system is a fully integrated application that allows any transaction, 
-automatically registers product moves in your stock, and gives you
-real-time statistics and consolidations across all shops.
+**Point of Sale** is a fully integrated application that allows you to sell products (online or
+offline) with any device. It also automatically registers product moves in your stock, gives you
+real-time statistics, and consolidations across all shops.
 
 Configuration
 =============
 
-Make products available in the PoS
-----------------------------------
+Make products available
+-----------------------
 
-To make products available for sale, go to :menuselection:`Point of
-Sale --> Products --> Products` and open a product. In the *Sales*
-tab, enable *Available in Point of Sale*.
+To make products available for sale, go to :menuselection:`Point of Sale --> Products --> Products`,
+and select a product to open the product form. In the :guilabel:`Sales` tab, enable
+:guilabel:`Available in POS`.
 
-.. image:: media/getting_started_01.png
-    :align: center
-    :alt: Product form. Making the product available in PoS.
+.. image:: getting_started/pos-available.png
+   :align: center
+   :alt: Making a product available in your POS.
 
-.. note::
-   You can also define if the product has to be weighted or not.
+Configure payment methods
+-------------------------
 
-Configure your payment methods
-------------------------------
+To add a payment method, you first need to create it. Go to :menuselection:`Point of Sale -->
+Configuration --> Payment Methods --> Create`, and set a name. Check :guilabel:`Identify Customer`
+to allow this payment method *exclusively* for registered customers.
 
-To add a payment method, you first need to create it. Go to
-:menuselection:`Point of Sale --> Configuration --> Payment Methods`
-and click on create. Then, you can name your payment method and set it
-up.
+Then, select the :guilabel:`Journal`. Choose :guilabel:`Cash` to use this payment method for cash
+payments, or :guilabel:`Bank` to use it for card payments.
 
-.. image:: media/getting_started_02.png
-    :align: center
-    :alt: Creating a new payment method for a Point of Sale.
+.. comment:
+   when created, add a link to the customeraccount page under advanced_pricing_features
 
-.. note::
-   Don’t forget your credentials for methods using a payment terminal.
-
-Now, you can select the payment method in your PoS settings. To do so,
-go to :menuselection:`Point of Sale --> Configuration --> Point of
-Sale` and open the PoS in which you want to include the payment method. Then, add the
-payment method.
-
-.. image:: media/getting_started_03.png
-    :align: center
-    :alt: Making the payment method available in a point of sale.
+.. image:: getting_started/payment-method.png
+   :align: center
+   :alt: Creating a new payment method for a POS.
 
 .. note::
-   *Configuration* is the menu where you can edit all your point of sale settings.
-   Some more features are available for restaurants.
+   - Selecting a :guilabel:`bank` journal automatically adds the :guilabel:`Use a Payment Terminal`
+     field in which you can add your terminal's information.
+   - Credentials are mandatory to use a payment terminal. To learn how to configure the different
+     terminals, check out the following documentation pages:
 
-Your first PoS session
-======================
+     - :doc:`Adyen configuration <../payment/adyen>`
+     - :doc:`Vantiv configuration <../payment/vantiv>`
+     - :doc:`Ingenico configuration <../payment/ingenico>`
+     - :doc:`Six configuration <../payment/six>`
+     - :doc:`Worldline configuration <../payment/worldline>`
 
-Your first order
-----------------
+Once the payment method is created, you can select it in your POS settings. To do so, go to
+:menuselection:`Point of Sale --> Configuration --> Settings`. Select a POS for which you wish to
+make the payment method available in the :guilabel:`Point of Sale` field, and add the payment
+method(s) under the :guilabel:`Payment` section.
 
-Open a new session from the dashboard by clicking on *New Session*.
+POS sessions
+============
 
-.. image:: media/getting_started_04.png
-    :align: center
-    :alt: Launching a new session.
+.. _pos/start-session:
 
-After the loading screen, you arrive on the PoS interface.
+Start a session
+---------------
 
-.. image:: media/getting_started_05.png
-    :align: center
-    :alt: Point of sale dashboard.
+From the **POS dashboard**, click :guilabel:`New Session` and at the :guilabel:`Opening Cash
+Control` screen, click :guilabel:`Open Session` to start a POS session, or click :guilabel:`Continue
+Selling` if the session is already opened.
 
-Once an order is completed, you can register the payment. All the
-available payment methods appear on the left of the screen. Select the payment
-method and enter the received amount. Then, you can validate the
-payment.
+.. note::
+   Multiple users can be connected to the same session at the same time. However, the session can
+   only be opened once on the same browser.
+
+Click products to add them to the cart. To change the **quantity**, click :guilabel:`Qty` and enter
+the number of products using the keypad. To add a **discount** or modify the product **price**,
+click respectively :guilabel:`% Disc` or :guilabel:`Price` and enter the amounts.
+
+Once an order is completed, proceed to checkout by clicking :guilabel:`Payment`. Select the
+**payment method**, enter the received amount, and click :guilabel:`Validate`. Click
+:guilabel:`New Order` to move on to the next customer.
+
+.. image:: getting_started/pos-interface.png
+   :align: center
+   :alt: POS session interface.
+
+.. tip::
+   - You can use both `,` and `.` on your keyboard as decimal separators.
+   - **Cash** is selected by default if you enter the amount without choosing a payment method.
+
 
 Return and refund products
 --------------------------
 
-Having a well-thought-out return policy is key to keep customers satisfied and make the process 
-of accepting returns and refunds easy for you.
+To return and refund a product,
 
-To do that, from the PoS interface, select the product and quantity (with the +/- button) that the 
-customer wants to return. For multiple products, repeat the process individually.
+#. :ref:`start a session <pos/start-session>` from the **POS dashboard**;
+#. click :guilabel:`Refund` and select the corresponding order;
+#. select the product and the quantity to refund using the keypad;
+#. click :guilabel:`Refund` to go back to the previous screen;
+#. once the order is completed, click :guilabel:`Payment` to proceed to the refund;
+#. click :guilabel:`Validate` and :guilabel:`New Order` to move on to the next customer.
 
-.. image:: media/getting_started_06.png
-    :align: center
-    :alt: Refunding a product with the point of sale app.
+.. image:: getting_started/refund.png
+   :align: center
+   :alt: refund view from a POS
 
-When on the payment interface, the total is negative. To end the refund,
-process the payment and validate it.
+.. note::
+   - You can filter the **orders list** by :guilabel:`Receipt Number`, :guilabel:`Date` or
+     :guilabel:`Customer` using the search bar.
+   - You can also refund a product by selecting the returned product from an open session, and
+     setting a negative quantity that equals the number of returned products. To do so, click
+     :guilabel:`Qty` and :guilabel:`+/-`, followed by the quantity of returned products.
 
-.. image:: media/getting_started_07.png
-    :align: center
-    :alt: Giving back money to customer in Flectra Point of Sale.
-
-Close the PoS session
+Close the POS session
 ---------------------
 
-To close your session at the end of the day, click on the close button on the upper right corner 
-of your screen and confirm. Now, close the session on the dashboard view.
+To close your session, click :guilabel:`Close` in the upper right corner of your screen; doing so
+opens the :guilabel:`Closing Control` pop-up screen. From this screen, you can retrieve various
+information:
 
-.. image:: media/getting_started_08.png
-    :align: center
-    :alt: How to close a point of sale session.
+- the number of orders made and the total amount made during the session;
+- the expected amounts grouped by payment method.
+
+Before closing this window, count your cash using the calculator icon. Doing so opens a pop-up
+window that computes the total amount in the cash drawer depending on the coins and bills counted
+and added manually. Then, click :guilabel:`Confirm` or :guilabel:`Discard` to close the window. The
+computed amount is set in the :guilabel:`Counted` column, and the :guilabel:`Money Details` are
+specified in the **Notes** section.
+
+.. image:: getting_started/closing-control.png
+   :align: center
+   :alt: How to close a POS session.
+
+Once you are done controlling the amounts, click :guilabel:`Close Session` to close and go back to
+the **POS dashboard**.
+
+.. note::
+   - You can let the session open by clicking :guilabel:`Backend` or abort and keep selling by
+     clicking :guilabel:`Discard`.
+   - Depending on your setup, you might only be allowed to close a session if the expected cash
+     revenue equals the counted cash. To close it anyway, click :guilabel:`Ok` at the
+     :guilabel:`Payments Difference` screen.
 
 .. tip::
-   It’s strongly advised to close your PoS session at the end of each day.
+   - It is strongly advised to close your POS session at the end of each day.
+   - To look at all your previous sessions, go to :menuselection:`Point of Sale --> Orders -->
+     Sessions`.
 
-Once a session is closed, you can see a summary of all transactions per payment method. 
-Then, click on a line to see all orders that were paid during your PoS session. 
-If everything is correct, validate the session and post the closing entries.
+View statistics
+===============
 
-.. image:: media/getting_started_09.png
-    :align: center
-    :alt: Point of sale sales report before closing the session.
+To access your statistics, go to :menuselection:`Point of Sale --> Reporting --> Orders`. Or, from
+the **POS dashboard**, click the vertical ellipsis (:guilabel:`⋮`) button, :guilabel:`Reporting`,
+and :guilabel:`Orders`.
 
-
-View your statistics
-====================
-
-Keeping track of your sales is essential to get meaningful statistics. That’s why Flectra
-provides analyzes about your sales.
-
-To access your statistics, go to :menuselection:`Point of Sales -->
-Reporting --> Orders`. There, you can see various statistics in graph
-or pivot form.
-
-.. image:: media/getting_started_10.png
-    :align: center
-    :alt: Orders analysis with pivot view of the point of sale reporting feature.
-
-You can also access them through the dashboard.
-
-.. image:: media/getting_started_11.png
-    :align: center
-    :alt: Accessing orders analysis via the point of sale dashboard. Reporting feature on the PoS form.
+These statistics are available in a graph or pivot view that you can filter or group depending on
+your needs.

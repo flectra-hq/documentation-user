@@ -1,23 +1,45 @@
-=======================================
-How to manage BoMs for product variants
-=======================================
+==================================
+Managing BoMs for product variants
+==================================
 
-Flectra allows you to use one bill of materials for multiple variants of
-the same product. Simply enable variants from
-:menuselection:`Configuration --> Settings`.
+Flectra allows one bill of materials (BoM) to be used for multiple variants of the same product.
+Having a consolidated BoM for a product with variants saves time by preventing the need to manage
+multiple BoMs.
 
-.. image:: media/product_variants01.png
-    :align: center
+Activate product variants
+=========================
 
-You will then be able to specify which component lines are to be used in
-the manufacture of each product variant. You may specify multiple
-variants for each line. If no variant is specified, the line will be
-used for all variants.
+To activate variants, simply navigate to :menuselection:`Inventory --> Configuration --> Settings
+--> Products`, and then enable the :guilabel:`Variants` option. After that, click :guilabel:`Save`
+to apply the setting. For more information on configuring product variants, refer to :doc:`this
+page <../../../sales/sales/products_prices/products/variants>`.
 
-When defining variant BoMs on a line-item-basis, the **Product
-Variant** field in the main section of the BoM should be left blank.
-This field is used when creating a BoM for one variant of a product
-only.
+.. image:: product_variants/inventory-variants-settings.png
+   :align: center
+   :alt: Selecting "Variants" from Inventory app settings.
 
-.. image:: media/product_variants02.png
-    :align: center
+Apply BoM components to product variants
+========================================
+
+Next, create a new BoM or edit an existing one by going to :menuselection:`Manufacturing -->
+Products --> Bills of Materials`. Then, click :guilabel:`Edit`. The :guilabel:`Apply on Variants`
+option to assign components to specific product variants on the BoM is available once the
+:guilabel:`Variants` setting is activated from the :guilabel:`Inventory` application. If the
+:guilabel:`Apply on Variants` field is not immediately visible, activate it from the additional
+options menu.
+
+.. image:: product_variants/variants-kebab-menu.png
+   :align: center
+   :alt: "Apply on Variants" option on the additional options menu.
+
+Each component can be assigned to multiple variants. Components with no variants specified are used
+in every variant of the product. The same principle applies when configuring operations and
+by-products.
+
+When defining variant BoMs by component assignment, the :guilabel:`Product Variant` field in the
+main section of the BoM should be left blank, as shown below. This field is used only when creating
+a BoM specifically for one product variant.
+
+.. image:: product_variants/apply-on-variants-bom.png
+   :align: center
+   :alt: Applying components to multiple variants.

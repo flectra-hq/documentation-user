@@ -1,3 +1,5 @@
+:nosearch:
+
 ============
 Declarations
 ============
@@ -6,3 +8,4 @@ Declarations
    :titlesonly:
 
    declarations/tax_returns
+   declarations/intrastat

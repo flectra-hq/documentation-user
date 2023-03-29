@@ -1,5 +1,5 @@
 =================
-Purchase Receipts
+Purchase receipts
 =================
 
 **Purchase Receipts** are not invoices but rather confirmations of received payments, such as a
@@ -18,9 +18,9 @@ Register a receipt
 ==================
 
 To record a new receipt, go to :menuselection:`Accounting --> Vendors --> Receipts`, click on
-*Create*, fill out the form, and click on *Post*..
+*Create*, fill out the form, and click on *Post*.
 
-.. image:: media/purchase_receipts_draft.png
+.. image:: purchase_receipts/purchase_receipts_draft.png
    :align: center
    :alt: Fill out the draft purchase receipt in Flectra Accounting
 
@@ -36,10 +36,10 @@ post it.
 To do so, click on the **Journal Items** tab, change the accounts and values according to your
 needs, and click on *Post*.
 
-.. image:: media/purchase_receipts_journal_items.png
+.. image:: purchase_receipts/purchase_receipts_journal_items.png
    :align: center
    :alt: Change the accounts used in the journal entry to record a purchase receipt.
 
 .. seealso::
-   - :doc:`manage`
+   - :doc:`/applications/inventory_and_mrp/purchase/manage_deals/manage`
    - :doc:`/applications/finance/expenses`

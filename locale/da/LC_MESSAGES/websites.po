@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) FlectraHQ, Inc..
+# Copyright (C) Flectra S.A.
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -17,7 +17,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra2.0\n"
+"Project-Id-Version: Flectra 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 07:12+0200\n"
 "PO-Revision-Date: 2021-05-18 05:18+0000\n"
@@ -74,7 +74,7 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:26
 msgid ""
 "See how to do it: "
-"https://www.flectrahq.com/openerp_website/static/src/video/e-commerce/editing.mp4"
+"https://www.flectra.com/openerp_website/static/src/video/e-commerce/editing.mp4"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:29
@@ -1038,7 +1038,7 @@ msgid ""
 "Go to the *Configuration* menu of your Flectra's Website app. In the settings, "
 "turn on Google Analytics and paste the tracking ID. Then save the page."
 msgstr ""
-"Gå til *Konfiguration* menuen i dit flectras Hjemmeside app. I indstillinger "
+"Gå til *Konfiguration* menuen i dit Odoos Hjemmeside app. I indstillinger "
 "aktiverer du Google Analytics, og indsætter sporings ID'et. Gem derefter "
 "siden."
 
@@ -1153,7 +1153,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:67
 msgid "As a last step, authorize Flectra to access Google API."
-msgstr "Autorisér flectras adgang til Google API, som et sidste skridt."
+msgstr "Autorisér Odoos adgang til Google API, som et sidste skridt."
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:3
 msgid "Track clicks and visitors using Link Trackers"
@@ -1250,9 +1250,9 @@ msgstr ""
 "over antallet af klik samt oprindelseslandene for de klik."
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:50
-msgid "You can also access the link tracker on *flectrahq.com/r* via your browser."
+msgid "You can also access the link tracker on *flectra.com/r* via your browser."
 msgstr ""
-"Du kan også tilgå link sporeren ved at skrive *flectrahq.com/r* i din browser."
+"Du kan også tilgå link sporeren ved at skrive *flectra.com/r* i din browser."
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:51
 msgid ""
@@ -1394,32 +1394,32 @@ msgstr "**Flectra Blogs**: skriv fantastisk indhold."
 #: ../../content/applications/websites/website/optimize/seo.rst:62
 msgid ""
 "**Flectra Slides**: publish all your Powerpoint or PDF presentations. Their "
-"content is automatically indexed on the web page. Example: `flectrahq.com/slides"
-"/public-channel-1 <https://www.flectrahq.com/slides/public-channel-1>`_"
+"content is automatically indexed on the web page. Example: `flectra.com/slides"
+"/public-channel-1 <https://www.flectra.com/slides/public-channel-1>`_"
 msgstr ""
 "**Flectra Dias**: udgiv alle dine Powerpoint eller PDF præsentationer. Deres "
-"indhold indekseres automatisk på hjemmesiden. Eksempel: `flectrahq.com/slides"
-"/public-channel-1 <https://www.flectrahq.com/slides/public-channel-1>`_"
+"indhold indekseres automatisk på hjemmesiden. Eksempel: `flectra.com/slides"
+"/public-channel-1 <https://www.flectra.com/slides/public-channel-1>`_"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:66
 msgid ""
 "**Flectra Forum**: let your community create contents for you. Example: "
-"`flectrahq.com/forum/1 <https://flectrahq.com/forum/1>`_ (accounts for 30% of flectrahq.com"
+"`flectra.com/forum/1 <https://flectra.com/forum/1>`_ (accounts for 30% of Flectra.com"
 " landing pages)"
 msgstr ""
 "**Flectra Forum**: Lad dit community oprette indhold for dig. Eksempel: "
-"`flectrahq.com/forum/1 <https://flectrahq.com/forum/1>`_ (konti for 30% af flectrahq.com "
+"`flectra.com/forum/1 <https://flectra.com/forum/1>`_ (konti for 30% af Flectra.com "
 "landings sider)"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:70
 msgid ""
 "**Flectra Mailing List Archive**: publish mailing list archives on your "
-"website. Example: `flectrahq.com/groups/community-59 "
-"<https://www.flectrahq.com/groups/community-59>`_ (1000 pages created per month)"
+"website. Example: `flectra.com/groups/community-59 "
+"<https://www.flectra.com/groups/community-59>`_ (1000 pages created per month)"
 msgstr ""
 "**Flectra Mailing List Archive**: Udgiv mailing liste arkiver på din "
-"hjemmeside. Eksempel: `flectrahq.com/groups/community-59 "
-"<https://www.flectrahq.com/groups/community-59>`_ (1000 sider oprettet per måned)"
+"hjemmeside. Eksempel: `flectra.com/groups/community-59 "
+"<https://www.flectra.com/groups/community-59>`_ (1000 sider oprettet per måned)"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:76
 msgid ""
@@ -1630,8 +1630,8 @@ msgstr ""
 "indlæg):"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:184
-msgid "https://www.flectrahq.com/blog/company-news-5/post/the-flectra-story-56"
-msgstr "https://www.flectrahq.com/blog/company-news-5/post/the-flectra-story-56"
+msgid "https://www.flectra.com/blog/company-news-5/post/the-flectra-story-56"
+msgstr "https://www.flectra.com/blog/company-news-5/post/the-flectra-story-56"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:186
 msgid "In the above example:"
@@ -1656,8 +1656,8 @@ msgstr ""
 "indekseret af søgemaskiner. Eksempel:"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:196
-msgid "https://www.flectrahq.com/blog/page/3"
-msgstr "https://www.flectrahq.com/blog/page/3"
+msgid "https://www.flectra.com/blog/page/3"
+msgstr "https://www.flectra.com/blog/page/3"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:199
 msgid "Changes in URLs & Titles"
@@ -1741,7 +1741,7 @@ msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:236
 msgid "Here are Flectra strategies to manage links:"
-msgstr "Her er flectras strategier for håndtering af links:"
+msgstr "Her er Odoos strategier for håndtering af links:"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:238
 msgid ""
@@ -1989,7 +1989,7 @@ msgstr ""
 "Flectra komprimerer billeder når de er lagt op på din hjemmeside, ikke når de "
 "anmodes af den besøgende. Derfor er det muligt, hvis du anvender et "
 "tredjeparts tema, at det bruger billeder som ikke er komprimeret effektivt. "
-"Men alle billeder brugt i flectras officielle temaer er blevet komprimeret per "
+"Men alle billeder brugt i Odoos officielle temaer er blevet komprimeret per "
 "standard."
 
 #: ../../content/applications/websites/website/optimize/seo.rst:354
@@ -2013,7 +2013,7 @@ msgid ""
 " Thus, you can use as many pictograms as you want in your page, they will "
 "not result in extra requests to load the page."
 msgstr ""
-"flectras piktogrammer er implementeret via en font (`Font Awesome "
+"Odoos piktogrammer er implementeret via en font (`Font Awesome "
 "<https://fortawesome.github.io/Font-Awesome/icons/>`__  i de fleste Flectra "
 "temaer). Derfor kan du bruge så mange piktogrammer som du ønsker på din "
 "side, og de vil ikke resultere i ekstra indlæsningstid for siden."
@@ -2052,14 +2052,14 @@ msgstr "denne CSS fil er optimeret til at være lille"
 msgid ""
 "**Pre-processed:** The CSS framework used by Flectra is Bootstrap. Although a "
 "theme might use another framework, most of `Flectra themes "
-"<https://www.flectrahq.com/apps/themes>`__ extend and customize Bootstrap "
+"<https://www.flectra.com/apps/themes>`__ extend and customize Bootstrap "
 "directly. Since Flectra supports Less and Sass, you can modify CSS rules "
 "instead of overwriting them through extra CSS lines, resulting in a smaller "
 "file."
 msgstr ""
 "**Forudbehandlet:** CSS rammen som anvendes af Flectra er Bootstrap. Selv om et"
 " tema måske bruger en anden ramme, udvider og tilpasser de fleste af `Flectra "
-"temaer <https://www.flectrahq.com/apps/themes>`__ Bootstrap direkte. Siden Flectra "
+"temaer <https://www.flectra.com/apps/themes>`__ Bootstrap direkte. Siden Flectra "
 "understøtter Less og Sass, kan du redigere CSS regler, i stedet for at "
 "overskrive dem via ekstra CSS linjer, hvilket resultere i en mindre fil."
 
@@ -2406,16 +2406,16 @@ msgstr "Browser Cachelagring"
 msgid ""
 "Javascript, images and CSS resources have an URL that changes dynamically "
 "when their content change. As an example, all CSS files are loaded through "
-"this URL: `localhost:7073/web/content/457-0da1d9d/web.assets\\_common.0.css "
-"<http://localhost:7073/web/content/457-0da1d9d/web.assets_common.0.css>`__. "
+"this URL: `localhost:8069/web/content/457-0da1d9d/web.assets\\_common.0.css "
+"<http://localhost:8069/web/content/457-0da1d9d/web.assets_common.0.css>`__. "
 "The ``457-0da1d9d`` part of this URL will change if you modify the CSS of "
 "your website."
 msgstr ""
 "Javascript, billeder, og CSS ressourcer har en URL der ændres dynamisk når "
 "deres indhold ændres. Et eksempel på dette, er at alle CSS filer indlæses "
 "gennem denne URL: "
-"`localhost:7073/web/content/457-0da1d9d/web.assets\\_common.0.css "
-"<http://localhost:7073/web/content/457-0da1d9d/web.assets_common.0.css>`__. "
+"`localhost:8069/web/content/457-0da1d9d/web.assets\\_common.0.css "
+"<http://localhost:8069/web/content/457-0da1d9d/web.assets_common.0.css>`__. "
 "``457-0da1d9d`` delen af denne URL vil ændres, hvis du redigere din "
 "hjemmesides CSS."
 
@@ -2438,11 +2438,11 @@ msgid ""
 "and eCommerce (Drupal, Wordpress, Magento, Prestashop). The following link "
 "provides an analysis of the major open source CMS and eCommerce compared to "
 "Flectra when it comes to high query volumes: "
-"`https://www.flectrahq.com/slides/slide/197 <https://www.flectrahq.com/slides/slide"
+"`https://www.flectra.com/slides/slide/197 <https://www.flectra.com/slides/slide"
 "/flectra-cms-performance-comparison-and-optimisation-197>`_"
 msgstr ""
 "Udover at være hurtig, er Flectra også mere skalérbar end traditionelle CMS og eHandel (Drupal, Wordpress, Magento, Prestashop). Det følgende link indeholder en analyse af de større Open Source CMS og eHandel, sammenlignet med Flectra, når det kommer til høj volumen på forespørgsler:\n"
-"`https://www.flectrahq.com/slides/slide/197 <https://www.flectrahq.com/slides/slide/flectra-cms-performance-comparison-and-optimisation-197>`_"
+"`https://www.flectra.com/slides/slide/197 <https://www.flectra.com/slides/slide/flectra-cms-performance-comparison-and-optimisation-197>`_"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:569
 msgid "Todo"
@@ -2576,8 +2576,8 @@ msgstr ""
 "sti, osv.). Flectra opretter den automatisk. Dens indhold er:"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:634
-msgid "User-agent: \\* Sitemap: https://www.flectrahq.com/sitemap.xml"
-msgstr "User-agent: \\* Sitemap: https://www.flectrahq.com/sitemap.xml"
+msgid "User-agent: \\* Sitemap: https://www.flectra.com/sitemap.xml"
+msgstr "User-agent: \\* Sitemap: https://www.flectra.com/sitemap.xml"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:637
 msgid ""
@@ -2608,11 +2608,11 @@ msgstr "Hvordan du bruger dit eget domæne navn"
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:5
 msgid ""
-"By default, your Flectra Online instance and website have a *.flectrahq.com* domain "
+"By default, your Flectra Online instance and website have a *.flectra.com* domain "
 "name, for both the URL and the emails. But you can change to a custom one "
 "(e.g. www.yourcompany.com)."
 msgstr ""
-"Per standard har din Flectra Online instans og hjemmeside et *.flectrahq.com* domæne"
+"Per standard har din Flectra Online instans og hjemmeside et *.flectra.com* domæne"
 " navn, for både URL og emails. Men du kan ændre til dit eget (f.eks. "
 "www.dinvirksomhed.com)."
 
@@ -2706,7 +2706,7 @@ msgid ""
 msgstr ""
 "Du er velkommen til at købe en email server så du kan bruge email adresse "
 "med dit domæne. Men køb dog ikke nogen ekstra tjenester til oprettelse eller"
-" hosting af din hjemmeside. Det er flectras job!"
+" hosting af din hjemmeside. Det er Odoos job!"
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:45
 msgid "How to apply my domain name to my Flectra instance"
@@ -2715,14 +2715,14 @@ msgstr "Hvordan anvender jeg mit domæne navn på min Flectra instans"
 #: ../../content/applications/websites/website/publish/domain_name.rst:46
 msgid ""
 "First let's authorize the redirection (yourcompany.com -> "
-"yourcompany.flectrahq.com):"
+"yourcompany.flectra.com):"
 msgstr ""
 "Las os først autorisere omdirigeringen (dinvirksomhed.com -> "
-"dinvirksomhed.flectrahq.com):"
+"dinvirksomhed.flectra.com):"
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:48
-msgid "Open your flectrahq.com account from your homepage."
-msgstr "Åben din flectrahq.com konto fra din hjemmeside."
+msgid "Open your Flectra.com account from your homepage."
+msgstr "Åben din Flectra.com konto fra din hjemmeside."
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:53
 msgid "Go to the *Manage Databases* page."
@@ -2754,12 +2754,12 @@ msgstr "Log ind på din konto og søg efter DNZ Zone håndteringssiden."
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:74
 msgid ""
-"Create a CNAME record *www.yourdomain.com* pointing to *mywebsite.flectrahq.com*."
+"Create a CNAME record *www.yourdomain.com* pointing to *mywebsite.flectra.com*."
 " If you want to use the naked domain (e.g. yourdomain.com), you need to "
 "redirect *yourdomain.com* to *www.yourdomain.com*."
 msgstr ""
 "Opret et CNAME datasæt *www.ditdomæne.com* som pege på "
-"*minhjemmeside.flectrahq.com*. Hvis du vil bruge det nøgne domæne (f.eks. "
+"*minhjemmeside.flectra.com*. Hvis du vil bruge det nøgne domæne (f.eks. "
 "ditdomæne.com), skal du omdirigere *ditdomæne.com* til *www.ditdomæne.com*."
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:78
@@ -2848,12 +2848,12 @@ msgid ""
 "If you want to do it manually, you can go to :menuselection:`Settings --> "
 "Technical --> System Parameters` . Find the entry called ``web.base.url`` "
 "(you can create it if it does not exist) and enter the full URL of your "
-"website, like ``https://www.myflectrawebsite.com``."
+"website, like ``https://www.myodoowebsite.com``."
 msgstr ""
 "Hvis du vil gøre det manuelt, kan du gå til :menuselection:`Indstillinger "
 "--> Teknisk --> Systemparametre`. Find linjen ``web.base.url`` (du kan "
 "oprette den hvis den ikke eksisterer) og angiv den fulde URL for din "
-"hjemmeside, så som ``https://www.myflectrawebsite.com``."
+"hjemmeside, så som ``https://www.myodoowebsite.com``."
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:107
 msgid ""
@@ -2879,12 +2879,12 @@ msgstr "Min hjemmeside er indekseret to gange af Google"
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:115
 msgid ""
-"If you set up a custom domain *mydomain.com* name for *mydatabase.flectrahq.com*,"
+"If you set up a custom domain *mydomain.com* name for *mydatabase.flectra.com*,"
 " Google indexes your website under both names. This is a limitation of the "
 "Flectra cloud platforms/"
 msgstr ""
 "Hvis du har oprettet et tilpasset domæne *mitdomæne.com* navn for "
-"*mindatabase.flectrahq.com*, Google indekserer din hjemmeside under begge navne. "
+"*mindatabase.flectra.com*, Google indekserer din hjemmeside under begge navne. "
 "Dette er en begrænsning af Flectra Cloud platformene/"
 
 #: ../../content/applications/websites/website/publish/domain_name.rst:120
@@ -2901,7 +2901,7 @@ msgid ""
 "customer segmentation for your business. A multiplied audience and boosted "
 "revenue are now just a few clicks away!"
 msgstr ""
-"flectras Multi-Hjemmesider åbner op for en bred vifte af muligheder for "
+"Odoos Multi-Hjemmesider åbner op for en bred vifte af muligheder for "
 "diversificering og kunde segmentering for din virksomhed. Et mangedoblet "
 "publikum og forøget omsætning er blot et par klik væk!"
 

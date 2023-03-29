@@ -15,23 +15,40 @@ revenue they generate.
 Configuration
 =============
 
-Go to :menuselection:`Subscriptions -->Products` to learn how you can configure your
+Go to :menuselection:`Subscriptions --> Subscription products` to learn how you can configure your
 own subscription products. You have the possibility to create a new product or edit an existing one.
 Once named, be careful to select the option *Can be sold* and deselect *Can be purchased*. For the
 product type, it is recommended to use *Service* for subscription products as they are non-material
 products that you provide to your customers. Finally, you can adapt your prices and also add an
 internal reference.
 
-.. image:: media/subscription-products-configuration.png
+.. image:: subscription_products/subscription-products-configuration.png
   :align: center
   :alt: View of a subscription product form in Flectra Subscriptions
 
 .. note::
-   You can also choose the subscription plan you want to use.
+   In the Sales tab, underneath the Subscriptions section, make sure the *Subscription products*
+   option is activated. In fact, if you create a subscription product from the **Flectra Subscriptions**
+   application, this option is selected by default. However, if you create a product from another
+   application, it is not the case.
 
-   .. image:: media/subscription-products-using-subscription-templates.png
+   .. image:: subscription_products/subscription-products-form.png
      :align: center
      :alt: View of a subscription product form in Flectra Subscriptions
 
+   You can also choose the subscription templates you want to use.
+
+   .. image:: subscription_products/subscription-products-using-subscription-templates.png
+     :align: center
+     :alt: View of a subscription product form in Flectra Subscriptions
+
+.. important::
+   Be sure to check out our documentation on how to create, edit and manage your own
+   :doc:`Subscription templates <../../subscriptions/configuration/subscription_templates>`
+   before creating your own subscription products. Once created, check out our documentation on how to
+   :doc:`Create a quotation using subscription products <../../subscriptions/sales_flow/create_a_quotation>`,
+   to complete the sales flow.
+
 .. seealso::
   - :doc:`../../subscriptions/configuration/subscription_templates`
+  - :doc:`../../subscriptions/sales_flow/create_a_quotation`

@@ -1,5 +1,5 @@
 =================
-Deferred Revenues
+Deferred revenues
 =================
 
 **Deferred revenues**, or **unearned revenue**, are payments made in advance by customers for
@@ -36,13 +36,13 @@ Configure a Deferred Revenue Account
 To configure your account in the **Chart of Accounts**, go to :menuselection:`Accounting -->
 Configuration --> Chart of Accounts`, click on *Create*, and fill out the form.
 
-.. image:: media/deferred_revenues01.png
+.. image:: deferred_revenues/deferred_revenues01.png
    :align: center
    :alt: Configuration of a Deferred Revenue Account in Flectra Accounting
 
 .. note::
    This account's type must be either *Current Liabilities* or *Non-current Liabilities*
-   
+
 Post an income to the right account
 -----------------------------------
 
@@ -52,7 +52,7 @@ Select the account on a draft invoice
 On a draft invoice, select the right account for all the products of which the incomes must be
 deferred.
 
-.. image:: media/deferred_revenues02.png
+.. image:: deferred_revenues/deferred_revenues02.png
    :align: center
    :alt: Selection of a Deferred Revenue Account on a draft invoice in Flectra Accounting
 
@@ -62,24 +62,24 @@ Choose a different Income Account for specific products
 Start editing the product, go to the *Accounting* tab, select the right **Income Account**, and
 save.
 
-.. image:: media/deferred_revenues03.png
+.. image:: deferred_revenues/deferred_revenues03.png
    :align: center
-   :alt: Change of the Income Account for a product in Flectra 
+   :alt: Change of the Income Account for a product in Flectra
 
 .. tip::
    It is possible to automate the creation of revenue entries for these products (see:
    `Automate the Deferred Revenues`_).
 
 Change the account of a posted journal item
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To do so, open your Sales Journal by going to
 :menuselection:`Accounting --> Accounting --> Sales`, select the journal item you
-want to modify, click on the account, and select the right one. 
+want to modify, click on the account, and select the right one.
 
-.. image:: media/deferred_revenues04.png
+.. image:: deferred_revenues/deferred_revenues04.png
    :align: center
-   :alt: Modification of a posted journal item's account in Flectra Accounting 
+   :alt: Modification of a posted journal item's account in Flectra Accounting
 
 Deferred Revenues entries
 =========================
@@ -97,7 +97,7 @@ Click on **select related purchases** to link an existing journal item to this n
 fields are then automatically filled out, and the journal item is now listed under the **Related
 Sales** tab.
 
-.. image:: media/deferred_revenues05.png
+.. image:: deferred_revenues/deferred_revenues05.png
    :align: center
    :alt: Deferred Revenue entry in Flectra Accounting
 
@@ -105,10 +105,10 @@ Once done, you can click on *Compute Revenue* (next to the *Confirm* button) to 
 values of the **Revenue Board**. This board shows you all the entries that Flectra will post to
 recognize your revenue, and at which date.
 
-.. image:: media/deferred_revenues06.png
+.. image:: deferred_revenues/deferred_revenues06.png
    :align: center
-   :alt: Revenue Board in Flectra Accounting   
-   
+   :alt: Revenue Board in Flectra Accounting
+
 What does "Prorata Temporis" mean?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -126,7 +126,7 @@ Deferred Entry from the Sales Journal
 
 You can create a deferred entry from a specific journal item in your **Sales Journal**.
 
-To do so, open your Sales Journal by going to 
+To do so, open your Sales Journal by going to
 :menuselection:`Accounting --> Accounting --> Sales`, and select the journal item you want to defer.
 Make sure that it is posted in the right account (see:
 `Change the account of a posted journal item`_).
@@ -134,7 +134,7 @@ Make sure that it is posted in the right account (see:
 Then, click on *Action*, select **Create Deferred Entry**, and fill out the form the same way you
 would do to `create a new entry`_.
 
-.. image:: media/deferred_revenues07.png
+.. image:: deferred_revenues/deferred_revenues07.png
    :align: center
    :alt: Create Deferred Entry from a journal item in Flectra Accounting
 
@@ -157,8 +157,10 @@ Apply a Deferred Revenue Model to a new entry
 When you create a new Deferred Revenue entry,  fill out the **Deferred Revenue Account** with the
 right recognition account.
 
+New buttons with all the models linked to that account appear at the top of the form. Clicking on a
+model button fills out the form according to that model.
 
-.. image:: media/deferred_revenues08.png
+.. image:: deferred_revenues/deferred_revenues08.png
    :align: center
    :alt: Deferred Revenue model button in Flectra Accounting
 
@@ -180,7 +182,7 @@ You have three choices for the **Automate Deferred Revenue** field:
    `Deferred Revenue Models`_). Whenever a transaction is posted on the account, a *Deferred
    Revenues entry* is created and immediately validated.
 
-.. image:: media/deferred_revenues09.png
+.. image:: deferred_revenues/deferred_revenues09.png
    :align: center
    :alt: Automate Deferred Revenue on an account in Flectra Accounting
 
@@ -190,3 +192,4 @@ You have three choices for the **Automate Deferred Revenue** field:
 
 .. seealso::
    * :doc:`../../getting_started/initial_configuration/chart_of_accounts`
+   * `Flectra Academy: Deferred Revenues (Recognition) <https://www.flectra.com/r/EWO>`_

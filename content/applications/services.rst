@@ -9,5 +9,5 @@ Services
 
     services/project
     services/timesheets
+    services/fsm
     services/helpdesk
-    services/calendar-appointments

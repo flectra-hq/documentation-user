@@ -2,57 +2,47 @@
 Forecast future bills to pay
 ============================
 
-When you get hundreds of vendor bills per month with each of them having
-different payment terms, it could be complex to follow what you have to
-pay and when. Paying your vendors too early can decrease your cash
-availabilities and paying too late can lead to extra charges.
-
-Fortunately, Flectra provides you the right tools to manage payment orders
-to vendors efficiently.
+In Flectra, you can manage payments by setting automatic **Payments Terms** and **follow-ups**.
 
 Configuration: payment terms
-=============================
+============================
 
-In order to track the vendor conditions, we use payment terms in Flectra.
-Payment terms allow to keep track of the conditions to compute the due
-date on an invoice. As an example, a payment term can be:
+In order to track vendor conditions, we use **Payment Terms** in Flectra. They allow keeping track of
+due dates on invoices. Examples of **Payment Terms** are:
 
 -  50% within 30 days
-
 -  50% within 45 days
 
-To create your most common payment terms, use the menu: :menuselection:`Configuration -->
-Management --> Payment Terms` in the **Accounting** application. The following
-example show a payment term of 30% directly and the balance after 30
-days.
+To create them, go to :menuselection:`Accounting --> Configuration --> Invoicing: Payment Terms` and
+click on :guilabel:`Create` to add new terms or click existing ones to modify them.
 
-.. image:: ./media/forecast01.png
-  :align: center
+.. seealso::
+   `Flectra Tutorials: Payment Terms
+   <https://www.flectra.com/slides/slide/payment-terms-1679?fullscreen=1>`_
 
-Once payment terms are defined, you can assign them to your vendor by
-default. Set the Vendor Payment Term field on the Accounting tab of a
-vendor form. That way, every time you will purchase to this vendor, Flectra
-will propose you automatically the right payment term.
-
-.. image:: ./media/forecast02.png
-  :align: center
+Once **Payment Terms** are defined, you can assign them to your vendor by default. To do so, go to
+:menuselection:`Vendors --> Vendors`, select a vendor, click the :guilabel:`Sales & Purchase` tab,
+and select a specific **Payment Term**. This way, every time you purchase from this vendor, Flectra
+automatically proposes the chosen Payment Term.
 
 .. note::
+   If you do not set a specific Payment Term on a vendor, you can still set one on the vendor bill.
 
-    If you do not set a specific payment term on a vendor, you will still be
-    able to set a specific payment term on the vendor bill.
+Forecast bills to pay with the aged payable report
+==================================================
 
+To track amounts to be paid to the vendors, use the **Aged Payable** report. To access it, go to
+:menuselection:`Accounting --> Reporting --> Partner Reports: Aged Payable`. This report gives you a
+summary per vendor of the amounts to pay, compared to their due date (the due date being computed on
+each bill using the terms). This report tells you how much you will have to pay within the following
+months.
 
 Select bills to pay
 ===================
 
-Using the menu :menuselection:`Purchases --> Vendor Bills`, you can get a list of vendor
-bills. Using the advanced filters, you can list all the bills that you
-should pay or the bills that are overdue (you are late on the payment).
+You can get a list of all your vendor bills by going to :menuselection:`Vendors --> Bills`. To view
+only the bills that you need to pay, click :menuselection:`Filters --> Bills to Pay`. To view only
+overdue payments, select the :guilabel:`Overdue` filter instead.
 
-.. image:: ./media/forecast04.png
-  :align: center
-
-From this screen, you can also switch to the pivot table or the graph
-view to get statistics on the amount due over the next month, using the
-group by "Due Date" feature.
+You can also group bills by their due date by clicking :menuselection:`Group By --> Due Date` and
+selecting a time period.

@@ -1,14 +1,12 @@
+:orphan:
 
-=====================
+==============
 Theme Tutorial
-=====================
+==============
 
 .. warning::
 
-    This tutorial provides a great overview of what you can do creating an
-    Flectra theme. It is however incomplete. We are currently working on a new
-    detailed theme tutorial, come back here soon to unleash the true power of
-    Flectra themes!
+    This tutorial is outdated and won't work out of the box.
 
 .. rst-class:: lead
 
@@ -17,7 +15,7 @@ freedom for the user to customize everything according to their needs.
 
 Ready to create your own theme? Great. Here are some things you should know before you begin. This tutorial is a guide to creating an Flectra theme.
 
-.. image:: theme_tutorial_assets/img/flectra_intro.jpg
+.. image:: themes/Intro.jpg
 
 
 An introduction for web designers
@@ -30,12 +28,9 @@ From common CMS to Flectra
 --------------------------
 
 .. note::
-
    If you always think and work in the same way, you’ll probably get the same results. If you want something completely new,  then try something different.
 
-..
-
-    Where is my header.php file?
+**Where is my header.php file?**
 
 This is usually the first question from a web designer used to working with Wordpress or Joomla and coming to Flectra for the first time.
 
@@ -43,7 +38,7 @@ This is usually the first question from a web designer used to working with Word
 
   .. container:: col-sm-4
 
-     .. image:: theme_tutorial_assets/img/flectra_cms.jpg
+     .. image:: themes/cms.jpg
 
   .. container:: col-sm-7
 
@@ -71,7 +66,7 @@ Flectra default theme structure
 
   .. container:: col-sm-4
 
-     .. image:: theme_tutorial_assets/img/flectra_structure.jpg
+     .. image:: themes/def_structure.jpg
 
 .. container:: row
 
@@ -111,14 +106,14 @@ Let’s take a tour of our “list” elements:
 
 .. container:: row
 
-  .. figure:: theme_tutorial_assets/img/flectra_snippet.jpg
+  .. figure:: themes/snippet.jpg
      :figclass: col-sm-6
 
      Snippets (or building-blocks)
 
      A piece of HTML code.  The user  will  drag&drop, modify and combine them using our built-in Website Builder interface. You can define sets of options and styles for each snippet. The user will choose from them according to their needs.
 
-  .. figure:: theme_tutorial_assets/img/flectra_page.jpg
+  .. figure:: themes/page.jpg
      :figclass: col-sm-6
 
      Pages
@@ -131,14 +126,14 @@ Let’s take a tour of our “list” elements:
 
 .. container:: row
 
-  .. figure:: theme_tutorial_assets/img/flectra_styles.jpg
+  .. figure:: themes/styles.jpg
      :figclass: col-sm-6
 
      Styles
 
      Styles are defined using SCSS files (or you can use standard CSS files). You can define a style as **default** or **optional**. The default styles are always active in your theme, the optional styles can be enabled or disabled by the user.
 
-  .. figure:: theme_tutorial_assets/img/flectra_functionalities.jpg
+  .. figure:: themes/functionalities.jpg
      :figclass: col-sm-6
 
      Functionalities
@@ -154,7 +149,6 @@ After that, you have to write your code inside a ``<flectra>`` tag.
 
 .. code-block:: xml
 
-   [XML]
    <?xml version="1.0" encoding="utf-8" ?>
    <flectra>
      
@@ -166,7 +160,6 @@ Almost every element and option that you create has to be placed inside a ``<tem
 
 .. code-block:: xml
 
-    [XML]
     <template id="my_title" name="My title">
       <h1>This is an HTML block</h1>
       <h2 class="lead">And this is a subtitle</h2>
@@ -187,7 +180,7 @@ Keep reading the tutorial to learn to how properly extend it with your own code.
 
 
 Create a theme module
-======================
+=====================
 
 Flectra’s themes are packaged like modules. Even if you are designing a very simple website for your company or client, you need to package the theme like an Flectra module.
 
@@ -217,7 +210,7 @@ Flectra’s themes are packaged like modules. Even if you are designing a very s
 
 The final result should be like this:
 
-.. image:: theme_tutorial_assets/img/theme_folder.jpg
+.. image:: themes/theme_folder.jpg
 
 Edit ``__manifest__.py``
 ------------------------
@@ -241,7 +234,7 @@ Open the ``__manifest__.py`` you created and copy/paste the following:
 Replace the first four property’s values with anything you like.
 These values will be used to identify your new theme in Flectra’s backend.
 
-``category`` defines your module category (always “Theme”) and, after a slash, the subcategory. You can use one subcategory from the Flectra Apps categories list. (https://www.flectrahq.com/apps/themes)
+``category`` defines your module category (always “Theme”) and, after a slash, the subcategory. You can use one subcategory from the Flectra Apps categories list. (https://www.flectra.com/apps/themes)
 
 ``depends`` specifies the modules needed by our theme to work properly. For our tutorial theme, we only need website and website_theme_install to install/update.
 If you need blogging or eCommerce features as well, you have to add those modules too.
@@ -272,7 +265,7 @@ Since XML files are only loaded when you install the theme, you will have to for
 
 To do that, click on the Upgrade button in the theme selection screen.
 
-.. image:: theme_tutorial_assets/img/restart.png
+.. image:: themes/restart.png
 
 Structure of an Flectra page
 ============================
@@ -284,7 +277,7 @@ By default, Flectra provides you with a **Header** and a **Footer** (cross-pages
 
   Cross-pages elements will be the same on every page. Unique elements are related to a specific page only.
 
-.. image:: theme_tutorial_assets/img/flectra_page_structure.jpg
+.. image:: themes/page_structure.jpg
 
 To inspect the default layout, simply create a new page using the
 Website Builder.  Click on :menuselection:`New --> New Page` and
@@ -357,7 +350,7 @@ Finally add **assets.xml** in your **__manifest__.py** file in the data section.
 
 Update your theme.
 
-.. image:: theme_tutorial_assets/img/restart.png
+.. image:: themes/restart.png
 
 
 Our scss file is now included in our theme, it will be automatically compiled, minified and combined with all Flectra’s assets.
@@ -394,7 +387,7 @@ So here are the steps to create a robust and consistent style for your theme:
 
 \(1) Set the values for Flectra-provided SCSS variables
 
-Flectra declares many CSS rules, most being entirely customizable by overridding
+Flectra declares many CSS rules, most being entirely customizable by overriding
 the related SCSS variables. First, create a new file called primary_variables.scss
 and add it the same way as the style.scss file. The only difference it that
 you won't add it in the ``assets_frontend`` template but in the ``_assets_primary_variables``
@@ -437,7 +430,7 @@ Add those:
 
 This defines two color palettes for the user to choose from. Flectra relies
 on five named colors to be used by the website builder. By defining those in
-your theme, you ensure a consistent colored Flectra theme. Starting with Flectra2.0,
+your theme, you ensure a consistent colored Flectra theme. Starting with Flectra 14.0,
 a lot more variable are there for you to customize.
 
 .. note::
@@ -522,13 +515,13 @@ the theme. To do that, edit your ``__manifest__.py`` file like this
 
 Update your theme
 
-.. image:: theme_tutorial_assets/img/restart.png
+.. image:: themes/restart.png
 
 Great! We successfully added an id to the
 header and an element after the navigation menu. These changes will be
 applied to each page of the website.
 
-.. image:: theme_tutorial_assets/img/flectra_after_menu.png
+.. image:: themes/after-menu.png
    :class: shadow-0
 
 Create a specific page layout
@@ -696,14 +689,14 @@ Our page is almost ready. Now all we have to do is add **pages.xml** in our **__
 
 Update your theme
 
-.. image:: theme_tutorial_assets/img/restart.png
+.. image:: themes/restart.png
 
 Great, our Services page is ready and you’ll be able to access it by navigating to ``<yourwebsite>/services`` (the URL we chose above).
 
 You will notice that it's possible to drag/drop snippets underneath the
 *Our Services* list.
 
-.. image:: theme_tutorial_assets/img/flectra_services_page_nostyle.png
+.. image:: themes/services_page_nostyle.png
    :class: shadow-0
 
 Now let's go back to our *pages.xml* and, after our page template,
@@ -720,7 +713,7 @@ copy/paste the following code.
 
 This code will add a link to the main menu, referring to the page we created.
 
-.. image:: theme_tutorial_assets/img/flectra_services_page_menu.png
+.. image:: themes/services_page_menu.png
    :class: shadow-0
 
 The **sequence** attribute defines the link’s position in the top menu.
@@ -785,7 +778,7 @@ Structure tab. If you want to change the destination tab, you have just to repla
 
 
 
-.. image:: theme_tutorial_assets/img/snippet_bar.png
+.. image:: themes/snippet_bar.png
    :class: col-sm-6 shadow-0
 
 
@@ -802,7 +795,7 @@ Effect        ``//div[@id='snippet_effect']``
 The ``<t>`` tag will call our snippet's template and will assign a thumbnail placed in the img folder.
 You can now drag your snippet from the snippet bar, drop it in your page and see the result.
 
-.. image:: theme_tutorial_assets/img/snippet_default.png
+.. image:: themes/snippet_default.png
 
 
 Snippet options
@@ -812,7 +805,7 @@ Options allow publishers to edit a snippet’s appearance using the Website Buil
 Using Website Builder functionalities, you can create snippet options easily and automatically add them to the UI.
 
 Options group properties
--------------------------
+------------------------
 
 Options are wrapped in groups. Groups can have properties that define how the included options will interact with the user interface.
 
@@ -826,7 +819,7 @@ Options are wrapped in groups. Groups can have properties that define how the in
   Defines the list of elements that the snippet can be dropped beside.
 
 Default option methods
------------------------
+----------------------
 
 Options apply standard CSS classes to the snippet. Depending on the method that you choose, the UI will behave differently.
 
@@ -845,7 +838,7 @@ We start by adding a new file in our views folder - name it **options.xml** and 
 
     <template id="snippet_testimonial_opt" name="Snippet Testimonial Options" inherit_id="website.snippet_options">
         <xpath expr="//div[@data-js='Box']" position="after">
-            <div data-selector=".snippet_testimonial"> <!-- Options group -->
+            <div data-selector=".s_testimonial"> <!-- Options group -->
                 <div class="dropdown-submenu">
                     <a href="#" class="dropdown-item">Your Option</a>
                     <div class="dropdown-menu"><!-- Options list -->
@@ -876,11 +869,11 @@ option will reset the snippet to default.
 
 Add **options.xml** to ``__manifest__.py`` and update your theme.
 
-.. image:: theme_tutorial_assets/img/restart.png
+.. image:: themes/restart.png
 
 Dropping our snippet onto the page, you will notice that our new options are automatically added to the customize menu. Inspecting the page, you will also notice that the class will be applied to the element when selecting an option.
 
-.. image:: theme_tutorial_assets/img/snippet_options.png
+.. image:: themes/snippet_options.png
 
 Let’s create some css rules in order to provide a visual feedback for our options. Open our **style.scss** file and add the following
 
@@ -901,7 +894,7 @@ Let’s create some css rules in order to provide a visual feedback for our opti
         }
     }
 
-.. image:: theme_tutorial_assets/img/snippet_options2.png
+.. image:: themes/snippet_options2.png
    :class: shadow-0
 
 Great! We successfully created options for our snippet.
@@ -981,14 +974,14 @@ This time we have to inherit ``assets_editor`` instead of ``assets_frontend``.
 
 Update your theme
 
-.. image:: theme_tutorial_assets/img/restart.png
+.. image:: themes/restart.png
 
 
 Let’s test our new javascript function. Enter in Edit mode and drop into the page.
 You should now see the javascript alert that we bound on the ``onFocus`` event.
 If you close it, then click outside of your snippet and then click in it again, the event will trigger again.
 
-.. image:: theme_tutorial_assets/img/flectra_snippet_custom_method.png
+.. image:: themes/snippet_custom_method.png
    :class: shadow-0
 
 
@@ -1047,13 +1040,13 @@ Modern search engine algorithms increasingly focus on content, which means there
 
 As content is so important for SEO, you should concentrate on giving publishers the tools to easily insert it. It is important that your snippets are “content-responsive”, meaning that they should fit the publisher’s content regardless of size.
 
-Let’s have a look to this example of a classic two column snippet,, implemented in two different ways.
+Let’s have a look to this example of a classic two column snippet, implemented in two different ways.
 
 .. container:: row
 
   .. container:: col-sm-7
 
-    .. image:: theme_tutorial_assets/img/seo_snippet_wrong.png
+    .. image:: themes/seo_snippet_wrong.png
 
   .. container:: col-sm-5
 
@@ -1065,7 +1058,7 @@ Let’s have a look to this example of a classic two column snippet,, implemente
 
   .. container:: col-sm-7
 
-    .. image:: theme_tutorial_assets/img/seo_snippet_good.png
+    .. image:: themes/seo_snippet_good.png
 
   .. container:: col-sm-5
 
@@ -1104,11 +1097,12 @@ Describe your page
 ------------------
 
 Define keywords
-'''''''''''''''
+~~~~~~~~~~~~~~~
+
 You should use appropriate, relevant keywords and synonyms for those keywords. You can define them for each page using the built-in “Promote” function found in the bar at the top.
 
 Define a title and a description
-''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Define them using the “Promote” function. Keep your page titles short and include the main keyword phrase for the page.
 Good titles evoke an emotional response, ask a question or promise something.

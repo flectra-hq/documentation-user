@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) FlectraHQ, Inc..
+# Copyright (C) Flectra S.A.
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,7 +10,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra2.0\n"
+"Project-Id-Version: Flectra 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 07:12+0200\n"
 "PO-Revision-Date: 2021-05-18 05:18+0000\n"
@@ -67,13 +67,13 @@ msgstr "Сфера застосування цієї документації"
 msgid ""
 "This document is **mainly dedicated to Flectra on-premise users** who don't "
 "benefit from an out-of-the-box solution to send and receive emails in Flectra, "
-"unlike `Flectra Online <https://www.flectrahq.com/trial>`__ & `Flectra.sh "
+"unlike `Flectra Online <https://www.flectra.com/trial>`__ & `Flectra.sh "
 "<https://www.flectra.sh>`__."
 msgstr ""
 "Цей документ **в основному призначений для локальних користувачів Flectra**, "
 "які не отримують переваг від нестандартного рішення надсилати та отримувати "
 "електронні листи в Flectra, на відміну від `Flectra Online "
-"<https://www.flectrahq.com/trial>`__ та `Flectra.sh <https://www.flectra.sh>`__."
+"<https://www.flectra.com/trial>`__ та `Flectra.sh <https://www.flectra.sh>`__."
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:25
 msgid ""
@@ -209,20 +209,20 @@ msgstr ""
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:82
 msgid ""
 "If no TXT record is set for SPF, create one with following definition: "
-"v=spf1 include:_spf.flectrahq.com ~all"
+"v=spf1 include:_spf.flectra.com ~all"
 msgstr ""
 "Якщо для SPF немає запису TXT, створіть його з наступним визначенням: v=spf1"
-" include:_spf.flectrahq.com ~all"
+" include:_spf.flectra.com ~all"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:84
 msgid ""
-"In case a SPF TXT record is already set, add \"include:_spf.flectrahq.com\". e.g."
+"In case a SPF TXT record is already set, add \"include:_spf.flectra.com\". e.g."
 " for a domain name that sends emails via Flectra Online and via G Suite it "
-"could be: v=spf1 include:_spf.flectrahq.com include:_spf.google.com ~all"
+"could be: v=spf1 include:_spf.flectra.com include:_spf.google.com ~all"
 msgstr ""
-"Якщо запит SPF TXT вже встановлено, додайте \"include: _spf.flectrahq.com\". "
+"Якщо запит SPF TXT вже встановлено, додайте \"include: _spf.flectra.com\". "
 "наприклад, для доменного імені, яке надсилає електронні листи через Flectra "
-"Online, і через G Suite це може бути: v=spf1 include: _spf.flectrahq.com include:"
+"Online, і через G Suite це може бути: v=spf1 include: _spf.flectra.com include:"
 " _spf.google.com ~ all"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:88
@@ -260,16 +260,16 @@ msgid ""
 "You should do the same thing if DKIM (Domain Keys Identified Mail) is "
 "enabled on your email server. In the case of Flectra Online & Flectra.sh, you "
 "should add a DNS \"flectra._domainkey\" CNAME record to "
-"\"flectra._domainkey.flectrahq.com\". For example, for \"foo.com\" they should have "
+"\"flectra._domainkey.flectra.com\". For example, for \"foo.com\" they should have "
 "a record \"flectra._domainkey.foo.com\" that is a CNAME with the value "
-"\"flectra._domainkey.flectrahq.com\"."
+"\"flectra._domainkey.flectra.com\"."
 msgstr ""
 "Ви повинні робити те ж саме, якщо на вашому сервері електронної пошти "
 "ввімкнено DKIM (Domain Keys Identified Mail). У випадку з Flectra Online та "
 "Flectra.sh, ви повинні додати DNS \"flectra._domainkey\" запис CNAME на "
-"\"flectra._domainkey.flectrahq.com\". Наприклад, для \"foo.com\" вони повинні мати "
+"\"flectra._domainkey.flectra.com\". Наприклад, для \"foo.com\" вони повинні мати "
 "запис \"flectra._domainkey.foo.com\", тобто CNAME зі значенням "
-"\"flectra._domainkey.flectrahq.com\"."
+"\"flectra._domainkey.flectra.com\"."
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:108
 msgid "Restriction"
@@ -305,12 +305,12 @@ msgstr ""
 msgid ""
 "**Bounced messages** are routed to **bounce@** in order to track them in "
 "Flectra. This is especially used in `Flectra Email Marketing "
-"<https://www.flectrahq.com/page/email-marketing>`__ to opt-out invalid "
+"<https://www.flectra.com/page/email-marketing>`__ to opt-out invalid "
 "recipients."
 msgstr ""
 "**Відскановані повідомлення** направляються на відмову @, щоб відстежувати "
 "їх в Flectra. Це особливо використовується в `Flectra Email "
-"Marketing,<https://www.flectrahq.com/page/email-marketing>`__ щоб відмовитися від"
+"Marketing,<https://www.flectra.com/page/email-marketing>`__ щоб відмовитися від"
 " недійсних одержувачів."
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:126
@@ -325,34 +325,34 @@ msgstr ""
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:129
 msgid ""
 "Sales Channel (to create Leads or Opportunities in `Flectra CRM "
-"<https://www.flectrahq.com/page/crm>`__),"
+"<https://www.flectra.com/page/crm>`__),"
 msgstr ""
 "Канал продажів (для створення лідів або нагод в `Flectra CRM "
-"<https://www.flectrahq.com/page/crm>`__),"
+"<https://www.flectra.com/page/crm>`__),"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:131
 msgid ""
 "Support Channel (to create Tickets in `Flectra Helpdesk "
-"<https://www.flectrahq.com/page/helpdesk>`__),"
+"<https://www.flectra.com/page/helpdesk>`__),"
 msgstr ""
 "Підтримка каналу (для створення заявок у `Службі підтримки Flectra "
-"<https://www.flectrahq.com/page/helpdesk>`__),"
+"<https://www.flectra.com/page/helpdesk>`__),"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:133
 msgid ""
-"Projects (to create new Tasks in `Flectra Project <https://www.flectrahq.com/page"
+"Projects (to create new Tasks in `Flectra Project <https://www.flectra.com/page"
 "/project-management>`__),"
 msgstr ""
 "Проекти (для створення нових завдань в `Проекті Flectra "
-"<https://www.flectrahq.com/page/project-management>`__),"
+"<https://www.flectra.com/page/project-management>`__),"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:135
 msgid ""
 "Job Positions (to create Applicants in `Flectra Recruitment "
-"<https://www.flectrahq.com/page/recruitment>`__),"
+"<https://www.flectra.com/page/recruitment>`__),"
 msgstr ""
 "Вакансії (для створення заявок в `Рекрутингу Flectra "
-"<https://www.flectrahq.com/page/recruitment>`__),"
+"<https://www.flectra.com/page/recruitment>`__),"
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:137
 msgid "etc."
@@ -404,7 +404,7 @@ msgid ""
 "Flectra Online is fetching incoming messages of external servers once per hour "
 "only. You should set redirections for all the email addresses to Flectra's "
 "domain name in your email server (e.g. *catchall@mydomain.ext* to "
-"*catchall@mycompany.flectrahq.com*)."
+"*catchall@mycompany.flectra.com*)."
 msgstr ""
 "Якщо ви використовуєте Flectra Online або Flectra.sh, ми рекомендуємо "
 "переадресовувати вхідні повідомлення на доменне ім'я Flectra, а не виключно "
@@ -413,7 +413,7 @@ msgstr ""
 "вхідні повідомлення зовнішніх серверів лише раз на годину. Ви повинні "
 "встановити перенаправлення для всіх адрес електронної пошти до доменного "
 "імені Flectra на своєму сервері електронної пошти (наприклад, "
-"*catchall@mydomain.ext*, на *catchall@mycompany.flectrahq.com*)."
+"*catchall@mydomain.ext*, на *catchall@mycompany.flectra.com*)."
 
 #: ../../content/applications/productivity/discuss/advanced/email_servers.rst:169
 msgid "All the aliases are customizable in Flectra."
@@ -484,9 +484,9 @@ msgid ""
 " priority for transactional emails, and the server here selected for mass "
 "mails. Note that in this case, you have to set your domain's Sender Policy "
 "Framework (SPF) records to include both transactional and mass mail servers."
-" If your server resides with xxxx.flectrahq.com, the available options are "
+" If your server resides with xxxx.flectra.com, the available options are "
 "Sendinblue and Mailchimp, as your e-mails would be originated from the "
-"xxxx.flectrahq.com domain."
+"xxxx.flectra.com domain."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/email_template.rst:3
@@ -619,7 +619,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:38
 msgid ""
-"The first time you log in to your account, flectraBot sends you a message "
+"The first time you log in to your account, OdooBot sends you a message "
 "asking for permission to receive desktop notifications to chats. If "
 "accepted, you receive push notifications to the messages sent to you despite"
 " of where you are in Flectra."
@@ -1012,13 +1012,13 @@ msgstr ""
 msgid ""
 "If you are on Runbot, do not forget to add the -all or -base in the token "
 "(e.g. this token **http://375228-saas-11-5-iot-"
-"f3f920.runbot16.flectrahq.com\\|4957098401** should become "
-"**http://375228-saas-11-5-iot-f3f920-all.runbot16.flectrahq.com\\|4957098401**)."
+"f3f920.runbot16.flectra.com\\|4957098401** should become "
+"**http://375228-saas-11-5-iot-f3f920-all.runbot16.flectra.com\\|4957098401**)."
 msgstr ""
 "Якщо ви на Runbot, не забудьте додати -all або -base у токені (наприклад, "
 "цей токен **http://375228-saas-11-5-iot-"
-"f3f920.runbot16.flectrahq.com\\|4957098401** повинен стати "
-"**http://375228-saas-11-5-iot-f3f920-all.runbot16.flectrahq.com\\|4957098401**)."
+"f3f920.runbot16.flectra.com\\|4957098401** повинен стати "
+"**http://375228-saas-11-5-iot-f3f920-all.runbot16.flectra.com\\|4957098401**)."
 
 #: ../../content/applications/productivity/iot/config/connect.rst:66
 msgid ""
@@ -1077,7 +1077,7 @@ msgid ""
 "Go to Balena’s website and download `Etcher <https://www.balena.io/>`__. "
 "It’s a free and open-source utility used for burning image files. Install "
 "and launch it. Download the latest image from `nightly "
-"<http://nightly.flectrahq.com/master/iotbox/>`__."
+"<http://nightly.flectra.com/master/iotbox/>`__."
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:32
@@ -1130,7 +1130,7 @@ msgid ""
 "Any of the supported hardware (receipt printer, barcode scanner, cash "
 "drawer, payment terminal, scale, customer display, etc.). The list of "
 "supported hardware can be found on the `POS Hardware page "
-"<https://www.flectrahq.com/page/point-of-sale-hardware>`__"
+"<https://www.flectra.com/page/point-of-sale-hardware>`__"
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/pos.rst:30
@@ -1428,11 +1428,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/iot/devices/camera.rst:17
 msgid ""
-"If your camera is a `*supported one* <https://www.flectrahq.com/page/iot-"
+"If your camera is a `*supported one* <https://www.flectra.com/page/iot-"
 "hardware>`__, there is no need to set up anything as it will be detected as "
 "soon as it is connected."
 msgstr ""
-"Якщо ваша камера `*підтримується* <https://www.flectrahq.com/page/iot-"
+"Якщо ваша камера `*підтримується* <https://www.flectra.com/page/iot-"
 "hardware>`__, тоді не потрібно нічого встановлювати, оскільки її буде "
 "взначено, як тільки вона буде підключена."
 
@@ -1500,11 +1500,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:18
 msgid ""
-"If your footswitch is a `supported one <https://www.flectrahq.com/page/iot-"
+"If your footswitch is a `supported one <https://www.flectra.com/page/iot-"
 "hardware>`__, there is no need to set up anything since it will be "
 "automatically detected when connected."
 msgstr ""
-"Якщо ваша педаль `підтримується <https://www.flectrahq.com/page/iot-hardware>`__,"
+"Якщо ваша педаль `підтримується <https://www.flectra.com/page/iot-hardware>`__,"
 " не потрібно нічого встановлювати, як тільки вона буде автоматично визначена"
 " після підключення."
 
@@ -1550,11 +1550,11 @@ msgstr "Підключіть інструмент вимірювання"
 msgid ""
 "With Flectra’s *IoT Box*, it is possible to connect measurement tools to your "
 "database. Find the list of supported devices here: `Supported devices "
-"<https://www.flectrahq.com/page/iot-hardware>`__,."
+"<https://www.flectra.com/page/iot-hardware>`__,."
 msgstr ""
 "З *IoT Box* Flectra можливо підключити інструменти вимірювання до вашої бази "
 "даних. Знайдіть список підтримуваних пристроїв тут: `Підтримувані пристрої "
-"<https://www.flectrahq.com/page/iot-hardware>`__,."
+"<https://www.flectra.com/page/iot-hardware>`__,."
 
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:10
 msgid "Connect in USB"
@@ -1634,7 +1634,7 @@ msgstr ""
 #: ../../content/applications/productivity/iot/devices/printer.rst:13
 msgid ""
 "The IoT Box supports printers connected through USB, network or Bluetooth. "
-"`Supported printers <https://www.flectrahq.com/page/iot-hardware>`__ will be "
+"`Supported printers <https://www.flectra.com/page/iot-hardware>`__ will be "
 "detected automatically and will appear in the *Devices* list of your IoT "
 "app."
 msgstr ""
@@ -1813,7 +1813,7 @@ msgstr "У деяких випадках може знадобитися USB-а�
 
 #: ../../content/applications/productivity/iot/devices/scale.rst:17
 msgid ""
-"If your scale is `compatibale with Flectra IoT Box <https://www.flectrahq.com/page"
+"If your scale is `compatibale with Flectra IoT Box <https://www.flectra.com/page"
 "/iot-hardware>`_, there is no need to set up anything because it will be "
 "automatically detected as soon as it is connected."
 msgstr ""
@@ -2225,7 +2225,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:95
-msgid "`Studio Basics <https://www.flectrahq.com/fr_FR/slides/studio-31>`_"
+msgid "`Studio Basics <https://www.flectra.com/fr_FR/slides/studio-31>`_"
 msgstr ""
 
 #: ../../content/applications/productivity/studio/how_to.rst:3
@@ -2363,7 +2363,7 @@ msgstr ""
 #: ../../content/applications/productivity/studio/how_to/reports.rst:40
 msgid ""
 "**Visible for** is used to set which :doc:`groups "
-"</applications/general/flectra_basics/users>` can have access to specific "
+"</applications/general/odoo_basics/users>` can have access to specific "
 "elements in the report. **Limit visibility to groups**, under *Report*, sets"
 " the visibility of the report to specifics groups, meaning that users "
 "belonging to other groups do not see the same final document."

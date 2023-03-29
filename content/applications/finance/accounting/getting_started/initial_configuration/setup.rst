@@ -12,16 +12,15 @@ The settings visible in the onboarding banner can still be modified later by goi
 .. note::
    Flectra Accounting automatically installs the appropriate **Fiscal Localization Package** for your
    company, according to the country selected at the creation of the database. This way, the right
-   accounts, reports, and taxes are ready-to-go. :doc:`Click here
-   <../../fiscal_localizations/overview/fiscal_localization_packages>` for more information about
-   Fiscal Localization Packages.
+   accounts, reports, and taxes are ready-to-go. :ref:`Click here <fiscal_localizations/packages>`
+   for more information about Fiscal Localization Packages.
 
 Accounting onboarding banner
 ============================
 
 The step-by-step Accounting onboarding banner is composed of four steps:
 
-.. image:: media/setup_accounting_onboarding.png
+.. image:: setup/setup_accounting_onboarding.png
    :align: center
    :alt: Step-by-step onboarding banner in Flectra Accounting
 
@@ -39,7 +38,7 @@ This menu allows you to add your company’s details such as the name, address, 
 number, email address, and Tax ID, or VAT number. These details are then displayed on your documents,
 such as on invoices.
 
-.. image:: media/setup_company.png
+.. image:: setup/setup_company.png
    :align: center
    :alt: Add your company's details in Flectra Accounting and Flectra Invoicing
 
@@ -54,6 +53,9 @@ Bank Account
 
 Connect your bank account to your database and have your bank statements synced automatically. To do
 so, find your bank in the list, click on *Connect*, and follow the instructions on-screen.
+
+.. note::
+   :doc:`Click here <../../bank/feeds/bank_synchronization>` for more information about this feature.
 
 If your Bank Institution can’t be synchronized automatically, or if you prefer not to sync it with
 your database, you may also configure your bank account manually by clicking on *Create it*, and
@@ -102,7 +104,7 @@ opening balances.
 Basic settings are displayed on this page to help you review your Chart of Accounts. To access all
 the settings of an account, click on the *double arrow button* at the end of the line.
 
-.. image:: media/setup_chart_of_accounts.png
+.. image:: setup/setup_chart_of_accounts.png
    :align: center
    :alt: Setup of the Chart of Accounts and their opening balances in Flectra Accounting
 
@@ -122,7 +124,7 @@ If you have Flectra Accounting installed on your database, you can reach it by g
 
 The Invoicing onboarding banner is composed of four main steps:
 
-.. image:: media/setup_invoicing_onboarding.png
+.. image:: setup/setup_invoicing_onboarding.png
    :align: center
    :alt: Step-by-step onboarding banner in Flectra Invoicing
 
@@ -144,7 +146,7 @@ This form is the same as :ref:`the one presented in the Accounting onboarding ba
 Invoice Layout
 --------------
 
-With this tool, you can design the appearance of your documents by selecting which layout tamplate,
+With this tool, you can design the appearance of your documents by selecting which layout template,
 paper format, colors, font, and logo you want to use.
 
 You can also add your *Company Tagline* and the content of the documents’ *footer*. Note that Flectra
@@ -152,7 +154,7 @@ automatically adds the company's phone number, email, website URL, and Tax ID (o
 footer, according to the values you previously configured in the :ref:`Company Data
 <accounting-setup-company>`.
 
-.. image:: media/setup_document_layout.png
+.. image:: setup/setup_document_layout.png
    :align: center
    :alt: Document layout configuration in Flectra Invoicing
 
@@ -173,7 +175,7 @@ Payment Method
 This menu helps you configure the payment methods with which your customers can pay you.
 
 .. important::
-   Configuring a *Payment Acquirer* with this tool also activates the *Invoice Online Payment*
+   Configuring a *Payment Provider* with this tool also activates the *Invoice Online Payment*
    option automatically. With this, users can directly pay online, from their Customer Portal.
 
 .. _invoicing-setup-sample:
@@ -186,4 +188,6 @@ Send yourself a sample invoice by email to make sure everything is correctly con
 .. seealso::
    * :doc:`../../bank/setup/bank_accounts`
    * :doc:`chart_of_accounts`
-   * :doc:`../../fiscal_localizations/overview/fiscal_localization_packages`
+   * :doc:`../../bank/feeds/bank_synchronization`
+   * :doc:`../../../fiscal_localizations`
+   * `Flectra Tutorials: Accounting Basics <https://www.flectra.com/r/lsZ>`_

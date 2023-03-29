@@ -33,7 +33,7 @@ Installation
       ./flectra-bin --geoip-db= ~/Downloads/GeoLite2-City.mmdb
 
    .. seealso::
-      - :doc:`CLI documentation </developer/reference/cmdline>`.
+      - :doc:`CLI documentation </developer/reference/cli>`.
 
 .. warning::
    ``GeoIP`` Python library can also be used. However this version is discontinued since January
@@ -42,6 +42,7 @@ Installation
 
 How To Test GeoIP Geolocation In Your Flectra Website
 =====================================================
+
 1. Go to your website. Open the web page that you want to test ``GeoIP``.
 2. Choose :menuselection:`Customize --> HTML/CSS/JS Editor`.
 3. Add the following piece of XML in the page :
@@ -52,13 +53,15 @@ How To Test GeoIP Geolocation In Your Flectra Website
 
 You should end up with a dictionary indicating the location of the IP address.
 
-.. image:: media/on-premise_geo-ip-installation01.png
+.. image:: on-premise_geo-ip-installation/on-premise_geo-ip-installation01.png
     :align: center
 
 .. note::
    If the curly braces are empty ``{}``, it can be for any of the following reasons :
 
-   - The browsing IP address is the localhost (``127.0.0.1``) or a local area network one (``192.168.*.*``)
-   - If a reversed proxy is used, make sure to configure it correctly. See :option:`proxy mode <flectra-bin --proxy-mode>`
+   - The browsing IP address is the localhost (``127.0.0.1``) or a local area network one
+     (``192.168.*.*``)
+   - If a reversed proxy is used, make sure to configure it correctly. See :option:`proxy mode
+     <flectra-bin --proxy-mode>`
    - ``geoip2`` is not installed or the GeoIP database file wasn't found
    - The GeoIP database was unable to resolve the given IP address

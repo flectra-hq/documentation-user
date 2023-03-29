@@ -29,26 +29,27 @@ Title, Description
 Every web page should define the ``<title>`` and ``<description>`` meta data.
 These information elements are used by search engines to promote your website.
 They are automatically generated based on page title & content, but you can
-finetune them. Make sure they fit the content of the page, otherwise you will 
+finetune them. Make sure they fit the content of the page, otherwise you will
 be downgraded by search engines.
 
-.. image:: media/seo01.png
-  :align: center
+.. image:: seo/seo01.png
+   :align: center
 
 Keywords
 --------
+
 In order to write quality content and boost your traffic, Flectra provides
 a ``<keyword>`` finder. Those keywords are the searches you want to head
 towards your website. For each keyword, you see how it is used in the content
-(H1, H2, page title, page description, page content) and what are the related 
+(H1, H2, page title, page description, page content) and what are the related
 searches in Google. The more keywords are used the better.
 
-.. image:: media/seo02.png
-  :align: center
+.. image:: seo/seo02.png
+   :align: center
 
-.. note:: 
+.. note::
   If your website is in multiple languages, you can use the Promote
-  tool for every language of a single page and set specific title, 
+  tool for every language of a single page and set specific title,
   description and search tags.
 
 Content is King
@@ -61,15 +62,15 @@ modules to help you build your website content:
 
 - **Flectra Slides**: publish all your Powerpoint or PDF presentations.
   Their content is automatically indexed on the web page. Example:
-  `flectrahq.com/slides/public-channel-1 <https://www.flectrahq.com/slides/public-channel-1>`_
+  `flectra.com/slides/public-channel-1 <https://www.flectra.com/slides/public-channel-1>`_
 
 - **Flectra Forum**: let your community create contents for you. Example:
-  `flectrahq.com/forum/1 <https://flectrahq.com/forum/1>`_
-  (accounts for 30% of flectrahq.com landing pages)
+  `flectra.com/forum/1 <https://flectra.com/forum/1>`_
+  (accounts for 30% of Flectra.com landing pages)
 
 - **Flectra Mailing List Archive**: publish mailing list archives on your
   website. Example:
-  `flectrahq.com/groups/community-59 <https://www.flectrahq.com/groups/community-59>`_
+  `flectra.com/groups/community-59 <https://www.flectra.com/groups/community-59>`_
   (1000 pages created per month)
 
 .. note::
@@ -80,8 +81,8 @@ modules to help you build your website content:
 Use Social Networks
 ===================
 
-Social media is built for mass sharing. If lots of people share your content 
-on social media, then it's likely more people will link to it, 
+Social media is built for mass sharing. If lots of people share your content
+on social media, then it's likely more people will link to it,
 and links are a huge factor for SEO ranking.
 
 Flectra embeds several tools to share content through social media:
@@ -92,9 +93,9 @@ Social Network
 Flectra allows to link all your social network accounts in your website footer.
 All you have to do is to refer all your accounts in your company settings.
 
-.. image:: media/seo03.png
-  :align: center
-  
+.. image:: seo/seo03.png
+   :align: center
+
 Social Share
 ------------
 
@@ -102,21 +103,21 @@ Drop the building block *Share* on any page you want your visitors to share.
 By clicking the icon, they are prompted to share the page in their social media
 wall.
 
-.. image:: media/seo04.png
-  :align: center
+.. image:: seo/seo04.png
+   :align: center
 
 Most social media use a picture of the picture to decorate the share post.
-Flectra uses the website logo by default but you can choose any other image 
+Flectra uses the website logo by default but you can choose any other image
 of your page in the Promote tool.
 
-.. image:: media/seo05.png
-  :align: center
-  
+.. image:: seo/seo05.png
+   :align: center
+
 Facebook Page
 -------------
 
-Drop the building block *Facebook Page* to display a widget of your Facebook 
-business page and encourage visitors to follow it. 
+Drop the building block *Facebook Page* to display a widget of your Facebook
+business page and encourage visitors to follow it.
 You can display the timeline, the next events and the messages.
 
 Twitter Scroller
@@ -179,9 +180,9 @@ an example, the following URLs all do a 301 redirect to the above URL:
    product name)
 
 Some URLs have several dynamic parts, like this one (a blog category and
-a post): 
+a post):
 
--  https://www.flectrahq.com/blog/company-news-5/post/the-flectra-story-56
+-  https://www.flectra.com/blog/company-news-5/post/the-flectra-story-56
 
 In the above example:
 
@@ -191,9 +192,9 @@ In the above example:
 
 When an Flectra page has a pager, the page number is set directly in the
 URL (does not have a GET argument). This allows every page to be indexed
-by search engines. Example: 
+by search engines. Example:
 
--  https://www.flectrahq.com/blog/page/3
+-  https://www.flectra.com/blog/page/3
 
 Changes in URLs & Titles
 ------------------------
@@ -222,7 +223,7 @@ maintaining the SEO link juice.
 HTTPS
 -----
 
-Search engines boost ranking of secure HTTPS/SSL websites. 
+Search engines boost ranking of secure HTTPS/SSL websites.
 So, by default all Flectra Online instances are fully
 based on HTTPS. If the visitor accesses your website through a non HTTPS
 url, it gets a 301 redirect to its HTTPS equivalent.
@@ -230,7 +231,7 @@ url, it gets a 301 redirect to its HTTPS equivalent.
 Links: Nofollow Strategy
 ------------------------
 
-The more a page is linked from external and quality websites, 
+The more a page is linked from external and quality websites,
 the better it is for your SEO.
 
 Here are Flectra strategies to manage links:
@@ -253,6 +254,8 @@ Here are Flectra strategies to manage links:
 
 Multi-Language Support
 ======================
+
+.. _seo-multilanguage:
 
 Multi-Language URLs
 -------------------
@@ -296,7 +299,7 @@ yourwebsite.com/shop), they may automatically be redirected to a
 translated version according to their browser language preference (e.g.
 yourwebsite.com/fr\_FR/shop).
 
-Next time, it keeps a cookie of the current language to 
+Next time, it keeps a cookie of the current language to
 avoid any redirection.
 
 To force a visitor to stick to the default language, you can use the
@@ -319,7 +322,7 @@ visitor abandonment rate is also divided by two. (25% to 12.5%). One
 extra second to load a page could `cost $1.6b to Amazon in
 sales <http://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales>`__.
 
-.. image:: media/seo06.png
+.. image:: seo/seo06.png
   :align: center
 
 Fortunately, Flectra does all the magic for you. Below, you will find the
@@ -341,7 +344,7 @@ From the upload button, you have the option to keep the original image
 unmodified if you prefer to optimize the quality of the image rather
 than performance.
 
-.. image:: media/seo07.png
+.. image:: seo/seo07.png
   :align: center
 
 .. note::
@@ -355,12 +358,12 @@ When you click on an image, Flectra shows you the Alt and title attributes
 of the ``<img>`` tag. You can click on it to set your own title and Alt
 attributes for the image.
 
-.. image:: media/seo08.png
+.. image:: seo/seo08.png
   :align: center
 
 When you click on this link, the following window will appear:
 
-.. image:: media/seo09.png
+.. image:: seo/seo09.png
   :align: center
 
 Flectra's pictograms are implemented using a font (`Font
@@ -368,7 +371,7 @@ Awesome <https://fortawesome.github.io/Font-Awesome/icons/>`__ in most
 Flectra themes). Thus, you can use as many pictograms as you want in your
 page, they will not result in extra requests to load the page.
 
-.. image:: media/seo10.png
+.. image:: seo/seo10.png
   :align: center
 
 Static Resources: CSS
@@ -387,7 +390,7 @@ cached (server-side and browser-side). The result:
 
 **Pre-processed:** The CSS framework used by Flectra is Bootstrap.
 Although a theme might use another framework, most of `Flectra
-themes <https://www.flectrahq.com/apps/themes>`__ extend and customize
+themes <https://www.flectra.com/apps/themes>`__ extend and customize
 Bootstrap directly. Since Flectra supports Less and Sass, you can modify
 CSS rules instead of overwriting them through extra CSS lines,
 resulting in a smaller file.
@@ -409,18 +412,18 @@ CSS is shared amongst all pages, when the visitor clicks on another
 page, the browser does not even have to load a new CSS file!
 
 ================================= =============================================
-  **Both files in the <head>**     **What the visitor gets (only one file)**   
+  **Both files in the <head>**     **What the visitor gets (only one file)**
 ================================= =============================================
- /\* From bootstrap.css \*/       .text-muted {                                
- .text-muted {                    color: #666;                                 
- color: #777;                     background: yellow                           
- background: yellow;              }                                             
+ /\* From bootstrap.css \*/       .text-muted {
+ .text-muted {                    color: #666;
+ color: #777;                     background: yellow
+ background: yellow;              }
  }
 
- /\* From my-theme.css \*/                                                     
- .text-muted {                                                                 
- color: #666;                                                                  
- }                                                                             
+ /\* From my-theme.css \*/
+ .text-muted {
+ color: #666;
+ }
 ================================= =============================================
 
 The CSS sent by Flectra includes all CSS / Less / Sass of all pages /
@@ -432,28 +435,28 @@ into a second bundle that is loaded only when the page using it is
 requested. An example of this is the backend that is only loaded when
 the visitor logs in and accesses the backend (/web).
 
-.. note:: 
+.. note::
   If the CSS file is very big, Flectra will split it into two smaller
-  files to avoid the 4095 selectors limit per sheet of Internet Explorer. 
+  files to avoid the 4095 selectors limit per sheet of Internet Explorer.
   But most themes fit below this limit.
 
 **Minified:** After being pre-processed and concatenated, the resulting
 CSS is minified to reduce its size.
 
 ============================ ==============================
-  **Before minification**     **After minification**       
+  **Before minification**     **After minification**
 ============================ ==============================
-  /\* some comments \*/       .text-muted {color: #666}    
-  .text-muted {                                            
-  color: #666;                                             
-  }                                                        
+  /\* some comments \*/       .text-muted {color: #666}
+  .text-muted {
+  color: #666;
+  }
 ============================ ==============================
 
 The final result is then compressed, before being delivered to the
 browser.
 
 Then, a cached version is stored server-side (so we do not have
-to pre-process, concatenate, minify at every request) and browser-side 
+to pre-process, concatenate, minify at every request) and browser-side
 (so the same visitor will load the CSS only once for all pages they
 visit).
 
@@ -480,10 +483,9 @@ page. As these files are shared across all pages, further clicks by the
 same visitor will not load any other Javascript resource.
 
 .. note::
-   If you work on :doc:`Developer mode </applications/general/developer_mode>`, the CSS and
-   Javascript are neither concatenated, nor minified. Thus, it's much slower. But it allows you to
-   easily debug with the Chrome debugger as CSS and Javascript resources are not transformed from
-   their original versions.
+   If you work on :ref:`developer mode <developer-mode>`, the CSS and Javascript are neither
+   concatenated, nor minified. Thus, it's much slower. But it allows you to easily debug with the
+   Chrome debugger as CSS and Javascript resources are not transformed from their original versions.
 
 CDN
 ---
@@ -505,7 +507,7 @@ Delivery Network has three advantages:
 You can configure your CDN options from the **Website Admin** app, using
 the Configuration menu. Here is an example of configuration you can use:
 
-.. image:: media/seo11.png
+.. image:: seo/seo11.png
   :align: center
 
 HTML Pages
@@ -536,7 +538,7 @@ Websites that are not mobile-friendly are negatively
 impacted in search engine rankings. All Flectra themes rely on Bootstrap to
 render efficiently according to the device: desktop, tablet or mobile.
 
-.. image:: media/seo12.png
+.. image:: seo/seo12.png
   :align: center
 
 As all Flectra modules share the same technology, absolutely all pages in
@@ -548,7 +550,7 @@ Browser Caching
 Javascript, images and CSS resources have an URL that changes
 dynamically when their content change. As an example, all CSS files are
 loaded through this URL:
-`localhost:7073/web/content/457-0da1d9d/web.assets\_common.0.css <http://localhost:7073/web/content/457-0da1d9d/web.assets_common.0.css>`__.
+`localhost:8069/web/content/457-0da1d9d/web.assets\_common.0.css <http://localhost:8069/web/content/457-0da1d9d/web.assets_common.0.css>`__.
 The ``457-0da1d9d`` part of this URL will change if you modify the CSS of
 your website.
 
@@ -560,18 +562,12 @@ Scalability
 -----------
 
 In addition to being fast, Flectra is also more scalable than traditional
-CMS and eCommerce (Drupal, Wordpress, Magento, Prestashop). The
-following link provides an analysis of the major open source CMS and
-eCommerce compared to Flectra when it comes to high query volumes:
-`https://www.flectrahq.com/slides/slide/197
-<https://www.flectrahq.com/slides/slide/flectra-cms-performance-comparison-and-optimisation-197>`_
-
-.. todo:: fix above link
+CMS and eCommerce (Drupal, Wordpress, Magento, Prestashop).
 
 Here is the slide that summarizes the scalability of Flectra Website & eCommerce.
 
-.. image:: media/seo13.png
-  :align: center
+.. image:: seo/seo13.png
+   :align: center
 
 Search Engines Files
 ====================
@@ -621,24 +617,24 @@ products, forum posts and contact addresses. This allows your product
 pages to be displayed in Google using extra information like the price
 and rating of a product:
 
-.. image:: media/seo14.png
-  :align: center
+.. image:: seo/seo14.png
+   :align: center
 
 robots.txt
 ----------
 
 When indexing your website, search engines take a first look at the
-general indexing rules of the a``/robots.txt`` file (allowed robots,
+general indexing rules of the ``/robots.txt`` file (allowed robots,
 sitemap path, etc.). Flectra automatically creates it. Its content is:
 
 User-agent: \*
-Sitemap: https://www.flectrahq.com/sitemap.xml
+Sitemap: https://www.flectra.com/sitemap.xml
 
 It means that all robots are allowed to index your website
 and there is no other indexing rule than specified in the sitemap
 to be found at following address.
 
-You can customize the file *robots* in
-:doc:`Developer mode </applications/general/developer_mode>` from *Settings --> Technical -->
-User Interface --> Views* (exclude robots, exclude some pages, redirect to a custom Sitemap).
-Make the Model Data of the view *Non Updatable* to not reset the file after system upgrades.
+You can customize the file *robots* in :ref:`developer mode <developer-mode>` from *Settings -->
+Technical --> User Interface --> Views* (exclude robots, exclude some pages, redirect to a custom
+Sitemap). Make the Model Data of the view *Non Updatable* to not reset the file after system
+upgrades.

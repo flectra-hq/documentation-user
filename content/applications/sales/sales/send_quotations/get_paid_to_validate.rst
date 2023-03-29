@@ -14,17 +14,17 @@ Enable online payment
 Go to :menuselection:`Sales --> Configuration --> Settings` and activate the **Online Payment**
 feature.
 
-.. image:: media/get_paid_1.png
+.. image:: get_paid_to_validate/get_paid_1.png
    :align: center
    :class: img-thumbnail
    :alt: How to enable online payment on Flectra Sales?
 
-There, you will have direct access to the **Payment Acquirers** page. It will allow you to select
-and configure your acquirers of choice. Before creating or modifying a payment acquirer, be sure to
-check out our documentation about how to be paid with payment acquirers such as
-:doc:`/applications/general/payment_acquirers/paypal`,
-:doc:`/applications/general/payment_acquirers/authorize`, and others in the
-:doc:`/applications/general/payment_acquirers` documentation.
+There, you will have direct access to the **Payment Providers** page. It will allow you to select
+and configure your providers of choice. Before creating or modifying a payment provider, be sure to
+check out our documentation about how to be paid with payment providers such as
+:doc:`/applications/finance/payment_providers/paypal`,
+:doc:`/applications/finance/payment_providers/authorize`, and others in the
+:doc:`/applications/finance/payment_providers` documentation.
 
 .. note::
    If you are familiar with this documentation: :doc:`quote_template`; you
@@ -37,7 +37,7 @@ Register a payment
 After opening quotations from their received email, your customers will have different
 possibilities to make their online payments. For example:
 
-.. image:: media/get_paid_2.png
+.. image:: get_paid_to_validate/get_paid_2.png
    :align: center
    :class: img-thumbnail
    :alt: How to register a payment on Flectra Sales?
@@ -48,8 +48,6 @@ possibilities to make their online payments. For example:
 
 .. seealso::
    - :doc:`quote_template`
-   - :doc:`/applications/general/payment_acquirers`
-   - :doc:`/applications/general/payment_acquirers/paypal`
-   - :doc:`/applications/general/payment_acquirers/authorize`
-
-
+   - :doc:`/applications/finance/payment_providers`
+   - :doc:`/applications/finance/payment_providers/paypal`
+   - :doc:`/applications/finance/payment_providers/authorize`

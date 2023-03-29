@@ -1,3 +1,5 @@
+:nosearch:
+
 ======
 Others
 ======
@@ -5,7 +7,7 @@ Others
 .. toctree::
    :titlesonly:
 
-   others/analytic
+   others/multi_currency
+   others/analytic_accounting
    others/adviser
-   others/multicurrencies
    others/inventory

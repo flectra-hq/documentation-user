@@ -3,7 +3,7 @@ Impact on the average price valuation when returning goods
 ==========================================================
 
 As stated in the `*inventory valuation
-page* <https://www.flectrahq.com/documentation/functional/valuation.html>`__,
+page* <https://www.flectra.com/documentation/functional/valuation.html>`__,
 one of the possible costing method you can use in perpetual stock
 valuation, is the average cost.
 
@@ -27,7 +27,7 @@ formula:
 - When new products arrive in a warehouse, the new average cost is
   recomputed as:
 
-.. image:: media/avg01.png
+.. image:: avg_price_valuation/avg01.png
    :align: center
 
 - When products leave the warehouse: the average cost **does not** change

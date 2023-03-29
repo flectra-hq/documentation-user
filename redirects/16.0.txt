@@ -1,0 +1,46 @@
+# applications/finance
+
+applications/finance/accounting/others/analytic/usage.rst applications/finance/accounting/others/analytic_accounting.rst              # /analytic/usage --> analytic_accounting
+applications/finance/accounting/others/analytic/timesheets.rst applications/finance/accounting/others/analytic_accounting.rst         # /analytic/timesheets --> analytic_accounting
+applications/finance/accounting/others/analytic/purchase_expenses.rst applications/finance/accounting/others/analytic_accounting.rst  # /analytic/purchase_expenses --> analytic_accounting
+applications/finance/payment_acquirers.rst applications/finance/payment_providers.rst                                                 # /payment_acquirers -> /payment_providers
+applications/finance/payment_acquirers/adyen.rst applications/finance/payment_providers/adyen.rst                                     # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/alipay.rst applications/finance/payment_providers/alipay.rst                                   # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/amazon_payment_services.rst applications/finance/payment_providers/amazon_payment_services.rst # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/asiapay.rst applications/finance/payment_providers/asiapay.rst                                 # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/authorize.rst applications/finance/payment_providers/authorize.rst                             # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/buckaroo.rst applications/finance/payment_providers/buckaroo.rst                               # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/flutterwave.rst applications/finance/payment_providers/flutterwave.rst                         # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/mercado_pago.rst applications/finance/payment_providers/mercado_pago.rst                       # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/mollie.rst applications/finance/payment_providers/mollie.rst                                   # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/ogone.rst applications/finance/payment_providers/ogone.rst                                     # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/paypal.rst applications/finance/payment_providers/paypal.rst                                   # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/sips.rst applications/finance/payment_providers/sips.rst                                       # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/stripe.rst applications/finance/payment_providers/stripe.rst                                   # /payment_acquirers/* -> /payment_providers/*
+applications/finance/payment_acquirers/wire_transfer.rst applications/finance/payment_providers/wire_transfer.rst                     # /payment_acquirers/* -> /payment_providers/*
+
+# applications/websites
+
+applications/websites/ecommerce/getting_started/catalog.rst applications/websites/ecommerce/managing_products/catalog.rst                        # /getting_started/catalog -> /managing_products/catalog
+applications/websites/ecommerce/getting_started/product_page.rst applications/websites/ecommerce/managing_products/products.rst                  # /getting_started/product_page -> /managing_products/products
+applications/websites/ecommerce/shopper_experience/payment_acquirer.rst applications/websites/ecommerce/shopper_experience/payment_providers.rst # payment_acquirer -> payment_providers
+applications/websites/ecommerce/maximizing_revenue/upselling.rst applications/websites/ecommerce/products/cross_upselling.rst                    # /maximizing_revenue/upselling -> /products/cross_upselling
+applications/websites/ecommerce/maximizing_revenue/cross_selling.rst applications/websites/ecommerce/products/cross_upselling.rst                # /maximizing_revenue/cross_selling -> /products/cross_upselling
+applications/websites/ecommerce/shopper_experience/payment_providers.rst applications/websites/ecommerce/checkout_payment_shipping/payments.rst  # /shopper_experience/payment_providers -> /checkout_payment_shipping/payments
+applications/websites/ecommerce/shopper_experience/portal.rst applications/websites/ecommerce/ecommerce_management/customer_accounts.rst         # /shopper_experience/portal -> /ecommerce_management/customer_accounts
+
+# developer/howtos
+
+developer/howtos/discover_js_framework.rst developer/tutorials/discover_js_framework.rst                                                              # reorganize the developer doc
+developer/howtos/discover_js_framework/01_components.rst developer/tutorials/discover_js_framework/01_components.rst                                  # reorganize the developer doc
+developer/howtos/discover_js_framework/02_odoo_web_framework.rst developer/tutorials/discover_js_framework/02_odoo_web_framework.rst                  # reorganize the developer doc
+developer/howtos/discover_js_framework/03_fields_and_views.rst developer/tutorials/discover_js_framework/03_fields_and_views.rst                      # reorganize the developer doc
+developer/howtos/discover_js_framework/04_miscellaneous.rst developer/tutorials/discover_js_framework/04_miscellaneous.rst                            # reorganize the developer doc
+developer/howtos/discover_js_framework/05_custom_kanban_view.rst developer/tutorials/discover_js_framework/05_custom_kanban_view.rst                  # reorganize the developer doc
+developer/howtos/discover_js_framework/06_creating_view_from_scratch.rst developer/tutorials/discover_js_framework/06_creating_view_from_scratch.rst  # reorganize the developer doc
+developer/howtos/discover_js_framework/07_testing.rst developer/tutorials/discover_js_framework/07_testing.rst                                        # reorganize the developer doc
+
+# developer/reference/frontend
+
+developer/reference/frontend/icons_library.rst contributing/development/ui/icons.rst # Flectra UI icons -> UI Icons
+

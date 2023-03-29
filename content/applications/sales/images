@@ -1,0 +1,317 @@
+images
+
+
+----------Inventory & MRP-----------------
+
+Set up your reordering rule
+Open your product and click on the Reordering Rules button. 
+
+Blanket orders and replenishment
+
+Requests quotations from the call for tenders
+
+Once you have sent a request for quotation to every vendor and receiving their quotes, click on Validate to proceed to the bid selection. Next, click on the RFQs/Orders smart button to view all your vendors’ quotations.
+
+Click on each request for quotation to add the price communicated by your vendors manually. When that’s done, select the most advantageous offer and click on Confirm Order. This automatically closes the call for tenders. You can now proceed with the purchase order as you would for a regular one.
+
+Determine when to pay with 3-way matching
+
+Should I pay the vendor bill?
+
+Managing Vendor Bills
+When you receive a vendor bill for a previous purchase, be sure to record it in the Purchases application under the Control Menu. You need to create a new vendor bill even if you already registered a purchase order.
+
+The first thing you will need to do upon creating a vendor bill is to select the appropriate vendor, since doing so will also pull up any associated accounting or pricelist information. From there, you can choose to specify one or multiple Purchase Orders to populate the Vendor Bill with. When you select a Purchase Order from the list, Flectra will pull any uninvoiced products associated to that Purchase Order and automatically populate that information below. If you are having a hard time finding the appropriate vendor bill, you may search through the list by inputting the vendor reference number or your internal purchase order number.
+
+If you need to manage products based on ordered quantities over received quantities, you will need to belong to the group Purchase Manager. Ask your system administrator to enable these access on Settings ‣ Users ‣ Users ‣ Access Rights. Once you belong to the correct group, select the product(s) you wish to modify, and you should see a new field appear, labeled Control Purchase Bills.
+
+Use filters to select the data you need
+
+Measure exactly what you need
+
+To access a comprehensive overview of the multilevel BoM’s components, click on the Structure & Cost smart button. Sublevel BoMs can be expanded and viewed from this report.
+
+For audit purposes, it is possible to check the lot numbers recorded on a receipt by using the icon on the right of the finished products:
+
+Manual Replenishment
+
+Alternatively, you can also manually ask your vendor to resupply your subcontractor by creating a dropship type PO, with your subcontractor set as the delivery address.
+
+Use the Master Production Schedul
+
+Assign equipment to a work center
+
+Integrate IoT devices
+
+Quality Control
+
+inventory and mrp -> inventory -> warehouse mngt -> products
+In Flectra, packagings are used for indicative purposes on sales/purchase orders and inventory transfers. The main difference between packagings and units of measure is that packagings are defined at the product level while UoMs are generic.
+
+
+Once this Purchase Order is confirmed, a Receipt Order is created and linked to it. The source location is the vendor location and the destination location is the customer location. Then, the product won’t go through your own stock when you validate the dropship document.
+
+You can also easily access the dropship document directly from your inventory dashboard.
+
+How can I change the label type?
+
+
+
+Miscellaneous Operations
+Process Batch Transfers
+To see the products to pick for the different transfers, click on Select. If Multi-locations has been activated, the document also shows the locations they have been reserved from.
+
+Process a Batch Transfer
+
+In case all the products cannot be picked, you can create backorders for each individual transfer which couldn’t be completely processed.
+
+Process a Batch Transfer from the Barcode app
+
+Planning
+How is the Scheduled Delivery Date Computed
+By clicking on Add a line, a new window is displayed. You can specify the Delivery Lead Time there. If done so, the delivery day for every purchase of that product is now equal to Date of the Purchase Order + Delivery Lead Time.
+
+Multi-assignation
+
+
+Operation types
+For each type, you can decide if you allow the creation of new lot numbers or want to use existing ones. By default, the creation of new lots is only allowed at product reception.
+
+Copy/paste lot number from an Excel file
+
+
+Operation Types
+
+
+Expiration Dates
+Application configuration
+Expiration Date on Lots/Serial Numbers
+
+
+Inventory
+Inventory Valuation Configuration
+
+Valuation Methods
+
+Shipping 
+
+Advance Route
+Concept
+Sample full route flow
+
+
+Inter-warehouse transfers
+Click on the pencil icon in the lower right corner to open the operation details window. In this new window, the quantity of products can be manually set.
+
+Now, go to the Purchase app. There, you will find the purchase order that has been automatically triggered by the system. Validate it and receive the products in the Input Location.
+
+Taking stock from different warehouses
+
+
+Putway
+Putaway rules
+
+FIFO (First In, First Out)
+What is a Removal Strategy (FIFO, LIFO, FEFO, Closest location)?
+
+
+Barcodes
+
+
+
+----------Marketing--------------
+Marketing Automation
+
+Advanced
+Filters can also be applied to individual activities, in the Domain section of the activity pop-up form. Use this feature to specify an individual filter that will only be performed if the records satisfy both filter criteria - the activity filter and its specific domain filter.
+
+(Example: when configuring an SMS activity, make sure a certain phone number is set, in order to avoid triggering a SMS that would never be sent.)
+
+SMS Marketing
+
+ See also
+
+Flectra Tutorials: Marketing - link
+
+How to buy credits
+
+Events
+
+Select invitees and configure recipient filters
+
+Publish events
+
+Sell tickets through sales orders
+
+Sell tickets through the website
+
+Track and manage talks
+
+--------Services----------
+
+Project
+
+Flectra Tutorials: Project and Timesheets - link
+Create Project’s Tasks from an Email Alias
+Configure the email alias in your project
+
+Project management
+ See also
+
+Flectra Tutorials: Kanban Project Management
+
+ See also
+
+Flectra Tutorials: Customize your project
+
+Timesheets
+
+ See also
+
+Flectra Tutorials: Project and Timesheets
+
+Timesheets
+
+Considering that validation is not required, the requested time off is automatically displayed in Timesheets. If validation is necessary, the time is automatically allocated after the responsible person for validating does it so.
+
+
+Productivity
+
+By default, the field is set as Handle by Emails making messages, notes, and notifications where you were mentioned or that you follow, to be sent through email. By choosing Handle in Flectra, they are shown in the Inbox.
+Messages can then be Marked as Todo, Replied, or Marked as Read.
+
+The messages tagged as Mark as Todo are also shown in Starred, while the ones Marked as Read are moved to History.
+
+Discuss
+Mentions in the chat and on the Chatter
+Chat status
+Privacy and Members
+Use a channel as a mailing list
+Quick search bar
+Finding channels
+
+Get Organized by Planning Activities
+Configure ICE servers with Twilio
+
+Knoledge
+
+IOT
+
+Mail Plugins
+
+Studio
+
+
+Website
+
+See also
+
+Flectra Tutorials: Website
+
+Flectra Tutorials: eCommerce
+
+Manage multi websites
+Once the theme is selected, you can start to build the homepage of your website. Follow the purple drops; they will help you in the first steps.
+
+Manage Multi Websites
+
+
+Optimize
+How to do Search Engine Optimisation (SEO) in Flectra
+Content is King - link
+baki che
+
+
+Live Chat 
+Managing chat requests
+
+Ratings
+
+Commands and Canned Responses
+
+
+Miscelleanous
+
+user and companies
+manage users
+When you are done editing the page and have Saved it, an invitation email is automatically sent to the user. The user must click on it to accept the invitation and create a login.
+
+This email contains all the instructions needed to reset the password, along with a link redirecting the user to an Flectra login page.
+
+
+companies
+Tip
+
+Activate the developer mode to choose a Favicon for each of your companies, and easily identify them by the browser tabs. Set your favicons’ files size to 16x16 or 32x32 pixels. JPG, PNG, GIF, and ICO are extensions accepted.
+
+
+Now, activate the Inter-Company Transactions option under Settings. With the respective company activated and selected, choose if you would like operations between companies to be synchronized at an invoice/bills level or at a sales/purchase orders level.
+
+Authentication
+
+
+Google Sign-In Authentication
+
+Two-Factor
+Open the Account Security tab, then click the Enable two-factor authentication button:
+
+In most applications, you can simply scan the barcode via the authenticator of your choice, the authenticator will then take care of all the setup:
+
+Logging in
+
+Search and filter Record
+Custom filters
+
+Choosing measures
+
+
+Scope of this documentation
+This document is mainly dedicated to Flectra on-premise users who don’t benefit from an out-of-the-box solution to send and receive emails in Flectra, unlike Flectra Online and Flectra.sh.  -   link
+
+file:///home/erp/Downloads/documentation_16_3/documentation/_build/html/applications/general/email_communication/email_servers.html 
+Manage inbound messages   -    links
+
+
+
+Email Communication
+Utilizing the From Filter on an outgoing email server
+
+Email templates
+
+
+VoIP (Voice over Internet Protocol)
+
+
+Calenders
+
+
+In-App Purchase (IAP)
+
+
+Developer Mode
+Activate through the browser extension
+
+
+Upgrade Community to Enterprise
+
+
+CRM
+
+Merge opportunities
+
+The Contact Form can be activated or deactivated at any time by going to Website ‣ Go to Website ‣ Customize ‣ Contact Form.
+
+Choose which Sales Team or salesperson is automatically assigned to the leads/opportunities created from the Contact Form by going to Website ‣ Configuration ‣ Settings ‣ Communication.
+
+Customize Contact Forms
+
+
+Track your prospects visits
+
+Assign leads based on scoring
+
+You can also change the Measures to Total Revenue.
+
+
+Configuration
+From the General Settings, activate Google Drive and Google Spreadsheet. The options Authorization Code and Get Authorization Code are now available.

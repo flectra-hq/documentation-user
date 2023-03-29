@@ -4,17 +4,21 @@
 General Terms of Sale
 =====================
 
-.. note:: Last revision: May 5, 2017.
+.. only:: html
+
+   `Download PDF <../../terms_of_sale.pdf>`_
+
+.. note:: Last revision: October 20, 2021.
 
 These General Terms of Sale govern the sale of products and services by
-FlectraHQ, Inc.. and its affiliates (collectively, "FlectraHQ, Inc..") to the client.
-Additional terms may apply for services provided by FlectraHQ, Inc.. (for example, the
-Professional Subscription Agreement). If these additional terms are inconsistent
+Flectra S.A. and its affiliates (collectively, "Flectra S.A.") to the client.
+Additional terms may apply for services provided by Flectra S.A. (for example, the
+Enterprise Subscription Agreement). If these additional terms are inconsistent
 with the General Terms of Sale, the additional terms will prevail over these
 General Terms of Sale.
 
-Please read these terms carefully before placing an order with FlectraHQ, Inc.. By
-accepting an order with FlectraHQ, Inc.., the client marks his acceptance with these
+Please read these terms carefully before placing an order with Flectra S.A. By
+accepting an order with Flectra S.A., the client marks his acceptance with these
 terms.
 
 The client explicitly waives its own standard terms and conditions, even if
@@ -24,30 +28,32 @@ writing.
 
 Our invoices are payable within 21 working days, unless another payment
 timeframe is indicated on either the invoice or the order. In the event of
-non-payment by the due date, FlectraHQ, Inc.. reserves the right to request a fixed
-interest payment amounting to 15% of the sum remaining due. FlectraHQ, Inc.. will be
+non-payment by the due date, Flectra S.A. reserves the right to request a fixed
+interest payment amounting to 15% of the sum remaining due. Flectra S.A. will be
 authorised to suspend any provision of services without prior warning in the
 event of late payment.
 
 If a payment is still outstanding more than sixty (60) days after the due
-payment date, FlectraHQ, Inc.. reserves the right to call on the services of a debt
+payment date, Flectra S.A. reserves the right to call on the services of a debt
 recovery company. All legal expenses will be payable by the client.
 
 Certain countries apply withholding at source on the amount of invoices, in
 accordance with their internal legislation. Any withholding at source will be
-paid by the client to the tax authorities. Under no circumstances can FlectraHQ, Inc..
+paid by the client to the tax authorities. Under no circumstances can Flectra S.A.
 become involved in costs related to a country's legislation. The amount of the
-invoice will therefore be due to FlectraHQ, Inc.. in its entirety and does not include
+invoice will therefore be due to Flectra S.A. in its entirety and does not include
 any costs relating to the legislation of the country in which the client is
-located.
+located. For clients with a global presence, the applicable pricing is always
+based on the client location with the highest price list, unless otherwise
+specified in writing at the time of purchase.
 
-FlectraHQ, Inc.. undertakes to do its best to supply services in due time in accordance
+Flectra S.A. undertakes to do its best to supply services in due time in accordance
 with the agreed timeframes. However, none of its obligations can be considered
-as being an obligation to achieve results. FlectraHQ, Inc.. cannot, under any
+as being an obligation to achieve results. Flectra S.A. cannot, under any
 circumstances, be required by the client to appear as a third party in the
 context of any claim for damages filed against the client by an end consumer.
 
-In order for it to be admissible, FlectraHQ, Inc.. must be notified of any claim by
+In order for it to be admissible, Flectra S.A. must be notified of any claim by
 means of a letter sent by recorded delivery to its registered office within 8
 days of the delivery of the goods or the provision of the services.
 
@@ -57,11 +63,10 @@ paid by the Customer under these terms during the 12 months immediately
 preceding the date of the event giving rise to such claim. Multiple claims shall
 not enlarge this limitation.
 
-FlectraHQ, Inc.. reserves the right to modify these terms at any time without prior
+Flectra S.A. reserves the right to modify these terms at any time without prior
 notice. The client will be subject to the terms in force at the time of
 acceptation of those terms.
 
 All our contractual relations will be governed exclusively by Belgian law.
 Moreover, any dispute that may arise will be subject exclusively to the
 jurisdiction of the courts of the Nivelles arrondissement (Belgium).
-

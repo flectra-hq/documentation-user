@@ -35,7 +35,7 @@ When you are reconciling an entry with an *Open Balance*, you can use the button
 the *Manual Operations* tab to pre-fill all the values automatically, before validating the
 reconciliation. Each button is a different Reconciliation Model.
 
-.. image:: media/reconciliation_models_button.png
+.. image:: reconciliation_models/reconciliation_models_button.png
    :align: center
    :alt: Example of a Reconciliation Model with a write-off button in Flectra Accounting
 
@@ -47,7 +47,7 @@ Suggest counterpart values
 This type of Reconciliation Model suggests immediately counterpart values that only need to be
 validated. This automation is based on a set of rules defined in the reconciliation model.
 
-.. image:: media/reconciliation_models_suggestion.png
+.. image:: reconciliation_models/reconciliation_models_suggestion.png
    :align: center
    :alt: Example of a Reconciliation Model that suggests counterpart values in Flectra Accounting
 
@@ -60,7 +60,7 @@ This type of Reconciliation Model automatically selects the right Customer Invoi
 that matches the payment. All that is left to do is to validate the entry. This automation is based
 on a set of rules defined in the reconciliation model.
 
-.. image:: media/reconciliation_models_match.png
+.. image:: reconciliation_models/reconciliation_models_match.png
    :align: center
    :alt: Example of a Reconciliation Model that matches existing invoices and bills automatically
          in Flectra Accounting
@@ -73,7 +73,7 @@ Reconciliation --> Reconciliation Models`. Alternatively, you can also open this
 Accounting Overview, by going to your Bank Journal card, clicking on the three little dots, and then
 on *Reconciliation Models*.
 
-.. image:: media/reconciliation_models_overview.png
+.. image:: reconciliation_models/reconciliation_models_overview.png
    :align: center
    :alt: Open the Reconciliation Model menu from the overview dashboard in Flectra Accounting
 
@@ -106,7 +106,7 @@ Define here all the conditions that are required for a Reconciliation Model to b
    will be applied. The sequence is simply the order of the models in the *list view*. They can be
    rearranged by dragging-and-dropping the handle next to the name.
 
-.. image:: media/reconciliation_models_conditions.png
+.. image:: reconciliation_models/reconciliation_models_conditions.png
    :align: center
    :alt: Conditions for the Reconciliation Model to be applied in Flectra Accounting
 
@@ -118,11 +118,12 @@ This section comprises the values that are applied by the Reconciliation Model.
 If the value to reconcile needs to be written-off in two separate accounts, click on *Add a second
 line*.
 
-.. image:: media/reconciliation_models_counterparts.png
+.. image:: reconciliation_models/reconciliation_models_counterparts.png
    :align: center
    :alt: Counterparts values of a Reconciliation Model in Flectra Accounting
 
 .. seealso::
 
    - :doc:`use_cases`
+   - :doc:`../feeds/bank_synchronization`
    - :doc:`../../receivables/customer_invoices/cash_discounts`

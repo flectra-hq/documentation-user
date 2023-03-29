@@ -2,48 +2,74 @@
 Manage semi-finished products
 =============================
 
-In Flectra, you can use subassembly products to simplify a complex *Bill
-of Materials* or to represent your manufacturing flow more accurately.
-A *subassembly product* is a manufactured product that is used as a
-component to make another one.
+A *semi-finished product*, also known as a *subassembly*, is a manufactured product that is used as
+a component in another product's bill of materials (BoM). Semi-finished products are used to
+simplify complex :abbr:`BoMs (Bills of Materials)` or to more accurately represent a manufacturing
+flow. A :abbr:`BoM (Bill of Materials)` that contains semi-finished products is referred to as a
+*multilevel BoM*, where the main *top-level product* and its subassemblies are distinguished.
 
-A *BoM* that employs *subassemblies* is referred to as a multi-level
-BoM. Those are accomplished by creating a *top-level BoM* and
-*subassembly ones*. This process requires a route that will ensure
-that every time a manufacturing order for the top-level product is
-created, another one will be for subassemblies.
+Configure semi-finished products
+================================
 
-Configure the Subassembly Product
-=================================
+To set up a multilevel :abbr:`BoM (Bill of Materials)`, the top-level product and semi-finished
+products must be configured. Therefore, the first step is to create the semi-finished products and
+their :abbr:`BoMs (Bills of Materials)`.
 
-To configure a *multi-level BoM*, you will need a top-level product
-but also its subassemblies. The first step is to create a product form
-for each of the subassemblies. Select the routes *Manufacture* and
-*Replenish on Order*. Now, hit save.
+.. seealso::
+   :doc:`bill_configuration`
 
-.. image:: media/semi-finished_products_01.png
-    :align: center
+.. image:: sub_assemblies/semifinished-product-bom.png
+   :align: center
+   :alt: A bill of materials for a semi-finished product.
 
-In the *Bill of Materials* menu, under *Master Data*, create a new
-*Bill of Materials*. Choose the product you just created and add its
-components.
+Create the top-level bill of materials (BoM)
+============================================
 
-.. image:: media/semi-finished_products_02.png
-    :align: center
+After the semi-finished products are fully configured, navigate to :menuselection:`Manufacturing
+--> Products --> Products`. Then, :guilabel:`Create` the top-level product. Configure the product's
+specifications as desired, and be sure to :guilabel:`Save`.
 
-Configure the Main BoM
-======================
+Once the top-level product is configured, click the :guilabel:`Bill of Materials` smart button on
+the product form, then click :guilabel:`Create` to make a :abbr:`BoM (Bill of Materials)` for the
+top-level product. Then, simply add the semi-finished products to this :abbr:`BoM (Bill of
+Materials)`, along with any other necessary components.
 
-Now, you can configure the top-level product and its *BoM*. Include
-any subassemblies in the list of components.
+.. image:: sub_assemblies/custom-computer-bom.png
+   :align: center
+   :alt: A bill of materials for a top-level product, containing a subassembly component.
 
-.. image:: media/semi-finished_products_03.png
-    :align: center
+Manage production planning
+==========================
 
-Now, each time you will plan a manufacturing order for the top-level
-product, a manufacturing order will be created for the subassembly one.
-Then, you will have to manufacture the subassembly in order to make it
-available before manufacturing the finished product.
+There are several methods to manage manufacturing order automation for products with multilevel
+:abbr:`BoMs (Bills of Materials)`.
 
-.. image:: media/semi-finished_products_04.png
-    :align: center
+.. note::
+    Semi-finished products are specifically used to manage manufacturable products with multilevel
+    BoMs. If a BoM is being created simply to organize components or bundle sellable products,
+    using :doc:`Kits <kit_shipping>` is the more appropriate option.
+
+To automatically trigger manufacturing orders for semi-finished products after confirming a
+manufacturing order for the main product, there are two options:
+
+- **Option 1 (recommended):** Create *Reordering Rules* for the semi-finished products and set both
+  the minimum and maximum desired stock quantities to `0`.
+
+.. seealso::
+   :doc:`../../purchase/products/reordering`
+
+- **Option 2:** Activate the :guilabel:`Replenish on Order (MTO)` and :guilabel:`Manufacture`
+  routes under the :guilabel:`Inventory` tab of the semi-finished product's product form.
+
+Option 1 is more flexible than Option 2 and is therefore recommended. Reordering rules do not
+directly link demand to replenishment, and therefore allow stocks to be unreserved and redirected
+to other orders, if necessary. The Replenish on Order (MTO) route creates a unique link between the
+semi-finished and top-level products, exclusively reserving quantities for the confirmed top-level
+manufacturing order.
+
+Regardless of the method chosen, semi-finished products must be fully manufactured before
+manufacturing can begin on the top-level product.
+
+.. image:: sub_assemblies/semifinished-on-mo.png
+   :align: center
+   :alt: A manufacturing order for a top-level product.

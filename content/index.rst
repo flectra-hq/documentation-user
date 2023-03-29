@@ -10,5 +10,4 @@ Flectra Documentation
     applications
     administration
     developer
-    services
     contributing

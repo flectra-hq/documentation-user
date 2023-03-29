@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) FlectraHQ, Inc..
+# Copyright (C) Flectra S.A.
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -17,7 +17,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra2.0\n"
+"Project-Id-Version: Flectra 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 07:12+0200\n"
 "PO-Revision-Date: 2021-05-18 05:18+0000\n"
@@ -703,7 +703,7 @@ msgstr ""
 #: ../../content/applications/inventory_and_mrp/inventory/management/delivery/dropshipping.rst:47
 msgid ""
 "For more information and insights about Drop-Shipping, you can read our "
-"blog: `*What is drop-shipping and how to use it* <https://www.flectrahq.com/blog"
+"blog: `*What is drop-shipping and how to use it* <https://www.flectra.com/blog"
 "/business-hacks-1/post/what-is-drop-shipping-and-how-to-use-it-250>`__."
 msgstr ""
 
@@ -3999,7 +3999,7 @@ msgstr ""
 #: ../../content/applications/inventory_and_mrp/inventory/routes/concepts/cross_dock.rst:11
 msgid ""
 "For more information on how to organize your warehouse, read our blog: `What"
-" is cross-docking and is it for me? <https://www.flectrahq.com/blog/business-"
+" is cross-docking and is it for me? <https://www.flectra.com/blog/business-"
 "hacks-1/post/what-is-cross-docking-and-is-it-for-me-270>`__"
 msgstr ""
 

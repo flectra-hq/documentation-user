@@ -1,3 +1,5 @@
+:nosearch:
+
 ========
 Concepts
 ========
@@ -6,6 +8,7 @@ Concepts
    :titlesonly:
    :glob:
 
-   concepts/use-routes
+   concepts/use_routes
+   concepts/inter_warehouse
    concepts/cross_dock
    concepts/stock_warehouses

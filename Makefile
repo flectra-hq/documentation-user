@@ -1,8 +1,16 @@
 # Makefile for Sphinx documentation
 
-# Pass WORKERS=auto for parallel build
+# Pass WORKERS=1 for single-worker build
 ifndef WORKERS
   WORKERS = auto
+endif
+
+ifndef BUILD_DIR
+  BUILD_DIR    = _build
+endif
+
+ifndef CURRENT_LANG
+  CURRENT_LANG = en
 endif
 
 SPHINX_BUILD   = sphinx-build
@@ -11,13 +19,14 @@ SPHINXOPTS     = -D project_root=$(ROOT) -D canonical_version=$(CANONICAL_VERSIO
                  -D versions=$(VERSIONS) -D languages=$(LANGUAGES) -D language=$(CURRENT_LANG) \
                  -D is_remote_build=$(IS_REMOTE_BUILD) \
                  -A google_analytics_key=$(GOOGLE_ANALYTICS_KEY) \
+                 -A plausible_script=$(PLAUSIBLE_SCRIPT) \
+                 -A plausible_domain=$(PLAUSIBLE_DOMAIN) \
 				 -j $(WORKERS)
 SOURCE_DIR     = content
-BUILD_DIR      = _build
 
 HTML_BUILD_DIR = $(BUILD_DIR)/html
 ifdef VERSIONS
-  HTML_BUILD_DIR := $(HTML_BUILD_DIR)/2.0
+  HTML_BUILD_DIR := $(HTML_BUILD_DIR)/16.0
 endif
 ifneq ($(CURRENT_LANG),en)
   HTML_BUILD_DIR := $(HTML_BUILD_DIR)/$(CURRENT_LANG)
@@ -33,21 +42,21 @@ help:
 	@echo "  html         to build the documentation to HTML"
 	@echo "  fast         to build the documentation to HTML with shallow menu (faster)"
 	@echo "  clean        to delete the build files"
+	@echo "  test         to run the guidelines tests"
 
 clean:
 	@echo "Cleaning build files..."
 	rm -rf $(BUILD_DIR)/*
-	rm extensions/flectra_theme/static/style.css
 	@echo "Cleaning finished."
 
-html: extensions/flectra_theme/static/style.css
+html: $(HTML_BUILD_DIR)/_static/style.css
 	@echo "Starting build..."
 	$(SPHINX_BUILD) -c $(CONFIG_DIR) -b html $(SPHINXOPTS) $(SOURCE_DIR) $(HTML_BUILD_DIR)
 	@echo "Build finished."
 
 # To call *after* `make html`
 # Binary dependencies (Debian): texlive-fonts-recommended texlive-latex-extra
-# texlive-generic-recommended texlive-fonts-extra
+# texlive-fonts-extra
 latexpdf:
 	@echo "Starting build..."
 	$(SPHINX_BUILD) -c $(CONFIG_DIR) -b latex $(SPHINXOPTS) $(SOURCE_DIR) $(BUILD_DIR)/latex
@@ -60,9 +69,10 @@ gettext:
 	$(SPHINX_BUILD) -c $(CONFIG_DIR) -b gettext $(SOURCE_DIR) locale/sources
 	@echo "Generation finished."
 
-extensions/flectra_theme/static/style.css: extensions/flectra_theme/static/style.scss extensions/flectra_theme/static/scss/*.scss
+$(HTML_BUILD_DIR)/_static/style.css: extensions/odoo_theme/static/style.scss extensions/odoo_theme/static/scss/*.scss
 	@echo "Compiling stylesheets..."
-	pysassc $(subst .css,.scss,$@) $@
+	mkdir -p $(HTML_BUILD_DIR)/_static
+	python3 -m pysassc extensions/odoo_theme/static/style.scss $(HTML_BUILD_DIR)/_static/style.css
 	@echo "Compilation finished."
 
 #=== Development and debugging rules ===#
@@ -70,6 +80,9 @@ extensions/flectra_theme/static/style.css: extensions/flectra_theme/static/style
 fast: SPHINXOPTS += -A collapse_menu=True
 fast: html
 
-static: extensions/flectra_theme/static/style.css
-	cp -r extensions/flectra_theme/static/* _build/html/_static/
-	cp -r static/* _build/html/_static/
+static: $(HTML_BUILD_DIR)/_static/style.css
+	cp -r extensions/odoo_theme/static/* $(HTML_BUILD_DIR)/_static/
+	cp -r static/* $(HTML_BUILD_DIR)/_static/
+
+test:
+	@python tests/main.py $(SOURCE_DIR)/administration $(SOURCE_DIR)/applications $(SOURCE_DIR)/contributing $(SOURCE_DIR)/developer $(SOURCE_DIR)/services redirects

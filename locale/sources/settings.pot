@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) FlectraHQ, Inc..
+# Copyright (C) Flectra S.A.
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra2.0\n"
+"Project-Id-Version: Flectra 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 07:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -41,7 +41,7 @@ msgid "You can find guides on how to duplicate your databases both for :ref:`onl
 msgstr ""
 
 #: ../../content/applications/settings/users_and_features.rst:27
-msgid "If you have questions about the content of this page or if you encounter an issue while carrying out these procedures, please contact us through our `support form <https://www.flectrahq.com/help>`__."
+msgid "If you have questions about the content of this page or if you encounter an issue while carrying out these procedures, please contact us through our `support form <https://www.flectra.com/help>`__."
 msgstr ""
 
 #: ../../content/applications/settings/users_and_features.rst:33

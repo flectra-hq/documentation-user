@@ -4,7 +4,7 @@ How to import Products with Categories and Variants
 
 Import templates are provided in the **Import Tool** of the most common data to
 import (contacts, products, bank statements, etc.).
-You can open them with any spreadsheet software (Microsoft Office, 
+You can open them with any spreadsheet software (Microsoft Office,
 OpenOffice, Google Drive, etc.).
 
 How to customize the file
@@ -23,7 +23,7 @@ How to customize the file
 Why an “ID” column?
 ===================
 
-The ID is a truly unique identifier for the line item. Feel free to use  one of your
+The ID is a truly unique identifier for the line item. Feel free to use one from your
 previous software to ease the transition into Flectra.
 
 Setting an ID is not mandatory when importing, but it helps in many cases:

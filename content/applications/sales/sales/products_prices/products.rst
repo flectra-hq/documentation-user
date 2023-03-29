@@ -1,3 +1,5 @@
+:nosearch:
+
 ====================
 Manage your products
 ====================
@@ -7,3 +9,4 @@ Manage your products
 
    products/import
    products/variants
+   products/product_images

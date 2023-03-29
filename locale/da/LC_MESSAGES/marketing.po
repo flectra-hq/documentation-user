@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) FlectraHQ, Inc..
+# Copyright (C) Flectra S.A.
 # This file is distributed under the same license as the Flectra package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -12,7 +12,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra2.0\n"
+"Project-Id-Version: Flectra 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 07:12+0200\n"
 "PO-Revision-Date: 2021-05-18 05:18+0000\n"
@@ -200,7 +200,7 @@ msgstr ""
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:37
 msgid ""
 "To see the **price per country, please consult**: `Flectra SMS - FAQ <https"
-"://iap-services.flectrahq.com/iap/sms/pricing#sms_faq_01>`_."
+"://iap-services.flectra.com/iap/sms/pricing#sms_faq_01>`_."
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:39
@@ -223,7 +223,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:65
 msgid ""
-"If you are on Flectra Online (SAAS) and have the Professional version, you "
+"If you are on Flectra Online (SAAS) and have the Enterprise version, you "
 "benefit from free trial credits to test the feature."
 msgstr ""
 
@@ -337,7 +337,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:130
 msgid ""
-"Please find our `Privacy Policy here <https://iap.flectrahq.com/privacy#sms>`__."
+"Please find our `Privacy Policy here <https://iap.flectra.com/privacy#sms>`__."
 msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:132
@@ -347,8 +347,8 @@ msgstr ""
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:134
 msgid ""
 "Yes, but it is not possible out of the box. Our experts can help you "
-"customize your database to make it happen. Please, check our On Boarding Servicess "
-"`here <https://www.flectrahq.com/pricing-packs>`_."
+"customize your database to make it happen. Please, check our success packs "
+"`here <https://www.flectra.com/pricing-packs>`_."
 msgstr ""
 
 #: ../../content/applications/marketing/survey.rst:3

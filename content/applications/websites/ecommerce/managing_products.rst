@@ -1,10 +1,14 @@
-==================
-Manage my products
-==================
+:nosearch:
+
+========
+Products
+========
 
 .. toctree::
    :titlesonly:
 
-   managing_products/multi_images
+   managing_products/products
+   managing_products/catalog
    managing_products/variants
-   ../../sales/sales/products_prices/products/import
+   managing_products/price_management
+   managing_products/cross_upselling
