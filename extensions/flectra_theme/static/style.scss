@@ -243,6 +243,23 @@ header.o_main_header{
         border-radius: 0;
     }
 }
+@media(max-width: 600px){
+    #o_main_toctree{
+        ul{
+            margin-top: 3rem !important;
+        }
+    }
+
+    header.o_main_header .o_logo_wrapper{
+        .o_logo img {
+            margin-bottom: 0;
+            vertical-align: bottom;
+        }
+
+    } 
+}
+
+
 
 .o_side_nav, .o_page_toc_nav {
     ul { // all uls in toc
