@@ -354,17 +354,7 @@ than performance.
   efficiently. But all images used in Flectra official themes have been
   compressed by default.
 
-When you click on an image, Flectra shows you the Alt and title attributes
-of the ``<img>`` tag. You can click on it to set your own title and Alt
-attributes for the image.
-
-.. image:: seo/seo08.png
-  :align: center
-
 When you click on this link, the following window will appear:
-
-.. image:: seo/seo09.png
-  :align: center
 
 Flectra's pictograms are implemented using a font (`Font
 Awesome <https://fortawesome.github.io/Font-Awesome/icons/>`__ in most
@@ -487,28 +477,6 @@ same visitor will not load any other Javascript resource.
    concatenated, nor minified. Thus, it's much slower. But it allows you to easily debug with the
    Chrome debugger as CSS and Javascript resources are not transformed from their original versions.
 
-CDN
----
-
-If you activate the CDN feature in Flectra, static resources (Javascript,
-CSS, images) are loaded from a Content Delivery Network. Using a Content
-Delivery Network has three advantages:
-
-- Load resources from a nearby server (most CDN have servers in main
-  countries around the globe)
-
-- Cache resources efficiently (no computation resources usage on your
-  own server)
-
-- Split the resource loading on different services allowing to load
-  more resources in parallel (since the Chrome limit of 6 parallel
-  requests is by domain)
-
-You can configure your CDN options from the **Website Admin** app, using
-the Configuration menu. Here is an example of configuration you can use:
-
-.. image:: seo/seo11.png
-  :align: center
 
 HTML Pages
 ----------
@@ -556,18 +524,7 @@ your website.
 
 This allows Flectra to set a very long cache delay (XXX) on these
 resources: XXX secs, while being updated instantly if you update the
-resource.
-
-Scalability
------------
-
-In addition to being fast, Flectra is also more scalable than traditional
-CMS and eCommerce (Drupal, Wordpress, Magento, Prestashop).
-
-Here is the slide that summarizes the scalability of Flectra Website & eCommerce.
-
-.. image:: seo/seo13.png
-   :align: center
+resource..
 
 Search Engines Files
 ====================

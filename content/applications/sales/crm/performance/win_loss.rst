@@ -15,11 +15,6 @@ click on filter and check Won/Lost.
 .. image:: win_loss/win_loss01.png
     :align: center
 
-You can also change the *Measures* to *Total Revenue*.
-
-.. image:: win_loss/win_loss02.png
-    :align: center
-
 You also have the ability to switch to a pie chart view.
 
 .. image:: win_loss/win_loss03.png

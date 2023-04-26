@@ -32,18 +32,3 @@ etc. See :menuselection:`Accounting --> Settings`.
 
 .. image:: currencies/currency_rate.png
    :align: center
-
-.. image:: currencies/prices_conversion.png
-   :align: center
-
-Set your own prices
-===================
-
-This is advised if you don't want your pricing to change along with currency rates.
-
-.. image:: currencies/pricing_currency.png
-   :align: center
-
-.. seealso::
-
-  * :doc:`pricing`

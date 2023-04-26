@@ -75,18 +75,3 @@ To buy credits, navigate to :menuselection:`CRM --> Configuration --> Settings`.
    :align: center
    :alt: Buy credits from the lead mining settings.
 
-Credits may also be purchased by navigating to the :menuselection:`Settings --> General Settings`.
-In the :guilabel:`In-App Purchases` section, under the :guilabel:`Flectra IAP` feature, click on
-:guilabel:`View My Services`.
-
-.. image:: lead_mining/view-my-services-setting.png
-   :align: center
-   :alt: Buy credits in the Flectra IAP settings.
-
-.. tip::
-
-   Users of Flectra Online (SaaS) Enterprise automatically have free trial credits in their database to
-   test any IAP features.
-
-.. seealso::
-   * :doc:`../../../general/in_app_purchase`

@@ -54,12 +54,7 @@ wait for confirmation, confirm the sales order and create an invoice.
 - **Invoice what is delivered**: Small impact on sales flow because you will have to manually
   enter the delivered quantity on the sales order or to install the **Inventory App** to confirm the
   delivered quantity before creating an invoice, with the **Sales App**. Indeed, if you try to
-  create an invoice without validating the delivered quantity, you will receive an error message as
-  below.
-
-  .. image:: invoicing_policy/invoicing_policy_3.png
-     :class: img-thumbnail
-     :alt: How the choice of your invoicing policy impacts your sales flow on Flectra Sales?
+  create an invoice without validating the delivered quantity, you will receive an error message.
 
 .. note::
    Once the quotation is confirmed and that the status went from **Quotation sent** to

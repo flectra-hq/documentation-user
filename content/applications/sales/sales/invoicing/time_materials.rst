@@ -23,7 +23,7 @@ app. Go to :menuselection:`Apps --> Project` to install it.
 
 In *Project* you will use timesheets, to do so go to
 :menuselection:`Project --> Configuration --> Settings` and activate the
-*Timesheets* feature.
+*Task Log* feature.
 
 .. image:: time_materials/time_materials01.png
    :align: center

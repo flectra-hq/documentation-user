@@ -204,7 +204,7 @@ In the :guilabel:`Mail Body` tab, there are a number of pre-configured message t
 from. Select the desired template, and modify every element of its design details with Flectra's
 drag-and-drop web builder, located on the right sidebar.
 
-.. image:: event_essentials/event-email-builder-block.gif
+.. image:: event_essentials/event-email-builder-block.png
    :align: center
    :alt: View of the drag and drop building blocks used to customize event invite emails.
 

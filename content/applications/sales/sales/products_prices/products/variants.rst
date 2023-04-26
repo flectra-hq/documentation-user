@@ -88,12 +88,6 @@ if needed. To add a value, click :guilabel:`Add a line`. From there, you can:
 A color code can be selected either by dragging the slider around or by entering a specific HTML
 color code (e.g. #FF0077).
 
-.. image:: variants/picking-a-color.png
-   :align: center
-   :alt: Selecting a color.
-
-Finally, click :guilabel:`Save` to finish creating the attribute.
-
 .. tip::
    Attributes can also be created directly from the product template by adding a new line and
    typing the name into the :guilabel:`Variants` tab.

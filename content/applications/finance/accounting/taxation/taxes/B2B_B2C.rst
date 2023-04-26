@@ -118,6 +118,7 @@ Tax** from the menu :menuselection:`Configuration --> Settings`
 of the Accounting application.
 
 .. image:: B2B_B2C/price_B2C_B2B01.png
+.. image:: B2B_B2C/price_B2C_B2B011.png
   :align: center
 
 Once done, you can create a **B2C** pricelist. You can activate the
@@ -133,9 +134,6 @@ Then, create a product at 8.26€, with a tax of 21% (defined as tax not
 included in price) and set a price on this product for B2C customers at
 10€, from the :menuselection:`Sales --> Products`
 menu of the Sales application:
-
-.. image:: B2B_B2C/price_B2C_B2B02.png
-  :align: center
 
 Setting the B2C fiscal position
 -------------------------------

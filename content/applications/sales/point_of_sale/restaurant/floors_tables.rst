@@ -84,9 +84,5 @@ another one.
 Then, you can shift between your orders and process the payment
 when needed.
 
-.. image:: floors_tables/restaurant_10.png
-    :align: center
-    :alt: View of the - button, allowing employees to close/remove an order
-
 .. tip::
    The - button allows you to remove the order you are currently on.

@@ -186,7 +186,7 @@ Publish a page in all websites
 
 A new static page is created and only made available in the current
 website. You can duplicate it to other websites from
-:menuselection:`Website --> Configuration --> Pages`. To do so, leave the *Website* field empty.
+:menuselection:`Website --> Site --> Pages`. To do so, leave the *Website* field empty.
 
 If you want to duplicate it in just one other website, duplicate the
 page and set the new website.
@@ -257,25 +257,6 @@ Each kit will link each published “virtual” product to the main
 reference managed in your inventory. That way, any item sold from your
 website will be converted into the storable item in the delivery order.
 
-Pricelists
-----------
-
-To manage specific prices by websites, you can activate *Multiple Sales
-Prices per Product* in Website settings.
-
-Then, go to :menuselection:`Website --> Products --> Pricelists` to create additional pricelists.
-You can also choose to have a pricelist available *only* on a specific website.
-
-.. seealso::
-   :doc:`../../ecommerce/managing_products/price_management`.
-
-.. image:: multi_website/multi_website07.png
-  :align: center
-
-Leaving the field empty means that you make it work in all websites if
-*Selectable* is selected. Otherwise, it makes it only available for
-backend operations of Sales and Point of Sale applications.
-
 Payment Providers and Delivery Methods
 --------------------------------------
 
@@ -283,18 +264,6 @@ By default, published payment providers and delivery methods are deployed in all
 You could already use specific payment providers per country using Geo
 IP by defining countries in their configuration. Now you can also do it
 per website by filling in the *Website* field.
-
-Customer accounts
------------------
-
-There is a setting to choose how to manage customer accounts in Website
-settings. You can either allow customers to use one account through all
-the websites or compel them to create one account for each website. This
-last option is convenient if your websites shouldn’t be related to each
-other in the visitor mind.
-
-.. image:: multi_website/multi_website17.png
-  :align: center
 
 Technical hints for customization
 =================================

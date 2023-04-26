@@ -9,8 +9,8 @@ Configuration
 =============
 
 To enable product variants on quotations and sales orders, go to :menuselection:`Sales -->
-Configuration --> Settings --> Product Catalog` and activate one or both of the
-:guilabel:`Product Configurator` and :guilabel:`Variant Grid Entry` settings. Finally, click
+Configuration --> Settings --> Product Catalog` and activate the
+:guilabel:`Variant Grid Entry` settings. Finally, click
 :guilabel:`Save` to apply the settings.
 
 .. image:: orders_and_variants/activating-entry-type-settings.png

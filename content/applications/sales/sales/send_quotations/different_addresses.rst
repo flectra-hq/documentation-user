@@ -9,7 +9,7 @@ everyone will have the same delivery location as the invoicing location.
 Activate the feature
 ====================
 
-Go to :menuselection:`Sales --> Configuration --> Settings` and activate the **Customer Addresses**
+Go to :menuselection:`Accounting --> Configuration --> Settings` and activate the **Customer Addresses**
 feature.
 
 .. image:: different_addresses/addresses_1.png

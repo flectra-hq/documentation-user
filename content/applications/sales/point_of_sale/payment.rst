@@ -8,9 +8,7 @@ Payment Terminals
    :titlesonly:
 
    payment/adyen
-   payment/ingenico
    payment/vantiv
    payment/six
-   payment/worldline
    payment/stripe
 

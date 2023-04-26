@@ -36,11 +36,5 @@ list. You can even choose a default pricelist if needed.
 .. image:: pricelists/pricelists_03.png
    :align: center
 
-From now on, on the *PoS* interface, a new button is available, allowing you to choose
-among the different *pricelists* you added before.
-
-.. image:: pricelists/pricelists_04.png
-   :align: center
-
 .. seealso::
    * :doc:`../../sales/products_prices/prices/pricing`

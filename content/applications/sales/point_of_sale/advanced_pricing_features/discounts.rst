@@ -42,22 +42,6 @@ Once on your PoS form, select *Global Discounts*, under the *Pricing* category.
    :align: center
    :alt: View of the feature to enable for global discount
 
-Now, you have a new *Discount* button appearing on your PoS interface.
-
-.. image:: discounts/discounts_03.png
-   :align: center
-   :alt: View of the button to use for global discount via the pos interface
-
-Click on it and enter the wanted discount.
-
-.. image:: discounts/discounts_04.png
-   :align: center
-   :alt: View of the discount offered in the payment summary
-
-.. note::
-   On this example, there is a global discount of 50% as well as a specific
-   50% discount on oranges.
-
 Apply time-limited discounts
 ============================
 
