@@ -74,19 +74,18 @@ An invoice will usually include the quantity and the price of goods
 and/or services, the date, any parties involved, the unique invoice
 number, and any tax information.
 
-"Validate" the invoice when you are ready to approve it. The invoice
-then moves from the Draft state to the Open state.
+"Confirm" the invoice when you are ready to approve it. The invoice
+then moves from the Draft state to the Posted state.
 
-When you have validated an invoice, Flectra gives it a unique number from a
+When you have confirmed an invoice, Flectra gives it a unique number from a
 defined, and modifiable, sequence.
 
 .. image:: customer_invoice/invoice03.png
    :align: center
 
 Accounting entries corresponding to this invoice are automatically
-generated when you validate the invoice. You can see the details by
-clicking on the entry in the Journal Entry field in the "Other Info"
-tab.
+generated when you confirm the invoice. You can see the details by
+clicking on the entry on the "Journal Items" tab.
 
 .. image:: customer_invoice/invoice04.png
    :align: center
@@ -94,8 +93,8 @@ tab.
 Send the invoice to customer
 ============================
 
-After validating the customer invoice, you can directly send it to the
-customer via the 'Send by email' functionality.
+After confirming the customer invoice, you can directly send it to the
+customer via the 'Send & Print' functionality.
 
 .. image:: customer_invoice/invoice05.png
    :align: center
@@ -106,7 +105,7 @@ like as follows:
 +-----------------------+---------------+----------------+-------------+--------------+
 | **Account**           | **Partner**   | **Due date**   | **Debit**   | **Credit**   |
 +=======================+===============+================+=============+==============+
-| Accounts Receivable   | Agrolait      | 01/07/2015     | 115         |              |
+| Accounts Receivable   | Agrolait      | 26/05/2023     | 115         |              |
 +-----------------------+---------------+----------------+-------------+--------------+
 | Taxes                 | Agrolait      |                |             | 15           |
 +-----------------------+---------------+----------------+-------------+--------------+
@@ -156,7 +155,7 @@ Now let's reconcile!
 You can now go through every transaction and reconcile them or you can mass reconcile with instructions at the bottom.
 
 After reconciling the items in the sheet, the related invoice will now
-display "You have outstanding payments for this customer. You can
+display "You have outstanding credits for this customer. You can
 reconcile them to pay this invoice. "
 
 .. image:: customer_invoice/invoice08.png
