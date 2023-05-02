@@ -26,19 +26,6 @@ and activate the **SEPA QR Code** feature.
 .. image:: epc_qr_code/epc_qr_code01.png
    :align: center
 
-Configure your Bank Account’s journal
--------------------------------------
-
-Make sure that your *Bank Account* is correctly configured
-on Flectra with your IBAN and BIC.
-
-To do so, go to :menuselection:`Accounting --> Configuration
---> Journals`, open your *bank journal*, then fill out the
-*Bank Account* and *Bank* under the *Bank Account* tab.
-
-.. image:: epc_qr_code/epc_qr_code02.png
-   :align: center
-
 Issue Invoices with EPC QR Codes
 ================================
 

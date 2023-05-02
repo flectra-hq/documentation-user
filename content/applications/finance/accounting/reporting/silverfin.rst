@@ -51,16 +51,3 @@ key`, confirm your password, give a descriptive name to your new key, and copy t
    :ref:`api/external_api/keys`
 
 .. _silverfin/api-multipledb:
-
-One key for multiple databases (fiduciaries)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-To create a new API key valid for all the databases of a single user **(the easiest for
-fiduciaries)**, navigate to `Flectra's website <https://www.flectra.com>`_  and sign in with your
-administrator account. Next, open `your account security settings in developer mode
-<https://www.flectra.com/my/security?debug=1>`_, click on :guilabel:`New API Key`, confirm your
-password, give a descriptive name to your new key, and copy the new API key.
-
-.. image:: silverfin/api-key-user.png
-   :align: center
-   :alt: creation of an Flectra external API key for an Flectra user

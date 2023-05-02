@@ -35,6 +35,3 @@ list. You can even choose a default pricelist if needed.
 
 .. image:: pricelists/pricelists_03.png
    :align: center
-
-.. seealso::
-   * :doc:`../../sales/products_prices/prices/pricing`

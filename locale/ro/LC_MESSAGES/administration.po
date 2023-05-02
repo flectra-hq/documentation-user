@@ -862,11 +862,11 @@ msgstr ""
 #: ../../content/administration/install/deploy.rst:417
 msgid ""
 "Say Flectra has been installed via the **debian packages** for Community and "
-"Enterprise and the :option:`--addons-path <flectra-bin --addons-path>` is "
+"Professional and the :option:`--addons-path <flectra-bin --addons-path>` is "
 "``'/usr/lib/python3/dist-packages/flectra/addons'``."
 msgstr ""
 "Presupunând că Flectra a fost instalat prin intermediul **pachetelor debian** "
-"pentru Comunitate și Enterprise și :option:`--addons-path <flectra-bin "
+"pentru Comunitate și Professional și :option:`--addons-path <flectra-bin "
 "--addons-path>` este ``'/usr/lib/python3/dist-packages/flectra/addons'``."
 
 #: ../../content/administration/install/deploy.rst:420
@@ -881,13 +881,13 @@ msgstr ""
 #: ../../content/administration/install/deploy.rst:442
 msgid ""
 "Say Flectra has been installed via the **source**. The two git repositories for"
-" Community and Enterprise have been cloned in :file:`/opt/flectra/community` "
+" Community and Professional have been cloned in :file:`/opt/flectra/community` "
 "and :file:`/opt/flectra/enterprise` respectively and the :option:`--addons-path"
 " <flectra-bin --addons-path>` is "
 "``'/opt/flectra/community/flectra/addons,/opt/community/addons,/opt/flectra/enterprise'``."
 msgstr ""
 "Presupunând că Flectra a fost instalat prin intermediul **sursă**. Cele două "
-"repositorii git pentru Comunitate și Enterprise au fost clonate în "
+"repositorii git pentru Comunitate și Professional au fost clonate în "
 ":file:`/opt/flectra/community` și :file:`/opt/flectra/enterprise` respectiv și "
 ":option:`--addons-path <flectra-bin --addons-path>` este "
 "``'/opt/flectra/community/flectra/addons,/opt/community/addons,/opt/flectra/enterprise'``."
@@ -1646,23 +1646,23 @@ msgstr "Ediții"
 
 #: ../../content/administration/install/install.rst:35
 msgid ""
-"There are two different Editions_ of Flectra: the Community and Enterprise "
-"versions. Using the Enterprise version is possible on `Flectra Online`_ and "
-"accessing the code is restricted to Enterprise customers and partners. The "
+"There are two different Editions_ of Flectra: the Community and Professional "
+"versions. Using the Professional version is possible on `Flectra Online`_ and "
+"accessing the code is restricted to Professional customers and partners. The "
 "Community version is freely available to anyone."
 msgstr ""
 "Sunt două ediții diferite de Flectra: versiunea Comunitate și versiunea "
-"Enterprise. Utilizarea versiunii Enterprise este posibilă pe `Flectra Online`_ "
+"Professional. Utilizarea versiunii Professional este posibilă pe `Flectra Online`_ "
 "și accesarea codului este restricționată la clienții și partenerii "
-"Enterprise. Versiunea Comunitate este disponibilă gratuit tuturor."
+"Professional. Versiunea Comunitate este disponibilă gratuit tuturor."
 
 #: ../../content/administration/install/install.rst:40
 msgid ""
-"If you already use the Community version and wish to upgrade to Enterprise, "
+"If you already use the Community version and wish to upgrade to Professional, "
 "please refer to :ref:`setup/enterprise` (except for "
 ":ref:`setup/install/source`)."
 msgstr ""
-"Dacă utilizați deja versiunea Comunitate și doriți să treceți la Enterprise,"
+"Dacă utilizați deja versiunea Comunitate și doriți să treceți la Professional,"
 " vă rugăm să consultați :ref:`setup/enterprise` (cu excepția "
 ":ref:`setup/install/source`)."
 
@@ -1731,11 +1731,11 @@ msgstr "Instalatori pachetate"
 msgid ""
 "Flectra provides packaged installers for Windows, deb-based distributions "
 "(Debian, Ubuntu, …) and RPM-based distributions (Fedora, CentOS, RHEL, …) "
-"for both the Community and Enterprise versions."
+"for both the Community and Professional versions."
 msgstr ""
 "Flectra oferă instalatori pachetate pentru Windows, distribuții bazate pe deb "
 "(Debian, Ubuntu, ...) și distribuții bazate pe RPM (Fedora, CentOS, RHEL, "
-"...) pentru ambele versiuni Comunitate și Enterprise."
+"...) pentru ambele versiuni Comunitate și Professional."
 
 #: ../../content/administration/install/install.rst:81
 msgid ""
@@ -1748,15 +1748,15 @@ msgstr ""
 #: ../../content/administration/install/install.rst:84
 msgid ""
 "Official Community packages with all relevant dependency requirements are "
-"available on our nightly_ server. Both Community and Enterprise packages can"
+"available on our nightly_ server. Both Community and Professional packages can"
 " be downloaded from our download_ page (you must to be logged in as a paying"
-" customer or partner to download the Enterprise packages)."
+" customer or partner to download the Professional packages)."
 msgstr ""
 "Pachetele oficiale Comunitate cu toate cerințele de dependență relevante "
-"sunt disponibile pe serverul nostru nightly_. Atât Comunitate și Enterprise "
+"sunt disponibile pe serverul nostru nightly_. Atât Comunitate și Professional "
 "pachete pot fi descărcate de pe pagina noastră de descărcare_ (trebuie să "
 "fiți autentificat ca un client sau partener care plătește pentru a descărca "
-"pachetele Enterprise)."
+"pachetele Professional)."
 
 #: ../../content/administration/install/install.rst:90
 #: ../../content/administration/install/install.rst:295
@@ -1901,9 +1901,9 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:172
 msgid ""
-"At this moment, there is no nightly repository for the Enterprise Edition."
+"At this moment, there is no nightly repository for the Professional Edition."
 msgstr ""
-"În acest moment, nu există un depozit nightly pentru Enterprise Edition."
+"În acest moment, nu există un depozit nightly pentru Professional Edition."
 
 #: ../../content/administration/install/install.rst:175
 msgid "Distribution package"
@@ -1912,11 +1912,11 @@ msgstr "Pachet de distribuție"
 #: ../../content/administration/install/install.rst:181
 msgid ""
 "Instead of using the repository as described above, the 'deb' packages for "
-"both the *Community* and *Enterprise* editions can be downloaded from the "
+"both the *Community* and *Professional* editions can be downloaded from the "
 "`official download page <download_>`_."
 msgstr ""
 "În schimb de a utiliza depozitul descris mai sus, pachetele 'deb' pentru "
-"ambele ediții *Community* și *Enterprise* pot fi descărcate de pe `pagina de"
+"ambele ediții *Community* și *Professional* pot fi descărcate de pe `pagina de"
 " descărcare oficială <download_>`_."
 
 #: ../../content/administration/install/install.rst:186
@@ -1970,11 +1970,11 @@ msgstr ""
 #: ../../content/administration/install/install.rst:222
 msgid ""
 "Instead of using the repository as described above, the 'rpm' packages for "
-"both the *Community* and *Enterprise* editions can be downloaded from the "
+"both the *Community* and *Professional* editions can be downloaded from the "
 "`official download page <download_>`_."
 msgstr ""
 "În schimb de a utiliza depozitul descris mai sus, pachetele 'rpm' pentru "
-"ambele ediții *Community* și *Enterprise* pot fi descărcate de pe `pagina de"
+"ambele ediții *Community* și *Professional* pot fi descărcate de pe `pagina de"
 " descărcare oficială <download_>`_."
 
 #: ../../content/administration/install/install.rst:227
@@ -2064,8 +2064,8 @@ msgid "`Nightly server <nightly_>`_"
 msgstr "`Server nightly <nightly_>`_"
 
 #: ../../content/administration/install/install.rst:269
-msgid "Enterprise Edition:"
-msgstr "Ediția Enterprise:"
+msgid "Professional Edition:"
+msgstr "Ediția Professional:"
 
 #: ../../content/administration/install/install.rst:272
 msgid "`GitHub repository <enterprise-repository_>`_"
@@ -2088,23 +2088,23 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:286
 msgid ""
-"**The Enterprise Git repository does not contain the full Flectra source "
+"**The Professional Git repository does not contain the full Flectra source "
 "code**. It is only a collection of extra add-ons. The main server code is in"
-" the Community version. Running the Enterprise version actually means "
+" the Community version. Running the Professional version actually means "
 "running the server from the Community version with the addons-path option "
-"set to the folder with the Enterprise version. You need to clone both the "
-"Community and Enterprise repository to have a working Flectra Enterprise "
+"set to the folder with the Professional version. You need to clone both the "
+"Community and Professional repository to have a working Flectra Professional "
 "installation. See :ref:`setup/install/editions` to get access to the "
-"Enterprise repository."
+"Professional repository."
 msgstr ""
-"**Depozitul Git Enterprise nu conține codul sursă complet Flectra**. Este doar "
+"**Depozitul Git Professional nu conține codul sursă complet Flectra**. Este doar "
 "o colecție de module suplimentare. Codul serverului principal este în "
-"versiunea Comunitară. Rularea versiunii Enterprise înseamnă într-adevăr "
+"versiunea Comunitară. Rularea versiunii Professional înseamnă într-adevăr "
 "rularea serverului din versiunea Comunitară cu opțiunea addons-path setată "
-"la dosarul cu versiunea Enterprise. Trebuie să clonați atât depozitul "
-"Comunitară, cât și depozitul Enterprise pentru a avea o instalare Flectra "
-"Enterprise funcțională. Vedeți :ref:`setup/install/editions` pentru a obține"
-" acces la depozitul Enterprise."
+"la dosarul cu versiunea Professional. Trebuie să clonați atât depozitul "
+"Comunitară, cât și depozitul Professional pentru a avea o instalare Flectra "
+"Professional funcțională. Vedeți :ref:`setup/install/editions` pentru a obține"
+" acces la depozitul Professional."
 
 #: ../../content/administration/install/install.rst:299
 #: ../../content/administration/install/install.rst:317
@@ -2128,21 +2128,21 @@ msgstr "Mac OS"
 
 #: ../../content/administration/install/install.rst:350
 msgid ""
-"**The Enterprise git repository does not contain the full Flectra source "
+"**The Professional git repository does not contain the full Flectra source "
 "code**. It is only a collection of extra add-ons. The main server code is in"
-" the Community version. Running the Enterprise version actually means "
+" the Community version. Running the Professional version actually means "
 "running the server from the Community version with the addons-path option "
-"set to the folder with the Enterprise version. You need to clone both the "
-"Community and Enterprise repository to have a working Flectra Enterprise "
+"set to the folder with the Professional version. You need to clone both the "
+"Community and Professional repository to have a working Flectra Professional "
 "installation."
 msgstr ""
-"**Depozitul git Enterprise nu conține codul sursă complet Flectra**. Este doar "
+"**Depozitul git Professional nu conține codul sursă complet Flectra**. Este doar "
 "o colecție de module suplimentare. Codul serverului principal este în "
-"versiunea Comunitară. Rularea versiunii Enterprise înseamnă într-adevăr "
+"versiunea Comunitară. Rularea versiunii Professional înseamnă într-adevăr "
 "rularea serverului din versiunea Comunitară cu opțiunea addons-path setată "
-"la dosarul cu versiunea Enterprise. Trebuie să clonați atât depozitul "
-"Comunitară, cât și depozitul Enterprise pentru a avea o instalare Flectra "
-"Enterprise funcțională."
+"la dosarul cu versiunea Professional. Trebuie să clonați atât depozitul "
+"Comunitară, cât și depozitul Professional pentru a avea o instalare Flectra "
+"Professional funcțională."
 
 #: ../../content/administration/install/install.rst:362
 msgid "Python"
@@ -2545,11 +2545,11 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:658
 msgid ""
-"For the Enterprise edition, you must add the path to the `enterprise` addons"
+"For the Professional edition, you must add the path to the `enterprise` addons"
 " to the `addons-path` argument. Note that it must come before the other "
 "paths in `addons-path` for addons to be loaded correctly."
 msgstr ""
-"Pentru ediția Enterprise, trebuie să adăugați calea către addon-urile "
+"Pentru ediția Professional, trebuie să adăugați calea către addon-urile "
 "`enterprise` la argumentul `addons-path`. Rețineți că trebuie să vină "
 "înainte de celelalte căi în `addons-path` pentru ca addon-urile să fie "
 "încărcate corect."
@@ -4040,8 +4040,8 @@ msgid ":doc:`/applications/general/email_communication/email_servers`"
 msgstr ":doc:`/applications/general/email_communication/email_servers`"
 
 #: ../../content/administration/maintain/enterprise.rst:6
-msgid "Upgrade Community to Enterprise"
-msgstr "Actualizați Community la Enterprise"
+msgid "Upgrade Community to Professional"
+msgstr "Actualizați Community la Professional"
 
 #: ../../content/administration/maintain/enterprise.rst:8
 msgid ""
@@ -4073,8 +4073,8 @@ msgid "Restart your server"
 msgstr "Reporniți serverul"
 
 #: ../../content/administration/maintain/enterprise.rst:23
-msgid "Enter your Flectra Enterprise Subscription code"
-msgstr "Introduceți codul dvs. de abonament Flectra Enterprise"
+msgid "Enter your Flectra Professional Subscription code"
+msgstr "Introduceți codul dvs. de abonament Flectra Professional"
 
 #: ../../content/administration/maintain/enterprise.rst:29
 msgid "On Linux, using an installer"
@@ -4096,14 +4096,14 @@ msgstr "Actualizați baza de date la pachetele enterprise utilizând"
 
 #: ../../content/administration/maintain/enterprise.rst:51
 msgid ""
-"You should be able to connect to your Flectra Enterprise instance using your "
+"You should be able to connect to your Flectra Professional instance using your "
 "usual mean of identification. You can then link your database with your Flectra"
-" Enterprise Subscription by entering the code you received by e-mail in the "
+" Professional Subscription by entering the code you received by e-mail in the "
 "form input"
 msgstr ""
-"Trebuie să puteți conecta la instanța dvs. Flectra Enterprise utilizând modul "
+"Trebuie să puteți conecta la instanța dvs. Flectra Professional utilizând modul "
 "obișnuit de identificare. Puteți apoi să vă legați baza de date cu "
-"abonamentul dvs. Flectra Enterprise introducând codul primit prin e-mail în "
+"abonamentul dvs. Flectra Professional introducând codul primit prin e-mail în "
 "formularul de intrare"
 
 #: ../../content/administration/maintain/enterprise.rst:57
@@ -4141,12 +4141,12 @@ msgstr ""
 msgid ""
 "Restart your server with the updated addons path of point 3. You should be "
 "able to connect to your instance. You can then link your database with your "
-"Flectra Enterprise Subscription by entering the code you received by e-mail in "
+"Flectra Professional Subscription by entering the code you received by e-mail in "
 "the form input"
 msgstr ""
 "Reporniți serverul cu calea actualizată a addon-urilor din punctul 3. "
 "Trebuie să puteți conecta la instanța dvs. Puteți apoi să vă legați baza de "
-"date cu abonamentul dvs. Flectra Enterprise introducând codul primit prin "
+"date cu abonamentul dvs. Flectra Professional introducând codul primit prin "
 "e-mail în formularul de intrare"
 
 #: ../../content/administration/maintain/enterprise.rst:78
@@ -4163,12 +4163,12 @@ msgstr ""
 
 #: ../../content/administration/maintain/enterprise.rst:88
 msgid ""
-"Launch the Flectra Enterprise Installer and follow the steps normally. When "
+"Launch the Flectra Professional Installer and follow the steps normally. When "
 "choosing the installation path, you can set the folder of the Community "
 "installation (this folder still contains the PostgreSQL installation). "
 "Uncheck ``Start Flectra`` at the end of the installation"
 msgstr ""
-"Lansați instalatorul Flectra Enterprise și urmați pașii normal. La alegerea "
+"Lansați instalatorul Flectra Professional și urmați pașii normal. La alegerea "
 "calea de instalare, puteți seta folderul de instalare a Comunității (acest "
 "folder conține încă instalarea PostgreSQL). Debifați ``Start Flectra`` la "
 "sfârșitul instalării"
@@ -4184,14 +4184,14 @@ msgstr ""
 #: ../../content/administration/maintain/enterprise.rst:103
 msgid ""
 "No need to manually launch the server, the service is running. You should be"
-" able to connect to your Flectra Enterprise instance using your usual mean of "
-"identification. You can then link your database with your Flectra Enterprise "
+" able to connect to your Flectra Professional instance using your usual mean of "
+"identification. You can then link your database with your Flectra Professional "
 "Subscription by entering the code you received by e-mail in the form input"
 msgstr ""
 "Nu este necesar să lansați manual serverul, serviciul rulează. Trebuie să "
-"puteți conecta la instanța dvs. Flectra Enterprise utilizând modul obișnuit de "
+"puteți conecta la instanța dvs. Flectra Professional utilizând modul obișnuit de "
 "identificare. Puteți apoi să vă legați baza de date cu abonamentul dvs. Flectra"
-" Enterprise introducând codul primit prin e-mail în formularul de intrare"
+" Professional introducând codul primit prin e-mail în formularul de intrare"
 
 #: ../../content/administration/maintain/google_oauth.rst:3
 msgid "Connect Gmail to Flectra using Google OAuth"
@@ -5789,8 +5789,8 @@ msgid "Solutions"
 msgstr "Soluții"
 
 #: ../../content/administration/maintain/on_premise.rst:29
-msgid "Do you have a valid Enterprise subscription?"
-msgstr "Aveți un abonament Enterprise valid?"
+msgid "Do you have a valid Professional subscription?"
+msgstr "Aveți un abonament Professional valid?"
 
 #: ../../content/administration/maintain/on_premise.rst:31
 msgid ""
@@ -5917,10 +5917,10 @@ msgstr "Mesaj de eroare din cauza unui număr prea mare de utilizatori"
 #: ../../content/administration/maintain/on_premise.rst:88
 msgid ""
 "If you have more users in your local database than provisionned in your Flectra"
-" Enterprise subscription, you may encounter this message:"
+" Professional subscription, you may encounter this message:"
 msgstr ""
 "Dacă aveți mai mulți utilizatori în baza de date locală decât în abonamentul"
-" dvs. Flectra Enterprise, puteți întâmpina acest mesaj:"
+" dvs. Flectra Professional, puteți întâmpina acest mesaj:"
 
 #: ../../content/administration/maintain/on_premise.rstNone
 msgid ""
@@ -6438,13 +6438,13 @@ msgstr "Actualizarea (a unei instalări Flectra)"
 #: ../../content/administration/maintain/update.rst:21
 msgid ""
 "Refers to the process of obtaining the latest revision of the source code "
-"for your current Flectra Edition. For example, updating your Flectra Enterprise "
+"for your current Flectra Edition. For example, updating your Flectra Professional "
 "13.0 to the latest revision. This does not directly cause any change to the "
 "contents of your Flectra database, and can be undone by reinstalling the "
 "previous revision of the source code."
 msgstr ""
 "Se referă la procesul de obținere a ultimei revizii a codului sursă pentru "
-"versiunea curentă a ediției Flectra. De exemplu, actualizarea Flectra Enterprise "
+"versiunea curentă a ediției Flectra. De exemplu, actualizarea Flectra Professional "
 "13.0 la cea mai recentă revizie. Acest lucru nu duce direct la nicio "
 "schimbare în conținutul bazei de date Flectra și poate fi anulat prin "
 "reinstalarea reviziei anterioare a codului sursă."
@@ -6540,22 +6540,22 @@ msgstr "Pasul 1: Descărcați o versiune Flectra actualizată"
 #: ../../content/administration/maintain/update.rst:66
 msgid ""
 "The central download page is https://www.flectra.com/page/download. If you see "
-"a \"Buy\" link for the Flectra Enterprise download, make sure you are logged "
-"into Flectra.com with the same login that is linked to your Flectra Enterprise "
+"a \"Buy\" link for the Flectra Professional download, make sure you are logged "
+"into Flectra.com with the same login that is linked to your Flectra Professional "
 "subscription."
 msgstr ""
 "Pagina centrală de descărcare este https://www.flectra.com/page/download. Dacă "
-"vedeți un link \"Buy\" pentru descărcarea Flectra Enterprise, asigurați-vă că "
+"vedeți un link \"Buy\" pentru descărcarea Flectra Professional, asigurați-vă că "
 "sunteți autentificat în Flectra.com cu aceeași autentificare care este legată "
-"de abonamentul Flectra Enterprise."
+"de abonamentul Flectra Professional."
 
 #: ../../content/administration/maintain/update.rst:70
 msgid ""
 "Alternatively, you can use the unique download link that was included with "
-"your Flectra Enterprise purchase confirmation email."
+"your Flectra Professional purchase confirmation email."
 msgstr ""
 "Alternativ, puteți utiliza link-ul unic de descărcare care a fost inclus cu "
-"e-mailul de confirmare a achiziției Flectra Enterprise."
+"e-mailul de confirmare a achiziției Flectra Professional."
 
 #: ../../content/administration/maintain/update.rst:73
 msgid ""
@@ -6688,13 +6688,13 @@ msgid ""
 "If you have originally installed Flectra with a full Github clone of the "
 "official repositories, the update procedure requires you to pull the latest "
 "source code via git. Change into the directory for each repository (the main"
-" Flectra repository, and the Enterprise repository), and run the following "
+" Flectra repository, and the Professional repository), and run the following "
 "commands::"
 msgstr ""
 "Dacă ați instalat inițial Flectra cu un clone complet al depozitelor oficiale "
 "Github, procedura de actualizare necesită să extrageți ultimul cod sursă "
 "prin git. Schimbați în directorul pentru fiecare depozit (depozitul "
-"principal Flectra, și depozitul Enterprise), și rulați următoarele comenzi::"
+"principal Flectra, și depozitul Professional), și rulați următoarele comenzi::"
 
 #: ../../content/administration/maintain/update.rst:136
 msgid ""
@@ -9022,15 +9022,15 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:58
 msgid ""
-"It should be the code of your Enterprise subscription that includes Flectra.sh."
+"It should be the code of your Professional subscription that includes Flectra.sh."
 msgstr ""
-"Acesta ar trebui să fie codul abonamentului dvs. Enterprise care include "
+"Acesta ar trebui să fie codul abonamentului dvs. Professional care include "
 "Flectra.sh."
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:60
 msgid ""
 "Partners can use their partnership codes to start a trial. Should their "
-"clients start a project, they ought to get an Enterprise subscription "
+"clients start a project, they ought to get an Professional subscription "
 "including Flectra.sh and use its subscription code. The partner will get 50% of"
 " the amount back as commission. Contact your sales representative or account"
 " manager in order to get it."
@@ -9054,14 +9054,14 @@ msgstr "nu este un abonament de parteneriat,"
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:69
 msgid "it is an enterprise subscription, but which does not include Flectra.sh,"
-msgstr "este un abonament Enterprise, dar care nu include Flectra.sh,"
+msgstr "este un abonament Professional, dar care nu include Flectra.sh,"
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:70
 msgid ""
 "it is neither a partnership subscription or an enterprise subscription (e.g."
 " an online subscription)."
 msgstr ""
-"nu este nici un abonament de parteneriat sau un abonament Enterprise (de "
+"nu este nici un abonament de parteneriat sau un abonament Professional (de "
 "exemplu un abonament online)."
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:73
@@ -10817,10 +10817,10 @@ msgstr "O actualizare nu acoperă:"
 #: ../../content/administration/upgrade.rst:24
 msgid ""
 "Changing :ref:`editions <upgrade-faq/editions-change>` (i.e., Community to "
-"Enterprise edition)"
+"Professional edition)"
 msgstr ""
 "Migrarea :ref:`editions <upgrade-faq/editions-change>` (de exemplu, "
-"Community la ediția Enterprise)"
+"Community la ediția Professional)"
 
 #: ../../content/administration/upgrade.rst:25
 msgid ""
@@ -11281,8 +11281,8 @@ msgid "Service Level Agreement"
 msgstr "Acord de nivel de serviciu"
 
 #: ../../content/administration/upgrade.rst:226
-msgid "What is covered by the Enterprise Licence?"
-msgstr "Ce este acoperit de licența Enterprise?"
+msgid "What is covered by the Professional Licence?"
+msgstr "Ce este acoperit de licența Professional?"
 
 #: ../../content/administration/upgrade.rst:228
 msgid ""
@@ -11352,11 +11352,11 @@ msgstr "`Training <https://www.flectra.com/learn>`_ pe ultima versiune"
 
 #: ../../content/administration/upgrade.rst:249
 msgid ""
-"You can get more information about your Enterprise Licence on our :ref:`Flectra"
-" Enterprise Subscription Agreement <upgrade>` page."
+"You can get more information about your Professional Licence on our :ref:`Flectra"
+" Professional Subscription Agreement <upgrade>` page."
 msgstr ""
-"Puteți obține mai multe informații despre licența dvs. Enterprise pe pagina "
-"noastră :ref:`Acordul de abonament Flectra Enterprise <upgrade>`."
+"Puteți obține mai multe informații despre licența dvs. Professional pe pagina "
+"noastră :ref:`Acordul de abonament Flectra Professional <upgrade>`."
 
 #: ../../content/administration/upgrade.rst:255
 msgid ":doc:`upgrade/faq`"
@@ -11545,18 +11545,18 @@ msgstr ""
 " schimbarea :ref:`tipului de găzduire <upgrade-faq/hosting-types-switch>`."
 
 #: ../../content/administration/upgrade/faq.rst:97
-msgid "Editions change (from Community to Enterprise)"
-msgstr "Schimbarea ediției (de la Comunitate la Enterprise)"
+msgid "Editions change (from Community to Professional)"
+msgstr "Schimbarea ediției (de la Comunitate la Professional)"
 
 #: ../../content/administration/upgrade/faq.rst:99
 msgid ""
-"The upgrade always returns an Enterprise edition of Flectra, whether the "
+"The upgrade always returns an Professional edition of Flectra, whether the "
 "database you sent was a community or enterprise edition. It is required to "
 "have an enterprise subscription to upgrade."
 msgstr ""
-"Actualizarea întotdeauna returnează o ediție Enterprise a Flectra, indiferent "
+"Actualizarea întotdeauna returnează o ediție Professional a Flectra, indiferent "
 "de ediția comunității sau enterprise a bazei de date pe care ați trimis-o. "
-"Este necesar să aveți o abonament Enterprise pentru a actualiza."
+"Este necesar să aveți o abonament Professional pentru a actualiza."
 
 #: ../../content/administration/upgrade/faq.rst:103
 msgid ""

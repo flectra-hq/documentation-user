@@ -18,10 +18,6 @@ Default Taxes when you create a new product or add a new line on an invoice.
 Configuration
 =============
 
-**Default Taxes** are automatically set up according to the country selected at the creation of your
-database, or when you set up a :ref:`fiscal localization package <fiscal_localizations/packages>`
-for your company.
-
 To change your **Default Taxes**, go to :menuselection:`Accounting --> Configuration --> Settings
 --> Taxes --> Default Taxes`, select the appropriate taxes for your default **Sales Tax** and
 **Purchase Tax**, and click on *Save*.
@@ -37,4 +33,3 @@ To change your **Default Taxes**, go to :menuselection:`Accounting --> Configura
 
   - :doc:`taxes`
   - :doc:`fiscal_positions`
-  - :doc:`../../../fiscal_localizations`

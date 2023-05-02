@@ -19,7 +19,7 @@ do not need to be a mobile developer, if you know Flectra JavaScript API you can
 access all available mobile features.
 
 .. warning::
-   These features work with **Flectra Enterprise 10.0+** only
+   These features work with **Flectra Professional 10.0+** only
 
 How does it work?
 =================

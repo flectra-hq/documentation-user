@@ -32,14 +32,10 @@ This documents attempts to describe most of the installation options.
 Editions
 ========
 
-There are two different Editions_ of Flectra: the Community and Enterprise versions.
-Using the Enterprise version is possible on `Flectra Online`_ and accessing the code is
-restricted to Enterprise customers and partners. The Community version is freely
+There are two different Editions_ of Flectra: the Community and Professional versions.
+Using the Professional version is possible on `Flectra Online`_ and accessing the code is
+restricted to Professional customers and partners. The Community version is freely
 available to anyone.
-
-If you already use the Community version and wish to upgrade to Enterprise, please
-refer to :ref:`setup/enterprise` (except for :ref:`setup/install/source`).
-
 
 .. _setup/install/online:
 
@@ -76,15 +72,15 @@ Packaged installers
 
 Flectra provides packaged installers for Windows, deb-based distributions
 (Debian, Ubuntu, …) and RPM-based distributions (Fedora, CentOS, RHEL, …) for
-both the Community and Enterprise versions.
+both the Community and Professional versions.
 
 These packages automatically set up all dependencies (for the Community version),
 but may be difficult to keep up-to-date.
 
 Official Community packages with all relevant dependency requirements are
-available on our nightly_ server. Both Community and Enterprise packages can
+available on our nightly_ server. Both Community and Professional packages can
 be downloaded from our download_ page (you must to be logged in as a paying
-customer or partner to download the Enterprise packages).
+customer or partner to download the Professional packages).
 
 Windows
 -------
@@ -133,10 +129,6 @@ Prepare
          $ sudo systemctl enable postgresql
          $ sudo systemctl start postgresql
 
-.. warning::
-   `wkhtmltopdf` is not installed through **pip** and must be installed manually in version `0.12.5
-   <the wkhtmltopdf download page_>`_ for it to support headers and footers. See our `wiki
-   <https://github.com/flectra/flectra/wiki/Wkhtmltopdf>`_ for more details on the various versions.
 
 Repository
 ~~~~~~~~~~
@@ -169,7 +161,7 @@ Repository
          $ sudo systemctl start flectra
 
 .. note::
-   At this moment, there is no nightly repository for the Enterprise Edition.
+   At this moment, there is no nightly repository for the Professional Edition.
 
 Distribution package
 ~~~~~~~~~~~~~~~~~~~~
@@ -179,7 +171,7 @@ Distribution package
    .. group-tab:: Debian/Ubuntu
 
       Instead of using the repository as described above, the 'deb' packages for both the
-      *Community* and *Enterprise* editions can be downloaded from the `official download page
+      *Community* and *Professional* editions can be downloaded from the `official download page
       <download_>`_.
 
       .. note::
@@ -220,7 +212,7 @@ Distribution package
    .. group-tab:: Fedora
 
       Instead of using the repository as described above, the 'rpm' packages for both the
-      *Community* and *Enterprise* editions can be downloaded from the `official download page
+      *Community* and *Professional* editions can be downloaded from the `official download page
       <download_>`_.
 
       .. note::
@@ -230,7 +222,7 @@ Distribution package
 
       .. code-block:: console
 
-         $ sudo dnf localinstall odoo_{CURRENT_MAJOR_BRANCH}.latest.noarch.rpm
+         $ sudo dnf localinstall flectra_{CURRENT_MAJOR_BRANCH}.latest.noarch.rpm
          $ sudo systemctl enable flectra
          $ sudo systemctl start flectra
 
@@ -266,13 +258,6 @@ Community Edition:
 * `GitHub repository <community-repository_>`_
 * `Nightly server <nightly_>`_
 
-Enterprise Edition:
-
-* `Official download page <download_>`_
-* `GitHub repository <enterprise-repository_>`_
-
-.. _setup/install/source/git:
-
 Git
 ~~~
 
@@ -283,12 +268,12 @@ are following the :doc:`Getting started </developer/tutorials/getting_started>` 
 or plan on contributing to Flectra source code, choose SSH.
 
 .. note::
-   **The Enterprise Git repository does not contain the full Flectra source code**. It is only a
+   **The Professional Git repository does not contain the full Flectra source code**. It is only a
    collection of extra add-ons. The main server code is in the Community version. Running the
-   Enterprise version actually means running the server from the Community version with the
-   addons-path option set to the folder with the Enterprise version. You need to clone both the
-   Community and Enterprise repository to have a working Flectra Enterprise installation. See
-   :ref:`setup/install/editions` to get access to the Enterprise repository.
+   Professional version actually means running the server from the Community version with the
+   addons-path option set to the folder with the Professional version. You need to clone both the
+   Community and Professional repository to have a working Flectra Professional installation. See
+   :ref:`setup/install/editions` to get access to the Professional repository.
 
 .. tabs::
 
@@ -300,15 +285,13 @@ or plan on contributing to Flectra source code, choose SSH.
 
             .. code-block:: doscon
 
-               C:\> git clone https://github.com/flectra/flectra.git
-               C:\> git clone https://github.com/flectra/enterprise.git
+               C:\> git clone https://gitlab.com/flectra-hq/flectra.git
 
          .. tab:: Clone with SSH
 
             .. code-block:: doscon
 
-               C:\> git clone git@github.com:flectra/flectra.git
-               C:\> git clone git@github.com:flectra/enterprise.git
+               C:\> git clone git@gitlab.com:flectra-hq/flectra.git
 
    .. group-tab:: Linux
 
@@ -318,15 +301,13 @@ or plan on contributing to Flectra source code, choose SSH.
 
             .. code-block:: console
 
-               $ git clone https://github.com/flectra/flectra.git
-               $ git clone https://github.com/flectra/enterprise.git
+               $ git clone https://gitlab.com/flectra-hq/flectra.git
 
          .. tab:: Clone with SSH
 
             .. code-block:: console
 
-               $ git clone git@github.com:flectra/flectra.git
-               $ git clone git@github.com:flectra/enterprise.git
+               $ git clone git@gitlab.com:flectra-hq/flectra.git
 
    .. group-tab:: Mac OS
 
@@ -336,22 +317,20 @@ or plan on contributing to Flectra source code, choose SSH.
 
             .. code-block:: console
 
-               $ git clone https://github.com/flectra/flectra.git
-               $ git clone https://github.com/flectra/enterprise.git
+               $ git clone https://gitlab.com/flectra-hq/flectra.git
 
          .. tab:: Clone with SSH
 
             .. code-block:: console
 
-               $ git clone git@github.com:flectra/flectra.git
-               $ git clone git@github.com:flectra/enterprise.git
+               $ git clone git@gitlab.com:flectra-hq/flectra.git
 
 .. note::
-   **The Enterprise git repository does not contain the full Flectra source code**. It is only a
+   **The Professional git repository does not contain the full Flectra source code**. It is only a
    collection of extra add-ons. The main server code is in the Community version. Running the
-   Enterprise version actually means running the server from the Community version with the
-   addons-path option set to the folder with the Enterprise version. You need to clone both the
-   Community and Enterprise repository to have a working Flectra Enterprise installation.
+   Professional version actually means running the server from the Community version with the
+   addons-path option set to the folder with the Professional version. You need to clone both the
+   Community and Professional repository to have a working Flectra Professional installation.
 
 .. _setup/install/source/prepare:
 
@@ -643,7 +622,7 @@ Dependencies
 .. important::
    `wkhtmltopdf` is not installed through **pip** and must be installed manually in version `0.12.5
    <the wkhtmltopdf download page_>`_ for it to support headers and footers. See our `wiki
-   <https://github.com/flectra/flectra/wiki/Wkhtmltopdf>`_ for more details on the various versions.
+   <https://gitlab.com/flectra-hq/flectra/wiki/Wkhtmltopdf>`_ for more details on the various versions.
 
 Running Flectra
 ---------------
@@ -655,7 +634,7 @@ To configure the server, you can either specify :ref:`command-line arguments
 <reference/cmdline/server>` or a :ref:`configuration file <reference/cmdline/config>`.
 
 .. tip::
-   For the Enterprise edition, you must add the path to the `enterprise` addons to the `addons-path`
+   For the Professional edition, you must add the path to the `professional` addons to the `addons-path`
    argument. Note that it must come before the other paths in `addons-path` for addons to be loaded
    correctly.
 
@@ -722,9 +701,9 @@ The full documentation on how to use Flectra with Docker can be found on the
 official Flectra `docker image <https://hub.docker.com/_/flectra/>`_ page.
 
 .. _Debian 11 (Bullseye): https://www.debian.org/releases/bullseye/
-.. _demo: https://demo.flectra.com
+.. _demo: https://demo.flectrahq.com
 .. _docker: https://www.docker.com
-.. _download: https://www.flectra.com/page/download
+.. _download: https://www.flectrahq.com/page/download
 .. _Ubuntu 22.04 (Jammy): https://releases.ubuntu.com/22.04/
 .. _EPEL: https://fedoraproject.org/wiki/EPEL
 .. _PostgreSQL: https://www.postgresql.org
@@ -732,7 +711,7 @@ official Flectra `docker image <https://hub.docker.com/_/flectra/>`_ page.
 .. _install pip:
     https://pip.pypa.io/en/latest/installing.html#install-pip
 .. _Quilt: https://en.wikipedia.org/wiki/Quilt_(software)
-.. _Odoo Online: https://www.flectra.com/page/start
+.. _Odoo Online: https://www.flectrahq.com/page/start
 .. _the wkhtmltopdf download page: https://github.com/wkhtmltopdf/wkhtmltopdf/releases/tag/0.12.5
 .. _UAC: https://en.wikipedia.org/wiki/User_Account_Control
 .. _wkhtmltopdf: https://wkhtmltopdf.org
@@ -743,8 +722,8 @@ official Flectra `docker image <https://hub.docker.com/_/flectra/>`_ page.
 .. _virtualenv: https://pypi.python.org/pypi/virtualenv
 .. _virtualenvwrapper: https://virtualenvwrapper.readthedocs.io/en/latest/
 .. _pywin32: https://sourceforge.net/projects/pywin32/files/pywin32/
-.. _community-repository: https://github.com/flectra/flectra
-.. _enterprise-repository: https://github.com/flectra/enterprise
-.. _Editions: https://www.flectra.com/pricing#pricing_table_features
-.. _nightly: https://nightly.flectra.com/
-.. _extra: https://nightly.flectra.com/extra/
+.. _community-repository: https://gitlab.com/flectra-hq/flectra
+.. _professional-repository: https://github.com/flectra/professional
+.. _Editions: https://flectrahq.com/pricing
+.. _nightly: https://nightly.flectrahq.com/
+.. _extra: https://nightly.flectrahq.com/extra/

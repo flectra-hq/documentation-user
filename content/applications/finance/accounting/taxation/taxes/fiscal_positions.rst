@@ -19,10 +19,6 @@ They can be applied in various ways:
 - :ref:`manually applied on a transaction <fiscal_positions/partner>`
 - :ref:`assigned to a partner, on its contact form <fiscal_positions/transaction>`
 
-.. note::
-   A few Fiscal Positions are already preconfigured on your database, as part of your :ref:`fiscal
-   localization package <fiscal_localizations/packages>`.
-
 Configuration
 =============
 
@@ -107,5 +103,4 @@ To manually select which Fiscal Position to use for a new Sales Order, Invoice, 
 .. seealso::
 
   * :doc:`taxes`
-  * :doc:`taxcloud`
   * :doc:`B2B_B2C`

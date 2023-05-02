@@ -203,10 +203,6 @@ A few tips to improve your screenshots:
 #. If necessary, you can **edit** the screenshot to remove unnecessary fields and to narrow even
    more Flectra's display.
 
-.. image:: content_guidelines/screenshot-tips.gif
-   :align: center
-   :alt: Three tips to take good screenshots for the Flectra documentation.
-
 .. note::
    Resizing the window's width is the most important step to do as Flectra's responsive design
    automatically resizes all fields to match the window's width.

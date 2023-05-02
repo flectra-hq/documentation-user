@@ -28,7 +28,7 @@ Change your language
 
 You can change the language to the installed language by going to the
 drop-down menu at the top right side of the screen, choose
-**Preferences**.
+**My Profile**.
 
 .. image:: language/choose_language02.png
     :align: center

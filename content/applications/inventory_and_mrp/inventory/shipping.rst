@@ -9,4 +9,3 @@ Shipping
    :glob:
 
    shipping/setup
-   shipping/operation

@@ -33,7 +33,7 @@ lists the most important of them.
      - Help improve the stability of Flectra by reporting the bugs that you discover in :doc:`supported
        versions </administration/maintain/supported_versions>` directly to Flectra support. Make sure
        to include as many details (version, environment, test scenario...) as possible. If you don't
-       have the Flectra Enterprise license required for contacting the support, open a new issue on the
+       have the Flectra Professional license required for contacting the support, open a new issue on the
        GitHub repository of Flectra.
      - * `Flectra support <https://www.flectra.com/help>`_
        * `Issue tracker on GitHub <https://github.com/flectra/flectra/issues>`_

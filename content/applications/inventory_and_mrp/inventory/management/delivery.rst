@@ -13,4 +13,3 @@ Delivery Orders
    delivery/two_steps
    delivery/three_steps
    delivery/dropshipping
-   delivery/label_type

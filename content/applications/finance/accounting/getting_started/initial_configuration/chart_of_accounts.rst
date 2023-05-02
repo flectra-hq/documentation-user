@@ -104,12 +104,6 @@ right type among the following list:
 Assets, deferred expenses, and deferred revenues automation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Some **account types** display a new field **to automate** the creation of :ref:`assets
-<assets-automation>` entries, :ref:`deferred expenses <deferred-expenses-automation>` entries,
-and :ref:`deferred revenues <deferred-revenues-automation>` entries.
-
-You have three choices for the :guilabel:`Automation` field:
-
 #. :guilabel:`No`: this is the default value. Nothing happens.
 #. :guilabel:`Create in draft`: whenever a transaction is posted on the account, a draft entry is
    created, but not validated. You must first fill out the corresponding form.
@@ -150,7 +144,4 @@ To do so, check the :guilabel:`Deprecated` box in the account's settings, and sa
 
 .. seealso::
    * :doc:`../cheat_sheet`
-   * :doc:`../../payables/supplier_bills/assets`
-   * :doc:`../../payables/supplier_bills/deferred_expenses`
    * :doc:`../../receivables/customer_invoices/deferred_revenues`
-   * :doc:`../../../fiscal_localizations`

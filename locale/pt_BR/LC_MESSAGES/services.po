@@ -12,7 +12,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 16.0\n"
+"Project-Id-Version: Flectra 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-03 17:52+0000\n"
 "PO-Revision-Date: 2022-10-04 12:54+0000\n"
@@ -837,11 +837,11 @@ msgstr ""
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:35
 msgid ""
 "Using your own email server is required to send and receive emails in Odoo "
-"Community and Enterprise. Online users benefit from a ready-to-use email "
+"Community and Professional. Online users benefit from a ready-to-use email "
 "server."
 msgstr ""
 "É necessário usar seu próprio servidor de e-mail para enviar e receber "
-"e-mails na Odoo Community and Enterprise. Os usuários online se beneficiam "
+"e-mails na Odoo Community and Professional. Os usuários online se beneficiam "
 "de um servidor de e-mail pronto para uso."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:39

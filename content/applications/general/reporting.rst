@@ -50,23 +50,9 @@ After selecting a view, you should ensure only the relevant records are :doc:`fi
 Next, you should choose what is measured. By default, a measure is always selected. If you wish to
 edit it, click :guilabel:`Measures` and choose one or, only for pivots, multiple measures.
 
-.. note::
-   When you select a measure, Flectra aggregates the values recorded on that field for the filtered
-   records. Only numerical fields (:ref:`integer <studio/fields/simple-fields/integer>`,
-   :ref:`decimal <studio/fields/simple-fields/decimal>`, :ref:`monetary
-   <studio/fields/simple-fields/monetary>`) can be measured. In addition, the :guilabel:`Count`
-   option is used to count the total number of filtered records.
-
 After choosing what you want to measure, you can define how the data should be :ref:`grouped
 <search/group>` depending on the dimension you want to analyze. By default, the data is often
 grouped by *Date > Month*, which is used to analyze the evolution of a measure over the months.
-
-.. tip::
-   When you filter a single time period, the option to compare it against another one appears.
-
-   .. image:: reporting/comparison.png
-      :align: center
-      :alt: Using the comparison option
 
 .. example::
 

@@ -32,7 +32,7 @@ and then push them to GitHub. Skip this section and go to
 #. .. include:: configure_github_account.rst
 #. Go to `github.com/flectra/flectra <https://github.com/flectra/flectra>`_ and click on the :guilabel:`Fork`
    button in the top right corner to create a fork (:dfn:`your own copy`) of the repository on your
-   account. Do the same with `github.com/flectra/enterprise <https://github.com/flectra/enterprise>`_ if
+   account. Do the same with `github.com/flectra/professional <https://github.com/flectra/professional>`_ if
    you have access to it. This creates a copy of the codebase to which you can make changes without
    affecting the main codebase. Skip this step if you work at Flectra.
 #. .. include:: install_git.rst
@@ -53,11 +53,11 @@ and then push them to GitHub. Skip this section and go to
 
             $ git remote add dev git@github.com:<your_github_account>/flectra.git
 
-         If you have access to `flectra/enterprise`, configure the related remote too.
+         If you have access to `flectra/professional`, configure the related remote too.
 
          .. code-block:: console
 
-            $ git remote add dev git@github.com:<your_github_account>/enterprise.git
+            $ git remote add dev git@github.com:<your_github_account>/professional.git
 
       .. tab:: Link Git with flectra-dev
 
@@ -66,7 +66,7 @@ and then push them to GitHub. Skip this section and go to
             $ git remote add dev git@github.com:flectra-dev/flectra.git
             $ git remote set-url --push origin no_push
 
-            $ git remote add dev git@github.com:flectra-dev/enterprise.git
+            $ git remote add dev git@github.com:flectra-dev/professional.git
             $ git remote set-url --push origin no_push
 
 #. That's it! You are ready to :ref:`make your first contribution
@@ -140,12 +140,12 @@ navigate to the directory where you installed Flectra from sources and follow th
 #. Open a :abbr:`PR (Pull Request)` on GitHub to submit your changes for review.
 
    #. Go to the `compare page of the flectra/flectra codebase <https://github.com/flectra/flectra/compare>`_, or
-      the `compare page of the flectra/enterprise codebase
-      <https://github.com/flectra/enterprise/compare>`_, depending on which codebase your changes
+      the `compare page of the flectra/professional codebase
+      <https://github.com/flectra/professional/compare>`_, depending on which codebase your changes
       target.
    #. Select **{CURRENT_BRANCH}** for the base.
    #. Click on :guilabel:`compare across forks`.
-   #. Select **<your_github_account>/flectra** or **<your_github_account>/enterprise** for the head
+   #. Select **<your_github_account>/flectra** or **<your_github_account>/professional** for the head
       repository. Replace `<your_github_account>` with the name of the GitHub account on which you
       created the fork or by **flectra-dev** if you work at Flectra.
    #. Review your changes and click on the :guilabel:`Create pull request` button.

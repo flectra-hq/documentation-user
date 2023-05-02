@@ -271,10 +271,10 @@ msgstr ""
 #: ../../content/applications/sales/crm/acquire_leads/generate_from_website.rst:43
 msgid ""
 "You will need to install the free *Form Builder* module, only available in "
-"Flectra Enterprise."
+"Flectra Professional."
 msgstr ""
 "Вам потрібно буде встановити безкоштовний модуль *Конструктор форм*, який "
-"доступний в лише Flectra Enterprise."
+"доступний в лише Flectra Professional."
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_from_website.rst:52
 msgid ""
@@ -429,10 +429,10 @@ msgstr "Синє поле автоматично підкаже, скільки 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:68
 #: ../../content/applications/sales/crm/optimize/outlook_extension.rst:169
 msgid ""
-"If you are on Flectra Online (SAAS) and have the Enterprise version, you "
+"If you are on Flectra Online (SAAS) and have the Professional version, you "
 "benefit from free trial credits to test the feature."
 msgstr ""
-"Якщо ви на Flectra Online (SAAS) і у вас версія Enterprise, для тестування "
+"Якщо ви на Flectra Online (SAAS) і у вас версія Professional, для тестування "
 "функції ви користуєтесь безкоштовними пробними кредитами."
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:71
@@ -940,10 +940,10 @@ msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:46
 msgid ""
-"If you are on Flectra Online (SAAS) and you have the Enterprise version, you "
+"If you are on Flectra Online (SAAS) and you have the Professional version, you "
 "benefit from free trial credits to test the feature."
 msgstr ""
-"Якщо ви на Flectra Online (SAAS) і у вас версія Enterprise, ви можете "
+"Якщо ви на Flectra Online (SAAS) і у вас версія Professional, ви можете "
 "скористатися безкоштовними пробними кредитами для тестування функції."
 
 #: ../../content/applications/sales/crm/performance.rst:3
@@ -1222,10 +1222,10 @@ msgstr ""
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:14
 msgid ""
 "To use scoring, install the free module *Lead Scoring* under your *Apps* "
-"page (only available in Flectra Enterprise)."
+"page (only available in Flectra Professional)."
 msgstr ""
 "Щоб скористатися оцінкою, встановіть безкоштовний модуль *Оцінювання лідів* "
-"на сторінці *Додатки* (доступно лише в Flectra Enterprise)."
+"на сторінці *Додатки* (доступно лише в Flectra Professional)."
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:21
 msgid "Create scoring rules"
@@ -1350,10 +1350,10 @@ msgstr ""
 #: ../../content/applications/sales/crm/track_leads/prospect_visits.rst:14
 msgid ""
 "To use this feature, install the free module *Lead Scoring* under your "
-"*Apps* page (only available in Flectra Enterprise)."
+"*Apps* page (only available in Flectra Professional)."
 msgstr ""
 "Щоб скористатися цією функцією, встановіть безкоштовний модуль *Оцінка "
-"лідів* на сторінці *Додатки* (доступно лише в Flectra Enterprise)."
+"лідів* на сторінці *Додатки* (доступно лише в Flectra Professional)."
 
 #: ../../content/applications/sales/crm/track_leads/prospect_visits.rst:21
 msgid "Track a webpage"
@@ -1758,7 +1758,7 @@ msgid ""
 "**blackbox**). This device works together with the POS application and logs "
 "certain transactions. On top of that, the used POS application must also be "
 "certified by the government and must adhere to strict standards specified by"
-" them. `Flectra 9 (Enterprise Edition) is a certified application "
+" them. `Flectra 9 (Professional Edition) is a certified application "
 "<http://www.systemedecaisseenregistreuse.be/systemes-certifies>`_. More "
 "information concerning the Fiscal Data Module can be found on `the official "
 "website <http://www.systemedecaisseenregistreuse.be/>`_."
@@ -1768,7 +1768,7 @@ msgstr ""
 "(також відомий як **blackbox**). Цей пристрій працює разом із додатком точки"
 " продажу і записує певні транзакції. Крім того, використовуваний додаток "
 "точки продажу також має бути сертифікований урядом і повинен відповідати "
-"встановленим їм строгим стандартам. `Flectra 9 (Enterprise Edition) - "
+"встановленим їм строгим стандартам. `Flectra 9 (Professional Edition) - "
 "сертифікована програма <http://www.systemedecaisseenregistreuse.be/systemes-"
 "certifies> _ _. Більш детальну інформацію щодо Модуля податкових даних можна"
 " знайти на офіційному веб-сайті http://www.systemedecaisseenregistreuse.be/>"
@@ -1876,7 +1876,7 @@ msgid ""
 "modified version will **not** be certified. For on-premise users, we also "
 "support the Fiscal Data Module in such installations. The main restriction "
 "is that this requires an obfuscated version of the ``pos_blackbox_be`` "
-"module we will provide on request for Enterprise customers."
+"module we will provide on request for Professional customers."
 msgstr ""
 "Сертифікація, надана урядом, обмежена використанням на прикладі SaaS "
 "flectra.com. Використання модуля з джерела або модифікованої версії **не** буде"

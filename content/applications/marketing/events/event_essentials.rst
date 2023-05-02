@@ -178,10 +178,6 @@ Once an option from this menu is selected (e.g. :guilabel:`Applicant`, :guilabel
 to all recipients who match that initial rule. Additional rules can be added to narrow down the
 target recipients, by clicking :guilabel:`Add Filter`.
 
-.. image:: event_essentials/add-filter-button.png
-   :align: center
-   :alt: View of the add filter button beneath the recipients field in Flectra Events.
-
 Clicking :guilabel:`Add Filter` reveals three fields, formatted like an equation. To reveal the
 sub-menu options, click each field, and make the desired selections, until the preferred
 configuration has been acheived. The number of :guilabel:`Records` that match the rule(s) are
@@ -261,24 +257,3 @@ indicating that the SMS will be sent later that day.
 .. note::
    The :guilabel:`Send Now`, :guilabel:`Schedule`, and :guilabel:`Test` options all function the
    same way for both :guilabel:`Mailing Type` options.
-
-Publish events
-==============
-
-Until an event is published, it will remain hidden from public view on the website and registering
-for it will not be possible. To publish an event, navigate to it either from the back end of Flectra
-through the :guilabel:`Events` application, or access the hidden event page through the front end
-as either a priveliged user or administrator.
-
-If navigating from the back end, go to the event form, and click the :guilabel:`Go to Website`
-smart button to reach the event page on the website (on the front end). If starting from the front
-end, simply navigate to the event page that needs to be published.
-
-No matter the route, an event page can only be published from the front end. In the upper right
-corner of the event page on the website, toggle the switch from the red :guilabel:`Unpublished`
-status to the green :guilabel:`Published` status. Doing so instantly makes the event page
-accessible to the public on the website.
-
-.. image:: event_essentials/events-frontend-publish.png
-   :align: center
-   :alt: View of a website page and the option to publish the event in Flectra Events.

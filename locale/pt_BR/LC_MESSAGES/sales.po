@@ -16,7 +16,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 16.0\n"
+"Project-Id-Version: Flectra 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-03 17:52+0000\n"
 "PO-Revision-Date: 2022-10-04 12:54+0000\n"
@@ -548,7 +548,7 @@ msgstr ""
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:88
 msgid ""
-"Users of Odoo Online (SaaS) Enterprise automatically have free trial credits"
+"Users of Odoo Online (SaaS) Professional automatically have free trial credits"
 " in their database to test any IAP features."
 msgstr ""
 
@@ -894,7 +894,7 @@ msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:46
 msgid ""
-"If you are on Odoo Online and you have the Enterprise version, you benefit "
+"If you are on Odoo Online and you have the Professional version, you benefit "
 "from free trial credits to test the feature."
 msgstr ""
 
@@ -1505,10 +1505,10 @@ msgstr ""
 #: ../../content/applications/sales/crm/track_leads/prospect_visits.rst:14
 msgid ""
 "To use this feature, install the free module *Lead Scoring* under your "
-"*Apps* page (only available in Odoo Enterprise)."
+"*Apps* page (only available in Odoo Professional)."
 msgstr ""
 "Para usar esse recurso, instale o módulo *Lead Score* na sua página *Apps* "
-"(disponível apenas na Odoo Enterprise)."
+"(disponível apenas na Odoo Professional)."
 
 #: ../../content/applications/sales/crm/track_leads/prospect_visits.rst:21
 msgid "Track a webpage"
@@ -2023,7 +2023,7 @@ msgid ""
 "**blackbox**). This device works together with the POS application and logs "
 "certain transactions. On top of that, the used POS application must also be "
 "certified by the government and must adhere to strict standards specified by"
-" them. `Odoo 9 (Enterprise Edition) is a certified application "
+" them. `Odoo 9 (Professional Edition) is a certified application "
 "<http://www.systemedecaisseenregistreuse.be/systemes-certifies>`_. More "
 "information concerning the Fiscal Data Module can be found on `the official "
 "website <http://www.systemedecaisseenregistreuse.be/>`_."
@@ -2033,7 +2033,7 @@ msgstr ""
 " caixa preta **). Este dispositivo funciona junto com o aplicativo PDV e "
 "registra certas transações. Além disso, o aplicativo PDV usado também deve "
 "ser certificado pelo governo e deve seguir os padrões estritos especificados"
-" por eles. ʻOdoo 9 (Enterprise Edition) é um aplicativo certificado "
+" por eles. ʻOdoo 9 (Professional Edition) é um aplicativo certificado "
 "<http://www.systemedecaisseenregistreuse.be/systemes-certifies> `_. Mais "
 "informações sobre o Módulo de Dados Fiscais podem ser encontradas no site "
 "oficial <http://www.systemedecaisseenregistreuse.be/> `_."
@@ -2140,7 +2140,7 @@ msgid ""
 "modified version will **not** be certified. For on-premise users, we also "
 "support the Fiscal Data Module in such installations. The main restriction "
 "is that this requires an obfuscated version of the ``pos_blackbox_be`` "
-"module we will provide on request for Enterprise customers."
+"module we will provide on request for Professional customers."
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/belgian_fdm/setup.rst:79

@@ -89,7 +89,7 @@ Restart the Flectra server and add the ``custom`` folder to the ``addons-path``:
 
 .. code-block:: console
 
-    $ ./flectra-bin --addons-path=../custom,../enterprise/,addons
+    $ ./flectra-bin --addons-path=../custom,../professional/,addons
 
 Go to Apps, click on Update Apps List, search for ``estate`` and... tadaaa, your module appears!
 Did it not appear? Maybe try removing the default 'Apps' filter ;-)

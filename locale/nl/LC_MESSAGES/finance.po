@@ -300,9 +300,9 @@ msgstr "On-Premise gebruikers"
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:28
 msgid ""
-"To be able to use this service, you need to have a valid Flectra Enterprise "
+"To be able to use this service, you need to have a valid Flectra Professional "
 "subscription. So make sure that your database is registered with your Flectra "
-"Enterprise contract. We also use a proxy between your database and the third"
+"Professional contract. We also use a proxy between your database and the third"
 " party provider so, in case of a connection error, please check that you "
 "don't have a firewall or a proxy blocking the following address:"
 msgstr ""
@@ -550,10 +550,10 @@ msgstr "Online Versie: Ja, zelfs als u een One App Free contract heeft."
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:157
 msgid ""
-"**Enterprise Version**: Yes, if you have a valid enterprise contract linked "
+"**Professional Version**: Yes, if you have a valid enterprise contract linked "
 "to your database."
 msgstr ""
-"Enterprise versie: Ja, als er een geldig enterprise contract is gekoppeld "
+"Professional versie: Ja, als er een geldig enterprise contract is gekoppeld "
 "aan uw database."
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:160
@@ -7210,7 +7210,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/payables/supplier_bills/invoice_digitization.rst:94
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:45
 msgid ""
-"If you are on Flectra Online and have the Enterprise version, you benefit from "
+"If you are on Flectra Online and have the Professional version, you benefit from "
 "free trial credits to test the feature."
 msgstr ""
 
@@ -20254,7 +20254,7 @@ msgstr "FEC Import"
 
 #: ../../content/applications/finance/fiscal_localizations/france.rst:20
 msgid ""
-"To make the onboarding of new users easier, Flectra Enterprise's French "
+"To make the onboarding of new users easier, Flectra Professional's French "
 ":ref:`fiscal localization package <fiscal_localizations/packages>` includes "
 "the **FEC Import** feature (module name: ``l10n_fr_fec_import``), which "
 "enables the import of existing FEC files from older software."
@@ -21175,9 +21175,9 @@ msgstr ""
 msgid ""
 "Your company is requested by the tax administration to deliver a certificate"
 " of conformity testifying that your software complies with the anti-fraud "
-"legislation. This certificate is granted by Flectra SA to Flectra Enterprise users"
+"legislation. This certificate is granted by Flectra SA to Flectra Professional users"
 " `here <https://www.flectra.com/my/contract/french-certification/>`_. If you "
-"use Flectra Community, you should :doc:`upgrade to Flectra Enterprise "
+"use Flectra Community, you should :doc:`upgrade to Flectra Professional "
 "</administration/maintain/enterprise>` or contact your Flectra service "
 "provider."
 msgstr ""
@@ -21450,7 +21450,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/germany.rst:21
 msgid ""
-"Here is the list of German-specific reports available on Flectra Enterprise:"
+"Here is the list of German-specific reports available on Flectra Professional:"
 msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/germany.rst:25
@@ -21469,7 +21469,7 @@ msgstr ""
 msgid ""
 "It is possible to export your accounting entries from Flectra to Datev. To be "
 "able to use this feature, the german accounting localization needs to be "
-"installed on your Flectra Enterprise database. Then you can go in "
+"installed on your Flectra Professional database. Then you can go in "
 ":menuselection:`Accounting --> Reporting --> General Ledger` then click on "
 "the **Export Datev (csv)** button."
 msgstr ""
@@ -23943,7 +23943,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/mexico.rst:15
 msgid ""
-"Flectra Enterprise users in Mexico have free access to a set of modules that "
+"Flectra Professional users in Mexico have free access to a set of modules that "
 "allow them to issue electronic invoices according to the specifications of "
 "the SAT for `version 3.3 of the CFDI "
 "<http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/GuiaAnexo20Global.pdf>`_,"
@@ -27498,7 +27498,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/switzerland.rst:71
 msgid ""
-"How to update your taxes in Flectra Enterprise (Flectra Online or On-premise)?"
+"How to update your taxes in Flectra Professional (Flectra Online or On-premise)?"
 msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/switzerland.rst:73

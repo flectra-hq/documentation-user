@@ -9,4 +9,3 @@ Putaway & Removal Strategies
    :glob:
 
    strategies/putaway
-   strategies/removal

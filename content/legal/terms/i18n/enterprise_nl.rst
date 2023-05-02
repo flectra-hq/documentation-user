@@ -1,18 +1,18 @@
 
 .. _enterprise_agreement_nl:
 
-==============================================
-Flectra Enterprise Subscription Agreement (NL)
-==============================================
+================================================
+Flectra Professional Subscription Agreement (NL)
+================================================
 
 .. only:: html
 
     `Download PDF <odoo_enterprise_agreement_nl.pdf>`_
 .. warning::
-    Dit is een Nederlandse vertaling van de "Flectra Enterprise Subscription Agreement".
+    Dit is een Nederlandse vertaling van de "Flectra Professional Subscription Agreement".
     Deze vertaling wordt verstrekt in de hoop dat deze het begrip zal vergemakkelijken,
     maar heeft geen juridische waarde.
-    De enige officiële referentie van de algemene voorwaarden van de "Flectra Enterprise Subscription Agreement"
+    De enige officiële referentie van de algemene voorwaarden van de "Flectra Professional Subscription Agreement"
     is :ref:`de originele Engelse versie <enterprise_agreement>`
 
 .. v6: add "App" definition + update pricing per-App
@@ -30,9 +30,9 @@ Flectra Enterprise Subscription Agreement (NL)
 
 .. note:: Version 10a - 2022-10-27
 
-Door u op de Flectra Enterprise-diensten (de “Diensten”) te abonneren die door
+Door u op de Flectra Professional-diensten (de “Diensten”) te abonneren die door
 Flectra NV en haar dochterondernemingen (gezamenlijk “Flectra NV”) worden verleend
-met betrekking tot de Flectra Enterprise Edition of de Flectra Community Edition (de
+met betrekking tot de Flectra Professional Edition of de Flectra Community Edition (de
 “Software”) gehost op de Cloudplatforms van Flectra NV (het "Cloudplatform") of
 op locatie ("Self-Hosting"), gaat u (de "Klant") ermee akkoord om gebonden te zijn door de
 volgende algemene voorwaarden (de “Overeenkomst”).
@@ -113,14 +113,9 @@ Flectra NV, en is op afstand toegankelijk voor de Klant. Met de Self-Hosting opt
 host de Klant de Software op een computersysteem naar keuze, die niet onder de
 controle staat van Flectra NV.
 
-Voor de duur van deze Overeenkomst verstrekt Flectra NV aan de Klant een niet-exclusieve,
-niet-overdraagbare licentie om de Flectra Enterprise Edition Software te gebruiken
-(uitvoeren, wijzigen, uitvoeren na wijziging) onder de voorwaarden uiteengezet
-in :ref:`appendix_a_nl`.
-
 De Klant gaat ermee akkoord alle nodige maatregelen te nemen om de ongewijzigde
 uitvoering te waarborgen van het deel van de Software dat de geldigheid van het
-gebruik van de Flectra Enterprise Edition controleert en dat statistieken verzamelt
+gebruik van de Flectra Professional Edition controleert en dat statistieken verzamelt
 voor dat doel, met inbegrip van, maar niet beperkt tot het uitvoeren van de
 Software, het aantal Gebruikers, de geïnstalleerde Apps en het aantal coderegels
 van de Ondersteunde Extra Modules.
@@ -131,7 +126,7 @@ gegevens te behandelen in overeenstemming met haar officiële Privacybeleid,
 gepubliceerd op https://www.flectra.com/privacy.
 
 Bij het aflopen of beëindigen van deze Overeenkomst wordt deze licentie
-onmiddellijk ingetrokken en gaat de Klant ermee akkoord om de Flectra Enterprise
+onmiddellijk ingetrokken en gaat de Klant ermee akkoord om de Flectra Professional
 Edition Software en het Cloudplatform niet meer te gebruiken.
 
 Indien de Klant de voorwaarden van deze sectie schendt, gaat de Klant ermee
@@ -310,7 +305,7 @@ wordt gehost op het Cloudplatform van Flectra.
 5.1 Standaardkosten
 -------------------
 
-De standaardkosten voor het Flectra Enterprise-abonnement en de diensten zijn gebaseerd op het
+De standaardkosten voor het Flectra Professional-abonnement en de diensten zijn gebaseerd op het
 aantal Gebruikers en het Abonnementsplan die door de klant wordt gebruikt
 en schriftelijk wordt gespecificeerd bij het afsluiten van de
 Overeenkomst.
@@ -376,7 +371,7 @@ De Klant gaat ermee akkoord om:
   en in dat geval de toepasselijke extra vergoeding te
   betalen zoals beschreven in de sectie :ref:`charges_standard_nl`;
 - alle nodige maatregelen te nemen om de ongewijzigde uitvoering te waarborgen van het deel
-  van de Software dat de geldigheid van het gebruik van de Flectra Enterprise
+  van de Software dat de geldigheid van het gebruik van de Flectra Professional
   Edition bevestigt, zoals beschreven in :ref:`enterprise_access_nl`;
 - 1 toegewijde Klantcontactpersoon aan te duiden voor de volledige duur van de
   Overeenkomst;
@@ -398,7 +393,7 @@ Wanneer de Klant kiest voor de Self-Hosting optie, gaat de Klant ermee akkoord o
   beschermen en om ervoor te zorgen dat de gegevens van de Klant veilig zijn, waarbij wordt
   erkend dat Flectra NV niet aansprakelijk kan worden gesteld voor enig verlies van gegevens;
 - Flectra NV de nodige toegang te verlenen om op verzoek de geldigheid van het gebruik van
-  de Flectra Enterprise Edition te controleren (bijv. als de automatische validatie
+  de Flectra Professional Edition te controleren (bijv. als de automatische validatie
   voor de klant niet blijkt te werken).
 
 .. _no_soliciting_nl:
@@ -656,20 +651,4 @@ of aangetast. Beide partijen verbinden zich ertoe om elke eventuele ongeldige,
 onwettige of niet-afdwingbare bepaling van deze Overeenkomst te vervangen door
 een geldige bepaling met dezelfde effecten en doelstellingen.
 
-.. _appendix_a_nl:
 
-9 Bijlage A: Flectra Enterprise Edition-licentie
-================================================
-
-.. only:: latex
-
-    De Flectra Enterprise Edition wordt in licentie gegeven onder de
-    Flectra Enterprise Edition License v1.0, die als volgt wordt gedefinieerd:
-
-    .. highlight:: none
-
-    .. literalinclude:: ../../licenses/enterprise_license.txt
-
-.. only:: html
-
-    Zie :ref:`odoo_enterprise_license`.

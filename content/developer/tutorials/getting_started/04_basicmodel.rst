@@ -79,7 +79,7 @@ the server, we will add the parameters ``-d`` and ``-u``:
 
 .. code-block:: console
 
-    $ ./flectra-bin --addons-path=../custom,../enterprise/,addons -d rd-demo -u estate
+    $ ./flectra-bin --addons-path=../custom,../professional/,addons -d rd-demo -u estate
 
 ``-u estate`` means we want to upgrade the ``estate`` module, i.e. the ORM will
 apply database schema changes. In this case it creates a new table. ``-d rd-demo`` means
@@ -203,7 +203,7 @@ When the fields are added to the model, restart the server with ``-u estate``
 
 .. code-block:: console
 
-    $ ./flectra-bin --addons-path=../custom,../enterprise/,addons -d rd-demo -u estate
+    $ ./flectra-bin --addons-path=../custom,../professional/,addons -d rd-demo -u estate
 
 Connect to ``psql`` and check the structure of the table ``estate_property``. You'll notice that
 a couple of extra fields were also added to the table. We will revisit them later.

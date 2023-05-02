@@ -836,11 +836,11 @@ model should support the *quick create* (i.e. call to ``create()`` with a single
             result = super(MyModel, self).tracking_fields()
             result.append([
             # ("URL_PARAMETER", "FIELD_NAME_MIXIN", "NAME_IN_COOKIES")
-                ('my_field', 'my_field', 'odoo_utm_my_field')
+                ('my_field', 'my_field', 'flectra_utm_my_field')
             ])
             return result
 
-This will tell the system to create a cookie named *odoo_utm_my_field* with the
+This will tell the system to create a cookie named *flectra_utm_my_field* with the
 value found in the url parameter ``my_field``; once a new record of this model is
 created by a call from a website form, the generic override of the ``create()``
 method of ``utm.mixin`` will fetch the default values for this field from the
@@ -851,7 +851,7 @@ You can find concrete examples of integration in the following models:
 
 * ``crm.lead`` in the CRM (*crm*) Application
 * ``hr.applicant`` in the Recruitment Process (*hr_recruitment*) Application
-* ``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Enterprise only) Application
+* ``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Professional only) Application
 
 .. _reference/mixins/website/published:
 
@@ -1069,4 +1069,4 @@ you a quick bird's eye view of your customer ratings.
 You can find concrete examples of integration in the following models:
 
 * ``project.task`` in the Project (*rating_project*) Application
-* ``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Enterprise only) Application
+* ``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Professional only) Application

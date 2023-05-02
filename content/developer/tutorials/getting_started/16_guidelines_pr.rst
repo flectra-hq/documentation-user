@@ -35,7 +35,7 @@ Configure development repository
 --------------------------------
 
 We will start by creating a git development environment for the 'custom' folder, like we did in the
-beginning for 'flectra' and 'enterprise'. The PR will target the `flectra/technical-training-sandbox` repository.
+beginning for 'flectra' and 'professional'. The PR will target the `flectra/technical-training-sandbox` repository.
 
 To do this the first step is to
 `fork <https://guides.github.com/activities/forking/>`__  in GitHub
@@ -59,7 +59,7 @@ folder to be able to commit your work.
 
 Note that if your work is already in a :ref:`Git and GitHub configured folder
 <tutorials/getting_started/02_setup/development_repository>` the previous steps are not needed. This
-is the case when you start working in the 'flectra' or 'enterprise' folders.
+is the case when you start working in the 'flectra' or 'professional' folders.
 
 Branch, Commit & Push
 ---------------------

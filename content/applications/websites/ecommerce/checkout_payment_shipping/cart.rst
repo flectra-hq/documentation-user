@@ -46,9 +46,7 @@ of your choice.
 
 To do so, go to :menuselection:`Website --> Configuration --> Settings --> Shop - Products` and tick
 :guilabel:`Prevent Sale of Zero Priced Product`. This creates a new :guilabel:`Button url` field
-where you can enter the **redirect URL** to be used. Then, set the price of the product to `0.00`
-either from the **product's template**, or from a
-:doc:`pricelist <../../../sales/sales/products_prices/prices/pricing>`.
+where you can enter the **redirect URL** to be used.
 
 .. image:: cart/cart-contactus.png
    :align: center

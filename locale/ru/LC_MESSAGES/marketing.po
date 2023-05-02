@@ -223,10 +223,10 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:65
 msgid ""
-"If you are on Flectra Online (SAAS) and have the Enterprise version, you "
+"If you are on Flectra Online (SAAS) and have the Professional version, you "
 "benefit from free trial credits to test the feature."
 msgstr ""
-"Если вы на Flectra Online (SAAS) и у вас версия Enterprise, для тестирования "
+"Если вы на Flectra Online (SAAS) и у вас версия Professional, для тестирования "
 "функции вы пользуетесь бесплатными пробными кредитам."
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:70

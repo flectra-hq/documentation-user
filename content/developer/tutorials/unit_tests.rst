@@ -63,7 +63,7 @@ Before knowing how to write tests, we need to know how to run them.
                         'at_install' and 'post_install' correspondingly.
     --screencasts=DIR   Screencasts will go in DIR/{db_name}/screencasts.
     --screenshots=DIR   Screenshots will go in DIR/{db_name}/screenshots.
-                        Defaults to /tmp/odoo_tests.
+                        Defaults to /tmp/flectra_tests.
 
   $ # run all the tests of account, and modules installed by account
   $ # the dependencies already installed are not tested
@@ -86,7 +86,7 @@ applied to the source code. To automate this task, we use a development practice
 Continuous Integration (CI). This is why we have some bots running all the tests at different
 moments.
 Whether you are working at Flectra or not, if you are trying to merge something inside `flectra/flectra`,
-`flectra/enterprise`, `flectra/upgrade` or on flectra.sh, you will have to go through the CI. If you are
+`flectra/professional`, `flectra/upgrade` or on flectra.sh, you will have to go through the CI. If you are
 working on another project, you should think of adding your own CI.
 
 Runbot
@@ -107,7 +107,7 @@ A **batch** is a set of builds, depending on the parameters of the bundle.
 A batch is green (i.e. passes the tests) if all the builds are green.
 
 A **build** is when we launch a server. It can be divided in sub-builds. Usually there are builds
-for the community version, the enterprise version (only if there is an enterprise branch but you
+for the community version, the professional version (only if there is an professional branch but you
 can force the build), and the migration of the branch.
 A build is green if every sub-build is green.
 
@@ -131,16 +131,16 @@ You can also login to a build built by Runbot. There are 3 users usable: `admin`
 versions without having to build it locally. The full logs are also available; these are used for
 monitoring.
 
-Robodoo
--------
+Robflectra
+----------
 
 You will most likely have to gain a little bit more experience before having the rights to summon
-robodoo, but here are a few remarks anyways.
+robflectra, but here are a few remarks anyways.
 
-Robodoo is the guy spamming the CI status as tags on your PRs, but he is also the guy that kindly
+Robflectra is the guy spamming the CI status as tags on your PRs, but he is also the guy that kindly
 integrates your commits into the main repositories.
 
-When the last batch is green, the reviewer can ask robodoo to merge your PR (it is more
+When the last batch is green, the reviewer can ask robflectra to merge your PR (it is more
 a `rebase` than a `merge`). It will then go to the mergebot.
 
 Mergebot
@@ -149,7 +149,7 @@ Mergebot
 `Mergebot <https://mergebot.flectra.com>`__ is the last testing phase before merging a PR.
 
 It will take the commits in your branch not yet present on the target, stage it and rerun the tests
-one more time, including the enterprise version even if you are only changing something in
+one more time, including the professional version even if you are only changing something in
 community.
 
 This step can fail with a `Staging failed` error message. This could be due to
@@ -158,7 +158,7 @@ This step can fail with a `Staging failed` error message. This could be due to
   those here: https://runbot.flectra.com/runbot/errors
 * a nondeterministic bug that you introduced but wasn't detected in the CI before
 * an incompatibility with another commit merged right before and what you are trying to merge
-* an incompatibility with the enterprise repository if you only did changes in the community repo
+* an incompatibility with the professional repository if you only did changes in the community repo
 
 Always check that the issue does not come from you before asking the merge bot to retry: rebase
 your branch on the target and rerun the tests locally.

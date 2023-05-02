@@ -59,7 +59,7 @@ Or go to :menuselection:`Settings --> View my Services`.
    :alt: Using Flectra IAP to recharge credits for SMS Marketing in Flectra settings.
 
 .. tip::
-   If Flectra Online (Saas) is being used, along with the Enterprise version, free trial credits are
+   If Flectra Online (Saas) is being used, along with the Professional version, free trial credits are
    available to test the feature.
 
 More common questions

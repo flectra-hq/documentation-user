@@ -833,7 +833,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:67
 msgid ""
-"If you are on Flectra Online and have the Enterprise version, you benefit from "
+"If you are on Flectra Online and have the Professional version, you benefit from "
 "free trial credits to test the feature."
 msgstr ""
 

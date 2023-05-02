@@ -17,8 +17,6 @@ To add a tax on a product, you can either set a tax in the :guilabel:`Customer T
 
 .. seealso::
    - :doc:`/applications/finance/accounting/taxation/taxes/taxes`
-   - :doc:`/applications/finance/accounting/taxation/taxes/avatax`
-   - :doc:`/applications/finance/accounting/taxation/taxes/taxcloud`
    - :doc:`/applications/finance/accounting/taxation/taxes/fiscal_positions`
 
 Tax display
@@ -86,9 +84,6 @@ group**, **currency**, **minimum quantity**, **period**, or **variant**. You can
 pricelists as needed, but it is mandatory to have at least one pricelist configured per website. If
 no custom pricelists are added, Flectra defaults to the **Public Pricelist** for all websites.
 
-.. seealso::
-   :doc:`/applications/sales/sales/products_prices/prices/pricing`
-
 Configuration
 ~~~~~~~~~~~~~
 
@@ -115,7 +110,6 @@ menu next to the **search bar**.
    :alt: Pricelists selection
 
 .. seealso::
-   - :doc:`/applications/sales/sales/products_prices/prices/pricing`
    - :doc:`/applications/sales/sales/products_prices/prices/currencies`
 
 Permanent discount

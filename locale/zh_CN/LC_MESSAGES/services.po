@@ -716,7 +716,7 @@ msgstr ""
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:35
 msgid ""
 "Using your own email server is required to send and receive emails in Flectra "
-"Community and Enterprise. Online users benefit from a ready-to-use email "
+"Community and Professional. Online users benefit from a ready-to-use email "
 "server."
 msgstr "需要使用您自己的电子邮件服务器在Odoo 社区版和企业版中发送和接收电子邮件。 在线用户受益于现成的电子邮件服务器。"
 

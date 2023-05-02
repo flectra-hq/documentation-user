@@ -79,9 +79,6 @@ inventory dashboard.
 In case you have the product in stock, it has automatically been
 reserved and you can simply validate the picking document.
 
-.. image:: three_steps/three_steps_06.png
-    :align: center
-
 Once the picking has been validated, the packing order is ready to be
 processed. Thanks to the fact that the documents are chained, the
 products which have been previously picked are automatically reserved on

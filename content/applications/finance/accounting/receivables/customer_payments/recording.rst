@@ -87,12 +87,6 @@ for SEPA Payments. To do so, go to :menuselection:`Accounting --> Customers --> 
 select several payments and group them in a batch by clicking on :menuselection:`Action --> Create
 Batch Payment`.
 
-.. seealso::
-  - :doc:`../../receivables/customer_payments/batch`
-  - :doc:`../../receivables/customer_payments/batch_sdd`
-
-.. _payments-matching:
-
 Payments matching
 -----------------
 
@@ -106,18 +100,6 @@ Matching`, or by going to :menuselection:`Accounting --> Reconciliation`.
    During the :doc:`reconciliation <../../bank/reconciliation/use_cases>`, if the sum of the debits
    and credits does not match, there is a remaining balance. This either needs to be reconciled at a
    later date or needs to be written off directly.
-
-Batch payments matching
------------------------
-
-To reconcile several outstanding payments or invoices at once, for a specific customer or vendor,
-the batch reconciliation feature can be used. Go to :menuselection:`Accounting --> Reporting -->
-Aged Receivable / Aged Payable`. You now see all transactions that have not been reconciled yet, and
-when you select a customer or vendor, the :guilabel:`Reconcile` option is displayed.
-
-.. image:: recording/reconcile-option.png
-   :align: center
-   :alt: See the reconcile option
 
 Reconciling payments with bank statements
 =========================================

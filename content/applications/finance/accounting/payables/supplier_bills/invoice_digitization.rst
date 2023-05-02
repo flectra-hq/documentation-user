@@ -51,10 +51,6 @@ You can modify the email alias of a journal. To do so, go to the :guilabel:`Sett
 The email alias is now available in the :guilabel:`Advanced Settings` tab of the journal. Emails
 sent to this address will be converted automatically into new invoices or bills.
 
-.. note::
-   If you use the :doc:`Documents <../../../documents>` app, you can automatically send your scanned
-   invoices to the :guilabel:`Finance` workspace (e.g., `inbox-financial@example.flectra.com`).
-
 The default email aliases `vendor-bills@` and `customer-invoices@` followed by the
 :guilabel:`Alias Domain` you set are automatically created for the :guilabel:`Vendor Bills` and
 :guilabel:`Customer Invoices` journals, respectively. Emails sent to these addresses are converted
@@ -91,7 +87,7 @@ and click on :guilabel:`Buy credits`, or go to :menuselection:`Settings --> Flec
 :guilabel:`View My Services`.
 
 .. important::
-   If you are on Flectra Online and have the Enterprise version, you benefit from free trial credits to
+   If you are on Flectra Online and have the Professional version, you benefit from free trial credits to
    test the feature.
 
 .. seealso::

@@ -126,7 +126,3 @@ entries, or by selecting :guilabel:`Journal Items` to review all of the individu
 entries that were submitted to the account. As well, annotations to the :guilabel:`Balance Sheet`
 can be added by choosing :guilabel:`Annotate`, filling in the text box, and clicking
 :guilabel:`Save`.
-
-.. image:: inventory_valuation_config/stock-valuation-breakdown-in-accounting.png
-   :align: center
-   :alt: See the full inventory valuation breakdown in Flectra Accounting app.

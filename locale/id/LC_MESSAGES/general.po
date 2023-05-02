@@ -1526,7 +1526,7 @@ msgstr ""
 msgid ""
 "The Flectra server is subject to a daily email limit to prevent abuse. The "
 "default limit is 200 emails sent per day for databases with an "
-"**Enterprise** subscription. This limit can be increased under certain "
+"**Professional** subscription. This limit can be increased under certain "
 "conditions. See the :doc:`FAQ <faq>` or contact support for more "
 "information."
 msgstr ""
@@ -3522,7 +3522,7 @@ msgstr ""
 
 #: ../../content/applications/general/in_app_purchase.rst:19
 msgid ""
-"If I am on Flectra Online and have the Enterprise version, I benefit from free "
+"If I am on Flectra Online and have the Professional version, I benefit from free "
 "credits to test our IAP features."
 msgstr ""
 
@@ -3583,7 +3583,7 @@ msgstr ""
 
 #: ../../content/applications/general/in_app_purchase.rst:62
 msgid ""
-"*Flectra.sh and Flectra Enterprise (on-premise)*: both the services provided by "
+"*Flectra.sh and Flectra Professional (on-premise)*: both the services provided by "
 "Flectra and by third-party apps can be used."
 msgstr ""
 

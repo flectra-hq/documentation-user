@@ -22,7 +22,7 @@ copyright = 'Odoo S.A.'
 # `version` is the version info for the project being documented, acts as replacement for |version|,
 # also used in various other places throughout the built documents.
 # `release` is the full version, including alpha/beta/rc tags. Acts as replacement for |release|.
-version = release = '16.0'
+version = release = '3.0'
 
 # `current_branch` is the technical name of the current branch.
 # E.g., saas-15.4 -> saas-15.4; 12.0 -> 12.0, master -> master (*).
@@ -213,11 +213,8 @@ sphinx.transforms.i18n.docname_to_domain = (
 # is populated. If a version is passed to `versions` but is not listed here, it will not be shown.
 versions_names = {
     'master': "Master",
-    '16.0': "Odoo 16",
-    'saas-15.2': "Odoo Online",
-    '15.0': "Odoo 15",
-    '14.0': "Odoo 14",
-    '13.0': "Odoo 13",
+    '3.0': "Flectra 3.0",
+    '2.0': "Flectra 2.0",
 }
 
 # The language names that should be shown in the language switcher, if the config option `languages`
@@ -293,27 +290,27 @@ latex_additional_files = ['static/latex/flectra.sty']
 # (source start file, target name, title, author, documentclass [howto, manual, or own class]).
 latex_documents = [
     ('legal/terms/enterprise_tex', 'odoo_enterprise_agreement.tex',
-     'Odoo Enterprise Subscription Agreement', '', 'howto'),
+     'Odoo Professional Subscription Agreement', '', 'howto'),
     ('legal/terms/partnership_tex',
      'odoo_partnership_agreement.tex', 'Odoo Partnership Agreement', '', 'howto'),
     ('legal/terms/terms_of_sale',
      'terms_of_sale.tex', 'Odoo Terms of Sale', '', 'howto'),
 
     ('legal/terms/i18n/enterprise_tex_fr', 'odoo_enterprise_agreement_fr.tex',
-     'Odoo Enterprise Subscription Agreement (FR)', '', 'howto'),
+     'Odoo Professional Subscription Agreement (FR)', '', 'howto'),
     ('legal/terms/i18n/partnership_tex_fr',
      'odoo_partnership_agreement_fr.tex', 'Odoo Partnership Agreement (FR)', '', 'howto'),
     ('legal/terms/i18n/terms_of_sale_fr', 'terms_of_sale_fr.tex',
      'Conditions Générales de Vente Odoo', '', 'howto'),
 
     ('legal/terms/i18n/enterprise_tex_nl', 'odoo_enterprise_agreement_nl.tex',
-     'Odoo Enterprise Subscription Agreement (NL)', '', 'howto'),
+     'Odoo Professional Subscription Agreement (NL)', '', 'howto'),
 
     ('legal/terms/i18n/enterprise_tex_de', 'odoo_enterprise_agreement_de.tex',
-     'Odoo Enterprise Subscription Agreement (DE)', '', 'howto'),
+     'Odoo Professional Subscription Agreement (DE)', '', 'howto'),
 
     ('legal/terms/i18n/enterprise_tex_es', 'odoo_enterprise_agreement_es.tex',
-     'Odoo Enterprise Subscription Agreement (ES)', '', 'howto'),
+     'Odoo Professional Subscription Agreement (ES)', '', 'howto'),
     ('legal/terms/i18n/partnership_tex_es',
      'odoo_partnership_agreement_es.tex', 'Odoo Partnership Agreement (ES)', '', 'howto'),
 ]

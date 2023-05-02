@@ -72,13 +72,6 @@ Retrieve images from different sources:
 
 To remove the cover, hover over it to make the buttons appear and click :guilabel:`Remove Cover`.
 
-.. note::
-   - To associate Unsplash with your database, please refer to
-     :doc:`../../websites/website/optimize/unsplash`.
-   - The articles are responsive, and so are the cover pictures. As a result, the images cannot
-     be repositioned manually to fit a particular screen, as they automatically resize
-     depending on the device.
-
 Icons
 -----
 

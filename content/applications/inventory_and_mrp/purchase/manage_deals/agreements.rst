@@ -121,33 +121,3 @@ click on *Confirm*.
 .. image:: agreements/agreements-set-call-for-tenders.png
    :align: center
    :alt: Set up a call for tenders in Flectra Purchase
-
-Requests quotations from the call for tenders
----------------------------------------------
-
-You can now request new quotations from the call for tenders. Click on *New Quotation* and select
-one of your vendors you want to invite to the call for tenders. Product lines should also be
-pre-filled in, depending on how you configured the *Purchase Agreement Type*. Click on *Send by
-email* to send it to the vendor. Go back to the call for tenders and repeat this process for each
-vendor.
-
-.. image:: agreements/agreements-request-quotation.png
-   :align: center
-   :alt: Request a quotation from a call for tenders in Flectra Purchase
-
-Once you have sent a request for quotation to every vendor and receiving their quotes, click on
-*Validate* to proceed to the bid selection. Next, click on the RFQs/Orders smart button to view all
-your vendors' quotations.
-
-.. image:: agreements/agreements-validate-call-for-tenders.png
-   :align: center
-   :alt: Validate a call for tenders and view all quotations in Flectra Purchase
-
-Click on each request for quotation to add the price communicated by your vendors manually. When
-that's done, select the most advantageous offer and click on *Confirm Order*. This automatically
-closes the call for tenders. You can now proceed with the purchase order as you would for a regular
-one.
-
-.. image:: agreements/agreements-confirm-order.png
-   :align: center
-   :alt: Confirm an order in Flectra Purchase

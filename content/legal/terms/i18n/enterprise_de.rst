@@ -1,17 +1,17 @@
 
 .. _enterprise_agreement_de:
 
-=====================================
-Flectra Enterprise Abonnementsvertrag
-=====================================
+=======================================
+Flectra Professional Abonnementsvertrag
+=======================================
 
 .. only:: html
 
     `Download PDF <odoo_enterprise_agreement_de.pdf>`_
 .. warning::
-   Dies ist eine deutsche Übersetzung des "Flectra Enterprise Subscription Agreement". Diese
+   Dies ist eine deutsche Übersetzung des "Flectra Professional Subscription Agreement". Diese
    Übersetzung soll das Verständnis erleichtern, hat aber keinen rechtlichen Wert. Der einzige
-   offizielle Verweis auf die Geschäftsbedingungen des "Flectra Enterprise Subscription Agreement" ist
+   offizielle Verweis auf die Geschäftsbedingungen des "Flectra Professional Subscription Agreement" ist
    :ref:`die englische Original version <enterprise_agreement>`.
 
 .. warning::
@@ -31,8 +31,8 @@ Flectra Enterprise Abonnementsvertrag
 
 .. note:: Version 9c - 2020-06-15
 
-Indem Sie (der "Kunde") die Flectra Enterprise-Dienstleistungen (die "Dienstleistungen"), die von Flectra
-SA und seinen verbundenen Unternehmen (zusammen "Flectra SA") in Verbindung mit der Flectra Enterprise
+Indem Sie (der "Kunde") die Flectra Professional-Dienstleistungen (die "Dienstleistungen"), die von Flectra
+SA und seinen verbundenen Unternehmen (zusammen "Flectra SA") in Verbindung mit der Flectra Professional
 Edition oder der Flectra Community Edition (die "Software") bereitgestellt und auf den Cloud-
 Plattformen von Flectra SA (die "Cloud-Plattform") oder vor Ort ("Self-Hosting") gehostet werden,
 abonnieren, erklären Sie sich mit den folgenden Bedingungen einverstanden (die "Vereinbarung").
@@ -103,13 +103,9 @@ wählen. Die Cloud-Plattform wird von Flectra SA gehostet und vollständig verwa
 Fernzugriff darauf zugreifen. Bei der Self-Hosting-Option hostet der Kunde die Software stattdessen
 auf Computersystemen seiner Wahl, über die Flectra SA keine Kontrolle hat.
 
-Flectra SA gewährt dem Kunden für die Dauer dieser Vereinbarung eine nicht exklusive, nicht
-übertragbare Lizenz zur Nutzung (Ausführung, Änderung, Ausführung nach Änderung) der Flectra Enterprise
-Edition Software unter den in :ref:`appendix_a_de` genannten Bedingungen.
-
 Der Kunde verpflichtet sich, alle erforderlichen Maßnahmen zu ergreifen, um die unveränderte
 Ausführung des Teils der Software zu gewährleisten, der die Gültigkeit der Nutzung der Flectra
-Enterprise Edition überprüft und zu diesem Zweck Statistiken sammelt, unter anderem zur Ausführung
+Professional Edition überprüft und zu diesem Zweck Statistiken sammelt, unter anderem zur Ausführung
 einer Instanz, der Anzahl der Benutzer, den installierten Apps und der Anzahl der Codezeilen der
 unterstützten Zusatzmodule.
 
@@ -118,7 +114,7 @@ an Dritte weiterzugeben und alle gesammelten Daten in Übereinstimmung mit der o
 Datenschutzpolitik zu behandeln, die unter https://www.flectra.com/privacy veröffentlicht ist.
 
 Bei Ablauf oder Kündigung dieser Vereinbarung wird diese Lizenz unverzüglich widerrufen und der
-Kunde verpflichtet sich, die Nutzung der Flectra Enterprise Edition Software und der Cloud-Plattform
+Kunde verpflichtet sich, die Nutzung der Flectra Professional Edition Software und der Cloud-Plattform
 einzustellen.
 
 Sollte der Kunde gegen die Bestimmungen dieses Abschnitts verstoßen, erklärt er sich bereit, Flectra SA
@@ -289,7 +285,7 @@ Flectra Cloud-Plattform gehostet wird.
 5.1 Standardkosten
 ------------------
 
-Die Standardkosten für das Flectra Enterprise Abonnement und die Dienstleistungen basieren auf der
+Die Standardkosten für das Flectra Professional Abonnement und die Dienstleistungen basieren auf der
 Anzahl der Benutzer und der installierten Apps, die der Kunde nutzt, und werden bei
 Vertragsabschluss schriftlich festgehalten.
 
@@ -347,7 +343,7 @@ Der Kunde verpflichtet sich:
   installierten Apps die bei Vertragsabschluss angegebene Anzahl übersteigt, und in diesem Fall die
   entsprechende Zusatzgebühr zu entrichten, wie in Abschnitt :ref:`charges_standard_de` beschrieben;
 - alle erforderlichen Maßnahmen zu ergreifen, um die unveränderte Ausführung des Teils der Software
-  zu gewährleisten, der die Gültigkeit der Nutzung der Flectra Enterprise Edition prüft, wie in
+  zu gewährleisten, der die Gültigkeit der Nutzung der Flectra Professional Edition prüft, wie in
   :ref:`enterprise_access_de` beschrieben;
 - einen festen Ansprechpartner für die gesamte Laufzeit des Vereinbarung zu benennen;
 - Flectra SA den Wechsel seines Hauptansprechpartners zu einem anderen Flectra-Partner oder zu einer
@@ -369,7 +365,7 @@ Sollte der Kunde die Self-Hosting-Option gewählt haben, erklärt er sich des we
 
 - alle angemessenen Maßnahmen zu ergreifen, um seine Dateien und Datenbanken zu schützen, wobei
   Flectra SA nicht für Datenverluste haftbar gemacht werden kann;
-- Flectra SA den notwendigen Zugang zu gewähren, um die Gültigkeit der Nutzung der Flectra Enterprise
+- Flectra SA den notwendigen Zugang zu gewähren, um die Gültigkeit der Nutzung der Flectra Professional
   Edition auf Anfrage überprüfen zu können (z.B. wenn die automatische Validierung für den Kunden
   nicht funktioniert)
 
@@ -609,20 +605,3 @@ oder nicht durchsetzbare Bestimmung dieser Vereinbarung durch eine gültige Best
 die die gleichen Auswirkungen und Ziele hat.
 
 
-.. _appendix_a_de:
-
-9. Anhang A: Flectra Enterprise Edition-Lizenz
-==============================================
-
-.. only:: latex
-
-    Die Flectra Enterprise Edition ist unter nachstehend definierten der Flectra Enterprise Edition
-    Lizenz v1.0 lizenziert:
-
-    .. highlight:: none
-
-    .. literalinclude:: ../../licenses/enterprise_license.txt
-
-.. only:: html
-
-    Siehe :ref:`odoo_enterprise_license`.

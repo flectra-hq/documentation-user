@@ -1750,7 +1750,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:62
 msgid ""
-"If Flectra Online (Saas) is being used, along with the Enterprise version, free"
+"If Flectra Online (Saas) is being used, along with the Professional version, free"
 " trial credits are available to test the feature."
 msgstr ""
 

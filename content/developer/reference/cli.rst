@@ -104,8 +104,8 @@ Running the server
 .. option:: -c <config>, --config <config>
 
     path to an alternate :ref:`configuration file <reference/cmdline/config>`.
-    If not defined, Flectra checks ``ODOO_RC`` environmental variable
-    and default location :file:`{$HOME}/.odoorc`.
+    If not defined, Flectra checks ``FLECTRA_RC`` environmental variable
+    and default location :file:`{$HOME}/.flectrarc`.
     See configuration file section :ref:`below <reference/cmdline/config>`.
 
 .. option:: -D <data-dir-path>, --data-dir <data-dir-path>
@@ -119,7 +119,7 @@ Running the server
 .. option:: -s, --save
 
     saves the server configuration to the current configuration file
-    (:file:`{$HOME}/.odoorc` by default, and can be overridden using
+    (:file:`{$HOME}/.flectrarc` by default, and can be overridden using
     :option:`-c`).
 
 .. option:: --without-demo
@@ -178,7 +178,7 @@ Testing Configuration
 .. option:: --screenshots
 
     Specify directory where to write screenshots when an HttpCase.browser_js test
-    fails. It defaults to :file:`/tmp/odoo_tests/{db_name}/screenshots`
+    fails. It defaults to :file:`/tmp/flectra_tests/{db_name}/screenshots`
 
 .. option:: --screencasts
 
@@ -616,7 +616,7 @@ Some conversions don't match the pattern:
 * :option:`--i18n-import` and :option:`--i18n-export` aren't available at all
   from configuration files
 
-The default configuration file is :file:`{$HOME}/.odoorc` which
+The default configuration file is :file:`{$HOME}/.flectrarc` which
 can be overridden using :option:`--config <flectra-bin -c>`. Specifying
 :option:`--save <flectra-bin -s>` will save the current configuration state back
 to that file. The configuration items relative to the command-line are to be
@@ -856,7 +856,7 @@ Identifying Extra Modules
 
 To distinguish between standard and extra modules, Flectra Cloc uses the following heuristic:
 modules that are located (real file system path, after following symbolic links)
-in the same parent directory as the ``base``, ``web`` or ``web_enterprise``
+in the same parent directory as the ``base``, ``web`` or ``web_professional``
 standard modules are considered standard. Other modules are treated as extra modules.
 
 
@@ -896,8 +896,8 @@ With this config file, you will now have full auto-completion across modules.
 
 The command to generate this files takes as many unnamed arguments as you need. Those are relative paths
 to your addon directories. In the example below, we move up one folder to save the tsconfig file in the folder
-containing community and enterprise.
+containing community and professional.
 
 .. code-block:: console
 
-   $ community/flectra-bin tsconfig --addons-path community/addons,community/flectra/addons,enterprise > tsconfig.json
+   $ community/flectra-bin tsconfig --addons-path community/addons,community/flectra/addons,professional > tsconfig.json

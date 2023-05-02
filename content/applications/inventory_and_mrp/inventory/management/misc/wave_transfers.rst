@@ -43,10 +43,6 @@ icon in the corner of the operation type's card) and click :guilabel:`Operations
 On the operations page, select the product lines you want to add in a new or existing wave. Then,
 click :guilabel:`Add to Wave`.
 
-.. image:: wave_transfers/select-lines.png
-   :align: center
-   :alt: Select lines to add to the wave.
-
 .. tip::
    Use the :guilabel:`Filters` in the search bar to group lines with the same product, location,
    carrier, etc...

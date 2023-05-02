@@ -561,7 +561,7 @@ msgstr ""
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:35
 msgid ""
 "Using your own email server is required to send and receive emails in Flectra "
-"Community and Enterprise. Online users benefit from a ready-to-use email "
+"Community and Professional. Online users benefit from a ready-to-use email "
 "server."
 msgstr ""
 
@@ -1502,12 +1502,12 @@ msgid "Where to find help?"
 msgstr ""
 
 #: ../../content/services/support/where_can_i_get_support.rst:8
-msgid "Flectra Enterprise"
+msgid "Flectra Professional"
 msgstr "Платна версія Flectra"
 
 #: ../../content/services/support/where_can_i_get_support.rst:10
 msgid ""
-"Users who have a valid Flectra Enterprise subscription may always contact our "
+"Users who have a valid Flectra Professional subscription may always contact our "
 "support teams through our `support form <https://www.flectra.com/help>`_, no "
 "matter the hosting type you chose (Flectra Online, Flectra.sh or on your own "
 "server)."
@@ -1555,6 +1555,6 @@ msgstr ""
 
 #: ../../content/services/support/where_can_i_get_support.rst:31
 msgid ""
-":doc:`Buy Flectra Enterprise </administration/enterprise>` to get the support "
+":doc:`Buy Flectra Professional </administration/enterprise>` to get the support "
 "and bugfix services."
 msgstr ""

@@ -121,15 +121,6 @@ payment during a selected month and several months prior.
 .. image:: main_reports/main_reports07.png
    :align: center
 
-Cash Flow Statement
--------------------
-
-The **Cash Flow Statement** shows how changes in balance sheet accounts and
-income affect cash and cash equivalents, and breaks the analysis down to
-operating, investing and financing activities.
-
-.. image:: main_reports/main_reports03.png
-   :align: center
 
 Tax Report
 ----------
@@ -140,8 +131,3 @@ grouped by type (sale/purchase).
 .. image:: main_reports/main_reports04.png
    :align: center
 
-Bank Reconciliation
--------------------
-
-.. image:: main_reports/main_reports06.png
-   :align: center

@@ -136,5 +136,4 @@ The synchronization is a two-way process, meaning that events are reconciled in 
    for their internal and external users.
 
 .. seealso::
-   - :doc:`../../../productivity/mail_plugins/outlook`
    - :doc:`../google/google_calendar_credentials`

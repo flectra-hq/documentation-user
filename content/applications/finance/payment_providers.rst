@@ -172,19 +172,6 @@ Online payment providers
 
 .. _payment_providers/bank_payments:
 
-Bank payments
--------------
-
-- | :doc:`Wire Transfer <payment_providers/wire_transfer>`
-  | When selected, Flectra displays your payment information with a payment reference. You have to
-    approve the payment manually once you have received it on your bank account.
-- | SEPA Direct Debit
-  | Your customers can sign a SEPA Direct Debit mandate online and get their bank account charged
-    directly. :doc:`Click here <../finance/accounting/receivables/customer_payments/batch_sdd>` for
-    more information about this payment method.
-
-.. _payment_providers/features:
-
 Additional features
 ===================
 

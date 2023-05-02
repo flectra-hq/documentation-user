@@ -11,7 +11,7 @@ highly efficient.
 Modularity is key. The inheritance scheme described further allows Flectra to:
 
 - customize the Bootstrap CSS framework;
-- handle two different webclient designs (Community and Enterprise);
+- handle two different webclient designs (Community and Professional);
 - handle backend and frontend bundles separately (including the user's website design);
 - contextually load only necessary assets;
 - handle multiple color-schemes (e.g.: dark-mode);
@@ -87,8 +87,8 @@ variables are defined.
     ⏐   └─ Components Variables
     ⏐
     ↓ web._assets_primary_variables
-    ⏐   ├─ Primary Variables (enterprise)
-    ⏐   ├─ Components Variables (enterprise)
+    ⏐   ├─ Primary Variables (professional)
+    ⏐   ├─ Components Variables (professional)
     ⏐   ├─ Primary Variables (community)
     ⏐   └─ Components Variables (community)
     ⏐

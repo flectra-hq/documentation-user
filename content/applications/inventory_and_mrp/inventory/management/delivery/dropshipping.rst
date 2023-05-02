@@ -99,11 +99,7 @@ created and linked to it. The source location is the vendor location and
 the destination location is the customer location. Then, the product
 won’t go through your own stock when you validate the dropship document.
 
-.. image:: dropshipping/dropshipping_07.png
-    :align: center
-
 You can also easily access the dropship document directly from your
 inventory dashboard.
 
-.. image:: dropshipping/dropshipping_08.png
-    :align: center
+

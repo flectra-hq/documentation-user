@@ -1135,7 +1135,7 @@ msgid "If the Flectra database is hosted on the cloud (Flectra Online or Flectra
 msgstr ""
 
 #: ../../content/applications/general/email_communication/email_domain.rst:24
-msgid "The Flectra server is subject to a daily email limit to prevent abuse. The default limit is 200 emails sent per day for databases with an **Enterprise** subscription. This limit can be increased under certain conditions. See the :doc:`FAQ <faq>` or contact support for more information."
+msgid "The Flectra server is subject to a daily email limit to prevent abuse. The default limit is 200 emails sent per day for databases with an **Professional** subscription. This limit can be increased under certain conditions. See the :doc:`FAQ <faq>` or contact support for more information."
 msgstr ""
 
 #: ../../content/applications/general/email_communication/email_domain.rst:29
@@ -2428,7 +2428,7 @@ msgid "Each IAP Service relies on prepaid credits to work and has its own pricin
 msgstr ""
 
 #: ../../content/applications/general/in_app_purchase.rst:21
-msgid "If I am on Flectra Online and have the Enterprise version, I benefit from free credits to test our IAP features."
+msgid "If I am on Flectra Online and have the Professional version, I benefit from free credits to test our IAP features."
 msgstr ""
 
 #: ../../content/applications/general/in_app_purchase.rst:25
@@ -2468,7 +2468,7 @@ msgid "*Flectra Online*: only the IAP services provided by Flectra can be used (
 msgstr ""
 
 #: ../../content/applications/general/in_app_purchase.rst:64
-msgid "*Flectra.sh and Flectra Enterprise (on-premise)*: both the services provided by Flectra and by third-party apps can be used."
+msgid "*Flectra.sh and Flectra Professional (on-premise)*: both the services provided by Flectra and by third-party apps can be used."
 msgstr ""
 
 #: ../../content/applications/general/in_app_purchase.rst:68

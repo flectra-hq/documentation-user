@@ -30,12 +30,6 @@ Configuration --> Settings --> Shipping section)` by checking :guilabel:`On Site
 Picking`. Once enabled, you can select and :guilabel:`Customize Pickup Sites`. :guilabel:`Picking
 sites` can be made **website-specific**, but are by default available for *all* websites.
 
-.. seealso::
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/setup/delivery_method`
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/operation/invoicing`
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/operation/multipack`
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/operation/cancel`
-
 .. _ecommerce-shipping-providers:
 
 Shipping providers
@@ -44,12 +38,6 @@ Shipping providers
 Another solution is to use one of the integrations with an existing shipping provider. The advantage
 of using an integration is that delivery costs are automatically computed based on each order as
 well as generating shipping labels.
-
-.. seealso::
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/setup/third_party_shipper`
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/setup/ups_credentials`
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/setup/dhl_credentials`
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/operation/labels`
 
 Website availability
 ====================

@@ -688,7 +688,7 @@ msgstr ""
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:35
 msgid ""
 "Using your own email server is required to send and receive emails in Flectra "
-"Community and Enterprise. Online users benefit from a ready-to-use email "
+"Community and Professional. Online users benefit from a ready-to-use email "
 "server."
 msgstr ""
 

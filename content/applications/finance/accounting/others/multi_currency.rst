@@ -139,21 +139,6 @@ To register a payment in a currency other than your company's main currency, cli
 
 .. _multi-currency/mca-statements:
 
-Bank statements
----------------
-
-When creating or importing bank statements, the amount is in the company's main currency. To see
-additional fields related to foreign currencies, click on the **columns dropdown button**
-(:guilabel:`⋮`) next to :guilabel:`Amount`, and check :guilabel:`Amount Currency` and
-:guilabel:`Foreign Currency`.
-
-.. image:: multi_currency/foreign-fields.png
-  :align: center
-  :alt: The extra fields related to foreign currencies.
-
-When reconciling, Flectra displays both the foreign currency amount and the equivalent amount in your
-company's main currency.
-
 .. _multi-currency/mca-exch-entries:
 
 Exchange rate journal entries

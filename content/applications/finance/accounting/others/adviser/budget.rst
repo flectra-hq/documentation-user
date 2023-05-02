@@ -80,13 +80,6 @@ First, fill in your :guilabel:`Budget Name`. Then, select the :guilabel:`Period`
 is applicable. Next, add the :guilabel:`Budgetary Position` you want to track, define the related
 :guilabel:`Analytic Account`, and add the :guilabel:`Planned Amount`.
 
-.. image:: budget/define-the-budget.png
-   :align: center
-   :alt: budget lines display
-
-.. Note::
-   When recording a planned amount related to expenses, the amount must be negative.
-
 Check your budget
 -----------------
 

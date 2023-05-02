@@ -21,4 +21,3 @@ advanced routes like drop-shipping, cross-docks, etc.
    inventory/management
    inventory/shipping
    inventory/routes
-   inventory/barcode

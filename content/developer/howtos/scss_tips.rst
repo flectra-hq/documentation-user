@@ -12,7 +12,7 @@ class or an HTML tag doing exactly what you're looking for.
 On top of that, Flectra relies on `Bootstrap
 <https://getbootstrap.com/docs/5.1/getting-started/introduction/>`_ (BS), one of the most complete
 CSS frameworks available. The framework has been customized in order to match Flectra's design (both
-community and enterprise versions), meaning that you can use any BS class directly in Flectra and
+community and professional versions), meaning that you can use any BS class directly in Flectra and
 achieve a visual result that is consistent with our UI.
 
 .. warning::

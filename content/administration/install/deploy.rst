@@ -287,7 +287,7 @@ in ``/etc/nginx/sites-enabled/flectra.conf`` set:
   upstream flectra {
     server 127.0.0.1:8069;
   }
-  upstream odoochat {
+  upstream flectrachat {
     server 127.0.0.1:8072;
   }
   map $http_upgrade $connection_upgrade {
@@ -323,7 +323,7 @@ in ``/etc/nginx/sites-enabled/flectra.conf`` set:
 
     # Redirect websocket requests to flectra gevent port
     location /websocket {
-      proxy_pass http://odoochat;
+      proxy_pass http://flectrachat;
       proxy_set_header Upgrade $http_upgrade;
       proxy_set_header Connection $connection_upgrade;
       proxy_set_header X-Forwarded-Host $host;
@@ -414,7 +414,7 @@ by intercepting all requests to :samp:`/{MODULE}/static/{FILE}`, and looking up 
 (and file) in the various addons paths.
 
 .. example::
-   Say Flectra has been installed via the **debian packages** for Community and Enterprise and the
+   Say Flectra has been installed via the **debian packages** for Community and Professional and the
    :option:`--addons-path <flectra-bin --addons-path>` is ``'/usr/lib/python3/dist-packages/flectra/addons'``.
 
    Using the above NGINX (https) configuration, the following location block should be added to
@@ -435,9 +435,9 @@ by intercepting all requests to :samp:`/{MODULE}/static/{FILE}`, and looking up 
 
 .. example::
    Say Flectra has been installed via the **source**. The two git repositories for Community and
-   Enterprise have been cloned in :file:`/opt/flectra/community` and :file:`/opt/flectra/enterprise`
+   Professional have been cloned in :file:`/opt/flectra/community` and :file:`/opt/flectra/professional`
    respectively and the :option:`--addons-path <flectra-bin --addons-path>` is
-   ``'/opt/flectra/community/flectra/addons,/opt/flectra/community/addons,/opt/flectra/enterprise'``.
+   ``'/opt/flectra/community/flectra/addons,/opt/flectra/community/addons,/opt/flectra/professional'``.
 
    Using the above NGINX (https) configuration, the following location block should be added to
    serve static files via NGINX.
@@ -451,7 +451,7 @@ by intercepting all requests to :samp:`/{MODULE}/static/{FILE}`, and looking up 
        # Serve static files right away
        location ~ ^/[^/]+/static/.+$ {
            root /opt/flectra;
-           try_files /community/flectra/addons$uri /community/addons$uri /enterprise$uri @flectra;
+           try_files /community/flectra/addons$uri /community/addons$uri /professional$uri @flectra;
            expires 24h;
        }
 

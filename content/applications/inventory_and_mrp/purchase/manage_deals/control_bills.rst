@@ -86,10 +86,6 @@ Should I pay the vendor bill?
 With the feature activated, your vendor bills now display the *Should Be Paid* field under the
 *Other info* tab.
 
-.. image:: control_bills/control-bills-should-be-paid.png
-   :align: center
-   :alt: Should Be Paid field under a vendor bill in Flectra Purchase
-
 As you can't create a bill until you have received your products - and if you haven't received all
 of them, Flectra only includes the products you have received in the draft bill - the *Should Be Paid*
 status is set to *Yes* when you create one.

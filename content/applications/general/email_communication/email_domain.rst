@@ -22,7 +22,7 @@ outgoing email server to send emails from a custom domain.
 
 .. important::
    The Flectra server is subject to a daily email limit to prevent abuse. The default limit is 200
-   emails sent per day for databases with an **Enterprise** subscription. This limit can be
+   emails sent per day for databases with an **Professional** subscription. This limit can be
    increased under certain conditions. See the :doc:`FAQ <faq>` or contact support for more
    information.
 

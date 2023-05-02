@@ -366,7 +366,7 @@ msgid "Buy credits in the Flectra IAP settings."
 msgstr ""
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:88
-msgid "Users of Flectra Online (SaaS) Enterprise automatically have free trial credits in their database to test any IAP features."
+msgid "Users of Flectra Online (SaaS) Professional automatically have free trial credits in their database to test any IAP features."
 msgstr ""
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:92
@@ -566,7 +566,7 @@ msgid "If you run out of credits, the only information that will be populated wh
 msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:46
-msgid "If you are on Flectra Online and you have the Enterprise version, you benefit from free trial credits to test the feature."
+msgid "If you are on Flectra Online and you have the Professional version, you benefit from free trial credits to test the feature."
 msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:48
@@ -986,7 +986,7 @@ msgid "Every tracked page they visit will be recorded on your lead/opportunity i
 msgstr ""
 
 #: ../../content/applications/sales/crm/track_leads/prospect_visits.rst:14
-msgid "To use this feature, install the free module *Lead Scoring* under your *Apps* page (only available in Flectra Enterprise)."
+msgid "To use this feature, install the free module *Lead Scoring* under your *Apps* page (only available in Flectra Professional)."
 msgstr ""
 
 #: ../../content/applications/sales/crm/track_leads/prospect_visits.rst:21
@@ -1294,7 +1294,7 @@ msgid "Introduction"
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/belgian_fdm/setup.rst:8
-msgid "The Belgian government requires certain businesses to use a government-certified device called a **Fiscal Data Module** (also known as a **blackbox**). This device works together with the POS application and logs certain transactions. On top of that, the used POS application must also be certified by the government and must adhere to strict standards specified by them. `Flectra 9 (Enterprise Edition) is a certified application <http://www.systemedecaisseenregistreuse.be/systemes-certifies>`_. More information concerning the Fiscal Data Module can be found on `the official website <http://www.systemedecaisseenregistreuse.be/>`_."
+msgid "The Belgian government requires certain businesses to use a government-certified device called a **Fiscal Data Module** (also known as a **blackbox**). This device works together with the POS application and logs certain transactions. On top of that, the used POS application must also be certified by the government and must adhere to strict standards specified by them. `Flectra 9 (Professional Edition) is a certified application <http://www.systemedecaisseenregistreuse.be/systemes-certifies>`_. More information concerning the Fiscal Data Module can be found on `the official website <http://www.systemedecaisseenregistreuse.be/>`_."
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/belgian_fdm/setup.rst:20
@@ -1343,7 +1343,7 @@ msgid "Certification & On-premise"
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/belgian_fdm/setup.rst:71
-msgid "The certification granted by the government is restricted to the use on flectra.com Flectra Online instance. The usage of the module from the source or a modified version will **not** be certified. For on-premise users, we also support the Fiscal Data Module in such installations. The main restriction is that this requires an obfuscated version of the ``pos_blackbox_be`` module we will provide on request for Enterprise customers."
+msgid "The certification granted by the government is restricted to the use on flectra.com Flectra Online instance. The usage of the module from the source or a modified version will **not** be certified. For on-premise users, we also support the Fiscal Data Module in such installations. The main restriction is that this requires an obfuscated version of the ``pos_blackbox_be`` module we will provide on request for Professional customers."
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/belgian_fdm/setup.rst:79

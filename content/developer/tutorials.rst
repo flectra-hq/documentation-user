@@ -70,5 +70,5 @@ Tutorials
    .. card:: Visualize data in dashboards
       :target: tutorials/dashboards
 
-      Create data visualization dashboards using the enterprise edition "Dashboard" view and
+      Create data visualization dashboards using the professional edition "Dashboard" view and
       so-called "SQL views".

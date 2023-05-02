@@ -50,8 +50,6 @@ Flectra supports, among others, the following formats.
    * - A-NZ BIS Billing 3.0
      - For Australian/New Zealand companies
 
-.. seealso::
-   :ref:`fiscal_localizations/packages`
 
 .. _e-invoicing/configuration:
 

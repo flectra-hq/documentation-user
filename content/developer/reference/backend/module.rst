@@ -60,7 +60,7 @@ Available manifest fields are:
     * `AGPL-3`
     * `LGPL-3`
     * `Other OSI approved licence`
-    * `OEEL-1` (Flectra Enterprise Edition License v1.0)
+    * `OEEL-1` (Flectra Professional Edition License v1.0)
     * `OPL-1` (Flectra Proprietary License v1.0)
     * `Other proprietary`
 

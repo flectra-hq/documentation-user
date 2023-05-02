@@ -22,11 +22,6 @@ or region.
 Configuration
 =============
 
-To grant cash discounts to customers, you must first set up the :ref:`type of tax reduction
-<cash-discounts/tax-reductions>`, verify the :ref:`gain and loss accounts
-<cash-discounts/gain-loss-accounts>`, and configure new :ref:`payment terms
-<cash-discounts/payment-terms>`.
-
 .. _cash-discounts/tax-reductions:
 
 Tax reductions
@@ -104,15 +99,6 @@ Never
             * - 31st of January
               - €121.00
               - (€100 + (21% of €100))
-
-.. note::
-   - :ref:`Tax grids <tax-returns/tax-grids>`, which are used for the tax report, are correctly
-     computed according to the :ref:`type of tax reduction <cash-discounts/tax-reductions>` you
-     configured.
-   - The **type of cash discount tax reduction** may be correctly pre-configured, depending on your
-     :ref:`fiscal localization package <fiscal_localizations/packages>`.
-
-.. _cash-discounts/gain-loss-accounts:
 
 Cash discount gain/loss accounts
 --------------------------------

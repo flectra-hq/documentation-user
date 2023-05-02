@@ -169,7 +169,7 @@ msgid "Terms and Conditions"
 msgstr "Syarat dan Ketentuan"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:34
-msgid "Flectra Enterprise Agreement"
+msgid "Flectra Professional Agreement"
 msgstr ""
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:36

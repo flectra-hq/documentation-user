@@ -25,13 +25,11 @@ Configuration
 On-Premise users
 ----------------
 
-To be able to use this service, you need to have a valid Flectra Enterprise subscription.
-So make sure that your database is registered with your Flectra Enterprise contract.
+To be able to use this service, you need to have a valid Flectra Professional subscription.
+So make sure that your database is registered with your Flectra Professional contract.
 We also use a proxy between your database and the third party provider so, in case of
 a connection error, please check that you don't have a firewall or a proxy blocking the
 following address:
-
-- https://production.odoofin.com/
 
 First synchronization
 ---------------------
@@ -154,7 +152,7 @@ Is the Online Bank Synchronization feature included in my contract?
 
 - **Community Version**: No, this feature is not included in the Community Version.
 - **Online Version**: Yes, even if you benefit from the One App Free contract.
-- **Enterprise Version**: Yes, if you have a valid enterprise contract linked to your database.
+- **Professional Version**: Yes, if you have a valid professional contract linked to your database.
 
 Some banks have a status "Beta." What does this mean?
 -----------------------------------------------------

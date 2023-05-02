@@ -70,9 +70,6 @@ As a first exercise, let us implement a counter in the `Playground` component lo
 :file:`owl_playground/static/src/`. To see the result, you can go to the `/owl_playground/playground`
 route with your browser.
 
-.. tip::
-   The Flectra JavaScript files downloaded by the browser are minified. For debugging purpose, it's
-   easier when the files are not minified. Switch to :ref:`debug mode with assets <developer-mode/url>` so that the files are not minified.
 
 .. exercise::
 

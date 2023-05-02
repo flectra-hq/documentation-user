@@ -596,7 +596,7 @@ a:hover {
                 align-items: center;
                 margin: 0 -0.75rem $o-margin-m;
                 padding: $o-padding-m $o-padding-s;
-                @include o-gradient();
+                background-color: #009efb;
 
                 @include media-breakpoint-up(lg) {
                     margin: -#{$o-margin-m} -#{$o-margin-l} $o-margin-m;

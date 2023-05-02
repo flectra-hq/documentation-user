@@ -25,14 +25,6 @@ next period.
 If we go to :menuselection:`Accounting app --> Reporting --> Tax Report`, a pop-up on line 81
 explains that the amount will be carried over in the next period.
 
-.. image:: tax_carryover/pop-up.png
-   :align: center
-   :alt: pop-up message stating the amount will be carried over to the next period
-
 At the time of the tax closing period, the tax report shows that the amount was carried over from
 the previous period. It also indicates the amount that will be carried over to this line in the next
 period based on the existing transactions and the carryover from the previous period.
-
-.. image:: tax_carryover/tax-return.png
-   :align: center
-   :alt: Illustration of the tax return

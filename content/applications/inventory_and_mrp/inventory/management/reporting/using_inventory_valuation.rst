@@ -63,15 +63,3 @@ will be impacted and you will have access to a similar information.
 
 .. image:: using_inventory_valuation/use_inventory_valuation_05.png
     :align: center
-
-The inventory valuation report
-------------------------------
-
-The summary of this is accessible via the inventory valuation report
-(accessible from :menuselection:`Inventory --> Reporting --> Inventory Valuation`). It gives
-you, product per product, the value of your stock. By clicking on the
-button *Inventory At Date*, you can have the same information for a
-past date.
-
-.. image:: using_inventory_valuation/use_inventory_valuation_06.png
-    :align: center

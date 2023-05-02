@@ -20,7 +20,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 16.0\n"
+"Project-Id-Version: Flectra 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-03 17:52+0000\n"
 "PO-Revision-Date: 2022-10-04 12:53+0000\n"
@@ -307,9 +307,9 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:28
 msgid ""
-"To be able to use this service, you need to have a valid Odoo Enterprise "
+"To be able to use this service, you need to have a valid Odoo Professional "
 "subscription. So make sure that your database is registered with your Odoo "
-"Enterprise contract. We also use a proxy between your database and the third"
+"Professional contract. We also use a proxy between your database and the third"
 " party provider so, in case of a connection error, please check that you "
 "don't have a firewall or a proxy blocking the following address:"
 msgstr ""
@@ -544,10 +544,10 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:157
 msgid ""
-"**Enterprise Version**: Yes, if you have a valid enterprise contract linked "
+"**Professional Version**: Yes, if you have a valid enterprise contract linked "
 "to your database."
 msgstr ""
-"** Versão Enterprise**: Sim, se você tiver um contrato empresarial válido "
+"** Versão Professional**: Sim, se você tiver um contrato empresarial válido "
 "vinculado ao seu banco de dados."
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:160
@@ -7693,7 +7693,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/payables/supplier_bills/invoice_digitization.rst:94
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:45
 msgid ""
-"If you are on Odoo Online and have the Enterprise version, you benefit from "
+"If you are on Odoo Online and have the Professional version, you benefit from "
 "free trial credits to test the feature."
 msgstr ""
 
@@ -10436,7 +10436,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_payments/online_payment/install_portal_patch.rst:5
 msgid ""
-"Following recent changes in Odoo 16, you might be warned that disabling the "
+"Following recent changes in Flectra 3.0, you might be warned that disabling the "
 ":guilabel:`Invoice Online Payment` setting will uninstall modules. If you "
 "want to disable the feature without uninstalling modules, follow the steps "
 "below to install the module **Payment - Account / Invoice Online Payment "
@@ -21077,7 +21077,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/france.rst:20
 msgid ""
-"To make the onboarding of new users easier, Odoo Enterprise's French "
+"To make the onboarding of new users easier, Odoo Professional's French "
 ":ref:`fiscal localization package <fiscal_localizations/packages>` includes "
 "the **FEC Import** feature (module name: ``l10n_fr_fec_import``), which "
 "enables the import of existing FEC files from older software."
@@ -22008,9 +22008,9 @@ msgstr "Tornar-se compatível com o Odoo é muito fácil."
 msgid ""
 "Your company is requested by the tax administration to deliver a certificate"
 " of conformity testifying that your software complies with the anti-fraud "
-"legislation. This certificate is granted by Odoo SA to Odoo Enterprise users"
+"legislation. This certificate is granted by Odoo SA to Odoo Professional users"
 " `here <https://www.flectra.com/my/contract/french-certification/>`_. If you "
-"use Odoo Community, you should :doc:`upgrade to Odoo Enterprise "
+"use Odoo Community, you should :doc:`upgrade to Odoo Professional "
 "</administration/maintain/enterprise>` or contact your Odoo service "
 "provider."
 msgstr ""
@@ -22337,10 +22337,10 @@ msgstr "Relatórios de contabilidade alemães"
 
 #: ../../content/applications/finance/fiscal_localizations/germany.rst:21
 msgid ""
-"Here is the list of German-specific reports available on Odoo Enterprise:"
+"Here is the list of German-specific reports available on Odoo Professional:"
 msgstr ""
 "Aqui está a lista de relatórios específicos da Alemanha disponíveis no Odoo "
-"Enterprise:"
+"Professional:"
 
 #: ../../content/applications/finance/fiscal_localizations/germany.rst:25
 msgid "Tax Report (Umsatzsteuervoranmeldung)"
@@ -22358,7 +22358,7 @@ msgstr "Exportar do Odoo para Datev"
 msgid ""
 "It is possible to export your accounting entries from Odoo to Datev. To be "
 "able to use this feature, the german accounting localization needs to be "
-"installed on your Odoo Enterprise database. Then you can go in "
+"installed on your Odoo Professional database. Then you can go in "
 ":menuselection:`Accounting --> Reporting --> General Ledger` then click on "
 "the **Export Datev (csv)** button."
 msgstr ""
@@ -24832,7 +24832,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/mexico.rst:15
 msgid ""
-"Odoo Enterprise users in Mexico have free access to a set of modules that "
+"Odoo Professional users in Mexico have free access to a set of modules that "
 "allow them to issue electronic invoices according to the specifications of "
 "the SAT for `version 3.3 of the CFDI "
 "<http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/GuiaAnexo20Global.pdf>`_,"
@@ -28411,7 +28411,7 @@ msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/switzerland.rst:71
 msgid ""
-"How to update your taxes in Odoo Enterprise (Odoo Online or On-premise)?"
+"How to update your taxes in Odoo Professional (Odoo Online or On-premise)?"
 msgstr ""
 
 #: ../../content/applications/finance/fiscal_localizations/switzerland.rst:73

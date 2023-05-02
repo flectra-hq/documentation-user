@@ -265,9 +265,9 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:30
 msgid ""
-"To be able to use this service, you need to have a valid Flectra Enterprise "
+"To be able to use this service, you need to have a valid Flectra Professional "
 "subscription. So make sure that your database is registered with your Flectra "
-"Enterprise contract. We also use a proxy between your database and the third"
+"Professional contract. We also use a proxy between your database and the third"
 " party provider so, in case of a connection error, please check that you "
 "don't have a firewall or a proxy blocking the following address:"
 msgstr ""
@@ -482,7 +482,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:162
 msgid ""
-"**Enterprise Version**: Yes, if you have a valid enterprise contract linked "
+"**Professional Version**: Yes, if you have a valid enterprise contract linked "
 "to your database."
 msgstr ""
 
@@ -5479,9 +5479,9 @@ msgstr "Приєднатися до Flectra дуже просто."
 msgid ""
 "Your company is requested by the tax administration to deliver a certificate"
 " of conformity testifying that your software complies with the anti-fraud "
-"legislation. This certificate is granted by Flectra SA to Flectra Enterprise users"
+"legislation. This certificate is granted by Flectra SA to Flectra Professional users"
 " `here <https://www.flectra.com/my/contract/french-certification/>`_. If you "
-"use Flectra Community, you should :doc:`upgrade to Flectra Enterprise "
+"use Flectra Community, you should :doc:`upgrade to Flectra Professional "
 "</administration/enterprise>` or contact your Flectra service provider."
 msgstr ""
 
@@ -5834,10 +5834,10 @@ msgstr "Німецька бухгалтерська звітність"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:21
 msgid ""
-"Here is the list of German-specific reports available on Flectra Enterprise:"
+"Here is the list of German-specific reports available on Flectra Professional:"
 msgstr ""
 "Нижче наведено список спеціальних звітів для Німеччини, доступних на Flectra "
-"Enterprise:"
+"Professional:"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:23
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/spain.rst:27
@@ -5869,13 +5869,13 @@ msgstr "Експорт з Flectra в Datev"
 msgid ""
 "It is possible to export your accounting entries from Flectra to Datev. To be "
 "able to use this feature, the german accounting localization needs to be "
-"installed on your Flectra Enterprise database. Then you can go in "
+"installed on your Flectra Professional database. Then you can go in "
 ":menuselection:`Accounting --> Reporting --> General Ledger` then click on "
 "the **Export Datev (csv)** button."
 msgstr ""
 "Ви можете експортувати записи бухобліку з Flectra в Datev. Щоб мати можливість "
 "використовувати цю функцію, локалізація німецької бухгалтерії повинна бути "
-"встановлена у вашій базі даних Flectra Enterprise. Тоді ти можеш увійти до "
+"встановлена у вашій базі даних Flectra Professional. Тоді ти можеш увійти до "
 ":menuselection:`Бухоблік --> Звітність --> Загальний журнал` потім натисніть"
 " кнопку **Export Datev (csv)**."
 
@@ -6605,7 +6605,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/mexico.rst:15
 msgid ""
-"Flectra Enterprise users in Mexico have free access to a set of modules that "
+"Flectra Professional users in Mexico have free access to a set of modules that "
 "allow them to issue electronic invoices according to the specifications of "
 "the SAT for `version 3.3 of the CFDI "
 "<http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/GuiaAnexo20Global.pdf>`_,"
@@ -9715,8 +9715,8 @@ msgstr ""
 " готельного сектору зміниться з 3,8% до 3,7%."
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:71
-msgid "How to update your taxes in Flectra Enterprise (SaaS or On Premise)?"
-msgstr "Як оновити свої податки в Flectra Enterprise (SaaS або On Premise)?"
+msgid "How to update your taxes in Flectra Professional (SaaS or On Premise)?"
+msgstr "Як оновити свої податки в Flectra Professional (SaaS або On Premise)?"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:73
 msgid ""
@@ -16914,10 +16914,10 @@ msgstr ""
 #: ../../content/applications/finance/accounting/payables/supplier_bills/ocr.rst:50
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:43
 msgid ""
-"If you are on Flectra Online (SAAS) and have the Enterprise version, you "
+"If you are on Flectra Online (SAAS) and have the Professional version, you "
 "benefit from free trial credits to test the feature."
 msgstr ""
-"Якщо ви на Flectra Online (SAAS) і у вас версія Enterprise, для тестування "
+"Якщо ви на Flectra Online (SAAS) і у вас версія Professional, для тестування "
 "функції ви користуєтесь безкоштовними пробними кредитами."
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/ocr.rst:52

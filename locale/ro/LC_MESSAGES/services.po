@@ -859,11 +859,11 @@ msgstr ""
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:35
 msgid ""
 "Using your own email server is required to send and receive emails in Flectra "
-"Community and Enterprise. Online users benefit from a ready-to-use email "
+"Community and Professional. Online users benefit from a ready-to-use email "
 "server."
 msgstr ""
 "Folosirea propriului server de e-mail este necesară pentru a trimite și "
-"primi e-mailuri în Flectra Community și Enterprise. Utilizatorii online "
+"primi e-mailuri în Flectra Community și Professional. Utilizatorii online "
 "beneficiază de un server de e-mail preconfigurat."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:39

@@ -62,30 +62,6 @@ Use a channel as a mailing list
    :align: center
    :alt: View of a message with a pending moderation status in Flectra Discuss
 
-| Under the *Moderation* tab choose as many moderators as you need, and if you would like them to
-  receive an *Automatic notification*.
-| Mark *Send guidelines to new subscribers* to automatically send instructions to newcomers.
-
-.. image:: team_communication/moderation_settings.png
-   :align: center
-   :alt: View of a channel’s settings form emphasizing the tab moderation in Flectra Discuss
-
-Moderators can: *Accept*, *Reject*, *Discard*, *Always Allow* or *Ban* messages.
-
-.. image:: team_communication/moderate_messages.png
-   :align: center
-   :alt: View of a message to be moderated in Flectra Discuss
-
-.. note::
-   Members of a mailing channel receive messages through email regardless of their
-   :doc:`notification preference <get_started>`.
-
-Once a channel is moderated, the menu *Ban List* allows you to add email addresses per moderated
-channel to auto-ban them from sending messages.
-
-.. image:: team_communication/ban_list.png
-   :align: center
-   :alt: View of a channel’s setting form emphasizing the ban Lists menu in Flectra Discuss
 
 Quick search bar
 ================

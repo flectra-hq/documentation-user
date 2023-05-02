@@ -126,6 +126,3 @@ Google Calendar with Flectra.
 
 Now, Flectra Calendar is successfully synced with Google Calendar!
 
-.. image:: google_calendar_credentials/successful-sync.png
-   :align: center
-   :alt: Successfully sync between Flectra and Google Calendar.

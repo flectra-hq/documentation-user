@@ -57,4 +57,3 @@ needed. To do so, set the groups, filters, and measures needed. Then, go to *Fav
 
 .. seealso::
    - :doc:`receiving_tickets`
-   - :doc:`sla`

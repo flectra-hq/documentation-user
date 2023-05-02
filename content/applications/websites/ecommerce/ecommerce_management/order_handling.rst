@@ -79,11 +79,6 @@ enable the feature in the settings of the
    quotation is **not** be confirmed and the stock is **not** be reserved. Orders must be confirmed
    manually to reserve products in stock.
 
-.. seealso::
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/operation/invoicing`
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/operation/labels`
-   - :doc:`/applications/inventory_and_mrp/inventory/shipping/operation/multipack`
-
 Returns and refunds
 -------------------
 
@@ -92,11 +87,6 @@ depending on the return strategy or type of product.
 
 Full refunds can be directly sent to customers from within the order interface. A refund-compatible
 payment provider needs to be enabled first.
-
-.. seealso::
-   - :doc:`/applications/sales/sales/products_prices/returns`
-   - :doc:`/applications/services/helpdesk/advanced/after_sales`
-   - :doc:`/applications/finance/payment_providers`
 
 .. _handling/legal:
 

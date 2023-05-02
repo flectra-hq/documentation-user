@@ -6213,7 +6213,7 @@ msgstr ""
 
 #: ../../content/developer/reference/backend/mixins.rst:854
 #: ../../content/developer/reference/backend/mixins.rst:1072
-msgid "``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Enterprise only) Application"
+msgid "``helpdesk.ticket`` in the Helpdesk (*helpdesk* - Flectra Professional only) Application"
 msgstr ""
 
 #: ../../content/developer/reference/backend/mixins.rst:859
@@ -6454,7 +6454,7 @@ msgid "`Other OSI approved licence`"
 msgstr ""
 
 #: ../../content/developer/reference/backend/module.rst:63
-msgid "`OEEL-1` (Flectra Enterprise Edition License v1.0)"
+msgid "`OEEL-1` (Flectra Professional Edition License v1.0)"
 msgstr ""
 
 #: ../../content/developer/reference/backend/module.rst:64
@@ -21401,7 +21401,7 @@ msgid "This page documents how you can access mobile native components like Came
 msgstr ""
 
 #: ../../content/developer/reference/frontend/mobile.rst:22
-msgid "These features work with **Flectra Enterprise 10.0+** only"
+msgid "These features work with **Flectra Professional 10.0+** only"
 msgstr ""
 
 #: ../../content/developer/reference/frontend/mobile.rst:25
@@ -26776,7 +26776,7 @@ msgid "customize the Bootstrap CSS framework;"
 msgstr ""
 
 #: ../../content/developer/reference/user_interface/scss_inheritance.rst:14
-msgid "handle two different webclient designs (Community and Enterprise);"
+msgid "handle two different webclient designs (Community and Professional);"
 msgstr ""
 
 #: ../../content/developer/reference/user_interface/scss_inheritance.rst:15
@@ -28290,11 +28290,11 @@ msgid "This tutorial is an extension of the :doc:`getting_started` tutorial. Mak
 msgstr ""
 
 #: ../../content/developer/tutorials/dashboards.rst:12
-msgid "The term \"Dashboard\" is used in Flectra for objects that display data, but involves different implementations. This tutorial will only focus on the Enterprise view that is used to provide aggregated data visualization. They can be added as a ``view_mode`` to an existing model (i.e. a view you can switch to via the view buttons in the top right of a view), but they are also often used as a view for to a special model customized for data visualization. You may hear these special views referred to as SQL views."
+msgid "The term \"Dashboard\" is used in Flectra for objects that display data, but involves different implementations. This tutorial will only focus on the Professional view that is used to provide aggregated data visualization. They can be added as a ``view_mode`` to an existing model (i.e. a view you can switch to via the view buttons in the top right of a view), but they are also often used as a view for to a special model customized for data visualization. You may hear these special views referred to as SQL views."
 msgstr ""
 
 #: ../../content/developer/tutorials/dashboards.rst:19
-msgid "It is useful to note there is a \"Dashboard\" app in Flectra Community. This app allows users to create their own customized view of data, but the customization is only visible to each user and can only be viewed within the \"Dashboard\" app. Technically it is possible to make global dashboards using this ``board`` module, but it is much easier to do as an Enterprise view. Plus it looks nicer and has extra features not available in ``board``. Some other dashboards within Flectra also exist, but they are custom made and are beyond the scope of this tutorial."
+msgid "It is useful to note there is a \"Dashboard\" app in Flectra Community. This app allows users to create their own customized view of data, but the customization is only visible to each user and can only be viewed within the \"Dashboard\" app. Technically it is possible to make global dashboards using this ``board`` module, but it is much easier to do as an Professional view. Plus it looks nicer and has extra features not available in ``board``. Some other dashboards within Flectra also exist, but they are custom made and are beyond the scope of this tutorial."
 msgstr ""
 
 #: ../../content/developer/tutorials/dashboards.rst:26
@@ -28307,11 +28307,11 @@ msgid "File Structure"
 msgstr ""
 
 #: ../../content/developer/tutorials/dashboards.rst:31
-msgid "You probably have already guessed that since dashboard views are an Enterprise view, they must have a dependency on an Enterprise module. The Enterprise module is ``web_dashboard``. Don't forget to add it to your manifest file! It is standard to add dashboards intended to be used as a ``view_mode`` for one of your module's models (in the ``model`` folder) to the views directory (i.e. the same file that contains the other views for the same model)."
+msgid "You probably have already guessed that since dashboard views are an Professional view, they must have a dependency on an Professional module. The Professional module is ``web_dashboard``. Don't forget to add it to your manifest file! It is standard to add dashboards intended to be used as a ``view_mode`` for one of your module's models (in the ``model`` folder) to the views directory (i.e. the same file that contains the other views for the same model)."
 msgstr ""
 
 #: ../../content/developer/tutorials/dashboards.rst:37
-msgid "It is standard to create a separate Enterprise module to add extra Enterprise views and features to a Community module. This is done in a similar manner as the module link technique covered within :ref:`tutorials/getting_started/14_other_module`. The difference is that instead of linking 2 different modules, we are extending our `estate` module. We do this by creating a new module and adding both the Community module and its necessary Enterprise module dependencies to its manifest. You will commonly see \"enterprise\" in the module's directory name. To keep this tutorial simple, we will add dashboards to our existing ``estate`` module."
+msgid "It is standard to create a separate Professional module to add extra Professional views and features to a Community module. This is done in a similar manner as the module link technique covered within :ref:`tutorials/getting_started/14_other_module`. The difference is that instead of linking 2 different modules, we are extending our `estate` module. We do this by creating a new module and adding both the Community module and its necessary Professional module dependencies to its manifest. You will commonly see \"enterprise\" in the module's directory name. To keep this tutorial simple, we will add dashboards to our existing ``estate`` module."
 msgstr ""
 
 #: ../../content/developer/tutorials/dashboards.rst:45
@@ -31165,7 +31165,7 @@ msgid "Flectra Editions"
 msgstr ""
 
 #: ../../content/developer/tutorials/getting_started/01_architecture.rst:118
-msgid "Flectra is available in `two versions`_: Flectra Enterprise (licensed & shared sources) and Flectra Community (open-source). In addition to services such as support or upgrades, the Enterprise version provides extra functionalities to Flectra. From a technical point-of-view, these functionalities are simply new modules installed on top of the modules provided by the Community version."
+msgid "Flectra is available in `two versions`_: Flectra Professional (licensed & shared sources) and Flectra Community (open-source). In addition to services such as support or upgrades, the Professional version provides extra functionalities to Flectra. From a technical point-of-view, these functionalities are simply new modules installed on top of the modules provided by the Community version."
 msgstr ""
 
 #: ../../content/developer/tutorials/getting_started/01_architecture.rst:123

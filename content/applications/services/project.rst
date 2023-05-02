@@ -16,5 +16,4 @@ coworkers, and keep track of each project's profitability.
 .. toctree::
    :titlesonly:
 
-   project/tasks
    project/project_management

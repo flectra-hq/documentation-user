@@ -19,4 +19,3 @@ These guides provide instructions on how to install, maintain and upgrade Flectr
     administration/install
     administration/maintain
     administration/upgrade
-    administration/odoo_sh

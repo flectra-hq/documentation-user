@@ -664,7 +664,7 @@ msgstr ""
 #: ../../content/administration/install/deploy.rst:418
 msgid ""
 "Say Flectra has been installed via the **debian packages** for Community and "
-"Enterprise and the :option:`--addons-path <flectra-bin --addons-path>` is "
+"Professional and the :option:`--addons-path <flectra-bin --addons-path>` is "
 "``'/usr/lib/python3/dist-packages/flectra/addons'``."
 msgstr ""
 
@@ -678,7 +678,7 @@ msgstr ""
 #: ../../content/administration/install/deploy.rst:438
 msgid ""
 "Say Flectra has been installed via the **source**. The two git repositories for"
-" Community and Enterprise have been cloned in :file:`/opt/flectra/community` "
+" Community and Professional have been cloned in :file:`/opt/flectra/community` "
 "and :file:`/opt/flectra/enterprise` respectively and the :option:`--addons-path"
 " <flectra-bin --addons-path>` is "
 "``'/opt/flectra/community/flectra/addons,/opt/community/addons,/opt/flectra/enterprise'``."
@@ -1228,15 +1228,15 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:35
 msgid ""
-"There are two different Editions_ of Flectra: the Community and Enterprise "
-"versions. Using the Enterprise version is possible on `Flectra Online`_ and "
-"accessing the code is restricted to Enterprise customers and partners. The "
+"There are two different Editions_ of Flectra: the Community and Professional "
+"versions. Using the Professional version is possible on `Flectra Online`_ and "
+"accessing the code is restricted to Professional customers and partners. The "
 "Community version is freely available to anyone."
 msgstr ""
 
 #: ../../content/administration/install/install.rst:40
 msgid ""
-"If you already use the Community version and wish to upgrade to Enterprise, "
+"If you already use the Community version and wish to upgrade to Professional, "
 "please refer to :ref:`setup/enterprise` (except for "
 ":ref:`setup/install/source`)."
 msgstr ""
@@ -1295,7 +1295,7 @@ msgstr ""
 msgid ""
 "Flectra provides packaged installers for Windows, deb-based distributions "
 "(Debian, Ubuntu, …) and RPM-based distributions (Fedora, CentOS, RHEL, …) "
-"for both the Community and Enterprise versions."
+"for both the Community and Professional versions."
 msgstr ""
 
 #: ../../content/administration/install/install.rst:81
@@ -1307,9 +1307,9 @@ msgstr ""
 #: ../../content/administration/install/install.rst:84
 msgid ""
 "Official Community packages with all relevant dependency requirements are "
-"available on our nightly_ server. Both Community and Enterprise packages can"
+"available on our nightly_ server. Both Community and Professional packages can"
 " be downloaded from our download_ page (you must to be logged in as a paying"
-" customer or partner to download the Enterprise packages)."
+" customer or partner to download the Professional packages)."
 msgstr ""
 
 #: ../../content/administration/install/install.rst:90
@@ -1431,7 +1431,7 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:172
 msgid ""
-"At this moment, there is no nightly repository for the Enterprise Edition."
+"At this moment, there is no nightly repository for the Professional Edition."
 msgstr ""
 
 #: ../../content/administration/install/install.rst:175
@@ -1441,7 +1441,7 @@ msgstr ""
 #: ../../content/administration/install/install.rst:181
 msgid ""
 "Instead of using the repository as described above, the 'deb' packages for "
-"both the *Community* and *Enterprise* editions can be downloaded from the "
+"both the *Community* and *Professional* editions can be downloaded from the "
 "`official download page <download_>`_."
 msgstr ""
 
@@ -1485,7 +1485,7 @@ msgstr ""
 #: ../../content/administration/install/install.rst:222
 msgid ""
 "Instead of using the repository as described above, the 'rpm' packages for "
-"both the *Community* and *Enterprise* editions can be downloaded from the "
+"both the *Community* and *Professional* editions can be downloaded from the "
 "`official download page <download_>`_."
 msgstr ""
 
@@ -1561,7 +1561,7 @@ msgid "`Nightly server <nightly_>`_"
 msgstr ""
 
 #: ../../content/administration/install/install.rst:269
-msgid "Enterprise Edition:"
+msgid "Professional Edition:"
 msgstr ""
 
 #: ../../content/administration/install/install.rst:272
@@ -1584,14 +1584,14 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:286
 msgid ""
-"**The Enterprise Git repository does not contain the full Flectra source "
+"**The Professional Git repository does not contain the full Flectra source "
 "code**. It is only a collection of extra add-ons. The main server code is in"
-" the Community version. Running the Enterprise version actually means "
+" the Community version. Running the Professional version actually means "
 "running the server from the Community version with the addons-path option "
-"set to the folder with the Enterprise version. You need to clone both the "
-"Community and Enterprise repository to have a working Flectra Enterprise "
+"set to the folder with the Professional version. You need to clone both the "
+"Community and Professional repository to have a working Flectra Professional "
 "installation. See :ref:`setup/install/editions` to get access to the "
-"Enterprise repository."
+"Professional repository."
 msgstr ""
 
 #: ../../content/administration/install/install.rst:299
@@ -1616,12 +1616,12 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:350
 msgid ""
-"**The Enterprise git repository does not contain the full Flectra source "
+"**The Professional git repository does not contain the full Flectra source "
 "code**. It is only a collection of extra add-ons. The main server code is in"
-" the Community version. Running the Enterprise version actually means "
+" the Community version. Running the Professional version actually means "
 "running the server from the Community version with the addons-path option "
-"set to the folder with the Enterprise version. You need to clone both the "
-"Community and Enterprise repository to have a working Flectra Enterprise "
+"set to the folder with the Professional version. You need to clone both the "
+"Community and Professional repository to have a working Flectra Professional "
 "installation."
 msgstr ""
 
@@ -1931,7 +1931,7 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:658
 msgid ""
-"For the Enterprise edition, you must add the path to the `enterprise` addons"
+"For the Professional edition, you must add the path to the `enterprise` addons"
 " to the `addons-path` argument. Note that it must come before the other "
 "paths in `addons-path` for addons to be loaded correctly."
 msgstr ""
@@ -2998,7 +2998,7 @@ msgid ":doc:`/applications/general/email_communication/email_servers`"
 msgstr ""
 
 #: ../../content/administration/maintain/enterprise.rst:6
-msgid "Upgrade Community to Enterprise"
+msgid "Upgrade Community to Professional"
 msgstr ""
 
 #: ../../content/administration/maintain/enterprise.rst:8
@@ -3028,7 +3028,7 @@ msgid "Restart your server"
 msgstr ""
 
 #: ../../content/administration/maintain/enterprise.rst:23
-msgid "Enter your Flectra Enterprise Subscription code"
+msgid "Enter your Flectra Professional Subscription code"
 msgstr ""
 
 #: ../../content/administration/maintain/enterprise.rst:29
@@ -3050,9 +3050,9 @@ msgstr ""
 
 #: ../../content/administration/maintain/enterprise.rst:51
 msgid ""
-"You should be able to connect to your Flectra Enterprise instance using your "
+"You should be able to connect to your Flectra Professional instance using your "
 "usual mean of identification. You can then link your database with your Flectra"
-" Enterprise Subscription by entering the code you received by e-mail in the "
+" Professional Subscription by entering the code you received by e-mail in the "
 "form input"
 msgstr ""
 
@@ -3085,7 +3085,7 @@ msgstr ""
 msgid ""
 "Restart your server with the updated addons path of point 3. You should be "
 "able to connect to your instance. You can then link your database with your "
-"Flectra Enterprise Subscription by entering the code you received by e-mail in "
+"Flectra Professional Subscription by entering the code you received by e-mail in "
 "the form input"
 msgstr ""
 
@@ -3101,7 +3101,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/enterprise.rst:88
 msgid ""
-"Launch the Flectra Enterprise Installer and follow the steps normally. When "
+"Launch the Flectra Professional Installer and follow the steps normally. When "
 "choosing the installation path, you can set the folder of the Community "
 "installation (this folder still contains the PostgreSQL installation). "
 "Uncheck ``Start Flectra`` at the end of the installation"
@@ -3116,8 +3116,8 @@ msgstr ""
 #: ../../content/administration/maintain/enterprise.rst:103
 msgid ""
 "No need to manually launch the server, the service is running. You should be"
-" able to connect to your Flectra Enterprise instance using your usual mean of "
-"identification. You can then link your database with your Flectra Enterprise "
+" able to connect to your Flectra Professional instance using your usual mean of "
+"identification. You can then link your database with your Flectra Professional "
 "Subscription by entering the code you received by e-mail in the form input"
 msgstr ""
 
@@ -4336,7 +4336,7 @@ msgid "Solutions"
 msgstr ""
 
 #: ../../content/administration/maintain/on_premise.rst:29
-msgid "Do you have a valid Enterprise subscription?"
+msgid "Do you have a valid Professional subscription?"
 msgstr ""
 
 #: ../../content/administration/maintain/on_premise.rst:31
@@ -4434,7 +4434,7 @@ msgstr ""
 #: ../../content/administration/maintain/on_premise.rst:93
 msgid ""
 "If you have more users in your local database than provisionned in your Flectra"
-" Enterprise subscription, you may encounter this message:"
+" Professional subscription, you may encounter this message:"
 msgstr ""
 
 #: ../../content/administration/maintain/on_premise.rstNone
@@ -4887,7 +4887,7 @@ msgstr ""
 #: ../../content/administration/maintain/update.rst:21
 msgid ""
 "Refers to the process of obtaining the latest revision of the source code "
-"for your current Flectra Edition. For example, updating your Flectra Enterprise "
+"for your current Flectra Edition. For example, updating your Flectra Professional "
 "13.0 to the latest revision. This does not directly cause any change to the "
 "contents of your Flectra database, and can be undone by reinstalling the "
 "previous revision of the source code."
@@ -4957,15 +4957,15 @@ msgstr ""
 #: ../../content/administration/maintain/update.rst:66
 msgid ""
 "The central download page is https://www.flectra.com/page/download. If you see "
-"a \"Buy\" link for the Flectra Enterprise download, make sure you are logged "
-"into Flectra.com with the same login that is linked to your Flectra Enterprise "
+"a \"Buy\" link for the Flectra Professional download, make sure you are logged "
+"into Flectra.com with the same login that is linked to your Flectra Professional "
 "subscription."
 msgstr ""
 
 #: ../../content/administration/maintain/update.rst:70
 msgid ""
 "Alternatively, you can use the unique download link that was included with "
-"your Flectra Enterprise purchase confirmation email."
+"your Flectra Professional purchase confirmation email."
 msgstr ""
 
 #: ../../content/administration/maintain/update.rst:73
@@ -5061,7 +5061,7 @@ msgid ""
 "If you have originally installed Flectra with a full Github clone of the "
 "official repositories, the update procedure requires you to pull the latest "
 "source code via git. Change into the directory for each repository (the main"
-" Flectra repository, and the Enterprise repository), and run the following "
+" Flectra repository, and the Professional repository), and run the following "
 "commands::"
 msgstr ""
 
@@ -6814,13 +6814,13 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:51
 msgid ""
-"It should be the code of your Enterprise subscription that includes Flectra.sh."
+"It should be the code of your Professional subscription that includes Flectra.sh."
 msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:53
 msgid ""
 "Partners can use their partnership codes to start a trial. Should their "
-"clients start a project, they ought to get an Enterprise subscription "
+"clients start a project, they ought to get an Professional subscription "
 "including Flectra.sh and use its subscription code. The partner will get the "
 "full amount as back commission. Contact your sales representative or account"
 " manager in order to get it."
@@ -8243,7 +8243,7 @@ msgstr ""
 #: ../../content/administration/upgrade.rst:24
 msgid ""
 "Changing :ref:`editions <upgrade-faq/editions-change>` (i.e., Community to "
-"Enterprise edition)"
+"Professional edition)"
 msgstr ""
 
 #: ../../content/administration/upgrade.rst:25
@@ -8603,7 +8603,7 @@ msgid "Service Level Agreement"
 msgstr ""
 
 #: ../../content/administration/upgrade.rst:226
-msgid "What is covered by the Enterprise Licence?"
+msgid "What is covered by the Professional Licence?"
 msgstr ""
 
 #: ../../content/administration/upgrade.rst:228
@@ -8658,8 +8658,8 @@ msgstr ""
 
 #: ../../content/administration/upgrade.rst:249
 msgid ""
-"You can get more information about your Enterprise Licence on our :ref:`Flectra"
-" Enterprise Subscription Agreement <upgrade>` page."
+"You can get more information about your Professional Licence on our :ref:`Flectra"
+" Professional Subscription Agreement <upgrade>` page."
 msgstr ""
 
 #: ../../content/administration/upgrade.rst:255
@@ -8809,12 +8809,12 @@ msgid ""
 msgstr ""
 
 #: ../../content/administration/upgrade/faq.rst:97
-msgid "Editions change (from Community to Enterprise)"
+msgid "Editions change (from Community to Professional)"
 msgstr ""
 
 #: ../../content/administration/upgrade/faq.rst:99
 msgid ""
-"The upgrade always returns an Enterprise edition of Flectra, whether the "
+"The upgrade always returns an Professional edition of Flectra, whether the "
 "database you sent was a community or enterprise edition. It is required to "
 "have an enterprise subscription to upgrade."
 msgstr ""

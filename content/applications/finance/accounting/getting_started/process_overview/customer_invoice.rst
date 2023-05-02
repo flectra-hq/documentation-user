@@ -194,19 +194,6 @@ you will see the follow-up message and all overdue invoices.
 .. image:: customer_invoice/invoice12.png
    :align: center
 
-Customer aging report:
-----------------------
-
-The customer aging report will be an additional key tool for the
-collector to understand the customer credit issues, and to prioritize
-their work.
-
-Use the aging report to determine which customers are overdue and begin
-your collection efforts.
-
-.. image:: customer_invoice/invoice13.png
-   :align: center
-
 Profit and loss
 ===============
 

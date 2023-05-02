@@ -102,24 +102,6 @@ create the lines you need.
 .. image:: serial_numbers/serial_numbers_10.png
     :align: center
 
-Operation types
-===============
-
-You also have the possibility to define how you will manage lots for
-each operation type. To define it, go to :menuselection:`Configuration --> Operation Types` in the
-*Inventory* app.
-
-For each type, you can decide if you allow the creation of new lot
-numbers or want to use existing ones. By default, the creation of new
-lots is only allowed at product reception.
-
-.. image:: serial_numbers/serial_numbers_11.png
-    :align: center
-
-.. tip::
-      If you have inter-warehouse transfers and track products by lots, it can
-      be useful to allow using existing lot numbers in receipts too.
-
 Serial Number traceability
 ==========================
 

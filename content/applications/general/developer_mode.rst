@@ -6,10 +6,6 @@ Developer Mode (debug mode)
 
 The developer mode (or debug mode) unlocks access to extra and advanced tools in Flectra. There are
 several ways to activate the developer mode: through the
-:ref:`settings <general/developer_mode/settings>`, the
-:ref:`browser extension <general/developer_mode/browser-extension>`, through
-the :ref:`command palette <general/developer_mode/command-palette>`  or the
-:ref:`URL <general/developer_mode/url>`.
 
 .. _general/developer_mode/settings:
 
@@ -42,27 +38,6 @@ toolbar.
 
 For the *Flectra Debug* extension, a single click enables a normal version of the mode, while a
 double click enables it with assets. To deactivate it, use a single click.
-
-.. image:: developer_mode/developer-mode-monkey.png
-   :align: center
-   :alt: View of Flectra's debug icon in a Google Chrome toolbar.
-
-.. _general/developer_mode/command-palette:
-
-Activate through the command palette
-====================================
-
-In Flectra, the command palette tool has a command to activate the debug mode. First, open the command
-palette tool with the keyboard shortcut `ctrl+k` and then type `debug`. A command will show up to
-activate the debug mode.
-
-.. image:: developer_mode/command-palette.png
-   :align: center
-   :alt: Command palette with debug command.
-
-.. _general/developer_mode/url:
-
-.. _developer-mode/url:
 
 Activate through the URL
 ========================

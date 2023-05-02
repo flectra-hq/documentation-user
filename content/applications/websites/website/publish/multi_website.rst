@@ -43,11 +43,6 @@ website. Follow the purple drops; they will help you in the first steps.
 .. image:: multi_website/multi_website08.png
   :align: center
 
-
-.. note::
-   If you run Flectra Online, don’t forget to redirect any new domain name to your Flectra database
-   (``CNAME``) and to authorize it Flectra-side. See :ref:`domain-name/existing`.
-
 Create the menu
 ===============
 
@@ -118,22 +113,8 @@ be redirected to the right website using GeoIP.
 .. image:: multi_website/multi_website18.png
   :align: center
 
-.. note::
-  Geo IP is installed by default in Flectra Online. If you run Flectra
-  on-premise, don’t forget to install *GeoIP* library.
-  See :doc:`on-premise_geo-ip-installation`
-
-.. seealso::
-   - :doc:`/administration/maintain/domain_names`
-
 If you setup an extra website and specify the domain name you will have to
 do three things to get this feature to work:
-
-#. Setup an A-record in the DNS configuration of your hosting provider so
-   that "www.mywebsite2.ext" is redirected to the IP of your Flectra instance.
-#. Create an extra Nginx ``server`` block in which you set the
-   ``server_name`` that you've set in the :guilabel:`Website domain` field.
-#. Reload and restart your Nginx instance to use the new ``server`` block.
 
 Customize the visitor experience
 ================================

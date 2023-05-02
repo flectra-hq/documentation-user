@@ -142,10 +142,3 @@ books:
     you will have to reconcile entries afterwards (matching payments with
     invoices)
 
-If you use this approach to manage received checks, you can use the
-report **Bank Reconciliation Report** to verify which checks have been
-received or paid by the bank. (this report is available from the **More**
-option from the Accounting dashboard on the related bank account).
-
-.. image:: check/check01.png
-  :align: center

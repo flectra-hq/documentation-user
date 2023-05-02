@@ -30,10 +30,6 @@ Common error messages
 You reached your daily limit:
 *****************************
 
-.. image:: faq/email-limit.png
-   :align: center
-   :alt: Warning in Flectra upon email limit reached
-
 Each email service provider has its own email sending limits. The limits may be daily, hourly,
 and sometimes even per minute. This is the same for Flectra, we have to limit our customers to prevent
 our e-mail servers from being blacklisted.
@@ -89,7 +85,7 @@ providers implement a personalized policy of the bounce emails and it is not alw
 for Flectra to interpret it correctly.
 
 If you have this problem on a recurring basis with the same client or the same domain, please
-do not hesitate to contact `Flectra Support <https://www.flectra.com/help>`_ for help in finding a reason.
+do not hesitate to contact `Flectra Support <https://www.flectrahq.com/help>`_ for help in finding a reason.
 
 Note: in such case, one of the most common reasons is related to :ref:`SPF <email_communication/spf_compliant>`
 and/or :ref:`DKIM <email_communication/DKIM_compliant>` configuration.
@@ -125,18 +121,8 @@ Emails are not received
 
 Depending on the platform you are using:
 
-- The **Flectra.sh** users can find their live logs on the folder :file:`~/logs/`.
-
-- The folder :file:`~/logs/` (preferably accessed by the command line) of an Flectra.sh contains
-  a list of files containing the logs of the database. The log files are created everyday
-  at 5:00 AM UTC. The two last days are not compressed, while the older ones are, in order
-  to gain space. The naming of the files for Today and Yesterday are :file:`flectra.log` and
-  :file:`flectra.log.1`. For the following, they are named with their dates and compressed.
-  See the Flectra.sh documentation about :ref:`logs <odoosh/logs>`. Use the command ``grep`` and
-  ``zgrep`` (for the compressed ones) to search through the files.
-
 - **Flectra Online** users won’t have access to their logs. However you can still contact
-  `Flectra Support <https://www.flectra.com/help>`_ , if you have a recurring issue
+  `Flectra Support <https://www.flectrahq.com/help>`_ , if you have a recurring issue
   with the same client or domain.
 
 Get help from support

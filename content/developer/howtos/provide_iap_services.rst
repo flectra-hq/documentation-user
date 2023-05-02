@@ -22,9 +22,6 @@ App Developer:
 Overview
 ========
 
-.. figure:: provide_iap_service/players.png
-    :align: center
-
     The Players
 
     * The Service Provider is (probably) you the reader, you will be providing
@@ -64,12 +61,8 @@ Overview
 .. note:: In the following explanations we will ignore the External Service,
           they are just a detail of the service you provide.
 
-.. figure:: provide_iap_service/normal.png
-    :align: center
 
-    'Normal' service flow
-
-    If everything goes well, the normal flow is the following:
+   If everything goes well, the normal flow is the following:
 
     1. The Client requests a service of some sort.
     2. The Service Provider asks Flectra if there are enough credits for the
@@ -164,7 +157,7 @@ The service has *seven* important fields:
 
 * :samp:`trial credits` - :class:`Float`: This corresponds to the credits you are ready to offer
   upon first use to your app users. Note that such service will only be available to clients that
-  have an active enterprise contract.
+  have an active professional contract.
 
 * :samp:`privacy policy` - :class:`PrivacyPolicy`: This is an url to the privacy
   policy of your service. This should explicitly mention the **information you collect**,
@@ -172,15 +165,6 @@ The service has *seven* important fields:
   client on how they can **access, update or delete their personal information**.
 
 .. image:: provide_iap_service/menu.png
-    :align: center
-
-.. image:: provide_iap_service/service_list.png
-    :align: center
-
-.. image:: provide_iap_service/creating_service.png
-    :align: center
-
-.. image:: provide_iap_service/service_created.png
     :align: center
 
 You can then create *credit packs* which clients can purchase in order to
@@ -279,9 +263,6 @@ local value via your application and additional parts via a remote service.
             </field>
         </record>
     </flectra>
-
-.. image:: provide_iap_service/button.png
-    :align: center
 
 We can now implement the action method/callback. This will *call our own
 server*.

@@ -685,11 +685,11 @@ Here are some possible arguments for your personalized steps:
        ``target``.
 - **edition**: Optional,
 
-  - If you don't specify an edition, the step will be active in both community and enterprise.
-  - Sometimes, a step will be different in enterprise or in community. You can then write two
-    steps, one for the enterprise edition and one for the community one.
+  - If you don't specify an edition, the step will be active in both community and professional.
+  - Sometimes, a step will be different in professional or in community. You can then write two
+    steps, one for the professional edition and one for the community one.
   - Generally, you want to specify an edition for steps that use the main menu as the main
-    menus are different in community and enterprise.
+    menus are different in community and professional.
 - **position**: Optional, ``"top"``, ``"right"``, ``"bottom"``, or
   ``"left"``. Where to position the tooltip relative to the **target**
   when running interactive tours.
@@ -806,7 +806,7 @@ taken at the moment of the failure and written in
 
 .. code-block:: console
 
-  '/tmp/odoo_tests/{db_name}/screenshots/'
+  '/tmp/flectra_tests/{db_name}/screenshots/'
 
 Two new command line arguments were added since Flectra 13.0 to control this behavior:
 :option:`--screenshots <flectra-bin --screenshots>` and :option:`--screencasts <flectra-bin --screencasts>`

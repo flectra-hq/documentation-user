@@ -33,14 +33,14 @@ FLECTRA and PARTNER are individually referred to as a "Party" and collectively r
 1 Purpose
 =========
 The purpose of this agreement is to set forth the conditions under which FLECTRA provides services to
-PARTNER, access to the Flectra Enterprise Edition software, and under which PARTNER complies with the
+PARTNER, access to the Flectra Professional Edition software, and under which PARTNER complies with the
 obligations set out hereafter.
 
 FLECTRA hereby appoints PARTNER, and PARTNER hereby accepts the appointment, to be a non-exclusive partner
-promoting and selling "Flectra Enterprise Edition" to customers.
+promoting and selling "Flectra Professional Edition" to customers.
 
-PARTNER commits to doing its best effort to sell Flectra Enterprise contracts to its clients.
-To support that, PARTNER will market in priority the "Flectra Enterprise Edition" version to prospects
+PARTNER commits to doing its best effort to sell Flectra Professional contracts to its clients.
+To support that, PARTNER will market in priority the "Flectra Professional Edition" version to prospects
 and customers. PARTNER still has the option to sell services on other versions of the software,
 like "Flectra Community Edition", should it be needed.
 
@@ -51,15 +51,11 @@ It is automatically renewed for an equal Term unless either party provides writt
 termination minimum 30 days before the end of the Term to the other party.
 
 
-3 Access to Flectra Enterprise Edition
-======================================
+3 Access to Flectra Professional Edition
+========================================
 
 3.1 Project platform access
 ---------------------------
-To help PARTNER promote Flectra Enterprise Edition, FLECTRA grants PARTNER access to its project code repository
-for all "Flectra Enterprise Edition" Apps, under the terms set forth in :ref:`appendix_p_a`
-and the conditions restricted under this Agreement.
-
 In addition, FLECTRA grants PARTNER free access to the FLECTRA.SH platform for testing and development
 purposes.
 
@@ -67,16 +63,16 @@ purposes.
 
 3.2 Restrictions
 ----------------
-PARTNER commits to keeping confidentiality of the source code of Flectra Enterprise Edition Apps
-within its staff. Access to the source code of Flectra Enterprise Edition for customers is
-governed by the Flectra Enterprise Subscription Agreement.
+PARTNER commits to keeping confidentiality of the source code of Flectra Professional Edition Apps
+within its staff. Access to the source code of Flectra Professional Edition for customers is
+governed by the Flectra Professional Subscription Agreement.
 PARTNER agrees to NOT redistribute this code to third parties without the written permission of FLECTRA.
 
-PARTNER commits to not offer services on Flectra Enterprise Edition to customers who are not covered
-by an Flectra Enterprise subscription, even during the implementation phase.
+PARTNER commits to not offer services on Flectra Professional Edition to customers who are not covered
+by an Flectra Professional subscription, even during the implementation phase.
 
 Notwithstanding the above, PARTNER commits to wholly preserve the integrity of the
-Flectra Enterprise Edition code that is required to verify the validity of usage of Flectra Enterprise
+Flectra Professional Edition code that is required to verify the validity of usage of Flectra Professional
 Edition and to collect statistics that are needed for that purpose.
 
 
@@ -91,8 +87,8 @@ without visibility as an official partner until they get the required experience
 “Official Partners” is for companies who want the visibility as Ready, Silver, and Gold,
 according to their experience with Flectra.
 
-Partnership level granted to PARTNER depends on the annual new Flectra Enterprise revenue generated
-for FLECTRA (in terms of Flectra Enterprise Users sold), the number of certified resources and the customer
+Partnership level granted to PARTNER depends on the annual new Flectra Professional revenue generated
+for FLECTRA (in terms of Flectra Professional Users sold), the number of certified resources and the customer
 Retention Rate.
 Renewals of existing contracts do not count towards the number of Users Sold, but PARTNER
 still gets a commission on these contracts as stated in section :ref:`benefits`.
@@ -102,7 +98,7 @@ The table below summarizes the requirements that have to be met for each partner
 +--------------------------------------------+------------------+--------------------+--------------------+--------------------+
 |                                            | Learning Partner | Official: Ready    | Official: Silver   | Official: Gold     |
 +============================================+==================+====================+====================+====================+
-| Annual New Flectra Enterprise Users Sold   |   0              |  10                | 75                 | 200                |
+| Annual New Flectra Professional Users Sold |   0              |  10                | 75                 | 200                |
 +--------------------------------------------+------------------+--------------------+--------------------+--------------------+
 | Number of Certified Employees on at least  |   0              |  1                 |  2                 |  3                 |
 | one of the 3 last Flectra versions         |                  |                    |                    |                    |
@@ -110,8 +106,8 @@ The table below summarizes the requirements that have to be met for each partner
 | Minimum Retention Rate                     |   n/a            |  n/a               | 70%                |  80%               |
 +--------------------------------------------+------------------+--------------------+--------------------+--------------------+
 
-The Retention Rate is defined as the ratio between the number of Flectra Enterprise contracts that
-are currently active, and the number of Flectra Enterprise contracts that have been active at some point
+The Retention Rate is defined as the ratio between the number of Flectra Professional contracts that
+are currently active, and the number of Flectra Professional contracts that have been active at some point
 in the last 12 months
 
 Certifications are personal, so when a certified staff member leaves or joins the company,
@@ -153,10 +149,10 @@ The details of the benefits for each level of the partnership are described in t
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | **Software benefits**                 |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Access to Flectra Enterprise source   | Yes              | Yes                | Yes                | Yes                |
+| Access to Flectra Professional source | Yes              | Yes                | Yes                | Yes                |
 | code and Github repository            |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Flectra Enterprise trial extension    | Yes              | Yes                | Yes                | Yes                |
+| Flectra Professional trial extension  | Yes              | Yes                | Yes                | Yes                |
 | code                                  |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | Access to Flectra.sh for testing and  | Yes              | Yes                | Yes                | Yes                |
@@ -167,7 +163,7 @@ The details of the benefits for each level of the partnership are described in t
 | Commission on Flectra SH platform     | 10%              | 50%                | 50%                | 50%                |
 | [#s1]_                                |                  |                    |                    |                    |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
-| Commission on Flectra Enterprise      | 10%              | 10%                | 15%                | 20%                |
+| Commission on Flectra Professional    | 10%              | 10%                | 15%                | 20%                |
 +---------------------------------------+------------------+--------------------+--------------------+--------------------+
 | Commission on Maintenance of          | 82%              | 82%                | 82%                | 82%                |
 | Extra Modules                         |                  |                    |                    |                    |
@@ -232,7 +228,7 @@ PARTNER shall only receive the commission for the Maintenance of Covered Extra M
 as long as the customer does not notify FLECTRA that they want to stop Working with PARTNER.
 
 .. [#pcom1] “Working with an Flectra Partner” and “Covered Extra Modules” are defined in the Flectra
-   Enterprise Subscription Agreement between FLECTRA and customers.
+   Professional Subscription Agreement between FLECTRA and customers.
 
 5 Fees
 ======
@@ -259,7 +255,7 @@ On expiry or termination of this Agreement, PARTNER:
  - shall not use anymore the materials and the Flectra brand name, trademarks and logos or claim
    the existence of any partnership or relationship with FLECTRA ;
  - shall comply with its obligations during any notice period prior to such termination ;
- - may not use Flectra Enterprise anymore, for development, test or production purpose
+ - may not use Flectra Professional anymore, for development, test or production purpose
 
 .. _p_liability:
 
@@ -372,16 +368,3 @@ found shall be finally settled by the Courts of Belgium in Nivelles.
         |hspace| For FLECTRA, |hspace| For PARTNER,
         |vspace|
 
-
-.. _appendix_p_a:
-
-10 Appendix A: Flectra Enterprise Edition License
-=================================================
-
-.. only:: latex
-
-    .. include:: ../licenses/enterprise_license.txt
-
-.. only:: html
-
-    See :ref:`odoo_enterprise_license`.

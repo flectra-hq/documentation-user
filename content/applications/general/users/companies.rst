@@ -89,16 +89,10 @@ First, make sure each one of your companies is properly set in relation to:
 - :doc:`Taxes <../../finance/accounting/taxation/taxes/default_taxes>`
 - :doc:`Fiscal Positions <../../finance/accounting/taxation/taxes/fiscal_positions>`
 - :doc:`Journals <../../finance/accounting/bank/setup/bank_accounts>`
-- :doc:`Fiscal Localizations <../../finance/fiscal_localizations>`
-- :doc:`Pricelists <../../sales/sales/products_prices/prices/pricing>`
 
 Now, activate the *Inter-Company Transactions* option under *Settings*. With the respective company
 *activated* and *selected*, choose if you would like operations between companies to be synchronized
-at an invoice/bills level or at a sales/purchase orders level.
-
-.. image:: companies/inter_company_transactions.png
-   :align: center
-   :alt: View of the settings page emphasizing the inter company transaction field in Flectra
+at an invoice/bills level or at a sales/purchase orders level..
 
 - **Synchronize invoice/bills**: generates a bill/invoice when a company confirms a bill/invoice for
   the selected company.
@@ -117,10 +111,6 @@ at an invoice/bills level or at a sales/purchase orders level.
   *Example:* when a sale order for JS Store US is confirmed on JS Store Belgium, a purchase order
   on JS Store Belgium is automatically created (and confirmed if the *Automatic Validation* feature
   was enabled).
-
-.. image:: companies/purchase_order_inter_company.png
-   :align: center
-   :alt: View of the purchase created on JS Store US from JS Store Belgium in Flectra
 
 .. note::
    Products have to be configured as *Can be sold* and must be shared between the companies.

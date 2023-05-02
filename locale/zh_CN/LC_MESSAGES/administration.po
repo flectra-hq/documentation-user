@@ -724,7 +724,7 @@ msgstr ""
 #: ../../content/administration/install/deploy.rst:417
 msgid ""
 "Say Flectra has been installed via the **debian packages** for Community and "
-"Enterprise and the :option:`--addons-path <flectra-bin --addons-path>` is "
+"Professional and the :option:`--addons-path <flectra-bin --addons-path>` is "
 "``'/usr/lib/python3/dist-packages/flectra/addons'``."
 msgstr ""
 
@@ -738,7 +738,7 @@ msgstr ""
 #: ../../content/administration/install/deploy.rst:442
 msgid ""
 "Say Flectra has been installed via the **source**. The two git repositories for"
-" Community and Enterprise have been cloned in :file:`/opt/flectra/community` "
+" Community and Professional have been cloned in :file:`/opt/flectra/community` "
 "and :file:`/opt/flectra/enterprise` respectively and the :option:`--addons-path"
 " <flectra-bin --addons-path>` is "
 "``'/opt/flectra/community/flectra/addons,/opt/community/addons,/opt/flectra/enterprise'``."
@@ -1326,15 +1326,15 @@ msgstr "版本"
 
 #: ../../content/administration/install/install.rst:35
 msgid ""
-"There are two different Editions_ of Flectra: the Community and Enterprise "
-"versions. Using the Enterprise version is possible on `Flectra Online`_ and "
-"accessing the code is restricted to Enterprise customers and partners. The "
+"There are two different Editions_ of Flectra: the Community and Professional "
+"versions. Using the Professional version is possible on `Flectra Online`_ and "
+"accessing the code is restricted to Professional customers and partners. The "
 "Community version is freely available to anyone."
 msgstr ""
 
 #: ../../content/administration/install/install.rst:40
 msgid ""
-"If you already use the Community version and wish to upgrade to Enterprise, "
+"If you already use the Community version and wish to upgrade to Professional, "
 "please refer to :ref:`setup/enterprise` (except for "
 ":ref:`setup/install/source`)."
 msgstr ""
@@ -1394,7 +1394,7 @@ msgstr "打包安装程序"
 msgid ""
 "Flectra provides packaged installers for Windows, deb-based distributions "
 "(Debian, Ubuntu, …) and RPM-based distributions (Fedora, CentOS, RHEL, …) "
-"for both the Community and Enterprise versions."
+"for both the Community and Professional versions."
 msgstr ""
 "Odoo为Windows，基于deb的发行版（Debian，Ubuntu，...）和基于RPM的发行版（Fedora，CentOS，RHEL等）提供打包的安装程序，用于社区和企业版本。"
 
@@ -1407,9 +1407,9 @@ msgstr "这些包会自动设置所有依赖项（对于社区版本），但可
 #: ../../content/administration/install/install.rst:84
 msgid ""
 "Official Community packages with all relevant dependency requirements are "
-"available on our nightly_ server. Both Community and Enterprise packages can"
+"available on our nightly_ server. Both Community and Professional packages can"
 " be downloaded from our download_ page (you must to be logged in as a paying"
-" customer or partner to download the Enterprise packages)."
+" customer or partner to download the Professional packages)."
 msgstr ""
 
 #: ../../content/administration/install/install.rst:90
@@ -1537,7 +1537,7 @@ msgstr "Flectra S.A.提供了一个可以与 Fedora 发行版一起使用的存�
 
 #: ../../content/administration/install/install.rst:172
 msgid ""
-"At this moment, there is no nightly repository for the Enterprise Edition."
+"At this moment, there is no nightly repository for the Professional Edition."
 msgstr "目前，企业版没有夜间存储库。"
 
 #: ../../content/administration/install/install.rst:175
@@ -1547,7 +1547,7 @@ msgstr ""
 #: ../../content/administration/install/install.rst:181
 msgid ""
 "Instead of using the repository as described above, the 'deb' packages for "
-"both the *Community* and *Enterprise* editions can be downloaded from the "
+"both the *Community* and *Professional* editions can be downloaded from the "
 "`official download page <download_>`_."
 msgstr "无需使用上述存储库，*社区*和*企业*版本的“deb”包都可以从“官方下载页面<download_>”_下载。"
 
@@ -1595,7 +1595,7 @@ msgstr "如果需要此功能，可以使用以下命令手动安装："
 #: ../../content/administration/install/install.rst:222
 msgid ""
 "Instead of using the repository as described above, the 'rpm' packages for "
-"both the *Community* and *Enterprise* editions can be downloaded from the "
+"both the *Community* and *Professional* editions can be downloaded from the "
 "`official download page <download_>`_."
 msgstr "无需使用上述存储库，*社区*和*企业*版本的“rpm”包都可以从“官方下载页面<download_>”_下载。"
 
@@ -1672,7 +1672,7 @@ msgid "`Nightly server <nightly_>`_"
 msgstr "“夜间服务器<nightly_>”_"
 
 #: ../../content/administration/install/install.rst:269
-msgid "Enterprise Edition:"
+msgid "Professional Edition:"
 msgstr "（企业版）"
 
 #: ../../content/administration/install/install.rst:272
@@ -1696,14 +1696,14 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:286
 msgid ""
-"**The Enterprise Git repository does not contain the full Flectra source "
+"**The Professional Git repository does not contain the full Flectra source "
 "code**. It is only a collection of extra add-ons. The main server code is in"
-" the Community version. Running the Enterprise version actually means "
+" the Community version. Running the Professional version actually means "
 "running the server from the Community version with the addons-path option "
-"set to the folder with the Enterprise version. You need to clone both the "
-"Community and Enterprise repository to have a working Flectra Enterprise "
+"set to the folder with the Professional version. You need to clone both the "
+"Community and Professional repository to have a working Flectra Professional "
 "installation. See :ref:`setup/install/editions` to get access to the "
-"Enterprise repository."
+"Professional repository."
 msgstr ""
 "**企业 git 存储库不包含完整的 Flectra 源代码** "
 "。它只是额外附加组件的集合。主服务器代码位于社区版本中。运行企业版实际上意味着从社区版本运行服务器，并将插件路径选项设置为具有企业版的文件夹。您需要克隆社区和企业存储库才能进行"
@@ -1731,12 +1731,12 @@ msgstr "Mac OS"
 
 #: ../../content/administration/install/install.rst:350
 msgid ""
-"**The Enterprise git repository does not contain the full Flectra source "
+"**The Professional git repository does not contain the full Flectra source "
 "code**. It is only a collection of extra add-ons. The main server code is in"
-" the Community version. Running the Enterprise version actually means "
+" the Community version. Running the Professional version actually means "
 "running the server from the Community version with the addons-path option "
-"set to the folder with the Enterprise version. You need to clone both the "
-"Community and Enterprise repository to have a working Flectra Enterprise "
+"set to the folder with the Professional version. You need to clone both the "
+"Community and Professional repository to have a working Flectra Professional "
 "installation."
 msgstr ""
 "**企业 git 存储库不包含完整的 Flectra "
@@ -2062,7 +2062,7 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:658
 msgid ""
-"For the Enterprise edition, you must add the path to the `enterprise` addons"
+"For the Professional edition, you must add the path to the `enterprise` addons"
 " to the `addons-path` argument. Note that it must come before the other "
 "paths in `addons-path` for addons to be loaded correctly."
 msgstr "对于企业版，必须将“企业”插件的路径添加到“插件路径”参数中。请注意，它必须位于“插件路径”中的其他路径之前，才能正确加载插件。"
@@ -3238,7 +3238,7 @@ msgid ":doc:`/applications/general/email_communication/email_servers`"
 msgstr ":doc:`/applications/general/email_communication/email_servers`"
 
 #: ../../content/administration/maintain/enterprise.rst:6
-msgid "Upgrade Community to Enterprise"
+msgid "Upgrade Community to Professional"
 msgstr "将社区升级到企业"
 
 #: ../../content/administration/maintain/enterprise.rst:8
@@ -3268,7 +3268,7 @@ msgid "Restart your server"
 msgstr "重新启动服务器"
 
 #: ../../content/administration/maintain/enterprise.rst:23
-msgid "Enter your Flectra Enterprise Subscription code"
+msgid "Enter your Flectra Professional Subscription code"
 msgstr "输入您的 Flectra 企业订阅代码"
 
 #: ../../content/administration/maintain/enterprise.rst:29
@@ -3290,9 +3290,9 @@ msgstr "使用将数据库更新到企业包"
 
 #: ../../content/administration/maintain/enterprise.rst:51
 msgid ""
-"You should be able to connect to your Flectra Enterprise instance using your "
+"You should be able to connect to your Flectra Professional instance using your "
 "usual mean of identification. You can then link your database with your Flectra"
-" Enterprise Subscription by entering the code you received by e-mail in the "
+" Professional Subscription by entering the code you received by e-mail in the "
 "form input"
 msgstr ""
 "您应该能够使用通常的识别方式连接到您的Odoo企业版实例。然后，您可以通过在表单输入中输入通过电子邮件收到的代码，将您的数据库与Odoo企业订阅链接"
@@ -3326,7 +3326,7 @@ msgstr "根据数据库的大小，这可能需要一些时间。"
 msgid ""
 "Restart your server with the updated addons path of point 3. You should be "
 "able to connect to your instance. You can then link your database with your "
-"Flectra Enterprise Subscription by entering the code you received by e-mail in "
+"Flectra Professional Subscription by entering the code you received by e-mail in "
 "the form input"
 msgstr ""
 "使用第 3 "
@@ -3344,7 +3344,7 @@ msgstr "卸载 Flectra 社区（使用安装文件夹中的卸载可执行文件
 
 #: ../../content/administration/maintain/enterprise.rst:88
 msgid ""
-"Launch the Flectra Enterprise Installer and follow the steps normally. When "
+"Launch the Flectra Professional Installer and follow the steps normally. When "
 "choosing the installation path, you can set the folder of the Community "
 "installation (this folder still contains the PostgreSQL installation). "
 "Uncheck ``Start Flectra`` at the end of the installation"
@@ -3361,8 +3361,8 @@ msgstr "使用命令窗口，使用此命令更新 Flectra 数据库（从 Flect
 #: ../../content/administration/maintain/enterprise.rst:103
 msgid ""
 "No need to manually launch the server, the service is running. You should be"
-" able to connect to your Flectra Enterprise instance using your usual mean of "
-"identification. You can then link your database with your Flectra Enterprise "
+" able to connect to your Flectra Professional instance using your usual mean of "
+"identification. You can then link your database with your Flectra Professional "
 "Subscription by entering the code you received by e-mail in the form input"
 msgstr ""
 "无需手动启动服务器，服务正在运行。您应该能够使用通常的识别方式连接到您的Odoo企业版实例。然后，您可以通过在表单输入中输入通过电子邮件收到的代码，将您的数据库与Odoo企业订阅链接"
@@ -4601,7 +4601,7 @@ msgid "Solutions"
 msgstr "解决方案"
 
 #: ../../content/administration/maintain/on_premise.rst:29
-msgid "Do you have a valid Enterprise subscription?"
+msgid "Do you have a valid Professional subscription?"
 msgstr "你的企业订阅号码是有效的吗？"
 
 #: ../../content/administration/maintain/on_premise.rst:31
@@ -4706,7 +4706,7 @@ msgstr "因用户过多而引发的错误信息"
 #: ../../content/administration/maintain/on_premise.rst:88
 msgid ""
 "If you have more users in your local database than provisionned in your Flectra"
-" Enterprise subscription, you may encounter this message:"
+" Professional subscription, you may encounter this message:"
 msgstr "如你本地数据库的用户数高于Odoo企业订阅的购买量，可能会收到以下提示："
 
 #: ../../content/administration/maintain/on_premise.rstNone
@@ -5177,7 +5177,7 @@ msgstr "更新（Flectra 安装）"
 #: ../../content/administration/maintain/update.rst:21
 msgid ""
 "Refers to the process of obtaining the latest revision of the source code "
-"for your current Flectra Edition. For example, updating your Flectra Enterprise "
+"for your current Flectra Edition. For example, updating your Flectra Professional "
 "13.0 to the latest revision. This does not directly cause any change to the "
 "contents of your Flectra database, and can be undone by reinstalling the "
 "previous revision of the source code."
@@ -5254,8 +5254,8 @@ msgstr "步骤1：下载更新的Odoo版本"
 #: ../../content/administration/maintain/update.rst:66
 msgid ""
 "The central download page is https://www.flectra.com/page/download. If you see "
-"a \"Buy\" link for the Flectra Enterprise download, make sure you are logged "
-"into Flectra.com with the same login that is linked to your Flectra Enterprise "
+"a \"Buy\" link for the Flectra Professional download, make sure you are logged "
+"into Flectra.com with the same login that is linked to your Flectra Professional "
 "subscription."
 msgstr ""
 "中央下载页面 "
@@ -5265,7 +5265,7 @@ msgstr ""
 #: ../../content/administration/maintain/update.rst:70
 msgid ""
 "Alternatively, you can use the unique download link that was included with "
-"your Flectra Enterprise purchase confirmation email."
+"your Flectra Professional purchase confirmation email."
 msgstr "或者，您可以使用Odoo企业版购买确认电子邮件中包含的唯一下载链接。"
 
 #: ../../content/administration/maintain/update.rst:73
@@ -5370,7 +5370,7 @@ msgid ""
 "If you have originally installed Flectra with a full Github clone of the "
 "official repositories, the update procedure requires you to pull the latest "
 "source code via git. Change into the directory for each repository (the main"
-" Flectra repository, and the Enterprise repository), and run the following "
+" Flectra repository, and the Professional repository), and run the following "
 "commands::"
 msgstr ""
 "如果您最初安装Odoo时带有官方存储库的完整Github克隆，则更新过程要求您通过git提取最新的源代码。切换到每个存储库（主 Flectra "
@@ -7240,13 +7240,13 @@ msgstr "输入您的*订阅代码*。这也称为*订阅推荐*，*合同号*或
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:58
 msgid ""
-"It should be the code of your Enterprise subscription that includes Flectra.sh."
+"It should be the code of your Professional subscription that includes Flectra.sh."
 msgstr "它应该是包含 Flectra.sh 的企业订阅的代码。"
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:60
 msgid ""
 "Partners can use their partnership codes to start a trial. Should their "
-"clients start a project, they ought to get an Enterprise subscription "
+"clients start a project, they ought to get an Professional subscription "
 "including Flectra.sh and use its subscription code. The partner will get 50% of"
 " the amount back as commission. Contact your sales representative or account"
 " manager in order to get it."
@@ -8756,7 +8756,7 @@ msgstr "升级不包括："
 #: ../../content/administration/upgrade.rst:24
 msgid ""
 "Changing :ref:`editions <upgrade-faq/editions-change>` (i.e., Community to "
-"Enterprise edition)"
+"Professional edition)"
 msgstr "更改 ：ref：`版本<升级-faq/editions-change>`（即社区版到企业版）"
 
 #: ../../content/administration/upgrade.rst:25
@@ -9124,7 +9124,7 @@ msgid "Service Level Agreement"
 msgstr "服务水平协议"
 
 #: ../../content/administration/upgrade.rst:226
-msgid "What is covered by the Enterprise Licence?"
+msgid "What is covered by the Professional Licence?"
 msgstr "企业牌照涵盖哪些内容？"
 
 #: ../../content/administration/upgrade.rst:228
@@ -9185,8 +9185,8 @@ msgstr "最新版本上的“培训<https://www.flectra.com/learn>”_"
 
 #: ../../content/administration/upgrade.rst:249
 msgid ""
-"You can get more information about your Enterprise Licence on our :ref:`Flectra"
-" Enterprise Subscription Agreement <upgrade>` page."
+"You can get more information about your Professional Licence on our :ref:`Flectra"
+" Professional Subscription Agreement <upgrade>` page."
 msgstr "您可以在我们的：ref：`Odoo企业订阅协议`页面上获取有关您的企业许可证 <upgrade>的更多信息。</upgrade>"
 
 #: ../../content/administration/upgrade.rst:255
@@ -9342,12 +9342,12 @@ msgstr ""
 "change>`或：ref：`hosting type <upgrade-faq/hosting-types-switch>`的更改。"
 
 #: ../../content/administration/upgrade/faq.rst:97
-msgid "Editions change (from Community to Enterprise)"
+msgid "Editions change (from Community to Professional)"
 msgstr "版本更改（从社区更改为企业）"
 
 #: ../../content/administration/upgrade/faq.rst:99
 msgid ""
-"The upgrade always returns an Enterprise edition of Flectra, whether the "
+"The upgrade always returns an Professional edition of Flectra, whether the "
 "database you sent was a community or enterprise edition. It is required to "
 "have an enterprise subscription to upgrade."
 msgstr "升级始终返回Odoo的企业版，无论您发送的数据库是社区版还是企业版。需要具有企业订阅才能升级。"

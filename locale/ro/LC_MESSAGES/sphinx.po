@@ -177,8 +177,8 @@ msgid "Terms and Conditions"
 msgstr "Termeni și condiții"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:34
-msgid "Flectra Enterprise Agreement"
-msgstr "Contract Flectra Enterprise"
+msgid "Flectra Professional Agreement"
+msgstr "Contract Flectra Professional"
 
 #: ../../extensions/odoo_theme/layout_templates/legal.html:36
 msgid "Applies to self-hosting, Flectra.SH and Flectra Cloud."

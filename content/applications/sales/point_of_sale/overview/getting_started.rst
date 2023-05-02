@@ -45,9 +45,7 @@ payments, or :guilabel:`Bank` to use it for card payments.
 
      - :doc:`Adyen configuration <../payment/adyen>`
      - :doc:`Vantiv configuration <../payment/vantiv>`
-     - :doc:`Ingenico configuration <../payment/ingenico>`
      - :doc:`Six configuration <../payment/six>`
-     - :doc:`Worldline configuration <../payment/worldline>`
 
 Once the payment method is created, you can select it in your POS settings. To do so, go to
 :menuselection:`Point of Sale --> Configuration --> Settings`. Select a POS for which you wish to

@@ -28,11 +28,6 @@ to the :abbr:`SO (sales order)`.
 The imported tracking numbers appear below the tracked products. You can modify them by clicking on
 the list-view button next to the products.
 
-.. image:: serial_numbers/pos-sn-imported.png
-   :align: center
-   :width: 480
-   :alt: Pop-up window for serial number import
-
 .. seealso::
    - :doc:`../shop/sales_order`
 

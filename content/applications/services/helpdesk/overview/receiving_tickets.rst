@@ -17,56 +17,20 @@ features as you want them to be available to your users.
    :align: center
    :alt: View of a helpdesk teams setting page emphasizing the channels options in Flectra Helpdesk
 
-Email Alias
------------
-
-| Let your customers submit tickets by sending an email to your support email address. The subject
-  line of the email becomes the title of the ticket and the content is shown in the Chatter.
-| Select *Configure domain name* to be redirected to *Settings* and, from there, enable *External
-  Email Servers* to determine or change your *Alias Domain*.
-
-.. image:: receiving_tickets/channels_emailalias.png
-   :align: center
-   :height: 250
-   :alt: View of the settings page of a helpdesk team emphasizing the email alias feature
-         in Flectra Helpdesk
-
 .. note::
    Using your own email server is required to send and receive emails in Flectra Community and
-   Enterprise. Online users benefit from a ready-to-use email server.
+   Professional. Online users benefit from a ready-to-use email server.
 
 Website Form
 ------------
 
 | Allow your customers to submit a ticket by filling in a form through your website.
-| Once the feature is activated, get redirected to your website by clicking on *Go to Website*.
-
-.. image:: receiving_tickets/go_to_website.png
-   :align: center
-   :alt: View of the settings page of a helpdesk team emphasizing the Go to Website button in
-         Flectra Helpdesk
 
 From the website page customize the form as you like. Then, publish it by clicking on *Unpublished*.
 
 .. image:: receiving_tickets/submit_a_ticket_form.png
    :align: center
    :alt: View of the website form to submit a ticket for Flectra Helpdesk
-
-Live Chat
----------
-
-| Through live interactions with your website visitors, helpdesk tickets can be instantly created
-  and redirected to the right person.
-| Click on your helpdesk team's name - for the example below: *Customer Care* -
-  and :doc:`set up your channel </applications/websites/livechat/overview/get_started>`.
-
-.. image:: receiving_tickets/live_chat.png
-   :align: center
-   :alt: View of the settings page of a helpdesk team emphasizing the live chat features and links
-         in Flectra Helpdesk
-
-Now, your operators can create tickets by using the
-:doc:`command </applications/websites/livechat/overview/responses>` */helpdesk (subject_of_ticket)*.
 
 Prioritize tickets
 ==================
@@ -82,8 +46,3 @@ the Kanban view.
    :align: center
    :height: 330
    :alt: View of a team’s kanban view and the prioritized tasks in Flectra Helpdesk
-
-.. seealso::
-   - :doc:`sla`
-   - :doc:`../advanced/close_tickets`
-   - :doc:`/applications/general/email_communication/email_servers`

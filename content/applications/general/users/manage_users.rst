@@ -34,10 +34,6 @@ Go to :menuselection:`Settings --> Manage Users` and click on *Create*.
 When you are done editing the page and have *Saved* it, an invitation email is automatically sent to
 the user. The user must click on it to accept the invitation and create a login.
 
-.. image:: manage_users/invitation-email.png
-   :align: center
-   :alt: View of a user’s form with a notification that the invitation email has been sent in Flectra
-
 .. note::
    Remember that subscription prices follow the number of users. Refer to our
    `pricing page <https://www.flectra.com/pricing>`_

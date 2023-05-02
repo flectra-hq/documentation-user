@@ -10,8 +10,8 @@ Powerbox
 ========
 
 The Powerbox is a piece of user interface that contains
-:ref:`commands <reference/frontend/odoo_editor/powerbox/command>` organized
-into :ref:`categories <reference/frontend/odoo_editor/powerbox/category>`. It
+:ref:`commands <reference/frontend/flectra_editor/powerbox/command>` organized
+into :ref:`categories <reference/frontend/flectra_editor/powerbox/category>`. It
 appears when typing `/` in the editor. The commands can be filtered when the
 user inputs text, and navigated with the arrow keys.
 
@@ -92,14 +92,14 @@ the Powerbox and pass it your custom commands and categories.
     We need the current instance of the Powerbox, which can be found in the
     current editor. In the `Wysiwyg class
     <{GITHUB_PATH}/addons/web_editor/static/src/js/wysiwyg/wysiwyg.js>`_, you
-    will find it as `this.odooEditor.powerbox`.
+    will find it as `this.flectraEditor.powerbox`.
 
     Now to open it with our custom "Document" command in a custom
     "Documentation" category:
 
     .. code-block:: javascript
 
-      this.odooEditor.powerbox.open(
+      this.flectraEditor.powerbox.open(
           [{
               name: _t('Document'),
               category: _t('Documentation'),
@@ -119,9 +119,9 @@ Filtering commands
 There are three ways to filter commands:
 
 #. Via the `powerboxFilters`
-   :ref:`Powerbox option <reference/frontend/odoo_editor/powerbox/options>`.
+   :ref:`Powerbox option <reference/frontend/flectra_editor/powerbox/options>`.
 #. Via a given
-   :ref:`command <reference/frontend/odoo_editor/powerbox/command>`'s
+   :ref:`command <reference/frontend/flectra_editor/powerbox/command>`'s
    `isDisabled` entry.
 #. The user can filter commands by simply typing text after opening the
    Powerbox. It will fuzzy-match that text with the names of the categories and
@@ -134,7 +134,7 @@ There are three ways to filter commands:
 Reference
 ---------
 
-.. _reference/frontend/odoo_editor/powerbox/category:
+.. _reference/frontend/flectra_editor/powerbox/category:
 
 Category
 ~~~~~~~~
@@ -160,7 +160,7 @@ Category
     one. Its priority will be that defined in the version of the category that
     was declared last.
 
-.. _reference/frontend/odoo_editor/powerbox/command:
+.. _reference/frontend/flectra_editor/powerbox/command:
 
 Command
 ~~~~~~~
@@ -201,12 +201,12 @@ Command
     If the command points to a category that doesn't exist yet, that category
     will be created and appended at the end of the Powerbox.
 
-.. _reference/frontend/odoo_editor/powerbox/options:
+.. _reference/frontend/flectra_editor/powerbox/options:
 
 Options
 ~~~~~~~
 
-The following options can be passed to OdooEditor, that will then be passed to
+The following options can be passed to FlectraEditor, that will then be passed to
 the instance of the Powerbox:
 
 .. list-table::

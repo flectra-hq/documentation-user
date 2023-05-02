@@ -173,11 +173,11 @@ msgid "Flectra 16 Community Edition is licensed under `LGPL version 3 <http://ww
 msgstr ""
 
 #: ../../content/legal/licenses.rst:22
-msgid "Flectra 16 Enterprise Edition"
+msgid "Flectra 16 Professional Edition"
 msgstr ""
 
 #: ../../content/legal/licenses.rst:24
-msgid "Flectra 16 Enterprise Edition is licensed under the Flectra Enterprise Edition License v1.0, defined as follows:"
+msgid "Flectra 16 Professional Edition is licensed under the Flectra Professional Edition License v1.0, defined as follows:"
 msgstr ""
 
 #: ../../content/legal/licenses/enterprise_license.txt:1
@@ -185,13 +185,13 @@ msgstr ""
 #: ../../content/legal/licenses/enterprise_license.txt:1
 #: ../../content/legal/terms/i18n/partnership_fr.rst:409
 #: ../../content/legal/licenses/enterprise_license.txt:1
-msgid "Flectra Enterprise Edition License v1.0"
+msgid "Flectra Professional Edition License v1.0"
 msgstr ""
 
 #: ../../content/legal/licenses/enterprise_license.txt:3
 #: ../../content/legal/licenses/enterprise_license.txt:3
 #: ../../content/legal/licenses/enterprise_license.txt:3
-msgid "This software and associated files (the \"Software\") can only be used (executed, modified, executed after modifications) with a valid Flectra Enterprise Subscription for the correct number of users."
+msgid "This software and associated files (the \"Software\") can only be used (executed, modified, executed after modifications) with a valid Flectra Professional Subscription for the correct number of users."
 msgstr ""
 
 #: ../../content/legal/licenses/enterprise_license.txt:7
@@ -203,13 +203,13 @@ msgstr ""
 #: ../../content/legal/licenses/enterprise_license.txt:11
 #: ../../content/legal/licenses/enterprise_license.txt:11
 #: ../../content/legal/licenses/enterprise_license.txt:11
-msgid "You may develop Flectra modules based on the Software and distribute them under the license of your choice, provided that it is compatible with the terms of the Flectra Enterprise Edition License (For example: LGPL, MIT, or proprietary licenses similar to this one)."
+msgid "You may develop Flectra modules based on the Software and distribute them under the license of your choice, provided that it is compatible with the terms of the Flectra Professional Edition License (For example: LGPL, MIT, or proprietary licenses similar to this one)."
 msgstr ""
 
 #: ../../content/legal/licenses/enterprise_license.txt:16
 #: ../../content/legal/licenses/enterprise_license.txt:16
 #: ../../content/legal/licenses/enterprise_license.txt:16
-msgid "You may use Flectra modules published under any license along with the Software, provided that their license is compatible with the terms of the Flectra Enterprise License (Including, but not limited to, any module published on the Flectra Apps Store on flectra.com/apps)"
+msgid "You may use Flectra modules published under any license along with the Software, provided that their license is compatible with the terms of the Flectra Professional License (Including, but not limited to, any module published on the Flectra Apps Store on flectra.com/apps)"
 msgstr ""
 
 #: ../../content/legal/licenses/enterprise_license.txt:21
@@ -264,7 +264,7 @@ msgid "Flectra 9 - Flectra 15"
 msgstr ""
 
 #: ../../content/legal/licenses.rst:92
-msgid "The licenses for both Community Edition and Enterprise Edition of all Flectra versions since Flectra 9 are respectively the same as for :ref:`odoo_community_license` and :ref:`odoo_enterprise_license`."
+msgid "The licenses for both Community Edition and Professional Edition of all Flectra versions since Flectra 9 are respectively the same as for :ref:`odoo_community_license` and :ref:`odoo_enterprise_license`."
 msgstr ""
 
 #: ../../content/legal/licenses.rst:100
@@ -280,7 +280,7 @@ msgid "Terms and Conditions"
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:5
-msgid "Flectra Enterprise Subscription Agreement"
+msgid "Flectra Professional Subscription Agreement"
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:9
@@ -294,7 +294,7 @@ msgid "Version 10a - 2022-10-27"
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:26
-msgid "By subscribing to the Flectra Enterprise services (the \"Services\") provided by Flectra SA and its affiliates (collectively, \"Flectra SA\") in relation with Flectra Enterprise Edition or Flectra Community Edition (the \"Software\"), hosted on Flectra SA's Cloud platforms (the \"Cloud Platform\") or on-premises (\"Self-Hosting\"), you (the \"Customer\") are agreeing to be bound by the following terms and conditions (the \"Agreement\")."
+msgid "By subscribing to the Flectra Professional services (the \"Services\") provided by Flectra SA and its affiliates (collectively, \"Flectra SA\") in relation with Flectra Professional Edition or Flectra Community Edition (the \"Software\"), hosted on Flectra SA's Cloud platforms (the \"Cloud Platform\") or on-premises (\"Self-Hosting\"), you (the \"Customer\") are agreeing to be bound by the following terms and conditions (the \"Agreement\")."
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:35
@@ -390,11 +390,11 @@ msgid "The Customer can use the Software hosted on the Cloud Platform, or choose
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:100
-msgid "For the duration of this Agreement, Flectra SA gives the Customer a non-exclusive, non-transferable license to use (execute, modify, execute after modification) the Flectra Enterprise Edition software, under the terms set forth in :ref:`appendix_a`."
+msgid "For the duration of this Agreement, Flectra SA gives the Customer a non-exclusive, non-transferable license to use (execute, modify, execute after modification) the Flectra Professional Edition software, under the terms set forth in :ref:`appendix_a`."
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:104
-msgid "The Customer agrees to take all necessary measures to guarantee the unmodified execution of the part of the Software that verifies the validity of the Flectra Enterprise Edition usage and collects statistics for that purpose, including but not limited to the running of an instance, the number of Users, the installed Apps, and the number of lines of code of Covered Extra Modules."
+msgid "The Customer agrees to take all necessary measures to guarantee the unmodified execution of the part of the Software that verifies the validity of the Flectra Professional Edition usage and collects statistics for that purpose, including but not limited to the running of an instance, the number of Users, the installed Apps, and the number of lines of code of Covered Extra Modules."
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:109
@@ -402,7 +402,7 @@ msgid "Flectra SA commits not to disclose individual or named figures to third p
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:113
-msgid "Upon expiration or termination of this Agreement, this license is revoked immediately and the Customer agrees to stop using the Flectra Enterprise Edition software and the Cloud Platform."
+msgid "Upon expiration or termination of this Agreement, this license is revoked immediately and the Customer agrees to stop using the Flectra Professional Edition software and the Cloud Platform."
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:116
@@ -568,7 +568,7 @@ msgid "5.1 Standard charges"
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:282
-msgid "The standard charges for the Flectra Enterprise subscription and the Services are based on the number of Users and the Subscription Plan used by the Customer, and specified in writing at the conclusion of the Agreement."
+msgid "The standard charges for the Flectra Professional subscription and the Services are based on the number of Users and the Subscription Plan used by the Customer, and specified in writing at the conclusion of the Agreement."
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:286
@@ -620,7 +620,7 @@ msgid "immediately notify Flectra SA when their actual number of Users exceeds t
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:340
-msgid "take all measures necessary to guarantee the unmodified execution of the part of the Software that verifies the validity of the Flectra Enterprise Edition usage, as described in :ref:`enterprise_access` ;"
+msgid "take all measures necessary to guarantee the unmodified execution of the part of the Software that verifies the validity of the Flectra Professional Edition usage, as described in :ref:`enterprise_access` ;"
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:343
@@ -652,7 +652,7 @@ msgid "take all reasonable measures to protect Customer’s files and databases 
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:359
-msgid "grant Flectra SA the necessary access to verify the validity of the Flectra Enterprise Edition usage upon request (e.g. if the automatic validation is found to be inoperant for the Customer)."
+msgid "grant Flectra SA the necessary access to verify the validity of the Flectra Professional Edition usage upon request (e.g. if the automatic validation is found to be inoperant for the Customer)."
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:366
@@ -870,11 +870,11 @@ msgid "In case any one or more of the provisions of this Agreement or any applic
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:599
-msgid "9 Appendix A: Flectra Enterprise Edition License"
+msgid "9 Appendix A: Flectra Professional Edition License"
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:603
-msgid "Flectra Enterprise Edition is licensed under the Flectra Enterprise Edition License v1.0, defined as follows:"
+msgid "Flectra Professional Edition is licensed under the Flectra Professional Edition License v1.0, defined as follows:"
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:612
@@ -916,7 +916,7 @@ msgid "Signature:"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:6
-msgid "Flectra Enterprise Abonnementsvertrag"
+msgid "Flectra Professional Abonnementsvertrag"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:10
@@ -924,7 +924,7 @@ msgid "`Download PDF <odoo_enterprise_agreement_de.pdf>`_"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:12
-msgid "Dies ist eine deutsche Übersetzung des \"Flectra Enterprise Subscription Agreement\". Diese Übersetzung soll das Verständnis erleichtern, hat aber keinen rechtlichen Wert. Der einzige offizielle Verweis auf die Geschäftsbedingungen des \"Flectra Enterprise Subscription Agreement\" ist :ref:`die englische Original version <enterprise_agreement>`."
+msgid "Dies ist eine deutsche Übersetzung des \"Flectra Professional Subscription Agreement\". Diese Übersetzung soll das Verständnis erleichtern, hat aber keinen rechtlichen Wert. Der einzige offizielle Verweis auf die Geschäftsbedingungen des \"Flectra Professional Subscription Agreement\" ist :ref:`die englische Original version <enterprise_agreement>`."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:18
@@ -937,7 +937,7 @@ msgid "Version 9c - 2020-06-15"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:34
-msgid "Indem Sie (der \"Kunde\") die Flectra Enterprise-Dienstleistungen (die \"Dienstleistungen\"), die von Flectra SA und seinen verbundenen Unternehmen (zusammen \"Flectra SA\") in Verbindung mit der Flectra Enterprise Edition oder der Flectra Community Edition (die \"Software\") bereitgestellt und auf den Cloud- Plattformen von Flectra SA (die \"Cloud-Plattform\") oder vor Ort (\"Self-Hosting\") gehostet werden, abonnieren, erklären Sie sich mit den folgenden Bedingungen einverstanden (die \"Vereinbarung\")."
+msgid "Indem Sie (der \"Kunde\") die Flectra Professional-Dienstleistungen (die \"Dienstleistungen\"), die von Flectra SA und seinen verbundenen Unternehmen (zusammen \"Flectra SA\") in Verbindung mit der Flectra Professional Edition oder der Flectra Community Edition (die \"Software\") bereitgestellt und auf den Cloud- Plattformen von Flectra SA (die \"Cloud-Plattform\") oder vor Ort (\"Self-Hosting\") gehostet werden, abonnieren, erklären Sie sich mit den folgenden Bedingungen einverstanden (die \"Vereinbarung\")."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:43
@@ -1009,11 +1009,11 @@ msgid "Der Kunde kann die auf der Cloud-Plattform gehostete Software nutzen oder
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:106
-msgid "Flectra SA gewährt dem Kunden für die Dauer dieser Vereinbarung eine nicht exklusive, nicht übertragbare Lizenz zur Nutzung (Ausführung, Änderung, Ausführung nach Änderung) der Flectra Enterprise Edition Software unter den in :ref:`appendix_a_de` genannten Bedingungen."
+msgid "Flectra SA gewährt dem Kunden für die Dauer dieser Vereinbarung eine nicht exklusive, nicht übertragbare Lizenz zur Nutzung (Ausführung, Änderung, Ausführung nach Änderung) der Flectra Professional Edition Software unter den in :ref:`appendix_a_de` genannten Bedingungen."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:110
-msgid "Der Kunde verpflichtet sich, alle erforderlichen Maßnahmen zu ergreifen, um die unveränderte Ausführung des Teils der Software zu gewährleisten, der die Gültigkeit der Nutzung der Flectra Enterprise Edition überprüft und zu diesem Zweck Statistiken sammelt, unter anderem zur Ausführung einer Instanz, der Anzahl der Benutzer, den installierten Apps und der Anzahl der Codezeilen der unterstützten Zusatzmodule."
+msgid "Der Kunde verpflichtet sich, alle erforderlichen Maßnahmen zu ergreifen, um die unveränderte Ausführung des Teils der Software zu gewährleisten, der die Gültigkeit der Nutzung der Flectra Professional Edition überprüft und zu diesem Zweck Statistiken sammelt, unter anderem zur Ausführung einer Instanz, der Anzahl der Benutzer, den installierten Apps und der Anzahl der Codezeilen der unterstützten Zusatzmodule."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:116
@@ -1021,7 +1021,7 @@ msgid "Flectra SA verpflichtet sich, ohne Zustimmung des Kunden keine individuel
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:120
-msgid "Bei Ablauf oder Kündigung dieser Vereinbarung wird diese Lizenz unverzüglich widerrufen und der Kunde verpflichtet sich, die Nutzung der Flectra Enterprise Edition Software und der Cloud-Plattform einzustellen."
+msgid "Bei Ablauf oder Kündigung dieser Vereinbarung wird diese Lizenz unverzüglich widerrufen und der Kunde verpflichtet sich, die Nutzung der Flectra Professional Edition Software und der Cloud-Plattform einzustellen."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:124
@@ -1181,7 +1181,7 @@ msgid "5.1 Standardkosten"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:292
-msgid "Die Standardkosten für das Flectra Enterprise Abonnement und die Dienstleistungen basieren auf der Anzahl der Benutzer und der installierten Apps, die der Kunde nutzt, und werden bei Vertragsabschluss schriftlich festgehalten."
+msgid "Die Standardkosten für das Flectra Professional Abonnement und die Dienstleistungen basieren auf der Anzahl der Benutzer und der installierten Apps, die der Kunde nutzt, und werden bei Vertragsabschluss schriftlich festgehalten."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:296
@@ -1233,7 +1233,7 @@ msgid "Flectra SA unverzüglich zu benachrichtigen, wenn die tatsächliche Anzah
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:349
-msgid "alle erforderlichen Maßnahmen zu ergreifen, um die unveränderte Ausführung des Teils der Software zu gewährleisten, der die Gültigkeit der Nutzung der Flectra Enterprise Edition prüft, wie in :ref:`enterprise_access_de` beschrieben;"
+msgid "alle erforderlichen Maßnahmen zu ergreifen, um die unveränderte Ausführung des Teils der Software zu gewährleisten, der die Gültigkeit der Nutzung der Flectra Professional Edition prüft, wie in :ref:`enterprise_access_de` beschrieben;"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:352
@@ -1265,7 +1265,7 @@ msgid "alle angemessenen Maßnahmen zu ergreifen, um seine Dateien und Datenbank
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:372
-msgid "Flectra SA den notwendigen Zugang zu gewähren, um die Gültigkeit der Nutzung der Flectra Enterprise Edition auf Anfrage überprüfen zu können (z.B. wenn die automatische Validierung für den Kunden nicht funktioniert)"
+msgid "Flectra SA den notwendigen Zugang zu gewähren, um die Gültigkeit der Nutzung der Flectra Professional Edition auf Anfrage überprüfen zu können (z.B. wenn die automatische Validierung für den Kunden nicht funktioniert)"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:379
@@ -1481,11 +1481,11 @@ msgid "Sollten eine oder mehrere Bestimmungen dieser Vereinbarung oder ihrer Anw
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:615
-msgid "9. Anhang A: Flectra Enterprise Edition-Lizenz"
+msgid "9. Anhang A: Flectra Professional Edition-Lizenz"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:619
-msgid "Die Flectra Enterprise Edition ist unter nachstehend definierten der Flectra Enterprise Edition Lizenz v1.0 lizenziert:"
+msgid "Die Flectra Professional Edition ist unter nachstehend definierten der Flectra Professional Edition Lizenz v1.0 lizenziert:"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:628
@@ -1493,7 +1493,7 @@ msgid "Siehe :ref:`odoo_enterprise_license`."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:6
-msgid "Acuerdo de suscripción de Flectra Enterprise"
+msgid "Acuerdo de suscripción de Flectra Professional"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:10
@@ -1501,11 +1501,11 @@ msgid "`Download PDF <odoo_enterprise_agreement_es.pdf>`_"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:12
-msgid "Esta es una traducción al español del \"Flectra Enterprise Subscription Agreement\". Esta traducción se proporciona con la esperanza de que facilite la comprensión, pero no tiene valor legal. La única referencia oficial de los términos y condiciones del \"Flectra Enterprise Subscription Agreement\" es :ref:`la versión original en inglés <enterprise_agreement>`"
+msgid "Esta es una traducción al español del \"Flectra Professional Subscription Agreement\". Esta traducción se proporciona con la esperanza de que facilite la comprensión, pero no tiene valor legal. La única referencia oficial de los términos y condiciones del \"Flectra Professional Subscription Agreement\" es :ref:`la versión original en inglés <enterprise_agreement>`"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:21
-msgid "Al suscribirse a los servicios de Flectra Enterprise (en adelante “los Servicios”) proporcionados por Flectra SA y sus filiales (en adelante denominadas conjuntamente “Flectra SA”), relacionados con las versiones Flectra Enterprise o Flectra community (en adelante “el Software”) y alojados en los servidores de la nube de Flectra SA (en adelante “Servicio en la Nube”) o en servidores locales (en adelante “Auto-hospedaje”), usted (en adelante “el Cliente”) acepta los términos y condiciones establecidos a continuación (en adelante “el Acuerdo”)."
+msgid "Al suscribirse a los servicios de Flectra Professional (en adelante “los Servicios”) proporcionados por Flectra SA y sus filiales (en adelante denominadas conjuntamente “Flectra SA”), relacionados con las versiones Flectra Professional o Flectra community (en adelante “el Software”) y alojados en los servidores de la nube de Flectra SA (en adelante “Servicio en la Nube”) o en servidores locales (en adelante “Auto-hospedaje”), usted (en adelante “el Cliente”) acepta los términos y condiciones establecidos a continuación (en adelante “el Acuerdo”)."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:31
@@ -1585,7 +1585,7 @@ msgid "El Cliente puede hacer uso del Software alojado en la nube o instalar el 
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:98
-msgid "Durante la vigencia de este Acuerdo, Flectra SA le otorga al Cliente una licencia no exclusiva e intransferible para usar (ejecutar, modificar, ejecutar después de las modificaciones) el Software, bajo los términos establecidos en el Anexo A: Licencia de la versión Enterprise de Flectra."
+msgid "Durante la vigencia de este Acuerdo, Flectra SA le otorga al Cliente una licencia no exclusiva e intransferible para usar (ejecutar, modificar, ejecutar después de las modificaciones) el Software, bajo los términos establecidos en el Anexo A: Licencia de la versión Professional de Flectra."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:102
@@ -1597,7 +1597,7 @@ msgid "Flectra SA se compromete a no divulgar cifras individuales o mencionadas 
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:111
-msgid "Después de la expiración o terminación de este Acuerdo, la licencia concedida al Cliente será revocada inmediatamente y el Cliente acepta dejar de usar el Software, especialmente la versión Flectra Enterprise, y la plataforma en la nube."
+msgid "Después de la expiración o terminación de este Acuerdo, la licencia concedida al Cliente será revocada inmediatamente y el Cliente acepta dejar de usar el Software, especialmente la versión Flectra Professional, y la plataforma en la nube."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:115
@@ -1649,7 +1649,7 @@ msgid "Plataforma en la nube"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:170
-msgid "En el momento que exista una medida de seguridad, Flectra SA se compromete a aplicar dicha medida de seguridad ante cualquier Bug que comprometa la seguridad del Software, siempre y cuando este Bug haya sido encontrado en la versión de Flectra Enterprise alojada en la nube y en todos los sistemas bajo el control de esta plataforma, sin requerir de alguna acción manual por parte del Cliente."
+msgid "En el momento que exista una medida de seguridad, Flectra SA se compromete a aplicar dicha medida de seguridad ante cualquier Bug que comprometa la seguridad del Software, siempre y cuando este Bug haya sido encontrado en la versión de Flectra Professional alojada en la nube y en todos los sistemas bajo el control de esta plataforma, sin requerir de alguna acción manual por parte del Cliente."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:178
@@ -1761,7 +1761,7 @@ msgid "5.1 Cargos estándares"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:284
-msgid "Los cargos estándares de la suscripción de Flectra Enterprise y los Servicios están basados en la cantidad de Usuarios y las Aplicaciones instaladas que utiliza el Cliente y se especifican por escrito al concluir el Acuerdo."
+msgid "Los cargos estándares de la suscripción de Flectra Professional y los Servicios están basados en la cantidad de Usuarios y las Aplicaciones instaladas que utiliza el Cliente y se especifican por escrito al concluir el Acuerdo."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:288
@@ -1813,7 +1813,7 @@ msgid "Notificar inmediatamente a Flectra SA cuando su número real de usarios o
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:346
-msgid "Tomar todas las medidas necesarias para garantizar la ejecución no modificada de la parte del Software que verifica la validez del uso de Flectra Enterprise Edition, como se describe en la sección :ref:`enterprise_access_es`;"
+msgid "Tomar todas las medidas necesarias para garantizar la ejecución no modificada de la parte del Software que verifica la validez del uso de Flectra Professional Edition, como se describe en la sección :ref:`enterprise_access_es`;"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:350
@@ -1849,7 +1849,7 @@ msgid "Tomar todas las medidas razonables para proteger los archivos y las bases
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:376
-msgid "Otorgar a Flectra SA el acceso necesario para verificar la validez de la Edición Enterprise de Flectra uso a solicitud (por ejemplo, si la validación automática no es válida para el Cliente);"
+msgid "Otorgar a Flectra SA el acceso necesario para verificar la validez de la Edición Professional de Flectra uso a solicitud (por ejemplo, si la validación automática no es válida para el Cliente);"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:380
@@ -2069,11 +2069,11 @@ msgid "En caso de que una o más de las disposiciones establecidas en este Acuer
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:617
-msgid "9 Apéndice A: Licencia de Flectra Enterprise Edition"
+msgid "9 Apéndice A: Licencia de Flectra Professional Edition"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:621
-msgid "La versión Enterprise de Flectra tiene la licencia Flectra Enterprise Edition v1.0, la cual es definida de la siguiente manera:"
+msgid "La versión Professional de Flectra tiene la licencia Flectra Professional Edition v1.0, la cual es definida de la siguiente manera:"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:630
@@ -2081,7 +2081,7 @@ msgid "Ver :ref:`odoo_enterprise_license`."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:5
-msgid "Flectra Enterprise Subscription Agreement (FR)"
+msgid "Flectra Professional Subscription Agreement (FR)"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:9
@@ -2089,11 +2089,11 @@ msgid "`Download PDF <odoo_enterprise_agreement_fr.pdf>`_"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:11
-msgid "Ceci est une traduction en français du contrat “Flectra Enterprise Subscription Agreement”. Cette traduction est fournie dans l’espoir qu’elle facilitera sa compréhension, mais elle n'a aucune valeur légale. La seule référence officielle des termes du contrat “Flectra Enterprise Subscription Agreement” est la :ref:`version originale en anglais <enterprise_agreement>`."
+msgid "Ceci est une traduction en français du contrat “Flectra Professional Subscription Agreement”. Cette traduction est fournie dans l’espoir qu’elle facilitera sa compréhension, mais elle n'a aucune valeur légale. La seule référence officielle des termes du contrat “Flectra Professional Subscription Agreement” est la :ref:`version originale en anglais <enterprise_agreement>`."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:34
-msgid "En vous abonnant aux services de Flectra Enterprise (les \"Services\") fournis par Flectra SA et ses filiales (collectivement, \"Flectra SA\") en relation avec Flectra Enterprise Edition ou Flectra Community Edition (le \"Logiciel\"), hébergé sur le plate-formes Cloud d'Flectra SA (la \"Plate-forme Cloud\") ou sur site (\"Auto-Hébergement\"), vous (le \"Client\") acceptez d'être lié par les conditions générales suivantes (le \"Contrat\")."
+msgid "En vous abonnant aux services de Flectra Professional (les \"Services\") fournis par Flectra SA et ses filiales (collectivement, \"Flectra SA\") en relation avec Flectra Professional Edition ou Flectra Community Edition (le \"Logiciel\"), hébergé sur le plate-formes Cloud d'Flectra SA (la \"Plate-forme Cloud\") ou sur site (\"Auto-Hébergement\"), vous (le \"Client\") acceptez d'être lié par les conditions générales suivantes (le \"Contrat\")."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:43
@@ -2173,11 +2173,11 @@ msgid "Le Client peut utiliser le Logiciel hébergé sur la Plate-forme Cloud, o
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:109
-msgid "Pour toute la durée du présent Contrat, Flectra SA octroie au Client une licence non exclusive, non transférable d'utilisation (exécution, modification, exécution après modification) du logiciel Flectra Enterprise Edition, conformément aux conditions énoncées à la section :ref:`appendix_a_fr`."
+msgid "Pour toute la durée du présent Contrat, Flectra SA octroie au Client une licence non exclusive, non transférable d'utilisation (exécution, modification, exécution après modification) du logiciel Flectra Professional Edition, conformément aux conditions énoncées à la section :ref:`appendix_a_fr`."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:113
-msgid "Le Client accepte de prendre toutes les mesures nécessaires pour garantir l'exécution sans aucune modification de la partie du Logiciel qui vérifie la validité de l'utilisation d'Flectra Enterprise Edition et recueille des statistiques à cet effet, y compris mais sans s'y limiter, l'exécution du Logiciel, le nombre d'Utilisateurs, les Apps installées et le nombre de lignes de code des Modules Supplémentaires Couverts."
+msgid "Le Client accepte de prendre toutes les mesures nécessaires pour garantir l'exécution sans aucune modification de la partie du Logiciel qui vérifie la validité de l'utilisation d'Flectra Professional Edition et recueille des statistiques à cet effet, y compris mais sans s'y limiter, l'exécution du Logiciel, le nombre d'Utilisateurs, les Apps installées et le nombre de lignes de code des Modules Supplémentaires Couverts."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:119
@@ -2185,7 +2185,7 @@ msgid "Flectra SA s'engage à ne pas divulguer à une tierce partie d'informatio
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:124
-msgid "À l'expiration ou la résiliation de ce Contrat, cette licence est immédiatement révoquée et le Client accepte de cesser toute utilisation du logiciel Flectra Enterprise Edition et de la Plate-forme Cloud."
+msgid "À l'expiration ou la résiliation de ce Contrat, cette licence est immédiatement révoquée et le Client accepte de cesser toute utilisation du logiciel Flectra Professional Edition et de la Plate-forme Cloud."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:128
@@ -2349,7 +2349,7 @@ msgid "5.1 Tarifs standards"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:305
-msgid "Les tarifs standards pour le contrat d'abonnement à Flectra Enterprise et les Services sont basés sur le nombre d'Utilisateurs et la Formule d'Abonnement utilisés par le Client, et précisés par écrit à la conclusion du contrat."
+msgid "Les tarifs standards pour le contrat d'abonnement à Flectra Professional et les Services sont basés sur le nombre d'Utilisateurs et la Formule d'Abonnement utilisés par le Client, et précisés par écrit à la conclusion du contrat."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:308
@@ -2401,7 +2401,7 @@ msgid "Aviser immédiatement Flectra SA si le nombre réel d'Utilisateurs dépas
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:364
-msgid "Prendre toutes les mesures nécessaires pour garantir l'exécution non modifiée de la partie du Logiciel qui vérifie la validité de l'utilisation de Flectra Enterprise Edition, comme décrit à la section :ref:`enterprise_access_fr`;"
+msgid "Prendre toutes les mesures nécessaires pour garantir l'exécution non modifiée de la partie du Logiciel qui vérifie la validité de l'utilisation de Flectra Professional Edition, comme décrit à la section :ref:`enterprise_access_fr`;"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:367
@@ -2429,7 +2429,7 @@ msgid "Lorsque le Client choisit l'Auto-Hébergement, il accepte aussi de:"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:381
-msgid "Fournir tout accès nécessaire à Flectra SA pour vérifier la validité de l'utilisation d'Flectra Enterprise Edition sur demande (par exemple, si la validation automatique ne fonctionne pas pour le Client) ;"
+msgid "Fournir tout accès nécessaire à Flectra SA pour vérifier la validité de l'utilisation d'Flectra Professional Edition sur demande (par exemple, si la validation automatique ne fonctionne pas pour le Client) ;"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:384
@@ -2645,26 +2645,26 @@ msgid "Dans le cas où une ou plusieurs des dispositions du présent contrat ou 
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:631
-msgid "9 Appendice A: Flectra Enterprise Edition License"
+msgid "9 Appendice A: Flectra Professional Edition License"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:633
 #: ../../content/legal/terms/i18n/partnership_fr.rst:390
-msgid "Flectra Enterprise Edition est publié sous la licence Flectra Enterprise Edition License v1.0, définie ci-dessous."
+msgid "Flectra Professional Edition est publié sous la licence Flectra Professional Edition License v1.0, définie ci-dessous."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:637
 #: ../../content/legal/terms/i18n/partnership_fr.rst:394
-msgid "Ceci est une traduction en français de la licence “Flectra Enterprise Edition License”. Cette traduction est fournie dans l’espoir qu’elle facilitera sa compréhension, mais elle n'a aucune valeur légale. La seule référence officielle des termes de la licence “Flectra Enterprise Edition License” est la :ref:`version originale <odoo_enterprise_license>`."
+msgid "Ceci est une traduction en français de la licence “Flectra Professional Edition License”. Cette traduction est fournie dans l’espoir qu’elle facilitera sa compréhension, mais elle n'a aucune valeur légale. La seule référence officielle des termes de la licence “Flectra Professional Edition License” est la :ref:`version originale <odoo_enterprise_license>`."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:643
-msgid "This is a french translation of the \"Flectra Enterprise Edition License”. This translation is provided in the hope that it will facilitate understanding, but it has no legal value. The only official reference of the terms of the “Flectra Enterprise Edition License” is the :ref:`original english version <odoo_enterprise_license>`."
+msgid "This is a french translation of the \"Flectra Professional Edition License”. This translation is provided in the hope that it will facilitate understanding, but it has no legal value. The only official reference of the terms of the “Flectra Professional Edition License” is the :ref:`original english version <odoo_enterprise_license>`."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:660
 #: ../../content/legal/terms/i18n/partnership_fr.rst:411
-msgid "Ce logiciel et les fichiers associés (le \"Logiciel\") ne peuvent être utilisés (c'est-à-dire exécutés, modifiés, ou exécutés avec des modifications) qu'avec un contrat Flectra Enterprise Subscription en ordre de validité, et pour le nombre d'utilisateurs prévus dans ce contrat."
+msgid "Ce logiciel et les fichiers associés (le \"Logiciel\") ne peuvent être utilisés (c'est-à-dire exécutés, modifiés, ou exécutés avec des modifications) qu'avec un contrat Flectra Professional Subscription en ordre de validité, et pour le nombre d'utilisateurs prévus dans ce contrat."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:665
@@ -2674,12 +2674,12 @@ msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:669
 #: ../../content/legal/terms/i18n/partnership_fr.rst:420
-msgid "Vous êtes autorisé à développer des modules Flectra basés sur le Logiciel et à les distribuer sous la license de votre choix, pour autant que cette licence soit compatible avec les conditions de la licence Flectra Enterprise Edition Licence (Par exemple: LGPL, MIT ou d'autres licenses propriétaires similaires à celle-ci)."
+msgid "Vous êtes autorisé à développer des modules Flectra basés sur le Logiciel et à les distribuer sous la license de votre choix, pour autant que cette licence soit compatible avec les conditions de la licence Flectra Professional Edition Licence (Par exemple: LGPL, MIT ou d'autres licenses propriétaires similaires à celle-ci)."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:674
 #: ../../content/legal/terms/i18n/partnership_fr.rst:425
-msgid "Vous êtes autorisé à utiliser des modules Flectra publiés sous n'importe quelle licence, pour autant que leur licence soit compatible avec les conditions de la licence Flectra Enterprise Edition License (Notamment tous les modules publiés sur l'Flectra Apps Store sur flectra.com/apps)."
+msgid "Vous êtes autorisé à utiliser des modules Flectra publiés sous n'importe quelle licence, pour autant que leur licence soit compatible avec les conditions de la licence Flectra Professional Edition License (Notamment tous les modules publiés sur l'Flectra Apps Store sur flectra.com/apps)."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_fr.rst:679
@@ -2703,7 +2703,7 @@ msgid "EN AUCUN CAS LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE POURRONT ETR
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:6
-msgid "Flectra Enterprise Subscription Agreement (NL)"
+msgid "Flectra Professional Subscription Agreement (NL)"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:10
@@ -2711,11 +2711,11 @@ msgid "`Download PDF <odoo_enterprise_agreement_nl.pdf>`_"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:12
-msgid "Dit is een Nederlandse vertaling van de \"Flectra Enterprise Subscription Agreement\". Deze vertaling wordt verstrekt in de hoop dat deze het begrip zal vergemakkelijken, maar heeft geen juridische waarde. De enige officiële referentie van de algemene voorwaarden van de \"Flectra Enterprise Subscription Agreement\" is :ref:`de originele Engelse versie <enterprise_agreement>`"
+msgid "Dit is een Nederlandse vertaling van de \"Flectra Professional Subscription Agreement\". Deze vertaling wordt verstrekt in de hoop dat deze het begrip zal vergemakkelijken, maar heeft geen juridische waarde. De enige officiële referentie van de algemene voorwaarden van de \"Flectra Professional Subscription Agreement\" is :ref:`de originele Engelse versie <enterprise_agreement>`"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:33
-msgid "Door u op de Flectra Enterprise-diensten (de “Diensten”) te abonneren die door Flectra NV en haar dochterondernemingen (gezamenlijk “Flectra NV”) worden verleend met betrekking tot de Flectra Enterprise Edition of de Flectra Community Edition (de “Software”) gehost op de Cloudplatforms van Flectra NV (het \"Cloudplatform\") of op locatie (\"Self-Hosting\"), gaat u (de \"Klant\") ermee akkoord om gebonden te zijn door de volgende algemene voorwaarden (de “Overeenkomst”)."
+msgid "Door u op de Flectra Professional-diensten (de “Diensten”) te abonneren die door Flectra NV en haar dochterondernemingen (gezamenlijk “Flectra NV”) worden verleend met betrekking tot de Flectra Professional Edition of de Flectra Community Edition (de “Software”) gehost op de Cloudplatforms van Flectra NV (het \"Cloudplatform\") of op locatie (\"Self-Hosting\"), gaat u (de \"Klant\") ermee akkoord om gebonden te zijn door de volgende algemene voorwaarden (de “Overeenkomst”)."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:43
@@ -2787,11 +2787,11 @@ msgid "De Klant kan de op het Cloudplatform gehoste Software gebruiken of kiezen
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:116
-msgid "Voor de duur van deze Overeenkomst verstrekt Flectra NV aan de Klant een niet-exclusieve, niet-overdraagbare licentie om de Flectra Enterprise Edition Software te gebruiken (uitvoeren, wijzigen, uitvoeren na wijziging) onder de voorwaarden uiteengezet in :ref:`appendix_a_nl`."
+msgid "Voor de duur van deze Overeenkomst verstrekt Flectra NV aan de Klant een niet-exclusieve, niet-overdraagbare licentie om de Flectra Professional Edition Software te gebruiken (uitvoeren, wijzigen, uitvoeren na wijziging) onder de voorwaarden uiteengezet in :ref:`appendix_a_nl`."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:121
-msgid "De Klant gaat ermee akkoord alle nodige maatregelen te nemen om de ongewijzigde uitvoering te waarborgen van het deel van de Software dat de geldigheid van het gebruik van de Flectra Enterprise Edition controleert en dat statistieken verzamelt voor dat doel, met inbegrip van, maar niet beperkt tot het uitvoeren van de Software, het aantal Gebruikers, de geïnstalleerde Apps en het aantal coderegels van de Ondersteunde Extra Modules."
+msgid "De Klant gaat ermee akkoord alle nodige maatregelen te nemen om de ongewijzigde uitvoering te waarborgen van het deel van de Software dat de geldigheid van het gebruik van de Flectra Professional Edition controleert en dat statistieken verzamelt voor dat doel, met inbegrip van, maar niet beperkt tot het uitvoeren van de Software, het aantal Gebruikers, de geïnstalleerde Apps en het aantal coderegels van de Ondersteunde Extra Modules."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:128
@@ -2799,7 +2799,7 @@ msgid "Flectra NV verbindt zich ertoe om individuele of persoonlijke cijfers nie
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:133
-msgid "Bij het aflopen of beëindigen van deze Overeenkomst wordt deze licentie onmiddellijk ingetrokken en gaat de Klant ermee akkoord om de Flectra Enterprise Edition Software en het Cloudplatform niet meer te gebruiken."
+msgid "Bij het aflopen of beëindigen van deze Overeenkomst wordt deze licentie onmiddellijk ingetrokken en gaat de Klant ermee akkoord om de Flectra Professional Edition Software en het Cloudplatform niet meer te gebruiken."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:137
@@ -2959,7 +2959,7 @@ msgid "5.1 Standaardkosten"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:313
-msgid "De standaardkosten voor het Flectra Enterprise-abonnement en de diensten zijn gebaseerd op het aantal Gebruikers en het Abonnementsplan die door de klant wordt gebruikt en schriftelijk wordt gespecificeerd bij het afsluiten van de Overeenkomst."
+msgid "De standaardkosten voor het Flectra Professional-abonnement en de diensten zijn gebaseerd op het aantal Gebruikers en het Abonnementsplan die door de klant wordt gebruikt en schriftelijk wordt gespecificeerd bij het afsluiten van de Overeenkomst."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:318
@@ -3011,7 +3011,7 @@ msgid "Flectra NV onmiddellijk op de hoogte te brengen wanneer het werkelijke aa
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:378
-msgid "alle nodige maatregelen te nemen om de ongewijzigde uitvoering te waarborgen van het deel van de Software dat de geldigheid van het gebruik van de Flectra Enterprise Edition bevestigt, zoals beschreven in :ref:`enterprise_access_nl`;"
+msgid "alle nodige maatregelen te nemen om de ongewijzigde uitvoering te waarborgen van het deel van de Software dat de geldigheid van het gebruik van de Flectra Professional Edition bevestigt, zoals beschreven in :ref:`enterprise_access_nl`;"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:381
@@ -3043,7 +3043,7 @@ msgid "alle redelijke maatregelen te nemen om de bestanden en databases van de K
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:400
-msgid "Flectra NV de nodige toegang te verlenen om op verzoek de geldigheid van het gebruik van de Flectra Enterprise Edition te controleren (bijv. als de automatische validatie voor de klant niet blijkt te werken)."
+msgid "Flectra NV de nodige toegang te verlenen om op verzoek de geldigheid van het gebruik van de Flectra Professional Edition te controleren (bijv. als de automatische validatie voor de klant niet blijkt te werken)."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:407
@@ -3259,11 +3259,11 @@ msgid "Ingeval een of meerdere bepalingen van deze Overeenkomst of een toepassin
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:662
-msgid "9 Bijlage A: Flectra Enterprise Edition-licentie"
+msgid "9 Bijlage A: Flectra Professional Edition-licentie"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:666
-msgid "De Flectra Enterprise Edition wordt in licentie gegeven onder de Flectra Enterprise Edition License v1.0, die als volgt wordt gedefinieerd:"
+msgid "De Flectra Professional Edition wordt in licentie gegeven onder de Flectra Professional Edition License v1.0, die als volgt wordt gedefinieerd:"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:675
@@ -3326,15 +3326,15 @@ msgid "1 Objeto"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:42
-msgid "El presente contrato tiene por objeto regular las condiciones bajo las cuales FLECTRA presta servicios a EL COLABORADOR, acceso al software Flectra Enterprise Edition, y bajo las cuales EL COLABORADOR cumple con las obligaciones establecidas a continuación."
+msgid "El presente contrato tiene por objeto regular las condiciones bajo las cuales FLECTRA presta servicios a EL COLABORADOR, acceso al software Flectra Professional Edition, y bajo las cuales EL COLABORADOR cumple con las obligaciones establecidas a continuación."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:46
-msgid "Por la presente FLECTRA nombra a EL COLABORADOR, y EL COLABORADOR acepta ser nombrado, socio no exclusivo para promover y vender “Flectra Enterprise Edition” a los clientes."
+msgid "Por la presente FLECTRA nombra a EL COLABORADOR, y EL COLABORADOR acepta ser nombrado, socio no exclusivo para promover y vender “Flectra Professional Edition” a los clientes."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:49
-msgid "EL COLABORADOR se compromete a hacer su mejor esfuerzo para vender contratos de Flectra Enterprise a sus clientes. En apoyo a esta afirmación, EL COLABORADOR dará prioridad a la comercialización de la versión “Flectra Enterprise Edition” a clientes potenciales y clientes. EL COLABORADOR siempre tiene la posibilidad de vender servicios con otras versiones del software, como “Flectra Community Edition”, en caso de ser necesario."
+msgid "EL COLABORADOR se compromete a hacer su mejor esfuerzo para vender contratos de Flectra Professional a sus clientes. En apoyo a esta afirmación, EL COLABORADOR dará prioridad a la comercialización de la versión “Flectra Professional Edition” a clientes potenciales y clientes. EL COLABORADOR siempre tiene la posibilidad de vender servicios con otras versiones del software, como “Flectra Community Edition”, en caso de ser necesario."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:56
@@ -3346,7 +3346,7 @@ msgid "La duración de este contrato será de un año (\"la Duración\") a parti
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:62
-msgid "3 Acceso a Flectra Enterprise Edition"
+msgid "3 Acceso a Flectra Professional Edition"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:65
@@ -3354,7 +3354,7 @@ msgid "3.1 Acceso a la plataforma del proyecto"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:66
-msgid "Para ayudar a EL COLABORADOR a promover Flectra Enterprise Edition, FLECTRA otorga a EL COLABORADOR acceso a su repositorio de código del proyecto para todas las “Aplicaciones Flectra Enterprise Edition”, en los términos establecidos en :ref:`appendix_p_a_es` y las condiciones restringidas del presente Contrato."
+msgid "Para ayudar a EL COLABORADOR a promover Flectra Professional Edition, FLECTRA otorga a EL COLABORADOR acceso a su repositorio de código del proyecto para todas las “Aplicaciones Flectra Professional Edition”, en los términos establecidos en :ref:`appendix_p_a_es` y las condiciones restringidas del presente Contrato."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:71
@@ -3366,15 +3366,15 @@ msgid "3.2 Restricciones"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:79
-msgid "EL COLABORADOR se compromete a mantener la confidencialidad del código fuente de las aplicaciones Flectra Enterprise Edition entre su personal. El acceso al código fuente de Flectra Enterprise Edition para los clientes se rige por el Contrato de suscripción de Flectra Enterprise. EL COLABORADOR se compromete a NO redistribuir este código a terceros sin el permiso por escrito de FLECTRA."
+msgid "EL COLABORADOR se compromete a mantener la confidencialidad del código fuente de las aplicaciones Flectra Professional Edition entre su personal. El acceso al código fuente de Flectra Professional Edition para los clientes se rige por el Contrato de suscripción de Flectra Professional. EL COLABORADOR se compromete a NO redistribuir este código a terceros sin el permiso por escrito de FLECTRA."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:85
-msgid "PARTNER se compromete a no ofrecer servicios en Flectra Enterprise Edition a clientes que no estén cubiertos por una suscripción de Flectra Enterprise, incluso durante la fase de implementación."
+msgid "PARTNER se compromete a no ofrecer servicios en Flectra Professional Edition a clientes que no estén cubiertos por una suscripción de Flectra Professional, incluso durante la fase de implementación."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:88
-msgid "A pesar de lo anterior, EL COLABORADOR se compromete a preservar por completo la integridad del código de Flectra Enterprise Edition necesario para verificar la validez del uso de Flectra Enterprise Edition y para recopilar estadísticas necesarias para este fin."
+msgid "A pesar de lo anterior, EL COLABORADOR se compromete a preservar por completo la integridad del código de Flectra Professional Edition necesario para verificar la validez del uso de Flectra Professional Edition y para recopilar estadísticas necesarias para este fin."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:94
@@ -3390,7 +3390,7 @@ msgid "El programa de socios de Flectra consta de dos tipos de asociaciones y cu
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:104
-msgid "El nivel de colaboración otorgado a EL COLABORADOR depende de los ingresos anuales de Flectra Enterprise generados para FLECTRA (en términos de Usuarios de Flectra Enterprise vendidos). Las renovaciones de los contratos existentes no cuentan para el número de Usuarios vendidos, pero EL COLABORADOR sigue recibiendo una comisión por estos contratos, tal como se indica en la sección :ref:`benefits_es`.."
+msgid "El nivel de colaboración otorgado a EL COLABORADOR depende de los ingresos anuales de Flectra Professional generados para FLECTRA (en términos de Usuarios de Flectra Professional vendidos). Las renovaciones de los contratos existentes no cuentan para el número de Usuarios vendidos, pero EL COLABORADOR sigue recibiendo una comisión por estos contratos, tal como se indica en la sección :ref:`benefits_es`.."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:110
@@ -3434,7 +3434,7 @@ msgid "Official: Gold"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:115
-msgid "Usuarios de Flectra Enterprise anuales vendidos"
+msgid "Usuarios de Flectra Professional anuales vendidos"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:115
@@ -3508,7 +3508,7 @@ msgid "80%"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:123
-msgid "La Tasa de Retención se define como la relación entre el número de contratos de Flectra Enterprise que están actualmente activos y la cantidad de contratos de Flectra Enterprise que han estado activos en algún momento en los últimos 12 meses."
+msgid "La Tasa de Retención se define como la relación entre el número de contratos de Flectra Professional que están actualmente activos y la cantidad de contratos de Flectra Professional que han estado activos en algún momento en los últimos 12 meses."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:127
@@ -3624,11 +3624,11 @@ msgid "**Ventajas del software**"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:166
-msgid "Acceso al código fuente de Flectra Enterprise y repositorio Github"
+msgid "Acceso al código fuente de Flectra Professional y repositorio Github"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:169
-msgid "Código de extensión de prueba de Flectra Enterprise"
+msgid "Código de extensión de prueba de Flectra Professional"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:172
@@ -3668,7 +3668,7 @@ msgid "50%"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:180
-msgid "Comisión por Flectra Enterprise"
+msgid "Comisión por Flectra Professional"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:180
@@ -3788,7 +3788,7 @@ msgid "deberá cumplir con sus obligaciones durante cualquier período de aviso 
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:254
-msgid "ya no podrá usar Flectra Enterprise para fines de desarrollo, prueba o producción"
+msgid "ya no podrá usar Flectra Professional para fines de desarrollo, prueba o producción"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:259
@@ -3889,7 +3889,7 @@ msgid "|vnegspace| |hspace| Por FLECTRA, |hspace| Por EL COLABORADOR, |vspace|"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_es.rst:369
-msgid "10 Anexo A: Licencia Flectra Enterprise Edition"
+msgid "10 Anexo A: Licencia Flectra Professional Edition"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:5
@@ -3938,15 +3938,15 @@ msgid "1 Objectif"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:40
-msgid "L’objectif de ce Contrat est de présenter les conditions auxquelles FLECTRA fournit des services au PARTENAIRE et l’accès au logiciel Flectra Enterprise Edition, et en vertu desquelles le PARTENAIRE se plie aux obligations énoncées ci-après."
+msgid "L’objectif de ce Contrat est de présenter les conditions auxquelles FLECTRA fournit des services au PARTENAIRE et l’accès au logiciel Flectra Professional Edition, et en vertu desquelles le PARTENAIRE se plie aux obligations énoncées ci-après."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:44
-msgid "Par le présent accord, FLECTRA désigne le PARTENAIRE, désignation acceptée par le PARTENAIRE, comme partenaire non exclusif pour promouvoir et vendre « Flectra Enterprise Edition » à des clients."
+msgid "Par le présent accord, FLECTRA désigne le PARTENAIRE, désignation acceptée par le PARTENAIRE, comme partenaire non exclusif pour promouvoir et vendre « Flectra Professional Edition » à des clients."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:47
-msgid "Le PARTENAIRE s’engage à faire tous les efforts possibles pour vendre des contrats Flectra Enterprise à ses clients. Pour étayer ces efforts, le PARTENAIRE commercialisera en priorité la version « Flectra Enterprise Edition » aux prospects et clients. Si nécessaire, le PARTENAIRE peut vendre des services sur d’autres versions du logiciel, comme « Flectra Community Edition »."
+msgid "Le PARTENAIRE s’engage à faire tous les efforts possibles pour vendre des contrats Flectra Professional à ses clients. Pour étayer ces efforts, le PARTENAIRE commercialisera en priorité la version « Flectra Professional Edition » aux prospects et clients. Si nécessaire, le PARTENAIRE peut vendre des services sur d’autres versions du logiciel, comme « Flectra Community Edition »."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:53
@@ -3958,7 +3958,7 @@ msgid "Ce Contrat restera en vigueur pendant un an (la « Durée ») à compte
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:60
-msgid "3 Accès à Flectra Enterprise Edition"
+msgid "3 Accès à Flectra Professional Edition"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:63
@@ -3966,7 +3966,7 @@ msgid "3.1 Accès à la plate-forme projet"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:64
-msgid "Pour aider le PARTENAIRE à promouvoir Flectra Enterprise Edition, FLECTRA octroie au PARTENAIRE l’accès à son dépôt de code pour toutes les « Apps Flectra Enterprise Edition » sous les conditions présentées dans :ref:`appendix_p_a_fr` et les conditions reprises dans ce Contrat."
+msgid "Pour aider le PARTENAIRE à promouvoir Flectra Professional Edition, FLECTRA octroie au PARTENAIRE l’accès à son dépôt de code pour toutes les « Apps Flectra Professional Edition » sous les conditions présentées dans :ref:`appendix_p_a_fr` et les conditions reprises dans ce Contrat."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:68
@@ -3979,15 +3979,15 @@ msgid "3.2 Restrictions"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:75
-msgid "Le PARTENAIRE s’engage à maintenir la confidentialité du code source des Apps Flectra Enterprise Edition au sein de son personnel. L’accès au code source d’Flectra Enterprise Edition pour les clients est régi par l'Flectra Enterprise Subscription Agreement. Le PARTENAIRE s'engage à ne PAS redistribuer ce code à un tiers sans l’autorisation écrite d’FLECTRA."
+msgid "Le PARTENAIRE s’engage à maintenir la confidentialité du code source des Apps Flectra Professional Edition au sein de son personnel. L’accès au code source d’Flectra Professional Edition pour les clients est régi par l'Flectra Professional Subscription Agreement. Le PARTENAIRE s'engage à ne PAS redistribuer ce code à un tiers sans l’autorisation écrite d’FLECTRA."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:80
-msgid "Le PARTENAIRE s'engage à n'offrir des services relatifs à Flectra Enterprise Edition qu'aux clients qui disposent d'un contrat Flectra Enterprise valide, et ce même pendant la phase d'implémentation."
+msgid "Le PARTENAIRE s'engage à n'offrir des services relatifs à Flectra Professional Edition qu'aux clients qui disposent d'un contrat Flectra Professional valide, et ce même pendant la phase d'implémentation."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:83
-msgid "Nonobstant ce qui précède, le PARTENAIRE s’engage à préserver totalement l’intégrité du code d’Flectra Enterprise Edition requis pour vérifier la validité de l’utilisation d’Flectra Enterprise Edition et recueillir les données statistiques nécessaires à cette fin."
+msgid "Nonobstant ce qui précède, le PARTENAIRE s’engage à préserver totalement l’intégrité du code d’Flectra Professional Edition requis pour vérifier la validité de l’utilisation d’Flectra Professional Edition et recueillir les données statistiques nécessaires à cette fin."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:88
@@ -4003,7 +4003,7 @@ msgid "Le programme partenaire d’Flectra consiste en deux types de partenariat
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:98
-msgid "Le niveau de partenariat accordé au PARTENAIRE dépend des nouvelles recettes annuelles Flectra Enterprise générées par le PARTENAIRE pour FLECTRA (en terme du nombre de nouveaux utilisateur Flectra Enterprise vendus), du nombre de ressources internes certifiées, et du taux de rétention de clients. Les renouvellements de contrats existants n’entrent pas en ligne de compte pour le nombre de nouveaux utilisateurs vendus, mais le PARTENAIRE reçoit tout de même une commission sur ces contrats, comme indiqué dans la section :ref:`benefits_fr`."
+msgid "Le niveau de partenariat accordé au PARTENAIRE dépend des nouvelles recettes annuelles Flectra Professional générées par le PARTENAIRE pour FLECTRA (en terme du nombre de nouveaux utilisateur Flectra Professional vendus), du nombre de ressources internes certifiées, et du taux de rétention de clients. Les renouvellements de contrats existants n’entrent pas en ligne de compte pour le nombre de nouveaux utilisateurs vendus, mais le PARTENAIRE reçoit tout de même une commission sur ces contrats, comme indiqué dans la section :ref:`benefits_fr`."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:105
@@ -4011,7 +4011,7 @@ msgid "Le tableau ci-dessous résume les exigences pour chaque niveau de partena
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:110
-msgid "Nouveaux utilisateurs Flectra Enterprise vendus"
+msgid "Nouveaux utilisateurs Flectra Professional vendus"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:110
@@ -4033,7 +4033,7 @@ msgid "Taux de Rétention minimum"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:118
-msgid "Le Taux de Rétention est défini comme le rapport entre le nombre de contrats Flectra Enterprise qui sont toujours en cours, et le nombre de contrats Flectra Enterprise qui ont été actifs à un moment au cours des 12 derniers mois."
+msgid "Le Taux de Rétention est défini comme le rapport entre le nombre de contrats Flectra Professional qui sont toujours en cours, et le nombre de contrats Flectra Professional qui ont été actifs à un moment au cours des 12 derniers mois."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:122
@@ -4128,11 +4128,11 @@ msgid "**Avantages logiciel**"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:161
-msgid "Accès au code source Flectra Enterprise"
+msgid "Accès au code source Flectra Professional"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:163
-msgid "Code extension d'essai Flectra Enterprise"
+msgid "Code extension d'essai Flectra Professional"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:165
@@ -4148,7 +4148,7 @@ msgid "Commission sur la plateforme Flectra SH [#s1f]_"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:173
-msgid "Commission sur Flectra Enterprise"
+msgid "Commission sur Flectra Professional"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:175
@@ -4244,7 +4244,7 @@ msgid "Le PARTENAIRE ne recevra de commission pour la Maintenance des Modules Su
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:241
-msgid "“Collaborer avec un Partenaire Flectra” et “Modules Supplémentaires Couverts” sont définis dans le contrat \"Flectra Enterprise Subscription Agreement\" entre FLECTRA et le client."
+msgid "“Collaborer avec un Partenaire Flectra” et “Modules Supplémentaires Couverts” sont définis dans le contrat \"Flectra Professional Subscription Agreement\" entre FLECTRA et le client."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:246
@@ -4292,7 +4292,7 @@ msgid "respectera ses engagements pendant toute période de préavis précédant
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:270
-msgid "ne pourra plus utiliser Flectra Enterprise, que ce soit à des fins de développement, de test ou de production."
+msgid "ne pourra plus utiliser Flectra Professional, que ce soit à des fins de développement, de test ou de production."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:276
@@ -4399,7 +4399,7 @@ msgid "|vnegspace| |hspace| Pour FLECTRA, |hspace| Pour le PARTENAIRE, |vspace|"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/partnership_fr.rst:388
-msgid "10 Annexe A : Licence Flectra Enterprise Edition"
+msgid "10 Annexe A : Licence Flectra Professional Edition"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/terms_of_sale_fr.rst:5
@@ -4415,7 +4415,7 @@ msgid "Dernière modification: 20 octobre 2021."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/terms_of_sale_fr.rst:12
-msgid "Ces conditions régissent la vente de produits et services entre Flectra S.A. et ses filiales (collectivement, \"Flectra S.A.\") et le client. Des conditions supplémentaires peuvent s'appliquer pour d'autres services offerts par Flectra S.A. (par exemple, l'Flectra Enterprise Subscription Agreement). Si ces conditions supplémentaires entrent en contradiction avec les Conditions Générales de Vente, les conditions supplémentaires prévaudront."
+msgid "Ces conditions régissent la vente de produits et services entre Flectra S.A. et ses filiales (collectivement, \"Flectra S.A.\") et le client. Des conditions supplémentaires peuvent s'appliquer pour d'autres services offerts par Flectra S.A. (par exemple, l'Flectra Professional Subscription Agreement). Si ces conditions supplémentaires entrent en contradiction avec les Conditions Générales de Vente, les conditions supplémentaires prévaudront."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/terms_of_sale_fr.rst:19
@@ -4531,15 +4531,15 @@ msgid "1 Purpose"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:35
-msgid "The purpose of this agreement is to set forth the conditions under which FLECTRA provides services to PARTNER, access to the Flectra Enterprise Edition software, and under which PARTNER complies with the obligations set out hereafter."
+msgid "The purpose of this agreement is to set forth the conditions under which FLECTRA provides services to PARTNER, access to the Flectra Professional Edition software, and under which PARTNER complies with the obligations set out hereafter."
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:39
-msgid "FLECTRA hereby appoints PARTNER, and PARTNER hereby accepts the appointment, to be a non-exclusive partner promoting and selling \"Flectra Enterprise Edition\" to customers."
+msgid "FLECTRA hereby appoints PARTNER, and PARTNER hereby accepts the appointment, to be a non-exclusive partner promoting and selling \"Flectra Professional Edition\" to customers."
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:42
-msgid "PARTNER commits to doing its best effort to sell Flectra Enterprise contracts to its clients. To support that, PARTNER will market in priority the \"Flectra Enterprise Edition\" version to prospects and customers. PARTNER still has the option to sell services on other versions of the software, like \"Flectra Community Edition\", should it be needed."
+msgid "PARTNER commits to doing its best effort to sell Flectra Professional contracts to its clients. To support that, PARTNER will market in priority the \"Flectra Professional Edition\" version to prospects and customers. PARTNER still has the option to sell services on other versions of the software, like \"Flectra Community Edition\", should it be needed."
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:48
@@ -4551,7 +4551,7 @@ msgid "The duration of this Agreement (the “Term”) shall be one year beginni
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:55
-msgid "3 Access to Flectra Enterprise Edition"
+msgid "3 Access to Flectra Professional Edition"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:58
@@ -4559,7 +4559,7 @@ msgid "3.1 Project platform access"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:59
-msgid "To help PARTNER promote Flectra Enterprise Edition, FLECTRA grants PARTNER access to its project code repository for all \"Flectra Enterprise Edition\" Apps, under the terms set forth in :ref:`appendix_p_a` and the conditions restricted under this Agreement."
+msgid "To help PARTNER promote Flectra Professional Edition, FLECTRA grants PARTNER access to its project code repository for all \"Flectra Professional Edition\" Apps, under the terms set forth in :ref:`appendix_p_a` and the conditions restricted under this Agreement."
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:63
@@ -4567,15 +4567,15 @@ msgid "In addition, FLECTRA grants PARTNER free access to the FLECTRA.SH platfor
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:70
-msgid "PARTNER commits to keeping confidentiality of the source code of Flectra Enterprise Edition Apps within its staff. Access to the source code of Flectra Enterprise Edition for customers is governed by the Flectra Enterprise Subscription Agreement. PARTNER agrees to NOT redistribute this code to third parties without the written permission of FLECTRA."
+msgid "PARTNER commits to keeping confidentiality of the source code of Flectra Professional Edition Apps within its staff. Access to the source code of Flectra Professional Edition for customers is governed by the Flectra Professional Subscription Agreement. PARTNER agrees to NOT redistribute this code to third parties without the written permission of FLECTRA."
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:75
-msgid "PARTNER commits to not offer services on Flectra Enterprise Edition to customers who are not covered by an Flectra Enterprise subscription, even during the implementation phase."
+msgid "PARTNER commits to not offer services on Flectra Professional Edition to customers who are not covered by an Flectra Professional subscription, even during the implementation phase."
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:78
-msgid "Notwithstanding the above, PARTNER commits to wholly preserve the integrity of the Flectra Enterprise Edition code that is required to verify the validity of usage of Flectra Enterprise Edition and to collect statistics that are needed for that purpose."
+msgid "Notwithstanding the above, PARTNER commits to wholly preserve the integrity of the Flectra Professional Edition code that is required to verify the validity of usage of Flectra Professional Edition and to collect statistics that are needed for that purpose."
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:84
@@ -4591,7 +4591,7 @@ msgid "The Flectra partner program consists of two types of partnerships and fou
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:94
-msgid "Partnership level granted to PARTNER depends on the annual new Flectra Enterprise revenue generated for FLECTRA (in terms of Flectra Enterprise Users sold), the number of certified resources and the customer Retention Rate. Renewals of existing contracts do not count towards the number of Users Sold, but PARTNER still gets a commission on these contracts as stated in section :ref:`benefits`."
+msgid "Partnership level granted to PARTNER depends on the annual new Flectra Professional revenue generated for FLECTRA (in terms of Flectra Professional Users sold), the number of certified resources and the customer Retention Rate. Renewals of existing contracts do not count towards the number of Users Sold, but PARTNER still gets a commission on these contracts as stated in section :ref:`benefits`."
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:100
@@ -4599,7 +4599,7 @@ msgid "The table below summarizes the requirements that have to be met for each 
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:105
-msgid "Annual New Flectra Enterprise Users Sold"
+msgid "Annual New Flectra Professional Users Sold"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:107
@@ -4611,7 +4611,7 @@ msgid "Minimum Retention Rate"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:113
-msgid "The Retention Rate is defined as the ratio between the number of Flectra Enterprise contracts that are currently active, and the number of Flectra Enterprise contracts that have been active at some point in the last 12 months"
+msgid "The Retention Rate is defined as the ratio between the number of Flectra Professional contracts that are currently active, and the number of Flectra Professional contracts that have been active at some point in the last 12 months"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:117
@@ -4700,11 +4700,11 @@ msgid "**Software benefits**"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:156
-msgid "Access to Flectra Enterprise source code and Github repository"
+msgid "Access to Flectra Professional source code and Github repository"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:159
-msgid "Flectra Enterprise trial extension code"
+msgid "Flectra Professional trial extension code"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:161
@@ -4720,7 +4720,7 @@ msgid "Commission on Flectra SH platform [#s1]_"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:168
-msgid "Commission on Flectra Enterprise"
+msgid "Commission on Flectra Professional"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:170
@@ -4800,7 +4800,7 @@ msgid "PARTNER shall only receive the commission for the Maintenance of Covered 
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:232
-msgid "“Working with an Flectra Partner” and “Covered Extra Modules” are defined in the Flectra Enterprise Subscription Agreement between FLECTRA and customers."
+msgid "“Working with an Flectra Partner” and “Covered Extra Modules” are defined in the Flectra Professional Subscription Agreement between FLECTRA and customers."
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:236
@@ -4844,7 +4844,7 @@ msgid "shall comply with its obligations during any notice period prior to such 
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:260
-msgid "may not use Flectra Enterprise anymore, for development, test or production purpose"
+msgid "may not use Flectra Professional anymore, for development, test or production purpose"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:265
@@ -4944,7 +4944,7 @@ msgid "|vnegspace| |hspace| For FLECTRA, |hspace| For PARTNER, |vspace|"
 msgstr ""
 
 #: ../../content/legal/terms/partnership.rst:377
-msgid "10 Appendix A: Flectra Enterprise Edition License"
+msgid "10 Appendix A: Flectra Professional Edition License"
 msgstr ""
 
 #: ../../content/legal/terms/terms_of_sale.rst:5
@@ -4960,7 +4960,7 @@ msgid "Last revision: October 20, 2021."
 msgstr ""
 
 #: ../../content/legal/terms/terms_of_sale.rst:13
-msgid "These General Terms of Sale govern the sale of products and services by Flectra S.A. and its affiliates (collectively, \"Flectra S.A.\") to the client. Additional terms may apply for services provided by Flectra S.A. (for example, the Enterprise Subscription Agreement). If these additional terms are inconsistent with the General Terms of Sale, the additional terms will prevail over these General Terms of Sale."
+msgid "These General Terms of Sale govern the sale of products and services by Flectra S.A. and its affiliates (collectively, \"Flectra S.A.\") to the client. Additional terms may apply for services provided by Flectra S.A. (for example, the Professional Subscription Agreement). If these additional terms are inconsistent with the General Terms of Sale, the additional terms will prevail over these General Terms of Sale."
 msgstr ""
 
 #: ../../content/legal/terms/terms_of_sale.rst:20

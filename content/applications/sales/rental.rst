@@ -72,10 +72,6 @@ original condition. To do so, go to :menuselection:`Rental --> Configuration -->
    :align: center
    :alt: Digital Documents settings in Flectra Rental
 
-.. note::
-   This feature requires the :doc:`Sign <../finance/sign>` app. If necessary, Flectra installs it after
-   activating *Digital Documents*.
-
 Once the app settings are saved, you have the option to change the default *Rental Agreement* from
 the dropdown menu. You can pick any document already uploaded to the *Sign* app, or upload a new one
 to the *Sign* app by clicking on *Upload Template*.

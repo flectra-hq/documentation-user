@@ -1,8 +1,8 @@
 .. _enterprise_agreement:
 
-=========================================
-Flectra Enterprise Subscription Agreement
-=========================================
+===========================================
+Flectra Professional Subscription Agreement
+===========================================
 
 .. only:: html
 
@@ -23,8 +23,8 @@ Flectra Enterprise Subscription Agreement
 .. v10: fall 2022 pricing change - removal of "per app" notions
 .. v10a: clarified wording for Section 5.1 "(at that time)"
 
-By subscribing to the Flectra Enterprise services (the "Services") provided by Flectra SA and its
-affiliates (collectively, "Flectra SA") in relation with Flectra Enterprise Edition or Flectra Community
+By subscribing to the Flectra Professional services (the "Services") provided by Flectra SA and its
+affiliates (collectively, "Flectra SA") in relation with Flectra Professional Edition or Flectra Community
 Edition (the "Software"), hosted on Flectra SA's Cloud platforms (the "Cloud Platform") or
 on-premises ("Self-Hosting"), you (the "Customer") are agreeing to be bound by the
 following terms and conditions (the "Agreement").
@@ -98,11 +98,11 @@ With the Self-Hosting option, the Customer instead hosts the Software on compute
 choice, that are not under the control of Flectra SA.
 
 For the duration of this Agreement, Flectra SA gives the Customer a non-exclusive, non-transferable
-license to use (execute, modify, execute after modification) the Flectra Enterprise Edition software,
-under the terms set forth in :ref:`appendix_a`.
+license to use (execute, modify, execute after modification) the Flectra Professional Edition software,
+under the terms set forth in.
 
 The Customer agrees to take all necessary measures to guarantee the unmodified execution of
-the part of the Software that verifies the validity of the Flectra Enterprise Edition usage and
+the part of the Software that verifies the validity of the Flectra Professional Edition usage and
 collects statistics for that purpose, including but not limited to the running of an instance,
 the number of Users, the installed Apps, and the number of lines of code of Covered Extra Modules.
 
@@ -111,7 +111,7 @@ of the Customer, and to deal with all collected data in compliance with its offi
 Policy, published at https://www.flectra.com/privacy.
 
 Upon expiration or termination of this Agreement, this license is revoked immediately and the
-Customer agrees to stop using the Flectra Enterprise Edition software and the Cloud Platform.
+Customer agrees to stop using the Flectra Professional Edition software and the Cloud Platform.
 
 Should the Customer breach the terms of this section, the Customer agrees to pay Flectra SA an extra
 fee equal to 300% of the applicable list price for the actual number of Users.
@@ -279,7 +279,7 @@ are provided *if and only if* the Customer is hosted on the Flectra Cloud Platfo
 5.1 Standard charges
 --------------------
 
-The standard charges for the Flectra Enterprise subscription and the Services are based on the number
+The standard charges for the Flectra Professional subscription and the Services are based on the number
 of Users and the Subscription Plan used by the Customer, and specified in writing
 at the conclusion of the Agreement.
 
@@ -338,7 +338,7 @@ The Customer agrees to:
   number specified at the conclusion of the Agreement, and in this event, pay the applicable
   additional fee as described in section :ref:`charges_standard`;
 - take all measures necessary to guarantee the unmodified execution of the part of the Software
-  that verifies the validity of the Flectra Enterprise Edition usage, as described
+  that verifies the validity of the Flectra Professional Edition usage, as described
   in :ref:`enterprise_access` ;
 - appoint 1 dedicated Customer contact person for the entire duration of the Agreement;
 - provide written notice to Flectra SA 30 days before changing their main point of contact to work
@@ -356,7 +356,7 @@ When the Customer chooses the Self-Hosting option, the Customer further agrees t
 
 - take all reasonable measures to protect Customer’s files and databases and to ensure Customer’s
   data is safe and secure, acknowledging that Flectra SA cannot be held liable for any data loss;
-- grant Flectra SA the necessary access to verify the validity of the Flectra Enterprise Edition usage
+- grant Flectra SA the necessary access to verify the validity of the Flectra Professional Edition usage
   upon request (e.g. if the automatic validation is found to be inoperant for the Customer).
 
 
@@ -593,59 +593,3 @@ unenforceable provision of this Agreement by a valid provision having the same e
 objectives.
 
 
-.. _appendix_a:
-
-9 Appendix A: Flectra Enterprise Edition License
-================================================
-
-.. only:: latex
-
-    Flectra Enterprise Edition is licensed under the Flectra Enterprise Edition License v1.0,
-    defined as follows:
-
-    .. highlight:: none
-
-    .. literalinclude:: ../licenses/enterprise_license.txt
-
-.. only:: html
-
-    See :ref:`odoo_enterprise_license`.
-
-
-
-
-
-.. FIXME: move this is to appendix or somewhere else?
-
-.. only:: disabled
-
-    Agreement Registration
-    ======================
-
-    Customer contact information
-    ----------------------------
-
-    Company name:
-    Company address:
-    VAT number (if applicable):
-    Contact name:
-    Email:
-    Phone:
-
-    Technical contact information (can be an Flectra partner):
-    ----------------------------------------------------------
-    Company name:
-    Contact name:
-    Email:
-    Phone:
-
-
-    By signing this Agreement I confirm I am a legal representative of Customer as stated in the
-    resent section and approve all provisions and conditions of the present Agreement:
-
-    For and on behalf of (company name):
-    Last name, first name:
-    Title:
-    Date:
-
-    Signature:

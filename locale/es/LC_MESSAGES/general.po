@@ -28,7 +28,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 16.0\n"
+"Project-Id-Version: Flectra 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-03 17:52+0000\n"
 "PO-Revision-Date: 2022-10-04 12:53+0000\n"
@@ -1756,7 +1756,7 @@ msgstr ""
 msgid ""
 "The Odoo server is subject to a daily email limit to prevent abuse. The "
 "default limit is 200 emails sent per day for databases with an "
-"**Enterprise** subscription. This limit can be increased under certain "
+"**Professional** subscription. This limit can be increased under certain "
 "conditions. See the :doc:`FAQ <faq>` or contact support for more "
 "information."
 msgstr ""
@@ -4571,10 +4571,10 @@ msgstr ""
 
 #: ../../content/applications/general/in_app_purchase.rst:21
 msgid ""
-"If I am on Odoo Online and have the Enterprise version, I benefit from free "
+"If I am on Odoo Online and have the Professional version, I benefit from free "
 "credits to test our IAP features."
 msgstr ""
-"Si está en Odoo en línea y tiene la versión Enterprise, cuenta con créditos "
+"Si está en Odoo en línea y tiene la versión Professional, cuenta con créditos "
 "gratis para probar nuestras funciones IAP."
 
 #: ../../content/applications/general/in_app_purchase.rst:25
@@ -4658,10 +4658,10 @@ msgstr ""
 
 #: ../../content/applications/general/in_app_purchase.rst:64
 msgid ""
-"*Odoo.sh and Odoo Enterprise (on-premise)*: both the services provided by "
+"*Odoo.sh and Odoo Professional (on-premise)*: both the services provided by "
 "Odoo and by third-party apps can be used."
 msgstr ""
-"*Odoo.sh y Odoo Enterprise (con alojamiento local)*: se pueden utilizar "
+"*Odoo.sh y Odoo Professional (con alojamiento local)*: se pueden utilizar "
 "tanto los servicios proporcionados por Odoo como por aplicaciones de "
 "terceros."
 

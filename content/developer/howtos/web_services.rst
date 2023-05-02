@@ -135,14 +135,3 @@ example assumes the **Productivity** app (``note``) is installed::
     note_id = call(url, "object", "execute", DB, uid, PASS, 'note.note', 'create', args)
 
 Examples can be easily adapted from XML-RPC to JSON-RPC.
-
-.. note::
-
-    There are a number of high-level APIs in various languages to access Flectra
-    systems without *explicitly* going through XML-RPC or JSON-RPC, such as:
-
-    * https://github.com/akretion/ooor
-    * https://github.com/OCA/odoorpc
-    * https://github.com/nicolas-van/openerp-client-lib
-    * http://pythonhosted.org/OdooRPC
-    * https://github.com/abhishek-jaiswal/php-openerp-lib

@@ -969,10 +969,6 @@ default and behave as booleans (they can only be enabled by default).
 Gantt
 -----
 
-.. warning::
-   The gantt view requires the web_gantt module which is present in :ref:`the enterprise edition
-   <setup/install/editions>` version.
-
 Horizontal bar charts typically used to show project planning and advancement,
 their root element is ``<gantt>``.
 

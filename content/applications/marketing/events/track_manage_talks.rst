@@ -123,39 +123,3 @@ canceled altogether via the :guilabel:`Cancel Registration` button.
    :align: center
    :alt: View of an attendee form emphasizing the send by email and cancel registration in Flectra
          Events.
-
-Lead Generation Rules
----------------------
-
-With Flectra, leads can be generated from events.
-
-To create and configure a :guilabel:`Lead Generation Rule` related to events, navigate to
-:menuselection:`Events app --> Configuration --> Lead Generation`.
-
-On the :guilabel:`Lead Generation Rule` page, every configured :guilabel:`Lead Generation Rule`
-can be found, along with pertinent data related to those rules.
-
-.. image:: track_manage_talks/events-lead-generation-rule-page.png
-   :align: center
-   :alt: How the Lead Generation Rule page looks in Flectra Events.
-
-To create a new :guilabel:`Lead Generation Rule`, click :guilabel:`Create`, and fill out the
-:guilabel:`Lead Generation Rule` form.
-
-.. image:: track_manage_talks/events-lead-generation-rule-template.png
-   :align: center
-   :alt: How the Lead Generation Rule template looks in Flectra Events.
-
-After naming the rule, configure *how* the lead should be created (either :guilabel:`Per Attendee`
-or :guilabel:`Per Order`), and *when* they should be created, (when
-:guilabel:`Attendees are created`, when :guilabel:`Attendees are confirmed`, or when
-:guilabel:`Attendees attended` the event).
-
-In the :guilabel:`For any of these Events` section, there are fields to attach this rule to any
-specific event categories, company, and/or event. To add even more specificity to the rule, a
-domain filter rule can be configured to ensure the rule only applies to a specific target audience
-of attendees (found in the :guilabel:`If the Attendees meet these Conditions` section).
-
-Lastly, in the :guilabel:`Lead Default Values` section, designate a :guilabel:`Lead Type`, then
-assign it to a specific :guilabel:`Sales Team` (and/or :guilabel:`Salesperson`), and attach tags to
-the rule, if necessary.

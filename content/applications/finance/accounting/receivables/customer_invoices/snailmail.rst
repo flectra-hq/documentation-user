@@ -52,6 +52,6 @@ invoices: Snailmail`, click on :guilabel:`Buy credits`, or go to :menuselection:
 Purchases: Flectra IAP`, and click on :guilabel:`View my Services`.
 
 .. tip::
-   - If you are on Flectra Online and have the Enterprise version, you benefit from free trial credits
+   - If you are on Flectra Online and have the Professional version, you benefit from free trial credits
      to test the feature.
    - Click `here <https://iap.flectra.com/privacy#header_4>`_ to know about our *Privacy Policy*.

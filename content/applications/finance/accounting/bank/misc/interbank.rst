@@ -105,10 +105,6 @@ your :guilabel:`Transactions lines`. Fill in the :guilabel:`Ending balance` and 
 In the next window, choose counterparts for the payment - in this example, the outstanding payment
 account - then click :guilabel:`Validate`.
 
-.. image:: interbank/bank-reconciliation.png
-   :align: center
-   :alt: Reconcile your payment
-
 Bank journal entry
 ~~~~~~~~~~~~~~~~~~
 

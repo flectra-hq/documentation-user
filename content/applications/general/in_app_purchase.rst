@@ -18,7 +18,7 @@ Services`.
    :align: center
 
 .. tip::
-   If I am on Flectra Online and have the Enterprise version, I benefit from free credits to test our
+   If I am on Flectra Online and have the Professional version, I benefit from free credits to test our
    IAP features.
 
 IAP accounts
@@ -30,16 +30,6 @@ ones. Activate the :ref:`developer mode <developer-mode>`, then go to :menuselec
 Settings --> IAP Account`.
 
 .. image:: in_app_purchase/image2.png
-   :align: center
-
-IAP Portal
-==========
-
-The IAP Portal is a platform regrouping my IAP Services. It is accessible from
-:menuselection:`Settings app --> Flectra IAP --> View my Services`. From there, I can view my current
-balance, recharge my credits, review my consumption and set a reminder to when credits are low.
-
-.. image:: in_app_purchase/image3.png
    :align: center
 
 Get notified when credits are low
@@ -61,7 +51,7 @@ Different services are available depending on the hosting type of your Database:
 
 - *Flectra Online*: only the IAP services provided by Flectra can be used (i.e. the SMS, Snailmail,
   Reveal and Partner Autocomplete features);
-- *Flectra.sh and Flectra Enterprise (on-premise)*: both the services provided by Flectra and by third-party
+- *Flectra.sh and Flectra Professional (on-premise)*: both the services provided by Flectra and by third-party
   apps can be used.
 
 Offering my own services

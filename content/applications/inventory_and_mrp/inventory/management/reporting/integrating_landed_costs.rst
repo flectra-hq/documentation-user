@@ -43,10 +43,6 @@ A landed cost product must always be a service product type. After that, go to t
 If this product is always a landed cost, you can also define it on the product and avoid having to
 tick the box on each vendor bill.
 
-.. image:: integrating_landed_costs/product-is-landed-cost.png
-   :align: center
-   :alt: Option to define a product as a landed cost.
-
 Once the landed cost is added to the vendor bill (either by checking the :guilabel:`Landed Cost`
 option on the invoice line or adding a landed cost product to the bill), click the
 :guilabel:`Create Landed Costs` button at the top of the bill. Flectra automatically creates a landed
@@ -69,10 +65,6 @@ The user can access the journal entry that has been created by the landed cost b
 .. note::
    The product that the landed cost is applied to must have a product category set to a :abbr:`FIFO
    (First In, First Out)` or an :abbr:`AVCO (Average Costing)` method.
-
-.. image:: integrating_landed_costs/landed-cost-journal-entry.png
-   :align: center
-   :alt: Landed cost journal entry
 
 .. note::
    Landed cost records can also be directly created in :menuselection:`Inventory --> Operations -->
